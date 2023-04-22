@@ -1,0 +1,20 @@
+######################################################
+#                     Smart                          #
+######################################################
+
+collections:
+  Recently Added:
+    smart_filter:
+      all:
+        added: 30
+      limit: 100
+      sort_by: added.desc
+    sort_title: ++_1.5Recently Added
+    name_mapping: Recently Added
+    summary: Added in the last 30 days
+  # 4K:
+  #   smart_filter:
+  #     all:
+  #       resolution: 4K
+  #     sort_by: title.asc
+  #   sort_title: ++_2.44K
