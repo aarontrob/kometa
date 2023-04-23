@@ -8,12 +8,15 @@ templates:
     sort_title: null
     summary: null
   Collection:
+    optional:
+      - sort_title
+      - summary
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-    sort_title: null
-    summary: null
+    sort_title: <<sort_title>>
+    summary: <<summary>>
   Collection - Alpha:
     sync_mode: sync
     collection_order: alpha
@@ -42,12 +45,15 @@ templates:
     sort_title: null
     summary: null
   Collection - Trakt List:
+    optional:
+      - sort_title
+      - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-    sort_title: null
-    summary: null
+    sort_title: <<sort_title>>
+    summary: <<summary>>
   Collection - Trakt List Custom Order:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
@@ -120,8 +126,8 @@ collections:
         California.
   Batman Collection:
     template:
-      name: Search
-      title: 'Batman, Dark Knight'
+      name: Collection - Trakt List
+      list: batman-collection
       summary: >-
         Batman is a superhero who appears in American comic books published by
         DC Comics. Batman was created by artist Bob Kane and writer Bill Finger,
@@ -136,8 +142,6 @@ collections:
         with supporting characters, including his sidekick Robin; allies Alfred
         Pennyworth, James Gordon, and Catwoman; and foes such as the Penguin,
         the Riddler, Two-Face, and his archenemy, the Joker.
-    trakt_list: 'https://trakt.tv/users/goape/lists/batman-collection'
-    sync_to_trakt_list: batman-collection-2
   Battlestar Galactica Collection:
     template:
       name: Search
