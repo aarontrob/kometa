@@ -1,0 +1,42 @@
+Collection:
+  tmdb_collection: <<collection>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide_items
+Collection Alpha:
+  sort_title: ++_<<num>><<collection_name>>
+  sync_mode: sync
+  collection_order: alpha
+  collection_mode: hide_items
+Collection Release:
+  sort_title: ++_<<num>><<collection_name>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide_items
+Collection Movies:
+  tmdb_movie: <<movie>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide_items
+Collection List:
+  trakt_list: <<list>>
+  sort_title: <<collection_name>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide_items
+Collection Movie:
+  tmdb_collection_details: <<collection>>
+  tmdb_movie: <<movie>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide_items
+Collection Hide:
+  tmdb_movie: <<movie>>
+  sync_mode: sync
+  sort_title: <<collection_name>>
+  collection_order: release
+  collection_mode: hide
+Other Collection:
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide_items
