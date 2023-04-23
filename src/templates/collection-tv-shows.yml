@@ -3,46 +3,67 @@ Collection:
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
-  sort_title: null
-  summary: null
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
 Collection - Alpha:
   sync_mode: sync
   collection_order: alpha
   collection_mode: hide_items
-  sort_title: null
-  summary: null
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
 Collection - Release:
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
-  sort_title: null
-  summary: null
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
 Collection - Show:
   tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
   tmdb_show: <<show>>
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
-  sort_title: null
-  summary: null
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
 Collection - Shows:
   tmdb_show: <<show>>
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
-  sort_title: null
-  summary: null
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
 Collection - Trakt List:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
-  sort_title: null
-  summary: null
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
 Collection - Hide:
   tmdb_show: <<show>>
   sync_mode: sync
   collection_order: release
   collection_mode: hide
-  sort_title: null
-  summary: null
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>

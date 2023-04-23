@@ -4,5 +4,8 @@ Search:
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
-  sort_title: null
-  summary: null
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>

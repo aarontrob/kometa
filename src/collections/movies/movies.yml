@@ -64,6 +64,7 @@ collections:
     template:
       name: Search
       title: Galactica
+    sync_to_trakt_list: Battlestar Galactica Collection
     tmdb_movie: 65288
     summary: >-
       Battlestar Galactica is an American science fiction media franchise created by Glen A. Larson.
