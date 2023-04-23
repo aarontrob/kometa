@@ -4,7 +4,7 @@
 
 templates: !!import/shallow
   - ../../templates/search.yml
-  - ../../templates/collection.yml
+  - ../../templates/collection-movies.yml
 
 ######################################################
 #                   Collections                      #
@@ -12,47 +12,56 @@ templates: !!import/shallow
 
 collections:
   Addams Family Collection:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/11716
-    tmdb_movie: 11508, 481084, 639721
-    summary: Creepy. Kooky. Spooky. Ooky.
+    template:
+      name: Collection - Movie
+      collection: 11716
+      movie: 11508, 481084, 639721
+      summary: Creepy. Kooky. Spooky. Ooky.
   Æon Flux Collection:
-    template: { name: Collection Hide }
-    sort_title: Aeon Flux Collection
-    tmdb_movie: 8202
+    template:
+      name: Collection - Hide
+      movie: 8202
+      sort_title: Aeon Flux Collection
   Airplane Collection:
     template:
       name: Collection
-      collection: https://www.themoviedb.org/collection/91663
-    summary: Does anyone here speak Jive?
+      collection: 91663
+      summary: Does anyone here speak Jive?
   Alien Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/alien-collection-timeline
-    collection_order: custom
-    sync_mode: sync
-    summary: A science fiction horror film franchise, focusing on Lieutenant Ellen Ripley (Sigourney Weaver) and her battle with an extraterrestrial life-form, commonly referred to as "the Alien".
+    template:
+      name: Collection - Trakt List Custom Order
+      list: alien-collection-timeline
+      summary: A science fiction horror film franchise, focusing on Lieutenant Ellen Ripley (Sigourney Weaver) and her battle with an extraterrestrial life-form, commonly referred to as "the Alien".
   Aquaman Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/573693
-    summary: Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth’s surface, including all the creatures contained within.
+    template:
+      name: Collection
+      collection: 573693
+      summary: Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth’s surface, including all the creatures contained within.
   Around the World in 80 Days Collection:
-    tmdb_movie: 10204, 2897
-    summary: It's a wonderful world, if you'll only take the time to go around it!
+    template:
+      name: Collection - Movies
+      tmdb_movie: 10204, 2897
+      summary: It's a wonderful world, if you'll only take the time to go around it!
   The Avengers Collection:
-    sort_title: Avengers Collection
-    summary: Earth's Mightiest Heroes
-    tmdb_collection: https://www.themoviedb.org/collection/86311
+    template:
+      name: Collection
+      collection: 86311
+      sort_title: Avengers Collection
+      summary: Earth's Mightiest Heroes
   Back to the Future Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/264
+      name: Collection - Movie
+      collection: 264
       movie: 517683, 741959, 330127
-    summary: An American science fiction–comedy film series that follows the adventures of a high school student, Marty McFly and an eccentric scientist, Dr Emmett L. Brown as they use a DeLorean time machine to time travel to different periods in the history of Hill Valley, California.
+      summary: An American science fiction–comedy film series that follows the adventures of a high school student, Marty McFly and an eccentric scientist, Dr Emmett L. Brown as they use a DeLorean time machine to time travel to different periods in the history of Hill Valley, California.
   Batman Collection:
     template:
       name: Search
       title: Batman, Dark Knight
+      summary: >-
+        Batman is a superhero who appears in American comic books published by DC Comics. Batman was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in Gotham City. Batman's origin story features him swearing vengeance against criminals after witnessing the murder of his parents Thomas and Martha; he trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night. Kane, Finger, and other creators accompanied Batman with supporting characters, including his sidekick Robin; allies Alfred Pennyworth, James Gordon, and Catwoman; and foes such as the Penguin, the Riddler, Two-Face, and his archenemy, the Joker.
     trakt_list: https://trakt.tv/users/goape/lists/batman-collection
-    summary: >-
-      Batman is a superhero who appears in American comic books published by DC Comics. Batman was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in Gotham City. Batman's origin story features him swearing vengeance against criminals after witnessing the murder of his parents Thomas and Martha; he trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night. Kane, Finger, and other creators accompanied Batman with supporting characters, including his sidekick Robin; allies Alfred Pennyworth, James Gordon, and Catwoman; and foes such as the Penguin, the Riddler, Two-Face, and his archenemy, the Joker.
+    sync_to_trakt_list: batman-collection-2
   Battlestar Galactica Collection:
     template:
       name: Search

@@ -1,7 +1,8 @@
 Search:
   plex_search:
     title: <<title>>
-  sort_title: <<collection_name>>
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
+  sort_title: null
+  summary: null

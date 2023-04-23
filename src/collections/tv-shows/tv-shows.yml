@@ -1,0 +1,492 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../../templates/search.yml
+  - ../../templates/collection-tv-shows.yml
+
+######################################################
+#                   Collections                      #
+######################################################
+
+collections:
+  Addams Family Collection:
+    template:
+      name: Collection
+      show: 14009, 21036
+      summary: Creepy. Kooky. Spooky. Ooky.
+  Æon Flux Collection:
+    template:
+      name: Collection Hide
+      show: 406
+  ALF Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 4658
+    summary: Alien Life Form
+  Archie Collection:
+    trakt_list: https://trakt.tv/users/goape/lists/archies
+    summary: Archie Comic Publications, Inc., is an American comic book publisher headquartered in Pelham, New York. The company's many titles feature the fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy Keene.
+  Batman Collection:
+    template:
+      name: Search
+      title: Batman, Dark Knight
+    summary: WHAMMM! SWAAP! BAM! KER-SPLOOSH!
+    name_mapping: Batman Collection (TV)
+  Battlestar Galactica Collection:
+    template:
+      name: Search
+      title: Galactica
+    tmdb_show: 877
+    summary: >-
+      Battlestar Galactica is an American science fiction media franchise created by Glen A. Larson.
+      All Battlestar Galactica productions share the premise that in a distant part of the universe, a human civilization has extended to a group of planets known as the Twelve Colonies, to which they have migrated from their ancestral homeworld of Kobol. The Twelve Colonies have been engaged in a lengthy war with a cybernetic race known as the Cylons, whose goal is the extermination of the human race. The Cylons offer peace to the humans, which proves to be a ruse. With the aid of a human named Baltar, the Cylons carry out a massive nuclear attack on the Twelve Colonies and on the Colonial Fleet of starships that protect them. These attacks devastate the Colonial Fleet, lay waste to the Colonies, and virtually destroy all but a population of 50,000. Scattered survivors flee into outer space aboard a ragtag array of spaceworthy ships. Of the entire Colonial battle fleet, only the Battlestar Galactica, a gigantic battleship and spacecraft carrier, appears to have survived the Cylon attack. Under the leadership of Commander Adama, the Galactica and the pilots of "Viper fighters" lead a fugitive fleet of survivors in search of the fabled thirteenth colony known as Earth.
+  The Beverly Hillbillies Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 1930
+    sort_title: Beverly Hillbillies Collection
+    name_mapping: The Beverly Hillbillies Collection (TV)
+  Bewitched Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 4482, 1074
+  Big Brother Collection:
+    template:
+      name: Search
+      title: Big Brother
+  Blade Collection:
+    tmdb_show: 4619, 62798
+    summary: Part Man. Part Vampire. All Hero.
+  Blade Runner Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 84553
+  Bob's Burgers Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 32726
+  Boy Meets World Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 1777
+  The Brady Bunch Collection:
+    template:
+      name: Search
+      title: Brady
+    sort_title: Brady Bunch Collection
+    summary: Sure, Jan.
+    name_mapping: The Brady Bunch Collection (TV)
+  Buck Rogers Collection:
+    template:
+      name: Collection Hide
+      show: 2443
+  Buffy the Vampire Slayer Collection:
+    template:
+      name: Collection Hide
+      show: 95
+  Charlie's Angels Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 3382
+    name_mapping: Charlie's Angels Collection (TV)
+  Child's Play Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 90462
+  Clueless Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 3921
+  Constantine Collection:
+    tmdb_show: 78081, 60743
+    summary: Everyone fights their demons. His fight back.
+  Cosmos Collection:
+    tmdb_show: 58474, 1430
+    summary: If you wish to make an apple pie from scratch, you must first invent the universe.
+  Creepshow Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 86686
+  Critters Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 87208
+  Dexter Collection:
+    tmdb_show: 1405, 131927
+    summary: America's favorite serial killer. He's got a way with murder. Blood never lies. Anyone has something to hide.
+  Downton Abbey Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 33907
+  Dune Collection:
+    tmdb_show: 9156
+    summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
+  Evil Dead Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 62264
+    summary: Evil Dead is an American supernatural horror film franchise created by Sam Raimi consisting of four feature films and a television series. The series revolves around the Necronomicon Ex-Mortis, an ancient Sumerian text which wreaks havoc upon a group of cabin inhabitants in a wooded area in Tennessee.
+  The Exorcist Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 67135
+    sort_title: Exorcist Collection
+  Family Guy Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 1434
+  Firestarter Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 41327
+    summary: If you get on her bad side...YOU'RE TOAST.
+  Freaks and Geeks Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 2382
+  From Dusk Till Dawn Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 60626
+  The Fugitive Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 10083
+    sort_title: Fugitive Collection
+  Full House Collection:
+    tmdb_show: 4313, 63623
+    summary: You got it dude!
+  Gilligan's Island Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 1921
+  Godzilla Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 111177
+  The Golden Girls Collection:
+    tmdb_show: 1678, 3068, 2823
+    sort_title: Golden Girls Collection
+    summary: Thank you for being a friend
+  Grease Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 94617
+    summary: Grease is the word.
+  The Hannibal Lecter Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 103302, 40008
+    sort_title: Hannibal Lecter Collection
+    summary: To enter the mind of a killer she must challenge the mind of a madman.
+  Happy Days Collection:
+    template:
+      name: Collection
+      show: 3845, 3033, 2552, 920, 10798, 10071, 31457, 31407, 527
+    summary: >-
+      Happy Days is an American sitcom television series that aired first-run on the ABC network from January 15, 1974, to September 24, 1984, with a total of 255 half-hour episodes spanning 11 seasons. Created by Garry Marshall, the series was one of the most successful of the 1970s, a sweet vision of life in the mid-1950s to mid-1960s Midwestern United States, and starred Ron Howard as young Richie Cunningham, Henry Winkler as his friend Fonzie, and Tom Bosley and Marion Ross as Richie's parents, Howard and Marion Cunningham. Although it opened to mixed reviews from critics, Happy Days became successful and popular over time.
+  Hercule Poirot Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 790
+  Heroes Collection:
+    tmdb_show: 1639, 60858
+    summary: You can't choose your family, you can choose a side.
+  Highlander Collection:
+    tmdb_show: 4414, 4377
+    summary: There can be only one
+  History of the World Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 202213
+  Hotwives Collection:
+    tmdb_show: 61281, 75390
+    summary: You need to calm down
+  Hulk Collection:
+    tmdb_show: 648, 92783, 92783
+    summary: HULK SMASH!
+  I Know What You Did Last Summer Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 129680
+  Impractical Jokers Collection:
+    template:
+      name: Search
+      title: Impractical Jokers
+    summary: They have to SAY it. They have to DO it. You have to SEE it.
+  Indiana Jones Collection:
+    template:
+      name: Search
+      title: Indiana Jones
+    summary: Snakes! Why does it always have to be snakes?
+  Iron Man Collection:
+    template:
+      name: Search
+      title: Iron Man
+    summary: Heroes aren't born. They're built. Get ready for a different breed of heavy metal hero.
+  Jackass Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 1795
+  The Karate Kid Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 77169
+    sort_title: Karate Kid Collection
+  # Kath and Kim Collection:
+  #   tmdb_show: 1772, 15131
+  #   item_assets: true
+  The Kolchak Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 5084
+  Laverne & Shirley Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 3033
+  Living Dead Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 129897
+  Logan's Run Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 36626
+  The Lord of the Rings Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 84773
+  Lost in Space Collection:
+    tmdb_show: 75758, 3051
+    summary: Danger, Will Robinson!
+  "Love, Simon Collection":
+    template:
+      name: Collection Hide
+      show: 97186
+  I Love Lucy Collection:
+    tmdb_show: 2730, 2144, 1439
+  The Man from U.N.C.L.E. Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 210
+    sort_title: Man from U.N.C.L.E. Collection
+  Miss Marple Collection:
+    template:
+      name: Search
+      title: Marple
+    summary: Miss Marple is a fictional character in Agatha Christie's crime novels and short stories. Jane Marple lives in the village of St. Mary Mead and acts as an amateur consulting detective.
+  "Mission: Impossible Collection":
+    tmdb_show: 4357, 9894
+    summary: Expect the impossible.
+  Monty Python Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 849
+    summary: Monty Python were a British surreal comedy troupe who created the sketch comedy television show Monty Python's Flying Circus, which first aired on the BBC in 1969.
+  Mork & Mindy Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 2552
+    summary: Na-No Na-No!
+  The Munsters Collection:
+    sort_title: Munsters Collection
+    template: { name: Collection Hide }
+    tmdb_show: 1712, 11030
+  My Big Fat Greek Wedding Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 6587
+    summary: People change. Greeks don't.
+  Naked Gun Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 6024
+  A Nightmare on Elm Street Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 4346
+    sort_title: Nightmare on Elm Street Collection
+    summary: Welcome to your nightmare.
+  The Omen Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 19033
+    sort_title: Omen Collection
+    summary: The Omen film series is a horror film franchise created in the 1970s. The story was originally written by David Seltzer, who chose not to continue the series after the first novel. The second novel and screenplay were then written by Joseph Howard, and the third by Gordon McGill. After the third movie was produced, a fourth was made for TV in an attempt to bring back the series, but did poorly. The series centres around Damien Thorn, a child born of Satan and given to Robert and Katherine Thorn, before being passed along the Thorn families as a child. It is revealed among the families that Damien is in fact meant to be the Antichrist, and as an adult is attempting to gain control of the Thorn business and reach for the presidency.
+  Police Academy Collection:
+    template:
+      name: Collection Hide
+      show: 4719
+    summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
+  Planet Earth Collection:
+    tmdb_show: 1044, 68595
+    summary: Prepare to see it as never before.
+  Planet of the Apes Collection:
+    template:
+      name: Collection Hide
+      show: 19
+    summary: Somewhere in the Universe, there must be something better than man!
+  The Punisher Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 67178
+  Psycho Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 46786
+  Real Housewives Collection:
+    template:
+      name: Search
+      title: Real Housewives
+    summary: Prostitution Whore!
+  Reno 911! Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 2187
+    summary: They Might Not Be The Best...But They're The Best We Got.They Might Not Be The Best...But They're The Best We Got.
+  Resident Evil Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 108296
+  RoboCop Collection:
+    template:
+      name: Search
+      title: RoboCop
+    summary: The future of law enforcement. Part man. Part machine.
+  RuPaul's Drag Race Collection:
+    template:
+      name: Collection List
+      list: rupaul-s-drag-race
+      summary: Don't f*ck it up!
+    collection_order: custom
+    # plex_search:
+    #   title: Drag Race Belgique
+    name_mapping: RuPauls Drag Race Collection
+  Sabrina the Teenage Witch Collection:
+    template:
+      name: Search
+      title: Sabrina
+    summary: This girl is making her own magic.
+  The Santa Clause Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 155631
+  Saturday Night Live Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 1667
+  Saved by the Bell Collection:
+    template:
+      name: Search
+      title: Saved by the Bell
+    tmdb_show: 4683
+    summary: I'm so excited! I'm so excited! I'm so... SCARED!
+  Scarlet Witch Collection:
+    tmdb_show: 85271
+    summary: The Scarlet Witch is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. Her first appearance was in The X-Men number 4 in the Silver Age of Comic Books.
+  Scream Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 62823
+  SCTV Collection:
+    tmdb_show: 22940, 2548
+    summary: Second City Television
+  Sex and the City Collection:
+    summary: The next best thing to being there.
+    tmdb_show: 105, 116450
+  Shazam! Collection:
+    template:
+      name: Collection Hide
+      show: 10444
+    name_mapping: Shazam Collection
+  Sherlock Holmes Collection:
+    template:
+      name: Collection List
+      list: sherlock-holmes
+    summary: >-
+      Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle. Referring to himself as a "consulting detective" in the stories, Holmes is known for his proficiency with observation, deduction, forensic science, and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard.
+  Spaceballs Collection:
+    template:
+      name: Collection Hide
+      show: 12785
+  Star Trek:
+    template:
+      name: Search
+      title: Star Trek
+    summary: Live long, and prosper
+  Star Wars:
+    template:
+      name: Collection List
+      list: star-wars
+    summary: May the Force Be with You
+    # name_mapping: Star Wars (TV)
+  Stargate Collection:
+    template:
+      name: Search
+      title: Stargate
+    summary: Stargate is a military science fiction media franchise based on the film directed by Roland Emmerich, which he co-wrote with producer Dean Devlin. The franchise is based on the idea of an alien Einstein–Rosen bridge device (the Stargate) that enables nearly instantaneous travel across the cosmos.
+  Starman Collection:
+    template:
+      name: Collection Hide
+      show: 5403
+    name_mapping: Starman Collection (TV)
+    summary: He has traveled from a galaxy far beyond our own. He is 100,000 years ahead of us. He has powers we cannot comprehend. And he is about to face the one force in the universe he has yet to conquer. Love.
+  Starsky & Hutch Collection:
+    template:
+      name: Collection Hide
+      show: 1532
+    summary: The original partners in crime.
+  Superman Collection:
+    plex_search:
+      title: Superman, Man of Steel
+    summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
+  Swamp Thing Collection:
+    tmdb_show: 79240, 13989
+    summary: The Swamp Thing is a fictional superhero in American comic books published by DC Comics. A humanoid/plant elemental creature, created by writer Len Wein and artist Bernie Wrightson, the Swamp Thing has had several humanoid or monster incarnations in various different storylines.
+  Tales from the Crypt Collection:
+    plex_search:
+      title: Tales from the Crypt
+    collection_mode: hide
+  The Terminator Collection:
+    template:
+      name: Collection Hide
+      show: 433
+    plex_search:
+      title: Terminator
+    sort_title: Terminator Collection
+  The Dark Crystal Collection:
+    template:
+      name: Collection Hide
+      show: 71809
+    sort_title: Dark Crystal Collection
+  The Tick Collection:
+    template: { name: Collection, show: "14651, 67487, 14540" }
+    sort_title: Tick Collection
+  Three's Company Collection:
+    template:
+      name: Collection
+      show: 1066, 2686
+    summary: >-
+      The story revolves around three single roommates: Janet Wood, Chrissy Snow and Jack Tripper who all platonically share Apartment 201 in a Santa Monica, California apartment building owned by Mr. and Mrs. Roper. Later, following Suzanne Somers's departure, Jenilee Harrison joined the cast as Cindy Snow, who was later replaced by Priscilla Barnes as Terri Alden. After the Ropers were spun-off into their own sitcom, Don Knotts joined the cast as the roommates' new landlord Ralph Furley, brother of the new building owner, Bart Furley.
+
+      The show, a comedy of errors, chronicles the escapades and hijinks of the trio's constant misunderstandings, social lives, and struggle to keep up with the rent.
+  Tremors Collection:
+    template:
+      name: Collection Hide
+      show: 4372
+  The Twilight Zone Collection:
+    template: { name: Collection }
+    tmdb_show: 6357, 83135, 1918
+    sort_title: Twilight Zone Collection
+    summary: You are about to enter another dimension, a dimension not only of sight and sound but of mind. A journey into a wondrous land of imagination. Next stop, the Twilight Zone!
+  Turner & Hooch Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 114503
+    name_mapping: Turner & Hooch Collection (TV)
+    summary: The Oddest Couple Ever Unleashed!
+  Twin Peaks Collection:
+    template: { name: Collection Hide }
+    tmdb_show: 1920
+  The Walking Dead Universe:
+    tmdb_show: 1402, 62286, 136248, 94305
+    sort_title: Walking Dead Universe
+    summary: Fight the dead. Fear the living. An eye for an eye.
+  Watchmen Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 79788-watchmen
+  What We Do in the Shadows Collection:
+    tmdb_show: 83631, 80475
+  Weird Science Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 4076
+  Westworld Collection:
+    tmdb_show: 63247, 63247
+    summary: These violent delights have violent ends.
+    name_mapping: Westworld Collection (TV)
+  Wet Hot American Summer Collection:
+    template:
+      name: Collection Hide
+    plex_search:
+      title: Wet Hot American Summer
+    tmdb_show: 73132, 61967
+  Willow Collection:
+    template:
+      name: Collection Hide
+      show: 111837
+  Wonder Woman Collection:
+    template:
+      name: Collection Hide
+      show: 4331
+    plex_search:
+      title: Wonder Woman
+    name_mapping: Wonder Woman Collection
+  Yellowstone Collection:
+    tmdb_show: 73586, 157744, 118357
+    summary: My land, my rules.
+  The X-Files Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 4087
+    sort_title: X-Files Collection
+  X-Men Collection:
+    trakt_list: https://trakt.tv/users/goape/lists/x-men
+    collection_mode: show_items
+    summary: The X-Men are a fictional team of superheroes appearing in American comic books published by Marvel Comics, first appearing in The X-Men number 1 by artist/co-plotter Jack Kirby and writer/editor Stan Lee in 1963. Although initially cancelled in 1970, following its 1975 revival and subsequent direction under writer Chris Claremont, it became one of the most recognizable and successful franchises of Marvel Comics.

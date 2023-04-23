@@ -1,14 +1,4 @@
 templates:
-  Chart Alpha:
-    sort_title: ++_<<num>><<collection_name>>
-    sync_mode: sync
-    collection_order: alpha
-    collection_mode: hide_items
-  Chart Release:
-    sort_title: ++_<<num>><<collection_name>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
   Search:
     plex_search:
       title: <<title>>
@@ -21,14 +11,21 @@ templates:
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-  Collection Movies:
-    tmdb_movie: <<movie>>
+  Collection Alpha:
+    sync_mode: sync
+    collection_order: alpha
+    collection_mode: hide_items
+  Collection Release:
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
   Collection List:
-    trakt_list: <<list>>
-    sort_title: <<collection_name>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Collection Movies:
+    tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
@@ -48,8 +45,6 @@ templates:
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-  Hide Kids:
-    label: Hide-Kids
 collections:
   101 Dalmatians Collection:
     tmdb_collection:
