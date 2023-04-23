@@ -1,0 +1,11 @@
+{
+  "name": "yaml-compiler",
+  "scripts": {
+    "build:yml": "mkdir -p $( echo $npm_config_path | rev | cut -d'/' -f2- | rev | cut -d'/' -f2- ); > $( echo $npm_config_path | cut -d'/' -f2- ); yimp -i $npm_config_path -o $( echo $npm_config_path | cut -d'/' -f2- ) -e yml",
+    "watch:yml": "chokidar \"./src/collections/**/*.yml\" -c \"npm run build:yml --path={path}\""
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "yaml-import": "^2.0.0"
+  }
+}
