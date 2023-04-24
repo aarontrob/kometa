@@ -41,12 +41,12 @@ collections:
       name: Studio
       company: '7505, 19551, 420, 11106, 13252, 38679'
     sync_to_trakt_list: marvel-2
-    trakt_list: 'https://trakt.tv/users/goape/lists/marvel'
+    trakt_list: marvel
     summary: With great power comes great responsibility
   Rankin/Bass Christmas Classics:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/rankin-bass-christmas-classics'
+      list: rankin-bass-christmas-classics
       summary: >-
         Rankin/Bass Animated Entertainment (founded and formerly known as
         Videocraft International, Ltd. and Rankin/Bass Productions, Inc.) was an
@@ -69,5 +69,6 @@ collections:
         Many of these involved classic horror characters such as Baron Victor
         Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to
         audiences by filming them in vivid colour for the first time.
+    trakt_list: hammer-films
     sync_to_trakt_list: hammer-films
     tmdb_movie: 40157
