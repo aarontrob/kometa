@@ -319,91 +319,110 @@ collections:
     template:
       name: Search
       title: 'Doctor Strange, Dr. Strange'
-    summary: >-
-      Doctor Stephen Strange is a fictional character appearing in American
-      comic books published by Marvel Comics. Created by Steve Ditko, the
-      character first appeared in Strange Tales #110 (cover-dated July 1963).
-      Doctor Strange serves as the Sorcerer Supreme, the primary protector of
-      Earth against magical and mystical threats. Inspired by stories of black
-      magic and Chandu the Magician, Strange was created during the Silver Age
-      of Comic Books to bring a different kind of character and themes of
-      mysticism to Marvel Comics.
+      summary: >-
+        Doctor Stephen Strange is a fictional character appearing in American
+        comic books published by Marvel Comics. Created by Steve Ditko, the
+        character first appeared in Strange Tales #110 (cover-dated July 1963).
+        Doctor Strange serves as the Sorcerer Supreme, the primary protector of
+        Earth against magical and mystical threats. Inspired by stories of black
+        magic and Chandu the Magician, Strange was created during the Silver Age
+        of Comic Books to bring a different kind of character and themes of
+        mysticism to Marvel Comics.
   Downton Abbey Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/925006'
-    summary: We've Been Expecting You
+    template:
+      name: Collection
+      collection: 925006
+      summary: We've Been Expecting You
   Dredd Collection:
-    tmdb_movie: '9482, 49049'
-    summary: >-
-      In the future, America is a dystopian wasteland. The latest scourge is
-      Ma-Ma, a prostitute-turned-drug pusher with a dangerous new drug and aims
-      to take over the city. The only possibility of stopping her is an elite
-      group of urban police called Judges, who combine the duties of judge, jury
-      and executioner to deliver a brutal brand of swift justice. But even the
-      top-ranking Judge, Dredd, discovers that taking down Ma-Ma isn’t as easy
-      as it seems in this explosive adaptation of the hugely popular comic
-      series.
+    template:
+      name: Collection - Movies
+      movie: '9482, 49049'
+      summary: >-
+        In the future, America is a dystopian wasteland. The latest scourge is
+        Ma-Ma, a prostitute-turned-drug pusher with a dangerous new drug and
+        aims to take over the city. The only possibility of stopping her is an
+        elite group of urban police called Judges, who combine the duties of
+        judge, jury and executioner to deliver a brutal brand of swift justice.
+        But even the top-ranking Judge, Dredd, discovers that taking down Ma-Ma
+        isn’t as easy as it seems in this explosive adaptation of the hugely
+        popular comic series.
   Dune Collection:
-    tmdb_movie: '191720, 841, 438631'
-    summary: >-
-      A world beyond your experience, beyond your imagination. A place beyond
-      your dreams.
+    template:
+      name: Collection - Movies
+      movie: '191720, 841, 438631'
+      summary: >-
+        A world beyond your experience, beyond your imagination. A place beyond
+        your dreams.
   Eraser Collection:
-    tmdb_movie: '923597, 9268'
-    summary: He will erase your past to protect your future.
+    template:
+      name: Collection - Movies
+      movie: '923597, 9268'
+      summary: He will erase your past to protect your future.
   Family Guy Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/701402'
+    template:
+      name: Collection
+      collection: 701402
+      summary: 'Laugh It Up, Fuzzball!'
     name_mapping: Family Guy Collection (Movies)
-    summary: 'Laugh It Up, Fuzzball!'
   Fantastic Four Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/9744'
+      name: Collection - Movie
+      collection: 9744
       movie: '22059, 216529, 166424'
-    summary: >-
-      Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize
-      their scientific backgrounds to band together and defend the world against
-      perilous threats.
+      summary: >-
+        Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize
+        their scientific backgrounds to band together and defend the world
+        against perilous threats.
   Father of the Bride Collection:
-    tmdb_collection:
-      - 'https://www.themoviedb.org/collection/511021'
-      - 'https://www.themoviedb.org/collection/96871'
-    summary: The story of the Banks family.
+    template:
+      name: Collection
+      collection: '511021, 96871'
+      summary: The story of the Banks family.
   Flash Gordon Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 3604
   Fletch Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/104833'
-    tmdb_movie: 724665
-    summary: Meet the only guy who changes his identity more often than his underwear.
+    template:
+      name: Collection - Movie
+      collection: 104833
+      movie: 724665
+      summary: >-
+        Meet the only guy who changes his identity more often than his
+        underwear.
   Footloose Collection:
-    tmdb_movie: '1788, 68817'
-    summary: >-
-      When teenager Ren and his family move from big-city Chicago to a small
-      town in the West, he's in for a real case of culture shock after
-      discovering he's living in a place where music and dancing are illegal.
+    template:
+      name: Collection - Movies
+      movie: '1788, 68817'
+      summary: >-
+        When teenager Ren and his family move from big-city Chicago to a small
+        town in the West, he's in for a real case of culture shock after
+        discovering he's living in a place where music and dancing are illegal.
   The Fugitive Collection:
     template:
-      name: Collection Hide
-    tmdb_movie: 5503
-    sort_title: Fugitive Collection
+      name: Collection - Hide
+      movie: 5503
+      sort_title: Fugitive Collection
   Ghostbusters Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/2980'
-    tmdb_movie: 43074
-    summary: >-
-      Ghostbusters is a 1984 American supernatural comedy film, directed and
-      produced by Ivan Reitman and written by Dan Aykroyd and Harold Ramis. The
-      film stars Bill Murray, Aykroyd, and Ramis as three eccentric
-      parapsychologists in New York City who start a ghost-catching business.
-      The second film, Ghostbusters II, was released in 1989.
+    template:
+      name: Collection - Movie
+      collection: 2980
+      movie: 43074
+      summary: >-
+        Ghostbusters is a 1984 American supernatural comedy film, directed and
+        produced by Ivan Reitman and written by Dan Aykroyd and Harold Ramis.
+        The film stars Bill Murray, Aykroyd, and Ramis as three eccentric
+        parapsychologists in New York City who start a ghost-catching business.
+        The second film, Ghostbusters II, was released in 1989.
   Godzilla Collection:
-    trakt_list:
-      - 'https://trakt.tv/users/goape/lists/godzilla-collection'
-    summary: >-
-      The Godzilla (ゴジラ, Gojira) franchise is a Japanese media franchise created
-      and owned by Toho, centered on the fictional kaiju character Godzilla. It
-      is the longest-running film franchise, having been in ongoing production
-      from 1954, with several hiatuses of varying lengths.
+    template:
+      name: Collection - Trakt List Custom Order
+      list: godzilla-collection
+      summary: >-
+        The Godzilla (ゴジラ, Gojira) franchise is a Japanese media franchise
+        created and owned by Toho, centered on the fictional kaiju character
+        Godzilla. It is the longest-running film franchise, having been in
+        ongoing production from 1954, with several hiatuses of varying lengths.
   Grease Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/86083'
     tmdb_movie: 348089
