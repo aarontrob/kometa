@@ -31,6 +31,7 @@ collections:
     template:
       name: Studio
       company: "2, 3, 6125, 3166"
+      list: disney
       summary: "It was all started with a mouse"
   Marvel Animation:
     template:

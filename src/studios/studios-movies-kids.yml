@@ -15,3 +15,58 @@ collections:
       name: Studios - Search
       title: LEGO, Lego
       summary: A series of films based on the toys of the same name.
+  Disney Filtered:
+    template:
+      name: Studio
+      company: "2, 3, 6125, 3166"
+      list: disney
+    name: Disney
+    sync_mode: sync
+    show_filtered: true
+    filters:
+      collection.not: Disney Shorts
+      title.not: Storm of the Century
+  Disney Channel Original Movies:
+    template: { name: Studio Release }
+    trakt_list: https://trakt.tv/users/goape/lists/disney-channel-original-movies
+    sort_title: ++_6Disney2 Channel Original Movies
+    summary: Disney Channel Original Movies or DCOM (formerly a "Zoog Disney Channel Movie") is any movie that is produced under the Disney Channel canon. They have been made at a rate of at once a year since 1999.
+  Disney Shorts:
+    template: { name: Studio Release }
+    collection_mode: hide_items
+    trakt_list: https://trakt.tv/users/goape/lists/disney-shorts
+    summary: "It was all started with a mouse"
+  DreamWorks Animation:
+    template: { name: Studio, company: 521 }
+    summary: DreamWorks Animation is an American animation studio that produces animated films and television programs and is a subsidiary of Universal Pictures.
+  Marvel:
+    template: { name: Studio, company: "7505, 19551, 420, 11106, 13252, 38679" }
+    trakt_list: https://trakt.tv/users/goape/lists/marvel
+    summary: "With great power comes great responsibility"
+  Nickelodeon:
+    trakt_list: https://trakt.tv/users/goape/lists/nickelodeon-movies
+    sort_title: ++_6Nickelodeon
+    tmdb_movie: 439059
+    summary: >-
+      Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
+      Nickelodeon
+  Pixar Animation Studios:
+    template: { name: Studio Release }
+    trakt_list: https://trakt.tv/users/goape/lists/pixar-animation-studios
+    sync_mode: sync
+    summary: Pixar Animation Studios is an American computer animation studio known for its critically and commercially successful feature films. It is based in Emeryville, California, and is a subsidiary of Walt Disney Studios owned by The Walt Disney Company.
+  Pixar Short Films:
+    template: { name: Studio Release }
+    collection_mode: hide_items
+    trakt_list: https://trakt.tv/users/goape/lists/pixar-shorts
+    sync_mode: sync
+    summary: Beginning with Pixar's second film A Bug's Life, almost all subsequent Pixar feature films have been shown in theaters along with a Pixar-created original short film, known as a "short." Other Pixar shorts, released only on home media, were created to showcase Pixar's technology or cinematic capabilities, or on commission for clients.
+  Studio Ghibli Animation:
+    template: { name: Studio Release }
+    trakt_list: https://trakt.tv/users/goape/lists/studio-ghibli
+    summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
+  Walt Disney Animation Studios:
+    template: { name: Studio Release }
+    trakt_list: https://trakt.tv/users/goape/lists/walt-disney-animation-studios
+    sort_title: ++_6Disney Animation Studios
+    summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.

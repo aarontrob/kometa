@@ -17,6 +17,15 @@ templates:
     optional:
       - summary
     summary: <<summary>>
+  Studio - Search:
+    plex_search:
+      title: <<title>>
+    collection_order: release
+    collection_mode: hide_items
+    sort_title: ++_6<<collection_name>>
+    optional:
+      - summary
+    summary: <<summary>>
 collections:
   A24:
     template:
@@ -50,6 +59,7 @@ collections:
     template:
       name: Studio
       company: '2, 3, 6125, 3166'
+      list: disney
       summary: It was all started with a mouse
   Marvel Animation:
     template:
