@@ -29,7 +29,7 @@ collections:
   Disney Shorts:
     template:
       name: Studio - Trakt List
-      trakt_list: disney-shorts
+      list: disney-shorts
       summary: "It was all started with a mouse"
     collection_mode: hide_items
   DreamWorks Animation:
