@@ -1,22 +1,13 @@
 templates:
-  Search:
-    plex_search:
-      title: <<title>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
   Studio:
     collection_order: release
     collection_mode: hide_items
     tmdb_company: <<company>>
     sort_title: ++_6<<collection_name>>
     optional:
+      - list
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     summary: <<summary>>
   Studio - Trakt List:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
@@ -31,25 +22,21 @@ collections:
     template:
       name: Studio
       company: 41077
+      list: a24
       summary: >-
         A24 is an American independent entertainment company founded on August
         20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes
         in film and television production, as well as film distribution. It is
         based in New York City.
-    trakt_list: 'https://trakt.tv/users/goape/lists/a24'
-    tmdb_movie: 545611
-    sync_to_trakt_list: a24-2
   DC:
     template:
       name: Studio
       company: 9993
+      list: dc
       summary: >-
         DC Films is an American film studio that is a subsidiary of Warner Bros.
         through the Warner Bros. Pictures Group, dedicated to the production of
         films based on characters from DC Entertainment.
-    tmdb_movie: '20776, 24479'
-    trakt_list: 'https://trakt.tv/users/goape/lists/dc'
-    sync_to_trakt_list: dc-2
   DC Animated Originals:
     template:
       name: Studio - Trakt List
@@ -64,8 +51,6 @@ collections:
       name: Studio
       company: '2, 3, 6125, 3166'
       summary: It was all started with a mouse
-    tmdb_movie: '22643, 21385, 21448, 15400, 13378, 35215, 68464, 15485, 10837'
-    sync_to_trakt_list: disney-2
   Marvel Animation:
     template:
       name: Studio

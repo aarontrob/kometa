@@ -4,10 +4,21 @@ Studio:
   tmdb_company: <<company>>
   sort_title: ++_6<<collection_name>>
   optional:
+    - list
     - summary
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   summary: <<summary>>
 Studio - Trakt List:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  collection_order: release
+  collection_mode: hide_items
+  sort_title: ++_6<<collection_name>>
+  optional:
+    - summary
+  summary: <<summary>>
+Studio - Search:
+  plex_search:
+    title: <<title>>
   collection_order: release
   collection_mode: hide_items
   sort_title: ++_6<<collection_name>>

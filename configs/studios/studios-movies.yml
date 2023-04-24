@@ -1,22 +1,13 @@
 templates:
-  Search:
-    plex_search:
-      title: <<title>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
   Studio:
     collection_order: release
     collection_mode: hide_items
     tmdb_company: <<company>>
     sort_title: ++_6<<collection_name>>
     optional:
+      - list
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     summary: <<summary>>
   Studio - Trakt List:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
@@ -40,8 +31,8 @@ collections:
     template:
       name: Studio
       company: '7505, 19551, 420, 11106, 13252, 38679'
-    trakt_list: 'https://trakt.tv/users/goape/lists/marvel'
-    summary: With great power comes great responsibility
+      list: marvel
+      summary: With great power comes great responsibility
   Rankin/Bass Christmas Classics:
     template:
       name: Studio - Trakt List
@@ -56,11 +47,12 @@ collections:
         animation technique called "Animagic". Often, traditional cel animation
         scenes of falling snow would be projected over the action to create the
         effect of a snowfall.
-      name_mapping: RankinBass Christmas Classics
+    name_mapping: RankinBass Christmas Classics
   Hammer Films:
     template:
       name: Studio
       company: 1314
+      list: hammer-films
       summary: >-
         Hammer Film Productions Ltd. is a British film production company based
         in London. Founded in 1934, the company is best known for a series of
@@ -68,4 +60,3 @@ collections:
         Many of these involved classic horror characters such as Baron Victor
         Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to
         audiences by filming them in vivid colour for the first time.
-    trakt_list: 'https://trakt.tv/users/goape/lists/hammer-films'

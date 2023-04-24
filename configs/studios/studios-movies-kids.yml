@@ -1,22 +1,13 @@
 templates:
-  Search:
-    plex_search:
-      title: <<title>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
   Studio:
     collection_order: release
     collection_mode: hide_items
     tmdb_company: <<company>>
     sort_title: ++_6<<collection_name>>
     optional:
+      - list
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     summary: <<summary>>
   Studio - Trakt List:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
@@ -26,60 +17,18 @@ templates:
     optional:
       - summary
     summary: <<summary>>
-  Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    sync_mode: sync
+  Studio - Search:
+    plex_search:
+      title: <<title>>
     collection_order: release
     collection_mode: hide_items
+    sort_title: ++_6<<collection_name>>
     optional:
-      - sort_title
       - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
-  Collection - Alpha:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    sync_mode: sync
-    collection_order: alpha
-    collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
-  Collection - Release:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
-  Collection - Trakt List:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
-  Collection - Trakt List Custom Order:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
-    sync_mode: sync
-    collection_order: custom
-    collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
     summary: <<summary>>
 collections:
   LEGO:
     template:
-      name: Search
+      name: Studios - Search
       title: 'LEGO, Lego'
       summary: A series of films based on the toys of the same name.
-      sort_title: ++_6Lego
