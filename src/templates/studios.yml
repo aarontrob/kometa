@@ -1,7 +1,7 @@
 Studio:
+  tmdb_company: <<company>>
   collection_order: release
   collection_mode: hide_items
-  tmdb_company: <<company>>
   sort_title: ++_6<<collection_name>>
   optional:
     - list

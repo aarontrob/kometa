@@ -37,7 +37,6 @@ collections:
     show_filtered: true
     filters:
       collection.not: Disney Shorts
-      title.not: Storm of the Century
   Disney Channel Original Movies:
     template:
       name: Studio - Trakt List
