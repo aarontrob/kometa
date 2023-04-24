@@ -15,10 +15,17 @@ templates:
     collection_mode: hide_items
     tmdb_company: <<company>>
     sort_title: ++_6<<collection_name>>
-  Studio Release:
+    optional:
+      - summary
+    summary: <<summary>>
+  Studio - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     collection_order: release
     collection_mode: hide_items
     sort_title: ++_6<<collection_name>>
+    optional:
+      - summary
+    summary: <<summary>>
   Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
@@ -30,6 +37,7 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Alpha:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
     collection_mode: hide_items
@@ -39,27 +47,7 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Release:
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
-  Collection - Movie:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    tmdb_movie: <<movie>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
-  Collection - Movies:
-    tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
@@ -69,13 +57,13 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List:
-    optional:
-      - sort_title
-      - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
+    optional:
+      - sort_title
+      - summary
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
@@ -83,16 +71,6 @@ templates:
     sync_mode: sync
     collection_order: custom
     collection_mode: hide_items
-    optional:
-      - sort_title
-      - summary
-    sort_title: <<sort_title>>
-    summary: <<summary>>
-  Collection - Hide:
-    tmdb_movie: <<movie>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide
     optional:
       - sort_title
       - summary

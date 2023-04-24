@@ -20,7 +20,6 @@ collections:
     template:
       name: Studio
       company: "7505, 19551, 420, 11106, 13252, 38679"
-    sync_to_trakt_list: marvel-2
     trakt_list: https://trakt.tv/users/goape/lists/marvel
     summary: "With great power comes great responsibility"
   Rankin/Bass Christmas Classics:
@@ -35,5 +34,3 @@ collections:
       company: 1314
       summary: Hammer Film Productions Ltd. is a British film production company based in London. Founded in 1934, the company is best known for a series of Gothic horror and fantasy films made from the mid-1950s until the 1970s. Many of these involved classic horror characters such as Baron Victor Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to audiences by filming them in vivid colour for the first time.
     trakt_list: https://trakt.tv/users/goape/lists/hammer-films
-    sync_to_trakt_list: hammer-films
-    tmdb_movie: 40157

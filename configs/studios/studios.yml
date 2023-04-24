@@ -15,68 +15,78 @@ templates:
     collection_mode: hide_items
     tmdb_company: <<company>>
     sort_title: ++_6<<collection_name>>
-  Studio Release:
+    optional:
+      - summary
+    summary: <<summary>>
+  Studio - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     collection_order: release
     collection_mode: hide_items
     sort_title: ++_6<<collection_name>>
+    optional:
+      - summary
+    summary: <<summary>>
 collections:
   A24:
     template:
       name: Studio
       company: 41077
+      summary: >-
+        A24 is an American independent entertainment company founded on August
+        20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes
+        in film and television production, as well as film distribution. It is
+        based in New York City.
     trakt_list: 'https://trakt.tv/users/goape/lists/a24'
     tmdb_movie: 545611
-    summary: >-
-      A24 is an American independent entertainment company founded on August 20,
-      2012, by Daniel Katz, David Fenkel, and John Hodges that specializes in
-      film and television production, as well as film distribution. It is based
-      in New York City.
+    sync_to_trakt_list: a24-2
   DC:
     template:
       name: Studio
       company: 9993
+      summary: >-
+        DC Films is an American film studio that is a subsidiary of Warner Bros.
+        through the Warner Bros. Pictures Group, dedicated to the production of
+        films based on characters from DC Entertainment.
     tmdb_movie: '20776, 24479'
     trakt_list: 'https://trakt.tv/users/goape/lists/dc'
-    summary: >-
-      DC Films is an American film studio that is a subsidiary of Warner Bros.
-      through the Warner Bros. Pictures Group, dedicated to the production of
-      films based on characters from DC Entertainment.
+    sync_to_trakt_list: dc-2
   DC Animated Originals:
     template:
-      name: Studio Release
-    trakt_list: 'https://trakt.tv/users/goape/lists/dc-animated'
-    summary: >-
-      The DC Animated Universe (DCAU; also referred to as the Timmverse or
-      Diniverse by fans) is a shared universe of superhero-based animated
-      television series, produced by Warner Bros. Animation and based on
-      characters that appear in American comic books published by DC Comics.
+      name: Studio - Trakt List
+      list: dc-animated
+      summary: >-
+        The DC Animated Universe (DCAU; also referred to as the Timmverse or
+        Diniverse by fans) is a shared universe of superhero-based animated
+        television series, produced by Warner Bros. Animation and based on
+        characters that appear in American comic books published by DC Comics.
   Disney:
     template:
       name: Studio
       company: '2, 3, 6125, 3166'
+      summary: It was all started with a mouse
     tmdb_movie: '22643, 21385, 21448, 15400, 13378, 35215, 68464, 15485, 10837'
-    summary: It was all started with a mouse
+    sync_to_trakt_list: disney-2
   Marvel Animation:
     template:
       name: Studio
       company: 13252
+      summary: >-
+        Marvel Animation, Inc. (originally the home entertainment and TV
+        production division of Marvel Studios and also referred to as Marvel
+        Family Entertainment) is an American animation production company. The
+        Marvel Studios subsidiary was incorporated on January 25, 2008 to direct
+        Marvel's efforts in animation and home entertainment markets. The
+        incorporated Marvel Animation included then ongoing animation efforts by
+        Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated
+        under Marvel Studios, a subsidiary of Walt Disney Studios, a division of
+        The Walt Disney Company.
     plex_search:
       title: I Am Groot
-    summary: >-
-      Marvel Animation, Inc. (originally the home entertainment and TV
-      production division of Marvel Studios and also referred to as Marvel
-      Family Entertainment) is an American animation production company. The
-      Marvel Studios subsidiary was incorporated on January 25, 2008 to direct
-      Marvel's efforts in animation and home entertainment markets. The
-      incorporated Marvel Animation included then ongoing animation efforts by
-      Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated
-      under Marvel Studios, a subsidiary of Walt Disney Studios, a division of
-      The Walt Disney Company.
   Sony Pictures Animation:
     template:
       name: Studio
       company: 2251
-    summary: >-
-      Sony Pictures Animation Inc. is an American animation studio owned by Sony
-      Entertainment's Sony Pictures Entertainment through their Motion Picture
-      Group division and founded on May 9, 2002.
+      summary: >-
+        Sony Pictures Animation Inc. is an American animation studio owned by
+        Sony Entertainment's Sony Pictures Entertainment through their Motion
+        Picture Group division and founded on May 9, 2002.

@@ -5,7 +5,7 @@
 templates: !!import/shallow
   - ../templates/search.yml
   - ../templates/studios.yml
-  - ../templates/collection-movies.yml
+  - ../templates/collection.yml
 
 ######################################################
 #             Studios - Movies-Kids                  #
