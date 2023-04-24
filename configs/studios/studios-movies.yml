@@ -41,7 +41,7 @@ collections:
       name: Studio
       company: '7505, 19551, 420, 11106, 13252, 38679'
     sync_to_trakt_list: marvel-2
-    trakt_list: marvel
+    trakt_list: 'https://trakt.tv/users/goape/lists/marvel'
     summary: With great power comes great responsibility
   Rankin/Bass Christmas Classics:
     template:
@@ -69,6 +69,6 @@ collections:
         Many of these involved classic horror characters such as Baron Victor
         Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to
         audiences by filming them in vivid colour for the first time.
-    trakt_list: hammer-films
+    trakt_list: 'https://trakt.tv/users/goape/lists/hammer-films'
     sync_to_trakt_list: hammer-films
     tmdb_movie: 40157
