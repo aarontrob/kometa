@@ -1,8 +1,8 @@
 {
   "name": "yaml-compiler",
   "scripts": {
-    "build:yml": "mkdir -p $( echo $npm_config_path | rev | cut -d'/' -f2- | rev | cut -d'/' -f2- ); > $( echo $npm_config_path | cut -d'/' -f2- ); yimp -i $npm_config_path -o $( echo $npm_config_path | cut -d'/' -f2- ) -e yml",
-    "watch:yml": "chokidar \"./src/collections/**/*.yml\" -c \"npm run build:yml --path={path}\""
+    "build:yml": "mkdir -p configs/$( echo $npm_config_path | rev | cut -d'/' -f2- | rev | cut -d'/' -f2- ); > configs/$( echo $npm_config_path | cut -d'/' -f2- ); yimp -i $npm_config_path -o configs/$( echo $npm_config_path | cut -d'/' -f2- ) -e yml",
+    "watch:yml": "chokidar \"./src/**/*.yml\" -i \"./src/templates/*.yml\" -c \"npm run build:yml --path={path}\""
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
