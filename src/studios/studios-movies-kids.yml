@@ -12,7 +12,7 @@ templates: !!import/shallow
 collections:
   LEGO:
     template:
-      name: Studios - Search
+      name: Studio - Search
       title: LEGO, Lego
       summary: A series of films based on the toys of the same name.
   Disney Filtered:
@@ -27,29 +27,29 @@ collections:
       collection.not: Disney Shorts
       title.not: Storm of the Century
   Disney Channel Original Movies:
-    template: { name: Studio Release }
-    trakt_list: https://trakt.tv/users/goape/lists/disney-channel-original-movies
+    template:
+      name: Studio - Trakt List
+      list: disney-channel-original-movies
+      summary: Disney Channel Original Movies or DCOM (formerly a "Zoog Disney Channel Movie") is any movie that is produced under the Disney Channel canon. They have been made at a rate of at once a year since 1999.
     sort_title: ++_6Disney2 Channel Original Movies
-    summary: Disney Channel Original Movies or DCOM (formerly a "Zoog Disney Channel Movie") is any movie that is produced under the Disney Channel canon. They have been made at a rate of at once a year since 1999.
   Disney Shorts:
-    template: { name: Studio Release }
+    template:
+      name: Studio - Trakt List
+      trakt_list: disney-shorts
+      summary: "It was all started with a mouse"
     collection_mode: hide_items
-    trakt_list: https://trakt.tv/users/goape/lists/disney-shorts
-    summary: "It was all started with a mouse"
   DreamWorks Animation:
-    template: { name: Studio, company: 521 }
-    summary: DreamWorks Animation is an American animation studio that produces animated films and television programs and is a subsidiary of Universal Pictures.
-  Marvel:
-    template: { name: Studio, company: "7505, 19551, 420, 11106, 13252, 38679" }
-    trakt_list: https://trakt.tv/users/goape/lists/marvel
-    summary: "With great power comes great responsibility"
-  Nickelodeon:
-    trakt_list: https://trakt.tv/users/goape/lists/nickelodeon-movies
-    sort_title: ++_6Nickelodeon
-    tmdb_movie: 439059
-    summary: >-
-      Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
-      Nickelodeon
+    template:
+      name: Studio
+      company: 521
+      summary: DreamWorks Animation is an American animation studio that produces animated films and television programs and is a subsidiary of Universal Pictures.
+  # Nickelodeon:
+  #   trakt_list: https://trakt.tv/users/goape/lists/nickelodeon-movies
+  #   sort_title: ++_6Nickelodeon
+  #   tmdb_movie: 439059
+  #   summary: >-
+  #     Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
+  #     Nickelodeon
   Pixar Animation Studios:
     template: { name: Studio Release }
     trakt_list: https://trakt.tv/users/goape/lists/pixar-animation-studios

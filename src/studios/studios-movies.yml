@@ -15,12 +15,6 @@ collections:
       name: Studio - Trakt List
       list: dceu
       summary: The DC Extended Universe is an American media franchise and shared universe centered on a series of superhero films based on characters that appear in American comic books by DC Comics, produced by DC Films and distributed by Warner Bros. Pictures.
-  Marvel:
-    template:
-      name: Studio
-      company: "7505, 19551, 420, 11106, 13252, 38679"
-      list: marvel
-      summary: "With great power comes great responsibility"
   Rankin/Bass Christmas Classics:
     template:
       name: Studio - Trakt List

@@ -17,6 +17,15 @@ templates:
     optional:
       - summary
     summary: <<summary>>
+  Studio - Search:
+    plex_search:
+      title: <<title>>
+    collection_order: release
+    collection_mode: hide_items
+    sort_title: ++_6<<collection_name>>
+    optional:
+      - summary
+    summary: <<summary>>
 collections:
   DCEU:
     template:
@@ -27,12 +36,6 @@ collections:
         universe centered on a series of superhero films based on characters
         that appear in American comic books by DC Comics, produced by DC Films
         and distributed by Warner Bros. Pictures.
-  Marvel:
-    template:
-      name: Studio
-      company: '7505, 19551, 420, 11106, 13252, 38679'
-      list: marvel
-      summary: With great power comes great responsibility
   Rankin/Bass Christmas Classics:
     template:
       name: Studio - Trakt List
