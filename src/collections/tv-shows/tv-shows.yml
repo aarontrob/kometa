@@ -3,8 +3,9 @@
 ######################################################
 
 templates: !!import/shallow
-  - ../../templates/search.yml
+  - ../../templates/collection.yml
   - ../../templates/collection-tv-shows.yml
+  - ../../templates/search.yml
 
 ######################################################
 #                   Collections                      #

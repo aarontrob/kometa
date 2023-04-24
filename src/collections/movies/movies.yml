@@ -3,8 +3,9 @@
 ######################################################
 
 templates: !!import/shallow
-  - ../../templates/search.yml
+  - ../../templates/collection.yml
   - ../../templates/collection-movies.yml
+  - ../../templates/search.yml
 
 ######################################################
 #                   Collections                      #
@@ -62,82 +63,101 @@ collections:
         Batman is a superhero who appears in American comic books published by DC Comics. Batman was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in Gotham City. Batman's origin story features him swearing vengeance against criminals after witnessing the murder of his parents Thomas and Martha; he trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night. Kane, Finger, and other creators accompanied Batman with supporting characters, including his sidekick Robin; allies Alfred Pennyworth, James Gordon, and Catwoman; and foes such as the Penguin, the Riddler, Two-Face, and his archenemy, the Joker.
   Battlestar Galactica Collection:
     template:
-      name: Search
-      title: Galactica
-    sync_to_trakt_list: battlestar-galactica-collection
-    tmdb_movie: 65288
-    summary: >-
-      Battlestar Galactica is an American science fiction media franchise created by Glen A. Larson.
-      All Battlestar Galactica productions share the premise that in a distant part of the universe, a human civilization has extended to a group of planets known as the Twelve Colonies, to which they have migrated from their ancestral homeworld of Kobol. The Twelve Colonies have been engaged in a lengthy war with a cybernetic race known as the Cylons, whose goal is the extermination of the human race. The Cylons offer peace to the humans, which proves to be a ruse. With the aid of a human named Baltar, the Cylons carry out a massive nuclear attack on the Twelve Colonies and on the Colonial Fleet of starships that protect them. These attacks devastate the Colonial Fleet, lay waste to the Colonies, and virtually destroy all but a population of 50,000. Scattered survivors flee into outer space aboard a ragtag array of spaceworthy ships. Of the entire Colonial battle fleet, only the Battlestar Galactica, a gigantic battleship and spacecraft carrier, appears to have survived the Cylon attack. Under the leadership of Commander Adama, the Galactica and the pilots of "Viper fighters" lead a fugitive fleet of survivors in search of the fabled thirteenth colony known as Earth.
+      name: Collection - Trakt List
+      trakt_list: battlestar-galactica-collection
+      summary: >-
+        Battlestar Galactica is an American science fiction media franchise created by Glen A. Larson.
+        All Battlestar Galactica productions share the premise that in a distant part of the universe, a human civilization has extended to a group of planets known as the Twelve Colonies, to which they have migrated from their ancestral homeworld of Kobol. The Twelve Colonies have been engaged in a lengthy war with a cybernetic race known as the Cylons, whose goal is the extermination of the human race. The Cylons offer peace to the humans, which proves to be a ruse. With the aid of a human named Baltar, the Cylons carry out a massive nuclear attack on the Twelve Colonies and on the Colonial Fleet of starships that protect them. These attacks devastate the Colonial Fleet, lay waste to the Colonies, and virtually destroy all but a population of 50,000. Scattered survivors flee into outer space aboard a ragtag array of spaceworthy ships. Of the entire Colonial battle fleet, only the Battlestar Galactica, a gigantic battleship and spacecraft carrier, appears to have survived the Cylon attack. Under the leadership of Commander Adama, the Galactica and the pilots of "Viper fighters" lead a fugitive fleet of survivors in search of the fabled thirteenth colony known as Earth.
   Beetlejuice Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 4011
   Betty Boop Collection:
     template:
-      name: Collection List
-      list: https://trakt.tv/users/goape/lists/betty-boop-collection
-    summary: Betty Boop is an animated cartoon character created by Max Fleischer, with help from animators including Grim Natwick. She originally appeared in the Talkartoon and Betty Boop film series, which were produced by Fleischer Studios and released by Paramount Pictures.
+      name: Collection - Trakt List
+      list: betty-boop-collection
+      summary: Betty Boop is an animated cartoon character created by Max Fleischer, with help from animators including Grim Natwick. She originally appeared in the Talkartoon and Betty Boop film series, which were produced by Fleischer Studios and released by Paramount Pictures.
   The Beverly Hillbillies Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 11041
-    sort_title: Beverly Hillbillies Collection
+    template:
+      name: Collection - Hide
+      movie: 11041
+      sort_title: Beverly Hillbillies Collection
   Bewitched Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 9722
+    template:
+      name: Collection - Hide
+      movie: 9722
   Blade Runner Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/422837
-    summary: Man Has Made His Match... Now It's His Problem
+    template:
+      name: Collection
+      collection: 422837
+      summary: Man Has Made His Match... Now It's His Problem
   Bob's Burgers Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 504827
+    template:
+      name: Collection - Hide
+      movie: 504827
   The Brady Bunch Collection:
-    tmdb_movie: 76657, 49358
-    tmdb_collection: 224478
-    summary: Sure Jan.
+    template:
+      name: Collection - Movie
+      collection: 224478
+      movie: 76657, 49358
+      summary: Sure Jan.
   Buck Rogers Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 3786
   Cape Fear Collection:
-    tmdb_movie: 1598, 11349
-    summary: There is nothing in the dark that isn't there in the light. Except fear.
+    template:
+      name: Collection - Movies
+      movie: 1598, 11349
+      summary: There is nothing in the dark that isn't there in the light. Except fear.
   Charlie's Angels Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/86029
-    tmdb_movie: 458897
-    summary: An American media franchise that follows the adventures of the Angels, a team of women working for the Townsend Agency, a private detective agency, under the leadership of Charlie Townsend, their unseen boss. The film series is a continuation of the story with later generations of Angels.
+    template:
+      name: Collection - Movie
+      collection: 86029
+      movie: 458897
+      summary: An American media franchise that follows the adventures of the Angels, a team of women working for the Townsend Agency, a private detective agency, under the leadership of Charlie Townsend, their unseen boss. The film series is a continuation of the story with later generations of Angels.
   The Christmas Chronicles:
-    tmdb_collection: https://www.themoviedb.org/collection/743824
-    summary: The magical adventures of Santa Claus, Mrs. Claus and the Pierce siblings.
+    template:
+      name: Collection
+      collection: 743824
+      summary: The magical adventures of Santa Claus, Mrs. Claus and the Pierce siblings.
   A Christmas Story Collection:
-    tmdb_movie: 485517
-    tmdb_collection: https://www.themoviedb.org/collection/201873
-    summary: You’ll shoot your eye out!
+    template:
+      name: Collection - Movie
+      collection: 201873
+      movie: 485517
+      summary: You’ll shoot your eye out!
   Clash of the Titans Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/86780
-    tmdb_movie: 10323
-    summary: A fantasy action franchise based on characters and myths of Ancient Greek mythology involving the Greek hero Perseus.
+    template:
+      name: Collection - Movie
+      collection: 86780
+      movie: 10323
+      summary: A fantasy action franchise based on characters and myths of Ancient Greek mythology involving the Greek hero Perseus.
   Clueless Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 9603
+    template:
+      name: Collection - Hide
+      movie: 9603
   Conan the Barbarian Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/43055
-    tmdb_movie: 37430
-    summary: A film adaptation of the classic sword and sorcery hero, Conan the Barbarian. A horde of rampaging warriors massacre the parents of young Conan and enslave the young child for years on The Wheel of Pain. As the sole survivor of the childhood massacre, Conan is released from slavery and taught the ancient arts of fighting. Transforming himself into a killing machine, Conan travels into the wilderness to seek vengeance on Thulsa Doom, the man responsible for killing his family. In the wilderness, Conan takes up with the thieves Valeria and Subotai. The group comes upon King Osric, who wants the trio of warriors to help rescue his daughter who has joined Doom in the hills.
+    template:
+      name: Collection - Movie
+      collection: 43055
+      movie: 37430
+      summary: A film adaptation of the classic sword and sorcery hero, Conan the Barbarian. A horde of rampaging warriors massacre the parents of young Conan and enslave the young child for years on The Wheel of Pain. As the sole survivor of the childhood massacre, Conan is released from slavery and taught the ancient arts of fighting. Transforming himself into a killing machine, Conan travels into the wilderness to seek vengeance on Thulsa Doom, the man responsible for killing his family. In the wilderness, Conan takes up with the thieves Valeria and Subotai. The group comes upon King Osric, who wants the trio of warriors to help rescue his daughter who has joined Doom in the hills.
   Cornetto Trilogy:
-    imdb_list: https://www.imdb.com/list/ls068623110/
-    summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
+    template:
+      name: Collection - Trakt List
+      list: cornetto-trilogy
+      summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
   Daredevil Collection:
-    tmdb_movie: 9480, 9947
-    summary: Daredevil is a fictional superhero appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby.
+    template:
+      name: Collection - Movies
+      movie: 9480, 9947
+      summary: Daredevil is a fictional superhero appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby.
   The Dark Crystal Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 11639
-    sort_title: Dark Crystal Collection
-  DCEU:
-    trakt_list: https://trakt.tv/users/goape/lists/dceu-24831341
-    summary: The DC Extended Universe is an American media franchise and shared universe centered on a series of superhero films based on characters that appear in American comic books by DC Comics, produced by DC Films and distributed by Warner Bros. Pictures.
+      sort_title: Dark Crystal Collection
   Deuce Bigalow Collection:
     tmdb_collection: https://www.themoviedb.org/collection/95664
     summary: He's not very good looking. But when the lights go out...he's still not very good looking.

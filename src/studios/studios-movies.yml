@@ -1,0 +1,38 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/search.yml
+  - ../templates/studios.yml
+
+######################################################
+#                Studios - Movies                    #
+######################################################
+
+collections:
+  DCEU:
+    template:
+      name: Studio - Trakt List
+      list: dceu
+      summary: The DC Extended Universe is an American media franchise and shared universe centered on a series of superhero films based on characters that appear in American comic books by DC Comics, produced by DC Films and distributed by Warner Bros. Pictures.
+  Marvel:
+    template:
+      name: Studio
+      company: "7505, 19551, 420, 11106, 13252, 38679"
+    sync_to_trakt_list: marvel-2
+    trakt_list: https://trakt.tv/users/goape/lists/marvel
+    summary: "With great power comes great responsibility"
+  Rankin/Bass Christmas Classics:
+    template:
+      name: Studio - Trakt List
+      list: https://trakt.tv/users/goape/lists/rankin-bass-christmas-classics
+      summary: Rankin/Bass Animated Entertainment (founded and formerly known as Videocraft International, Ltd. and Rankin/Bass Productions, Inc.) was an American production company known for its seasonal television specials, usually done in stop motion animation. Rankin/Bass' stop-motion productions are recognizable by their visual style of doll-like characters with spheroid body parts and ubiquitous powdery snow using an animation technique called "Animagic". Often, traditional cel animation scenes of falling snow would be projected over the action to create the effect of a snowfall.
+      name_mapping: RankinBass Christmas Classics
+  Hammer Films:
+    template:
+      name: Studio
+      company: 1314
+      summary: Hammer Film Productions Ltd. is a British film production company based in London. Founded in 1934, the company is best known for a series of Gothic horror and fantasy films made from the mid-1950s until the 1970s. Many of these involved classic horror characters such as Baron Victor Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to audiences by filming them in vivid colour for the first time.
+    sync_to_trakt_list: hammer-films
+    tmdb_movie: 40157

@@ -1,58 +1,99 @@
 templates:
-  Search:
-    plex_search:
-      title: <<title>>
-    sort_title: <<collection_name>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
   Collection:
-    tmdb_collection: <<collection>>
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-  Collection Alpha:
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Alpha:
     sync_mode: sync
     collection_order: alpha
     collection_mode: hide_items
-  Collection Release:
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Release:
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-  Collection List:
-    list: https://trakt.tv/users/goape/lists/<<list>>
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-    summary: null
-  Collection - List Custom Order:
-    list: https://trakt.tv/users/goape/lists/<<list>>
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List Custom Order:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: custom
     collection_mode: hide_items
-    summary: null
-  Collection Show:
-    list: https://trakt.tv/users/goape/lists/<<list>>
-    tvdb_show: <<show>>
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Show:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    tmdb_show: <<show>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-    summary: null
-  Collection Hide:
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Shows:
+    tmdb_show: <<show>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Hide:
     tmdb_show: <<show>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide
-    summary: null
-  Other Collection:
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Search:
+    plex_search:
+      title: <<title>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
 collections:
   Addams Family Collection:
     template:
       name: Collection
-      show: "14009, 21036"
+      show: '14009, 21036'
       summary: Creepy. Kooky. Spooky. Ooky.
   Æon Flux Collection:
     template:
@@ -64,7 +105,7 @@ collections:
     tmdb_show: 4658
     summary: Alien Life Form
   Archie Collection:
-    trakt_list: "https://trakt.tv/users/goape/lists/archies"
+    trakt_list: 'https://trakt.tv/users/goape/lists/archies'
     summary: >-
       Archie Comic Publications, Inc., is an American comic book publisher
       headquartered in Pelham, New York. The company's many titles feature the
@@ -74,7 +115,7 @@ collections:
   Batman Collection:
     template:
       name: Search
-      title: "Batman, Dark Knight"
+      title: 'Batman, Dark Knight'
     summary: WHAMMM! SWAAP! BAM! KER-SPLOOSH!
     name_mapping: Batman Collection (TV)
   Battlestar Galactica Collection:
@@ -110,13 +151,13 @@ collections:
   Bewitched Collection:
     template:
       name: Collection Hide
-    tmdb_show: "4482, 1074"
+    tmdb_show: '4482, 1074'
   Big Brother Collection:
     template:
       name: Search
       title: Big Brother
   Blade Collection:
-    tmdb_show: "4619, 62798"
+    tmdb_show: '4619, 62798'
     summary: Part Man. Part Vampire. All Hero.
   Blade Runner Collection:
     template:
@@ -135,7 +176,7 @@ collections:
       name: Search
       title: Brady
     sort_title: Brady Bunch Collection
-    summary: "Sure, Jan."
+    summary: 'Sure, Jan.'
     name_mapping: The Brady Bunch Collection (TV)
   Buck Rogers Collection:
     template:
@@ -159,10 +200,10 @@ collections:
       name: Collection Hide
     tmdb_show: 3921
   Constantine Collection:
-    tmdb_show: "78081, 60743"
+    tmdb_show: '78081, 60743'
     summary: Everyone fights their demons. His fight back.
   Cosmos Collection:
-    tmdb_show: "58474, 1430"
+    tmdb_show: '58474, 1430'
     summary: >-
       If you wish to make an apple pie from scratch, you must first invent the
       universe.
@@ -175,7 +216,7 @@ collections:
       name: Collection Hide
     tmdb_show: 87208
   Dexter Collection:
-    tmdb_show: "1405, 131927"
+    tmdb_show: '1405, 131927'
     summary: >-
       America's favorite serial killer. He's got a way with murder. Blood never
       lies. Anyone has something to hide.
@@ -226,7 +267,7 @@ collections:
     tmdb_show: 10083
     sort_title: Fugitive Collection
   Full House Collection:
-    tmdb_show: "4313, 63623"
+    tmdb_show: '4313, 63623'
     summary: You got it dude!
   Gilligan's Island Collection:
     template:
@@ -237,7 +278,7 @@ collections:
       name: Collection Hide
     tmdb_show: 111177
   The Golden Girls Collection:
-    tmdb_show: "1678, 3068, 2823"
+    tmdb_show: '1678, 3068, 2823'
     sort_title: Golden Girls Collection
     summary: Thank you for being a friend
   Grease Collection:
@@ -248,13 +289,13 @@ collections:
   The Hannibal Lecter Collection:
     template:
       name: Collection Hide
-    tmdb_show: "103302, 40008"
+    tmdb_show: '103302, 40008'
     sort_title: Hannibal Lecter Collection
     summary: To enter the mind of a killer she must challenge the mind of a madman.
   Happy Days Collection:
     template:
       name: Collection
-      show: "3845, 3033, 2552, 920, 10798, 10071, 31457, 31407, 527"
+      show: '3845, 3033, 2552, 920, 10798, 10071, 31457, 31407, 527'
     summary: >-
       Happy Days is an American sitcom television series that aired first-run on
       the ABC network from January 15, 1974, to September 24, 1984, with a total
@@ -270,20 +311,20 @@ collections:
       name: Collection Hide
     tmdb_show: 790
   Heroes Collection:
-    tmdb_show: "1639, 60858"
-    summary: "You can't choose your family, you can choose a side."
+    tmdb_show: '1639, 60858'
+    summary: 'You can''t choose your family, you can choose a side.'
   Highlander Collection:
-    tmdb_show: "4414, 4377"
+    tmdb_show: '4414, 4377'
     summary: There can be only one
   History of the World Collection:
     template:
       name: Collection Hide
     tmdb_show: 202213
   Hotwives Collection:
-    tmdb_show: "61281, 75390"
+    tmdb_show: '61281, 75390'
     summary: You need to calm down
   Hulk Collection:
-    tmdb_show: "648, 92783, 92783"
+    tmdb_show: '648, 92783, 92783'
     summary: HULK SMASH!
   I Know What You Did Last Summer Collection:
     template:
@@ -336,14 +377,14 @@ collections:
       name: Collection Hide
     tmdb_show: 84773
   Lost in Space Collection:
-    tmdb_show: "75758, 3051"
-    summary: "Danger, Will Robinson!"
-  "Love, Simon Collection":
+    tmdb_show: '75758, 3051'
+    summary: 'Danger, Will Robinson!'
+  'Love, Simon Collection':
     template:
       name: Collection Hide
       show: 97186
   I Love Lucy Collection:
-    tmdb_show: "2730, 2144, 1439"
+    tmdb_show: '2730, 2144, 1439'
   The Man from U.N.C.L.E. Collection:
     template:
       name: Collection Hide
@@ -357,8 +398,8 @@ collections:
       Miss Marple is a fictional character in Agatha Christie's crime novels and
       short stories. Jane Marple lives in the village of St. Mary Mead and acts
       as an amateur consulting detective.
-  "Mission: Impossible Collection":
-    tmdb_show: "4357, 9894"
+  'Mission: Impossible Collection':
+    tmdb_show: '4357, 9894'
     summary: Expect the impossible.
   Monty Python Collection:
     template:
@@ -377,7 +418,7 @@ collections:
     sort_title: Munsters Collection
     template:
       name: Collection Hide
-    tmdb_show: "1712, 11030"
+    tmdb_show: '1712, 11030'
   My Big Fat Greek Wedding Collection:
     template:
       name: Collection Hide
@@ -418,13 +459,13 @@ collections:
       The new police recruits. Call them slobs. Call them jerks. Call them
       gross. ...Just don't call them when you're in trouble.
   Planet Earth Collection:
-    tmdb_show: "1044, 68595"
+    tmdb_show: '1044, 68595'
     summary: Prepare to see it as never before.
   Planet of the Apes Collection:
     template:
       name: Collection Hide
       show: 19
-    summary: "Somewhere in the Universe, there must be something better than man!"
+    summary: 'Somewhere in the Universe, there must be something better than man!'
   The Punisher Collection:
     template:
       name: Collection Hide
@@ -492,11 +533,11 @@ collections:
       name: Collection Hide
     tmdb_show: 62823
   SCTV Collection:
-    tmdb_show: "22940, 2548"
+    tmdb_show: '22940, 2548'
     summary: Second City Television
   Sex and the City Collection:
     summary: The next best thing to being there.
-    tmdb_show: "105, 116450"
+    tmdb_show: '105, 116450'
   Shazam! Collection:
     template:
       name: Collection Hide
@@ -521,7 +562,7 @@ collections:
     template:
       name: Search
       title: Star Trek
-    summary: "Live long, and prosper"
+    summary: 'Live long, and prosper'
   Star Wars:
     template:
       name: Collection List
@@ -553,14 +594,14 @@ collections:
     summary: The original partners in crime.
   Superman Collection:
     plex_search:
-      title: "Superman, Man of Steel"
+      title: 'Superman, Man of Steel'
     summary: >-
       Superman is a fictional superhero who first appeared in American comic
       books published by DC Comics. The character was created by writer Jerry
       Siegel and artist Joe Shuster, and first appeared in the comic book Action
       Comics #1.
   Swamp Thing Collection:
-    tmdb_show: "79240, 13989"
+    tmdb_show: '79240, 13989'
     summary: >-
       The Swamp Thing is a fictional superhero in American comic books published
       by DC Comics. A humanoid/plant elemental creature, created by writer Len
@@ -585,12 +626,12 @@ collections:
   The Tick Collection:
     template:
       name: Collection
-      show: "14651, 67487, 14540"
+      show: '14651, 67487, 14540'
     sort_title: Tick Collection
   Three's Company Collection:
     template:
       name: Collection
-      show: "1066, 2686"
+      show: '1066, 2686'
     summary: >-
       The story revolves around three single roommates: Janet Wood, Chrissy Snow
       and Jack Tripper who all platonically share Apartment 201 in a Santa
@@ -611,7 +652,7 @@ collections:
   The Twilight Zone Collection:
     template:
       name: Collection
-    tmdb_show: "6357, 83135, 1918"
+    tmdb_show: '6357, 83135, 1918'
     sort_title: Twilight Zone Collection
     summary: >-
       You are about to enter another dimension, a dimension not only of sight
@@ -628,7 +669,7 @@ collections:
       name: Collection Hide
     tmdb_show: 1920
   The Walking Dead Universe:
-    tmdb_show: "1402, 62286, 136248, 94305"
+    tmdb_show: '1402, 62286, 136248, 94305'
     sort_title: Walking Dead Universe
     summary: Fight the dead. Fear the living. An eye for an eye.
   Watchmen Collection:
@@ -636,13 +677,13 @@ collections:
       name: Collection Hide
     tmdb_show: 79788-watchmen
   What We Do in the Shadows Collection:
-    tmdb_show: "83631, 80475"
+    tmdb_show: '83631, 80475'
   Weird Science Collection:
     template:
       name: Collection Hide
     tmdb_show: 4076
   Westworld Collection:
-    tmdb_show: "63247, 63247"
+    tmdb_show: '63247, 63247'
     summary: These violent delights have violent ends.
     name_mapping: Westworld Collection (TV)
   Wet Hot American Summer Collection:
@@ -650,7 +691,7 @@ collections:
       name: Collection Hide
     plex_search:
       title: Wet Hot American Summer
-    tmdb_show: "73132, 61967"
+    tmdb_show: '73132, 61967'
   Willow Collection:
     template:
       name: Collection Hide
@@ -663,15 +704,15 @@ collections:
       title: Wonder Woman
     name_mapping: Wonder Woman Collection
   Yellowstone Collection:
-    tmdb_show: "73586, 157744, 118357"
-    summary: "My land, my rules."
+    tmdb_show: '73586, 157744, 118357'
+    summary: 'My land, my rules.'
   The X-Files Collection:
     template:
       name: Collection Hide
     tmdb_show: 4087
     sort_title: X-Files Collection
   X-Men Collection:
-    trakt_list: "https://trakt.tv/users/goape/lists/x-men"
+    trakt_list: 'https://trakt.tv/users/goape/lists/x-men'
     collection_mode: show_items
     summary: >-
       The X-Men are a fictional team of superheroes appearing in American comic

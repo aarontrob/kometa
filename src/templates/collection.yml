@@ -1,0 +1,50 @@
+Collection:
+  tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide_items
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
+Collection - Alpha:
+  tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
+  sync_mode: sync
+  collection_order: alpha
+  collection_mode: hide_items
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
+Collection - Release:
+  tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide_items
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
+Collection - Trakt List:
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide_items
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>
+Collection - Trakt List Custom Order:
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  sync_mode: sync
+  collection_order: custom
+  collection_mode: hide_items
+  optional:
+    - sort_title
+    - summary
+  sort_title: <<sort_title>>
+  summary: <<summary>>

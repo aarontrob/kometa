@@ -1,50 +1,96 @@
 templates:
-  Search:
-    plex_search:
-      title: <<title>>
-    sort_title: <<collection_name>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
   Collection:
-    tmdb_collection: <<collection>>
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-  Collection Alpha:
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Alpha:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
     collection_mode: hide_items
-  Collection Release:
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Release:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-  Collection List:
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List:
+    optional:
+      - sort_title
+      - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-  Collection Movies:
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List Custom Order:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    collection_mode: hide_items
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Movie:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-  Collection Movie:
-    tmdb_collection_details: <<collection>>
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Movies:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
-  Collection Hide:
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Hide:
     tmdb_movie: <<movie>>
     sync_mode: sync
-    sort_title: <<collection_name>>
     collection_order: release
     collection_mode: hide
-  Other Collection:
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Search:
+    plex_search:
+      title: <<title>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
+    optional:
+      - sort_title
+      - summary
+    sort_title: <<sort_title>>
+    summary: <<summary>>
 collections:
   101 Dalmatians Collection:
     tmdb_collection:
