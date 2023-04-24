@@ -1,0 +1,52 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/networks.yml
+
+######################################################
+#             Networks - TV-Shows-Kids               #
+######################################################
+
+collections:
+  Cartoon Network:
+    template:
+      name: Network
+      network: 56
+      summary: Cartoon Network (often abbreviated as CN) is an American cable television channel owned by The Cartoon Network, Inc., a division of the Kids, Young Adults and Classics division of Warner Bros. Entertainment, itself a subsidiary of Warner Bros. Discovery.
+  Disney Channel:
+    template:
+      name: Network
+      network: 54
+      summary: Disney Channel (originally called The Disney Channel from 1983 to 1997 and commonly shortened to Disney from 1997 to 2002) is an American pay television channel that serves as the flagship property of owner Disney Branded Television, a unit of the Disney General Entertainment Content division of The Walt Disney Company.
+    show_filtered: true
+    filters:
+      title.not:
+        - "Mickey Mouse: Mixed-Up Adventures"
+        - The Lion Guard
+        - The Book of Pooh
+        - The New Yogi Bear Show
+        - "Tron: Uprising"
+  The Disney Afternoon Collection:
+    template:
+      name: Network - Trakt List
+      list: disney-afternoon-collection
+      collection_name: Disney2 Afternoon Collection
+      summary: The Disney Afternoon was a created-for-syndication two-hour animated television block programming produced by Walt Disney Television Animation and distributed through its syndication affiliate Buena Vista Television. Each show from the block has aired reruns on Disney Channel and Toon Disney.
+  Disney Junior:
+    template:
+      name: Network
+      network: 281
+      summary: Disney Junior is an American pay television network owned by the Disney General Entertainment Content unit of The Walt Disney Company through Disney Branded Television.
+  Nickelodeon:
+    template:
+      name: Network
+      network: 13
+      summary: >-
+        Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
+        Nickelodeon
+    show_filtered: true
+    filters:
+      title.not:
+        - Power Rangers
