@@ -10,33 +10,12 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Disney:
-    tmdb_movie: 934323, 42981
   Disneynature:
-    template: { name: Studio, company: 4436 }
-    summary: Disneynature is an independent film studio that specializes in the production of nature documentary films for The Walt Disney Studios. The production company was founded on April 21, 2008, and is headquartered in Paris, France.
-  Hammer Films:
     template:
-      name: Collection Hide
-      movie: 40157
-    sort_title: ++_6Hammer Films
-    summary: Hammer Film Productions Ltd. is a British film production company based in London. Founded in 1934, the company is best known for a series of Gothic horror and fantasy films made from the mid-1950s until the 1970s. Many of these involved classic horror characters such as Baron Victor Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to audiences by filming them in vivid colour for the first time.
-  LEGO:
-    plex_search:
-      title: LEGO, Lego
-    summary: The bane of your foot’s existence.
-    sort_title: ++_6Lego
-  Marvel:
-    sort_title: ++_6Marvel
-    trakt_list: https://trakt.tv/users/goape/lists/marvel
-    summary: "With great power comes great responsibility"
+      name: Studio
+      company: 4436
+      summary: Disneynature is an independent film studio that specializes in the production of nature documentary films for The Walt Disney Studios. The production company was founded on April 21, 2008, and is headquartered in Paris, France.
   National Geographic:
     template: { name: Studio Release }
     trakt_list: https://trakt.tv/users/goape/lists/national-geographic
     summary: National Geographic is an American pay television network and flagship channel owned by National Geographic Partners, a joint venture between The Walt Disney Company and the National Geographic Society, with the operational management handled by Walt Disney Television.
-  Nickelodeon:
-    tmdb_movie: 480713
-    sort_title: ++_6Nickelodeon
-    summary: >-
-      Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
-      Nickelodeon

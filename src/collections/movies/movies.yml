@@ -315,14 +315,6 @@ collections:
     template: { name: Collection Hide }
     tmdb_movie: 203801
     sort_title: Man from U.N.C.L.E. Collection
-  Marvel Cinematic Universe (Timeline):
-    collection_order: custom
-    sync_mode: sync
-    trakt_list: https://trakt.tv/users/goape/lists/marvel-cinematic-universe-timeline
-    summary: >-
-      The Marvel Cinematic Universe is a media franchise created by Marvel Studios, set primarily in a shared universe designated as the reality Earth-199999 within Marvel's multiverse system, with some installments also set in adjacent or branching realities.
-
-      Starting with Iron Man, the franchise is comprised mainly of films independently made by Marvel Studios, that are primarily set within this same universe, much like Marvel has done with their comics.
   Mary Poppins Collection:
     tmdb_movie: 433, 400650, 140823
     summary: It's supercalifragilisticexpialidocious!

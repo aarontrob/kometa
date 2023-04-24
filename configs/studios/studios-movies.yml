@@ -51,15 +51,19 @@ collections:
         scenes of falling snow would be projected over the action to create the
         effect of a snowfall.
     name_mapping: RankinBass Christmas Classics
-  Hammer Films:
+  Marvel Cinematic Universe (Timeline):
+    name: Marvel Cinematic Universe
     template:
-      name: Studio
-      company: 1314
-      list: hammer-films
+      name: Studio - Trakt List
+      list: marvel-cinematic-universe-timeline
       summary: >-
-        Hammer Film Productions Ltd. is a British film production company based
-        in London. Founded in 1934, the company is best known for a series of
-        Gothic horror and fantasy films made from the mid-1950s until the 1970s.
-        Many of these involved classic horror characters such as Baron Victor
-        Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to
-        audiences by filming them in vivid colour for the first time.
+        The Marvel Cinematic Universe is a media franchise created by Marvel
+        Studios, set primarily in a shared universe designated as the reality
+        Earth-199999 within Marvel's multiverse system, with some installments
+        also set in adjacent or branching realities.
+
+        Starting with Iron Man, the franchise is comprised mainly of films
+        independently made by Marvel Studios, that are primarily set within this
+        same universe, much like Marvel has done with their comics.
+    collection_order: custom
+    sync_mode: sync

@@ -1,0 +1,89 @@
+templates:
+  Studio:
+    collection_order: release
+    collection_mode: hide_items
+    tmdb_company: <<company>>
+    sort_title: ++_6<<collection_name>>
+    optional:
+      - list
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    summary: <<summary>>
+  Studio - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    collection_order: release
+    collection_mode: hide_items
+    sort_title: ++_6<<collection_name>>
+    optional:
+      - summary
+    summary: <<summary>>
+  Studio - Search:
+    plex_search:
+      title: <<title>>
+    collection_order: release
+    collection_mode: hide_items
+    sort_title: ++_6<<collection_name>>
+    optional:
+      - summary
+    summary: <<summary>>
+collections:
+  DC:
+    template:
+      name: Studio
+      company: 9993
+    trakt_list: 'https://trakt.tv/users/goape/lists/dc'
+    summary: >-
+      DC Films is an American film studio that is a subsidiary of Warner Bros.
+      through the Warner Bros. Pictures Group, dedicated to the production of
+      films based on characters from DC Entertainment.
+  DC Animated Originals:
+    template:
+      name: Studio Release
+    trakt_list: 'https://trakt.tv/users/goape/lists/dc-animated'
+    summary: >-
+      The DC Animated Universe (DCAU; also referred to as the Timmverse or
+      Diniverse by fans) is a shared universe of superhero-based animated
+      television series, produced by Warner Bros. Animation and based on
+      characters that appear in American comic books published by DC Comics.
+  Disney:
+    name: Disney
+    template:
+      name: Studio
+      company: '2, 3, 6125, 3166, 3475, 670'
+    plex_search:
+      title:
+        - The Wonderful World of Disney
+        - Disneyland
+    tmdb_show: 75523
+    trakt_list: 'https://trakt.tv/users/goape/lists/disney'
+    show_filtered: true
+    filters:
+      title.not:
+        - Power Rangers
+        - Storm of the Century
+    summary: It was all started with a mouse
+  LEGO:
+    plex_search:
+      title: 'LEGO, Lego'
+    summary: A series of films based on the toys of the same name.
+    sort_title: ++_6Lego
+  Marvel:
+    template:
+      name: Studio
+      company: '7505, 19551, 420, 11106, 13252, 38679'
+    trakt_list: 'https://trakt.tv/users/goape/lists/marvel'
+    summary: With great power comes great responsibility
+  Marvel Animation:
+    template:
+      name: Studio
+      company: 13252
+    summary: >-
+      Marvel Animation, Inc. (originally the home entertainment and TV
+      production division of Marvel Studios and also referred to as Marvel
+      Family Entertainment) is an American animation production company. The
+      Marvel Studios subsidiary was incorporated on January 25, 2008 to direct
+      Marvel's efforts in animation and home entertainment markets. The
+      incorporated Marvel Animation included then ongoing animation efforts by
+      Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated
+      under Marvel Studios, a subsidiary of Walt Disney Studios, a division of
+      The Walt Disney Company.
