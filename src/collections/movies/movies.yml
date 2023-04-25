@@ -252,7 +252,7 @@ collections:
       movie: 360920, 8871, 13377, 762951, 52207, 46963
       sort_title: Grinch Collection
       summary: The Grinch is a fictional character created by Dr. Seuss. He is best known as the main character of the 1957 children's book How the Grinch Stole Christmas!. He has been portrayed and voiced by many different actors, including Boris Karloff, Hans Conried, Bob Holt, Jim Carrey, and Benedict Cumberbatch.
-      sync_to_trakt_list: the-grinch-collection
+    sync_to_trakt_list: the-grinch-collection
   Guardians of the Galaxy Collection:
     tmdb_collection: https://www.themoviedb.org/collection/284433
     tmdb_movie: 774752

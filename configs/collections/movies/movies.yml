@@ -448,7 +448,7 @@ collections:
         Stole Christmas!. He has been portrayed and voiced by many different
         actors, including Boris Karloff, Hans Conried, Bob Holt, Jim Carrey, and
         Benedict Cumberbatch.
-      sync_to_trakt_list: the-grinch-collection
+    sync_to_trakt_list: the-grinch-collection
   Guardians of the Galaxy Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/284433'
     tmdb_movie: 774752
