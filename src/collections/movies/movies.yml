@@ -236,16 +236,23 @@ collections:
       list: godzilla-collection
       summary: The Godzilla (ゴジラ, Gojira) franchise is a Japanese media franchise created and owned by Toho, centered on the fictional kaiju character Godzilla. It is the longest-running film franchise, having been in ongoing production from 1954, with several hiatuses of varying lengths.
   Grease Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/86083
-    tmdb_movie: 348089
-    summary: Grease is the word.
+    template:
+      name: Collection - Movie
+      collection: 86083
+      movie: 348089
+      summary: Grease is the word.
   Grey Gardens Collection:
-    tmdb_movie: 19851
-    summary: I tell you if there’s anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There’s nothing worse, I’m telling you. They don’t weaken, no matter what.
+    template:
+      name: Collection - Movies
+      movie: 19851
+      summary: I tell you if there’s anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There’s nothing worse, I’m telling you. They don’t weaken, no matter what.
   The Grinch Collection:
-    tmdb_movie: 360920, 8871, 13377, 762951, 52207, 46963
-    sort_title: Grinch Collection
-    summary: The Grinch is a fictional character created by Dr. Seuss. He is best known as the main character of the 1957 children's book How the Grinch Stole Christmas!. He has been portrayed and voiced by many different actors, including Boris Karloff, Hans Conried, Bob Holt, Jim Carrey, and Benedict Cumberbatch.
+    template:
+      name: Collection - Movies
+      movie: 360920, 8871, 13377, 762951, 52207, 46963
+      sort_title: Grinch Collection
+      summary: The Grinch is a fictional character created by Dr. Seuss. He is best known as the main character of the 1957 children's book How the Grinch Stole Christmas!. He has been portrayed and voiced by many different actors, including Boris Karloff, Hans Conried, Bob Holt, Jim Carrey, and Benedict Cumberbatch.
+      sync_to_trakt_list: the-grinch-collection
   Guardians of the Galaxy Collection:
     tmdb_collection: https://www.themoviedb.org/collection/284433
     tmdb_movie: 774752
