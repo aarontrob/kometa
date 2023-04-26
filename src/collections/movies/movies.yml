@@ -289,177 +289,226 @@ collections:
     template:
       name: Search
       title: Hulk
-    summary: The larger-than-life Marvel Superhero The Hulk explodes onto the big screen! After a freak lab accident unleashes a genetically enhanced, impossibly strong creature, a terrified world must marshal its forces to stop a being with abilities beyond imagination.
+      summary: The larger-than-life Marvel Superhero The Hulk explodes onto the big screen! After a freak lab accident unleashes a genetically enhanced, impossibly strong creature, a terrified world must marshal its forces to stop a being with abilities beyond imagination.
   I am Legend Collection:
-    tmdb_movie:
-      - 21159
-      - 11234
-      - 6479
-    summary: Films based on the 1954 novel I Am Legend by Richard Matheson.
+    template:
+      name: Collection - Movies
+      movie: 21159, 11234, 6479
+      summary: Films based on the 1954 novel I Am Legend by Richard Matheson.
   Invasion of the Body Snatchers Collection:
-    tmdb_movie: 11549, 11850, 4858
-    summary: A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.
+    template:
+      name: Collection - Movies
+      movie: 11549, 11850, 4858
+      summary: A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.
   The Italian Job Collection:
-    tmdb_movie: 9654, 10536
-    sort_title: Italian Job Collection
-    summary: Get in. Get out. Get even.
+    template:
+      name: Collection - Movies
+      movie: 9654, 10536
+      sort_title: Italian Job Collection
+      summary: Get in. Get out. Get even.
   Jackass Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/jackass-collection
-    summary: Do not attempt this at home.
+    template:
+      name: Collection - Trakt List
+      list: jackass-collection
+      summary: Do not attempt this at home.
   James Bond Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/645
+      name: Collection - Movie
+      collection: 645
       movie: 12208
-    summary: The James Bond film series is a British series of spy films based on the fictional character of MI6 agent James Bond, codename "007". With all of the action, adventure, gadgetry & film scores that Bond is famous for.
+      summary: The James Bond film series is a British series of spy films based on the fictional character of MI6 agent James Bond, codename "007". With all of the action, adventure, gadgetry & film scores that Bond is famous for.
   Jaws Collection:
-    tmdb_collection: 2366
-    tmdb_movie: 84060
-    summary: The classic horror films about a great white shark that’s been attacking people of the coast of New England and bringing terror to their beach vacations. The first film was a major box-office success bringing in almost 500 million world wide and spawning the blockbuster movie phenomena and multiple sequels.
+    template:
+      name: Collection - Movie
+      collection: 2366
+      movie: 84060
+      summary: The classic horror films about a great white shark that’s been attacking people of the coast of New England and bringing terror to their beach vacations. The first film was a major box-office success bringing in almost 500 million world wide and spawning the blockbuster movie phenomena and multiple sequels.
   Josie and the Pussycats Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 19366
+    template:
+      name: Collection - Hide
+      movie: 19366
   Journey to the Center of the Earth Collection:
-    tmdb_movie: 11571, 88751, 72545
-    summary: Based on Jules Verne's fantastic stories of strange adventure...
+    template:
+      name: Collection - Movies
+      movie: 11571, 88751, 72545
+      summary: Based on Jules Verne's fantastic stories of strange adventure...
   Jumanji Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 8844
+    template:
+      name: Collection - Hide
+      movie: 8844
   Justice League Collection:
     template:
       name: Search
       title: Justice League
   Land of the Lost Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 18162
+    template:
+      name: Collection - Hide
+      movie: 18162
   Logan's Run Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 10803
+    template:
+      name: Collection - Hide
+      movie: 10803
   The Lord of the Rings Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/119
-    summary: The Lord of the Rings trilogy consists of three epic fantasy films, based on the influential novels written by J. R. R. Tolkien, directed by Peter Jackson.
-    sort_title: Lord of the Rings Collection
+    template:
+      name: Collection
+      collection: 119
+      summary: Middle Earth comes alive...
+      sort_title: Lord of the Rings Collection
   Lost in Space Collection:
-    tmdb_movie: 2157
-    summary: Danger, Will Robinson!
+    template:
+      name: Collection - Hide
+      movie: 2157
+      summary: Danger, Will Robinson!
   The Magnificent Seven Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/110021
-    tmdb_movie: 333484
-    sort_title: Magnificent Seven Collection
-    summary: The adventures of the Magnificent Seven.
+    template:
+      name: Collection - Movie
+      collection: 110021
+      movie: 333484
+      sort_title: Magnificent Seven Collection
+      summary: The adventures of the Magnificent Seven.
   The Man from U.N.C.L.E. Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 203801
-    sort_title: Man from U.N.C.L.E. Collection
+    template:
+      name: Collection - Hide
+      movie: 203801
+      sort_title: Man from U.N.C.L.E. Collection
   Mary Poppins Collection:
-    tmdb_movie: 433, 400650, 140823
-    summary: It's supercalifragilisticexpialidocious!
+    template:
+      name: Collection - Movies
+      movie: 433, 400650, 140823
+      summary: It's supercalifragilisticexpialidocious!
   Masters of the Universe Collection:
-    tmdb_movie: 11649
-    summary: By the Power of Grayskull!
+    template:
+      name: Collection - Movies
+      movie: 11649
+      summary: By the Power of Grayskull!
   The Matrix Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/2344
-    tmdb_movie: 14543, 55931
-    sort_title: Matrix Collection
-    summary: >-
-      The Matrix franchise primarily consists of a trilogy of science-fiction-action films written and directed by the Wachowskis and produced by Joel Silver. The first film The Matrix was released in March 1999; after its success, two sequels, The Matrix Reloaded and The Matrix Revolutions, were released in 2003. The characters and settings of the Matrix fictional universe are further explored in other media, including animation, comic books, and video games.
-
-      The series depicts a cyberpunk story incorporating numerous references to philosophical and religious ideas. Other influences include mythology, anime, and Hong Kong action films (particularly "heroic bloodshed" and martial arts movies).
+    template:
+      name: Collection - Movie
+      collection: 2344
+      movie: 14543, 55931
+      sort_title: Matrix Collection
+      summary: Reality is a thing of the past.
   Men In Black Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/86055
-    summary: Protecting the earth from the scum of the universe
+    template:
+      name: Collection
+      collection: 86055
+      summary: Protecting the earth from the scum of the universe
   Middle-Earth Collection:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/119
-      - https://www.themoviedb.org/collection/121938
-    summary: Middle-earth is the fictional setting of much of the English writer J. R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse mythology and Middangeard in Old English works, including Beowulf. Middle-earth is the human-inhabited world, that is, the central continent of the Earth, in Tolkien's imagined mythological past. Tolkien's most widely read works, The Hobbit and The Lord of the Rings, are set entirely in Middle-earth. "Middle-earth" has also become a short-hand term for Tolkien's legendarium, his large body of fantasy writings, and for the entirety of his fictional world.
+    template:
+      name: Collection
+      collection: 119, 121938
+      summary: Middle-earth is the fictional setting of much of the English writer J. R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse mythology and Middangeard in Old English works, including Beowulf. Middle-earth is the human-inhabited world, that is, the central continent of the Earth, in Tolkien's imagined mythological past. Tolkien's most widely read works, The Hobbit and The Lord of the Rings, are set entirely in Middle-earth. "Middle-earth" has also become a short-hand term for Tolkien's legendarium, his large body of fantasy writings, and for the entirety of his fictional world.'  '
   Miss Marple Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/696110
-    summary: Miss Marple is a fictional character in Agatha Christie's crime novels and short stories. Jane Marple lives in the village of St. Mary Mead and acts as an amateur consulting detective.
+    template:
+      name: Collection
+      collection: 696110
+      summary: Miss Marple is a fictional character in Agatha Christie's crime novels and short stories. Jane Marple lives in the village of St. Mary Mead and acts as an amateur consulting detective.
   Monsterverse Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/535313-godzilla-collection
-    tmdb_movie: 293167
-    summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
+    template:
+      name: Collection - Movie
+      collection: 535313
+      movie: 293167
+      summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
   Monty Python Collection:
-    tmdb_movie: 762, 583, 4543, 9267, 11949
-    summary: Monty Python were a British surreal comedy troupe who created the sketch comedy television show Monty Python's Flying Circus, which first aired on the BBC in 1969.
+    template:
+      name: Collection - Movies
+      movie: 762, 583, 4543, 9267, 11949
+      summary: Monty Python were a British surreal comedy troupe who created the sketch comedy television show Monty Python's Flying Circus, which first aired on the BBC in 1969.
   Mortal Kombat Collection:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/9818
-      - https://www.themoviedb.org/collection/848690
-      - https://www.themoviedb.org/collection/931431
-    summary: Nothing In This World Has Prepared You For This.
+    template:
+      name: Collection
+      collection: 9818, 848690, 931431
+      summary: Nothing In This World Has Prepared You For This.
   Mothra Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/171732
+      name: Collection - Movie
+      collection: 171732
       movie: 39410
   The Munsters Collection:
-    sort_title: Munsters Collection
-    tmdb_movie: 804413
+    template:
+      name: Collection - Hide
+      movie: 804413
+      sort_title: Munsters Collection
   My Big Fat Greek Wedding Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/389767
-    summary: People change. Greeks don't.
+    template:
+      name: Collection
+      collection: 389767
+      summary: People change. Greeks don't.
   Ocean's Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/304
-    tmdb_movie: 402900, 299
-    summary: The Ocean's Collection is a star-studded film series about a group of professional robbers who get together to pull off some mind-boggling heists.
+    template:
+      name: Collection - Movie
+      collection: 304
+      movie: 402900, 299
+      summary: The Ocean's Collection is a star-studded film series about a group of professional robbers who get together to pull off some mind-boggling heists.
   Once Upon a Time Trilogy:
-    tmdb_movie: 335, 311, 336
-    summary:
+    template:
+      name: Collection - Movies
+      movie: 335, 311, 336
+      summary: Sergio Leone's unofficial Once Upon A Time... trilogy feature some of the late director's best work, and also his most underrated Western.
   Overboard Collection:
-    tmdb_movie: 10780, 454619
-    summary: She was born to spend. He was born to offend. There's only one way they could fall in love... by accident.
+    template:
+      name: Collection - Movies
+      movie: 10780, 454619
+      summary: She was born to spend. He was born to offend. There's only one way they could fall in love... by accident.
   Parker Family Saga:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/1056386
-      - https://www.themoviedb.org/collection/201873
-    tmdb_movie: 485517
+    template:
+      name: Collection - Movie
+      collection: 1056386, 201873
+      movie: 485517
+      summary: The Parker Family Saga (also known as the Jean Shepherd's Parker Family Saga franchise, the Ralph Parker franchise, or colloquially the A Christmas Story franchise), is a collection of American family-comedies based upon the stories of author Jean Shepherd.
   The Phantom of the Opera Collection:
-    tmdb_movie: 9833, 964, 86962, 46330, 76115, 15855, 88920
-    sort_title: Phantom of the Opera Collection
-    summary: >-
-      The Phantom of the Opera (French: Le Fantôme de l'Opéra), is a novel by French writer Gaston Leroux. It was first published as a serialization in Le Gaulois from 23 September 1909, to 8 January 1910. It was published in volume form in late March 1910 by Pierre Lafitte. The novel is partly inspired by historical events at the Paris Opera during the nineteenth century and an apocryphal tale concerning the use of a former ballet pupil's skeleton in Carl Maria von Weber's 1841 production of Der Freischütz. It has been successfully adapted into various stage and film adaptations, most notable of which are the 1925 film depiction featuring Lon Chaney, and Andrew Lloyd Webber's 1986 musical.
+    template:
+      name: Collection - Movies
+      movie: 9833, 964, 86962, 46330, 76115, 15855, 88920
+      sort_title: Phantom of the Opera Collection
+      summary: >-
+        The Phantom of the Opera (French: Le Fantôme de l'Opéra), is a novel by French writer Gaston Leroux. It was first published as a serialization in Le Gaulois from 23 September 1909, to 8 January 1910. It was published in volume form in late March 1910 by Pierre Lafitte. The novel is partly inspired by historical events at the Paris Opera during the nineteenth century and an apocryphal tale concerning the use of a former ballet pupil's skeleton in Carl Maria von Weber's 1841 production of Der Freischütz. It has been successfully adapted into various stage and film adaptations, most notable of which are the 1925 film depiction featuring Lon Chaney, and Andrew Lloyd Webber's 1986 musical.
   The Pink Panther Collection:
     template:
-      name: Search
+      name: Collection - Movie
+      collection: 937, 130440
+      movie: 49854
+      sort_title: Pink Panther Collection
+      summary: The Pink Panther is a movie series of live action mixed with animation totaling in six official films and three not official films. The main character is a clumsy inspector named Jacques Clouseau who is played by Peter Sellers in the official Pink Panther films. Today The Pink Panther is the famous trademark of a huge franchise.
+    plex_search:
       title: Pink Panther
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/937
-      - https://www.themoviedb.org/collection/130440
-    tmdb_movie: 49854
-    summary: The Pink Panther is a movie series of live action mixed with animation totaling in six official films and three not official films. The main character is a clumsy inspector named Jacques Clouseau who is played by Peter Sellers in the official Pink Panther films. Today The Pink Panther is the famous trademark of a huge franchise.
-    sort_title: Pink Panther Collection
   Planet of the Apes Collection:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/1709
-      - https://www.themoviedb.org/collection/173710
-    tmdb_movie:
-      - 451289
-      - 869
-    summary: Planet of the Apes is an American science fiction media franchise about a world in which humans and intelligent apes clash for control. The franchise is based on French author Pierre Boulle's 1963 novel La Planète des singes, translated into English as Planet of the Apes or Monkey Planet.
+    template:
+      name: Collection - Trakt List
+      list: planet-of-the-apes-collection
+      summary: Planet of the Apes is an American science fiction media franchise about a world in which humans and intelligent apes clash for control. The franchise is based on French author Pierre Boulle's 1963 novel La Planète des singes, translated into English as Planet of the Apes or Monkey Planet.
   Police Academy Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/9338
-    summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
+    template:
+      name: Collection
+      collection: 9338
+      summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
   Predator Collection:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/115762-avp-collection
-      - https://www.themoviedb.org/collection/399
-    summary: A science fiction action film series centered on a warrior class extraterrestrial species with technologically advanced weaponry that travel to Earth to trophy hunt human beings.
+    template:
+      name: Collection
+      collection: 115762, 399
+      summary: A science fiction action film series centered on a warrior class extraterrestrial species with technologically advanced weaponry that travel to Earth to trophy hunt human beings.
   The Producers Collection:
-    tmdb_movie: 9899, 30197
-    sort_title: Producers Collection
-    summary: Broadway producer, Max Bialystock and his accountant, Leo Bloom plan to make money by charming little old ladies to invest in a production many times over what it will actually cost, and then put on a sure-fire flop, so nobody will ask for their money back – and what can be a more certain flop than a tasteless musical celebrating Hitler.
+    template:
+      name: Collection - Movies
+      movie: 9899, 30197
+      sort_title: Producers Collection
+      summary: If ya got it... flaunt it!
   Reno 911! Collection:
-    tmdb_movie: 10090, 899599
-    summary: They Might Not Be The Best...But They're The Best We Got.They Might Not Be The Best...But They're The Best We Got.
+    template:
+      name: Collection - Movies
+      movie: 10090, 899599
+      summary: They Might Not Be The Best...But They're The Best We Got.They Might Not Be The Best...But They're The Best We Got.
   RoboCop Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/5547
-    tmdb_movie: 97020
-    summary: The future of law enforcement. Part man. Part machine.
+    template:
+      name: Collection - Movie
+      collection: 5547
+      movie: 97020
+      summary: The future of law enforcement. Part man. Part machine.
   Rock 'n' Roll High School Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/1018344-rock-n-roll-high-school-collection
-    summary: Will your school be NEXT?
+    template:
+      name: Collection
+      collection: 1018344
+      summary: Will your school be NEXT?
   Saturday Night Live Collection:
     template:
       name: Search
@@ -467,6 +516,7 @@ collections:
     collection_order: alpha
     tmdb_movie: 344658, 334328
     summary: LAY OFF ME I'M STARVING!
+    sync_to_trakt_list: Saturday Night Live Collection
   Scarlet Witch Collection:
     tmdb_movie: 453395
     summary: The Scarlet Witch is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. Her first appearance was in The X-Men number 4 in the Silver Age of Comic Books.
