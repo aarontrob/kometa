@@ -511,12 +511,9 @@ collections:
       summary: Will your school be NEXT?
   Saturday Night Live Collection:
     template:
-      name: Search
-      title: Saturday Night Live
-    collection_order: alpha
-    tmdb_movie: 344658, 334328
-    summary: LAY OFF ME I'M STARVING!
-    sync_to_trakt_list: saturday-night-live-collection
+      name: Collection - Trakt List Custom Order
+      list: saturday-night-live-collection
+      summary: LAY OFF ME I'M STARVING!
   Scarlet Witch Collection:
     tmdb_movie: 453395
     summary: The Scarlet Witch is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. Her first appearance was in The X-Men number 4 in the Silver Age of Comic Books.

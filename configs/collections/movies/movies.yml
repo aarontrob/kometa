@@ -779,12 +779,9 @@ collections:
       summary: Will your school be NEXT?
   Saturday Night Live Collection:
     template:
-      name: Search
-      title: Saturday Night Live
-    collection_order: alpha
-    tmdb_movie: '344658, 334328'
-    summary: LAY OFF ME I'M STARVING!
-    sync_to_trakt_list: saturday-night-live-collection
+      name: Collection - Trakt List Custom Order
+      list: saturday-night-live-collection
+      summary: LAY OFF ME I'M STARVING!
   Scarlet Witch Collection:
     tmdb_movie: 453395
     summary: >-
