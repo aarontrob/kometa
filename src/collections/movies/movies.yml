@@ -612,51 +612,57 @@ collections:
       summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil.
   Turner & Hooch Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 6951
-    summary: The Oddest Couple Ever Unleashed!
+      summary: The Oddest Couple Ever Unleashed!
   The Twilight Zone Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 15301
-    sort_title: Twilight Zone Collection
+      sort_title: Twilight Zone Collection
   Twin Peaks Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 1923
   Watchmen Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 13183
   Weird Science Collection:
     template:
-      name: Collection Hide
-    tmdb_movie: 11814
+      name: Collection - Hide
+      movie: 11814
   West Side Story Collection:
-    tmdb_movie: 511809, 1725
-    summary: A city divided. Their love will change everything
+    template:
+      name: Collection - Movies
+      movie: 511809, 1725
+      summary: A city divided. Their love will change everything
   Wet Hot American Summer Collection:
     template:
-      name: Collection Movies
-      movies: 2171, 352552
-    summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."
+      name: Collection - Hide
+      movie: 2171
+      summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."
   Willow Collection:
     template:
-      name: Collection Hide
-    tmdb_movie: 847
+      name: Collection - Hide
+      movie: 847
   Willy Wonka Collection:
-    tmdb_movie: 252, 118, 455411
-    summary: We are the music makers, and we are the dreamers of dreams.
+    template:
+      name: Collection - Movies
+      movie: 252, 118, 455411
+      summary: We are the music makers, and we are the dreamers of dreams.
   The Wizard of Oz Collection:
-    sort_title: Wizard of Oz Collection
-    tmdb_movie: 630, 68728, 13155, 72972, 403510
+    template:
+      name: Collection - Hide
+      movie: 630
+      sort_title: Wizard of Oz Collection
   Wizarding World Collection:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/1241
-      - https://www.themoviedb.org/collection/435259
-    summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
+    template:
+      name: Collection
+      collection: 1241, 435259
+      summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
   X-Men Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/x-men-collection-timeline
-    collection_order: custom
-    sync_mode: sync
-    summary: X-Men is an American superhero film series based on the fictional superhero team of the same name, who originally appeared in a series of comic books created by Stan Lee and Jack Kirby and published by Marvel Comics.
+    template:
+      name: Collection - Trakt List Custom Order
+      list: x-men-collection-timeline
+      summary: Trust a few. Fear the rest. Protecting those who fear them.
