@@ -439,8 +439,8 @@ collections:
         weaken, no matter what.
   The Grinch Collection:
     template:
-      name: Collection - Movies
-      movie: '360920, 8871, 13377, 762951, 52207, 46963'
+      name: Collection - Trakt List
+      list: the-grinch-collection
       sort_title: Grinch Collection
       summary: >-
         The Grinch is a fictional character created by Dr. Seuss. He is best
@@ -448,33 +448,39 @@ collections:
         Stole Christmas!. He has been portrayed and voiced by many different
         actors, including Boris Karloff, Hans Conried, Bob Holt, Jim Carrey, and
         Benedict Cumberbatch.
-    sync_to_trakt_list: the-grinch-collection
   Guardians of the Galaxy Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/284433'
-    tmdb_movie: 774752
-    summary: 'When things get bad, they''ll do their worst.'
+    template:
+      name: Collection - Movie
+      collection: 284433
+      movie: 774752
+      summary: 'When things get bad, they''ll do their worst.'
   Heathers Collection:
-    tmdb_movie: '2640, 941605'
-    summary: 'Best friends, social trends, and occasional murder.'
+    template:
+      name: Collection - Movies
+      movie: '2640, 941605'
+      summary: 'Best friends, social trends, and occasional murder.'
   Hellboy Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/17235'
-    tmdb_movie: 456740
-    summary: From the Dark Side to Our Side.
+    template:
+      name: Collection - Movie
+      collection: 17235
+      movie: 456740
+      summary: From the Dark Side to Our Side.
   Hercule Poirot Collection:
     template:
       name: Collection
       collection: '735384, 752992'
-    summary: >-
-      The adventures of Belgian detective Hercule Poirot, as he solves gruesome
-      murders on various vehicles of transportation.
+      summary: >-
+        The adventures of Belgian detective Hercule Poirot, as he solves
+        gruesome murders on various vehicles of transportation.
   History of the World Collection:
     template:
-      name: Collection Hide
-    tmdb_movie: 10156
+      name: Collection - Hide
+      movie: 10156
   Home Alone Collection:
-    tmdb_collection: 9888
-    tmdb_movie: 654974
-    summary: 'Merry Christmas, ya filthy animal!'
+    template:
+      name: Collection
+      collection: 9888
+      summary: 'Merry Christmas, ya filthy animal!'
   Hulk Collection:
     template:
       name: Search
