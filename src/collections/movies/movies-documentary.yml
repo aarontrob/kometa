@@ -1,0 +1,195 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../../templates/collection.yml
+  - ../../templates/collection-movies.yml
+  - ../../templates/search.yml
+
+######################################################
+#                   Collections                      #
+######################################################
+
+collections:
+  Alien Collection:
+    template:
+      name: Collection - Hide
+      movie: 565591
+      summary: In space no one can hear you scream.
+  Back to the Future Collection:
+    template:
+      name: Collection - Hide
+      movie: 330127
+      summary: "Where we're going, we don't need roads"
+  Blade Runner Collection:
+    template:
+      name: Collection - Hide
+      movie: 57656
+      summary: Man Has Made His Match... Now It's His Problem
+  Child's Play Collection:
+    template:
+      name: Collection - Hide
+      movie: 926762
+      name_mapping: Childs Play Collection
+  Creepshow Collection:
+    template:
+      name: Collection - Hide
+      movie: 356677
+      summary: The Most Fun You'll Ever Have... BEING SCARED!
+  Dune Collection:
+    template:
+      name: Collection - Hide
+      movie: 191720
+      summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
+  Fantastic Four Collection:
+    template:
+      name: Collection - Hide
+      movie: 216529
+      summary: Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize their scientific backgrounds to band together and defend the world against perilous threats.
+  Flash Gordon Collection:
+    template:
+      name: Collection - Hide
+      movie: 505247
+  Friday the 13th Collection:
+    template:
+      name: Collection - Movies
+      movie: 15004, 222724
+      summary: They were warned...They are doomed...And on Friday the 13th, nothing will save them.
+  Garbage Pail Kids Collection:
+    template:
+      name: Collection - Hide
+      movie: 270533
+  Grey Gardens Collection:
+    template:
+      name: Collection - Movies
+      movie: 17346, 47491
+      summary: I tell you if there's anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what.
+  Halloween Collection:
+    template:
+      name: Collection - Hide
+      movie: 28900
+      summary: Trick or treat... or die
+  The Hannibal Lecter Collection:
+    template:
+      name: Collection - Hide
+      movie: 384189
+      sort_title: Hannibal Lecter Collection
+  Harry Potter Collection:
+    template:
+      name: Collection - Hide
+      movie: 899082
+  Hellraiser Collection:
+    template:
+      name: Collection - Hide
+      movie: 348191
+  It Collection:
+    template:
+      name: Collection - Hide
+      movie: 512356
+  Jaws Collection:
+    template:
+      name: Collection - Hide
+      movie: 84219
+      summary: You'll never go in the water again!
+  Living Dead Collection:
+    template:
+      name: Collection - Hide
+      movie: 87489
+      summary: Night of the Living Dead is a series of zombie horror films written and directed by George A. Romero beginning with the 1968 film Night of the Living Dead written by Romero and John A. Russo. The loosely connected franchise predominantly centers on different groups of people attempting to survive during the outbreak and evolution of a zombie apocalypse.
+  Masters of the Universe Collection:
+    template:
+      name: Collection - Hide
+      movie: 540556
+      summary: By the Power of Grayskull!
+  The Matrix Collection:
+    template:
+      name: Collection - Movies
+      movie: 14543, 55931
+      sort_title: Matrix Collection
+      summary: Reality is a thing of the past.
+  A Nightmare on Elm Street Collection:
+    template:
+      name: Collection - Movies
+      movie: 23437, 37757, 321066, 6466
+      sort_title: Nightmare on Elm Street Collection
+      summary: Don't Fall Asleep!
+  Peanuts Collection:
+    template:
+      name: Collection - Hide
+      movie: 836919
+      summary: >-
+        Peanuts is a syndicated daily and Sunday American comic strip written and illustrated by Charles M. Schulz that ran from October 2, 1950, to February 13, 2000, and continuing in reruns afterward. Peanuts is among the most popular and influential in the history of comic strips, with 17,897 strips published in all, making it "arguably the longest story ever told by one human being". By the time of Schulz's death in 2000, Peanuts ran in over 2,600 newspapers, with a readership of around 355 million in 75 countries, and was translated into 21 languages. It helped to cement the four-panel gag strip as the standard in the United States, and together with its merchandise earned Schulz more than $1 billion.
+
+        Peanuts focuses entirely on a social circle of young children, where adults exist but are never seen and rarely heard. The main character, Charlie Brown, is meek, nervous, and lacks self-confidence. He is unable to fly a kite, win a baseball game, or kick a football held by his irascible friend Lucy, who always pulls it away at the last instant.
+
+        Peanuts is one of the literate strips with philosophical, psychological, and sociological overtones that flourished in the 1950s. Peanuts's humor is psychologically complex and driven by the characters' interactions and relationships.
+  Planet of the Apes Collection:
+    template:
+      name: Collection - Movies
+      movie: 451289, 869, 17244
+      summary: Planet of the Apes is an American science fiction media franchise about a world in which humans and intelligent apes clash for control. The franchise is based on French author Pierre Boulle's 1963 novel La Planète des singes, translated into English as Planet of the Apes or Monkey Planet.
+  Return of the Living Dead Collection:
+    template:
+      name: Collection - Hide
+      movie: 77171
+      summary: The series came about as a dispute between John A. Russo and George A. Romero over how to handle sequels to their 1968 film, Night of the Living Dead. The two reached a settlement wherein Romero's sequels would be referred to as the Dead movies, and Russo's sequels would bear the suffix Living Dead.
+  Pet Sematary Collection:
+    template:
+      name: Collection - Hide
+      movie: 430035
+  Psycho Collection:
+    template:
+      name: Collection - Hide
+      movie: 89994
+  Saturday Night Live Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: saturday-night-live-collection
+      summary: LAY OFF ME I'M STARVING!
+  Scream Collection:
+    template:
+      name: Collection - Hide
+      movie: 83938
+  The Shining Collection:
+    template:
+      name: Collection - Hide
+      movie: 84330
+      sort_title: Shining Collection
+      summary: The Horror is driving him crazy
+  Showgirls Collection:
+    template:
+      name: Collection - Hide
+      movie: 592997
+      summary: There's always someone younger and hungrier coming down the stairs after you.
+  Star Wars:
+    template:
+      name: Collection - Trakt List
+      list: star-wars-collection
+      summary: A long time ago in a galaxy far, far away....
+  Star Trek:
+    template:
+      name: Collection - Hide
+      movie: 338544
+      summary: >-
+        These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man one has gone before!
+    label: Movies
+  Superman Collection:
+    template:
+      name: Collection - Hide
+      movie: 24479
+      summary: Truth, Justice and a Better Tomorrow
+  Teenage Mutant Ninja Turtles Collection:
+    template:
+      name: Collection - Hide
+      movie: 280276
+      summary: COWABUNGA!
+  Troll Collection:
+    template:
+      name: Collection - Hide
+      movie: 40819
+  Wet Hot American Summer Collection:
+    template:
+      name: Collection - Hide
+      movie: 352552
+      summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."

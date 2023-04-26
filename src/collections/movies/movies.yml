@@ -32,12 +32,12 @@ collections:
     template:
       name: Collection - Trakt List Custom Order
       list: alien-collection-timeline
-      summary: A science fiction horror film franchise, focusing on Lieutenant Ellen Ripley (Sigourney Weaver) and her battle with an extraterrestrial life-form, commonly referred to as "the Alien".
+      summary: In space no one can hear you scream.
   Aquaman Collection:
     template:
       name: Collection
       collection: 573693
-      summary: Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth’s surface, including all the creatures contained within.
+      summary: Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth's surface, including all the creatures contained within.
   Around the World in 80 Days Collection:
     template:
       name: Collection - Movies
@@ -54,20 +54,17 @@ collections:
       name: Collection - Movie
       collection: 264
       movie: 517683, 741959, 330127
-      summary: An American science fiction–comedy film series that follows the adventures of a high school student, Marty McFly and an eccentric scientist, Dr Emmett L. Brown as they use a DeLorean time machine to time travel to different periods in the history of Hill Valley, California.
+      summary: "Where we're going, we don't need roads"
   Batman Collection:
     template:
       name: Collection - Trakt List
       list: batman-collection
-      summary: >-
-        Batman is a superhero who appears in American comic books published by DC Comics. Batman was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in Gotham City. Batman's origin story features him swearing vengeance against criminals after witnessing the murder of his parents Thomas and Martha; he trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night. Kane, Finger, and other creators accompanied Batman with supporting characters, including his sidekick Robin; allies Alfred Pennyworth, James Gordon, and Catwoman; and foes such as the Penguin, the Riddler, Two-Face, and his archenemy, the Joker.
+      summary: Justice is always Darkest before the Dawn.
   Battlestar Galactica Collection:
     template:
       name: Collection - Trakt List
       trakt_list: battlestar-galactica-collection
-      summary: >-
-        Battlestar Galactica is an American science fiction media franchise created by Glen A. Larson.
-        All Battlestar Galactica productions share the premise that in a distant part of the universe, a human civilization has extended to a group of planets known as the Twelve Colonies, to which they have migrated from their ancestral homeworld of Kobol. The Twelve Colonies have been engaged in a lengthy war with a cybernetic race known as the Cylons, whose goal is the extermination of the human race. The Cylons offer peace to the humans, which proves to be a ruse. With the aid of a human named Baltar, the Cylons carry out a massive nuclear attack on the Twelve Colonies and on the Colonial Fleet of starships that protect them. These attacks devastate the Colonial Fleet, lay waste to the Colonies, and virtually destroy all but a population of 50,000. Scattered survivors flee into outer space aboard a ragtag array of spaceworthy ships. Of the entire Colonial battle fleet, only the Battlestar Galactica, a gigantic battleship and spacecraft carrier, appears to have survived the Cylon attack. Under the leadership of Commander Adama, the Galactica and the pilots of "Viper fighters" lead a fugitive fleet of survivors in search of the fabled thirteenth colony known as Earth.
+      summary: The fight to save humanity rages on. Where will you stand? Destiny is not what it seems.
   Beetlejuice Collection:
     template:
       name: Collection - Hide
@@ -176,7 +173,7 @@ collections:
     template:
       name: Collection - Movies
       movie: 9482, 49049
-      summary: In the future, America is a dystopian wasteland. The latest scourge is Ma-Ma, a prostitute-turned-drug pusher with a dangerous new drug and aims to take over the city. The only possibility of stopping her is an elite group of urban police called Judges, who combine the duties of judge, jury and executioner to deliver a brutal brand of swift justice. But even the top-ranking Judge, Dredd, discovers that taking down Ma-Ma isn’t as easy as it seems in this explosive adaptation of the hugely popular comic series.
+      summary: In the future, America is a dystopian wasteland. The latest scourge is Ma-Ma, a prostitute-turned-drug pusher with a dangerous new drug and aims to take over the city. The only possibility of stopping her is an elite group of urban police called Judges, who combine the duties of judge, jury and executioner to deliver a brutal brand of swift justice. But even the top-ranking Judge, Dredd, discovers that taking down Ma-Ma isn't as easy as it seems in this explosive adaptation of the hugely popular comic series.
   Dune Collection:
     template:
       name: Collection - Movies
@@ -245,7 +242,7 @@ collections:
     template:
       name: Collection - Movies
       movie: 19851
-      summary: I tell you if there’s anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There’s nothing worse, I’m telling you. They don’t weaken, no matter what.
+      summary: I tell you if there's anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what.
   The Grinch Collection:
     template:
       name: Collection - Trakt List
@@ -322,7 +319,7 @@ collections:
       name: Collection - Movie
       collection: 2366
       movie: 84060
-      summary: The classic horror films about a great white shark that’s been attacking people of the coast of New England and bringing terror to their beach vacations. The first film was a major box-office success bringing in almost 500 million world wide and spawning the blockbuster movie phenomena and multiple sequels.
+      summary: The classic horror films about a great white shark that's been attacking people of the coast of New England and bringing terror to their beach vacations. The first film was a major box-office success bringing in almost 500 million world wide and spawning the blockbuster movie phenomena and multiple sequels.
   Josie and the Pussycats Collection:
     template:
       name: Collection - Hide
@@ -397,7 +394,7 @@ collections:
     template:
       name: Collection
       collection: 119, 121938
-      summary: Middle-earth is the fictional setting of much of the English writer J. R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse mythology and Middangeard in Old English works, including Beowulf. Middle-earth is the human-inhabited world, that is, the central continent of the Earth, in Tolkien's imagined mythological past. Tolkien's most widely read works, The Hobbit and The Lord of the Rings, are set entirely in Middle-earth. "Middle-earth" has also become a short-hand term for Tolkien's legendarium, his large body of fantasy writings, and for the entirety of his fictional world.'  '
+      summary: Middle-earth is the fictional setting of much of the English writer J. R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse mythology and Middangeard in Old English works, including Beowulf. Middle-earth is the human-inhabited world, that is, the central continent of the Earth, in Tolkien's imagined mythological past. Tolkien's most widely read works, The Hobbit and The Lord of the Rings, are set entirely in Middle-earth. "Middle-earth" has also become a short-hand term for Tolkien's legendarium, his large body of fantasy writings, and for the entirety of his fictional world.
   Miss Marple Collection:
     template:
       name: Collection

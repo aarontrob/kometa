@@ -30,13 +30,13 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List:
-    optional:
-      - sort_title
-      - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
+    optional:
+      - sort_title
+      - summary
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
@@ -93,40 +93,31 @@ templates:
     summary: <<summary>>
 collections:
   101 Dalmatians Collection:
-    tmdb_collection:
-      - 'https://www.themoviedb.org/collection/124916'
-      - 'https://www.themoviedb.org/collection/100693'
-      - 'https://www.themoviedb.org/collection/837007-cruella-collection'
-    summary: Crafty Cruella... chasing every spotted puppy in town.
-    label: Kids
+    template:
+      name: Collection
+      collection: '124916, 100693, 837007'
+      summary: Crafty Cruella... chasing every spotted puppy in town.
   3 Ninjas Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/71458'
-    summary: >-
-      Each year, three brothers Samuel, Jeffrey and Michael Douglas visits their
-      Japanese grandfather, Mori Shintaro whom the boys affectionately refer to
-      as Grandpa, for the summer. Mori is a highly skilled in the fields of
-      Martial arts and Ninjutsu, and for years he has trained the boys in his
-      techniques.
-    label: Kids
+    template:
+      name: Collection
+      collection: 71458
+      summary: Comin' at you!
   Air Bud Collection:
     template:
-      name: Collection Movie
-      collection: >-
-        https://www.themoviedb.org/collection/97445,
-        https://www.themoviedb.org/collection/91657-disney-buddies-collection
+      name: Collection - Movie
+      collection: '97445, 91657'
       movie: 9973
-    label: Kids
   Aladdin Collection:
-    tmdb_collection:
-      - 'https://www.themoviedb.org/collection/86027'
-      - 'https://www.themoviedb.org/collection/748401'
-    summary: A diamond in the rough.
-    label: Kids
+    template:
+      name: Collection
+      collection: '86027, 748401'
+      summary: A diamond in the rough.
   Alice in Wonderland Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/261307'
-    tmdb_movie: 12092
-    summary: We Are All Mad Here.
-    label: Kids
+    template:
+      name: Collection - Movie
+      collection: 261307
+      movie: 12092
+      summary: We Are All Mad Here.
   Alvin and the Chipmunks Collection:
     template:
       name: Search
@@ -140,7 +131,7 @@ collections:
       troublemaker. Simon, the tall, bespectacled intellectual. And Theodore,
       the chubby, shy one. The trio is managed by their human adoptive father,
       David (Dave) Seville.
-    label: Kids
+    sync_to_trakt_list: alvin-and-the-chipmunks-collection
   Batman Collection:
     template:
       name: Search
@@ -159,14 +150,12 @@ collections:
       sidekick Robin; allies Alfred Pennyworth, James Gordon, and Catwoman; and
       foes such as the Penguin, the Riddler, Two-Face, and his archenemy, the
       Joker.
-    label: Kids
   Beauty and the Beast Collection:
     template:
       name: Collection Movie
       collection: 'https://www.themoviedb.org/collection/153010'
       movie: 321612
     summary: Tale as old as time.
-    label: Kids
   Big Hero 6 Collection:
     template:
       name: Search
@@ -187,12 +176,10 @@ collections:
       name: Collection Movie
       collection: 'https://www.themoviedb.org/collection/732397'
       movie: 768509
-    label: Kids
   Care Bears Collection:
     template:
       name: Search
       title: Care Bears
-    label: Kids
   Cars Collection:
     trakt_list: 'https://trakt.tv/users/goape/lists/cars-collection'
     summary: Our Cars Speak For Themselves.
@@ -220,7 +207,6 @@ collections:
       name: Collection Movie
       collection: 'https://www.themoviedb.org/collection/55419'
       movie: 150689
-    label: Kids
   Coco Collection:
     tmdb_movie: '449621, 354912'
     summary: The celebration of a lifetime
@@ -233,12 +219,10 @@ collections:
     tmdb_collection:
       - 'https://www.themoviedb.org/collection/86110'
       - 'https://www.themoviedb.org/collection/897238'
-    label: Kids
   Dr. Dolittle Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/3169'
     tmdb_movie: '448119, 16081'
     name_mapping: Dr Dolittle Collection
-    label: Kids
   DuckTales Collection:
     template:
       name: Collection Hide
@@ -267,22 +251,18 @@ collections:
       Productions. The series takes place in a romanticized Stone Age setting
       and follows the activities of the title family, the Flintstones, and their
       next-door neighbors, the Rubbles.
-    label: Kids
   Flubber Collection:
     template:
       name: Collection Movie
       collection: 'https://www.themoviedb.org/collection/294468'
       movie: 9574
     summary: The stuff dreams are made of. What is flubber? Catch it if you can!
-    label: Kids
   Frosty the Snowman Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/363015'
     summary: 'No money, no TICKET!'
-    label: Kids
   Frozen Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/386382'
     tmdb_movie: '326359, 460793, 741074'
-    label: Kids
     summary: >-
       Frozen features the sisterly love between the fearless optimist Anna, her
       mysterious sister Elsa and the snowman Olaf.
@@ -299,7 +279,6 @@ collections:
       published locally as Jon in 1976, then in nationwide syndication from 1978
       as Garfield, it chronicles the life of the title character, Garfield the
       cat; Jon Arbuckle, his human owner; and Odie, the dog.
-    label: Kids
   The Grinch Collection:
     tmdb_movie: '360920, 8871, 13377, 762951, 52207, 46963'
     sort_title: Grinch Collection
@@ -344,7 +323,6 @@ collections:
       name: Search
       title: Ice Age
     tmdb_movie: 46247
-    label: Kids
   The Incredibles Collection:
     trakt_list: 'https://trakt.tv/users/goape/lists/the-incredibles-collection'
     summary: Expect the Incredible
@@ -383,7 +361,6 @@ collections:
     summary: >-
       For the strength of the Pack is the Wolf, and the strength of the Wolf is
       the Pack.
-    label: Kids
   Justice League Collection:
     template:
       name: Search
@@ -398,7 +375,6 @@ collections:
       a version of old China populated by humanoid talking animals, the plot
       revolves around a bumbling humanoid panda named Po who aspires to be a
       kung fu master.
-    label: Kids
   Lady and the Tramp Collection:
     template:
       name: Collection Movie
@@ -412,7 +388,6 @@ collections:
       romance begins to blossom between the two dogs, but their many
       differences, along with more drama at Lady's household, threaten to keep
       them apart.
-    label: Kids
   The Lion King Collection:
     template:
       name: Collection Movie
@@ -425,14 +400,12 @@ collections:
       Lands, with their leader Simba watching over it as «king». In the original
       film, Simba was tricked into thinking he killed his father, a guilt ridden
       lion cub flees into exile and abandons his identity as the future King.
-    label: Kids
   The Little Mermaid Collection:
     template:
       name: Collection Movie
       collection: 'https://www.themoviedb.org/collection/33085'
       movie: '447277, 642271'
     sort_title: Little Mermaid Collection
-    label: Kids
   The Little Rascals Collection:
     sort_title: Little Rascals Collection
     template:
@@ -461,12 +434,10 @@ collections:
       name: Collection Movie
       collection: 'https://www.themoviedb.org/collection/14740'
       movie: '270946, 161143, 25472, 10258'
-    label: Kids
   Mario Collection:
     template:
       name: Collection Hide
       movie: 9607
-    label: Kids
   Mary Poppins Collection:
     tmdb_movie: '433, 400650, 140823'
     summary: It's supercalifragilisticexpialidocious!
@@ -483,7 +454,6 @@ collections:
     tmdb_collection: 544669
     trakt_list: 'https://trakt.tv/users/goape/lists/minions-collection'
     summary: 'Despicable Me'' spin-off series, focusing on the Minions characters.'
-    label: Kids
   'Monsters, Inc. Collection':
     trakt_list: 'https://trakt.tv/users/goape/lists/monsters-inc-collection'
     summary: We Scare Because We Care
@@ -500,7 +470,6 @@ collections:
     summary: >-
       To save her father from death in the army, a young maiden secretly goes in
       his place and becomes one of China's greatest heroines in the process.
-    label: Kids
   The Muppets Collection:
     template:
       name: Search
@@ -512,7 +481,6 @@ collections:
       Created by Jim Henson in 1955, they are the namesakes of the Disney-owned
       media franchise that encompasses television, film, music, and other media
       associated with the characters.
-    label: Kids
   Parent Trap Collection:
     template:
       name: Collection Movie
@@ -525,7 +493,6 @@ collections:
       their mother and the other with their father, switch places after camp and
       go to work on their plan, the first objective being to scare off a
       gold-digger pursuing their father.
-    label: Kids
   Peanuts Collection:
     trakt_list: 'https://trakt.tv/users/goape/lists/peanuts-collection'
     summary: >-
@@ -578,7 +545,6 @@ collections:
       Pokémon for sport. All media works within the franchise are set in the
       Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em
       All!". There are currently 900 Pokémon species.
-    label: Kids
   Popeye Collection:
     template:
       name: Search
@@ -589,7 +555,6 @@ collections:
     tmdb_movie: '305470, 80615, 1068141, 630687'
     tmdb_collection: 'https://www.themoviedb.org/collection/708816-power-rangers-collection'
     summary: GO GO POWER RANGERS!
-    label: Kids
   Ratatouille Collection:
     tmdb_movie: '13061, 2062'
     summary: A comedy with great taste.
@@ -622,7 +587,6 @@ collections:
       and Lil, and Angelica—and their day-to-day lives, usually involving life
       experiences that become much greater adventures in the imaginations of the
       main characters.
-    label: Kids
   Scooby-Doo! Collection:
     template:
       name: Search
@@ -637,7 +601,6 @@ collections:
       Blake, Velma Dinkley, and Shaggy Rogers, and their talking Great Dane
       named Scooby-Doo, who solve mysteries involving supposedly supernatural
       creatures through a series of antics and missteps.
-    label: Kids
   The Secret Life of Pets Collection:
     tmdb_movie: 624993
     tmdb_collection: 'https://www.themoviedb.org/collection/427084'
@@ -653,18 +616,15 @@ collections:
       Through an ancient spell, a boy changes into a sheepdog and back again. It
       seems to happen at inopportune times and the spell can only be broken by
       an act of bravery.
-    label: Kids
   Shrek Collection:
     trakt_list: 'https://trakt.tv/users/goape/lists/shrek-collection'
     summary: >-
       The fairytale story of a large, strong, solitude-loving, intimidating ogre
       named Shrek, and his friends.
-    label: Kids
   Sleeping Beauty Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/531331'
     tmdb_movie: 10882
     summary: Once Upon a Dream
-    label: Kids
   The Smurfs Collection:
     template:
       name: Search
@@ -674,7 +634,6 @@ collections:
       - 'https://www.themoviedb.org/collection/125577'
     summary: Smurf happens
     sort_title: Smurfs Collection
-    label: Kids
   Sonic the Hedgehog Collection:
     template:
       name: Search
@@ -683,7 +642,6 @@ collections:
       Sonic the Hedgehog is a Japanese video game series and media franchise
       created and owned by Sega. The franchise follows Sonic, an anthropomorphic
       blue hedgehog who battles the evil Doctor Eggman, a mad scientist.
-    label: Kids
   Soul Collection:
     tmdb_movie: '811367, 508442'
     summary: Is all this living really worth dying for?
@@ -702,7 +660,6 @@ collections:
       A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook
       at Krusty Krab, lives in the Pacific Ocean. He embarks on various
       adventures with his friends at Bikini Bottom.
-    label: Kids
   Star Wars:
     trakt_list: 'https://trakt.tv/users/goape/lists/star-wars-collection'
     summary: 'A long time ago in a galaxy far, far away....'
@@ -722,11 +679,9 @@ collections:
       books published by DC Comics. The character was created by writer Jerry
       Siegel and artist Joe Shuster, and first appeared in the comic book Action
       Comics #1.
-    label: Kids
   Tangled Collection:
     tmdb_movie: '38757, 82881, 438747'
     summary: They're taking adventure to new lengths.
-    label: Kids
   Tarzan Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/106768'
     summary: Two Worlds. One Family.
@@ -743,13 +698,7 @@ collections:
       movie: >-
         581997, 146525, 149505, 146470, 146463, 280276, 147939, 109394, 148599,
         1273, 109394
-    summary: >-
-      The Teenage Mutant Ninja Turtles (often shortened to the TMNT or Ninja
-      Turtles) are a fictional superhero quartet of teenage anthropomorphic
-      turtle ninja that appear in a self-titled franchise consisting of comic
-      books, animated children's cartoons, feature films, and other tie-in
-      products.
-    label: Kids
+    summary: COWABUNGA!
   Teen Titans Collection:
     template:
       name: Search
@@ -794,7 +743,6 @@ collections:
       classic cowboy named Sheriff Woody and a modern spaceman named Buzz
       Lightyear. The group unexpectedly embark on adventures that challenge and
       change them.
-    label: Kids
   Transformers Collection:
     template:
       name: Search
@@ -806,7 +754,6 @@ collections:
     sort_title: Trolls Collection
     tmdb_collection: 'https://www.themoviedb.org/collection/489724'
     tmdb_movie: '896221, 484510'
-    label: Kids
   Up Collection:
     tmdb_movie: '72962, 14160, 24589'
     summary: The greatest adventure is just getting back home.
@@ -826,7 +773,6 @@ collections:
       Milne, is one of the most popular characters adapted for film and
       television by The Walt Disney Company.
   The Wizard of Oz Collection:
-    label: Kids
     sort_title: Wizard of Oz Collection
     tmdb_movie: '630, 68728, 13155, 72972, 403510'
     schedule: daily

@@ -1,0 +1,18 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../../templates/collection.yml
+  - ../../templates/collection-movies.yml
+  - ../../templates/search.yml
+
+######################################################
+#                   Collections                      #
+######################################################
+
+collections:
+  Love, Simon Collection:
+    template:
+      name: Collection - Hide
+      movie: 449176
