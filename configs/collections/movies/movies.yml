@@ -783,42 +783,46 @@ collections:
       list: saturday-night-live-collection
       summary: LAY OFF ME I'M STARVING!
   Scarlet Witch Collection:
-    tmdb_movie: 453395
-    summary: >-
-      The Scarlet Witch is a fictional character appearing in American comic
-      books published by Marvel Comics. The character was created by writer Stan
-      Lee and artist Jack Kirby. Her first appearance was in The X-Men number 4
-      in the Silver Age of Comic Books.
+    template:
+      name: Collection - Movies
+      movie: 453395
+      summary: >-
+        The Scarlet Witch is a fictional character appearing in American comic
+        books published by Marvel Comics. The character was created by writer
+        Stan Lee and artist Jack Kirby. Her first appearance was in The X-Men
+        number 4 in the Silver Age of Comic Books.
   Shazam! Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 287947
-    name_mapping: Shazam Collection
+      name_mapping: Shazam Collection
   Sherlock Holmes Collection:
     template:
-      name: Collection List
-      list: 'https://trakt.tv/users/goape/lists/sherlock-holmes-collection'
-    summary: >-
-      Sherlock Holmes is a fictional private detective created by British author
-      Sir Arthur Conan Doyle. Referring to himself as a "consulting detective"
-      in the stories, Holmes is known for his proficiency with observation,
-      deduction, forensic science, and logical reasoning that borders on the
-      fantastic, which he employs when investigating cases for a wide variety of
-      clients, including Scotland Yard.
+      name: Collection - Trakt List
+      list: sherlock-holmes-collection
+      summary: >-
+        Sherlock Holmes is a fictional private detective created by British
+        author Sir Arthur Conan Doyle. Referring to himself as a "consulting
+        detective" in the stories, Holmes is known for his proficiency with
+        observation, deduction, forensic science, and logical reasoning that
+        borders on the fantastic, which he employs when investigating cases for
+        a wide variety of clients, including Scotland Yard.
   Showgirls Collection:
-    tmdb_collection: 247294
-    tmdb_movie: 592997
-    summary: >-
-      There's always someone younger and hungrier coming down the stairs after
-      you.
+    template:
+      name: Collection - Movie
+      collection: 247294
+      movie: 592997
+      summary: >-
+        There's always someone younger and hungrier coming down the stairs after
+        you.
   Sinbad Collection:
     template:
       name: Collection
-      collection: 'https://www.themoviedb.org/collection/321063'
-    summary: My heart is filled with courage! But I have very cowardly legs.
+      collection: 321063
+      summary: My heart is filled with courage! But I have very cowardly legs.
   Spaceballs Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 957
   Spider-Man Collection:
     template:
@@ -830,13 +834,8 @@ collections:
         - 'https://www.themoviedb.org/collection/125574'
     plex_search:
       title: Spider-man
-    summary: >-
-      A superhero film series based on the Marvel Comics character 'Spider-Man'.
-      The series is centered on Peter Parker, an academically gifted but
-      socially inept freelance photographer who gets bitten by a genetically
-      modified spider and gains spider-like abilities, all of which he uses to
-      fight crime as a spider-masked vigilante learning for himself that great
-      power comes with great responsibility.
+    summary: With great power comes great responsibility
+    sync_to_trakt_list: spider-man-collection
   Spinal Tap Collection:
     template:
       name: Collection Movies
