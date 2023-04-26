@@ -43,26 +43,26 @@ collections:
         animated series, including The Huckleberry Hound Show, The Flintstones,
         The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You!
         and The Smurfs
-  Marvel:
+  Marvel Filtered:
     template:
       name: Studio
       company: '7505, 19551, 420, 11106, 13252, 38679'
+      list: marvel
+      summary: With great power comes great responsibility
     plex_search:
       title: I Am Groot
+    show_filtered: true
     filters:
       title.not: 'Men In Black: The Series'
-    trakt_list: 'https://trakt.tv/users/goape/lists/marvel'
-    summary: With great power comes great responsibility
+    name: Marvel
   Pixar Animation Studios:
     template:
-      name: Studio Release
-    tmdb_show: 114505
+      name: Studio - Trakt List
+      list: pixar-animation-studios
+      summary: >-
+        Pixar Animation Studios is an American computer animation studio known
+        for its critically and commercially successful feature films. It is
+        based in Emeryville, California, and is a subsidiary of Walt Disney
+        Studios owned by The Walt Disney Company.
     plex_search:
       title: Pixar
-    trakt_list: 'https://trakt.tv/users/goape/lists/pixar-animation-studios'
-    sync_mode: sync
-    summary: >-
-      Pixar Animation Studios is an American computer animation studio known for
-      its critically and commercially successful feature films. It is based in
-      Emeryville, California, and is a subsidiary of Walt Disney Studios owned
-      by The Walt Disney Company.

@@ -16,12 +16,10 @@ collections:
       company: 2, 3, 6125, 3166, 3475, 670
       list: disney
     name: Disney
-    sync_mode: sync
     plex_search:
       title:
         - The Wonderful World of Disney
         - Disneyland
     show_filtered: true
     title.not:
-      - Power Rangers
       - Storm of the Century
