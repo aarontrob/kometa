@@ -11,10 +11,10 @@ templates: !!import/shallow
 
 collections:
   Hanna-Barbera:
-    template: { name: Studio, company: 1353 }
-    tmdb_show: 5305
-    tvdb_show: 374536
-    summary: Hanna-Barbera Productions, Inc. also variously known as H-B Enterprises, H-B Production Co., and Hanna-Barbera Cartoons, Inc., was an American animation studio and production company founded in 1957 by Tom and Jerry creators and former Metro-Goldwyn-Mayer animation directors William Hanna and Joseph Barbera and dominated television with a variety of animated series, including The Huckleberry Hound Show, The Flintstones, The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You! and The Smurfs
+    template:
+      name: Studio - Trakt List
+      list: hanna-barbera
+      summary: Hanna-Barbera Productions, Inc. also variously known as H-B Enterprises, H-B Production Co., and Hanna-Barbera Cartoons, Inc., was an American animation studio and production company founded in 1957 by Tom and Jerry creators and former Metro-Goldwyn-Mayer animation directors William Hanna and Joseph Barbera and dominated television with a variety of animated series, including The Huckleberry Hound Show, The Flintstones, The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You! and The Smurfs
   Marvel:
     template: { name: Studio, company: "7505, 19551, 420, 11106, 13252, 38679" }
     plex_search:
