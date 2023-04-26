@@ -784,7 +784,7 @@ collections:
     collection_order: alpha
     tmdb_movie: '344658, 334328'
     summary: LAY OFF ME I'M STARVING!
-    sync_to_trakt_list: Saturday Night Live Collection
+    sync_to_trakt_list: saturday-night-live-collection
   Scarlet Witch Collection:
     tmdb_movie: 453395
     summary: >-
