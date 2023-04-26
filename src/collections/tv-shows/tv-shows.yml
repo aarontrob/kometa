@@ -127,9 +127,6 @@ collections:
     template: { name: Collection Hide }
     tmdb_show: 41327
     summary: If you get on her bad side...YOU'RE TOAST.
-  Freaks and Geeks Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 2382
   From Dusk Till Dawn Collection:
     template: { name: Collection Hide }
     tmdb_show: 60626

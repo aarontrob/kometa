@@ -10,6 +10,7 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Alpha:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
     collection_mode: hide_items
@@ -19,6 +20,7 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Release:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
     collection_mode: hide_items
@@ -253,10 +255,6 @@ collections:
       name: Collection Hide
     tmdb_show: 41327
     summary: If you get on her bad side...YOU'RE TOAST.
-  Freaks and Geeks Collection:
-    template:
-      name: Collection Hide
-    tmdb_show: 2382
   From Dusk Till Dawn Collection:
     template:
       name: Collection Hide
