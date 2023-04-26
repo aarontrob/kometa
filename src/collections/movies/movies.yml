@@ -283,6 +283,8 @@ collections:
       name: Collection
       collection: 9888
       summary: Merry Christmas, ya filthy animal!
+    plex_search:
+      title: Home Alone
   Hulk Collection:
     template:
       name: Search
