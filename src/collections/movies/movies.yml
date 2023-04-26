@@ -583,39 +583,33 @@ collections:
       summary: You dont mess with the law. The law messes with you.
   Superman Collection:
     template:
-      name: Collection - Movie
-      collection: 8537
-      movie: 209112, 49521
-    plex_search:
-      title: Superman, Man of Steel
-    summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
-    sync_to_trakt_list: superman-collection
-  The Terminator Collection:
-    tmdb_collection: 528
-    sort_title: Terminator Collection
-    summary: A series of science-fiction films about the futuristic conflict between the humans led by John Connor and the Terminators that are made and controlled by Skynet, a self-aware super computer that started Armageddon and may indeed end humanity for good. Skynet's most well-known products in its genocidal goals are the various terminator models, such as the T-800 (Model 101).
+      name: Collection - Trakt List Custom Order
+      list: superman-collection
+      summary: Truth, Justice and a Better Tomorrow
   The Thomas Crown Affair Collection:
-    tmdb_movie: 912, 913
-    sort_title: Thomas Crown Affair Collection
-    summary: How do you get the man who has everything?
+    template:
+      name: Collection - Movies
+      movie: 912, 913
+      sort_title: Thomas Crown Affair Collection
+      summary: How do you get the man who has everything?
   The Three Musketeers Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/87631
-    sort_title: Three Musketeers Collection
-    tmdb_movie: 10057, 52451, 41609
-    summary: All for one, and one for all!
+    template:
+      name: Collection - Movie
+      collection: 87631
+      movie: 10057, 52451, 41609
+      sort_title: Three Musketeers Collection
+      summary: All for one, and one for all!
   Tomb Raider Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/2467
+      name: Collection - Movie
+      collection: 2467
       movie: 338970
-    summary: Tomb Raider is a series of action-adventure movies, centering  the adventures of the female fictional British archaeologist Lara Croft.
+      summary: Tomb Raider is a series of action-adventure movies, centering  the adventures of the female fictional British archaeologist Lara Croft.
   Transformers Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/8650
-      movie: 1857
-    tmdb_movie: 424783
-    summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil.
+      name: Collection - Trakt List Custom Order
+      list: transformers-collection
+      summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil.
   Turner & Hooch Collection:
     template:
       name: Collection Hide
