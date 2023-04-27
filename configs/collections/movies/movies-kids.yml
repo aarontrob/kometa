@@ -717,14 +717,15 @@ collections:
       summary: Hip Hip Poohray!
     sync_to_trakt_list: null
   The Wizard of Oz Collection:
-    sort_title: Wizard of Oz Collection
-    tmdb_movie: '630, 68728, 13155, 72972, 403510'
-    schedule: daily
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-wizard-of-oz-collection
+      summary: 'We''re off to see the Wizard, the wonderful wizard of Oz'
   Yogi Bear Collection:
     template:
       name: Search
       title: Yogi
-    summary: >-
-      Yogi Bear is a anthropomorphic animal character who has appeared in
-      numerous comic books, animated television shows and films. He made his
-      debut in 1958 as a supporting character in The Huckleberry Hound Show.
+      summary: >-
+        Yogi Bear is a anthropomorphic animal character who has appeared in
+        numerous comic books, animated television shows and films. He made his
+        debut in 1958 as a supporting character in The Huckleberry Hound Show.
