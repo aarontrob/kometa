@@ -416,11 +416,9 @@ collections:
       summary: Nap Time is Over
   Scooby-Doo! Collection:
     template:
-      name: Search
-      title: Scooby
-    tmdb_movie: 385103
-    summary: Zoinks!
-    sync_to_trakt_list: scooby-doo-collection
+      name: Collection - Trakt List
+      list: scooby-doo-collection
+      summary: Zoinks!
   The Secret Life of Pets Collection:
     template:
       name: Collection - Movie
@@ -430,27 +428,28 @@ collections:
       summary: Ever wonder what your pets do when you're not home?
   The Shaggy Dog Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/294519
+      name: Collection - Movie
+      collection: 294519
       movie: 10067
-    sort_title: Shaggy Dog Collection
-    summary: Through an ancient spell, a boy changes into a sheepdog and back again. It seems to happen at inopportune times and the spell can only be broken by an act of bravery.
+      sort_title: Shaggy Dog Collection
+      summary: Through an ancient spell, a boy changes into a sheepdog and back again. It seems to happen at inopportune times and the spell can only be broken by an act of bravery.
   Shrek Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/shrek-collection
-    summary: The fairytale story of a large, strong, solitude-loving, intimidating ogre named Shrek, and his friends.
+    template:
+      name: Collection - Trakt List Custom Order
+      list: shrek-collection
+      summary: The fairytale story of a large, strong, solitude-loving, intimidating ogre named Shrek, and his friends.
   Sleeping Beauty Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/531331
-    tmdb_movie: 10882
-    summary: Once Upon a Dream
+    template:
+      name: Collection - Movie
+      collection: 531331
+      movie: 10882
+      summary: Once Upon a Dream
   The Smurfs Collection:
     template:
-      name: Search
-      title: Smurfs
-    tmdb_collection:
-      - https://www.themoviedb.org/movie/41513-the-smurfs
-      - https://www.themoviedb.org/collection/125577
-    summary: Smurf happens
-    sort_title: Smurfs Collection
+      name: Collection - Trakt List Custom Order
+      list: the-smurfs-collection
+      sort_title: Smurfs Collection
+      summary: Smurf happens
   Sonic the Hedgehog Collection:
     template:
       name: Search
