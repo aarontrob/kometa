@@ -120,340 +120,304 @@ collections:
       summary: We Are All Mad Here.
   Alvin and the Chipmunks Collection:
     template:
-      name: Search
-      title: 'Alvin and the Chipmunks, Chipette'
-    tmdb_movie: 21793
-    summary: >-
-      Alvin and the Chipmunks, originally David Seville and the Chipmunks or
-      simply the Chipmunks, are an American animated virtual band created by
-      Ross Bagdasarian for a novelty record in 1958. The group consists of three
-      singing animated anthropomorphic chipmunks. Alvin, the mischievous
-      troublemaker. Simon, the tall, bespectacled intellectual. And Theodore,
-      the chubby, shy one. The trio is managed by their human adoptive father,
-      David (Dave) Seville.
-    sync_to_trakt_list: alvin-and-the-chipmunks-collection
+      name: Collection - Trakt List Custom Order
+      list: alvin-and-the-chipmunks-collection
+      summary: Get your squeak on!
   Batman Collection:
     template:
       name: Search
       title: 'Batman, Dark Knight'
-    summary: >-
-      Batman is a superhero who appears in American comic books published by DC
-      Comics. Batman was created by artist Bob Kane and writer Bill Finger, and
-      debuted in the 27th issue of the comic book Detective Comics on March 30,
-      1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a
-      wealthy American playboy, philanthropist, and industrialist who resides in
-      Gotham City. Batman's origin story features him swearing vengeance against
-      criminals after witnessing the murder of his parents Thomas and Martha; he
-      trains himself physically and intellectually, crafts a bat-inspired
-      persona, and monitors the Gotham streets at night. Kane, Finger, and other
-      creators accompanied Batman with supporting characters, including his
-      sidekick Robin; allies Alfred Pennyworth, James Gordon, and Catwoman; and
-      foes such as the Penguin, the Riddler, Two-Face, and his archenemy, the
-      Joker.
+    summary: Justice is always Darkest before the Dawn.
   Beauty and the Beast Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/153010'
+      name: Collection - Movie
+      collection: 153010
       movie: 321612
-    summary: Tale as old as time.
+      summary: Tale as old as time.
   Big Hero 6 Collection:
     template:
-      name: Search
-      title: Big Hero 6
-    summary: 'Hello, I am Baymax, your personal healthcare companion.'
+      name: Collection - Hide
+      movie: 177572
+      summary: 'Hello, I am Baymax, your personal healthcare companion.'
   Bolt Collection:
-    tmdb_movie: '16604, 13053'
-    summary: Fully Awesome. Ridonculous. Let It Begin.
+    template:
+      name: Collection - Movies
+      movie: '16604, 13053'
+      summary: Fully Awesome. Ridonculous. Let It Begin.
   The Boss Baby Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/519457'
-    tmdb_movie: 735364
-    summary: Born leader
+    template:
+      name: Collection - Movie
+      collection: 519457
+      movie: 735364
+      summary: Born leader
   Brave Collection:
-    tmdb_movie: '62177, 141423'
-    summary: Change your fate.
+    template:
+      name: Collection - Movies
+      movie: '62177, 141423'
+      summary: Change your fate.
   Captain Underpants Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/732397'
+      name: Collection - Movie
+      collection: 732397
       movie: 768509
   Care Bears Collection:
     template:
       name: Search
       title: Care Bears
   Cars Collection:
-    trakt_list: 'https://trakt.tv/users/goape/lists/cars-collection'
-    summary: Our Cars Speak For Themselves.
+    template:
+      name: Collection - Trakt List
+      list: cars-collection
+      summary: Our Cars Speak For Themselves.
   The Cat in the Hat Collection:
     template:
       name: Search
       title: Cat in the Hat
-    sort_title: Cat in the Hat Collection
-    summary: >-
-      The Cat in the Hat is a 1957 children's book written and illustrated by
-      the American author Theodor Geisel, using the pen name Dr. Seuss. The
-      story centers on a tall anthropomorphic cat who wears a red and
-      white-striped hat and a red bow tie.
+      sort_title: Cat in the Hat Collection
+      summary: >-
+        The Cat in the Hat is a 1957 children's book written and illustrated by
+        the American author Theodor Geisel, using the pen name Dr. Seuss. The
+        story centers on a tall anthropomorphic cat who wears a red and
+        white-striped hat and a red bow tie.
   Chip 'n Dale Collection:
     template:
-      name: Search
-      title: 'Chip ''n Dale, Chip ''n'' Dale, Chip an'' Dale, Chip ‘N’ Dale'
-    tmdb_movie: '53478, 53751, 55510'
-    summary: >-
-      Chip and Dale (also spelled Chip 'n' Dale) are a cartoon duo of
-      anthropomorphic chipmunk brothers created in 1943 by The Walt Disney
-      Company.
+      name: Collection - Movies
+      movie: '53478, 53751, 55510'
+      summary: >-
+        Chip and Dale (also spelled Chip 'n' Dale) are a cartoon duo of
+        anthropomorphic chipmunk brothers created in 1943 by The Walt Disney
+        Company.
+    plex_search:
+      title: 'Chip ''n Dale, Chip ''n'' Dale, Chip an'' Dale, Chip ‘N’ Dale, Chip ''N'' Dale'
   Cinderella Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/55419'
+      name: Collection - Movie
+      collection: 55419
       movie: 150689
   Coco Collection:
-    tmdb_movie: '449621, 354912'
-    summary: The celebration of a lifetime
+    template:
+      name: Collection - Movies
+      movie: '449621, 354912'
+      summary: The celebration of a lifetime
   Despicable Me & Minions Collection:
-    trakt_list: 'https://trakt.tv/users/goape/lists/minions-collection'
+    template:
+      name: Collection - Trakt List
+      list: minions-collection
+      sort_title: Despicable Me Collection 2
+      summary: Being good is SO overrated.
     tmdb_collection: 86066
-    sort_title: Despicable Me Collection 2
-    summary: Being good is SO overrated.
   Diary of a Wimpy Kid Collection:
-    tmdb_collection:
-      - 'https://www.themoviedb.org/collection/86110'
-      - 'https://www.themoviedb.org/collection/897238'
+    template:
+      name: Collection
+      collection: '86110, 897238'
   Dr. Dolittle Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/3169'
-    tmdb_movie: '448119, 16081'
-    name_mapping: Dr Dolittle Collection
+    template:
+      name: Collection - Movie
+      collection: 3169
+      movie: '448119, 16081'
+      name_mapping: Dr Dolittle Collection
   DuckTales Collection:
     template:
-      name: Collection Hide
-    tmdb_movie: 10837
+      name: Collection - Hide
+      movie: 10837
   Dumbo Collection:
-    tmdb_movie: '11360, 329996'
-    summary: >-
-      Dumbo is the titular protagonist of Disney's 1941 animated feature film of
-      the same name. He is a young elephant and the son of Mrs. Jumbo. Dumbo is
-      most famous for his giant floppy ears, which give him the ability to glide
-      in the air. As an infant, he was harassed for his abnormal ears. While
-      defending Dumbo from such bullies, Mrs. Jumbo was thrown into solitary
-      confinement. To rescue his mother, Dumbo devotes himself to becoming a
-      star, with Timothy Q. Mouse as his mentor and protector.
+    template:
+      name: Collection - Movies
+      movie: '11360, 329996'
+      summary: The One...The Only...The FABULOUS...
   Finding Nemo Collection:
-    tmdb_movie: 427004
-    tmdb_collection: 'https://www.themoviedb.org/collection/137697'
-    summary: 'Fish there just like us, only flakier.'
+    template:
+      name: Collection - Movie
+      collection: 137697
+      movie: 427004
+      summary: 'Fish they''re just like us, only flakier.'
   The Flintstones Collection:
     template:
       name: Search
       title: 'Flintstones, Flintstone, Yabba-dabba'
-    sort_title: Flintstones Collection
-    summary: >-
-      The Flintstones is an American animated sitcom produced by Hanna-Barbera
-      Productions. The series takes place in a romanticized Stone Age setting
-      and follows the activities of the title family, the Flintstones, and their
-      next-door neighbors, the Rubbles.
+      sort_title: Flintstones Collection
+      summary: Yabba-Dabba-Doo!
   Flubber Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/294468'
+      name: Collection - Movie
+      collection: 294468
       movie: 9574
-    summary: The stuff dreams are made of. What is flubber? Catch it if you can!
+      summary: The stuff dreams are made of. What is flubber? Catch it if you can!
   Frosty the Snowman Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/363015'
-    summary: 'No money, no TICKET!'
+    template:
+      name: Collection
+      collection: 363015
+      summary: 'No money, no TICKET!'
   Frozen Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/386382'
-    tmdb_movie: '326359, 460793, 741074'
-    summary: >-
-      Frozen features the sisterly love between the fearless optimist Anna, her
-      mysterious sister Elsa and the snowman Olaf.
+    template:
+      name: Collection - Movie
+      collection: 386382
+      movie: '326359, 460793, 741074'
+      summary: >-
+        Frozen features the sisterly love between the fearless optimist Anna,
+        her mysterious sister Elsa and the snowman Olaf.
   Garbage Pail Kids Collection:
     template:
-      name: Collection Hide
-    tmdb_movie: 14443
+      name: Collection - Hide
+      movie: 14443
   Garfield Collection:
     template:
       name: Search
       title: Garfield
-    summary: >-
-      Garfield is an American comic strip created by Jim Davis. Originally
-      published locally as Jon in 1976, then in nationwide syndication from 1978
-      as Garfield, it chronicles the life of the title character, Garfield the
-      cat; Jon Arbuckle, his human owner; and Odie, the dog.
+      summary: It ain't the Cat in the Hat. It's all about me-ow!
   The Grinch Collection:
-    tmdb_movie: '360920, 8871, 13377, 762951, 52207, 46963'
-    sort_title: Grinch Collection
-    summary: >-
-      The Grinch is a fictional character created by Dr. Seuss. He is best known
-      as the main character of the 1957 children's book How the Grinch Stole
-      Christmas!. He has been portrayed and voiced by many different actors,
-      including Boris Karloff, Hans Conried, Bob Holt, Jim Carrey, and Benedict
-      Cumberbatch.
+    template:
+      name: Collection - Movies
+      movie: '360920, 8871, 13377, 762951, 52207, 46963'
+      sort_title: Grinch Collection
+      summary: 'You''re a mean one, Mr. Grinch!'
   Hey Arnold! Collection:
     template:
       name: Search
       title: Hey Arnold
-    summary: >-
-      Hey Arnold! is an American animated comedy television series created by
-      Craig Bartlett. It first aired on Nickelodeon on October 7, 1996, to June
-      8, 2004. The show centers on a fourth grader named Arnold Shortman, who
-      lives with his grandparents in an inner-city tenement. Episodes center on
-      his experiences navigating urban life while dealing with the problems he
-      and his friends encounter.
+      summary: A Big Problem Calls For A Big Head
   Hercules Collection:
     template:
-      name: Collection Hide
-    tmdb_movie: 11970
+      name: Collection - Hide
+      movie: 11970
   Hotel Transylvania Collection:
-    tmdb_collection: 185103
-    trakt_list: 'https://trakt.tv/users/goape/lists/hotel-transylvania-collection'
-    summary: Even monsters need a vacation
+    template:
+      name: Collection - Trakt List
+      list: hotel-transylvania-collection
+      summary: Even monsters need a vacation
   How to Train Your Dragon Collection:
-    trakt_list: 'https://trakt.tv/users/goape/lists/how-to-train-your-dragon-collection'
+    template:
+      name: Collection - Trakt List
+      list: how-to-train-your-dragon-collection
   Hulk Collection:
     template:
       name: Search
       title: Hulk
-    summary: >-
-      The larger-than-life Marvel Superhero The Hulk explodes onto the big
-      screen! After a freak lab accident unleashes a genetically enhanced,
-      impossibly strong creature, a terrified world must marshal its forces to
-      stop a being with abilities beyond imagination.
+      summary: Don't make me angry. You wouldn't like me when I'm angry
   Ice Age Collection:
     template:
-      name: Search
-      title: Ice Age
-    tmdb_movie: 46247
+      name: Collection - Trakt List Custom Order
+      list: ice-age-collection
   The Incredibles Collection:
-    trakt_list: 'https://trakt.tv/users/goape/lists/the-incredibles-collection'
-    summary: Expect the Incredible
-    sort_title: Incredibles Collection
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-incredibles-collection
+      sort_title: Incredibles Collection
+      summary: Expect the Incredible
   Inside Out Collection:
-    tmdb_movie: '355338, 150540-inside-out'
-    summary: Meet the little voices inside your head.
+    template:
+      name: Collection - Movies
+      movie: '355338, 150540'
+      summary: Meet the little voices inside your head.
   Inspector Gadget Collection:
-    tmdb_collection:
-      - 'https://www.themoviedb.org/collection/237445'
-      - >-
-        https://www.themoviedb.org/collection/348374-inspector-gadget-animated-collection
-    summary: The ultimate crime fighting machine.
+    template:
+      name: Collection
+      collection: '237445, 348374'
+      summary: The ultimate crime fighting machine.
   The Jetsons Collection:
-    sort_title: Jetsons Collection
     template:
       name: Search
       title: 'Jetsons, Jetson'
-    summary: >-
-      The Jetsons is an American animated sitcom produced by Hanna-Barbera
-      Productions. It originally aired in prime time from September 23, 1962 to
-      March 17, 1963 on ABC, then later aired in reruns via syndication. New
-      episodes were produced from 1985 to 1987 as part of The Funtastic World of
-      Hanna-Barbera block. It was Hanna-Barbera's Space Age counterpart to The
-      Flintstones.
+      sort_title: Jetsons Collection
+      summary: >-
+        The Jetsons is an American animated sitcom produced by Hanna-Barbera
+        Productions. It originally aired in prime time from September 23, 1962
+        to March 17, 1963 on ABC, then later aired in reruns via syndication.
+        New episodes were produced from 1985 to 1987 as part of The Funtastic
+        World of Hanna-Barbera block. It was Hanna-Barbera's Space Age
+        counterpart to The Flintstones.
   Jonny Quest Collection:
     template:
-      name: Collection Hide
-    tmdb_movie: 343977
+      name: Collection - Hide
+      movie: 343977
   The Jungle Book Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/97459'
+      name: Collection - Movie
+      collection: 97459
       movie: '278927, 10714'
-    sort_title: Jungle Book Collection
-    summary: >-
-      For the strength of the Pack is the Wolf, and the strength of the Wolf is
-      the Pack.
+      sort_title: Jungle Book Collection
+      summary: >-
+        For the strength of the Pack is the Wolf, and the strength of the Wolf
+        is the Pack.
   Justice League Collection:
     template:
       name: Search
       title: Justice League
+      summary: Justice for all. Unite the League. You can't save the world alone.
   Kung Fu Panda Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/77816'
+      name: Collection - Movie
+      collection: 77816
       movie: 50393
-    summary: >-
-      The Kung Fu Panda series are computer-animated action comedy films set in
-      a version of old China populated by humanoid talking animals, the plot
-      revolves around a bumbling humanoid panda named Po who aspires to be a
-      kung fu master.
+      summary: He's not a big fat panda... he's THE big fat panda!
   Lady and the Tramp Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/97460'
+      name: Collection - Movie
+      collection: 97460
       movie: 512895
-    summary: >-
-      This Disney classic follows a pampered cocker spaniel named Lady whose
-      comfortable life slips away once her owners have a baby. When, after some
-      tense circumstances, Lady finds herself on the loose and out on the
-      street, she is befriended and protected by the tough stray mutt Tramp. A
-      romance begins to blossom between the two dogs, but their many
-      differences, along with more drama at Lady's household, threaten to keep
-      them apart.
+      summary: >-
+        She's blue ribbon... he's back-alley... and IT'S LOVE AND LAUGHTER...
+        EVER AFTER!
   The Lion King Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/94032'
+      name: Collection - Movie
+      collection: 94032
       movie: '420818, 40647'
-    sort_title: Lion King Collection
-    summary: >-
-      The film franchise mainly revolves about a pride of lions who oversee a
-      large swath of African savanna as their «kingdom» known as the Pride
-      Lands, with their leader Simba watching over it as «king». In the original
-      film, Simba was tricked into thinking he killed his father, a guilt ridden
-      lion cub flees into exile and abandons his identity as the future King.
+      sort_title: Lion King Collection
+      summary: >-
+        The greatest adventure of all is finding our place in the circle of
+        life.
   The Little Mermaid Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/33085'
+      name: Collection - Movie
+      collection: 33085
       movie: '447277, 642271'
-    sort_title: Little Mermaid Collection
+      sort_title: Little Mermaid Collection
   The Little Rascals Collection:
-    sort_title: Little Rascals Collection
     template:
-      name: Collection Hide
-    tmdb_movie: 10897
+      name: Collection - Hide
+      movie: 10897
+      sort_title: Little Rascals Collection
   Looney Tunes Collection:
-    tmdb_movie: 48740
-    trakt_list: 'https://trakt.tv/users/asmobarki/lists/looney-tunes'
-    summary: >-
-      Looney Tunes is an American animated comedy short film series produced by
-      Warner Bros. from 1930 to 1969 along with its sister series, Merrie
-      Melodies, during the golden age of American animation. They introduced
-      Bugs Bunny, Daffy Duck, Porky Pig, Elmer Fudd, Wile E. Coyote, Road
-      Runner, Sylvester, Tweety, Granny, Yosemite Sam, the Tasmanian Devil,
-      Marvin the Martian, Pepé Le Pew, Foghorn Leghorn, Speedy Gonzales and many
-      other cartoon characters. After Bugs Bunny became the breakout recurring
-      star of Merrie Melodies and Looney Tunes went to color in the early 1940s
-      (Merrie Melodies having already been in color since 1934), the two series
-      gradually lost their distinctions, and shorts were assigned to each series
-      more randomly.
+    template:
+      name: Collection - Trakt List
+      list: looney-tunes-collection
+    summary: '“What''s up, doc?"'
   Luca Collection:
-    tmdb_movie: '508943, 876716'
-    summary: 'Silenzio, Bruno'
+    template:
+      name: Collection - Movies
+      movie: '508943, 876716'
+      summary: 'Silenzio, Bruno'
   Madagascar Collection:
     template:
-      name: Collection Movie
-      collection: 'https://www.themoviedb.org/collection/14740'
+      name: Collection - Movie
+      collection: 14740
       movie: '270946, 161143, 25472, 10258'
   Mario Collection:
     template:
-      name: Collection Hide
-      movie: 9607
+      name: Collection - Movies
+      movie: '9607, 502356'
+      summary: 'It''s a me, Mario!'
   Mary Poppins Collection:
-    tmdb_movie: '433, 400650, 140823'
-    summary: It's supercalifragilisticexpialidocious!
+    template:
+      name: Collection - Movies
+      movie: '433, 400650, 140823'
+      summary: It's supercalifragilisticexpialidocious!
   Masters of the Universe Collection:
     template:
-      name: Search
-      title: 'He-Man, She-Ra, Masters of the Universe'
-    tmdb_movie: 11649
+      name: Collection - Trakt List
+      list: he-man-the-masters-of-the-universe-collection
     summary: By the Power of Grayskull!
   Megamind Collection:
-    tmdb_movie: '38055, 57718'
-    summary: His Brain Is Off The Chain
+    template:
+      name: Collection - Movies
+      movie: '38055, 57718'
+      summary: His Brain Is Off The Chain
   Minions Collection:
-    tmdb_collection: 544669
-    trakt_list: 'https://trakt.tv/users/goape/lists/minions-collection'
-    summary: 'Despicable Me'' spin-off series, focusing on the Minions characters.'
+    template:
+      name: Collection - Trakt List Custom Order
+      list: minions-collection
+      summary: Uh oh.
   'Monsters, Inc. Collection':
     trakt_list: 'https://trakt.tv/users/goape/lists/monsters-inc-collection'
     summary: We Scare Because We Care

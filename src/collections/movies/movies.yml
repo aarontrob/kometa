@@ -286,7 +286,7 @@ collections:
     template:
       name: Search
       title: Hulk
-      summary: The larger-than-life Marvel Superhero The Hulk explodes onto the big screen! After a freak lab accident unleashes a genetically enhanced, impossibly strong creature, a terrified world must marshal its forces to stop a being with abilities beyond imagination.
+      summary: "Don't make me angry. You wouldn't like me when I'm angry"
   I am Legend Collection:
     template:
       name: Collection - Movies
