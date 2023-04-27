@@ -679,47 +679,43 @@ collections:
         recurring characters.
   Toy Story Collection:
     template:
-      name: Search
-      title: Toy Story
-    tmdb_collection: 'https://www.themoviedb.org/collection/10194'
-    tmdb_movie: '256835, 213121, 594530'
-    summary: >-
-      Toy Story is a CGI animated media franchise created by Pixar and
-      distributed by Walt Disney Pictures. The franchise is based on the
-      anthropomorphic concept that all toys, unknown to humans, are secretly
-      alive, and the films focus on a diverse group of toys that feature a
-      classic cowboy named Sheriff Woody and a modern spaceman named Buzz
-      Lightyear. The group unexpectedly embark on adventures that challenge and
-      change them.
+      name: Collection - Trakt List Custom Order
+      list: toy-story-collection
+      summary: To Infinity and Beyond!
   Transformers Collection:
     template:
-      name: Search
-      title: Transformers
-    summary: >-
-      The Transformers series follows the continuing battle between the Autobots
-      and the Decepticons and ultimately, the triumph of good over evil.
-  The Trolls Collection:
-    sort_title: Trolls Collection
-    tmdb_collection: 'https://www.themoviedb.org/collection/489724'
-    tmdb_movie: '896221, 484510'
+      name: Collection - Hide
+      movie: 1857
+      summary: >-
+        The Transformers series follows the continuing battle between the
+        Autobots and the Decepticons and ultimately, the triumph of good over
+        evil.
+  Trolls Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: trolls-collection
+      summary: Find your happy place
   Up Collection:
-    tmdb_movie: '72962, 14160, 24589'
-    summary: The greatest adventure is just getting back home.
+    template:
+      name: Collection - Movies
+      movie: '72962, 14160, 24589'
+      summary: The greatest adventure is just getting back home.
   WALL·E Collection:
-    tmdb_movie: '13413, 10681'
-    summary: The newest sensation in waste allocation!
+    template:
+      name: Collection - Movies
+      movie: '13413, 10681'
+      summary: The newest sensation in waste allocation!
   Willy Wonka Collection:
-    tmdb_movie: '252, 118, 455411'
-    summary: 'We are the music makers, and we are the dreamers of dreams.'
+    template:
+      name: Collection - Hide
+      movie: 455411
+      summary: 'We are the music makers, and we are the dreamers of dreams.'
   Winnie the Pooh Collection:
     template:
-      name: Search
-      title: 'Pooh, Tigger, Piglet'
-    tmdb_movie: '420814, 13691'
-    summary: >-
-      Winnie the Pooh, the fictional teddy bear created by English author A. A.
-      Milne, is one of the most popular characters adapted for film and
-      television by The Walt Disney Company.
+      name: Collection - Trakt List Custom Order
+      list: winnie-the-pooh-collection
+      summary: Hip Hip Poohray!
+    sync_to_trakt_list: null
   The Wizard of Oz Collection:
     sort_title: Wizard of Oz Collection
     tmdb_movie: '630, 68728, 13155, 72972, 403510'
