@@ -318,64 +318,74 @@ collections:
       list: minions-collection
       summary: Uh oh.
   Monsters, Inc. Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/monsters-inc-collection
-    summary: We Scare Because We Care
+    template:
+      name: Collection - Trakt List Custom Order
+      list: monsters-inc-collection
+      summary: We Scare Because We Care
   Mr. Magoo Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 9438
-    summary: Oh Magoo, you've done it again!
+    template:
+      name: Collection - Hide
+      movie: 9438
+      summary: Oh Magoo, you've done it again!
   Mulan Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/87236
+      name: Collection - Movie
+      collection: 87236
       movie: 337401
-    summary: To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process.
+      summary: To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process.
   The Muppets Collection:
     template:
       name: Search
       title: Muppet, Muppets
-    sort_title: Muppets Collection
-    summary: The Muppets are an ensemble cast of puppet characters known for an absurdist, burlesque, and self-referential style of variety-sketch comedy. Created by Jim Henson in 1955, they are the namesakes of the Disney-owned media franchise that encompasses television, film, music, and other media associated with the characters.
+      sort_title: Muppets Collection
+      summary: The Muppets are an ensemble cast of puppet characters known for an absurdist, burlesque, and self-referential style of variety-sketch comedy. Created by Jim Henson in 1955, they are the namesakes of the Disney-owned media franchise that encompasses television, film, music, and other media associated with the characters.
   Parent Trap Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/216395
+      name: Collection - Movie
+      collection: 216395
       movie: 9820
-    summary: Two identical twin sisters, separated at birth by their parents' divorce, are reunited years later at a summer camp, where they scheme to bring their parents back together. The girls, one of whom has been living with their mother and the other with their father, switch places after camp and go to work on their plan, the first objective being to scare off a gold-digger pursuing their father.
+      summary: Two identical twin sisters, separated at birth by their parents' divorce, are reunited years later at a summer camp, where they scheme to bring their parents back together. The girls, one of whom has been living with their mother and the other with their father, switch places after camp and go to work on their plan, the first objective being to scare off a gold-digger pursuing their father.
   Peanuts Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/peanuts-collection
-    summary: >-
-      Peanuts is a syndicated daily and Sunday American comic strip written and illustrated by Charles M. Schulz that ran from October 2, 1950, to February 13, 2000, and continuing in reruns afterward. Peanuts is among the most popular and influential in the history of comic strips, with 17,897 strips published in all, making it "arguably the longest story ever told by one human being". By the time of Schulz's death in 2000, Peanuts ran in over 2,600 newspapers, with a readership of around 355 million in 75 countries, and was translated into 21 languages. It helped to cement the four-panel gag strip as the standard in the United States, and together with its merchandise earned Schulz more than $1 billion.
+    template:
+      name: Collection - Trakt List
+      list: peanuts-collection
+      summary: >-
+        Peanuts is a syndicated daily and Sunday American comic strip written and illustrated by Charles M. Schulz that ran from October 2, 1950, to February 13, 2000, and continuing in reruns afterward. Peanuts is among the most popular and influential in the history of comic strips, with 17,897 strips published in all, making it "arguably the longest story ever told by one human being". By the time of Schulz's death in 2000, Peanuts ran in over 2,600 newspapers, with a readership of around 355 million in 75 countries, and was translated into 21 languages. It helped to cement the four-panel gag strip as the standard in the United States, and together with its merchandise earned Schulz more than $1 billion.
 
-      Peanuts focuses entirely on a social circle of young children, where adults exist but are never seen and rarely heard. The main character, Charlie Brown, is meek, nervous, and lacks self-confidence. He is unable to fly a kite, win a baseball game, or kick a football held by his irascible friend Lucy, who always pulls it away at the last instant.
+        Peanuts focuses entirely on a social circle of young children, where adults exist but are never seen and rarely heard. The main character, Charlie Brown, is meek, nervous, and lacks self-confidence. He is unable to fly a kite, win a baseball game, or kick a football held by his irascible friend Lucy, who always pulls it away at the last instant.
 
-      Peanuts is one of the literate strips with philosophical, psychological, and sociological overtones that flourished in the 1950s. Peanuts's humor is psychologically complex and driven by the characters' interactions and relationships.
+        Peanuts is one of the literate strips with philosophical, psychological, and sociological overtones that flourished in the 1950s. Peanuts's humor is psychologically complex and driven by the characters' interactions and relationships.
   Pete's Dragon Collection:
-    tmdb_movie: 294272, 11114
-    summary: Brazzle Dazzle Brilliance!
+    template:
+      name: Collection - Movies
+      movie: 294272, 11114
+      summary: Brazzle Dazzle Brilliance!
   The Pink Panther Collection:
-    tmdb_movie: 49854, 311218
-    summary: The Pink Panther is a movie series of live action mixed with animation totaling in six official films and three not official films. The main character is a clumsy inspector named Jacques Clouseau who is played by Peter Sellers in the official Pink Panther films. Today The Pink Panther is the famous trademark of a huge franchise.
-    sort_title: Pink Panther Collection
+    template:
+      name: Collection - Movies
+      movie: 49854, 311218
+      summary: The Pink Panther is a movie series of live action mixed with animation totaling in six official films and three not official films. The main character is a clumsy inspector named Jacques Clouseau who is played by Peter Sellers in the official Pink Panther films. Today The Pink Panther is the famous trademark of a huge franchise.
+      sort_title: Pink Panther Collection
   Pinocchio Collection:
-    tmdb_movie: 532639, 10895
-    summary: When you wish upon a star, your dreams come true.
+    template:
+      name: Collection - Movies
+      movie: 532639, 10895
+      summary: When you wish upon a star, your dreams come true.
   Pokémon Collection:
     template:
       name: Search
       title: Pokémon
-    summary: >-
-      Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996, and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!". There are currently 900 Pokémon species.
+      summary: Gotta Catch ’Em All!
   Popeye Collection:
     template:
-      name: Search
-      title: Popeye
-    summary: Ahoy!
-    collection_mode: hide
+      name: Collection - Hide
+      movie: 11335
+      summary: Ahoy!
   Power Rangers Collection:
     tmdb_movie: 305470, 80615, 1068141, 630687
     tmdb_collection: https://www.themoviedb.org/collection/708816-power-rangers-collection
     summary: GO GO POWER RANGERS!
+    sync_to_trakt_list: power-rangers-collection
   Ratatouille Collection:
     tmdb_movie: 13061, 2062
     summary: A comedy with great taste.
