@@ -554,11 +554,10 @@ collections:
       summary: We are the music makers, and we are the dreamers of dreams.
   Winnie the Pooh Collection:
     template:
-      name: Search
-      title: Pooh, Tigger, Piglet
-    tmdb_movie: 420814, 13691
-    summary: Winnie the Pooh, the fictional teddy bear created by English author A. A. Milne, is one of the most popular characters adapted for film and television by The Walt Disney Company.
-    sync_to_trakt_list: winnie-the-pooh-collection
+      name: Collection - Trakt List Custom Order
+      list: winnie-the-pooh-collection
+      summary: Hip Hip Poohray!
+    sync_to_trakt_list:
   The Wizard of Oz Collection:
     sort_title: Wizard of Oz Collection
     tmdb_movie: 630, 68728, 13155, 72972, 403510
