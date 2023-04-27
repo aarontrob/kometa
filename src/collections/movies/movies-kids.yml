@@ -456,96 +456,109 @@ collections:
       title: Sonic
     summary: Sonic the Hedgehog is a Japanese video game series and media franchise created and owned by Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog who battles the evil Doctor Eggman, a mad scientist.
   Soul Collection:
-    tmdb_movie: 811367, 508442
-    summary: Is all this living really worth dying for?
+    template:
+      name: Collection - Movies
+      movie: 811367, 508442
+      summary: Is all this living really worth dying for?
   Speed Racer Collection:
-    template: { name: Collection Hide }
-    tmdb_movie: 7459
+    template:
+      name: Collection - Hide
+      movie: 7459
   SpongeBob Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/275402
-      movie: 298016, 651985
-    plex_search:
-      title: SpongeBob
-    summary: A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook at Krusty Krab, lives in the Pacific Ocean. He embarks on various adventures with his friends at Bikini Bottom.
+      name: Collection - Trakt List Custom Order
+      list: spongebob-collection
+      summary: A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook at Krusty Krab, lives in the Pacific Ocean. He embarks on various adventures with his friends at Bikini Bottom.
   Star Wars:
-    trakt_list: https://trakt.tv/users/goape/lists/star-wars-collection
-    summary: A long time ago in a galaxy far, far away....
+    template:
+      name: Collection - Trakt List
+      list: star-wars-collection
+      summary: A long time ago in a galaxy far, far away....
   Steven Universe Collection:
     template:
-      name: Search
-      title: Steven Universe
+      name: Collection - Movies
+      movie: 537061, 755867
   Street Fighter Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 11667
   Superman Collection:
-    plex_search:
+    template:
+      name: Search
       title: Superman, Man of Steel
-    summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
+      summary: Truth, Justice and a Better Tomorrow
   Tangled Collection:
-    tmdb_movie: 38757, 82881, 438747
-    summary: They're taking adventure to new lengths.
+    template:
+      name: Collection - Movies
+      movie: 38757, 82881, 438747
+      summary: They're taking adventure to new lengths.
   Tarzan Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/106768
-    summary: Two Worlds. One Family.
+    template:
+      name: Collection
+      collection: 106768
+      summary: Two Worlds. One Family.
   The Lego Movie Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/325470
-    tmdb_movie: 274862, 324849
-    summary: They come in pieces.
+    template:
+      name: Collection - Movie
+      collection: 325470
+      movie: 274862, 324849
+      summary: They come in pieces.
   Teenage Mutant Ninja Turtles Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/1582, https://www.themoviedb.org/collection/401562
-      movie: 581997, 146525, 149505, 146470, 146463, 280276, 147939, 109394, 148599, 1273, 109394
-    summary: COWABUNGA!
+      name: Collection - Trakt List Custom Order
+      list: teenage-mutant-ninja-turtles-collection
+      summary: COWABUNGA!
   Teen Titans Collection:
     template:
       name: Search
       title: Teen Titans
   The Three Caballeros Collection:
-    tmdb_collection: 271668
-    summary: Join Goofy, Donald Duck and Walt Disney himself as they experience all the music, beauty and excitement Latin America has to offer. Walt and his team of artists, musicians, writers and animators say Adios! to the U.S. to explore the heart and soul of Latin America. In Saludos Amigos they travel to fun and exciting places and capture their adventures along the way. Next, it s Donald s turn to take a fantastic journey through these colorful lands with his friends Joe Carioca and Panchito in The Three Caballeros. With lighthearted dance and lively music, it s a celebration the whole family will enjoy!
+    template:
+      name: Collection
+      collection: 271668
+      summary: A CARTOON FIESTA of FUN and FANTASY!
   Tom and Jerry Collection:
     template:
-      name: Search
-      title:
-        - Tom and Jerry
-        - Tom & Jerry
-    trakt_list: https://trakt.tv/users/goape/lists/tom-and-jerry-collection
-    summary: Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the rivalry between the titular characters of a cat named Tom and a mouse named Jerry. Many shorts also feature several recurring characters.
+      name: Collection - Trakt List
+      list: tom-and-jerry-collection
+      summary: Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the rivalry between the titular characters of a cat named Tom and a mouse named Jerry. Many shorts also feature several recurring characters.
   Toy Story Collection:
     template:
-      name: Search
-      title: Toy Story
-    tmdb_collection: https://www.themoviedb.org/collection/10194
-    tmdb_movie: 256835, 213121, 594530
-    summary: Toy Story is a CGI animated media franchise created by Pixar and distributed by Walt Disney Pictures. The franchise is based on the anthropomorphic concept that all toys, unknown to humans, are secretly alive, and the films focus on a diverse group of toys that feature a classic cowboy named Sheriff Woody and a modern spaceman named Buzz Lightyear. The group unexpectedly embark on adventures that challenge and change them.
+      name: Collection - Trakt List Custom Order
+      list: toy-story-collection
+      summary: To Infinity and Beyond!
   Transformers Collection:
     template:
-      name: Search
-      title: Transformers
-    summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil.
-  The Trolls Collection:
-    sort_title: Trolls Collection
-    tmdb_collection: https://www.themoviedb.org/collection/489724
-    tmdb_movie: 896221, 484510
+      name: Collection - Hide
+      movie: 1857
+      summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil.
+  Trolls Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: trolls-collection
+      summary: Find your happy place
   Up Collection:
-    tmdb_movie: 72962, 14160, 24589
-    summary: The greatest adventure is just getting back home.
+    template:
+      name: Collection - Movies
+      movie: 72962, 14160, 24589
+      summary: The greatest adventure is just getting back home.
   WALL·E Collection:
-    tmdb_movie: 13413, 10681
-    summary: The newest sensation in waste allocation!
+    template:
+      name: Collection - Movies
+      movie: 13413, 10681
+      summary: The newest sensation in waste allocation!
   Willy Wonka Collection:
-    tmdb_movie: 252, 118, 455411
-    summary: We are the music makers, and we are the dreamers of dreams.
+    template:
+      name: Collection - Hide
+      movie: 455411
+      summary: We are the music makers, and we are the dreamers of dreams.
   Winnie the Pooh Collection:
     template:
       name: Search
       title: Pooh, Tigger, Piglet
     tmdb_movie: 420814, 13691
     summary: Winnie the Pooh, the fictional teddy bear created by English author A. A. Milne, is one of the most popular characters adapted for film and television by The Walt Disney Company.
+    sync_to_trakt_list: winnie-the-pooh-collection
   The Wizard of Oz Collection:
     sort_title: Wizard of Oz Collection
     tmdb_movie: 630, 68728, 13155, 72972, 403510
