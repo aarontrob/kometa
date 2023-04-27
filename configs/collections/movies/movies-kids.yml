@@ -518,61 +518,54 @@ collections:
       movie: 11335
       summary: Ahoy!
   Power Rangers Collection:
-    tmdb_movie: '305470, 80615, 1068141, 630687'
-    tmdb_collection: 'https://www.themoviedb.org/collection/708816-power-rangers-collection'
-    summary: GO GO POWER RANGERS!
-    sync_to_trakt_list: power-rangers-collection
+    template:
+      name: Collection - Trakt List Custom Order
+      list: power-rangers-collection
+      summary: GO GO POWER RANGERS!
   Ratatouille Collection:
-    tmdb_movie: '13061, 2062'
-    summary: A comedy with great taste.
+    template:
+      name: Collection - Movies
+      movie: '13061, 2062'
+      summary: A comedy with great taste.
   Recess Collection:
     template:
-      name: Search
-      title: Recess
-    summary: Don't Mess With Recess
+      name: Collection - Movies
+      movie: '19405, 77518, 84331, 405894'
+      summary: Don't Mess With Recess
   Rocko's Modern Life Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 439059
   Rocky and Bullwinkle Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 17711
   Roger Rabbit Collection:
-    tmdb_movie: '83203, 83200, 856, 83202'
-    summary: >-
-      A laugh can be a very powerful thing. Why, sometimes in life, it's the
-      only weapon we have.
+    template:
+      name: Collection - Movies
+      movie: '83203, 83200, 856, 83202'
+      summary: >-
+        A laugh can be a very powerful thing. Why, sometimes in life, it's the
+        only weapon we have.
   Rugrats Collection:
     template:
       name: Search
       title: Rugrats
-    summary: >-
-      Rugrats is an American children's animated television series created by
-      Arlene Klasky, Gábor Csupó, and Paul Germain for Nickelodeon. The show
-      focuses on a group of toddlers most prominently—Tommy, Chuckie, twins Phil
-      and Lil, and Angelica—and their day-to-day lives, usually involving life
-      experiences that become much greater adventures in the imaginations of the
-      main characters.
+      summary: Nap Time is Over
   Scooby-Doo! Collection:
     template:
       name: Search
       title: Scooby
     tmdb_movie: 385103
-    summary: >-
-      Scooby-Doo is an American animated franchise comprising many animated
-      television series produced from 1969 to the present, as well as their
-      derivative media. Writers Joe Ruby and Ken Spears created the original
-      series, Scooby-Doo, Where Are You!, for Hanna-Barbera Productions in 1969.
-      This Saturday-morning cartoon series featured teenagers Fred Jones, Daphne
-      Blake, Velma Dinkley, and Shaggy Rogers, and their talking Great Dane
-      named Scooby-Doo, who solve mysteries involving supposedly supernatural
-      creatures through a series of antics and missteps.
+    summary: Zoinks!
+    sync_to_trakt_list: scooby-doo-collection
   The Secret Life of Pets Collection:
-    tmdb_movie: 624993
-    tmdb_collection: 'https://www.themoviedb.org/collection/427084'
-    sort_title: Secret Life of Pets Collection
-    summary: null
+    template:
+      name: Collection - Movie
+      collection: 427084
+      movie: 624993
+      sort_title: Secret Life of Pets Collection
+      summary: Ever wonder what your pets do when you're not home?
   The Shaggy Dog Collection:
     template:
       name: Collection Movie
