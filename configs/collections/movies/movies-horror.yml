@@ -180,7 +180,6 @@ collections:
         Carrie White, a shy and troubled teenage girl who is tormented by her
         high school peers and her fanatically religious mother, begins to use
         her powers of telekinesis to exact revenge upon them.
-    schedule: daily
   Child's Play Collection:
     template:
       name: Collection - Movie
@@ -210,74 +209,79 @@ collections:
         spin-off films focus on the origins of some of the entities the Warrens
         have encountered.
   Constantine Collection:
-    tmdb_movie: '561, 539517'
-    summary: The supernatural adventures of occult detective John Constantine
+    template:
+      name: Collection - Movies
+      movie: '561, 539517'
+      summary: The supernatural adventures of occult detective John Constantine
   Cornetto Trilogy:
-    imdb_list: 'https://www.imdb.com/list/ls068623110/'
-    summary: >-
-      An anthology series of British comedic genre films directed by Edgar
-      Wright, written by Wright and Simon Pegg, produced by Nira Park, and
-      starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead
-      (2004), Hot Fuzz (2007), and The World's End (2013).
-    schedule: daily
+    template:
+      name: Collection - Movies
+      movie: '747, 4638, 107985'
+      summary: >-
+        An anthology series of British comedic genre films directed by Edgar
+        Wright, written by Wright and Simon Pegg, produced by Nira Park, and
+        starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead
+        (2004), Hot Fuzz (2007), and The World's End (2013).
   The Crazies Collection:
-    tmdb_movie: '29425, 29427'
-    sort_title: Crazies Collection
-    summary: >-
-      Citizens of a small town are infected by a biological weapon that causes
-      its victims to become violently insane. As uninfected citizens struggle to
-      survive, the military readies its own response.
-    schedule: daily
+    template:
+      name: Collection - Movies
+      movie: '29425, 29427'
+      sort_title: Crazies Collection
+      summary: >-
+        Citizens of a small town are infected by a biological weapon that causes
+        its victims to become violently insane. As uninfected citizens struggle
+        to survive, the military readies its own response.
   Creature From The Black Lagoon Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/221537'
-    tmdb_movie: 549074
-    summary: Not since the beginning of time has the world beheld terror like this!
+    template:
+      name: Collection - Movie
+      collection: 221537
+      movie: 549074
+      summary: Not since the beginning of time has the world beheld terror like this!
   Creepshow Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/107725'
-    tmdb_movie: 356677
-    summary: The Most Fun You'll Ever Have... BEING SCARED!
+    template:
+      name: Collection
+      collection: 107725
+      summary: The Most Fun You'll Ever Have... BEING SCARED!
   The Damned Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/746434'
-    tmdb_movie: 12122
-    sort_title: Damned Collection
-    summary: >-
-      In a small English village everyone suddenly falls unconscious. When they
-      awake every woman of child bearing age is pregnant. The resulting children
-      have the same strange blond hair, eyes and a strong connection to each
-      other.
-    schedule: daily
+    template:
+      name: Collection - Movie
+      collection: 746434
+      movie: 12122
+      sort_title: Damned Collection
+      summary: >-
+        In a small English village everyone suddenly falls unconscious. When
+        they awake every woman of child bearing age is pregnant. The resulting
+        children have the same strange blond hair, eyes and a strong connection
+        to each other.
   Evil Dead Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/1960'
-    tmdb_movie: 27266
-    schedule: daily
-    summary: >-
-      The Evil Dead is an American supernatural horror/comedy film franchise
-      created by Sam Raimi. The series revolves around the misadventures of
-      ne'er-do-well buffoon Ashley J. Williams (Bruce Campbell). Upon
-      discovering the Necronomicon in a remote cabin in the Tennessean
-      foothills, Ash and his friends inadvertently release an army of Kandarian
-      demons into the world of man, setting off a chain of events that finds Ash
-      trapped in time, surrounded by evil, and low on gas.
+    template:
+      name: Collection - Movie
+      collection: 1960
+      movie: 27266
+      summary: They got up on the wrong side of the grave.
   Firestarter Collection:
-    tmdb_movie: '11495, 532710'
-    summary: If you get on her bad side...YOU'RE TOAST.
+    template:
+      name: Collection - Movies
+      movie: '11495, 532710'
+      summary: If you get on her bad side...YOU'RE TOAST.
   Flatliners Collection:
-    tmdb_movie: '1551, 400710'
-    summary: >-
-      Five medical students want to find out if there is life after death. They
-      plan to stop one of their hearts for a few seconds, thus simulating death,
-      and then bring the person back to life.
-    schedule: daily
+    template:
+      name: Collection - Movies
+      movie: '1551, 400710'
+      summary: >-
+        Five medical students want to find out if there is life after death.
+        They plan to stop one of their hearts for a few seconds, thus simulating
+        death, and then bring the person back to life.
   The Fly Collection:
-    tmdb_collection:
-      - 'https://www.themoviedb.org/collection/123213'
-      - 'https://www.themoviedb.org/collection/109609'
-    sort_title: Fly Collection
-    summary: >-
-      Loosely based on George Langelaan's 1957 short story of the same name and
-      the 1958 film, The Fly tells of an eccentric scientist who, after one of
-      his experiments goes wrong, slowly turns into a fly-hybrid creature.
-    schedule: daily
+    template:
+      name: Collection
+      collection: '123213, 109609'
+      sort_title: Fly Collection
+      summary: >-
+        Loosely based on George Langelaan's 1957 short story of the same name
+        and the 1958 film, The Fly tells of an eccentric scientist who, after
+        one of his experiments goes wrong, slowly turns into a fly-hybrid
+        creature.
   Friday the 13th Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/9735'
     tmdb_movie: '13207, 222724, 15004'
@@ -315,7 +319,6 @@ collections:
   Hellraiser Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/8917'
     tmdb_movie: 348191
-    schedule: daily
   The Hills Have Eyes Collection:
     tmdb_collection:
       - 'https://www.themoviedb.org/collection/267922'
@@ -448,7 +451,6 @@ collections:
       Film adaptations and extensions of Stephen King's 1983 novel. A pet
       cemetery (formerly a Miꞌkmaq burial ground) in Maine allows the dead to
       reanimate as a murderous shell of their former living selves.
-    schedule: daily
   The Phantom of the Opera Collection:
     tmdb_movie: '9833, 964, 86962, 46330, 76115, 15855'
     sort_title: Phantom of the Opera Collection
@@ -499,7 +501,6 @@ collections:
       traumas led to them going on killing sprees dressed as Santa Claus, but
       along the way, it takes a detour into bizarre, increasingly campy
       territory.
-    schedule: daily
   The Slumber Party Massacre Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/138971'
     tmdb_movie: 818543
@@ -519,7 +520,6 @@ collections:
       film was also followed by two sequels, released in 1989 and 1992
       respectively and a remake also called The Stepfather which was released on
       October 16, 2009.
-    schedule: daily
   Stepford Collection:
     plex_search:
       title: Stepford
@@ -530,7 +530,6 @@ collections:
       An American newcomer to a prestigious German ballet academy comes to
       realize that the school is a front for something sinister amid a series of
       grisly murders.
-    schedule: daily
   Sweeney Todd Collection:
     plex_search:
       title: 'Sweeney Todd, Demon Barber'
@@ -552,14 +551,12 @@ collections:
       Suspiria, Inferno and Mother of Tears. Each film deals with one of the
       titular "Mothers", a triumvirate of ancient witches whose powerful magic
       allows them to manipulate world events on a global scale.
-    schedule: daily
   The Town That Dreaded Sundown Collection:
     tmdb_movie: '48197, 287084'
     sort_title: Town That Dreaded Sundown Collection
     summary: >-
       A Texas Ranger hunts for a hooded serial killer terrorizing the residents
       of a small town, set in 1946 Arkansas. Loosely based on a true story.
-    schedule: daily
   The Toxic Avenger Collection:
     tmdb_movie: 517289
     tmdb_collection: 'https://www.themoviedb.org/collection/32135'
@@ -594,7 +591,6 @@ collections:
       and performances, but criticism for its writing and lack of scares. It was
       followed by the 1993 made-for-cable sequel When a Stranger Calls Back and
       a remake in 2006.
-    schedule: daily
   The Wicker Man Collection:
     tmdb_movie: '16307, 9708, 79544'
     sort_title: Wicker Man Collection
@@ -604,7 +600,6 @@ collections:
       another, but all deal with the theme of paganism in the modern world. The
       2006 American remake of The Wicker Man is not a part of the series, and
       Hardy had dissociated himself from it.
-    schedule: daily
   Willard Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/375886'
     tmdb_movie: 10929
@@ -614,7 +609,6 @@ collections:
       friends are a couple of rats he raised at home, Ben and Socrates. However,
       when one of them is killed at work, he goes on a rampage using his rats to
       attack those who have been tormenting him.
-    schedule: daily
   The Wolf Man Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/259027'
     tmdb_movie: 7978
@@ -622,7 +616,6 @@ collections:
     summary: >-
       Even A Man Who Is Pure In Heart And Says His Prayers By Night, May Become
       A Wolf When The Wolfbane Blooms And The Autumn Moon Is Bright.
-    schedule: daily
   The Woman in Black Collection:
     tmdb_collection: 'https://www.themoviedb.org/collection/315560'
     tmdb_movie: 16182
