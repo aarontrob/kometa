@@ -283,33 +283,38 @@ collections:
         one of his experiments goes wrong, slowly turns into a fly-hybrid
         creature.
   Friday the 13th Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/9735'
-    tmdb_movie: '13207, 222724, 15004'
-    summary: >-
-      They were warned...They are doomed...And on Friday the 13th, nothing will
-      save them.
+    template:
+      name: Collection - Movie
+      collection: 9735
+      movie: '13207, 222724, 15004'
+      summary: >-
+        They were warned...They are doomed...And on Friday the 13th, nothing
+        will save them.
   Fright Night Collection:
-    tmdb_collection:
-      - 'https://www.themoviedb.org/collection/98168'
-      - 'https://www.themoviedb.org/collection/230161'
+    template:
+      name: Collection
+      collection: '98168, 230161'
+      summary: There are some very good reasons to be afraid...of the dark.
   Funny Games Collection:
-    tmdb_movie: '8461, 10234'
-    summary: >-
-      Two psychotic young men take a mother, father, and son hostage in their
-      vacation cabin and force them to play sadistic "games" with one another
-      for their own amusement.
+    template:
+      name: Collection - Movies
+      movie: '8461, 10234'
+      summary: >-
+        Two psychotic young men take a mother, father, and son hostage in their
+        vacation cabin and force them to play sadistic "games" with one another
+        for their own amusement.
   The Grudge Collection:
     template:
-      name: Collection Movie
+      name: Collection - Movie
       collection: 1974
       movie: 465086
-    sort_title: Grudge Collection
+      sort_title: Grudge Collection
+      summary: It never forgives. It never forgets.
   Halloween Collection:
-    trakt_list: 'https://trakt.tv/users/goape/lists/halloween-chronological'
-    collection_order: custom
-    sync_mode: sync
-    tmdb_movie: null
-    summary: Trick or treat... or die
+    template:
+      name: Collection - Trakt List Custom Order
+      list: halloween-collection
+      summary: Trick or treat... or die
   The Hannibal Lecter Collection:
     template:
       name: Collection Movie
