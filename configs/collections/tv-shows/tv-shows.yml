@@ -5,8 +5,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Alpha:
@@ -15,8 +17,10 @@ templates:
     collection_order: alpha
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Release:
@@ -25,8 +29,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List:
@@ -35,8 +41,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
@@ -45,8 +53,10 @@ templates:
     collection_order: custom
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Show:
@@ -56,8 +66,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Shows:
@@ -66,8 +78,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide:
@@ -76,8 +90,10 @@ templates:
     collection_order: release
     collection_mode: hide
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Search:
@@ -87,33 +103,37 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
 collections:
   Addams Family Collection:
     template:
-      name: Collection
+      name: Collection - Shows
       show: '14009, 21036'
       summary: Creepy. Kooky. Spooky. Ooky.
   Æon Flux Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       show: 406
   ALF Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 4658
-    summary: Alien Life Form
-  Archie Collection:
-    trakt_list: 'https://trakt.tv/users/goape/lists/archies'
-    summary: >-
-      Archie Comic Publications, Inc., is an American comic book publisher
-      headquartered in Pelham, New York. The company's many titles feature the
-      fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica
-      Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy
-      Keene.
+      name: Collection - Hide
+      tmdb_show: 4658
+      summary: Alien Life Form
+  Archies Collection:
+    template:
+      name: Collection - Trakt List
+      list: archies-collection
+      summary: >-
+        Archie Comic Publications, Inc., is an American comic book publisher
+        headquartered in Pelham, New York. The company's many titles feature the
+        fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper,
+        Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats
+        and Katy Keene.
   Batman Collection:
     template:
       name: Search

@@ -14,20 +14,23 @@ templates: !!import/shallow
 collections:
   Addams Family Collection:
     template:
-      name: Collection
+      name: Collection - Shows
       show: 14009, 21036
       summary: Creepy. Kooky. Spooky. Ooky.
   Æon Flux Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       show: 406
   ALF Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 4658
-    summary: Alien Life Form
-  Archie Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/archies
-    summary: Archie Comic Publications, Inc., is an American comic book publisher headquartered in Pelham, New York. The company's many titles feature the fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy Keene.
+    template:
+      name: Collection - Hide
+      tmdb_show: 4658
+      summary: Alien Life Form
+  Archies Collection:
+    template:
+      name: Collection - Trakt List
+      list: archies-collection
+      summary: Archie Comic Publications, Inc., is an American comic book publisher headquartered in Pelham, New York. The company's many titles feature the fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy Keene.
   Batman Collection:
     template:
       name: Search

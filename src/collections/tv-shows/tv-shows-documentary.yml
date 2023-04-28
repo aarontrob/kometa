@@ -1,0 +1,34 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../../templates/collection.yml
+  - ../../templates/collection-tv-shows.yml
+  - ../../templates/search.yml
+
+######################################################
+#                   Collections                      #
+######################################################
+
+collections:
+  Cosmos Collection:
+    template:
+      name: Collection - Shows
+      show: 58474, 1430
+      summary: If you wish to make an apple pie from scratch, you must first invent the universe.
+  Planet Earth Collection:
+    template:
+      name: Collection - Shows
+      show: 1044, 68595
+      summary: Prepare to see it as never before.
+  Star Trek:
+    template:
+      name: Collection - Hide
+      show: 137895
+      summary: Live long, and prosper
+  Star Wars:
+    template:
+      name: Collection - Trakt List
+      list: star-wars-collection
+      summary: May the Force Be with You

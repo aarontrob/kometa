@@ -1,0 +1,954 @@
+templates:
+  Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Alpha:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: alpha
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Release:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List Custom Order:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Show:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    tmdb_show: <<show>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Shows:
+    tmdb_show: <<show>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Hide:
+    tmdb_show: <<show>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Search:
+    plex_search:
+      title: <<title>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+collections:
+  101 Dalmatians Collection:
+    tmdb_show: '75523, 2198'
+    summary: Crafty Cruella... chasing every spotted puppy in town.
+    label: Kids
+  Abbott and Costello Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 17932
+  Ace Ventura Collection:
+    tmdb_show: 2831
+  Addams Family Collection:
+    tmdb_show: '12925, 13015'
+    summary: Creepy. Kooky. Spooky. Ooky.
+  Aladdin Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 2745
+  ALF Collection:
+    template:
+      name: Search
+      title: ALF
+    summary: Alien Life Form
+  All Dogs Go to Heaven Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 6771
+  Alvin and the Chipmunks Collection:
+    tmdb_show: '2160, 64572'
+  Animaniacs Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 82
+  Ant-Man Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 73919
+  Aquaman Collection:
+    template:
+      name: Search
+      title: Aquaman
+    summary: >-
+      Monarch of the undersea realm of Atlantis and King of the Seven Seas,
+      Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom
+      that covers three-quarters of the Earth’s surface, including all the
+      creatures contained within.
+  Archie Collection:
+    trakt_list: 'https://trakt.tv/users/goape/lists/archies'
+    summary: >-
+      Archie Comic Publications, Inc., is an American comic book publisher
+      headquartered in Pelham, New York. The company's many titles feature the
+      fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica
+      Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy
+      Keene.
+  Are You Afraid of the Dark? Collection:
+    template:
+      name: Search
+      title: Are You Afraid of the Dark
+    summary: 'Submitted for the approval of the Midnight Society, I call this story...'
+  The Avengers Collection:
+    template:
+      name: Search
+      title: Avengers
+    sort_title: Avengers Collection
+    summary: Earth's Mightiest Heroes
+    label: Movies
+  Back to the Future Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 4745
+  Batman Collection:
+    template:
+      name: Search
+      title: 'Batman, Dark Knight, Super Friends, Superfriends'
+    tmdb_show: 936
+    name_mapping: Batman Collection (TV Kids)
+    summary: >-
+      Batman is a superhero who appears in American comic books published by DC
+      Comics. Batman was created by artist Bob Kane and writer Bill Finger, and
+      debuted in the 27th issue of the comic book Detective Comics on March 30,
+      1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a
+      wealthy American playboy, philanthropist, and industrialist who resides in
+      Gotham City. Batman's origin story features him swearing vengeance against
+      criminals after witnessing the murder of his parents Thomas and Martha; he
+      trains himself physically and intellectually, crafts a bat-inspired
+      persona, and monitors the Gotham streets at night. Kane, Finger, and other
+      creators accompanied Batman with supporting characters, including his
+      sidekick Robin; allies Alfred Pennyworth, James Gordon, and Catwoman; and
+      foes such as the Penguin, the Riddler, Two-Face, and his archenemy, the
+      Joker.
+  The Beatles Collection:
+    sort_title: Beatles Collection
+    template:
+      name: Collection Hide
+    tmdb_show: 13531
+  Beetlejuice Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 4288
+  Big Hero 6 Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 68665
+    summary: 'Hello, I am Baymax, your personal healthcare companion.'
+  Bill & Ted's Most Excellent Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 35006
+  Boy Meets World Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 46028
+  The Brady Bunch Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 10115
+    sort_title: Brady Bunch Collection
+    summary: 'Sure, Jan.'
+    name_mapping: The Brady Bunch Collection (TV)
+  Care Bears Collection:
+    template:
+      name: Search
+      title: Care Bears
+  Carmen Sandiego Collection:
+    template:
+      name: Search
+      title: Carmen Sandiego
+    summary: Where in the World Is Carmen Sandiego?
+  Cars Collection:
+    tmdb_show: 114502
+    template:
+      name: Search
+      title: Cars Toons
+    summary: Our Cars Speak For Themselves.
+  Casper Collection:
+    tmdb_show: '8627, 31527, 6755, 14470'
+  Chip 'n Dale Collection:
+    tmdb_show: '1615, 96715'
+    summary: >-
+      Chip and Dale (also spelled Chip 'n' Dale) are a cartoon duo of
+      anthropomorphic chipmunk brothers created in 1943 by The Walt Disney
+      Company.
+  Conan the Barbarian Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 13885
+  The Croods Collection:
+    sort_title: Croods Collection
+    summary: Are you better off now than you were 4 million years ago?
+    tmdb_show: '132559, 64783'
+  Curious George Collection:
+    template:
+      name: Search
+      title: Curious George
+  Dennis the Menace Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 3518
+  Descendants Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 65016
+  DuckTales Collection:
+    tmdb_show: '720, 72350'
+  Dumb and Dumber Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 7972
+  The Emperor's New Groove Collection:
+    sort_title: Emperor's New Groove Collection
+    template:
+      name: Collection Hide
+    tmdb_show: 4623
+  Fantastic Four Collection:
+    template:
+      name: Search
+      title: Fantastic Four
+    tmdb_show: 2271
+  Flash Gordon Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 11844
+  The Flintstones Collection:
+    template:
+      name: Search
+      title: 'Flintstones, Flintstone, Yabba-dabba'
+    tmdb_show: '956, 2451, 15153, 109086'
+    sort_title: Flintstones Collection
+    name_mapping: The Flintstones Collection (TV)
+    summary: >-
+      The Flintstones is an American animated sitcom produced by Hanna-Barbera
+      Productions. The series takes place in a romanticized Stone Age setting
+      and follows the activities of the title family, the Flintstones, and their
+      next-door neighbors, the Rubbles.
+  Fraggle Rock Collection:
+    template:
+      name: Search
+      title: Fraggle
+    summary: >-
+      Fraggle Rock (also known as Jim Henson's Fraggle Rock or Fraggle Rock with
+      Jim Henson's Muppets) is a children's musical fantasy comedy puppet
+      television series about interconnected societies of Muppet creatures,
+      created by Jim Henson.
+  Free Willy Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 10289
+  Garbage Pail Kids Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 3260
+  Garfield Collection:
+    template:
+      name: Search
+      title: Garfield
+    summary: >-
+      Garfield is an American comic strip created by Jim Davis. Originally
+      published locally as Jon in 1976, then in nationwide syndication from 1978
+      as Garfield, it chronicles the life of the title character, Garfield the
+      cat; Jon Arbuckle, his human owner; and Odie, the dog.
+  Ghostbusters Collection:
+    template:
+      name: Search
+      title: Ghostbusters
+    summary: Who ya gonna call? Ghostbusters!
+  Gilligan's Island Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 631
+  Globetrotters Collection:
+    template:
+      name: Search
+      title: Globetrotters
+  A Goofy Movie Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 2235
+  Goosebumps Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 5835
+  Guardians of the Galaxy Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: '63181, 70784'
+    plex_search:
+      title: I Am Groot
+  Happy Days Collection:
+    template:
+      name: Collection
+      show: '3845, 3033, 2552, 920, 10798, 10071, 31457, 31407, 527'
+    summary: >-
+      Happy Days is an American sitcom television series that aired first-run on
+      the ABC network from January 15, 1974, to September 24, 1984, with a total
+      of 255 half-hour episodes spanning 11 seasons. Created by Garry Marshall,
+      the series was one of the most successful of the 1970s, a sweet vision of
+      life in the mid-1950s to mid-1960s Midwestern United States, and starred
+      Ron Howard as young Richie Cunningham, Henry Winkler as his friend Fonzie,
+      and Tom Bosley and Marion Ross as Richie's parents, Howard and Marion
+      Cunningham. Although it opened to mixed reviews from critics, Happy Days
+      became successful and popular over time.
+  Hercules Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 2567
+  Hey Arnold! Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 537
+  'Honey, I Shrunk the Kids Collection':
+    template:
+      name: Collection Hide
+    tmdb_show: 1797
+  Hotel Transylvania Collection:
+    template:
+      name: Collection Hide
+      show: 72442
+  How to Train Your Dragon Collection:
+    trakt_list: 'https://trakt.tv/users/goape/lists/how-to-train-your-dragon-collection'
+  Hulk Collection:
+    template:
+      name: Search
+      title: Hulk
+    filters:
+      title.not: Hulk Hogan's Rock 'n' Wrestling
+    summary: HULK SMASH!
+  Ice Age Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 158307
+  Inspector Gadget Collection:
+    template:
+      name: Search
+      title: Inspector Gadget
+    summary: The ultimate crime fighting machine.
+  Iron Man Collection:
+    template:
+      name: Search
+      title: Iron Man
+    summary: >-
+      Heroes aren't born. They're built. Get ready for a different breed of
+      heavy metal hero.
+  James Bond Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 42245
+  The Jetsons Collection:
+    sort_title: Jetsons Collection
+    template:
+      name: Collection Hide
+    tmdb_show: 2362
+    summary: >-
+      The Jetsons is an American animated sitcom produced by Hanna-Barbera
+      Productions. It originally aired in prime time from September 23, 1962 to
+      March 17, 1963 on ABC, then later aired in reruns via syndication. New
+      episodes were produced from 1985 to 1987 as part of The Funtastic World of
+      Hanna-Barbera block. It was Hanna-Barbera's Space Age counterpart to The
+      Flintstones.
+  Jonny Quest Collection:
+    template:
+      name: Search
+      title: Jonny Quest
+  Josie and the Pussycats Collection:
+    name_mapping: Josie and the Pussycats Collection (TV)
+    tmdb_show: '4489, 24211'
+    summary: >-
+      Josie and the Pussycats (initially published as She's Josie and Josie) is
+      a teen-humor comic book about a fictional rock band, created by Dan
+      DeCarlo and published by Archie Comics. It was published from 1963 until
+      1982; since then, one-shot issues have appeared on an irregular basis.
+  Jumanji Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 2118
+  The Jungle Book Collection:
+    sort_title: Jungle Book Collection
+    template:
+      name: Collection Hide
+    tmdb_show: 10103
+  Jurassic Park Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 93741
+  Justice League Collection:
+    template:
+      name: Search
+      title: Justice League
+  The Karate Kid Collection:
+    sort_title: Karate Kid Collection
+    template:
+      name: Collection Hide
+    tmdb_show: 10200
+    plex_search:
+      title: Karate Kid
+  Killer Tomatoes! Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 11044
+  King Kong Collection:
+    plex_search:
+      title: 'King Kong, King of the Apes'
+    summary: The eighth wonder of the world.
+  Kung Fu Panda Collection:
+    tmdb_show: '82747, 39898, 129959'
+    summary: >-
+      The Kung Fu Panda series are computer-animated action comedy films set in
+      a version of old China populated by humanoid talking animals, the plot
+      revolves around a bumbling humanoid panda named Po who aspires to be a
+      kung fu master.
+  Land of the Lost Collection:
+    plex_search:
+      title: Land of the Lost
+    summary: Experience a New Dimension in Adventure
+  Laverne & Shirley Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 31457
+  The Lion King Collection:
+    tmdb_show: '64752, 4429'
+    sort_title: Lion King Collection
+    summary: >-
+      The film franchise mainly revolves about a pride of lions who oversee a
+      large swath of African savanna as their «kingdom» known as the Pride
+      Lands, with their leader Simba watching over it as «king». In the original
+      film, Simba was tricked into thinking he killed his father, a guilt ridden
+      lion cub flees into exile and abandons his identity as the future King.
+  Lilo & Stitch Collection:
+    template:
+      name: Collection Hide
+      show: 2355
+  The Little Mermaid Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 2675
+    sort_title: Little Mermaid Collection
+  The Little Rascals Collection:
+    sort_title: Little Rascals Collection
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide
+    tvdb_show: 374536
+  Little Shop of Horrors Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 10562
+  Looney Tunes Collection:
+    trakt_list: 'https://trakt.tv/users/goape/lists/looney-tunes'
+    summary: >-
+      Looney Tunes is an American animated comedy short film series produced by
+      Warner Bros. from 1930 to 1969 along with its sister series, Merrie
+      Melodies, during the golden age of American animation. They introduced
+      Bugs Bunny, Daffy Duck, Porky Pig, Elmer Fudd, Wile E. Coyote, Road
+      Runner, Sylvester, Tweety, Granny, Yosemite Sam, the Tasmanian Devil,
+      Marvin the Martian, Pepé Le Pew, Foghorn Leghorn, Speedy Gonzales and many
+      other cartoon characters. After Bugs Bunny became the breakout recurring
+      star of Merrie Melodies and Looney Tunes went to color in the early 1940s
+      (Merrie Melodies having already been in color since 1934), the two series
+      gradually lost their distinctions, and shorts were assigned to each series
+      more randomly.
+  The Magic School Bus Collection:
+    sort_title: Magic School Bus Collection
+    template:
+      name: Search
+      title: Magic School Bus
+  Mario Collection:
+    name_mapping: Mario Collection (TV Kids)
+    template:
+      name: Search
+      title: Mario
+    summary: Oh yeah! Mario time!
+  The Mask Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 9957
+    sort_title: Mask Collection
+  Masters of the Universe Collection:
+    template:
+      name: Search
+      title: 'He-Man, She-Ra, Masters of the Universe'
+    tmdb_show: '96658, 14755, 79732'
+    summary: By the Power of Grayskull!
+  Men In Black Collection:
+    template:
+      name: Search
+      title: Men In Black
+    collection_mode: hide
+    summary: Protecting the earth from the scum of the universe
+  The Mighty Ducks Collection:
+    tmdb_show: '114621, 1334'
+    summary: They Can't Skate. They Can't Win. They Can't Be Serious.
+  'Monsters, Inc. Collection':
+    template:
+      name: Collection Hide
+    tmdb_show: 90461
+  Mork & Mindy Collection:
+    template:
+      name: Search
+      title: Mork & Mindy
+    collection_mode: hide
+    summary: Na-No Na-No!
+  Mr. Magoo Collection:
+    template:
+      name: Search
+      title: Magoo
+    summary: 'Oh Magoo, you''ve done it again!'
+  The Mummy Trilogy:
+    template:
+      name: Collection Hide
+    tmdb_show: 5595
+    sort_title: Mummy Trilogy
+  The Muppets Collection:
+    template:
+      name: Search
+      title: 'Muppet, Muppets'
+    sort_title: Muppets Collection
+    summary: >-
+      The Muppets are an ensemble cast of puppet characters known for an
+      absurdist, burlesque, and self-referential style of variety-sketch comedy.
+      Created by Jim Henson in 1955, they are the namesakes of the Disney-owned
+      media franchise that encompasses television, film, music, and other media
+      associated with the characters.
+    label: Kids
+  The Neverending Story Collection:
+    tmdb_show: '10986, 1479'
+    summary: >-
+      A boy who needs a friend finds a world that needs a hero in a land beyond
+      imagination!
+  Pac-Man Collection:
+    template:
+      name: Search
+      title: Pac-Man
+  Peanuts Collection:
+    trakt_list: 'https://trakt.tv/users/goape/lists/peanuts-collection'
+    summary: >-
+      Peanuts is a syndicated daily and Sunday American comic strip written and
+      illustrated by Charles M. Schulz that ran from October 2, 1950, to
+      February 13, 2000, and continuing in reruns afterward. Peanuts is among
+      the most popular and influential in the history of comic strips, with
+      17,897 strips published in all, making it "arguably the longest story ever
+      told by one human being". By the time of Schulz's death in 2000, Peanuts
+      ran in over 2,600 newspapers, with a readership of around 355 million in
+      75 countries, and was translated into 21 languages. It helped to cement
+      the four-panel gag strip as the standard in the United States, and
+      together with its merchandise earned Schulz more than $1 billion.
+
+      Peanuts focuses entirely on a social circle of young children, where
+      adults exist but are never seen and rarely heard. The main character,
+      Charlie Brown, is meek, nervous, and lacks self-confidence. He is unable
+      to fly a kite, win a baseball game, or kick a football held by his
+      irascible friend Lucy, who always pulls it away at the last instant.
+
+      Peanuts is one of the literate strips with philosophical, psychological,
+      and sociological overtones that flourished in the 1950s. Peanuts's humor
+      is psychologically complex and driven by the characters' interactions and
+      relationships.
+  Pee-wee's Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 4612
+  Peter Pan Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 34891
+  The Pink Panther Collection:
+    template:
+      name: Search
+      title: 'Pink Panther, Inspector'
+    tmdb_show: 72292
+    sort_title: Pink Panther Collection
+    summary: >-
+      The Pink Panther is an American media franchise primarily focusing on a
+      series of comedy-mystery films featuring an inept French police detective,
+      Inspector Jacques Clouseau. The franchise began with the release of the
+      classic Pink Panther film in 1963. The role of Clouseau was originated by,
+      and is most closely associated with, Peter Sellers. Most of the films were
+      written and directed by Blake Edwards, with theme music composed by Henry
+      Mancini. Elements and characters inspired by the films were adapted into
+      other media, including books, comic books and animated series.
+  Planet of the Apes Collection:
+    template:
+      name: Search
+      title: Planet of the Apes
+    collection_mode: hide
+    summary: 'Somewhere in the Universe, there must be something better than man!'
+  Pokémon Collection:
+    template:
+      name: Search
+      title: Pokémon
+    summary: >-
+      Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media
+      franchise managed by The Pokémon Company, a company founded by Nintendo,
+      Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in
+      1996, and is centered on fictional creatures called "Pokémon". In Pokémon,
+      humans, known as Pokémon Trainers, catch and train Pokémon to battle other
+      Pokémon for sport. All media works within the franchise are set in the
+      Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em
+      All!". There are currently 900 Pokémon species.
+  Police Academy Collection:
+    template:
+      name: Search
+      title: Police Academy
+    collection_mode: hide
+    summary: >-
+      The new police recruits. Call them slobs. Call them jerks. Call them
+      gross. ...Just don't call them when you're in trouble.
+  Popeye Collection:
+    template:
+      name: Search
+      title: Popeye
+    summary: Ahoy!
+  Power Rangers Collection:
+    template:
+      name: Search
+      title: Power Rangers
+    summary: GO GO POWER RANGERS!
+    label: Kids
+  The Powerpuff Girls Collection:
+    sort_title: Powerpuff Girls Collection
+    template:
+      name: Search
+      title: Powerpuff
+    summary: >-
+      Sugar, spice and everything nice...these were the ingredients to create
+      the perfect... crime-fighting little girls? Saving the world before
+      bedtime!
+  Puss in Boots Collection:
+    template:
+      name: Collection Hide
+      show: 61886
+  Rambo Collection:
+    template:
+      name: Collection Hide
+      show: 2762
+    plex_search:
+      title: Rambo
+  Recess Collection:
+    template:
+      name: Collection Hide
+      show: 1546
+  Richie Rich Collection:
+    template:
+      name: Collection Hide
+      show: 1071
+    plex_search:
+      title: Richie Rich
+  RoboCop Collection:
+    template:
+      name: Search
+      title: RoboCop
+    summary: The future of law enforcement. Part man. Part machine.
+  Rocko's Modern Life Collection:
+    template:
+      name: Collection Hide
+      show: 657
+  Rocky and Bullwinkle Collection:
+    template:
+      name: Search
+      title: Rocky and Bullwinkle
+  Rugrats Collection:
+    template:
+      name: Search
+      title: Rugrats
+    tmdb_show: 130
+    summary: >-
+      Rugrats is an American children's animated television series created by
+      Arlene Klasky, Gábor Csupó, and Paul Germain for Nickelodeon. The show
+      focuses on a group of toddlers most prominently—Tommy, Chuckie, twins Phil
+      and Lil, and Angelica—and their day-to-day lives, usually involving life
+      experiences that become much greater adventures in the imaginations of the
+      main characters.
+  Sabrina the Teenage Witch Collection:
+    template:
+      name: Search
+      title: Sabrina
+    summary: This girl is making her own magic.
+  Sailor Moon Collection:
+    template:
+      name: Search
+      title: Sailor Moon
+  Scooby-Doo! Collection:
+    template:
+      name: Search
+      title: Scooby
+    tmdb_show: 1071
+    summary: >-
+      And I would have gotten away with it, too, if it weren't for you meddling
+      kids!
+  Shazam! Collection:
+    template:
+      name: Collection Hide
+      show: 11093
+    plex_search:
+      title: Shazam
+    name_mapping: Shazam Collection
+  Sherlock Holmes Collection:
+    template:
+      name: Collection Hide
+      show: 10684
+    plex_search:
+      title: Sherlock Holmes
+  The Smurfs Collection:
+    plex_search:
+      title: Smurfs
+    sort_title: Smurfs Collection
+    summary: Smurf happens
+  Sonic The Hedgehog Collection:
+    template:
+      name: Search
+      title: Sonic
+    summary: >-
+      Sonic the Hedgehog is a Japanese video game series and media franchise
+      created and owned by Sega. The franchise follows Sonic, an anthropomorphic
+      blue hedgehog who battles the evil Doctor Eggman, a mad scientist.
+    name_mapping: Sonic The Hedgehog Collection (TV)
+  Space Ghost Collection:
+    template:
+      name: Search
+      title: Space Ghost
+  Speed Racer Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 30986
+  Spider-Man Collection:
+    template:
+      name: Search
+      title: 'Spider-Man, Spider-Woman'
+    tmdb_show: 4784
+    summary: Your Friendly Neighborhood Spider-Man
+  SpongeBob Collection:
+    tmdb_show: '126824, 387, 99588'
+    plex_search:
+      title: SpongeBob
+    summary: >-
+      A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook
+      at Krusty Krab, lives in the Pacific Ocean. He embarks on various
+      adventures with his friends at Bikini Bottom.
+  Star Trek:
+    template:
+      name: Search
+      title: Star Trek
+    summary: 'Live long, and prosper'
+  Star Wars:
+    template:
+      name: Collection List
+      list: 'https://trakt.tv/users/goape/lists/star-wars'
+    summary: May the Force Be with You
+  Steven Universe Collection:
+    template:
+      name: Search
+      title: Steven Universe
+  Street Fighter Collection:
+    template:
+      name: Collection Hide
+      show: 13655
+    plex_search:
+      title: Street Fighter
+  Superman Collection:
+    plex_search:
+      title: 'Superman, Man of Steel'
+    tmdb_show: 4028
+    summary: >-
+      Superman is a fictional superhero who first appeared in American comic
+      books published by DC Comics. The character was created by writer Jerry
+      Siegel and artist Joe Shuster, and first appeared in the comic book Action
+      Comics #1.
+  Tales from the Crypt Collection:
+    plex_search:
+      title: Tales from the Crypt
+    name_mapping: Tales from the Crypt Collection (TV Kids)
+    collection_mode: hide
+  Tangled Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 70047
+  Teen Titans Collection:
+    template:
+      name: Search
+      title: Teen Titans
+  Teen Wolf Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 10823
+  Teenage Mutant Ninja Turtles Collection:
+    plex_search:
+      title: Teenage Mutant
+    summary: >-
+      The Teenage Mutant Ninja Turtles (often shortened to the TMNT or Ninja
+      Turtles) are a fictional superhero quartet of teenage anthropomorphic
+      turtle ninja that appear in a self-titled franchise consisting of comic
+      books, animated children's cartoons, feature films, and other tie-in
+      products.
+  Toy Story Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 3744
+  ThunderCats Collection:
+    template:
+      name: Search
+      title: ThunderCats
+    summary: >-
+      ThunderCats is an American media franchise, featuring a fictional group of
+      cat-like humanoid aliens. The characters were created by Tobin "Ted" Wolf
+      and originally featured in an animated television series named
+      ThunderCats, running from 1985 to 1989, which was animated by Japanese
+      studio Pacific Animation Corporation, and co-produced by Rankin-Bass
+      Animated Entertainment.
+  The Three Caballeros Collection:
+    template:
+      name: Collection Hide
+    tmdb_show: 80402
+  The Three Musketeers Collection:
+    sort_title: Three Musketeers Collection
+    tmdb_show: 31988
+    collection_mode: hide
+    summary: 'All for one, and one for all!'
+  The Three Stooges Collection:
+    template:
+      name: Collection Hide
+      show: '13592, 10629'
+    sort_title: Three Stooges Collection
+  The Tick Collection:
+    template:
+      name: Collection
+      show: '14651, 67487, 14540'
+  Tom and Jerry Collection:
+    template:
+      name: Search
+      title: 'Tom and Jerry, Tom & Jerry'
+    summary: >-
+      Tom and Jerry is an American animated media franchise and series of comedy
+      short films created in 1940 by William Hanna and Joseph Barbera. Best
+      known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the
+      series centers on the rivalry between the titular characters of a cat
+      named Tom and a mouse named Jerry. Many shorts also feature several
+      recurring characters.
+  Transformers Collection:
+    template:
+      name: Search
+      title: Transformers
+    summary: >-
+      The Transformers series follows the continuing battle between the Autobots
+      and the Decepticons and ultimately, the triumph of good over evil.
+  Trolls Collection:
+    tmdb_show: '76205, 113378'
+  TRON Collection:
+    template:
+      name: Collection Hide
+      show: 34356
+    plex_search:
+      title: TRON
+  Where's Waldo? Collection:
+    plex_search:
+      title: Waldo
+    summary: '???'
+  Winnie the Pooh Collection:
+    template:
+      name: Search
+      title: 'Pooh, Tigger, Piglet'
+    collection_mode: hide
+    summary: >-
+      Winnie the Pooh, the fictional teddy bear created by English author A. A.
+      Milne, is one of the most popular characters adapted for film and
+      television by The Walt Disney Company.
+  The Wolverine Collection:
+    template:
+      name: Collection Hide
+      show: 6549
+    sort_title: Wolverine Collection
+  X-Men Collection:
+    trakt_list: 'https://trakt.tv/users/goape/lists/x-men'
+    summary: Join the Evolution.
+  Yogi Bear Collection:
+    template:
+      name: Search
+      title: Yogi
+    summary: >-
+      Yogi Bear is a anthropomorphic animal character who has appeared in
+      numerous comic books, animated television shows and films. He made his
+      debut in 1958 as a supporting character in The Huckleberry Hound Show.
+  Zorro Collection:
+    template:
+      name: Collection Hide
+      show: 14677
