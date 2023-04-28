@@ -173,57 +173,82 @@ collections:
       list: halloween-collection
       summary: Trick or treat... or die
   The Hannibal Lecter Collection:
-    template: { name: Collection Movie, collection: 9743, movie: 11454 }
-    sort_title: Hannibal Lecter Collection
+    template:
+      name: Collection - Movie
+      collection: 9743
+      movie: 11454
+      sort_title: Hannibal Lecter Collection
+      summary: To enter the mind of a killer she must challenge the mind of a madman.
   Hellraiser Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/8917
-    tmdb_movie: 348191
+    template:
+      name: Collection - Movie
+      collection: 8917
+      movie: 348191
+      summary: Demon to some. Angel to others.
   The Hills Have Eyes Collection:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/267922
-      - https://www.themoviedb.org/collection/8918
-    tmdb_movie: 8771
-    sort_title: Hills Have Eyes Collection
-    summary: Mutants and monsters attack people who are "unfortunate enough" to be stranded near the desert...
+    template:
+      name: Collection - Movie
+      collection: 267922, 8918
+      movie: 8771
+      sort_title: Hills Have Eyes Collection
+      summary: Mutants and monsters attack people who are "unfortunate enough" to be stranded near the desert...
   House of Wax Collection:
-    tmdb_movie: 18573, 10066
-    summary: A New York sculptor who opens a wax museum to showcase the likenesses of famous historical figures runs into trouble with his business partner, who demands that the exhibits become more extreme in order to increase profits.
+    template:
+      name: Collection - Movies
+      movie: 18573, 10066
+      summary: A New York sculptor who opens a wax museum to showcase the likenesses of famous historical figures runs into trouble with his business partner, who demands that the exhibits become more extreme in order to increase profits.
   House on Haunted Hill Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/248339
-    tmdb_movie: 15856
-    summary: Frederick Loren has invited five strangers to a party of a lifetime. He is offering each of them $10,000 if they can stay the night in a house. But the house is no ordinary house. This house has a reputation for murder. Frederick offers them each a gun for protection. They all arrived in a hearse and will either leave in it $10,000 richer or leave in it dead!
+    template:
+      name: Collection - Movie
+      collection: 248339
+      movie: 15856
+      summary: The doors are locked at midnight.
   I Spit on Your Grave Collection:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/219691
-      - https://www.themoviedb.org/collection/296429
-    summary: ...An Act of Vengeance
-  In Search of Darkness Trilogy:
-    tmdb_collection: https://www.themoviedb.org/collection/797016
-    summary: A three-part documentary series exploring the development and lasting impact of the horror film genre during the 1980s, feature interviews with numerous horror icons from both that decade and from the modern era, along with popular horror influencers.
+    template:
+      name: Collection
+      collection: 219691, 296429
+      summary: ...An Act of Vengeance
   Invaders from Mars Collection:
-    tmdb_movie: 31909, 20424
-    summary: NATURAL or SUPERNATURAL?
+    template:
+      name: Collection - Movies
+      movie: 31909, 20424
+      summary: NATURAL or SUPERNATURAL?
   Invasion of the Body Snatchers Collection:
-    tmdb_movie: 11549, 11850, 4858, 4722
-    summary: A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.
+    template:
+      name: Collection - Movies
+      movie: 11549, 11850, 4858, 4722
+      summary: A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.
   It Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/477962
+    template:
+      name: Collection
+      collection: 477962
+      summary: You'll float too.
     plex_search:
       title: Stephen King's IT
-    summary: You'll float too.
   It's Alive Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/256297
-    tmdb_movie: 23174
+    template:
+      name: Collection - Movie
+      collection: 256297
+      movie: 23174
+      summary: Whatever it is, it's alive and deadly.
   Jacob's Ladder Collection:
-    name_mapping: Jacobs Ladder Collection
-    tmdb_movie: 2291, 456529
-    summary: After returning home from the Vietnam War, veteran Jacob Singer struggles to maintain his sanity. Plagued by hallucinations and flashbacks, Singer rapidly falls apart as the world and people around him morph and twist into disturbing images. His girlfriend, Jezzie, and ex-wife, Sarah, try to help, but to little avail. Even Singer's chiropractor friend, Louis, fails to reach him as he descends into madness.
+    template:
+      name: Collection - Movies
+      movie: 2291, 456529
+      name_mapping: Jacobs Ladder Collection
+      summary: You can't run from your own mind
   The Last House on the Left Collection:
-    template: { name: Collection, collection: 629830 }
-    sort_title: Last House on the Left Collection
+    template:
+      name: Collection
+      collection: 629830
+      sort_title: Last House on the Left Collection
+      summary: Sights & sounds far beyond anything you've tested...take as much as you can!
   Leprechaun Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/19285
-    summary: An American comedic horror film series centered around a malevolent and murderous leprechaun, who, when his gold is taken from him, resorts to any means necessary to reclaim it.
+    template:
+      name: Collection - Movie
+      collection: 19285
+      movie: 126172
+      summary: Your luck just ran out
   Little Shop of Horrors Collection:
     tmdb_movie: 10776, 24452
     summary: Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in urban Skid Row. He harbors a crush on fellow co-worker Audrey Fulquard, and is berated by Mr. Mushnik daily. One day Seymour finds a very mysterious unidentified plant which he calls Audrey II. The plant seems to have a craving for blood and soon begins to sing for his supper.
