@@ -137,145 +137,128 @@ collections:
     collection_mode: show_items
   Batman Collection:
     template:
-      name: Search
+      name: Collection - Trakt List
+      list: batman-collection
+      summary: WHAMMM! SWAAP! BAM! KER-SPLOOSH!
+    plex_search:
       title: 'Batman, Dark Knight'
-    summary: WHAMMM! SWAAP! BAM! KER-SPLOOSH!
-    name_mapping: Batman Collection (TV)
   Battlestar Galactica Collection:
     template:
-      name: Search
-      title: Galactica
-    tmdb_show: 877
-    summary: >-
-      Battlestar Galactica is an American science fiction media franchise
-      created by Glen A. Larson. All Battlestar Galactica productions share the
-      premise that in a distant part of the universe, a human civilization has
-      extended to a group of planets known as the Twelve Colonies, to which they
-      have migrated from their ancestral homeworld of Kobol. The Twelve Colonies
-      have been engaged in a lengthy war with a cybernetic race known as the
-      Cylons, whose goal is the extermination of the human race. The Cylons
-      offer peace to the humans, which proves to be a ruse. With the aid of a
-      human named Baltar, the Cylons carry out a massive nuclear attack on the
-      Twelve Colonies and on the Colonial Fleet of starships that protect them.
-      These attacks devastate the Colonial Fleet, lay waste to the Colonies, and
-      virtually destroy all but a population of 50,000. Scattered survivors flee
-      into outer space aboard a ragtag array of spaceworthy ships. Of the entire
-      Colonial battle fleet, only the Battlestar Galactica, a gigantic
-      battleship and spacecraft carrier, appears to have survived the Cylon
-      attack. Under the leadership of Commander Adama, the Galactica and the
-      pilots of "Viper fighters" lead a fugitive fleet of survivors in search of
-      the fabled thirteenth colony known as Earth.
+      name: Collection - Trakt List
+      list: battlestar-galactica-collection
+      summary: >-
+        The fight to save humanity rages on. Where will you stand? Destiny is
+        not what it seems.
   The Beverly Hillbillies Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 1930
-    sort_title: Beverly Hillbillies Collection
-    name_mapping: The Beverly Hillbillies Collection (TV)
+      name: Collection - Hide
+      show: 1930
+      sort_title: Beverly Hillbillies Collection
+      name_mapping: The Beverly Hillbillies Collection (TV)
   Bewitched Collection:
     template:
-      name: Collection Hide
-    tmdb_show: '4482, 1074'
+      name: Collection - Shows
+      show: '4482, 1074'
   Big Brother Collection:
     template:
       name: Search
       title: Big Brother
+      summary: Big Brother is Watching You
   Blade Collection:
-    tmdb_show: '4619, 62798'
-    summary: Part Man. Part Vampire. All Hero.
+    template:
+      name: Collection - Shows
+      show: '4619, 62798'
+      summary: Part Man. Part Vampire. All Hero.
   Blade Runner Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 84553
+      name: Collection - Hide
+      show: 84553
   Bob's Burgers Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 32726
+      name: Collection - Hide
+      show: 32726
   Boy Meets World Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 1777
+      name: Collection - Hide
+      show: 1777
   The Brady Bunch Collection:
     template:
-      name: Search
-      title: Brady
-    sort_title: Brady Bunch Collection
-    summary: 'Sure, Jan.'
-    name_mapping: The Brady Bunch Collection (TV)
+      name: Collection - Shows
+      show: '2126, 15105, 30001, 10027'
+      sort_title: Brady Bunch Collection
+      summary: 'Sure, Jan.'
+      name_mapping: The Brady Bunch Collection (TV)
   Buck Rogers Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       show: 2443
   Buffy the Vampire Slayer Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       show: 95
   Charlie's Angels Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 3382
-    name_mapping: Charlie's Angels Collection (TV)
+      name: Collection - Hide
+      show: 3382
+      name_mapping: Charlie's Angels Collection (TV)
   Child's Play Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 90462
+      name: Collection - Hide
+      show: 90462
   Clueless Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 3921
+      name: Collection - Hide
+      show: 3921
   Constantine Collection:
-    tmdb_show: '78081, 60743'
-    summary: Everyone fights their demons. His fight back.
-  Cosmos Collection:
-    tmdb_show: '58474, 1430'
-    summary: >-
-      If you wish to make an apple pie from scratch, you must first invent the
-      universe.
+    template:
+      name: Collection - Shows
+      show: '78081, 60743'
+      summary: Everyone fights their demons. His fight back.
   Creepshow Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 86686
+      name: Collection - Hide
+      show: 86686
   Critters Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 87208
+      name: Collection - Hide
+      show: 87208
   Dexter Collection:
-    tmdb_show: '1405, 131927'
-    summary: >-
-      America's favorite serial killer. He's got a way with murder. Blood never
-      lies. Anyone has something to hide.
+    template:
+      name: Collection - Shows
+      show: '1405, 131927'
+      summary: >-
+        America's favorite serial killer. He's got a way with murder. Blood
+        never lies. Anyone has something to hide.
   Downton Abbey Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 33907
+      name: Collection - Hide
+      show: 33907
   Dune Collection:
-    tmdb_show: 9156
-    summary: >-
-      A world beyond your experience, beyond your imagination. A place beyond
-      your dreams.
+    template:
+      name: Collection - Hide Show
+      show: 9156
+      summary: >-
+        A world beyond your experience, beyond your imagination. A place beyond
+        your dreams.
   Evil Dead Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 62264
-    summary: >-
-      Evil Dead is an American supernatural horror film franchise created by Sam
-      Raimi consisting of four feature films and a television series. The series
-      revolves around the Necronomicon Ex-Mortis, an ancient Sumerian text which
-      wreaks havoc upon a group of cabin inhabitants in a wooded area in
-      Tennessee.
+      name: Collection - Hide
+      show: 62264
+      summary: They got up on the wrong side of the grave.
   The Exorcist Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 67135
-    sort_title: Exorcist Collection
+      name: Collection - Hide
+      show: 67135
+      sort_title: Exorcist Collection
   Family Guy Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 1434
+      name: Collection - Hide
+      show: 1434
   Firestarter Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 41327
-    summary: If you get on her bad side...YOU'RE TOAST.
+      name: Collection - Hide
+      show: 41327
+      summary: If you get on her bad side...YOU'RE TOAST.
   From Dusk Till Dawn Collection:
     template:
       name: Collection Hide
