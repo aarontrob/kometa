@@ -457,8 +457,8 @@ collections:
         process.
   The Muppets Collection:
     template:
-      name: Search
-      title: 'Muppet, Muppets'
+      name: Collection - Trakt List Custom Order
+      list: the-muppets-collection
       sort_title: Muppets Collection
       summary: >-
         The Muppets are an ensemble cast of puppet characters known for an

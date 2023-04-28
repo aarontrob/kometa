@@ -335,8 +335,8 @@ collections:
       summary: To save her father from death in the army, a young maiden secretly goes in his place and becomes one of China's greatest heroines in the process.
   The Muppets Collection:
     template:
-      name: Search
-      title: Muppet, Muppets
+      name: Collection - Trakt List Custom Order
+      list: the-muppets-collection
       sort_title: Muppets Collection
       summary: The Muppets are an ensemble cast of puppet characters known for an absurdist, burlesque, and self-referential style of variety-sketch comedy. Created by Jim Henson in 1955, they are the namesakes of the Disney-owned media franchise that encompasses television, film, music, and other media associated with the characters.
   Parent Trap Collection:
