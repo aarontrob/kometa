@@ -30,8 +30,8 @@ collections:
     template:
       name: Collection - Trakt List
       list: archie-collection
+      collection_mode: show_items
       summary: Archie Comic Publications, Inc., is an American comic book publisher headquartered in Pelham, New York. The company's many titles feature the fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy Keene.
-    collection_mode: show_items
   Batman Collection:
     template:
       name: Collection - Trakt List
@@ -151,34 +151,44 @@ collections:
       show: 41327
       summary: If you get on her bad side...YOU'RE TOAST.
   From Dusk Till Dawn Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 60626
+    template:
+      name: Collection - Hide
+      show: 60626
   The Fugitive Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 10083
-    sort_title: Fugitive Collection
+    template:
+      name: Collection - Hide
+      show: 10083
+      sort_title: Fugitive Collection
   Full House Collection:
-    tmdb_show: 4313, 63623
-    summary: You got it dude!
+    template:
+      name: Collection - Shows
+      show: 4313, 63623
+      summary: You got it dude!
   Gilligan's Island Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 1921
+    template:
+      name: Collection - Hide
+      show: 1921
   Godzilla Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 111177
+    template:
+      name: Collection - Hide
+      show: 111177
   The Golden Girls Collection:
-    tmdb_show: 1678, 3068, 2823
-    sort_title: Golden Girls Collection
-    summary: Thank you for being a friend
+    template:
+      name: Collection - Shows
+      show: 1678, 3068, 2823
+      sort_title: Golden Girls Collection
+      summary: Thank you for being a friend
   Grease Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 94617
-    summary: Grease is the word.
+    template:
+      name: Collection - Hide
+      show: 94617
+      summary: Grease is the word.
   The Hannibal Lecter Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 103302, 40008
-    sort_title: Hannibal Lecter Collection
-    summary: To enter the mind of a killer she must challenge the mind of a madman.
+    template:
+      name: Collection - Hide
+      show: 103302, 40008
+      sort_title: Hannibal Lecter Collection
+      summary: To enter the mind of a killer she must challenge the mind of a madman.
   Happy Days Collection:
     template:
       name: Collection

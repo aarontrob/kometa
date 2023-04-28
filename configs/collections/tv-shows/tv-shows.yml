@@ -3,7 +3,8 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
       - name
       - sort_title
@@ -15,7 +16,8 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
       - name
       - sort_title
@@ -27,7 +29,8 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
       - name
       - sort_title
@@ -39,7 +42,8 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
       - name
       - sort_title
@@ -51,7 +55,8 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: custom
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
       - name
       - sort_title
@@ -64,7 +69,8 @@ templates:
     tmdb_show: <<show>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
       - name
       - sort_title
@@ -76,7 +82,8 @@ templates:
     tmdb_show: <<show>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
       - name
       - sort_title
@@ -101,7 +108,8 @@ templates:
       title: <<title>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
       - name
       - sort_title
@@ -128,13 +136,13 @@ collections:
     template:
       name: Collection - Trakt List
       list: archie-collection
+      collection_mode: show_items
       summary: >-
         Archie Comic Publications, Inc., is an American comic book publisher
         headquartered in Pelham, New York. The company's many titles feature the
         fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper,
         Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats
         and Katy Keene.
-    collection_mode: show_items
   Batman Collection:
     template:
       name: Collection - Trakt List
@@ -261,39 +269,43 @@ collections:
       summary: If you get on her bad side...YOU'RE TOAST.
   From Dusk Till Dawn Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 60626
+      name: Collection - Hide
+      show: 60626
   The Fugitive Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 10083
-    sort_title: Fugitive Collection
+      name: Collection - Hide
+      show: 10083
+      sort_title: Fugitive Collection
   Full House Collection:
-    tmdb_show: '4313, 63623'
-    summary: You got it dude!
+    template:
+      name: Collection - Shows
+      show: '4313, 63623'
+      summary: You got it dude!
   Gilligan's Island Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 1921
+      name: Collection - Hide
+      show: 1921
   Godzilla Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 111177
+      name: Collection - Hide
+      show: 111177
   The Golden Girls Collection:
-    tmdb_show: '1678, 3068, 2823'
-    sort_title: Golden Girls Collection
-    summary: Thank you for being a friend
+    template:
+      name: Collection - Shows
+      show: '1678, 3068, 2823'
+      sort_title: Golden Girls Collection
+      summary: Thank you for being a friend
   Grease Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 94617
-    summary: Grease is the word.
+      name: Collection - Hide
+      show: 94617
+      summary: Grease is the word.
   The Hannibal Lecter Collection:
     template:
-      name: Collection Hide
-    tmdb_show: '103302, 40008'
-    sort_title: Hannibal Lecter Collection
-    summary: To enter the mind of a killer she must challenge the mind of a madman.
+      name: Collection - Hide
+      show: '103302, 40008'
+      sort_title: Hannibal Lecter Collection
+      summary: To enter the mind of a killer she must challenge the mind of a madman.
   Happy Days Collection:
     template:
       name: Collection
