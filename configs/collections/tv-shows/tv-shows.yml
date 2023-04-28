@@ -134,6 +134,7 @@ collections:
         fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper,
         Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats
         and Katy Keene.
+    collection_mode: show_items
   Batman Collection:
     template:
       name: Search
