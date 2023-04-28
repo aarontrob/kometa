@@ -1,0 +1,629 @@
+templates:
+  Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Alpha:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: alpha
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Release:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List Custom Order:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Movie:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Movies:
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Hide:
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Search:
+    plex_search:
+      title: <<title>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+    optional:
+      - name
+      - sort_title
+      - summary
+    name_mapping: <<name>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+collections:
+  28 Days/Weeks Later Collection:
+    template:
+      name: Collection
+      collection: 1565
+      name_mapping: 28 Days Weeks Later Collection
+  The Amityville Collection:
+    template:
+      name: Search
+      title: Amityville
+      sort_title: Amityville Collection
+      summary: >-
+        The Amityville Horror film series is a series of American supernatural
+        horror films centered on events in a haunted house in Amityville, New
+        York.
+  Anaconda Collection:
+    template:
+      name: Collection - Movie
+      collection: 105995
+      movie: 336560
+      summary: 'When you can''t breathe, you can''t scream.'
+  Ape Woman Collection:
+    template:
+      name: Collection
+      collection: 809152
+      summary: Universal's "Ape Woman" series featuring the character of the Ape Woman
+  April Fool's Day Collection:
+    template:
+      name: Collection - Movies
+      movie: '24913, 26233'
+      summary: >-
+        A group of eight college friends gather together at an island mansion
+        belonging to heiress Muffy St. John to celebrate their final year of
+        school. They soon discover that each has a hidden secret from their past
+        which is revealed, and soon after, they turn up dead.
+  Art the Clown Collection:
+    template:
+      name: Collection
+      collection: '727761, 442195'
+      summary: Come out and play.
+  Black Christmas Collection:
+    template:
+      name: Collection - Movies
+      movie: '9656, 16938, 551808'
+      summary: >-
+        A sorority house is terrorized by a stranger who makes frightening phone
+        calls and then murders the sorority sisters during Christmas break.
+  The Blob Collection:
+    template:
+      name: Collection - Movies
+      movie: '9599, 8851, 40983'
+      summary: It crawls. It creeps. It eats you alive!
+  Buffy the Vampire Slayer Collection:
+    template:
+      name: Collection - Hide
+      movie: 10206
+  Cabin Fever Collection:
+    template:
+      name: Collection - Movie
+      collection: 201576
+      movie: 298584
+      summary: Terror... In the flesh.
+  Carrie Collection:
+    template:
+      name: Collection - Movie
+      collection: 257053
+      movie: '7342, 133805'
+      summary: >-
+        Carrie White, a shy and troubled teenage girl who is tormented by her
+        high school peers and her fanatically religious mother, begins to use
+        her powers of telekinesis to exact revenge upon them.
+    schedule: daily
+  Child's Play Collection:
+    template:
+      name: Collection - Movie
+      collection: 10455
+      movie: 533642
+      name_mapping: Childs Play Collection
+      summary: He wants YOU for a new best friend...
+  Cloverfield Collection:
+    template:
+      name: Collection - Movies
+      movie: '7191, 333371, 384521'
+      summary: Some Thing Has Found Us
+  The Conjuring Universe:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-conjuring-universe
+      sort_title: Conjuring Universe
+      summary: >-
+        The Conjuring Universe is an American media franchise and shared
+        universe centered on a series of supernatural horror films, produced by
+        New Line Cinema, The Safran Company and Atomic Monster Productions and
+        distributed by Warner Bros. Pictures. The films present a dramatization
+        of the real-life cases of Ed and Lorraine Warren, paranormal
+        investigators and authors associated with prominent yet controversial
+        cases of haunting. The main series follows their attempts to assist
+        people who find themselves possessed by demonic spirits, while the
+        spin-off films focus on the origins of some of the entities the Warrens
+        have encountered.
+  Constantine Collection:
+    tmdb_movie: '561, 539517'
+    summary: The supernatural adventures of occult detective John Constantine
+  Cornetto Trilogy:
+    imdb_list: 'https://www.imdb.com/list/ls068623110/'
+    summary: >-
+      An anthology series of British comedic genre films directed by Edgar
+      Wright, written by Wright and Simon Pegg, produced by Nira Park, and
+      starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead
+      (2004), Hot Fuzz (2007), and The World's End (2013).
+    schedule: daily
+  The Crazies Collection:
+    tmdb_movie: '29425, 29427'
+    sort_title: Crazies Collection
+    summary: >-
+      Citizens of a small town are infected by a biological weapon that causes
+      its victims to become violently insane. As uninfected citizens struggle to
+      survive, the military readies its own response.
+    schedule: daily
+  Creature From The Black Lagoon Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/221537'
+    tmdb_movie: 549074
+    summary: Not since the beginning of time has the world beheld terror like this!
+  Creepshow Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/107725'
+    tmdb_movie: 356677
+    summary: The Most Fun You'll Ever Have... BEING SCARED!
+  The Damned Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/746434'
+    tmdb_movie: 12122
+    sort_title: Damned Collection
+    summary: >-
+      In a small English village everyone suddenly falls unconscious. When they
+      awake every woman of child bearing age is pregnant. The resulting children
+      have the same strange blond hair, eyes and a strong connection to each
+      other.
+    schedule: daily
+  Evil Dead Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/1960'
+    tmdb_movie: 27266
+    schedule: daily
+    summary: >-
+      The Evil Dead is an American supernatural horror/comedy film franchise
+      created by Sam Raimi. The series revolves around the misadventures of
+      ne'er-do-well buffoon Ashley J. Williams (Bruce Campbell). Upon
+      discovering the Necronomicon in a remote cabin in the Tennessean
+      foothills, Ash and his friends inadvertently release an army of Kandarian
+      demons into the world of man, setting off a chain of events that finds Ash
+      trapped in time, surrounded by evil, and low on gas.
+  Firestarter Collection:
+    tmdb_movie: '11495, 532710'
+    summary: If you get on her bad side...YOU'RE TOAST.
+  Flatliners Collection:
+    tmdb_movie: '1551, 400710'
+    summary: >-
+      Five medical students want to find out if there is life after death. They
+      plan to stop one of their hearts for a few seconds, thus simulating death,
+      and then bring the person back to life.
+    schedule: daily
+  The Fly Collection:
+    tmdb_collection:
+      - 'https://www.themoviedb.org/collection/123213'
+      - 'https://www.themoviedb.org/collection/109609'
+    sort_title: Fly Collection
+    summary: >-
+      Loosely based on George Langelaan's 1957 short story of the same name and
+      the 1958 film, The Fly tells of an eccentric scientist who, after one of
+      his experiments goes wrong, slowly turns into a fly-hybrid creature.
+    schedule: daily
+  Friday the 13th Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/9735'
+    tmdb_movie: '13207, 222724, 15004'
+    summary: >-
+      They were warned...They are doomed...And on Friday the 13th, nothing will
+      save them.
+  Fright Night Collection:
+    tmdb_collection:
+      - 'https://www.themoviedb.org/collection/98168'
+      - 'https://www.themoviedb.org/collection/230161'
+  Funny Games Collection:
+    tmdb_movie: '8461, 10234'
+    summary: >-
+      Two psychotic young men take a mother, father, and son hostage in their
+      vacation cabin and force them to play sadistic "games" with one another
+      for their own amusement.
+  The Grudge Collection:
+    template:
+      name: Collection Movie
+      collection: 1974
+      movie: 465086
+    sort_title: Grudge Collection
+  Halloween Collection:
+    trakt_list: 'https://trakt.tv/users/goape/lists/halloween-chronological'
+    collection_order: custom
+    sync_mode: sync
+    tmdb_movie: null
+    summary: Trick or treat... or die
+  The Hannibal Lecter Collection:
+    template:
+      name: Collection Movie
+      collection: 9743
+      movie: 11454
+    sort_title: Hannibal Lecter Collection
+  Hellraiser Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/8917'
+    tmdb_movie: 348191
+    schedule: daily
+  The Hills Have Eyes Collection:
+    tmdb_collection:
+      - 'https://www.themoviedb.org/collection/267922'
+      - 'https://www.themoviedb.org/collection/8918'
+    tmdb_movie: 8771
+    sort_title: Hills Have Eyes Collection
+    summary: >-
+      Mutants and monsters attack people who are "unfortunate enough" to be
+      stranded near the desert...
+  House of Wax Collection:
+    tmdb_movie: '18573, 10066'
+    summary: >-
+      A New York sculptor who opens a wax museum to showcase the likenesses of
+      famous historical figures runs into trouble with his business partner, who
+      demands that the exhibits become more extreme in order to increase
+      profits.
+  House on Haunted Hill Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/248339'
+    tmdb_movie: 15856
+    summary: >-
+      Frederick Loren has invited five strangers to a party of a lifetime. He is
+      offering each of them $10,000 if they can stay the night in a house. But
+      the house is no ordinary house. This house has a reputation for murder.
+      Frederick offers them each a gun for protection. They all arrived in a
+      hearse and will either leave in it $10,000 richer or leave in it dead!
+  I Spit on Your Grave Collection:
+    tmdb_collection:
+      - 'https://www.themoviedb.org/collection/219691'
+      - 'https://www.themoviedb.org/collection/296429'
+    summary: ...An Act of Vengeance
+  In Search of Darkness Trilogy:
+    tmdb_collection: 'https://www.themoviedb.org/collection/797016'
+    summary: >-
+      A three-part documentary series exploring the development and lasting
+      impact of the horror film genre during the 1980s, feature interviews with
+      numerous horror icons from both that decade and from the modern era, along
+      with popular horror influencers.
+  Invaders from Mars Collection:
+    tmdb_movie: '31909, 20424'
+    summary: NATURAL or SUPERNATURAL?
+  Invasion of the Body Snatchers Collection:
+    tmdb_movie: '11549, 11850, 4858, 4722'
+    summary: >-
+      A small-town doctor learns that the population of his community is being
+      replaced by emotionless alien duplicates.
+  It Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/477962'
+    plex_search:
+      title: Stephen King's IT
+    summary: You'll float too.
+  It's Alive Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/256297'
+    tmdb_movie: 23174
+  Jacob's Ladder Collection:
+    name_mapping: Jacobs Ladder Collection
+    tmdb_movie: '2291, 456529'
+    summary: >-
+      After returning home from the Vietnam War, veteran Jacob Singer struggles
+      to maintain his sanity. Plagued by hallucinations and flashbacks, Singer
+      rapidly falls apart as the world and people around him morph and twist
+      into disturbing images. His girlfriend, Jezzie, and ex-wife, Sarah, try to
+      help, but to little avail. Even Singer's chiropractor friend, Louis, fails
+      to reach him as he descends into madness.
+  The Last House on the Left Collection:
+    template:
+      name: Collection
+      collection: 629830
+    sort_title: Last House on the Left Collection
+  Leprechaun Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/19285'
+    summary: >-
+      An American comedic horror film series centered around a malevolent and
+      murderous leprechaun, who, when his gold is taken from him, resorts to any
+      means necessary to reclaim it.
+  Little Shop of Horrors Collection:
+    tmdb_movie: '10776, 24452'
+    summary: >-
+      Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in
+      urban Skid Row. He harbors a crush on fellow co-worker Audrey Fulquard,
+      and is berated by Mr. Mushnik daily. One day Seymour finds a very
+      mysterious unidentified plant which he calls Audrey II. The plant seems to
+      have a craving for blood and soon begins to sing for his supper.
+  Living Dead Collection:
+    template:
+      name: Collection Movie
+      collection: >-
+        https://www.themoviedb.org/collection/261590,
+        https://www.themoviedb.org/collection/809185-army-of-the-dead
+      movie: '19185, 924, 13025, 29426'
+    summary: >-
+      Night of the Living Dead is a series of zombie horror films written and
+      directed by George A. Romero beginning with the 1968 film Night of the
+      Living Dead written by Romero and John A. Russo. The loosely connected
+      franchise predominantly centers on different groups of people attempting
+      to survive during the outbreak and evolution of a zombie apocalypse.
+  My Bloody Valentine Collection:
+    tmdb_movie: '14435, 39874'
+    summary: >-
+      Twenty years ago in the sleepy mining town of Valentine Bluffs, a fatal
+      mining disaster occurred on Valentine's Day while some of the crew was
+      decorating for a party. The sole survivor of the accident killed the
+      remaining crewmembers and warned the town not to celebrate Valentine's Day
+      again. When a group of teenagers decides to defy that order, a murderous
+      maniac in mining gear begins dispatching townsfolk in bloody and creative
+      ways.
+  A Nightmare on Elm Street Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/8581'
+    tmdb_movie: '23437, 37757, 321066, 6466'
+    sort_title: Nightmare on Elm Street Collection
+    summary: Don't Fall Asleep!
+  The Omen Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/10919'
+    tmdb_movie: 806
+    sort_title: Omen Collection
+    summary: >-
+      The Omen film series is a horror film franchise created in the 1970s. The
+      story was originally written by David Seltzer, who chose not to continue
+      the series after the first novel. The second novel and screenplay were
+      then written by Joseph Howard, and the third by Gordon McGill. After the
+      third movie was produced, a fourth was made for TV in an attempt to bring
+      back the series, but did poorly. The series centres around Damien Thorn, a
+      child born of Satan and given to Robert and Katherine Thorn, before being
+      passed along the Thorn families as a child. It is revealed among the
+      families that Damien is in fact meant to be the Antichrist, and as an
+      adult is attempting to gain control of the Thorn business and reach for
+      the presidency.
+  Pet Sematary Collection:
+    tmdb_movie: '8913, 157433, 10906'
+    summary: >-
+      Film adaptations and extensions of Stephen King's 1983 novel. A pet
+      cemetery (formerly a Miꞌkmaq burial ground) in Maine allows the dead to
+      reanimate as a murderous shell of their former living selves.
+    schedule: daily
+  The Phantom of the Opera Collection:
+    tmdb_movie: '9833, 964, 86962, 46330, 76115, 15855'
+    sort_title: Phantom of the Opera Collection
+    summary: >-
+      The Phantom of the Opera (French: Le Fantôme de l'Opéra), is a novel by
+      French writer Gaston Leroux. It was first published as a serialization in
+      Le Gaulois from 23 September 1909, to 8 January 1910. It was published in
+      volume form in late March 1910 by Pierre Lafitte. The novel is partly
+      inspired by historical events at the Paris Opera during the nineteenth
+      century and an apocryphal tale concerning the use of a former ballet
+      pupil's skeleton in Carl Maria von Weber's 1841 production of Der
+      Freischütz. It has been successfully adapted into various stage and film
+      adaptations, most notable of which are the 1925 film depiction featuring
+      Lon Chaney, and Andrew Lloyd Webber's 1986 musical.
+  Piranha Collection:
+    tmdb_movie: 48374
+    tmdb_collection:
+      - 'https://www.themoviedb.org/collection/212279'
+      - 'https://www.themoviedb.org/collection/104830'
+    summary: A film series about a swarm of killer piranhas.
+  Poltergeist Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/10453'
+    tmdb_movie: 243688
+    summary: They're here.
+  Psycho Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/119674'
+    tmdb_movie: '11252, 86330'
+    summary: >-
+      An American horror film series starring Anthony Perkins as a secluded
+      motel owner Norman Bates.
+  '[REC] Collection':
+    tmdb_collection: 74508
+    name_mapping: REC Collection
+  Scare Package Collection:
+    tmdb_movie: '636891, 915968'
+  The Shining Collection:
+    template:
+      name: Collection Movie
+      collection: 'https://www.themoviedb.org/collection/530064'
+      movie: 84330
+    sort_title: Shining Collection
+    summary: The Horror is driving him crazy
+  'Silent Night, Deadly Night Collection':
+    tmdb_collection: 'https://www.themoviedb.org/collection/256296'
+    tmdb_movie: 139455
+    summary: >-
+      This horror movie series begins as slashers about men whose childhood
+      traumas led to them going on killing sprees dressed as Santa Claus, but
+      along the way, it takes a detour into bizarre, increasingly campy
+      territory.
+    schedule: daily
+  The Slumber Party Massacre Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/138971'
+    tmdb_movie: 818543
+    sort_title: Slumber Party Massacre Collection
+    summary: You bring the pizza....I'll bring the drill.
+  The Stepfather Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/138706'
+    tmdb_movie: 19904
+    sort_title: Stepfather Collection
+    summary: >-
+      The Stepfather is a 1987 American thriller film starring Terry O'Quinn in
+      the title role. It is loosely based on the life of mass murderer John
+      List, although the plot is more commonly associated with slasher films of
+      the era than a true story. It was directed by Joseph Ruben and written by
+      Donald E. Westlake, from a story by Westlake, Carolyn Lefcourt and Brian
+      Garfield. This film was met with critical acclaim upon its release. The
+      film was also followed by two sequels, released in 1989 and 1992
+      respectively and a remake also called The Stepfather which was released on
+      October 16, 2009.
+    schedule: daily
+  Stepford Collection:
+    plex_search:
+      title: Stepford
+    summary: Something strange is happening in the town of Stepford.
+  Suspiria Collection:
+    tmdb_movie: '11906, 361292'
+    summary: >-
+      An American newcomer to a prestigious German ballet academy comes to
+      realize that the school is a front for something sinister amid a series of
+      grisly murders.
+    schedule: daily
+  Sweeney Todd Collection:
+    plex_search:
+      title: 'Sweeney Todd, Demon Barber'
+    summary: Never Forget. Never Forgive.
+  Texas Chainsaw Massacre Collection:
+    tmdb_collection:
+      - 'https://www.themoviedb.org/collection/111751'
+      - 'https://www.themoviedb.org/collection/425175'
+    summary: >-
+      An American horror series of slasher-cannibal films. The franchise focuses
+      on Leatherface and his family, who terrorize unsuspecting visitors to
+      their territory, and typically kill and eat them.
+  The Three Mothers Trilogy:
+    tmdb_movie: '16395, 11906, 15206'
+    sort_title: Three Mothers Trilogy
+    summary: >-
+      The Three Mothers (Italian: Le Tre madri) is a trilogy of supernatural
+      horror films by Italian film director Dario Argento. It consists of
+      Suspiria, Inferno and Mother of Tears. Each film deals with one of the
+      titular "Mothers", a triumvirate of ancient witches whose powerful magic
+      allows them to manipulate world events on a global scale.
+    schedule: daily
+  The Town That Dreaded Sundown Collection:
+    tmdb_movie: '48197, 287084'
+    sort_title: Town That Dreaded Sundown Collection
+    summary: >-
+      A Texas Ranger hunts for a hooded serial killer terrorizing the residents
+      of a small town, set in 1946 Arkansas. Loosely based on a true story.
+    schedule: daily
+  The Toxic Avenger Collection:
+    tmdb_movie: 517289
+    tmdb_collection: 'https://www.themoviedb.org/collection/32135'
+    summary: The first Super-Hero... from New Jersey!
+  Underworld Collection:
+    tmdb_movie: 161337
+    tmdb_collection: 'https://www.themoviedb.org/collection/2326-underworld-collection'
+  Van Helsing Collection:
+    template:
+      name: Collection Hide
+      movie: 7131
+    summary: The One Name They All Fear
+  What We Do in the Shadows Collection:
+    template:
+      name: Collection Hide
+      movie: 246741
+  When a Stranger Calls Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/276838'
+    tmdb_movie: 10053
+    summary: >-
+      When a Stranger Calls is a 1979 American psychological horror film written
+      and directed by Fred Walton and co-written by Steve Feke. It stars Carol
+      Kane, Colleen Dewhurst, Tony Beckley and Charles Durning. The film derives
+      its story from the classic folk legend of "the babysitter and the man
+      upstairs." The film has developed a large cult following over time because
+      of the first 20 minutes, now consistently regarded as one of the scariest
+      openings in movie history. The first 12 minutes of Wes Craven's Scream is
+      an homage to the opening of When a Stranger Calls. The film was released
+      in the United States on October 26, 1979, by Columbia Pictures. It was
+      commercially successful, grossing $21,411,158 at the box office. It
+      received a mixed critical reception, with many praising the opening scene
+      and performances, but criticism for its writing and lack of scares. It was
+      followed by the 1993 made-for-cable sequel When a Stranger Calls Back and
+      a remake in 2006.
+    schedule: daily
+  The Wicker Man Collection:
+    tmdb_movie: '16307, 9708, 79544'
+    sort_title: Wicker Man Collection
+    summary: >-
+      The Wicker Man is a series of two horror films directed by British author
+      and director Robin Hardy. The films are not directly linked to one
+      another, but all deal with the theme of paganism in the modern world. The
+      2006 American remake of The Wicker Man is not a part of the series, and
+      Hardy had dissociated himself from it.
+    schedule: daily
+  Willard Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/375886'
+    tmdb_movie: 10929
+    summary: >-
+      A social misfit, Willard is made fun of by his co-workers, and squeezed
+      out of the company started by his deceased father by his boss. His only
+      friends are a couple of rats he raised at home, Ben and Socrates. However,
+      when one of them is killed at work, he goes on a rampage using his rats to
+      attack those who have been tormenting him.
+    schedule: daily
+  The Wolf Man Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/259027'
+    tmdb_movie: 7978
+    sort_title: Wolf Man Collection
+    summary: >-
+      Even A Man Who Is Pure In Heart And Says His Prayers By Night, May Become
+      A Wolf When The Wolfbane Blooms And The Autumn Moon Is Bright.
+    schedule: daily
+  The Woman in Black Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/315560'
+    tmdb_movie: 16182
+    sort_title: Woman in Black Collection

@@ -5,8 +5,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Alpha:
@@ -15,8 +17,10 @@ templates:
     collection_order: alpha
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Release:
@@ -25,8 +29,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List:
@@ -35,8 +41,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
@@ -45,8 +53,10 @@ templates:
     collection_order: custom
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movie:
@@ -56,8 +66,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movies:
@@ -66,8 +78,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide:
@@ -76,8 +90,10 @@ templates:
     collection_order: release
     collection_mode: hide
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Search:
@@ -87,8 +103,10 @@ templates:
     collection_order: release
     collection_mode: hide_items
     optional:
+      - name
       - sort_title
       - summary
+    name_mapping: <<name>>
     sort_title: <<sort_title>>
     summary: <<summary>>
 collections:

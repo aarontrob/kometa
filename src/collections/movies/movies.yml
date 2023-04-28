@@ -189,7 +189,7 @@ collections:
       name: Collection
       collection: 701402
       summary: Laugh It Up, Fuzzball!
-    name_mapping: Family Guy Collection (Movies)
+      name_mapping: Family Guy Collection (Movies)
   Fantastic Four Collection:
     template:
       name: Collection - Movie

@@ -5,8 +5,10 @@ Collection - Movie:
   collection_order: release
   collection_mode: hide_items
   optional:
+    - name
     - sort_title
     - summary
+  name_mapping: <<name>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Movies:
@@ -15,8 +17,10 @@ Collection - Movies:
   collection_order: release
   collection_mode: hide_items
   optional:
+    - name
     - sort_title
     - summary
+  name_mapping: <<name>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Hide:
@@ -25,7 +29,9 @@ Collection - Hide:
   collection_order: release
   collection_mode: hide
   optional:
+    - name
     - sort_title
     - summary
+  name_mapping: <<name>>
   sort_title: <<sort_title>>
   summary: <<summary>>

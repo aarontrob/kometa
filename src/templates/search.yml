@@ -5,7 +5,9 @@ Search:
   collection_order: release
   collection_mode: hide_items
   optional:
+    - name
     - sort_title
     - summary
+  name_mapping: <<name>>
   sort_title: <<sort_title>>
   summary: <<summary>>

@@ -4,8 +4,10 @@ Collection:
   collection_order: release
   collection_mode: hide_items
   optional:
+    - name
     - sort_title
     - summary
+  name_mapping: <<name>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Alpha:
@@ -14,8 +16,10 @@ Collection - Alpha:
   collection_order: alpha
   collection_mode: hide_items
   optional:
+    - name
     - sort_title
     - summary
+  name_mapping: <<name>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Release:
@@ -24,8 +28,10 @@ Collection - Release:
   collection_order: release
   collection_mode: hide_items
   optional:
+    - name
     - sort_title
     - summary
+  name_mapping: <<name>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Trakt List:
@@ -34,8 +40,10 @@ Collection - Trakt List:
   collection_order: release
   collection_mode: hide_items
   optional:
+    - name
     - sort_title
     - summary
+  name_mapping: <<name>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Trakt List Custom Order:
@@ -44,7 +52,9 @@ Collection - Trakt List Custom Order:
   collection_order: custom
   collection_mode: hide_items
   optional:
+    - name
     - sort_title
     - summary
+  name_mapping: <<name>>
   sort_title: <<sort_title>>
   summary: <<summary>>
