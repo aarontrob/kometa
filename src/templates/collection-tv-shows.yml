@@ -6,10 +6,10 @@ Collection - Show:
   default:
     collection_mode: hide_items
   optional:
-    - name
+    - name_mapping
     - sort_title
     - summary
-  name_mapping: <<name>>
+  name_mapping: <<name_mapping>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Shows:
@@ -19,10 +19,10 @@ Collection - Shows:
   default:
     collection_mode: hide_items
   optional:
-    - name
+    - name_mapping
     - sort_title
     - summary
-  name_mapping: <<name>>
+  name_mapping: <<name_mapping>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Hide:
