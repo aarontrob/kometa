@@ -2,7 +2,8 @@ Collection:
   tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
   sync_mode: sync
   collection_order: release
-  collection_mode: hide_items
+  default:
+    collection_mode: hide_items
   optional:
     - name
     - sort_title
@@ -14,7 +15,8 @@ Collection - Alpha:
   tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
   sync_mode: sync
   collection_order: alpha
-  collection_mode: hide_items
+  default:
+    collection_mode: hide_items
   optional:
     - name
     - sort_title
@@ -26,7 +28,8 @@ Collection - Release:
   tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
   sync_mode: sync
   collection_order: release
-  collection_mode: hide_items
+  default:
+    collection_mode: hide_items
   optional:
     - name
     - sort_title
@@ -38,7 +41,8 @@ Collection - Trakt List:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   sync_mode: sync
   collection_order: release
-  collection_mode: hide_items
+  default:
+    collection_mode: hide_items
   optional:
     - name
     - sort_title
@@ -50,7 +54,8 @@ Collection - Trakt List Custom Order:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   sync_mode: sync
   collection_order: custom
-  collection_mode: hide_items
+  default:
+    collection_mode: hide_items
   optional:
     - name
     - sort_title

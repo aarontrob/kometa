@@ -3,7 +3,8 @@ Collection - Show:
   tmdb_show: <<show>>
   sync_mode: sync
   collection_order: release
-  collection_mode: hide_items
+  default:
+    collection_mode: hide_items
   optional:
     - name
     - sort_title
@@ -15,7 +16,8 @@ Collection - Shows:
   tmdb_show: <<show>>
   sync_mode: sync
   collection_order: release
-  collection_mode: hide_items
+  default:
+    collection_mode: hide_items
   optional:
     - name
     - sort_title
