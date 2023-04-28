@@ -44,9 +44,11 @@ Collection - Trakt List:
   default:
     collection_mode: hide_items
   optional:
+    - collection_mode
     - name_mapping
     - sort_title
     - summary
+  collection_mode: <<collection_mode>>
   name_mapping: <<name_mapping>>
   sort_title: <<sort_title>>
   summary: <<summary>>
