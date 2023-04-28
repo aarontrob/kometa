@@ -403,93 +403,65 @@ collections:
       movie: 126172
       summary: Your luck just ran out
   Little Shop of Horrors Collection:
-    tmdb_movie: '10776, 24452'
-    summary: >-
-      Seymour Krelborn is a nerdy orphan working at Mushnik's, a flower shop in
-      urban Skid Row. He harbors a crush on fellow co-worker Audrey Fulquard,
-      and is berated by Mr. Mushnik daily. One day Seymour finds a very
-      mysterious unidentified plant which he calls Audrey II. The plant seems to
-      have a craving for blood and soon begins to sing for his supper.
+    template:
+      name: Collection - Movies
+      movie: '10776, 24452'
+      summary: Don't feed the plants.
   Living Dead Collection:
     template:
       name: Collection Movie
-      collection: >-
-        https://www.themoviedb.org/collection/261590,
-        https://www.themoviedb.org/collection/809185-army-of-the-dead
+      collection: '261590, 809185'
       movie: '19185, 924, 13025, 29426'
-    summary: >-
-      Night of the Living Dead is a series of zombie horror films written and
-      directed by George A. Romero beginning with the 1968 film Night of the
-      Living Dead written by Romero and John A. Russo. The loosely connected
-      franchise predominantly centers on different groups of people attempting
-      to survive during the outbreak and evolution of a zombie apocalypse.
+      summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
   My Bloody Valentine Collection:
-    tmdb_movie: '14435, 39874'
-    summary: >-
-      Twenty years ago in the sleepy mining town of Valentine Bluffs, a fatal
-      mining disaster occurred on Valentine's Day while some of the crew was
-      decorating for a party. The sole survivor of the accident killed the
-      remaining crewmembers and warned the town not to celebrate Valentine's Day
-      again. When a group of teenagers decides to defy that order, a murderous
-      maniac in mining gear begins dispatching townsfolk in bloody and creative
-      ways.
+    template:
+      name: Collection - Movies
+      movie: '14435, 39874'
+      summary: Cross your heart...and hope to die.
   A Nightmare on Elm Street Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/8581'
-    tmdb_movie: '23437, 37757, 321066, 6466'
-    sort_title: Nightmare on Elm Street Collection
-    summary: Don't Fall Asleep!
+    template:
+      name: Collection - Movie
+      collection: 8581
+      movie: '23437, 6466'
+      sort_title: Nightmare on Elm Street Collection
+      summary: Don't Fall Asleep!
   The Omen Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/10919'
-    tmdb_movie: 806
-    sort_title: Omen Collection
-    summary: >-
-      The Omen film series is a horror film franchise created in the 1970s. The
-      story was originally written by David Seltzer, who chose not to continue
-      the series after the first novel. The second novel and screenplay were
-      then written by Joseph Howard, and the third by Gordon McGill. After the
-      third movie was produced, a fourth was made for TV in an attempt to bring
-      back the series, but did poorly. The series centres around Damien Thorn, a
-      child born of Satan and given to Robert and Katherine Thorn, before being
-      passed along the Thorn families as a child. It is revealed among the
-      families that Damien is in fact meant to be the Antichrist, and as an
-      adult is attempting to gain control of the Thorn business and reach for
-      the presidency.
+    template:
+      name: Collection - Movie
+      collection: 10919
+      movie: 806
+      sort_title: Omen Collection
+      summary: >-
+        Who is He? What is He? Should We Fear Him? Can We Stop Him? Is He a
+        Warning? Is He the Beginning of the End?
   Pet Sematary Collection:
-    tmdb_movie: '8913, 157433, 10906'
-    summary: >-
-      Film adaptations and extensions of Stephen King's 1983 novel. A pet
-      cemetery (formerly a Miꞌkmaq burial ground) in Maine allows the dead to
-      reanimate as a murderous shell of their former living selves.
+    template:
+      name: Collection - Movies
+      movie: '8913, 157433, 10906'
+      summary: A Pet Isn't Just For Life.
   The Phantom of the Opera Collection:
-    tmdb_movie: '9833, 964, 86962, 46330, 76115, 15855'
+    tmdb_movie: '964, 86962, 46330, 15855'
     sort_title: Phantom of the Opera Collection
     summary: >-
-      The Phantom of the Opera (French: Le Fantôme de l'Opéra), is a novel by
-      French writer Gaston Leroux. It was first published as a serialization in
-      Le Gaulois from 23 September 1909, to 8 January 1910. It was published in
-      volume form in late March 1910 by Pierre Lafitte. The novel is partly
-      inspired by historical events at the Paris Opera during the nineteenth
-      century and an apocryphal tale concerning the use of a former ballet
-      pupil's skeleton in Carl Maria von Weber's 1841 production of Der
-      Freischütz. It has been successfully adapted into various stage and film
-      adaptations, most notable of which are the 1925 film depiction featuring
-      Lon Chaney, and Andrew Lloyd Webber's 1986 musical.
+      BENEATH HIS MASK...the Grotesque Face of Horror Unimaginable! INSIDE HIS
+      HEART...the Desperate Desire for Beauty and Love!
   Piranha Collection:
-    tmdb_movie: 48374
-    tmdb_collection:
-      - 'https://www.themoviedb.org/collection/212279'
-      - 'https://www.themoviedb.org/collection/104830'
-    summary: A film series about a swarm of killer piranhas.
+    template:
+      name: Collection - Movie
+      collection: '212279, 104830'
+      movie: 48374
+      summary: They're here...Hungry for flesh! Who can stop them?
   Poltergeist Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/10453'
-    tmdb_movie: 243688
-    summary: They're here.
+    template:
+      name: Collection - Movie
+      collection: 10453
+      movie: 243688
+      summary: They're here.
   Psycho Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/119674'
-    tmdb_movie: '11252, 86330'
-    summary: >-
-      An American horror film series starring Anthony Perkins as a secluded
-      motel owner Norman Bates.
+    template:
+      name: Collection - Trakt List Custom Order
+      list: psycho-collection
+      summary: Exploring the blackness of the subconscious man!
   '[REC] Collection':
     tmdb_collection: 74508
     name_mapping: REC Collection

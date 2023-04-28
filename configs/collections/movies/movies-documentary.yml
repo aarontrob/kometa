@@ -204,12 +204,7 @@ collections:
     template:
       name: Collection - Hide
       movie: 87489
-      summary: >-
-        Night of the Living Dead is a series of zombie horror films written and
-        directed by George A. Romero beginning with the 1968 film Night of the
-        Living Dead written by Romero and John A. Russo. The loosely connected
-        franchise predominantly centers on different groups of people attempting
-        to survive during the outbreak and evolution of a zombie apocalypse.
+      summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
   Masters of the Universe Collection:
     template:
       name: Collection - Hide
@@ -224,7 +219,7 @@ collections:
   A Nightmare on Elm Street Collection:
     template:
       name: Collection - Movies
-      movie: '23437, 37757, 321066, 6466'
+      movie: '37757, 321066, 170792'
       sort_title: Nightmare on Elm Street Collection
       summary: Don't Fall Asleep!
   Peanuts Collection:
