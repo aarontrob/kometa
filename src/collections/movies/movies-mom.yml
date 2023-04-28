@@ -1,0 +1,18 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../../templates/collection.yml
+  - ../../templates/collection-movies.yml
+  - ../../templates/search.yml
+
+######################################################
+#                   Collections                      #
+######################################################
+
+collections:
+  Anne of Green Gables Collection:
+    template:
+      name: Search
+      title: Anne of Green Gables

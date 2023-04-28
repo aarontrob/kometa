@@ -306,89 +306,120 @@ collections:
       list: psycho-collection
       summary: Exploring the blackness of the subconscious man!
   "[REC] Collection":
-    tmdb_collection: 74508
-    name_mapping: REC Collection
-  Scare Package Collection:
-    tmdb_movie: 636891, 915968
+    template:
+      name: Collection
+      collection: 74508
+      name_mapping: REC Collection
+      summary: One Witness. One Camera
   The Shining Collection:
     template:
-      name: Collection Movie
-      collection: https://www.themoviedb.org/collection/530064
+      name: Collection - Movie
+      collection: 530064
       movie: 84330
-    sort_title: Shining Collection
-    summary: The Horror is driving him crazy
+      sort_title: Shining Collection
+      summary: The Horror is driving him crazy
   Silent Night, Deadly Night Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/256296
-    tmdb_movie: 139455
-    summary: This horror movie series begins as slashers about men whose childhood traumas led to them going on killing sprees dressed as Santa Claus, but along the way, it takes a detour into bizarre, increasingly campy territory.
+    template:
+      name: Collection - Movie
+      collection: 256296
+      movie: 139455
+      summary: "Garbage day!"
   The Slumber Party Massacre Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/138971
-    tmdb_movie: 818543
-    sort_title: Slumber Party Massacre Collection
-    summary: You bring the pizza....I'll bring the drill.
+    template:
+      name: Collection - Movie
+      collection: 138971
+      movie: 818543
+      sort_title: Slumber Party Massacre Collection
+      summary: You bring the pizza....I'll bring the drill.
   The Stepfather Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/138706
-    tmdb_movie: 19904
-    sort_title: Stepfather Collection
-    summary: The Stepfather is a 1987 American thriller film starring Terry O'Quinn in the title role. It is loosely based on the life of mass murderer John List, although the plot is more commonly associated with slasher films of the era than a true story. It was directed by Joseph Ruben and written by Donald E. Westlake, from a story by Westlake, Carolyn Lefcourt and Brian Garfield. This film was met with critical acclaim upon its release. The film was also followed by two sequels, released in 1989 and 1992 respectively and a remake also called The Stepfather which was released on October 16, 2009.
+    template:
+      name: Collection - Movie
+      collection: 138706
+      movie: 19904
+      sort_title: Stepfather Collection
+      summary: Daddy's home.
   Stepford Collection:
-    plex_search:
+    template:
+      name: Search
       title: Stepford
-    summary: Something strange is happening in the town of Stepford.
+      summary: Something strange is happening in the town of Stepford.
   Suspiria Collection:
-    tmdb_movie: 11906, 361292
-    summary: An American newcomer to a prestigious German ballet academy comes to realize that the school is a front for something sinister amid a series of grisly murders.
+    template:
+      name: Collection - Movies
+      movie: 11906, 361292
+      summary: You can run from it. You can hide from it. You can't escape from it !!
   Sweeney Todd Collection:
-    plex_search:
+    template:
+      name: Search
       title: Sweeney Todd, Demon Barber
-    summary: Never Forget. Never Forgive.
+      summary: Never Forget. Never Forgive.
   Texas Chainsaw Massacre Collection:
-    tmdb_collection:
-      - https://www.themoviedb.org/collection/111751
-      - https://www.themoviedb.org/collection/425175
-    summary: An American horror series of slasher-cannibal films. The franchise focuses on Leatherface and his family, who terrorize unsuspecting visitors to their territory, and typically kill and eat them.
+    template:
+      name: Collection
+      collection: 111751, 425175
+      summary: Who will survive and what will be left of them?
   The Three Mothers Trilogy:
-    tmdb_movie: 16395, 11906, 15206
-    sort_title: Three Mothers Trilogy
-    summary: 'The Three Mothers (Italian: Le Tre madri) is a trilogy of supernatural horror films by Italian film director Dario Argento. It consists of Suspiria, Inferno and Mother of Tears. Each film deals with one of the titular "Mothers", a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale.'
+    template:
+      name: Collection - Movies
+      movie: 16395, 11906, 15206
+      sort_title: Three Mothers Trilogy
+      summary: 'The Three Mothers (Italian: Le Tre madri) is a trilogy of supernatural horror films by Italian film director Dario Argento. It consists of Suspiria, Inferno and Mother of Tears. Each film deals with one of the titular "Mothers", a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale.'
   The Town That Dreaded Sundown Collection:
-    tmdb_movie: 48197, 287084
-    sort_title: Town That Dreaded Sundown Collection
-    summary: A Texas Ranger hunts for a hooded serial killer terrorizing the residents of a small town, set in 1946 Arkansas. Loosely based on a true story.
+    template:
+      name: Collection - Movies
+      movie: 48197, 287084
+      sort_title: Town That Dreaded Sundown Collection
+      summary: Not Everyone Who Comes to This Lover's Lane Has the Same Thing on Their Mind.
   The Toxic Avenger Collection:
-    tmdb_movie: 517289
-    tmdb_collection: https://www.themoviedb.org/collection/32135
-    summary: The first Super-Hero... from New Jersey!
+    template:
+      name: Collection - Movie
+      collection: 32135
+      movie: 517289
+      summary: The first Super-Hero... from New Jersey!
   Underworld Collection:
-    tmdb_movie: 161337
-    tmdb_collection: https://www.themoviedb.org/collection/2326-underworld-collection
+    template:
+      name: Collection - Movie
+      collection: 2326
+      movie: 161337
+      summary: An immortal battle for supremacy.
   Van Helsing Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 7131
-    summary: The One Name They All Fear
+      summary: The One Name They All Fear
   What We Do in the Shadows Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       movie: 246741
   When a Stranger Calls Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/276838
-    tmdb_movie: 10053
-    summary: When a Stranger Calls is a 1979 American psychological horror film written and directed by Fred Walton and co-written by Steve Feke. It stars Carol Kane, Colleen Dewhurst, Tony Beckley and Charles Durning. The film derives its story from the classic folk legend of "the babysitter and the man upstairs." The film has developed a large cult following over time because of the first 20 minutes, now consistently regarded as one of the scariest openings in movie history. The first 12 minutes of Wes Craven's Scream is an homage to the opening of When a Stranger Calls. The film was released in the United States on October 26, 1979, by Columbia Pictures. It was commercially successful, grossing $21,411,158 at the box office. It received a mixed critical reception, with many praising the opening scene and performances, but criticism for its writing and lack of scares. It was followed by the 1993 made-for-cable sequel When a Stranger Calls Back and a remake in 2006.
+    template:
+      name: Collection - Movie
+      collection: 276838
+      movie: 10053
+      summary: Every babysitter's nightmare becomes real...
   The Wicker Man Collection:
-    tmdb_movie: 16307, 9708, 79544
-    sort_title: Wicker Man Collection
-    summary: The Wicker Man is a series of two horror films directed by British author and director Robin Hardy. The films are not directly linked to one another, but all deal with the theme of paganism in the modern world. The 2006 American remake of The Wicker Man is not a part of the series, and Hardy had dissociated himself from it.
+    template:
+      name: Collection - Movies
+      movie: 16307, 9708, 79544
+      sort_title: Wicker Man Collection
+      summary: Flesh to touch...Flesh to burn! Don't keep the Wicker Man waiting!
   Willard Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/375886
-    tmdb_movie: 10929
-    summary: A social misfit, Willard is made fun of by his co-workers, and squeezed out of the company started by his deceased father by his boss. His only friends are a couple of rats he raised at home, Ben and Socrates. However, when one of them is killed at work, he goes on a rampage using his rats to attack those who have been tormenting him.
+    template:
+      name: Collection - Movie
+      collection: 375886
+      movie: 10929
+      summary: Where your nightmares end...WILLARD begins.
   The Wolf Man Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/259027
-    tmdb_movie: 7978
-    sort_title: Wolf Man Collection
-    summary: "Even A Man Who Is Pure In Heart And Says His Prayers By Night, May Become A Wolf When The Wolfbane Blooms And The Autumn Moon Is Bright."
+    template:
+      name: Collection - Movie
+      collection: 259027
+      movie: 7978
+      sort_title: Wolf Man Collection
+      summary: "Even A Man Who Is Pure In Heart And Says His Prayers By Night, May Become A Wolf When The Wolfbane Blooms And The Autumn Moon Is Bright."
   The Woman in Black Collection:
-    tmdb_collection: https://www.themoviedb.org/collection/315560
-    tmdb_movie: 16182
-    sort_title: Woman in Black Collection
+    template:
+      name: Collection - Movie
+      collection: 315560
+      movie: 16182
+      sort_title: Woman in Black Collection
+      summary: She'll never let go.
