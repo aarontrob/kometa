@@ -26,10 +26,10 @@ collections:
       name: Collection - Hide
       tmdb_show: 4658
       summary: Alien Life Form
-  Archies Collection:
+  Archie Collection:
     template:
       name: Collection - Trakt List
-      list: archies-collection
+      list: archie-collection
       summary: Archie Comic Publications, Inc., is an American comic book publisher headquartered in Pelham, New York. The company's many titles feature the fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy Keene.
     collection_mode: show_items
   Batman Collection:

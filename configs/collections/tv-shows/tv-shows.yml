@@ -124,10 +124,10 @@ collections:
       name: Collection - Hide
       tmdb_show: 4658
       summary: Alien Life Form
-  Archies Collection:
+  Archie Collection:
     template:
       name: Collection - Trakt List
-      list: archies-collection
+      list: archie-collection
       summary: >-
         Archie Comic Publications, Inc., is an American comic book publisher
         headquartered in Pelham, New York. The company's many titles feature the
