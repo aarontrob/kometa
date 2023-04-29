@@ -2,10 +2,10 @@
 #                    Templates                       #
 ######################################################
 
-templates: !!import/shallow
-  - ../../templates/collection.yml
-  - ../../templates/collection-tv-shows.yml
-  - ../../templates/search.yml
+# templates: !!import/shallow
+#   - ../../templates/collection.yml
+#   - ../../templates/collection-tv-shows.yml
+#   - ../../templates/search.yml
 
 ######################################################
 #                   Collections                      #
@@ -191,96 +191,120 @@ collections:
       summary: To enter the mind of a killer she must challenge the mind of a madman.
   Happy Days Collection:
     template:
-      name: Collection
+      name: Collection - Shows
       show: 3845, 3033, 2552, 920, 10798, 10071, 31457, 31407, 527
-    summary: >-
-      Happy Days is an American sitcom television series that aired first-run on the ABC network from January 15, 1974, to September 24, 1984, with a total of 255 half-hour episodes spanning 11 seasons. Created by Garry Marshall, the series was one of the most successful of the 1970s, a sweet vision of life in the mid-1950s to mid-1960s Midwestern United States, and starred Ron Howard as young Richie Cunningham, Henry Winkler as his friend Fonzie, and Tom Bosley and Marion Ross as Richie's parents, Howard and Marion Cunningham. Although it opened to mixed reviews from critics, Happy Days became successful and popular over time.
+      summary: Exactamundo
   Hercule Poirot Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 790
+    template:
+      name: Collection - Hide
+      show: 790
   Heroes Collection:
-    tmdb_show: 1639, 60858
-    summary: You can't choose your family, you can choose a side.
+    template:
+      name: Collection - Shows
+      show: 1639, 60858
+      summary: You can't choose your family, you can choose a side.
   Highlander Collection:
-    tmdb_show: 4414, 4377
-    summary: There can be only one
+    template:
+      name: Collection - Shows
+      show: 4414, 4377
+      summary: There can be only one
   History of the World Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 202213
+    template:
+      name: Collection - Hide
+      show: 202213
   Hotwives Collection:
-    tmdb_show: 61281, 75390
-    summary: You need to calm down
+    template:
+      name: Collection - Shows
+      show: 61281, 75390
+      summary: You need to calm down
   Hulk Collection:
-    tmdb_show: 648, 92783, 92783
-    summary: HULK SMASH!
+    template:
+      name: Collection - Shows
+      show: 648, 92783, 92783
+      summary: HULK SMASH!
   I Know What You Did Last Summer Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 129680
+    template:
+      name: Collection - Hide
+      show: 129680
   Impractical Jokers Collection:
     template:
-      name: Search
-      title: Impractical Jokers
-    summary: They have to SAY it. They have to DO it. You have to SEE it.
+      name: Collection - Shows
+      show: 59186, 67334, 74521
+      summary: They have to SAY it. They have to DO it. You have to SEE it.
   Indiana Jones Collection:
     template:
-      name: Search
-      title: Indiana Jones
-    summary: Snakes! Why does it always have to be snakes?
+      name: Collection - Shows
+      show: 661, 97563
+      summary: Snakes! Why does it always have to be snakes?
   Iron Man Collection:
     template:
       name: Search
       title: Iron Man
-    summary: Heroes aren't born. They're built. Get ready for a different breed of heavy metal hero.
+      summary: Heroes aren't born. They're built. Get ready for a different breed of heavy metal hero.
   Jackass Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 1795
+    template:
+      name: Collection - Hide
+      show: 1795
   The Karate Kid Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 77169
-    sort_title: Karate Kid Collection
-  # Kath and Kim Collection:
-  #   tmdb_show: 1772, 15131
-  #   item_assets: true
+    template:
+      name: Collection - Hide
+      show: 77169
+      sort_title: Karate Kid Collection
   The Kolchak Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 5084
+    template:
+      name: Collection - Hide
+      show: 5084
+      sort_title: Kolchak Collection
   Laverne & Shirley Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 3033
+    template:
+      name: Collection - Hide
+      show: 3033
   Living Dead Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 129897
+    template:
+      name: Collection - Hide
+      show: 129897
   Logan's Run Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 36626
+    template:
+      name: Collection - Hide
+      show: 36626
   The Lord of the Rings Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 84773
+    template:
+      name: Collection - Hide
+      show: 84773
+      sort_title: Lord of the Rings Collection
   Lost in Space Collection:
-    tmdb_show: 75758, 3051
-    summary: Danger, Will Robinson!
+    template:
+      name: Collection - Shows
+      show: 75758, 3051
+      summary: Danger, Will Robinson!
   "Love, Simon Collection":
     template:
-      name: Collection Hide
+      name: Collection - Hide
       show: 97186
   I Love Lucy Collection:
-    tmdb_show: 2730, 2144, 1439
+    template:
+      name: Collection - Shows
+      show: 2730, 2144, 1439
   The Man from U.N.C.L.E. Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 210
-    sort_title: Man from U.N.C.L.E. Collection
+    template:
+      name: Collection - Hide
+      show: 210
+      sort_title: Man from U.N.C.L.E. Collection
   Miss Marple Collection:
     template:
-      name: Search
-      title: Marple
-    summary: Miss Marple is a fictional character in Agatha Christie's crime novels and short stories. Jane Marple lives in the village of St. Mary Mead and acts as an amateur consulting detective.
+      name: Collection - Shows
+      show: 6127, 217749
+      summary: Miss Marple is a fictional character in Agatha Christie's crime novels and short stories. Jane Marple lives in the village of St. Mary Mead and acts as an amateur consulting detective.
   "Mission: Impossible Collection":
-    tmdb_show: 4357, 9894
-    summary: Expect the impossible.
+    template:
+      name: Collection - Shows
+      show: 4357, 9894
+      summary: Expect the impossible.
   Monty Python Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 849
-    summary: Monty Python were a British surreal comedy troupe who created the sketch comedy television show Monty Python's Flying Circus, which first aired on the BBC in 1969.
+    template:
+      name: Collection - Hide
+      show: 849
+      summary: Monty Python were a British surreal comedy troupe who created the sketch comedy television show Monty Python's Flying Circus, which first aired on the BBC in 1969.
   Mork & Mindy Collection:
     template: { name: Collection Hide }
     tmdb_show: 2552

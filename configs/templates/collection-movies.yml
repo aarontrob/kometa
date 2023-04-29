@@ -1,0 +1,39 @@
+Collection - Movie:
+  tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
+  tmdb_movie: <<movie>>
+  sync_mode: sync
+  collection_order: release
+  default:
+    collection_mode: hide_items
+  optional:
+    - name_mapping
+    - sort_title
+    - summary
+  name_mapping: <<name_mapping>>
+  sort_title: <<sort_title>>
+  summary: <<summary>>
+Collection - Movies:
+  tmdb_movie: <<movie>>
+  sync_mode: sync
+  collection_order: release
+  default:
+    collection_mode: hide_items
+  optional:
+    - name_mapping
+    - sort_title
+    - summary
+  name_mapping: <<name_mapping>>
+  sort_title: <<sort_title>>
+  summary: <<summary>>
+Collection - Hide:
+  tmdb_movie: <<movie>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide
+  optional:
+    - name
+    - sort_title
+    - summary
+  name_mapping: <<name>>
+  sort_title: <<sort_title>>
+  summary: <<summary>>
