@@ -2,15 +2,10 @@
 #                    Templates                       #
 ######################################################
 
-# templates: !!import/shallow
-#   - ../../templates/collection.yml
-#   - ../../templates/collection-tv-shows.yml
-#   - ../../templates/search.yml
-
-external_templates:
-  - repo: collection-tv-shows
-  # - repo: templates/collection-tv-shows
-  # - repo: templates/search
+templates: !!import/shallow
+  - ../../templates/collection.yml
+  - ../../templates/collection-tv-shows.yml
+  - ../../templates/search.yml
 
 ######################################################
 #                   Collections                      #
