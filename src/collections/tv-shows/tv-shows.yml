@@ -8,7 +8,7 @@
 #   - ../../templates/search.yml
 
 external_templates:
-  - repo: templates/collection-tv-shows
+  - repo: collection-tv-shows
   # - repo: templates/collection-tv-shows
   # - repo: templates/search
 
