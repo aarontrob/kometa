@@ -8,9 +8,9 @@
 #   - ../../templates/search.yml
 
 external_templates:
-  - repo: templates/collection
-  - repo: templates/collection-tv-shows
-  - repo: templates/search
+  - repo: collection-tv-shows
+  # - repo: templates/collection-tv-shows
+  # - repo: templates/search
 
 ######################################################
 #                   Collections                      #
