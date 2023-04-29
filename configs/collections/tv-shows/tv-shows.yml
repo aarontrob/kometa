@@ -1,5 +1,5 @@
 external_templates:
-  - repo: collection-tv-shows
+  - repo: templates/collection-tv-shows
 collections:
   Addams Family Collection:
     template:
