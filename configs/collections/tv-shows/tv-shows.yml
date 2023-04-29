@@ -1,7 +1,7 @@
 external_templates:
-  - repo: templates/collection.yml
-  - repo: templates/collection-tv-shows.yml
-  - repo: templates/search.yml
+  - repo: templates/collection
+  - repo: templates/collection-tv-shows
+  - repo: templates/search
 collections:
   Addams Family Collection:
     template:
