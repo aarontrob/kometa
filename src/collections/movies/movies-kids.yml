@@ -360,6 +360,12 @@ collections:
       name: Collection - Movies
       movie: 294272, 11114
       summary: Brazzle Dazzle Brilliance!
+  Peter Pan Collection:
+    template:
+      name: Collection - Movie
+      collection: 55422
+      movie: 420808
+      summary: You Can Fly!
   The Pink Panther Collection:
     template:
       name: Collection - Movies

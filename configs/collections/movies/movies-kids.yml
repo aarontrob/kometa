@@ -3,60 +3,66 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Alpha:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Release:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    collection_mode: <<collection_mode>>
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: custom
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movie:
@@ -64,24 +70,26 @@ templates:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movies:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide:
@@ -101,12 +109,13 @@ templates:
       title: <<title>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
 collections:
@@ -509,6 +518,12 @@ collections:
       name: Collection - Movies
       movie: '294272, 11114'
       summary: Brazzle Dazzle Brilliance!
+  Peter Pan Collection:
+    template:
+      name: Collection - Movie
+      collection: 55422
+      movie: 420808
+      summary: You Can Fly!
   The Pink Panther Collection:
     template:
       name: Collection - Movies
