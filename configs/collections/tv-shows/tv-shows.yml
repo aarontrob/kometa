@@ -131,7 +131,7 @@ collections:
   ALF Collection:
     template:
       name: Collection - Hide Show
-      tmdb_show: 4658
+      show: 4658
       summary: Alien Life Form
   Archie Collection:
     template:
@@ -713,7 +713,7 @@ collections:
       name: Collection - Hide Show
       show: 4076
   Westworld Collection:
-    tmdb_show: '63247, 411'
+    show: '63247, 411'
     summary: These violent delights have violent ends.
     name_mapping: Westworld Collection (TV)
   Wet Hot American Summer Collection:
