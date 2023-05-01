@@ -280,6 +280,7 @@ collections:
     template:
       name: Collection - Trakt List
       list: cornetto-trilogy
+      collection_mode: show_items
       summary: >-
         An anthology series of British comedic genre films directed by Edgar
         Wright, written by Wright and Simon Pegg, produced by Nira Park, and
@@ -289,6 +290,7 @@ collections:
     template:
       name: Collection - Movies
       movie: '9480, 9947'
+      collection_mode: show_items
       summary: >-
         Daredevil is a fictional superhero appearing in American comic books
         published by Marvel Comics. Daredevil was created by writer-editor Stan
@@ -300,23 +302,17 @@ collections:
       movie: 11639
       sort_title: Dark Crystal Collection
   Deuce Bigalow Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/95664'
-    summary: >-
-      He's not very good looking. But when the lights go out...he's still not
-      very good looking.
+    template:
+      name: Collection
+      collection: 95664
+      summary: >-
+        He's not very good looking. But when the lights go out...he's still not
+        very good looking.
   Doctor Strange Collection:
     template:
       name: Search
       title: 'Doctor Strange, Dr. Strange'
-      summary: >-
-        Doctor Stephen Strange is a fictional character appearing in American
-        comic books published by Marvel Comics. Created by Steve Ditko, the
-        character first appeared in Strange Tales #110 (cover-dated July 1963).
-        Doctor Strange serves as the Sorcerer Supreme, the primary protector of
-        Earth against magical and mystical threats. Inspired by stories of black
-        magic and Chandu the Magician, Strange was created during the Silver Age
-        of Comic Books to bring a different kind of character and themes of
-        mysticism to Marvel Comics.
+      summary: Open your mind. Change your reality.
   Downton Abbey Collection:
     template:
       name: Collection
@@ -477,15 +473,16 @@ collections:
       name: Search
       title: Hulk
       summary: Don't make me angry. You wouldn't like me when I'm angry
-  I am Legend Collection:
+  I Am Legend Collection:
     template:
       name: Collection - Movies
       movie: '21159, 11234, 6479'
+      collection_mode: show_items
       summary: Films based on the 1954 novel I Am Legend by Richard Matheson.
   Invasion of the Body Snatchers Collection:
     template:
-      name: Collection - Movies
-      movie: '11549, 11850, 4858'
+      name: Collection - Hide Movie
+      movie: 4858
       summary: >-
         A small-town doctor learns that the population of his community is being
         replaced by emotionless alien duplicates.
@@ -617,6 +614,7 @@ collections:
       name: Collection - Movie
       collection: 535313
       movie: 293167
+      collection_mode: show_items
       summary: >-
         The MonsterVerse is an American multimedia franchise and shared
         fictional universe that is centered on a series of monster films
@@ -663,6 +661,7 @@ collections:
     template:
       name: Collection - Movies
       movie: '335, 311, 336'
+      collection_mode: show_items
       summary: >-
         Sergio Leone's unofficial Once Upon A Time... trilogy feature some of
         the late director's best work, and also his most underrated Western.
@@ -769,7 +768,7 @@ collections:
       summary: LAY OFF ME I'M STARVING!
   Scarlet Witch Collection:
     template:
-      name: Collection - Movies
+      name: Collection - Hide Movie
       movie: 453395
       summary: >-
         The Scarlet Witch is a fictional character appearing in American comic
@@ -928,6 +927,7 @@ collections:
     template:
       name: Collection - Movies
       movie: '252, 118, 455411'
+      collection_mode: show_items
       summary: 'We are the music makers, and we are the dreamers of dreams.'
   The Wizard of Oz Collection:
     template:

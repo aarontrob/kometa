@@ -226,6 +226,7 @@ collections:
     template:
       name: Collection - Movies
       movie: '747, 4638, 107985'
+      collection_mode: show_items
       summary: >-
         An anthology series of British comedic genre films directed by Edgar
         Wright, written by Wright and Simon Pegg, produced by Nira Park, and
@@ -330,6 +331,7 @@ collections:
       collection: 9743
       movie: 11454
       sort_title: Hannibal Lecter Collection
+      collection_mode: show_items
       summary: To enter the mind of a killer she must challenge the mind of a madman.
   Hellraiser Collection:
     template:
@@ -529,6 +531,7 @@ collections:
       name: Collection - Movies
       movie: '16395, 11906, 15206'
       sort_title: Three Mothers Trilogy
+      collection_mode: show_items
       summary: >-
         The Three Mothers (Italian: Le Tre madri) is a trilogy of supernatural
         horror films by Italian film director Dario Argento. It consists of

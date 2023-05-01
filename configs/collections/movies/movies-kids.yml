@@ -409,7 +409,7 @@ collections:
     template:
       name: Collection - Trakt List
       list: looney-tunes-collection
-    summary: '“What''s up, doc?"'
+      summary: '“What''s up, doc?"'
   Luca Collection:
     template:
       name: Collection - Movies
@@ -491,28 +491,7 @@ collections:
     template:
       name: Collection - Trakt List
       list: peanuts-collection
-      summary: >-
-        Peanuts is a syndicated daily and Sunday American comic strip written
-        and illustrated by Charles M. Schulz that ran from October 2, 1950, to
-        February 13, 2000, and continuing in reruns afterward. Peanuts is among
-        the most popular and influential in the history of comic strips, with
-        17,897 strips published in all, making it "arguably the longest story
-        ever told by one human being". By the time of Schulz's death in 2000,
-        Peanuts ran in over 2,600 newspapers, with a readership of around 355
-        million in 75 countries, and was translated into 21 languages. It helped
-        to cement the four-panel gag strip as the standard in the United States,
-        and together with its merchandise earned Schulz more than $1 billion.
-
-        Peanuts focuses entirely on a social circle of young children, where
-        adults exist but are never seen and rarely heard. The main character,
-        Charlie Brown, is meek, nervous, and lacks self-confidence. He is unable
-        to fly a kite, win a baseball game, or kick a football held by his
-        irascible friend Lucy, who always pulls it away at the last instant.
-
-        Peanuts is one of the literate strips with philosophical, psychological,
-        and sociological overtones that flourished in the 1950s. Peanuts's humor
-        is psychologically complex and driven by the characters' interactions
-        and relationships.
+      summary: Never stop dreaming big.
   Pete's Dragon Collection:
     template:
       name: Collection - Movies
@@ -528,13 +507,13 @@ collections:
     template:
       name: Collection - Movies
       movie: '49854, 311218'
+      sort_title: Pink Panther Collection
       summary: >-
         The Pink Panther is a movie series of live action mixed with animation
         totaling in six official films and three not official films. The main
         character is a clumsy inspector named Jacques Clouseau who is played by
         Peter Sellers in the official Pink Panther films. Today The Pink Panther
         is the famous trademark of a huge franchise.
-      sort_title: Pink Panther Collection
   Pinocchio Collection:
     template:
       name: Collection - Movies
