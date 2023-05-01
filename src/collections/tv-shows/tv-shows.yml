@@ -128,7 +128,7 @@ collections:
       show: 33907
   Dune Collection:
     template:
-      name: Collection - Hide Show Show
+      name: Collection - Hide Show
       show: 9156
       summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
   Evil Dead Collection:
@@ -313,7 +313,7 @@ collections:
       summary: Na-No Na-No!
   The Munsters Collection:
     template:
-      name: Collection - Hide Show Show
+      name: Collection - Hide Show
       show: 1712, 11030
       sort_title: Munsters Collection
   My Big Fat Greek Wedding Collection:
@@ -342,11 +342,6 @@ collections:
       name: Collection - Hide Show
       show: 4719
       summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
-  Planet Earth Collection:
-    template:
-      name: Collection - Shows
-      show: 1044, 68595
-      summary: Prepare to see it as never before.
   Planet of the Apes Collection:
     template:
       name: Collection - Hide Show
@@ -430,14 +425,14 @@ collections:
       name_mapping: Shazam Collection
   Sherlock Holmes Collection:
     template:
-      name: Collection -  Trakt List
+      name: Collection - Trakt List
       list: sherlock-holmes
       collection_mode: show_items
       summary: >-
         Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle. Referring to himself as a "consulting detective" in the stories, Holmes is known for his proficiency with observation, deduction, forensic science, and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard.
   Spaceballs Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 12785
   Star Trek:
     template:
@@ -544,9 +539,11 @@ collections:
       name: Collection - Hide Show
       show: 4076
   Westworld Collection:
-    show: 63247, 411
-    summary: These violent delights have violent ends.
-    name_mapping: Westworld Collection (TV)
+    template:
+      name: Collection - Shows
+      show: 63247, 411
+      summary: These violent delights have violent ends.
+      name_mapping: Westworld Collection (TV)
   Wet Hot American Summer Collection:
     template:
       name: Collection - Hide Show
