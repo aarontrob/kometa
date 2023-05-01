@@ -14,42 +14,42 @@ templates: !!import/shallow
 collections:
   Alien Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 565591
       summary: In space no one can hear you scream.
   Back to the Future Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 330127
       summary: "Where we're going, we don't need roads"
   Blade Runner Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 57656
       summary: Man Has Made His Match... Now It's His Problem
   Child's Play Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 926762
       name_mapping: Childs Play Collection
   Creepshow Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 356677
       summary: The Most Fun You'll Ever Have... BEING SCARED!
   Dune Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 191720
       summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
   Fantastic Four Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 216529
       summary: Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize their scientific backgrounds to band together and defend the world against perilous threats.
   Flash Gordon Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 505247
   Friday the 13th Collection:
     template:
@@ -58,7 +58,7 @@ collections:
       summary: They were warned...They are doomed...And on Friday the 13th, nothing will save them.
   Garbage Pail Kids Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 270533
   Grey Gardens Collection:
     template:
@@ -67,39 +67,39 @@ collections:
       summary: I tell you if there's anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what.
   Halloween Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 28900
       summary: Trick or treat... or die
   The Hannibal Lecter Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 384189
       sort_title: Hannibal Lecter Collection
   Harry Potter Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 899082
   Hellraiser Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 348191
   It Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 512356
   Jaws Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 84219
       summary: You'll never go in the water again!
   Living Dead Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 87489
       summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
   Masters of the Universe Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 540556
       summary: By the Power of Grayskull!
   The Matrix Collection:
@@ -116,7 +116,7 @@ collections:
       summary: Don't Fall Asleep!
   Peanuts Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 836919
       summary: >-
         Peanuts is a syndicated daily and Sunday American comic strip written and illustrated by Charles M. Schulz that ran from October 2, 1950, to February 13, 2000, and continuing in reruns afterward. Peanuts is among the most popular and influential in the history of comic strips, with 17,897 strips published in all, making it "arguably the longest story ever told by one human being". By the time of Schulz's death in 2000, Peanuts ran in over 2,600 newspapers, with a readership of around 355 million in 75 countries, and was translated into 21 languages. It helped to cement the four-panel gag strip as the standard in the United States, and together with its merchandise earned Schulz more than $1 billion.
@@ -131,16 +131,16 @@ collections:
       summary: Planet of the Apes is an American science fiction media franchise about a world in which humans and intelligent apes clash for control. The franchise is based on French author Pierre Boulle's 1963 novel La Planète des singes, translated into English as Planet of the Apes or Monkey Planet.
   Return of the Living Dead Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 77171
       summary: The series came about as a dispute between John A. Russo and George A. Romero over how to handle sequels to their 1968 film, Night of the Living Dead. The two reached a settlement wherein Romero's sequels would be referred to as the Dead movies, and Russo's sequels would bear the suffix Living Dead.
   Pet Sematary Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 430035
   Psycho Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 89994
   Saturday Night Live Collection:
     template:
@@ -149,17 +149,17 @@ collections:
       summary: LAY OFF ME I'M STARVING!
   Scream Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 83938
   The Shining Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 84330
       sort_title: Shining Collection
       summary: The Horror is driving him crazy
   Showgirls Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 592997
       summary: There's always someone younger and hungrier coming down the stairs after you.
   Star Wars:
@@ -169,27 +169,27 @@ collections:
       summary: A long time ago in a galaxy far, far away....
   Star Trek:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 338544
       summary: >-
         These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man one has gone before!
     label: Movies
   Superman Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 24479
       summary: Truth, Justice and a Better Tomorrow
   Teenage Mutant Ninja Turtles Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 280276
       summary: COWABUNGA!
   Troll Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 40819
   Wet Hot American Summer Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 352552
       summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."

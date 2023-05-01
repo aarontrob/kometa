@@ -3,60 +3,66 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Alpha:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Release:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    collection_mode: <<collection_mode>>
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: custom
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movie:
@@ -64,24 +70,26 @@ templates:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movies:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide:
@@ -101,50 +109,51 @@ templates:
       title: <<title>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
 collections:
   Alien Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 565591
       summary: In space no one can hear you scream.
   Back to the Future Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 330127
       summary: 'Where we''re going, we don''t need roads'
   Blade Runner Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 57656
       summary: Man Has Made His Match... Now It's His Problem
   Child's Play Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 926762
       name_mapping: Childs Play Collection
   Creepshow Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 356677
       summary: The Most Fun You'll Ever Have... BEING SCARED!
   Dune Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 191720
       summary: >-
         A world beyond your experience, beyond your imagination. A place beyond
         your dreams.
   Fantastic Four Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 216529
       summary: >-
         Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize
@@ -152,7 +161,7 @@ collections:
         against perilous threats.
   Flash Gordon Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 505247
   Friday the 13th Collection:
     template:
@@ -163,7 +172,7 @@ collections:
         will save them.
   Garbage Pail Kids Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 270533
   Grey Gardens Collection:
     template:
@@ -175,39 +184,39 @@ collections:
         weaken, no matter what.
   Halloween Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 28900
       summary: Trick or treat... or die
   The Hannibal Lecter Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 384189
       sort_title: Hannibal Lecter Collection
   Harry Potter Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 899082
   Hellraiser Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 348191
   It Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 512356
   Jaws Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 84219
       summary: You'll never go in the water again!
   Living Dead Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 87489
       summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
   Masters of the Universe Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 540556
       summary: By the Power of Grayskull!
   The Matrix Collection:
@@ -224,7 +233,7 @@ collections:
       summary: Don't Fall Asleep!
   Peanuts Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 836919
       summary: >-
         Peanuts is a syndicated daily and Sunday American comic strip written
@@ -260,7 +269,7 @@ collections:
         Monkey Planet.
   Return of the Living Dead Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 77171
       summary: >-
         The series came about as a dispute between John A. Russo and George A.
@@ -270,11 +279,11 @@ collections:
         suffix Living Dead.
   Pet Sematary Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 430035
   Psycho Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 89994
   Saturday Night Live Collection:
     template:
@@ -283,17 +292,17 @@ collections:
       summary: LAY OFF ME I'M STARVING!
   Scream Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 83938
   The Shining Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 84330
       sort_title: Shining Collection
       summary: The Horror is driving him crazy
   Showgirls Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 592997
       summary: >-
         There's always someone younger and hungrier coming down the stairs after
@@ -305,7 +314,7 @@ collections:
       summary: 'A long time ago in a galaxy far, far away....'
   Star Trek:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 338544
       summary: >-
         These are the voyages of the starship Enterprise. Its five-year mission:
@@ -314,21 +323,21 @@ collections:
     label: Movies
   Superman Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 24479
       summary: 'Truth, Justice and a Better Tomorrow'
   Teenage Mutant Ninja Turtles Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 280276
       summary: COWABUNGA!
   Troll Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 40819
   Wet Hot American Summer Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 352552
       summary: >-
         Arty, I need you to take a shower... 'Cause your parents are coming

@@ -3,60 +3,66 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Alpha:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Release:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    collection_mode: <<collection_mode>>
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: custom
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movie:
@@ -64,24 +70,26 @@ templates:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movies:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide:
@@ -101,12 +109,13 @@ templates:
       title: <<title>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
 collections:
@@ -118,7 +127,7 @@ collections:
       summary: Creepy. Kooky. Spooky. Ooky.
   Æon Flux Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 8202
       sort_title: Aeon Flux Collection
   Airplane Collection:
@@ -171,7 +180,7 @@ collections:
         not what it seems.
   Beetlejuice Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 4011
   Betty Boop Collection:
     template:
@@ -184,12 +193,12 @@ collections:
         Fleischer Studios and released by Paramount Pictures.
   The Beverly Hillbillies Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 11041
       sort_title: Beverly Hillbillies Collection
   Bewitched Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 9722
   Blade Runner Collection:
     template:
@@ -198,7 +207,7 @@ collections:
       summary: Man Has Made His Match... Now It's His Problem
   Bob's Burgers Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 504827
   The Brady Bunch Collection:
     template:
@@ -208,7 +217,7 @@ collections:
       summary: Sure Jan.
   Buck Rogers Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 3786
   Cape Fear Collection:
     template:
@@ -249,7 +258,7 @@ collections:
         Greek mythology involving the Greek hero Perseus.
   Clueless Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 9603
   Conan the Barbarian Collection:
     template:
@@ -287,7 +296,7 @@ collections:
         Jack Kirby.
   The Dark Crystal Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 11639
       sort_title: Dark Crystal Collection
   Deuce Bigalow Collection:
@@ -360,7 +369,7 @@ collections:
       summary: The story of the Banks family.
   Flash Gordon Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 3604
   Fletch Collection:
     template:
@@ -380,7 +389,7 @@ collections:
         discovering he's living in a place where music and dancing are illegal.
   The Fugitive Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 5503
       sort_title: Fugitive Collection
   Ghostbusters Collection:
@@ -454,7 +463,7 @@ collections:
         gruesome murders on various vehicles of transportation.
   History of the World Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 10156
   Home Alone Collection:
     template:
@@ -513,7 +522,7 @@ collections:
         phenomena and multiple sequels.
   Josie and the Pussycats Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 19366
   Journey to the Center of the Earth Collection:
     template:
@@ -522,7 +531,7 @@ collections:
       summary: Based on Jules Verne's fantastic stories of strange adventure...
   Jumanji Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 8844
   Justice League Collection:
     template:
@@ -530,11 +539,11 @@ collections:
       title: Justice League
   Land of the Lost Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 18162
   Logan's Run Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 10803
   The Lord of the Rings Collection:
     template:
@@ -544,7 +553,7 @@ collections:
       sort_title: Lord of the Rings Collection
   Lost in Space Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 2157
       summary: 'Danger, Will Robinson!'
   The Magnificent Seven Collection:
@@ -556,7 +565,7 @@ collections:
       summary: The adventures of the Magnificent Seven.
   The Man from U.N.C.L.E. Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 203801
       sort_title: Man from U.N.C.L.E. Collection
   Mary Poppins Collection:
@@ -633,7 +642,7 @@ collections:
       movie: 39410
   The Munsters Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 804413
       sort_title: Munsters Collection
   My Big Fat Greek Wedding Collection:
@@ -769,7 +778,7 @@ collections:
         number 4 in the Silver Age of Comic Books.
   Shazam! Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 287947
       name_mapping: Shazam Collection
   Sherlock Holmes Collection:
@@ -798,7 +807,7 @@ collections:
       summary: My heart is filled with courage! But I have very cowardly legs.
   Spaceballs Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 957
   Spider-Man Collection:
     template:
@@ -825,7 +834,7 @@ collections:
       summary: 'A long time ago in a galaxy far, far away....'
   Starman Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 9663
       summary: >-
         He has traveled from a galaxy far beyond our own. He is 100,000 years
@@ -833,7 +842,7 @@ collections:
         the one force in the universe he has yet to conquer. Love.
   Starsky & Hutch Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 9384
       summary: The original partners in crime.
   Super Troopers Collection:
@@ -877,25 +886,25 @@ collections:
         evil.
   Turner & Hooch Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 6951
       summary: The Oddest Couple Ever Unleashed!
   The Twilight Zone Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 15301
       sort_title: Twilight Zone Collection
   Twin Peaks Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 1923
   Watchmen Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 13183
   Weird Science Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 11814
   West Side Story Collection:
     template:
@@ -904,7 +913,7 @@ collections:
       summary: A city divided. Their love will change everything
   Wet Hot American Summer Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 2171
       summary: >-
         Arty, I need you to take a shower... 'Cause your parents are coming
@@ -913,7 +922,7 @@ collections:
         dirt.
   Willow Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 847
   Willy Wonka Collection:
     template:
@@ -922,7 +931,7 @@ collections:
       summary: 'We are the music makers, and we are the dreamers of dreams.'
   The Wizard of Oz Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 630
       sort_title: Wizard of Oz Collection
   Wizarding World Collection:

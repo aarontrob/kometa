@@ -56,7 +56,7 @@ collections:
       summary: It crawls. It creeps. It eats you alive!
   Buffy the Vampire Slayer Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 10206
   Cabin Fever Collection:
     template:
@@ -384,12 +384,12 @@ collections:
       summary: An immortal battle for supremacy.
   Van Helsing Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 7131
       summary: The One Name They All Fear
   What We Do in the Shadows Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 246741
   When a Stranger Calls Collection:
     template:

@@ -163,7 +163,7 @@ collections:
       summary: Tale as old as time.
   Big Hero 6 Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 177572
       summary: 'Hello, I am Baymax, your personal healthcare companion.'
   Bolt Collection:
@@ -245,7 +245,7 @@ collections:
       name_mapping: Dr Dolittle Collection
   DuckTales Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 10837
   Dumbo Collection:
     template:
@@ -285,7 +285,7 @@ collections:
         her mysterious sister Elsa and the snowman Olaf.
   Garbage Pail Kids Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 14443
   Garfield Collection:
     template:
@@ -305,7 +305,7 @@ collections:
       summary: A Big Problem Calls For A Big Head
   Hercules Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 11970
   Hotel Transylvania Collection:
     template:
@@ -355,7 +355,7 @@ collections:
         counterpart to The Flintstones.
   Jonny Quest Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 343977
   The Jungle Book Collection:
     template:
@@ -402,7 +402,7 @@ collections:
       sort_title: Little Mermaid Collection
   The Little Rascals Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 10897
       sort_title: Little Rascals Collection
   Looney Tunes Collection:
@@ -452,7 +452,7 @@ collections:
       summary: We Scare Because We Care
   Mr. Magoo Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 9438
       summary: 'Oh Magoo, you''ve done it again!'
   Mulan Collection:
@@ -547,7 +547,7 @@ collections:
       summary: Gotta Catch ’Em All!
   Popeye Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 11335
       summary: Ahoy!
   Power Rangers Collection:
@@ -567,11 +567,11 @@ collections:
       summary: Don't Mess With Recess
   Rocko's Modern Life Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 439059
   Rocky and Bullwinkle Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 17711
   Roger Rabbit Collection:
     template:
@@ -641,7 +641,7 @@ collections:
       summary: Is all this living really worth dying for?
   Speed Racer Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 7459
   SpongeBob Collection:
     template:
@@ -662,7 +662,7 @@ collections:
       movie: '537061, 755867'
   Street Fighter Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 11667
   Superman Collection:
     template:
@@ -717,7 +717,7 @@ collections:
       summary: To Infinity and Beyond!
   Transformers Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 1857
       summary: >-
         The Transformers series follows the continuing battle between the
@@ -740,7 +740,7 @@ collections:
       summary: The newest sensation in waste allocation!
   Willy Wonka Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 455411
       summary: 'We are the music makers, and we are the dreamers of dreams.'
   Winnie the Pooh Collection:

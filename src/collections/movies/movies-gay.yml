@@ -14,5 +14,5 @@ templates: !!import/shallow
 collections:
   Love, Simon Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 449176

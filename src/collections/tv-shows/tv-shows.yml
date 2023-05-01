@@ -19,11 +19,11 @@ collections:
       summary: Creepy. Kooky. Spooky. Ooky.
   Æon Flux Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 406
   ALF Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       tmdb_show: 4658
       summary: Alien Life Form
   Archie Collection:
@@ -46,7 +46,7 @@ collections:
       summary: The fight to save humanity rages on. Where will you stand? Destiny is not what it seems.
   The Beverly Hillbillies Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 1930
       sort_title: Beverly Hillbillies Collection
       name_mapping: The Beverly Hillbillies Collection (TV)
@@ -66,15 +66,15 @@ collections:
       summary: Part Man. Part Vampire. All Hero.
   Blade Runner Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 84553
   Bob's Burgers Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 32726
   Boy Meets World Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 1777
   The Brady Bunch Collection:
     template:
@@ -85,24 +85,24 @@ collections:
       name_mapping: The Brady Bunch Collection (TV)
   Buck Rogers Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 2443
   Buffy the Vampire Slayer Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 95
   Charlie's Angels Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 3382
       name_mapping: Charlie's Angels Collection (TV)
   Child's Play Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 90462
   Clueless Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 3921
   Constantine Collection:
     template:
@@ -111,11 +111,11 @@ collections:
       summary: Everyone fights their demons. His fight back.
   Creepshow Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 86686
   Critters Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 87208
   Dexter Collection:
     template:
@@ -124,39 +124,39 @@ collections:
       summary: America's favorite serial killer. He's got a way with murder. Blood never lies. Anyone has something to hide.
   Downton Abbey Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 33907
   Dune Collection:
     template:
-      name: Collection - Hide Show
+      name: Collection - Hide Show Show
       show: 9156
       summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
   Evil Dead Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 62264
       summary: They got up on the wrong side of the grave.
   The Exorcist Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 67135
       sort_title: Exorcist Collection
   Family Guy Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 1434
   Firestarter Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 41327
       summary: If you get on her bad side...YOU'RE TOAST.
   From Dusk Till Dawn Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 60626
   The Fugitive Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 10083
       sort_title: Fugitive Collection
   Full House Collection:
@@ -166,11 +166,11 @@ collections:
       summary: You got it dude!
   Gilligan's Island Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 1921
   Godzilla Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 111177
   The Golden Girls Collection:
     template:
@@ -180,12 +180,12 @@ collections:
       summary: Thank you for being a friend
   Grease Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 94617
       summary: Grease is the word.
   The Hannibal Lecter Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 103302, 40008
       sort_title: Hannibal Lecter Collection
       summary: To enter the mind of a killer she must challenge the mind of a madman.
@@ -196,7 +196,7 @@ collections:
       summary: Exactamundo
   Hercule Poirot Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 790
   Heroes Collection:
     template:
@@ -210,7 +210,7 @@ collections:
       summary: There can be only one
   History of the World Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 202213
   Hotwives Collection:
     template:
@@ -224,7 +224,7 @@ collections:
       summary: HULK SMASH!
   I Know What You Did Last Summer Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 129680
   Impractical Jokers Collection:
     template:
@@ -243,33 +243,33 @@ collections:
       summary: Heroes aren't born. They're built. Get ready for a different breed of heavy metal hero.
   Jackass Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 1795
   The Karate Kid Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 77169
       sort_title: Karate Kid Collection
   The Kolchak Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 5084
       sort_title: Kolchak Collection
   Laverne & Shirley Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 3033
   Living Dead Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 129897
   Logan's Run Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 36626
   The Lord of the Rings Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 84773
       sort_title: Lord of the Rings Collection
   Lost in Space Collection:
@@ -279,7 +279,7 @@ collections:
       summary: Danger, Will Robinson!
   "Love, Simon Collection":
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 97186
   I Love Lucy Collection:
     template:
@@ -287,7 +287,7 @@ collections:
       show: 2730, 2144, 1439
   The Man from U.N.C.L.E. Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 210
       sort_title: Man from U.N.C.L.E. Collection
   Miss Marple Collection:
@@ -302,58 +302,70 @@ collections:
       summary: Expect the impossible.
   Monty Python Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 849
       summary: Monty Python were a British surreal comedy troupe who created the sketch comedy television show Monty Python's Flying Circus, which first aired on the BBC in 1969.
   Mork & Mindy Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 2552
-    summary: Na-No Na-No!
+    template:
+      name: Collection - Hide Show
+      show: 2552
+      summary: Na-No Na-No!
   The Munsters Collection:
-    sort_title: Munsters Collection
-    template: { name: Collection Hide }
-    tmdb_show: 1712, 11030
+    template:
+      name: Collection - Hide Show Show
+      show: 1712, 11030
+      sort_title: Munsters Collection
   My Big Fat Greek Wedding Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 6587
-    summary: People change. Greeks don't.
+    template:
+      name: Collection - Hide Show
+      show: 6587
+      summary: People change. Greeks don't.
   Naked Gun Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 6024
+    template:
+      name: Collection - Hide Show
+      show: 6024
   A Nightmare on Elm Street Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 4346
-    sort_title: Nightmare on Elm Street Collection
-    summary: Welcome to your nightmare.
+    template:
+      name: Collection - Hide Show
+      show: 4346
+      sort_title: Nightmare on Elm Street Collection
+      summary: Welcome to your nightmare.
   The Omen Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 19033
-    sort_title: Omen Collection
-    summary: The Omen film series is a horror film franchise created in the 1970s. The story was originally written by David Seltzer, who chose not to continue the series after the first novel. The second novel and screenplay were then written by Joseph Howard, and the third by Gordon McGill. After the third movie was produced, a fourth was made for TV in an attempt to bring back the series, but did poorly. The series centres around Damien Thorn, a child born of Satan and given to Robert and Katherine Thorn, before being passed along the Thorn families as a child. It is revealed among the families that Damien is in fact meant to be the Antichrist, and as an adult is attempting to gain control of the Thorn business and reach for the presidency.
+    template:
+      name: Collection - Hide Show
+      show: 19033
+      sort_title: Omen Collection
+      summary: Who is He? What is He? Should We Fear Him? Can We Stop Him? Is He a Warning? Is He the Beginning of the End?
   Police Academy Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 4719
-    summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
+      summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
   Planet Earth Collection:
-    tmdb_show: 1044, 68595
-    summary: Prepare to see it as never before.
+    template:
+      name: Collection - Shows
+      show: 1044, 68595
+      summary: Prepare to see it as never before.
   Planet of the Apes Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 19
-    summary: Somewhere in the Universe, there must be something better than man!
+      summary: Somewhere in the Universe, there must be something better than man!
   The Punisher Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 67178
+    template:
+      name: Collection - Hide Show
+      show: 67178
+      sort_title: Punisher Collection
   Psycho Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 46786
+    template:
+      name: Collection - Hide Show
+      show: 46786
   Real Housewives Collection:
     template:
-      name: Search
-      title: Real Housewives
-    summary: Prostitution Whore!
+      name: Collection - Trakt List
+      list: real-housewives-collection
+      summary: Prostitution Whore!
+    sync_to_trakt_list: real-housewives
   Reno 911! Collection:
     template: { name: Collection Hide }
     tmdb_show: 2187
