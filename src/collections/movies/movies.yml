@@ -41,7 +41,7 @@ collections:
   Around the World in 80 Days Collection:
     template:
       name: Collection - Movies
-      tmdb_movie: 10204, 2897
+      movie: 10204, 2897
       summary: It's a wonderful world, if you'll only take the time to go around it!
   The Avengers Collection:
     template:
@@ -63,7 +63,7 @@ collections:
   Battlestar Galactica Collection:
     template:
       name: Collection - Trakt List
-      trakt_list: battlestar-galactica-collection
+      list: battlestar-galactica-collection
       summary: The fight to save humanity rages on. Where will you stand? Destiny is not what it seems.
   Beetlejuice Collection:
     template:
@@ -524,9 +524,10 @@ collections:
       summary: The Scarlet Witch is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. Her first appearance was in The X-Men number 4 in the Silver Age of Comic Books.
   Shazam! Collection:
     template:
-      name: Collection - Hide Movie
-      movie: 287947
+      name: Collection
+      collection: 724848
       name_mapping: Shazam Collection
+      summary: If you want to save the world, say the magic word.
   Sherlock Holmes Collection:
     template:
       name: Collection - Trakt List
