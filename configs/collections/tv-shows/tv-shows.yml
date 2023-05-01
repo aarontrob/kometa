@@ -670,77 +670,84 @@ collections:
         keep up with the rent.
   Tremors Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 4372
   The Twilight Zone Collection:
     template:
-      name: Collection
-    tmdb_show: '6357, 83135, 1918'
-    sort_title: Twilight Zone Collection
-    summary: >-
-      You are about to enter another dimension, a dimension not only of sight
-      and sound but of mind. A journey into a wondrous land of imagination. Next
-      stop, the Twilight Zone!
+      name: Collection - Shows
+      show: '6357, 83135, 1918'
+      sort_title: Twilight Zone Collection
+      summary: >-
+        You are about to enter another dimension, a dimension not only of sight
+        and sound but of mind. A journey into a wondrous land of imagination.
+        Next stop, the Twilight Zone!
   Turner & Hooch Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 114503
-    name_mapping: Turner & Hooch Collection (TV)
-    summary: The Oddest Couple Ever Unleashed!
+      name: Collection - Hide Show
+      show: 114503
+      name_mapping: Turner & Hooch Collection (TV)
+      summary: The Oddest Couple Ever Unleashed!
   Twin Peaks Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 1920
+      name: Collection - Hide Show
+      show: 1920
   The Walking Dead Universe:
-    tmdb_show: '1402, 62286, 136248, 94305'
-    sort_title: Walking Dead Universe
-    summary: Fight the dead. Fear the living. An eye for an eye.
+    template:
+      name: Collection - Shows
+      show: '1402, 62286, 136248, 94305'
+      sort_title: Walking Dead Universe
+      summary: Fight the dead. Fear the living. An eye for an eye.
   Watchmen Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 79788-watchmen
+      name: Collection - Hide Show
+      show: 79788
   What We Do in the Shadows Collection:
-    tmdb_show: '83631, 80475'
+    template:
+      name: Collection - Shows
+      show: '83631, 80475'
+      collection_mode: show_items
+      summary: Some interviews with some vampires.
   Weird Science Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 4076
+      name: Collection - Hide Show
+      show: 4076
   Westworld Collection:
-    tmdb_show: '63247, 63247'
+    tmdb_show: '63247, 411'
     summary: These violent delights have violent ends.
     name_mapping: Westworld Collection (TV)
   Wet Hot American Summer Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
+      show: '73132, 61967'
     plex_search:
       title: Wet Hot American Summer
-    tmdb_show: '73132, 61967'
   Willow Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 111837
   Wonder Woman Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 4331
-    plex_search:
-      title: Wonder Woman
-    name_mapping: Wonder Woman Collection
   Yellowstone Collection:
-    tmdb_show: '73586, 157744, 118357'
-    summary: 'My land, my rules.'
+    template:
+      name: Collection - Shows
+      show: '73586, 157744, 118357'
+      summary: 'My land, my rules.'
   The X-Files Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 4087
-    sort_title: X-Files Collection
+      name: Collection - Hide Show
+      show: 4087
+      sort_title: X-Files Collection
   X-Men Collection:
-    trakt_list: 'https://trakt.tv/users/goape/lists/x-men'
-    collection_mode: show_items
-    summary: >-
-      The X-Men are a fictional team of superheroes appearing in American comic
-      books published by Marvel Comics, first appearing in The X-Men number 1 by
-      artist/co-plotter Jack Kirby and writer/editor Stan Lee in 1963. Although
-      initially cancelled in 1970, following its 1975 revival and subsequent
-      direction under writer Chris Claremont, it became one of the most
-      recognizable and successful franchises of Marvel Comics.
+    template:
+      name: Collection - Trakt List
+      list: x-men-collection
+      collection_mode: show_items
+      summary: >-
+        The X-Men are a fictional team of superheroes appearing in American
+        comic books published by Marvel Comics, first appearing in The X-Men
+        number 1 by artist/co-plotter Jack Kirby and writer/editor Stan Lee in
+        1963. Although initially cancelled in 1970, following its 1975 revival
+        and subsequent direction under writer Chris Claremont, it became one of
+        the most recognizable and successful franchises of Marvel Comics.
