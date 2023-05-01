@@ -92,7 +92,7 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
-  Collection - Hide:
+  Collection - Hide Movie:
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release

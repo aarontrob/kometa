@@ -92,7 +92,7 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
-  Collection - Hide:
+  Collection - Hide Show:
     tmdb_show: <<show>>
     sync_mode: sync
     collection_order: release
