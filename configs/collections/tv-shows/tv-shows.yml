@@ -654,6 +654,7 @@ collections:
     template:
       name: Collection - Shows
       show: '1066, 2686'
+      name_mapping: Threes Company Collection
       summary: >-
         The story revolves around three single roommates: Janet Wood, Chrissy
         Snow and Jack Tripper who all platonically share Apartment 201 in a
