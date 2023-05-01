@@ -492,33 +492,31 @@ collections:
       show: 46786
   Real Housewives Collection:
     template:
-      name: Search
-      title: Real Housewives
+      name: Collection - Trakt List
+      list: real-housewives-collection
       summary: Prostitution Whore!
-    sync_to_trakt_list: real-housewives-2
   Reno 911! Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 2187
-    summary: >-
-      They Might Not Be The Best...But They're The Best We Got.They Might Not Be
-      The Best...But They're The Best We Got.
+      name: Collection - Hide Show
+      show: 2187
+      summary: >-
+        They Might Not Be The Best...But They're The Best We Got.They Might Not
+        Be The Best...But They're The Best We Got.
   Resident Evil Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 108296
+      name: Collection - Hide Show
+      show: 108296
   RoboCop Collection:
     template:
-      name: Search
-      title: RoboCop
-    summary: The future of law enforcement. Part man. Part machine.
+      name: Collection - Shows
+      show: '5191, 12066'
+      summary: The future of law enforcement. Part man. Part machine.
   RuPaul's Drag Race Collection:
     template:
-      name: Collection List
+      name: Collection - Trakt List Custom Order
       list: rupaul-s-drag-race
       summary: Don't f*ck it up!
-    collection_order: custom
-    name_mapping: RuPauls Drag Race Collection
+      name_mapping: RuPauls Drag Race Collection
   Sabrina the Teenage Witch Collection:
     template:
       name: Search
