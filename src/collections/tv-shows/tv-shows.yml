@@ -447,7 +447,7 @@ collections:
   Star Wars:
     template:
       name: Collection - Trakt List
-      list: star-wars
+      list: star-wars-collection
       # name_mapping: Star Wars (TV)
       summary: May the Force Be with You
   Stargate Collection:

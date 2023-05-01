@@ -588,7 +588,7 @@ collections:
   Star Wars:
     template:
       name: Collection - Trakt List
-      list: star-wars
+      list: star-wars-collection
       summary: May the Force Be with You
   Stargate Collection:
     template:
