@@ -450,54 +450,57 @@ collections:
     # name_mapping: Star Wars (TV)
   Stargate Collection:
     template:
-      name: Search
-      title: Stargate
-    summary: Stargate is a military science fiction media franchise based on the film directed by Roland Emmerich, which he co-wrote with producer Dean Devlin. The franchise is based on the idea of an alien Einstein–Rosen bridge device (the Stargate) that enables nearly instantaneous travel across the cosmos.
+      name: Collection - Shows
+      show: 4629, 2290, 5148, 72925, 2580
+      summary: Stargate is a military science fiction media franchise based on the film directed by Roland Emmerich, which he co-wrote with producer Dean Devlin. The franchise is based on the idea of an alien Einstein–Rosen bridge device (the Stargate) that enables nearly instantaneous travel across the cosmos.
   Starman Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 5403
-    name_mapping: Starman Collection (TV)
-    summary: He has traveled from a galaxy far beyond our own. He is 100,000 years ahead of us. He has powers we cannot comprehend. And he is about to face the one force in the universe he has yet to conquer. Love.
+      name_mapping: Starman Collection (TV)
+      summary: He has traveled from a galaxy far beyond our own. He is 100,000 years ahead of us. He has powers we cannot comprehend. And he is about to face the one force in the universe he has yet to conquer. Love.
   Starsky & Hutch Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 1532
-    summary: The original partners in crime.
+      summary: The original partners in crime.
   Superman Collection:
-    plex_search:
-      title: Superman, Man of Steel
-    summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
+    template:
+      name: Collection - Shows
+      show: 4515, 12662
+      summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
   Swamp Thing Collection:
-    tmdb_show: 79240, 13989
-    summary: The Swamp Thing is a fictional superhero in American comic books published by DC Comics. A humanoid/plant elemental creature, created by writer Len Wein and artist Bernie Wrightson, the Swamp Thing has had several humanoid or monster incarnations in various different storylines.
+    template:
+      name: Collection - Shows
+      show: 79240, 13989
+      summary: The Swamp Thing is a fictional superhero in American comic books published by DC Comics. A humanoid/plant elemental creature, created by writer Len Wein and artist Bernie Wrightson, the Swamp Thing has had several humanoid or monster incarnations in various different storylines.
   Tales from the Crypt Collection:
-    plex_search:
-      title: Tales from the Crypt
-    collection_mode: hide
+    template:
+      name: Collection - Hide Show
+      show: 2391
   The Terminator Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 433
-    plex_search:
-      title: Terminator
-    sort_title: Terminator Collection
+      sort_title: Terminator Collection
   The Dark Crystal Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 71809
-    sort_title: Dark Crystal Collection
+      sort_title: Dark Crystal Collection
   The Tick Collection:
-    template: { name: Collection, show: "14651, 67487, 14540" }
-    sort_title: Tick Collection
+    template:
+      name: Collection - Hide Show
+      show: "14651, 67487, 14540"
+      sort_title: Tick Collection
   Three's Company Collection:
     template:
       name: Collection
       show: 1066, 2686
-    summary: >-
-      The story revolves around three single roommates: Janet Wood, Chrissy Snow and Jack Tripper who all platonically share Apartment 201 in a Santa Monica, California apartment building owned by Mr. and Mrs. Roper. Later, following Suzanne Somers's departure, Jenilee Harrison joined the cast as Cindy Snow, who was later replaced by Priscilla Barnes as Terri Alden. After the Ropers were spun-off into their own sitcom, Don Knotts joined the cast as the roommates' new landlord Ralph Furley, brother of the new building owner, Bart Furley.
+      summary: >-
+        The story revolves around three single roommates: Janet Wood, Chrissy Snow and Jack Tripper who all platonically share Apartment 201 in a Santa Monica, California apartment building owned by Mr. and Mrs. Roper. Later, following Suzanne Somers's departure, Jenilee Harrison joined the cast as Cindy Snow, who was later replaced by Priscilla Barnes as Terri Alden. After the Ropers were spun-off into their own sitcom, Don Knotts joined the cast as the roommates' new landlord Ralph Furley, brother of the new building owner, Bart Furley.
 
-      The show, a comedy of errors, chronicles the escapades and hijinks of the trio's constant misunderstandings, social lives, and struggle to keep up with the rent.
+        The show, a comedy of errors, chronicles the escapades and hijinks of the trio's constant misunderstandings, social lives, and struggle to keep up with the rent.
   Tremors Collection:
     template:
       name: Collection Hide
