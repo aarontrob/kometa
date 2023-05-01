@@ -362,8 +362,8 @@ collections:
       show: 46786
   Real Housewives Collection:
     template:
-      name: Collection - Trakt List
-      list: real-housewives-collection
+      name: Search
+      title: Real Housewives
       summary: Prostitution Whore!
     sync_to_trakt_list: real-housewives-2
   Reno 911! Collection:
