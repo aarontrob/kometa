@@ -365,7 +365,7 @@ collections:
       name: Collection - Trakt List
       list: real-housewives-collection
       summary: Prostitution Whore!
-    sync_to_trakt_list: real-housewives
+    sync_to_trakt_list: real-housewives-2
   Reno 911! Collection:
     template: { name: Collection Hide }
     tmdb_show: 2187
