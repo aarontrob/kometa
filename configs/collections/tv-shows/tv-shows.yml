@@ -652,7 +652,7 @@ collections:
       sort_title: Tick Collection
   Three's Company Collection:
     template:
-      name: Collection
+      name: Collection - Shows
       show: '1066, 2686'
       summary: >-
         The story revolves around three single roommates: Janet Wood, Chrissy
