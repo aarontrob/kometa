@@ -519,65 +519,70 @@ collections:
       name_mapping: RuPauls Drag Race Collection
   Sabrina the Teenage Witch Collection:
     template:
-      name: Search
-      title: Sabrina
-    summary: This girl is making her own magic.
+      name: Collection - Shows
+      show: '605, 79242'
+      summary: This girl is making her own magic.
   The Santa Clause Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 155631
+      name: Collection - Hide Show
+      show: 155631
   Saturday Night Live Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 1667
+      name: Collection - Hide Show
+      show: 1667
   Saved by the Bell Collection:
     template:
-      name: Search
-      title: Saved by the Bell
-    tmdb_show: 4683
-    summary: I'm so excited! I'm so excited! I'm so... SCARED!
+      name: Collection - Shows
+      show: '4683, 4345, 93825, 531, 2014'
+      summary: I'm so excited! I'm so excited! I'm so... SCARED!
   Scarlet Witch Collection:
-    tmdb_show: 85271
-    summary: >-
-      The Scarlet Witch is a fictional character appearing in American comic
-      books published by Marvel Comics. The character was created by writer Stan
-      Lee and artist Jack Kirby. Her first appearance was in The X-Men number 4
-      in the Silver Age of Comic Books.
+    template:
+      name: Collection - Hide Show
+      show: 85271
+      summary: >-
+        The Scarlet Witch is a fictional character appearing in American comic
+        books published by Marvel Comics. The character was created by writer
+        Stan Lee and artist Jack Kirby. Her first appearance was in The X-Men
+        number 4 in the Silver Age of Comic Books.
   Scream Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 62823
+      name: Collection - Hide Show
+      show: 62823
   SCTV Collection:
-    tmdb_show: '22940, 2548'
-    summary: Second City Television
+    template:
+      name: Collection - Shows
+      show: '22940, 2548'
+      summary: Second City Television
   Sex and the City Collection:
-    summary: The next best thing to being there.
-    tmdb_show: '105, 116450'
+    template:
+      name: Collection - Shows
+      show: '105, 116450'
+      summary: The next best thing to being there.
   Shazam! Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 10444
-    name_mapping: Shazam Collection
+      name_mapping: Shazam Collection
   Sherlock Holmes Collection:
     template:
-      name: Collection List
+      name: Collection -  Trakt List
       list: sherlock-holmes
-    summary: >-
-      Sherlock Holmes is a fictional private detective created by British author
-      Sir Arthur Conan Doyle. Referring to himself as a "consulting detective"
-      in the stories, Holmes is known for his proficiency with observation,
-      deduction, forensic science, and logical reasoning that borders on the
-      fantastic, which he employs when investigating cases for a wide variety of
-      clients, including Scotland Yard.
+      summary: >-
+        Sherlock Holmes is a fictional private detective created by British
+        author Sir Arthur Conan Doyle. Referring to himself as a "consulting
+        detective" in the stories, Holmes is known for his proficiency with
+        observation, deduction, forensic science, and logical reasoning that
+        borders on the fantastic, which he employs when investigating cases for
+        a wide variety of clients, including Scotland Yard.
   Spaceballs Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide
       show: 12785
   Star Trek:
     template:
-      name: Search
-      title: Star Trek
-    summary: 'Live long, and prosper'
+      name: Collection - Trakt List
+      list: star-trek-collection
+      summary: 'Live long, and prosper'
   Star Wars:
     template:
       name: Collection List
