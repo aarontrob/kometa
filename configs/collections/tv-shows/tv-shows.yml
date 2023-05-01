@@ -587,9 +587,9 @@ collections:
       summary: 'Live long, and prosper'
   Star Wars:
     template:
-      name: Collection List
+      name: Collection - Trakt List
       list: star-wars
-    summary: May the Force Be with You
+      summary: May the Force Be with You
   Stargate Collection:
     template:
       name: Collection - Shows
