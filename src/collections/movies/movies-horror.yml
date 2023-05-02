@@ -241,8 +241,8 @@ collections:
       summary: You can't run from your own mind
   The Last House on the Left Collection:
     template:
-      name: Collection
-      collection: 629830
+      name: Collection - Movies
+      movie: 18405, 15516
       sort_title: Last House on the Left Collection
       summary: Sights & sounds far beyond anything you've tested...take as much as you can!
   Leprechaun Collection:
@@ -258,7 +258,7 @@ collections:
       summary: Don't feed the plants.
   Living Dead Collection:
     template:
-      name: Collection Movie
+      name: Collection - Movie
       collection: 261590, 809185
       movie: 19185, 924, 13025, 29426
       summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...

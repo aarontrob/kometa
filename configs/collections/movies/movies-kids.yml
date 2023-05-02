@@ -502,7 +502,7 @@ collections:
       name: Collection - Movie
       collection: 55422
       movie: 420808
-      summary: You Can Fly!
+      summary: Never Grow Up
   The Pink Panther Collection:
     template:
       name: Collection - Movies
