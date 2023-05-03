@@ -193,9 +193,14 @@ collections:
       title: Care Bears
   Cars Collection:
     template:
-      name: Collection - Trakt List
+      name: Collection - Trakt List Custom Order
       list: cars-collection
       summary: Our Cars Speak For Themselves.
+  Casper Collection:
+    template:
+      name: Search
+      title: Casper
+      summary: Who says there's no such thing as ghosts?
   The Cat in the Hat Collection:
     template:
       name: Search

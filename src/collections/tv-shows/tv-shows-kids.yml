@@ -106,31 +106,36 @@ collections:
       name: Collection - Hide Show
       show: 35006
   Boy Meets World Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 46028
+    template:
+      name: Collection - Hide Show
+      show: 46028
   The Brady Bunch Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 10115
-    sort_title: Brady Bunch Collection
-    summary: Sure, Jan.
-    name_mapping: The Brady Bunch Collection (TV)
+    template:
+      name: Collection - Hide Show
+      show: 10115
+      sort_title: Brady Bunch Collection
+      name_mapping: The Brady Bunch Collection (TV)
+      summary: Sure, Jan.
   Care Bears Collection:
     template:
-      name: Search
-      title: Care Bears
+      name: Collection - Shows
+      show: 2264, 108183, 14100, 65268, 97959
+      summary: Spreading love and happiness to all!
   Carmen Sandiego Collection:
     template:
-      name: Search
-      title: Carmen Sandiego
-    summary: Where in the World Is Carmen Sandiego?
+      name: Collection - Shows
+      show: 74728, 3945
+      summary: Where in the World Is Carmen Sandiego?
   Cars Collection:
-    tmdb_show: 114502
     template:
-      name: Search
-      title: Cars Toons
-    summary: Our Cars Speak For Themselves.
+      name: Collection - Trakt List
+      list: cars-collection
+      summary: Our Cars Speak For Themselves.
   Casper Collection:
-    tmdb_show: 8627, 31527, 6755, 14470, 31170
+    template:
+      name: Collection - Shows
+      show: 8627, 31527, 6755, 14470, 31170
+      summary: Who says there's no such thing as ghosts?
   "Chip 'n Dale Collection":
     tmdb_show: 1615, 96715
     summary: Chip and Dale (also spelled Chip 'n' Dale) are a cartoon duo of anthropomorphic chipmunk brothers created in 1943 by The Walt Disney Company.
