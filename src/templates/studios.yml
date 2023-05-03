@@ -2,8 +2,18 @@ Studio:
   tmdb_company: <<company>>
   collection_order: release
   collection_mode: hide_items
-  default:
-    sort_title: ++_6<<collection_name>>
+  sort_title: ++_6<<collection_name>>
+  optional:
+    - list
+    - summary
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  summary: <<summary>>
+Studio + Network:
+  tmdb_company: <<company>>
+  tmdb_network: <<network>>
+  collection_order: release
+  collection_mode: hide_items
+  sort_title: ++_6<<collection_name>>
   optional:
     - list
     - summary
@@ -13,8 +23,16 @@ Studio - Trakt List:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   collection_order: release
   collection_mode: hide_items
-  default:
-    sort_title: ++_6<<collection_name>>
+  sort_title: ++_6<<collection_name>>
+  optional:
+    - summary
+  summary: <<summary>>
+Studio - Trakt List Custom Order:
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  collection_order: custom
+  collection_mode: hide_items
+  sort_title: ++_6<<collection_name>>
+  sync_mode: sync
   optional:
     - summary
   summary: <<summary>>
@@ -23,8 +41,7 @@ Studio - Search:
     title: <<title>>
   collection_order: release
   collection_mode: hide_items
-  default:
-    sort_title: ++_6<<collection_name>>
+  sort_title: ++_6<<collection_name>>
   optional:
     - summary
   summary: <<summary>>

@@ -153,31 +153,41 @@ collections:
       summary: Are you better off now than you were 4 million years ago?
   Curious George Collection:
     template:
-      name: Search
-      title: Curious George
+      name: Collection - Shows
+      show: 656, 117658
+      summary: Show Me The Monkey!
   Dennis the Menace Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 3518
+    template:
+      name: Collection - Hide Show
+      show: 3518
   Descendants Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 65016
+    template:
+      name: Collection - Hide Show
+      show: 65016
   DuckTales Collection:
-    tmdb_show: 720, 72350
+    template:
+      name: Collection - Shows
+      show: 720, 72350
+      summary: Adventure and excitement are always a-wing!
   Dumb and Dumber Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 7972
+    template:
+      name: Collection - Hide Show
+      show: 7972
   The Emperor's New Groove Collection:
-    sort_title: Emperor's New Groove Collection
-    template: { name: Collection Hide }
-    tmdb_show: 4623
+    template:
+      name: Collection - Hide Show
+      show: 4623
+      sort_title: Emperor's New Groove Collection
   Fantastic Four Collection:
     template:
-      name: Search
-      title: Fantastic Four
-    tmdb_show: 2271
+      name: Collection - Hide Show
+      show: 2271, 2901, 1651, 132, 2373
+      summary: Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize their scientific backgrounds to band together and defend the world against perilous threats.
   Flash Gordon Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 11844
+    template:
+      name: Collection - Shows
+      show: 11844, 3464
+      summary: He'll save every one of us!!
   The Flintstones Collection:
     template:
       name: Search

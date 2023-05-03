@@ -3,8 +3,7 @@ templates:
     tmdb_company: <<company>>
     collection_order: release
     collection_mode: hide_items
-    default:
-      sort_title: ++_6<<collection_name>>
+    sort_title: ++_6<<collection_name>>
     optional:
       - list
       - summary
@@ -14,8 +13,15 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     collection_order: release
     collection_mode: hide_items
-    default:
-      sort_title: ++_6<<collection_name>>
+    sort_title: ++_6<<collection_name>>
+    optional:
+      - summary
+    summary: <<summary>>
+  Studio - Trakt List Custom Order:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    collection_order: release
+    collection_mode: hide_items
+    sort_title: ++_6<<collection_name>>
     optional:
       - summary
     summary: <<summary>>
@@ -24,8 +30,7 @@ templates:
       title: <<title>>
     collection_order: release
     collection_mode: hide_items
-    default:
-      sort_title: ++_6<<collection_name>>
+    sort_title: ++_6<<collection_name>>
     optional:
       - summary
     summary: <<summary>>
@@ -68,5 +73,3 @@ collections:
         Starting with Iron Man, the franchise is comprised mainly of films
         independently made by Marvel Studios, that are primarily set within this
         same universe, much like Marvel has done with their comics.
-    collection_order: custom
-    sync_mode: sync

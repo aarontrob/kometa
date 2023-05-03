@@ -10,12 +10,12 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Disney Filtered:
+  Disney:
     template:
-      name: Studio
+      name: Studio + Network
       company: 2, 3, 6125, 3166, 3475, 670
+      network: 54, 281
       list: disney
-    name: Disney
     plex_search:
       title:
         - The Wonderful World of Disney
@@ -23,3 +23,19 @@ collections:
     show_filtered: true
     title.not:
       - Storm of the Century
+  Marvel Cinematic Universe:
+    template:
+      name: Studio - Trakt List
+      list: mcu
+      summary: >-
+        The Marvel Cinematic Universe is a media franchise created by Marvel Studios, set primarily in a shared universe designated as the reality Earth-199999 within Marvel's multiverse system, with some installments also set in adjacent or branching realities.
+
+        Starting with Iron Man, the franchise is comprised mainly of films independently made by Marvel Studios, that are primarily set within this same universe, much like Marvel has done with their comics.
+  Nickelodeon:
+    template:
+      name: Studio + Network
+      company: 4859, 5371, 2348
+      network: 13
+      summary: >-
+        Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
+        Nickelodeon

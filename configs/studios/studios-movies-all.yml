@@ -47,31 +47,76 @@ templates:
       - summary
     summary: <<summary>>
 collections:
-  Hanna-Barbera:
+  A24:
     template:
       name: Studio
-      company: 1353
-      list: hanna-barbera
+      company: 41077
+      list: a24
       summary: >-
-        Hanna-Barbera Productions, Inc. also variously known as H-B Enterprises,
-        H-B Production Co., and Hanna-Barbera Cartoons, Inc., was an American
-        animation studio and production company founded in 1957 by Tom and Jerry
-        creators and former Metro-Goldwyn-Mayer animation directors William
-        Hanna and Joseph Barbera and dominated television with a variety of
-        animated series, including The Huckleberry Hound Show, The Flintstones,
-        The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You!
-        and The Smurfs
+        A24 is an American independent entertainment company founded on August
+        20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes
+        in film and television production, as well as film distribution. It is
+        based in New York City.
+  DC:
+    template:
+      name: Studio
+      company: 9993
+      list: dc
+      summary: >-
+        DC Films is an American film studio that is a subsidiary of Warner Bros.
+        through the Warner Bros. Pictures Group, dedicated to the production of
+        films based on characters from DC Entertainment.
+  DC Animated Originals:
+    template:
+      name: Studio - Trakt List
+      list: dc-animated
+      summary: >-
+        The DC Animated Universe (DCAU; also referred to as the Timmverse or
+        Diniverse by fans) is a shared universe of superhero-based animated
+        television series, produced by Warner Bros. Animation and based on
+        characters that appear in American comic books published by DC Comics.
+  Disney:
+    template:
+      name: Studio
+      company: '2, 3, 6125, 3166'
+      list: disney
+      summary: It was all started with a mouse
+  Hammer Films:
+    template:
+      name: Studio
+      company: 1314
+      list: hammer-films
+      summary: >-
+        Hammer Film Productions Ltd. is a British film production company based
+        in London. Founded in 1934, the company is best known for a series of
+        Gothic horror and fantasy films made from the mid-1950s until the 1970s.
+        Many of these involved classic horror characters such as Baron Victor
+        Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to
+        audiences by filming them in vivid colour for the first time.
+  LEGO:
+    template:
+      name: Studio - Search
+      title: 'LEGO, Lego'
+      summary: The bane of your foot's existence.
   Marvel:
     template:
       name: Studio
       company: '7505, 19551, 420, 11106, 13252, 38679'
       list: marvel
       summary: With great power comes great responsibility
-    plex_search:
-      title: I Am Groot
-    show_filtered: true
-    filters:
-      title.not: 'Men In Black: The Series'
+  Marvel Cinematic Universe:
+    template:
+      name: Studio - Trakt List
+      list: mcu
+      summary: >-
+        The Marvel Cinematic Universe is a media franchise created by Marvel
+        Studios, set primarily in a shared universe designated as the reality
+        Earth-199999 within Marvel's multiverse system, with some installments
+        also set in adjacent or branching realities.
+
+        Starting with Iron Man, the franchise is comprised mainly of films
+        independently made by Marvel Studios, that are primarily set within this
+        same universe, much like Marvel has done with their comics.
   Marvel Animation:
     template:
       name: Studio
@@ -89,17 +134,12 @@ collections:
         The Walt Disney Company.
     plex_search:
       title: I Am Groot
-  Pixar Animation Studios:
+  Nickelodeon:
     template:
-      name: Studio - Trakt List
-      list: pixar-animation-studios
-      summary: >-
-        Pixar Animation Studios is an American computer animation studio known
-        for its critically and commercially successful feature films. It is
-        based in Emeryville, California, and is a subsidiary of Walt Disney
-        Studios owned by The Walt Disney Company.
-    plex_search:
-      title: Pixar
+      name: Studio + Network
+      company: '4859, 5371, 2348'
+      network: 13
+      summary: 'Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon'
   Sony Pictures Animation:
     template:
       name: Studio

@@ -53,26 +53,27 @@ collections:
   Marvel Cinematic Universe:
     template:
       name: Studio - Trakt List
-    list: mcu
-    summary: >-
-      The Marvel Cinematic Universe is a media franchise created by Marvel Studios, set primarily in a shared universe designated as the reality Earth-199999 within Marvel's multiverse system, with some installments also set in adjacent or branching realities.
+      list: mcu
+      summary: >-
+        The Marvel Cinematic Universe is a media franchise created by Marvel Studios, set primarily in a shared universe designated as the reality Earth-199999 within Marvel's multiverse system, with some installments also set in adjacent or branching realities.
 
-      Starting with Iron Man, the franchise is comprised mainly of films independently made by Marvel Studios, that are primarily set within this same universe, much like Marvel has done with their comics.
+        Starting with Iron Man, the franchise is comprised mainly of films independently made by Marvel Studios, that are primarily set within this same universe, much like Marvel has done with their comics.
   Marvel Animation:
     template:
       name: Studio
       company: 13252
+      list: marvel-animation
       summary: Marvel Animation, Inc. (originally the home entertainment and TV production division of Marvel Studios and also referred to as Marvel Family Entertainment) is an American animation production company. The Marvel Studios subsidiary was incorporated on January 25, 2008 to direct Marvel's efforts in animation and home entertainment markets. The incorporated Marvel Animation included then ongoing animation efforts by Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated under Marvel Studios, a subsidiary of Walt Disney Studios, a division of The Walt Disney Company.
     plex_search:
       title: I Am Groot
   Nickelodeon:
     template:
-      name: Studio - Trakt List
-      list: nickelodeon-movies
+      name: Studio + Network
+      company: 4859, 5371, 2348
+      network: 13
       summary: >-
         Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
         Nickelodeon
-    sync_to_trakt_list: nickelodeon
   Sony Pictures Animation:
     template:
       name: Studio

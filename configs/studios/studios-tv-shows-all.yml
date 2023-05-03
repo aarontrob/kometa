@@ -47,35 +47,36 @@ templates:
       - summary
     summary: <<summary>>
 collections:
-  Disney:
+  A24:
     template:
-      name: Studio + Network
-      company: '2, 3, 6125, 3166, 3475, 670'
-      network: '54, 281'
-      list: disney
-    plex_search:
-      title:
-        - The Wonderful World of Disney
-        - Disneyland
-    show_filtered: true
-    title.not:
-      - Storm of the Century
-  Marvel Cinematic Universe:
+      name: Studio
+      company: 41077
+      list: a24
+      summary: >-
+        A24 is an American independent entertainment company founded on August
+        20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes
+        in film and television production, as well as film distribution. It is
+        based in New York City.
+  DC:
+    template:
+      name: Studio
+      company: 9993
+      list: dc
+      summary: >-
+        DC Films is an American film studio that is a subsidiary of Warner Bros.
+        through the Warner Bros. Pictures Group, dedicated to the production of
+        films based on characters from DC Entertainment.
+  DC Animated Originals:
     template:
       name: Studio - Trakt List
-      list: mcu
+      list: dc-animated
       summary: >-
-        The Marvel Cinematic Universe is a media franchise created by Marvel
-        Studios, set primarily in a shared universe designated as the reality
-        Earth-199999 within Marvel's multiverse system, with some installments
-        also set in adjacent or branching realities.
-
-        Starting with Iron Man, the franchise is comprised mainly of films
-        independently made by Marvel Studios, that are primarily set within this
-        same universe, much like Marvel has done with their comics.
-  Nickelodeon:
+        The DC Animated Universe (DCAU; also referred to as the Timmverse or
+        Diniverse by fans) is a shared universe of superhero-based animated
+        television series, produced by Warner Bros. Animation and based on
+        characters that appear in American comic books published by DC Comics.
+  LEGO:
     template:
-      name: Studio + Network
-      company: '4859, 5371, 2348'
-      network: 13
-      summary: 'Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon'
+      name: Studio - Search
+      title: 'LEGO, Lego'
+      summary: The bane of your foot's existence.
