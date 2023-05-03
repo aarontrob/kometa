@@ -7,7 +7,7 @@ templates:
     optional:
       - list
       - summary
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: "https://trakt.tv/users/goape/lists/<<list>>"
     summary: <<summary>>
   Studio + Network:
     tmdb_company: <<company>>
@@ -18,10 +18,10 @@ templates:
     optional:
       - list
       - summary
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: "https://trakt.tv/users/goape/lists/<<list>>"
     summary: <<summary>>
   Studio - Trakt List:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: "https://trakt.tv/users/goape/lists/<<list>>"
     collection_order: release
     collection_mode: hide_items
     sort_title: ++_6<<collection_name>>
@@ -29,7 +29,7 @@ templates:
       - summary
     summary: <<summary>>
   Studio - Trakt List Custom Order:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: "https://trakt.tv/users/goape/lists/<<list>>"
     collection_order: custom
     collection_mode: hide_items
     sort_title: ++_6<<collection_name>>
@@ -78,7 +78,7 @@ collections:
   Disney:
     template:
       name: Studio
-      company: '2, 3, 6125, 3166'
+      company: "2, 3, 6125, 3166"
       list: disney
       summary: It was all started with a mouse
   Hammer Films:
@@ -96,12 +96,12 @@ collections:
   LEGO:
     template:
       name: Studio - Search
-      title: 'LEGO, Lego'
+      title: "LEGO, Lego"
       summary: The bane of your foot's existence.
   Marvel:
     template:
       name: Studio
-      company: '7505, 19551, 420, 11106, 13252, 38679'
+      company: "7505, 19551, 420, 11106, 13252, 38679"
       list: marvel
       summary: With great power comes great responsibility
   Marvel Cinematic Universe:
@@ -136,9 +136,9 @@ collections:
   Nickelodeon:
     template:
       name: Studio + Network
-      company: '4859, 5371, 2348'
+      company: "4859, 5371, 2348"
       network: 13
-      summary: 'Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon'
+      summary: "Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon"
   Sony Pictures Animation:
     template:
       name: Studio

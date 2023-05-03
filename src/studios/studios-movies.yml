@@ -10,6 +10,12 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  Disney:
+    template:
+      name: Studio
+      company: "2, 3, 6125, 3166"
+      list: disney
+      summary: "It was all started with a mouse"
   DCEU:
     template:
       name: Studio - Trakt List
@@ -21,10 +27,9 @@ collections:
       list: rankin-bass-christmas-classics
       summary: Rankin/Bass Animated Entertainment (founded and formerly known as Videocraft International, Ltd. and Rankin/Bass Productions, Inc.) was an American production company known for its seasonal television specials, usually done in stop motion animation. Rankin/Bass' stop-motion productions are recognizable by their visual style of doll-like characters with spheroid body parts and ubiquitous powdery snow using an animation technique called "Animagic". Often, traditional cel animation scenes of falling snow would be projected over the action to create the effect of a snowfall.
     name_mapping: RankinBass Christmas Classics
-  Marvel Cinematic Universe (Timeline):
-    name: Marvel Cinematic Universe
+  Marvel Cinematic Universe:
     template:
-      name: Studio - Trakt List
+      name: Studio - Trakt List Custom Order
       list: marvel-cinematic-universe-timeline
       summary: >-
         The Marvel Cinematic Universe is a media franchise created by Marvel Studios, set primarily in a shared universe designated as the reality Earth-199999 within Marvel's multiverse system, with some installments also set in adjacent or branching realities.

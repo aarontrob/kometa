@@ -3,8 +3,18 @@ templates:
     tmdb_company: <<company>>
     collection_order: release
     collection_mode: hide_items
-    default:
-      sort_title: ++_6<<collection_name>>
+    sort_title: ++_6<<collection_name>>
+    optional:
+      - list
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    summary: <<summary>>
+  Studio + Network:
+    tmdb_company: <<company>>
+    tmdb_network: <<network>>
+    collection_order: release
+    collection_mode: hide_items
+    sort_title: ++_6<<collection_name>>
     optional:
       - list
       - summary
@@ -14,8 +24,16 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     collection_order: release
     collection_mode: hide_items
-    default:
-      sort_title: ++_6<<collection_name>>
+    sort_title: ++_6<<collection_name>>
+    optional:
+      - summary
+    summary: <<summary>>
+  Studio - Trakt List Custom Order:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    collection_order: custom
+    collection_mode: hide_items
+    sort_title: ++_6<<collection_name>>
+    sync_mode: sync
     optional:
       - summary
     summary: <<summary>>
@@ -24,19 +42,16 @@ templates:
       title: <<title>>
     collection_order: release
     collection_mode: hide_items
-    default:
-      sort_title: ++_6<<collection_name>>
+    sort_title: ++_6<<collection_name>>
     optional:
       - summary
     summary: <<summary>>
 collections:
-  Disney Filtered:
+  Disney:
     template:
       name: Studio
       company: '2, 3, 6125, 3166'
       list: disney
-    name: Disney
-    sync_mode: sync
     show_filtered: true
     filters:
       collection.not: Disney Shorts

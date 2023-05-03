@@ -27,12 +27,6 @@ collections:
       name: Studio - Trakt List
       list: dc-animated
       summary: The DC Animated Universe (DCAU; also referred to as the Timmverse or Diniverse by fans) is a shared universe of superhero-based animated television series, produced by Warner Bros. Animation and based on characters that appear in American comic books published by DC Comics.
-  Disney:
-    template:
-      name: Studio
-      company: "2, 3, 6125, 3166"
-      list: disney
-      summary: "It was all started with a mouse"
   Hammer Films:
     template:
       name: Studio
@@ -50,14 +44,6 @@ collections:
       company: "7505, 19551, 420, 11106, 13252, 38679"
       list: marvel
       summary: "With great power comes great responsibility"
-  Marvel Cinematic Universe:
-    template:
-      name: Studio - Trakt List
-      list: mcu
-      summary: >-
-        The Marvel Cinematic Universe is a media franchise created by Marvel Studios, set primarily in a shared universe designated as the reality Earth-199999 within Marvel's multiverse system, with some installments also set in adjacent or branching realities.
-
-        Starting with Iron Man, the franchise is comprised mainly of films independently made by Marvel Studios, that are primarily set within this same universe, much like Marvel has done with their comics.
   Marvel Animation:
     template:
       name: Studio
@@ -71,6 +57,7 @@ collections:
       name: Studio + Network
       company: 4859, 5371, 2348
       network: 13
+      list: nickelodeon
       summary: >-
         Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
         Nickelodeon

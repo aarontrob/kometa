@@ -9,6 +9,17 @@ templates:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     summary: <<summary>>
+  Studio + Network:
+    tmdb_company: <<company>>
+    tmdb_network: <<network>>
+    collection_order: release
+    collection_mode: hide_items
+    sort_title: ++_6<<collection_name>>
+    optional:
+      - list
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    summary: <<summary>>
   Studio - Trakt List:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     collection_order: release
@@ -19,9 +30,10 @@ templates:
     summary: <<summary>>
   Studio - Trakt List Custom Order:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
-    collection_order: release
+    collection_order: custom
     collection_mode: hide_items
     sort_title: ++_6<<collection_name>>
+    sync_mode: sync
     optional:
       - summary
     summary: <<summary>>
@@ -35,6 +47,12 @@ templates:
       - summary
     summary: <<summary>>
 collections:
+  Disney:
+    template:
+      name: Studio
+      company: '2, 3, 6125, 3166'
+      list: disney
+      summary: It was all started with a mouse
   DCEU:
     template:
       name: Studio - Trakt List
@@ -59,10 +77,9 @@ collections:
         scenes of falling snow would be projected over the action to create the
         effect of a snowfall.
     name_mapping: RankinBass Christmas Classics
-  Marvel Cinematic Universe (Timeline):
-    name: Marvel Cinematic Universe
+  Marvel Cinematic Universe:
     template:
-      name: Studio - Trakt List
+      name: Studio - Trakt List Custom Order
       list: marvel-cinematic-universe-timeline
       summary: >-
         The Marvel Cinematic Universe is a media franchise created by Marvel

@@ -10,13 +10,11 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Disney Filtered:
+  Disney:
     template:
       name: Studio
       company: "2, 3, 6125, 3166"
       list: disney
-    name: Disney
-    sync_mode: sync
     show_filtered: true
     filters:
       collection.not: Disney Shorts
