@@ -13,81 +13,98 @@ templates: !!import/shallow
 
 collections:
   101 Dalmatians Collection:
-    tmdb_show: 75523, 2198
-    summary: Crafty Cruella... chasing every spotted puppy in town.
-    label: Kids
+    template:
+      name: Collection - Shows
+      show: 75523, 2198
+      summary: Crafty Cruella... chasing every spotted puppy in town.
   Abbott and Costello Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 17932
+    template:
+      name: Collection - Hide Show
+      show: 17932
   Ace Ventura Collection:
-    tmdb_show: 2831
+    template:
+      name: Collection - Hide Show
+      show: 2831
   Addams Family Collection:
-    tmdb_show: 12925, 13015
-    summary: Creepy. Kooky. Spooky. Ooky.
+    template:
+      name: Collection - Shows
+      show: 12925, 13015
+      summary: Creepy. Kooky. Spooky. Ooky.
   Aladdin Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 2745
+    template:
+      name: Collection - Hide Show
+      show: 2745
   ALF Collection:
     template:
-      name: Search
-      title: ALF
-    summary: Alien Life Form
+      name: Collection - Hide Show
+      show: 10421, 11042
+      summary: Alien Life Form
   All Dogs Go to Heaven Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 6771
+    template:
+      name: Collection - Hide Show
+      show: 6771
   Alvin and the Chipmunks Collection:
-    tmdb_show: 2160, 64572
+    template:
+      name: Collection - Shows
+      show: 2160, 64572
+      summary: Get your squeak on!
   Animaniacs Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 82
+    template:
+      name: Collection - Hide Show
+      show: 82
   Ant-Man Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 73919
+    template:
+      name: Collection - Hide Show
+      show: 73919
   Aquaman Collection:
     template:
-      name: Search
-      title: Aquaman
-    summary: Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth’s surface, including all the creatures contained within.
+      name: Collection - Hide
+      show: 10724, 936 #Super Friends
+      summary: Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth’s surface, including all the creatures contained within.
   Archie Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/archies
-    summary: Archie Comic Publications, Inc., is an American comic book publisher headquartered in Pelham, New York. The company's many titles feature the fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy Keene.
+    template:
+      name: Collection - Trakt List
+      list: archie-collection
+      summary: Archie Comic Publications, Inc., is an American comic book publisher headquartered in Pelham, New York. The company's many titles feature the fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy Keene.
   Are You Afraid of the Dark? Collection:
     template:
-      name: Search
-      title: Are You Afraid of the Dark
-    summary: Submitted for the approval of the Midnight Society, I call this story...
+      name: Collection - Shows
+      show: 2913, 93693
+      summary: Submitted for the approval of the Midnight Society, I call this story...
   The Avengers Collection:
     template:
       name: Search
       title: Avengers
-    sort_title: Avengers Collection
-    summary: Earth's Mightiest Heroes
-    label: Movies
+      sort_title: Avengers Collection
+      summary: Earth's Mightiest Heroes
   Back to the Future Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 4745
+    template:
+      name: Collection - Hide Show
+      show: 4745
   Batman Collection:
     template:
-      name: Search
-      title: Batman, Dark Knight, Super Friends, Superfriends
-    tmdb_show: 936
-    name_mapping: Batman Collection (TV Kids)
-    summary: >-
-      Batman is a superhero who appears in American comic books published by DC Comics. Batman was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in Gotham City. Batman's origin story features him swearing vengeance against criminals after witnessing the murder of his parents Thomas and Martha; he trains himself physically and intellectually, crafts a bat-inspired persona, and monitors the Gotham streets at night. Kane, Finger, and other creators accompanied Batman with supporting characters, including his sidekick Robin; allies Alfred Pennyworth, James Gordon, and Catwoman; and foes such as the Penguin, the Riddler, Two-Face, and his archenemy, the Joker.
+      name: Collection - Trakt List
+      list: batman-collection
+      name_mapping: Batman Collection (TV Kids)
+      summary: Justice is always Darkest before the Dawn.
   The Beatles Collection:
-    sort_title: Beatles Collection
-    template: { name: Collection Hide }
-    tmdb_show: 13531
+    template:
+      name: Collection - Hide Show
+      show: 13531
+      sort_title: Beatles Collection
   Beetlejuice Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 4288
+    template:
+      name: Collection - Hide Show
+      show: 4288
   Big Hero 6 Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 68665
-    summary: "Hello, I am Baymax, your personal healthcare companion."
+    template:
+      name: Collection - Hide Show
+      show: 68665
+      summary: "Hello, I am Baymax, your personal healthcare companion."
   Bill & Ted's Most Excellent Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 35006
+    template:
+      name: Collection - Hide Show
+      show: 35006
   Boy Meets World Collection:
     template: { name: Collection Hide }
     tmdb_show: 46028
@@ -552,7 +569,7 @@ collections:
       title: Street Fighter
   Superman Collection:
     plex_search:
-      title: Superman, Man of Steel
+      title: Superman, Man of Steel, Super Friends, Superfriends
     tmdb_show: 4028
     summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
   Tales from the Crypt Collection:

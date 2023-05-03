@@ -164,7 +164,7 @@ collections:
     template:
       name: Collection - Movie
       collection: 264
-      movie: '517683, 741959, 330127'
+      movie: 1114081
       summary: 'Where we''re going, we don''t need roads'
   Batman Collection:
     template:
@@ -383,6 +383,11 @@ collections:
         When teenager Ren and his family move from big-city Chicago to a small
         town in the West, he's in for a real case of culture shock after
         discovering he's living in a place where music and dancing are illegal.
+  Frosty the Snowman Collection:
+    template:
+      name: Collection
+      collection: 363015
+      summary: 'No money, no TICKET!'
   The Fugitive Collection:
     template:
       name: Collection - Hide Movie
@@ -534,6 +539,7 @@ collections:
     template:
       name: Search
       title: Justice League
+      summary: Justice for all.
   Land of the Lost Collection:
     template:
       name: Collection - Hide Movie
@@ -546,8 +552,8 @@ collections:
     template:
       name: Collection
       collection: 119
-      summary: Middle Earth comes alive...
       sort_title: Lord of the Rings Collection
+      summary: Middle Earth comes alive...
   Lost in Space Collection:
     template:
       name: Collection - Hide Movie
@@ -845,6 +851,11 @@ collections:
       name: Collection - Hide Movie
       movie: 9384
       summary: The original partners in crime.
+  Street Fighter Collection:
+    template:
+      name: Collection - Movies
+      movie: '11667, 12613'
+      summary: The ultimate battle.
   Super Troopers Collection:
     template:
       name: Collection

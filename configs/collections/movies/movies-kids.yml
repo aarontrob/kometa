@@ -270,11 +270,6 @@ collections:
       collection: 294468
       movie: 9574
       summary: The stuff dreams are made of. What is flubber? Catch it if you can!
-  Frosty the Snowman Collection:
-    template:
-      name: Collection
-      collection: 363015
-      summary: 'No money, no TICKET!'
   Frozen Collection:
     template:
       name: Collection - Movie
@@ -366,11 +361,6 @@ collections:
       summary: >-
         For the strength of the Pack is the Wolf, and the strength of the Wolf
         is the Pack.
-  Justice League Collection:
-    template:
-      name: Search
-      title: Justice League
-      summary: Justice for all. Unite the League. You can't save the world alone.
   Kung Fu Panda Collection:
     template:
       name: Collection - Movie
@@ -422,7 +412,7 @@ collections:
       movie: '270946, 161143, 25472, 10258'
   Mario Collection:
     template:
-      name: Collection - Movies
+      name: Collection - Hide Movie
       movie: '9607, 502356'
       summary: 'It''s a me, Mario!'
   Mary Poppins Collection:
@@ -639,10 +629,6 @@ collections:
     template:
       name: Collection - Movies
       movie: '537061, 755867'
-  Street Fighter Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 11667
   Superman Collection:
     template:
       name: Search
