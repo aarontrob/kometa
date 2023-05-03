@@ -83,9 +83,3 @@ collections:
         Starting with Iron Man, the franchise is comprised mainly of films
         independently made by Marvel Studios, that are primarily set within this
         same universe, much like Marvel has done with their comics.
-  Nickelodeon:
-    template:
-      name: Studio + Network
-      company: '4859, 5371, 2348'
-      network: 13
-      summary: 'Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon'
