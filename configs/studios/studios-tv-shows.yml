@@ -68,8 +68,8 @@ collections:
         - The Wonderful World of Disney
         - Disneyland
     show_filtered: true
-    title.not:
-      - Storm of the Century
+    filters:
+      title.not: Storm of the Century
   Marvel Cinematic Universe:
     template:
       name: Studio - Trakt List
