@@ -47,6 +47,12 @@ templates:
       - summary
     summary: <<summary>>
 collections:
+  Disney:
+    template:
+      name: Studio + Network
+      company: '2, 3, 6125, 3166, 3475, 670'
+      network: '54, 281'
+      list: disney
   Hanna-Barbera:
     template:
       name: Studio
