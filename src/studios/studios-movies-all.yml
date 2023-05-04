@@ -52,9 +52,8 @@ collections:
       summary: Marvel Animation, Inc. (originally the home entertainment and TV production division of Marvel Studios and also referred to as Marvel Family Entertainment) is an American animation production company. The Marvel Studios subsidiary was incorporated on January 25, 2008 to direct Marvel's efforts in animation and home entertainment markets. The incorporated Marvel Animation included then ongoing animation efforts by Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated under Marvel Studios, a subsidiary of Walt Disney Studios, a division of The Walt Disney Company.
   Nickelodeon:
     template:
-      name: Studio + Network
+      name: Studio
       company: 4859, 5371, 2348
-      network: 13
       list: nickelodeon
       summary: >-
         Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick

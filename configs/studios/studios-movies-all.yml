@@ -115,9 +115,8 @@ collections:
         The Walt Disney Company.
   Nickelodeon:
     template:
-      name: Studio + Network
+      name: Studio
       company: '4859, 5371, 2348'
-      network: 13
       list: nickelodeon
       summary: 'Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon'
   Sony Pictures Animation:

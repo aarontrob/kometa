@@ -392,18 +392,19 @@ collections:
     template:
       name: Search
       title: Hulk
+      summary: HULK SMASH!
+    show_filtered: true
     filters:
       title.not: Hulk Hogan's Rock 'n' Wrestling
-    summary: HULK SMASH!
   Ice Age Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 158307
+      name: Collection - Hide Show
+      show: 158307
   Inspector Gadget Collection:
     template:
-      name: Search
-      title: Inspector Gadget
-    summary: The ultimate crime fighting machine.
+      name: Collection - Shows
+      show: '4035, 62508'
+      summary: The ultimate crime fighting machine.
   Iron Man Collection:
     template:
       name: Search
