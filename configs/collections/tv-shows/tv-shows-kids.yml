@@ -358,42 +358,36 @@ collections:
       show: 5835
   Guardians of the Galaxy Collection:
     template:
-      name: Collection Hide
-    tmdb_show: '63181, 70784'
+      name: Collection - Hide Show
+      show: '63181, 70784'
     plex_search:
       title: I Am Groot
   Happy Days Collection:
     template:
-      name: Collection
-      show: '3845, 3033, 2552, 920, 10798, 10071, 31457, 31407, 527'
-    summary: >-
-      Happy Days is an American sitcom television series that aired first-run on
-      the ABC network from January 15, 1974, to September 24, 1984, with a total
-      of 255 half-hour episodes spanning 11 seasons. Created by Garry Marshall,
-      the series was one of the most successful of the 1970s, a sweet vision of
-      life in the mid-1950s to mid-1960s Midwestern United States, and starred
-      Ron Howard as young Richie Cunningham, Henry Winkler as his friend Fonzie,
-      and Tom Bosley and Marion Ross as Richie's parents, Howard and Marion
-      Cunningham. Although it opened to mixed reviews from critics, Happy Days
-      became successful and popular over time.
+      name: Collection - Hide Show
+      show: '920, 31407, 31457'
+      summary: Exactamundo!
   Hercules Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 2567
+      name: Collection - Hide Show
+      show: 2567
   Hey Arnold! Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 537
+      name: Collection - Hide Show
+      show: 537
   'Honey, I Shrunk the Kids Collection':
     template:
-      name: Collection Hide
-    tmdb_show: 1797
+      name: Collection - Hide Show
+      show: 1797
   Hotel Transylvania Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 72442
   How to Train Your Dragon Collection:
-    trakt_list: 'https://trakt.tv/users/goape/lists/how-to-train-your-dragon-collection'
+    template:
+      name: Collection - Trakt List
+      list: how-to-train-your-dragon-collection
+      summary: 'Where dragons are friends, not foes'
   Hulk Collection:
     template:
       name: Search

@@ -194,7 +194,7 @@ collections:
       name: Collection - Shows
       show: 3845, 3033, 2552, 920, 10798, 10071, 31457, 31407, 527
       collection_mode: show_items
-      summary: Exactamundo
+      summary: Exactamundo!
   Hercule Poirot Collection:
     template:
       name: Collection - Hide Show

@@ -198,8 +198,9 @@ collections:
       summary: Even monsters need a vacation
   How to Train Your Dragon Collection:
     template:
-      name: Collection - Trakt List
+      name: Collection - Trakt List Custom Order
       list: how-to-train-your-dragon-collection
+      summary: Where dragons are friends, not foes.
   Hulk Collection:
     template:
       name: Search
