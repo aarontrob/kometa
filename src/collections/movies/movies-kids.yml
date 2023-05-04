@@ -151,8 +151,8 @@ collections:
       summary: Fish they're just like us, only flakier.
   The Flintstones Collection:
     template:
-      name: Search
-      title: Flintstones, Flintstone, Yabba-dabba
+      name: Collection - Trakt List Custom Order
+      list: the-flintstones-collection
       sort_title: Flintstones Collection
       summary: Yabba-Dabba-Doo!
   Flubber Collection:

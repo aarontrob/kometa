@@ -272,95 +272,90 @@ collections:
       summary: Are you better off now than you were 4 million years ago?
   Curious George Collection:
     template:
-      name: Search
-      title: Curious George
+      name: Collection - Shows
+      show: '656, 117658'
+      summary: Show Me The Monkey!
   Dennis the Menace Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 3518
+      name: Collection - Hide Show
+      show: 3518
   Descendants Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 65016
+      name: Collection - Hide Show
+      show: 65016
   DuckTales Collection:
-    tmdb_show: '720, 72350'
+    template:
+      name: Collection - Shows
+      show: '720, 72350'
+      summary: Adventure and excitement are always a-wing!
   Dumb and Dumber Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 7972
+      name: Collection - Hide Show
+      show: 7972
   The Emperor's New Groove Collection:
-    sort_title: Emperor's New Groove Collection
     template:
-      name: Collection Hide
-    tmdb_show: 4623
+      name: Collection - Hide Show
+      show: 4623
+      sort_title: Emperor's New Groove Collection
   Fantastic Four Collection:
     template:
-      name: Search
-      title: Fantastic Four
-    tmdb_show: 2271
+      name: Collection - Hide Show
+      show: '2271, 2901, 1651, 132, 2373'
+      summary: >-
+        Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize
+        their scientific backgrounds to band together and defend the world
+        against perilous threats.
   Flash Gordon Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 11844
+      name: Collection - Shows
+      show: '11844, 3464'
+      summary: He'll save every one of us!!
   The Flintstones Collection:
     template:
-      name: Search
-      title: 'Flintstones, Flintstone, Yabba-dabba'
-    tmdb_show: '956, 2451, 15153, 109086'
-    sort_title: Flintstones Collection
-    name_mapping: The Flintstones Collection (TV)
-    summary: >-
-      The Flintstones is an American animated sitcom produced by Hanna-Barbera
-      Productions. The series takes place in a romanticized Stone Age setting
-      and follows the activities of the title family, the Flintstones, and their
-      next-door neighbors, the Rubbles.
+      name: Collection - Trakt List
+      list: the-flintstones-collection
+      name_mapping: The Flintstones Collection (TV)
+      sort_title: Flintstones Collection
+      summary: Yabba-Dabba-Doo!
   Fraggle Rock Collection:
     template:
-      name: Search
-      title: Fraggle
-    summary: >-
-      Fraggle Rock (also known as Jim Henson's Fraggle Rock or Fraggle Rock with
-      Jim Henson's Muppets) is a children's musical fantasy comedy puppet
-      television series about interconnected societies of Muppet creatures,
-      created by Jim Henson.
+      name: Collection - Shows
+      show: '2957, 104002, 102318, 2844'
+      summary: >-
+        Fraggle Rock (also known as Jim Henson's Fraggle Rock or Fraggle Rock
+        with Jim Henson's Muppets) is a children's musical fantasy comedy puppet
+        television series about interconnected societies of Muppet creatures,
+        created by Jim Henson.
   Free Willy Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 10289
+      name: Collection - Hide Show
+      show: 10289
   Garbage Pail Kids Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 3260
+      name: Collection - Hide Show
+      show: 3260
   Garfield Collection:
     template:
-      name: Search
-      title: Garfield
-    summary: >-
-      Garfield is an American comic strip created by Jim Davis. Originally
-      published locally as Jon in 1976, then in nationwide syndication from 1978
-      as Garfield, it chronicles the life of the title character, Garfield the
-      cat; Jon Arbuckle, his human owner; and Odie, the dog.
+      name: Collection - Shows
+      show: '4606, 18352'
+      summary: t's all about me-ow!
   Ghostbusters Collection:
     template:
-      name: Search
-      title: Ghostbusters
-    summary: Who ya gonna call? Ghostbusters!
+      name: Collection - Shows
+      show: '2286, 4793, 21871'
+      summary: Who ya gonna call? Ghostbusters!
   Gilligan's Island Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 631
-  Globetrotters Collection:
-    template:
-      name: Search
-      title: Globetrotters
+      name: Collection - Hide Show
+      show: 631
   A Goofy Movie Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 2235
+      name: Collection - Hide Show
+      show: 2235
   Goosebumps Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 5835
+      name: Collection - Hide Show
+      show: 5835
   Guardians of the Galaxy Collection:
     template:
       name: Collection Hide

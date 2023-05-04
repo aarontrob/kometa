@@ -190,46 +190,46 @@ collections:
       summary: He'll save every one of us!!
   The Flintstones Collection:
     template:
-      name: Search
-      title: Flintstones, Flintstone, Yabba-dabba
-    tmdb_show: 956, 2451, 15153, 109086
-    sort_title: Flintstones Collection
-    name_mapping: The Flintstones Collection (TV)
-    summary: The Flintstones is an American animated sitcom produced by Hanna-Barbera Productions. The series takes place in a romanticized Stone Age setting and follows the activities of the title family, the Flintstones, and their next-door neighbors, the Rubbles.
+      name: Collection - Trakt List
+      list: the-flintstones-collection
+      name_mapping: The Flintstones Collection (TV)
+      sort_title: Flintstones Collection
+      summary: Yabba-Dabba-Doo!
   Fraggle Rock Collection:
     template:
-      name: Search
-      title: Fraggle
-    summary: Fraggle Rock (also known as Jim Henson's Fraggle Rock or Fraggle Rock with Jim Henson's Muppets) is a children's musical fantasy comedy puppet television series about interconnected societies of Muppet creatures, created by Jim Henson.
+      name: Collection - Shows
+      show: 2957, 104002, 102318, 2844
+      summary: Fraggle Rock (also known as Jim Henson's Fraggle Rock or Fraggle Rock with Jim Henson's Muppets) is a children's musical fantasy comedy puppet television series about interconnected societies of Muppet creatures, created by Jim Henson.
   Free Willy Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 10289
+    template:
+      name: Collection - Hide Show
+      show: 10289
   Garbage Pail Kids Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 3260
+    template:
+      name: Collection - Hide Show
+      show: 3260
   Garfield Collection:
     template:
-      name: Search
-      title: Garfield
-    summary: Garfield is an American comic strip created by Jim Davis. Originally published locally as Jon in 1976, then in nationwide syndication from 1978 as Garfield, it chronicles the life of the title character, Garfield the cat; Jon Arbuckle, his human owner; and Odie, the dog.
+      name: Collection - Shows
+      show: 4606, 18352
+      summary: t's all about me-ow!
   Ghostbusters Collection:
     template:
-      name: Search
-      title: Ghostbusters
-    summary: Who ya gonna call? Ghostbusters!
+      name: Collection - Shows
+      show: 2286, 4793, 21871
+      summary: Who ya gonna call? Ghostbusters!
   Gilligan's Island Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 631
-  Globetrotters Collection:
     template:
-      name: Search
-      title: Globetrotters
+      name: Collection - Hide Show
+      show: 631
   A Goofy Movie Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 2235
+    template:
+      name: Collection - Hide Show
+      show: 2235
   Goosebumps Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 5835
+    template:
+      name: Collection - Hide Show
+      show: 5835
   Guardians of the Galaxy Collection:
     template: { name: Collection Hide }
     tmdb_show: 63181, 70784
