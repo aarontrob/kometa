@@ -49,8 +49,9 @@ templates:
 collections:
   Disney:
     template:
-      name: Studio
-      company: '2, 3, 6125, 3166'
+      name: Studio + Network
+      company: '2, 3, 6125, 3166, 3475, 670'
+      network: '54, 281, 44, 142, 2739'
       list: disney
     show_filtered: true
     filters:

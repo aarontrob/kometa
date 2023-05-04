@@ -113,8 +113,6 @@ collections:
         Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated
         under Marvel Studios, a subsidiary of Walt Disney Studios, a division of
         The Walt Disney Company.
-    plex_search:
-      title: I Am Groot
   Nickelodeon:
     template:
       name: Studio + Network

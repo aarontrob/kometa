@@ -20,7 +20,7 @@ collections:
     template:
       name: Studio + Network
       company: 2, 3, 6125, 3166, 3475, 670
-      network: 54, 281
+      network: 54, 281, 44, 142
       list: disney
     plex_search:
       title:
