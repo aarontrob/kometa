@@ -1,0 +1,735 @@
+templates:
+  Collection:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Alpha:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: alpha
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Release:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: <<collection_mode>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Trakt List Custom Order:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Movie:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Movies:
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Hide Movie:
+    tmdb_movie: <<movie>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Search:
+    plex_search:
+      title: <<title>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+collections:
+  101 Dalmatians Collection:
+    template:
+      name: Collection
+      collection: '124916, 100693, 837007'
+      summary: Crafty Cruella... chasing every spotted puppy in town.
+  3 Ninjas Collection:
+    template:
+      name: Collection
+      collection: 71458
+      summary: Comin' at you!
+  Air Bud Collection:
+    template:
+      name: Collection - Movie
+      collection: '97445, 91657'
+      movie: 9973
+  Aladdin Collection:
+    template:
+      name: Collection
+      collection: '86027, 748401'
+      summary: A diamond in the rough.
+  Alice in Wonderland Collection:
+    template:
+      name: Collection - Movie
+      collection: 261307
+      movie: 12092
+      summary: We Are All Mad Here.
+  Alvin and the Chipmunks Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: alvin-and-the-chipmunks-collection
+      summary: Get your squeak on!
+  Batman Collection:
+    template:
+      name: Search
+      title: 'Batman, Dark Knight'
+    summary: Justice is always Darkest before the Dawn.
+  Beauty and the Beast Collection:
+    template:
+      name: Collection - Movie
+      collection: 153010
+      movie: 321612
+      summary: Tale as old as time.
+  Big Hero 6 Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 177572
+      summary: 'Hello, I am Baymax, your personal healthcare companion.'
+  Bolt Collection:
+    template:
+      name: Collection - Movies
+      movie: '16604, 13053'
+      summary: Fully Awesome. Ridonculous. Let It Begin.
+  The Boss Baby Collection:
+    template:
+      name: Collection - Movie
+      collection: 519457
+      movie: 735364
+      summary: Born leader
+  Brave Collection:
+    template:
+      name: Collection - Movies
+      movie: '62177, 141423'
+      summary: Change your fate.
+  Captain Underpants Collection:
+    template:
+      name: Collection - Movie
+      collection: 732397
+      movie: 768509
+  Care Bears Collection:
+    template:
+      name: Search
+      title: Care Bears
+  Cars Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: cars-collection
+      summary: Our Cars Speak For Themselves.
+  Casper Collection:
+    template:
+      name: Search
+      title: 'Casper, Casper''s'
+      summary: Who says there's no such thing as ghosts?
+  The Cat in the Hat Collection:
+    template:
+      name: Search
+      title: Cat in the Hat
+      sort_title: Cat in the Hat Collection
+      summary: >-
+        The Cat in the Hat is a 1957 children's book written and illustrated by
+        the American author Theodor Geisel, using the pen name Dr. Seuss. The
+        story centers on a tall anthropomorphic cat who wears a red and
+        white-striped hat and a red bow tie.
+  Chip 'n Dale Collection:
+    template:
+      name: Collection - Movies
+      movie: '53478, 53751, 55510'
+      summary: >-
+        Chip and Dale (also spelled Chip 'n' Dale) are a cartoon duo of
+        anthropomorphic chipmunk brothers created in 1943 by The Walt Disney
+        Company.
+    plex_search:
+      title: 'Chip ''n Dale, Chip ''n'' Dale, Chip an'' Dale, Chip ‘N’ Dale, Chip ''N'' Dale'
+  Cinderella Collection:
+    template:
+      name: Collection - Movie
+      collection: 55419
+      movie: 150689
+  Coco Collection:
+    template:
+      name: Collection - Movies
+      movie: '449621, 354912'
+      summary: The celebration of a lifetime
+  Despicable Me & Minions Collection:
+    template:
+      name: Collection - Trakt List
+      list: minions-collection
+      sort_title: Despicable Me Collection 2
+      summary: Being good is SO overrated.
+    tmdb_collection: 86066
+  Diary of a Wimpy Kid Collection:
+    template:
+      name: Collection
+      collection: '86110, 897238'
+  Dr. Dolittle Collection:
+    template:
+      name: Collection - Movie
+      collection: 3169
+      movie: '448119, 16081'
+      name_mapping: Dr Dolittle Collection
+  DuckTales Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 10837
+  Dumbo Collection:
+    template:
+      name: Collection - Movies
+      movie: '11360, 329996'
+      summary: The One...The Only...The FABULOUS...
+  Finding Nemo Collection:
+    template:
+      name: Collection - Movie
+      collection: 137697
+      movie: 427004
+      summary: 'Fish they''re just like us, only flakier.'
+  The Flintstones Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-flintstones-collection
+      sort_title: Flintstones Collection
+      summary: Yabba-Dabba-Doo!
+  Flubber Collection:
+    template:
+      name: Collection - Movie
+      collection: 294468
+      movie: 9574
+      summary: The stuff dreams are made of. What is flubber? Catch it if you can!
+  Frozen Collection:
+    template:
+      name: Collection - Movie
+      collection: 386382
+      movie: '326359, 460793, 741074'
+      summary: >-
+        Frozen features the sisterly love between the fearless optimist Anna,
+        her mysterious sister Elsa and the snowman Olaf.
+  Garbage Pail Kids Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 14443
+  Garfield Collection:
+    template:
+      name: Search
+      title: Garfield
+      summary: It ain't the Cat in the Hat. It's all about me-ow!
+  The Grinch Collection:
+    template:
+      name: Collection - Movies
+      movie: '360920, 8871, 13377, 762951, 52207, 46963'
+      sort_title: Grinch Collection
+      summary: 'You''re a mean one, Mr. Grinch!'
+  Hey Arnold! Collection:
+    template:
+      name: Search
+      title: Hey Arnold
+      summary: A Big Problem Calls For A Big Head
+  Hercules Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 11970
+  Hotel Transylvania Collection:
+    template:
+      name: Collection - Trakt List
+      list: hotel-transylvania-collection
+      summary: Even monsters need a vacation
+  How to Train Your Dragon Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: how-to-train-your-dragon-collection
+      summary: 'Where dragons are friends, not foes.'
+  Hulk Collection:
+    template:
+      name: Search
+      title: Hulk
+      summary: Don't make me angry. You wouldn't like me when I'm angry
+  Ice Age Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: ice-age-collection
+  The Incredibles Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-incredibles-collection
+      sort_title: Incredibles Collection
+      summary: Expect the Incredible
+  Inside Out Collection:
+    template:
+      name: Collection - Movies
+      movie: '355338, 150540'
+      summary: Meet the little voices inside your head.
+  Inspector Gadget Collection:
+    template:
+      name: Collection
+      collection: '237445, 348374'
+      summary: The ultimate crime fighting machine.
+  The Jetsons Collection:
+    template:
+      name: Search
+      title: 'Jetsons, Jetson'
+      sort_title: Jetsons Collection
+      summary: >-
+        The Jetsons is an American animated sitcom produced by Hanna-Barbera
+        Productions. It originally aired in prime time from September 23, 1962
+        to March 17, 1963 on ABC, then later aired in reruns via syndication.
+        New episodes were produced from 1985 to 1987 as part of The Funtastic
+        World of Hanna-Barbera block. It was Hanna-Barbera's Space Age
+        counterpart to The Flintstones.
+  Jonny Quest Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 343977
+  The Jungle Book Collection:
+    template:
+      name: Collection - Movie
+      collection: 97459
+      movie: '278927, 10714'
+      sort_title: Jungle Book Collection
+      summary: >-
+        For the strength of the Pack is the Wolf, and the strength of the Wolf
+        is the Pack.
+  Kung Fu Panda Collection:
+    template:
+      name: Collection - Movie
+      collection: 77816
+      movie: 50393
+      summary: He's not a big fat panda... he's THE big fat panda!
+  Lady and the Tramp Collection:
+    template:
+      name: Collection - Movie
+      collection: 97460
+      movie: 512895
+      summary: >-
+        She's blue ribbon... he's back-alley... and IT'S LOVE AND LAUGHTER...
+        EVER AFTER!
+  The Lion King Collection:
+    template:
+      name: Collection - Movie
+      collection: 94032
+      movie: '420818, 40647'
+      sort_title: Lion King Collection
+      summary: >-
+        The greatest adventure of all is finding our place in the circle of
+        life.
+  The Little Mermaid Collection:
+    template:
+      name: Collection - Movie
+      collection: 33085
+      movie: '447277, 642271'
+      sort_title: Little Mermaid Collection
+  The Little Rascals Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 10897
+      sort_title: Little Rascals Collection
+  Looney Tunes Collection:
+    template:
+      name: Collection - Trakt List
+      list: looney-tunes-collection
+      summary: '“What''s up, doc?"'
+  Luca Collection:
+    template:
+      name: Collection - Movies
+      movie: '508943, 876716'
+      summary: 'Silenzio, Bruno'
+  Madagascar Collection:
+    template:
+      name: Collection - Movie
+      collection: 14740
+      movie: '270946, 161143, 25472, 10258'
+  Mario Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: '9607, 502356'
+      summary: 'It''s a me, Mario!'
+  Mary Poppins Collection:
+    template:
+      name: Collection - Movies
+      movie: '433, 400650, 140823'
+      summary: It's supercalifragilisticexpialidocious!
+  Masters of the Universe Collection:
+    template:
+      name: Collection - Trakt List
+      list: he-man-the-masters-of-the-universe-collection
+    summary: By the Power of Grayskull!
+  Megamind Collection:
+    template:
+      name: Collection - Movies
+      movie: '38055, 57718'
+      summary: His Brain Is Off The Chain
+  Minions Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: minions-collection
+      summary: Uh oh.
+  'Monsters, Inc. Collection':
+    template:
+      name: Collection - Trakt List Custom Order
+      list: monsters-inc-collection
+      summary: We Scare Because We Care
+  Mr. Magoo Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 9438
+      summary: 'Oh Magoo, you''ve done it again!'
+  Mulan Collection:
+    template:
+      name: Collection - Movie
+      collection: 87236
+      movie: 337401
+      summary: >-
+        To save her father from death in the army, a young maiden secretly goes
+        in his place and becomes one of China's greatest heroines in the
+        process.
+  The Muppets Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-muppets-collection
+      sort_title: Muppets Collection
+      summary: >-
+        The Muppets are an ensemble cast of puppet characters known for an
+        absurdist, burlesque, and self-referential style of variety-sketch
+        comedy. Created by Jim Henson in 1955, they are the namesakes of the
+        Disney-owned media franchise that encompasses television, film, music,
+        and other media associated with the characters.
+  Parent Trap Collection:
+    template:
+      name: Collection - Movie
+      collection: 216395
+      movie: 9820
+      summary: >-
+        Two identical twin sisters, separated at birth by their parents'
+        divorce, are reunited years later at a summer camp, where they scheme to
+        bring their parents back together. The girls, one of whom has been
+        living with their mother and the other with their father, switch places
+        after camp and go to work on their plan, the first objective being to
+        scare off a gold-digger pursuing their father.
+  Peanuts Collection:
+    template:
+      name: Collection - Trakt List
+      list: peanuts-collection
+      summary: Never stop dreaming big.
+  Pete's Dragon Collection:
+    template:
+      name: Collection - Movies
+      movie: '294272, 11114'
+      summary: Brazzle Dazzle Brilliance!
+  Peter Pan Collection:
+    template:
+      name: Collection - Movie
+      collection: 55422
+      movie: 420808
+      summary: Never Grow Up
+  The Pink Panther Collection:
+    template:
+      name: Collection - Movies
+      movie: '49854, 311218'
+      sort_title: Pink Panther Collection
+      summary: >-
+        The Pink Panther is a movie series of live action mixed with animation
+        totaling in six official films and three not official films. The main
+        character is a clumsy inspector named Jacques Clouseau who is played by
+        Peter Sellers in the official Pink Panther films. Today The Pink Panther
+        is the famous trademark of a huge franchise.
+  Pinocchio Collection:
+    template:
+      name: Collection - Movies
+      movie: '532639, 10895'
+      summary: 'When you wish upon a star, your dreams come true.'
+  Pokémon Collection:
+    template:
+      name: Search
+      title: Pokémon
+      summary: Gotta Catch ’Em All!
+  Popeye Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 11335
+      summary: Ahoy!
+  Power Rangers Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: power-rangers-collection
+      summary: GO GO POWER RANGERS!
+  Ratatouille Collection:
+    template:
+      name: Collection - Movies
+      movie: '13061, 2062'
+      summary: A comedy with great taste.
+  Recess Collection:
+    template:
+      name: Collection - Movies
+      movie: '19405, 77518, 84331, 405894'
+      summary: Don't Mess With Recess
+  Rocko's Modern Life Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 439059
+  Rocky and Bullwinkle Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 17711
+  Roger Rabbit Collection:
+    template:
+      name: Collection - Movies
+      movie: '83203, 83200, 856, 83202'
+      summary: >-
+        A laugh can be a very powerful thing. Why, sometimes in life, it's the
+        only weapon we have.
+  Rugrats Collection:
+    template:
+      name: Search
+      title: Rugrats
+      summary: Nap Time is Over
+  Scooby-Doo! Collection:
+    template:
+      name: Collection - Trakt List
+      list: scooby-doo-collection
+      summary: Zoinks!
+  The Secret Life of Pets Collection:
+    template:
+      name: Collection - Movie
+      collection: 427084
+      movie: 624993
+      sort_title: Secret Life of Pets Collection
+      summary: Ever wonder what your pets do when you're not home?
+  The Shaggy Dog Collection:
+    template:
+      name: Collection - Movie
+      collection: 294519
+      movie: 10067
+      sort_title: Shaggy Dog Collection
+      summary: >-
+        Through an ancient spell, a boy changes into a sheepdog and back again.
+        It seems to happen at inopportune times and the spell can only be broken
+        by an act of bravery.
+  Shrek Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: shrek-collection
+      summary: >-
+        The fairytale story of a large, strong, solitude-loving, intimidating
+        ogre named Shrek, and his friends.
+  Sleeping Beauty Collection:
+    template:
+      name: Collection - Movie
+      collection: 531331
+      movie: 10882
+      summary: Once Upon a Dream
+  The Smurfs Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-smurfs-collection
+      sort_title: Smurfs Collection
+      summary: Smurf happens
+  Sonic the Hedgehog Collection:
+    template:
+      name: Search
+      title: Sonic
+    summary: >-
+      Sonic the Hedgehog is a Japanese video game series and media franchise
+      created and owned by Sega. The franchise follows Sonic, an anthropomorphic
+      blue hedgehog who battles the evil Doctor Eggman, a mad scientist.
+  Soul Collection:
+    template:
+      name: Collection - Movies
+      movie: '811367, 508442'
+      summary: Is all this living really worth dying for?
+  Speed Racer Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 7459
+  SpongeBob Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: spongebob-collection
+      summary: >-
+        A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook
+        at Krusty Krab, lives in the Pacific Ocean. He embarks on various
+        adventures with his friends at Bikini Bottom.
+  Star Wars:
+    template:
+      name: Collection - Trakt List
+      list: star-wars-collection
+      summary: 'A long time ago in a galaxy far, far away....'
+  Steven Universe Collection:
+    template:
+      name: Collection - Movies
+      movie: '537061, 755867'
+  Superman Collection:
+    template:
+      name: Search
+      title: 'Superman, Man of Steel'
+      summary: 'Truth, Justice and a Better Tomorrow'
+  Tangled Collection:
+    template:
+      name: Collection - Movies
+      movie: '38757, 82881, 438747'
+      summary: They're taking adventure to new lengths.
+  Tarzan Collection:
+    template:
+      name: Collection
+      collection: 106768
+      summary: Two Worlds. One Family.
+  The Lego Movie Collection:
+    template:
+      name: Collection - Movie
+      collection: 325470
+      movie: '274862, 324849'
+      summary: They come in pieces.
+  Teenage Mutant Ninja Turtles Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: teenage-mutant-ninja-turtles-collection
+      summary: COWABUNGA!
+  Teen Titans Collection:
+    template:
+      name: Search
+      title: Teen Titans
+  The Three Caballeros Collection:
+    template:
+      name: Collection
+      collection: 271668
+      summary: A CARTOON FIESTA of FUN and FANTASY!
+  Tom and Jerry Collection:
+    template:
+      name: Collection - Trakt List
+      list: tom-and-jerry-collection
+      summary: >-
+        Tom and Jerry is an American animated media franchise and series of
+        comedy short films created in 1940 by William Hanna and Joseph Barbera.
+        Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer,
+        the series centers on the rivalry between the titular characters of a
+        cat named Tom and a mouse named Jerry. Many shorts also feature several
+        recurring characters.
+  Toy Story Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: toy-story-collection
+      summary: To Infinity and Beyond!
+  Transformers Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 1857
+      summary: >-
+        The Transformers series follows the continuing battle between the
+        Autobots and the Decepticons and ultimately, the triumph of good over
+        evil.
+  Trolls Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: trolls-collection
+      summary: Find your happy place
+  Up Collection:
+    template:
+      name: Collection - Movies
+      movie: '72962, 14160, 24589'
+      summary: The greatest adventure is just getting back home.
+  WALL·E Collection:
+    template:
+      name: Collection - Movies
+      movie: '13413, 10681'
+      summary: The newest sensation in waste allocation!
+  Willy Wonka Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 455411
+      summary: 'We are the music makers, and we are the dreamers of dreams.'
+  Winnie the Pooh Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: winnie-the-pooh-collection
+      summary: Hip Hip Poohray!
+    sync_to_trakt_list: null
+  The Wizard of Oz Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-wizard-of-oz-collection
+      summary: 'We''re off to see the Wizard, the wonderful wizard of Oz'
+  Yogi Bear Collection:
+    template:
+      name: Search
+      title: Yogi
+      summary: >-
+        Yogi Bear is a anthropomorphic animal character who has appeared in
+        numerous comic books, animated television shows and films. He made his
+        debut in 1958 as a supporting character in The Huckleberry Hound Show.

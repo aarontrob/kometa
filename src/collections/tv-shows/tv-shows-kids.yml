@@ -277,128 +277,150 @@ collections:
   Inspector Gadget Collection:
     template:
       name: Collection - Shows
-      show: 4035, 62508
+      show: 4035, 62508, 11618, 16173
       summary: The ultimate crime fighting machine.
   Iron Man Collection:
     template:
       name: Search
       title: Iron Man
-    summary: Heroes aren't born. They're built. Get ready for a different breed of heavy metal hero.
+      summary: Heroes aren't born. They're built. Get ready for a different breed of heavy metal hero.
   James Bond Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 42245
+    template:
+      name: Collection - Hide Show
+      show: 42245
   The Jetsons Collection:
-    sort_title: Jetsons Collection
-    template: { name: Collection Hide }
-    tmdb_show: 2362
-    summary: The Jetsons is an American animated sitcom produced by Hanna-Barbera Productions. It originally aired in prime time from September 23, 1962 to March 17, 1963 on ABC, then later aired in reruns via syndication. New episodes were produced from 1985 to 1987 as part of The Funtastic World of Hanna-Barbera block. It was Hanna-Barbera's Space Age counterpart to The Flintstones.
+    template:
+      name: Collection - Hide Show
+      show: 2362
+      sort_title: Jetsons Collection
+      summary: The Jetsons is an American animated sitcom produced by Hanna-Barbera Productions. It originally aired in prime time from September 23, 1962 to March 17, 1963 on ABC, then later aired in reruns via syndication. New episodes were produced from 1985 to 1987 as part of The Funtastic World of Hanna-Barbera block. It was Hanna-Barbera's Space Age counterpart to The Flintstones.
   Jonny Quest Collection:
     template:
-      name: Search
-      title: Jonny Quest
+      name: Collection - Shows
+      show: 962, 1168, 14675
+      summary: Adventures in the unknown.
   Josie and the Pussycats Collection:
-    name_mapping: Josie and the Pussycats Collection (TV)
-    tmdb_show: 4489, 24211
-    summary: Josie and the Pussycats (initially published as She's Josie and Josie) is a teen-humor comic book about a fictional rock band, created by Dan DeCarlo and published by Archie Comics. It was published from 1963 until 1982; since then, one-shot issues have appeared on an irregular basis.
+    template:
+      name: Collection - Shows
+      show: 4489, 24211
+      name_mapping: Josie and the Pussycats Collection (TV)
+      summary: Josie and the Pussycats (initially published as She's Josie and Josie) is a teen-humor comic book about a fictional rock band, created by Dan DeCarlo and published by Archie Comics. It was published from 1963 until 1982; since then, one-shot issues have appeared on an irregular basis.
   Jumanji Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 2118
+    template:
+      name: Collection - Hide Show
+      show: 2118
   The Jungle Book Collection:
-    sort_title: Jungle Book Collection
-    template: { name: Collection Hide }
-    tmdb_show: 10103
+    template:
+      name: Collection - Hide Show
+      show: 10103
+      sort_title: Jungle Book Collection
   Jurassic Park Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 93741
+    template:
+      name: Collection - Hide Show
+      show: 93741
   Justice League Collection:
     template:
       name: Search
       title: Justice League
+      summary: Justice for all.
   The Karate Kid Collection:
-    sort_title: Karate Kid Collection
-    template: { name: Collection Hide }
-    tmdb_show: 10200
-    plex_search:
-      title: Karate Kid
+    template:
+      name: Collection - Hide Show
+      show: 10200
+      sort_title: Karate Kid Collection
   Killer Tomatoes! Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 11044
+    template:
+      name: Collection - Hide Show
+      show: 11044
   King Kong Collection:
-    plex_search:
-      title: King Kong, King of the Apes
-    summary: The eighth wonder of the world.
+    template:
+      name: Collection - Shows
+      show: 66248, 12620
+      summary: The eighth wonder of the world.
   Kung Fu Panda Collection:
-    tmdb_show: 82747, 39898, 129959
-    summary: The Kung Fu Panda series are computer-animated action comedy films set in a version of old China populated by humanoid talking animals, the plot revolves around a bumbling humanoid panda named Po who aspires to be a kung fu master.
+    template:
+      name: Collection - Shows
+      show: 82747, 39898, 129959
+      summary: The Kung Fu Panda series are computer-animated action comedy films set in a version of old China populated by humanoid talking animals, the plot revolves around a bumbling humanoid panda named Po who aspires to be a kung fu master.
   Land of the Lost Collection:
-    plex_search:
-      title: Land of the Lost
-    summary: Experience a New Dimension in Adventure
+    template:
+      name: Collection - Shows
+      show: 11645, 2177
+      summary: Experience a New Dimension in Adventure
   Laverne & Shirley Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 31457
+    template:
+      name: Collection - Shows
+      show: 31457, 31407
   The Lion King Collection:
-    tmdb_show: 64752, 4429
-    sort_title: Lion King Collection
-    summary: The film franchise mainly revolves about a pride of lions who oversee a large swath of African savanna as their «kingdom» known as the Pride Lands, with their leader Simba watching over it as «king». In the original film, Simba was tricked into thinking he killed his father, a guilt ridden lion cub flees into exile and abandons his identity as the future King.
+    template:
+      name: Collection - Shows
+      show: 64752, 4429
+      sort_title: Lion King Collection
+      summary: The greatest adventure of all is finding our place in the circle of life.
   Lilo & Stitch Collection:
-    template: { name: Collection Hide, show: 2355 }
+    template:
+      name: Collection - Hide Show
+      show: 2355
   The Little Mermaid Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 2675
-    sort_title: Little Mermaid Collection
+    template:
+      name: Collection - Hide Show
+      show: 2675
+      sort_title: Little Mermaid Collection
   The Little Rascals Collection:
-    sort_title: Little Rascals Collection
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide
-    tvdb_show: 374536
+    template:
+      name: Collection - Hide Show
+      show: 374536
+      sort_title: Little Rascals Collection
   Little Shop of Horrors Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 10562
+    template:
+      name: Collection - Hide Show
+      show: 10562
   Looney Tunes Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/looney-tunes
-    summary: >-
-      Looney Tunes is an American animated comedy short film series produced by Warner Bros. from 1930 to 1969 along with its sister series, Merrie Melodies, during the golden age of American animation. They introduced Bugs Bunny, Daffy Duck, Porky Pig, Elmer Fudd, Wile E. Coyote, Road Runner, Sylvester, Tweety, Granny, Yosemite Sam, the Tasmanian Devil, Marvin the Martian, Pepé Le Pew, Foghorn Leghorn, Speedy Gonzales and many other cartoon characters. After Bugs Bunny became the breakout recurring star of Merrie Melodies and Looney Tunes went to color in the early 1940s (Merrie Melodies having already been in color since 1934), the two series gradually lost their distinctions, and shorts were assigned to each series more randomly.
+    template:
+      name: Collection - Trakt List
+      list: looney-tunes-collection
+      summary: “What's up, doc?"
   The Magic School Bus Collection:
-    sort_title: Magic School Bus Collection
     template:
-      name: Search
-      title: Magic School Bus
+      name: Collection - Shows
+      show: 7248, 73472
+      sort_title: Magic School Bus Collection
   Mario Collection:
-    name_mapping: Mario Collection (TV Kids)
     template:
-      name: Search
-      title: Mario
-    summary: Oh yeah! Mario time!
+      name: Collection - Shows
+      show: 14396, 26732, 14613
+      name_mapping: Mario Collection (TV Kids)
+      summary: "It's a me, Mario!"
   The Mask Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 9957
-    sort_title: Mask Collection
+    template:
+      name: Collection - Hide Show
+      show: 9957
+      sort_title: Mask Collection
   Masters of the Universe Collection:
     template:
       name: Search
       title: He-Man, She-Ra, Masters of the Universe
-    tmdb_show: 96658, 14755, 79732
-    summary: By the Power of Grayskull!
+      summary: By the Power of Grayskull!
   Men In Black Collection:
     template:
-      name: Search
-      title: Men In Black
-    collection_mode: hide
-    summary: Protecting the earth from the scum of the universe
+      name: Collection - Hide Show
+      show: 1153
+      summary: Protecting the earth from the scum of the universe
   The Mighty Ducks Collection:
-    tmdb_show: 114621, 1334
-    summary: They Can't Skate. They Can't Win. They Can't Be Serious.
+    template:
+      name: Collection - Shows
+      show: 114621, 1334
+      summary: They Can't Skate. They Can't Win. They Can't Be Serious.
   Monsters, Inc. Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 90461
+    template:
+      name: Collection - Hide Show
+      show: 90461
   Mork & Mindy Collection:
     template:
       name: Search
       title: Mork & Mindy
-    collection_mode: hide
-    summary: Na-No Na-No!
+      collection_mode: hide
+      summary: Na-No Na-No!
   Mr. Magoo Collection:
     template:
       name: Search
