@@ -334,7 +334,7 @@ collections:
       name: Collection - Trakt List Custom Order
       list: the-muppets-collection
       sort_title: Muppets Collection
-      summary: The Muppets are an ensemble cast of puppet characters known for an absurdist, burlesque, and self-referential style of variety-sketch comedy. Created by Jim Henson in 1955, they are the namesakes of the Disney-owned media franchise that encompasses television, film, music, and other media associated with the characters.
+      summary: The World's Most Lovable Puppets
   Parent Trap Collection:
     template:
       name: Collection - Movie

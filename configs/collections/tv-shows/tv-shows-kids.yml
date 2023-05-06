@@ -569,80 +569,49 @@ collections:
     template:
       name: Search
       title: Magoo
-    summary: 'Oh Magoo, you''ve done it again!'
+      summary: 'Oh Magoo, you''ve done it again!'
   The Mummy Trilogy:
     template:
-      name: Collection Hide
-    tmdb_show: 5595
-    sort_title: Mummy Trilogy
+      name: Collection - Hide Show
+      show: 5595
+      sort_title: Mummy Trilogy
   The Muppets Collection:
     template:
-      name: Search
-      title: 'Muppet, Muppets'
-    sort_title: Muppets Collection
-    summary: >-
-      The Muppets are an ensemble cast of puppet characters known for an
-      absurdist, burlesque, and self-referential style of variety-sketch comedy.
-      Created by Jim Henson in 1955, they are the namesakes of the Disney-owned
-      media franchise that encompasses television, film, music, and other media
-      associated with the characters.
-    label: Kids
+      name: Collection - Trakt List Custom Order
+      list: the-muppets-collection
+      sort_title: Muppets Collection
+      summary: The World's Most Lovable Puppets
   The Neverending Story Collection:
-    tmdb_show: '10986, 1479'
-    summary: >-
-      A boy who needs a friend finds a world that needs a hero in a land beyond
-      imagination!
+    template:
+      name: Collection - Shows
+      show: '10986, 1479'
+      summary: >-
+        A boy who needs a friend finds a world that needs a hero in a land
+        beyond imagination!
   Pac-Man Collection:
     template:
-      name: Search
-      title: Pac-Man
+      name: Collection - Shows
+      show: '12307, 44593'
+      summary: The Original Dot-Eating Adventure
   Peanuts Collection:
-    trakt_list: 'https://trakt.tv/users/goape/lists/peanuts-collection'
-    summary: >-
-      Peanuts is a syndicated daily and Sunday American comic strip written and
-      illustrated by Charles M. Schulz that ran from October 2, 1950, to
-      February 13, 2000, and continuing in reruns afterward. Peanuts is among
-      the most popular and influential in the history of comic strips, with
-      17,897 strips published in all, making it "arguably the longest story ever
-      told by one human being". By the time of Schulz's death in 2000, Peanuts
-      ran in over 2,600 newspapers, with a readership of around 355 million in
-      75 countries, and was translated into 21 languages. It helped to cement
-      the four-panel gag strip as the standard in the United States, and
-      together with its merchandise earned Schulz more than $1 billion.
-
-      Peanuts focuses entirely on a social circle of young children, where
-      adults exist but are never seen and rarely heard. The main character,
-      Charlie Brown, is meek, nervous, and lacks self-confidence. He is unable
-      to fly a kite, win a baseball game, or kick a football held by his
-      irascible friend Lucy, who always pulls it away at the last instant.
-
-      Peanuts is one of the literate strips with philosophical, psychological,
-      and sociological overtones that flourished in the 1950s. Peanuts's humor
-      is psychologically complex and driven by the characters' interactions and
-      relationships.
+    template:
+      name: Collection - Trakt List
+      list: peanuts-collection
+      summary: Never stop dreaming big.
   Pee-wee's Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 4612
+      name: Collection - Hide Show
+      show: 4612
   Peter Pan Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 34891
+      name: Collection - Hide Show
+      show: 34891
   The Pink Panther Collection:
     template:
-      name: Search
-      title: 'Pink Panther, Inspector'
-    tmdb_show: 72292
-    sort_title: Pink Panther Collection
-    summary: >-
-      The Pink Panther is an American media franchise primarily focusing on a
-      series of comedy-mystery films featuring an inept French police detective,
-      Inspector Jacques Clouseau. The franchise began with the release of the
-      classic Pink Panther film in 1963. The role of Clouseau was originated by,
-      and is most closely associated with, Peter Sellers. Most of the films were
-      written and directed by Blake Edwards, with theme music composed by Henry
-      Mancini. Elements and characters inspired by the films were adapted into
-      other media, including books, comic books and animated series.
+      name: Collection - Shows
+      show: '209075, 14693, 5559, 114772, 12479, 224679, 219748'
+      sort_title: Pink Panther Collection
+      summary: 'Clumsy Clouseau, Brilliant Case'
   Planet of the Apes Collection:
     template:
       name: Search

@@ -710,12 +710,7 @@ collections:
       collection: '937, 130440'
       movie: 49854
       sort_title: Pink Panther Collection
-      summary: >-
-        The Pink Panther is a movie series of live action mixed with animation
-        totaling in six official films and three not official films. The main
-        character is a clumsy inspector named Jacques Clouseau who is played by
-        Peter Sellers in the official Pink Panther films. Today The Pink Panther
-        is the famous trademark of a huge franchise.
+      summary: 'Clumsy Clouseau, Brilliant Case'
     plex_search:
       title: Pink Panther
   Planet of the Apes Collection:
