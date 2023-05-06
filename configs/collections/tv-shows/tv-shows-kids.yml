@@ -608,8 +608,8 @@ collections:
       show: 34891
   The Pink Panther Collection:
     template:
-      name: Collection - Shows
-      show: '209075, 14693, 5559, 114772, 12479, 224679, 219748'
+      name: Search
+      title: 'Pink Panther, The Inspector'
       sort_title: Pink Panther Collection
       summary: 'Clumsy Clouseau, Brilliant Case'
   Planet of the Apes Collection:
