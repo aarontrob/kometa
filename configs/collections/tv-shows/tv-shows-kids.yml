@@ -89,8 +89,10 @@ templates:
       - name_mapping
       - sort_title
       - summary
+      - tvdb_show
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
+    tvdb_show: <<tvdb_show>>
     summary: <<summary>>
   Collection - Hide Show:
     tmdb_show: <<show>>
@@ -608,8 +610,9 @@ collections:
       show: 34891
   The Pink Panther Collection:
     template:
-      name: Search
-      title: 'Pink Panther, The Inspector'
+      name: Collection - Shows
+      show: '14693, 5559, 114772, 12479'
+      tvdb_show: '82431, 71554, 368929'
       sort_title: Pink Panther Collection
       summary: 'Clumsy Clouseau, Brilliant Case'
   Planet of the Apes Collection:

@@ -22,8 +22,10 @@ Collection - Shows:
     - name_mapping
     - sort_title
     - summary
+    - tvdb_show
   name_mapping: <<name_mapping>>
   sort_title: <<sort_title>>
+  tvdb_show: <<tvdb_show>>
   summary: <<summary>>
 Collection - Hide Show:
   tmdb_show: <<show>>
