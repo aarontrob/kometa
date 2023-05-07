@@ -552,10 +552,12 @@ collections:
       name: Collection - Trakt List
       list: scooby-doo-collection
       summary: Zoinks!
+    plex_search: Scooby-Doo
   Shazam! Collection:
     template:
-      name: Collection - Hide Show
-      show: 11093
+      name: Search
+      title: Shazam
+      collection_mode: hide
       name_mapping: Shazam Collection
   Sherlock Holmes Collection:
     template:
