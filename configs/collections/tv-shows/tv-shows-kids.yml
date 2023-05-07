@@ -709,7 +709,8 @@ collections:
       name: Collection - Trakt List
       list: scooby-doo-collection
       summary: Zoinks!
-    plex_search: Scooby-Doo
+    plex_search:
+      title: Scooby-Doo
   Shazam! Collection:
     template:
       name: Search
