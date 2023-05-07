@@ -451,7 +451,7 @@ collections:
     template:
       name: Search
       title: Sonic
-    summary: Roses are red. Sonic is blue. Earth needs a hero. A hedgehog will do!
+      summary: Roses are red. Sonic is blue. Earth needs a hero. A hedgehog will do!
   Soul Collection:
     template:
       name: Collection - Movies
