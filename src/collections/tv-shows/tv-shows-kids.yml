@@ -335,7 +335,8 @@ collections:
   King Kong Collection:
     template:
       name: Collection - Shows
-      show: 66248, 12620
+      show: 66248
+      tvdb_show: 77794
       summary: The eighth wonder of the world.
   Kung Fu Panda Collection:
     template:
@@ -349,8 +350,8 @@ collections:
       summary: Experience a New Dimension in Adventure
   Laverne & Shirley Collection:
     template:
-      name: Collection - Shows
-      show: 31457, 31407
+      name: Search
+      title: Laverne & Shirley
   The Lion King Collection:
     template:
       name: Collection - Shows
@@ -597,7 +598,7 @@ collections:
   Star Wars:
     template:
       name: Collection - Trakt List
-      list: star-wars
+      list: star-wars-collection
       summary: May the Force Be with You
   Steven Universe Collection:
     template:
