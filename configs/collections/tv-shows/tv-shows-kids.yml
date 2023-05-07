@@ -547,8 +547,8 @@ collections:
       sort_title: Mask Collection
   Masters of the Universe Collection:
     template:
-      name: Search
-      title: 'He-Man, She-Ra, Masters of the Universe'
+      name: Collection - Trakt List
+      list: masters-of-the-universe-collection
       summary: By the Power of Grayskull!
   Men In Black Collection:
     template:
