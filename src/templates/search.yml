@@ -9,6 +9,8 @@ Search:
     - name_mapping
     - sort_title
     - summary
+    - show
   name_mapping: <<name_mapping>>
   sort_title: <<sort_title>>
   summary: <<summary>>
+  tmdb_show: <<show>>

@@ -58,7 +58,7 @@ collections:
       show: 73919
   Aquaman Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 10724, 936 #Super Friends
       summary: Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth’s surface, including all the creatures contained within.
   Archie Collection:
@@ -368,8 +368,9 @@ collections:
       sort_title: Little Mermaid Collection
   The Little Rascals Collection:
     template:
-      name: Collection - Hide Show
-      show: 374536
+      name: Search
+      title: Little Rascals
+      collection_mode: hide
       sort_title: Little Rascals Collection
   Little Shop of Horrors Collection:
     template:
@@ -469,249 +470,243 @@ collections:
       summary: Clumsy Clouseau, Brilliant Case
   Planet of the Apes Collection:
     template:
-      name: Search
-      title: Planet of the Apes
-    collection_mode: hide
-    summary: Somewhere in the Universe, there must be something better than man!
+      name: Collection - Hide Show
+      show: 12443
+      summary: Somewhere in the Universe, there must be something better than man!
   Pokémon Collection:
     template:
       name: Search
       title: Pokémon
-    summary: >-
-      Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures. The franchise was created by Satoshi Tajiri in 1996, and is centered on fictional creatures called "Pokémon". In Pokémon, humans, known as Pokémon Trainers, catch and train Pokémon to battle other Pokémon for sport. All media works within the franchise are set in the Pokémon universe. The English slogan for the franchise is "Gotta Catch ‘Em All!". There are currently 900 Pokémon species.
+      summary: Gotta Catch ’Em All!
   Police Academy Collection:
     template:
-      name: Search
-      title: Police Academy
-    collection_mode: hide
-    summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
+      name: Collection - Hide Show
+      show: 5645
+      summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
   Popeye Collection:
     template:
       name: Search
       title: Popeye
-    summary: Ahoy!
+      summary: Ahoy!
   Power Rangers Collection:
     template:
-      name: Search
-      title: Power Rangers
-    summary: GO GO POWER RANGERS!
-    label: Kids
+      name: Collection - Hide Show
+      show: 2328
+      summary: GO GO POWER RANGERS!
   The Powerpuff Girls Collection:
-    sort_title: Powerpuff Girls Collection
     template:
-      name: Search
-      title: Powerpuff
-    summary: Sugar, spice and everything nice...these were the ingredients to create the perfect... crime-fighting little girls? Saving the world before bedtime!
+      name: Collection - Shows
+      show: 607, 66149
+      sort_title: Powerpuff Girls Collection
+      summary: Sugar, spice and everything nice...these were the ingredients to create the perfect... crime-fighting little girls? Saving the world before bedtime!
   Puss in Boots Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 61886
   Rambo Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 2762
-    plex_search:
-      title: Rambo
   Recess Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 1546
   Richie Rich Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 1071
     plex_search:
       title: Richie Rich
   RoboCop Collection:
     template:
-      name: Search
-      title: RoboCop
-    summary: The future of law enforcement. Part man. Part machine.
+      name: Collection - Shows
+      show: 3281, 3411
+      summary: The future of law enforcement. Part man. Part machine.
   Rocko's Modern Life Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 657
   Rocky and Bullwinkle Collection:
     template:
-      name: Search
+      name: Collection - Shows
+      show: 79371, 1025
       title: Rocky and Bullwinkle
+      summary: For anyone who's been told they couldn't do it, shouldn't try it or wouldn't make it, this bull's for you.
   Rugrats Collection:
     template:
-      name: Search
-      title: Rugrats
-    tmdb_show: 130
-    summary: Rugrats is an American children's animated television series created by Arlene Klasky, Gábor Csupó, and Paul Germain for Nickelodeon. The show focuses on a group of toddlers most prominently—Tommy, Chuckie, twins Phil and Lil, and Angelica—and their day-to-day lives, usually involving life experiences that become much greater adventures in the imaginations of the main characters.
+      name: Collection - Shows
+      show: 130, 3022, 124920
+      summary: Nap Time is Over
   Sabrina the Teenage Witch Collection:
     template:
-      name: Search
-      title: Sabrina
-    summary: This girl is making her own magic.
+      name: Collection - Shows
+      show: 733, 4900, 14599, 46432, 25641
+      summary: This girl is making her own magic.
   Sailor Moon Collection:
     template:
       name: Search
       title: Sailor Moon
   Scooby-Doo! Collection:
     template:
-      name: Search
-      title: Scooby
-    tmdb_show: 1071
-    summary: And I would have gotten away with it, too, if it weren't for you meddling kids!
+      name: Collection - Trakt List
+      list: scooby-doo-collection
+      summary: Zoinks!
   Shazam! Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 11093
-    plex_search:
-      title: Shazam
-    name_mapping: Shazam Collection
+      name_mapping: Shazam Collection
   Sherlock Holmes Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 10684
-    plex_search:
-      title: Sherlock Holmes
   The Smurfs Collection:
-    plex_search:
-      title: Smurfs
-    sort_title: Smurfs Collection
-    summary: Smurf happens
+    template:
+      name: Collection - Shows
+      show: 5687, 123591
+      summary: Smurf happens
   Sonic The Hedgehog Collection:
     template:
       name: Search
       title: Sonic
-    summary: Sonic the Hedgehog is a Japanese video game series and media franchise created and owned by Sega. The franchise follows Sonic, an anthropomorphic blue hedgehog who battles the evil Doctor Eggman, a mad scientist.
-    name_mapping: Sonic The Hedgehog Collection (TV)
+      name_mapping: Sonic The Hedgehog Collection (TV)
+      summary: Roses are red. Sonic is blue. Earth needs a hero. A hedgehog will do!
   Space Ghost Collection:
     template:
-      name: Search
-      title: Space Ghost
+      name: Collection - Shows
+      show: 3303, 2798
   Speed Racer Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 30986
+    template:
+      name: Collection - Hide Show
+      show: 30986
   Spider-Man Collection:
     template:
       name: Search
       title: Spider-Man, Spider-Woman
-    tmdb_show: 4784
-    summary: Your Friendly Neighborhood Spider-Man
+      summary: Your Friendly Neighborhood Spider-Man
   SpongeBob Collection:
-    tmdb_show: 126824, 387, 99588
-    plex_search:
-      title: SpongeBob
-    summary: A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook at Krusty Krab, lives in the Pacific Ocean. He embarks on various adventures with his friends at Bikini Bottom.
+    template:
+      name: Collection - Shows
+      show: 126824, 387, 99588
+      summary: A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook at Krusty Krab, lives in the Pacific Ocean. He embarks on various adventures with his friends at Bikini Bottom.
   Star Trek:
     template:
-      name: Search
-      title: Star Trek
-    summary: Live long, and prosper
+      name: Collection - Shows
+      show: 106393, 1992
+      summary: Live long, and prosper
   Star Wars:
     template:
-      name: Collection List
-      list: https://trakt.tv/users/goape/lists/star-wars
-    summary: May the Force Be with You
+      name: Collection - Trakt List
+      list: star-wars
+      summary: May the Force Be with You
   Steven Universe Collection:
     template:
-      name: Search
-      title: Steven Universe
+      name: Collection - Shows
+      show: 61175, 94280
   Street Fighter Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 13655
-    plex_search:
-      title: Street Fighter
   Superman Collection:
-    plex_search:
+    template:
+      name: Search
       title: Superman, Man of Steel, Super Friends, Superfriends
-    tmdb_show: 4028
-    summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
+      show: 4028
+      summary: Truth, Justice and a Better Tomorrow
   Tales from the Crypt Collection:
-    plex_search:
-      title: Tales from the Crypt
-    name_mapping: Tales from the Crypt Collection (TV Kids)
-    collection_mode: hide
+    template:
+      name: Collection - Hide Show
+      show: 13455
+      name_mapping: Tales from the Crypt Collection (TV Kids)
   Tangled Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 70047
+      name: Collection - Hide Show
+      show: 70047
   Teen Titans Collection:
     template:
       name: Search
       title: Teen Titans
   Teen Wolf Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 10823
+      name: Collection - Hide Show
+      show: 10823
   Teenage Mutant Ninja Turtles Collection:
     plex_search:
       title: Teenage Mutant
-    summary: The Teenage Mutant Ninja Turtles (often shortened to the TMNT or Ninja Turtles) are a fictional superhero quartet of teenage anthropomorphic turtle ninja that appear in a self-titled franchise consisting of comic books, animated children's cartoons, feature films, and other tie-in products.
+      summary: COWABUNGA!
   Toy Story Collection:
     template:
-      name: Collection Hide
-    tmdb_show: 3744
+      name: Collection - Hide Show
+      show: 3744
   ThunderCats Collection:
     template:
       name: Search
       title: ThunderCats
-    summary: ThunderCats is an American media franchise, featuring a fictional group of cat-like humanoid aliens. The characters were created by Tobin "Ted" Wolf and originally featured in an animated television series named ThunderCats, running from 1985 to 1989, which was animated by Japanese studio Pacific Animation Corporation, and co-produced by Rankin-Bass Animated Entertainment.
+      summary: The ultimate battle between good and evil.
   The Three Caballeros Collection:
-    template: { name: Collection Hide }
-    tmdb_show: 80402
+    template:
+      name: Collection - Hide Show
+      show: 80402
   The Three Musketeers Collection:
-    sort_title: Three Musketeers Collection
-    tmdb_show: 31988
-    collection_mode: hide
-    summary: All for one, and one for all!
+    template:
+      name: Collection - Hide Show
+      show: 31988
+      sort_title: Three Musketeers Collection
+      summary: All for one, and one for all!
   The Three Stooges Collection:
     template:
-      name: Collection Hide
+      name: Collection - Shows
       show: 13592, 10629
-    sort_title: Three Stooges Collection
+      sort_title: Three Stooges Collection
   The Tick Collection:
     template:
-      name: Collection
-      show: 14651, 67487, 14540
+      name: Collection - Hide Show
+      show: 14540
   Tom and Jerry Collection:
     template:
       name: Search
       title: Tom and Jerry, Tom & Jerry
-    summary: Tom and Jerry is an American animated media franchise and series of comedy short films created in 1940 by William Hanna and Joseph Barbera. Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer, the series centers on the rivalry between the titular characters of a cat named Tom and a mouse named Jerry. Many shorts also feature several recurring characters.
+      summary: The best of enemies, the worst of friends.
   Transformers Collection:
     template:
       name: Search
       title: Transformers
-    summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil.
+      summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil.
   Trolls Collection:
-    tmdb_show: 76205, 113378
+    template:
+      name: Collection - Shows
+      show: 76205, 113378
+      summary: Find your happy place
   TRON Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 34356
-    plex_search:
-      title: TRON
   Where's Waldo? Collection:
-    plex_search:
-      title: Waldo
-    summary: ???
+    template:
+      name: Collection - Shows
+      show: 105348, 4112
+      summary: ???
   Winnie the Pooh Collection:
     template:
-      name: Search
-      title: Pooh, Tigger, Piglet
-    collection_mode: hide
-    summary: Winnie the Pooh, the fictional teddy bear created by English author A. A. Milne, is one of the most popular characters adapted for film and television by The Walt Disney Company.
+      name: Collection - Shows
+      show: 2005, 56933, 3527, 55358, 973, 2836
+      summary: Hip Hip Poohray!
   The Wolverine Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 6549
-    sort_title: Wolverine Collection
+      sort_title: Wolverine Collection
   X-Men Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/x-men
-    summary: Join the Evolution.
+    template:
+      name: Collection - Trakt List
+      list: x-men-collection
+      summary: Join the Evolution.
   Yogi Bear Collection:
     template:
       name: Search
       title: Yogi
-    summary: Yogi Bear is a anthropomorphic animal character who has appeared in numerous comic books, animated television shows and films. He made his debut in 1958 as a supporting character in The Huckleberry Hound Show.
+      summary: Please do not feed the bears.
   Zorro Collection:
     template:
-      name: Collection Hide
+      name: Collection - Hide Show
       show: 14677

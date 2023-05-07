@@ -115,9 +115,11 @@ templates:
       - name_mapping
       - sort_title
       - summary
+      - show
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
+    tmdb_show: <<show>>
 collections:
   101 Dalmatians Collection:
     template:
@@ -600,10 +602,7 @@ collections:
     template:
       name: Search
       title: Sonic
-    summary: >-
-      Sonic the Hedgehog is a Japanese video game series and media franchise
-      created and owned by Sega. The franchise follows Sonic, an anthropomorphic
-      blue hedgehog who battles the evil Doctor Eggman, a mad scientist.
+    summary: Roses are red. Sonic is blue. Earth needs a hero. A hedgehog will do!
   Soul Collection:
     template:
       name: Collection - Movies
@@ -669,13 +668,7 @@ collections:
     template:
       name: Collection - Trakt List
       list: tom-and-jerry-collection
-      summary: >-
-        Tom and Jerry is an American animated media franchise and series of
-        comedy short films created in 1940 by William Hanna and Joseph Barbera.
-        Best known for its 161 theatrical short films by Metro-Goldwyn-Mayer,
-        the series centers on the rivalry between the titular characters of a
-        cat named Tom and a mouse named Jerry. Many shorts also feature several
-        recurring characters.
+      summary: 'The best of enemies, the worst of friends.'
   Toy Story Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -685,10 +678,7 @@ collections:
     template:
       name: Collection - Hide Movie
       movie: 1857
-      summary: >-
-        The Transformers series follows the continuing battle between the
-        Autobots and the Decepticons and ultimately, the triumph of good over
-        evil.
+      summary: Most have come to destroy us. Some have come to protect us.
   Trolls Collection:
     template:
       name: Collection - Trakt List Custom Order

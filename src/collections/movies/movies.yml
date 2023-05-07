@@ -624,7 +624,7 @@ collections:
     template:
       name: Collection - Trakt List Custom Order
       list: transformers-collection
-      summary: The Transformers series follows the continuing battle between the Autobots and the Decepticons and ultimately, the triumph of good over evil.
+      summary: Most have come to destroy us. Some have come to protect us.
   Turner & Hooch Collection:
     template:
       name: Collection - Hide Movie
