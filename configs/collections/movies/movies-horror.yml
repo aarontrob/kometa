@@ -115,9 +115,11 @@ templates:
       - name_mapping
       - sort_title
       - summary
+      - show
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
+    tmdb_show: <<show>>
 collections:
   28 Days/Weeks Later Collection:
     template:
@@ -267,7 +269,7 @@ collections:
     template:
       name: Collection - Movie
       collection: 1960
-      movie: 27266
+      movie: '27266, 713704, 109428'
       summary: They got up on the wrong side of the grave.
   Firestarter Collection:
     template:
