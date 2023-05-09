@@ -127,7 +127,7 @@ collections:
     template:
       name: Collection - Movie
       collection: 1960
-      movie: 27266
+      movie: 27266, 713704
       summary: They got up on the wrong side of the grave.
   Firestarter Collection:
     template:
