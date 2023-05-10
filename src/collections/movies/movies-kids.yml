@@ -318,6 +318,11 @@ collections:
       name: Collection - Trakt List Custom Order
       list: monsters-inc-collection
       summary: We Scare Because We Care
+  Monsters vs Aliens Collection:
+    template:
+      name: Collection - Movies
+      movie: 118248, 486327, 53985, 24884
+      summary: Alien Problem? Monster Solution.
   Mr. Magoo Collection:
     template:
       name: Collection - Hide Movie
