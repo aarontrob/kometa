@@ -15,20 +15,20 @@ collections:
     sort_title: ++_1.5Recently Added
     name_mapping: Recently Added
     summary: Added in the last 30 days
-  90s: null
-  template:
-    name: Decade
-    year:
-      - 1990
-      - 1991
-      - 1992
-      - 1993
-      - 1994
-      - 1995
-      - 1996
-      - 1997
-      - 1998
-      - 1999
+  90s:
+    template:
+      name: Decade
+      year:
+        - 1990
+        - 1991
+        - 1992
+        - 1993
+        - 1994
+        - 1995
+        - 1996
+        - 1997
+        - 1998
+        - 1999
   80s:
     template:
       name: Decade
