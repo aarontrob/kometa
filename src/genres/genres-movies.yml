@@ -20,9 +20,9 @@ collections:
       name: Genre - Trakt List
       list: movies-christmas
       collection_order: alpha
-      sort_title: ++_3Christmas
       item_genre: Christmas
       summary: Merry Christmas! Sh*tter was full.
+    sort_title: ++_3Christmas
   Comedy:
     template:
       name: Genre
@@ -91,8 +91,8 @@ collections:
       list: movies-thanksgiving
       collection_order: alpha
       item_genre: Thanksgiving
-      sort_title: ++_3Thanksgiving
       summary: “Gobble, gobble!”
+    sort_title: ++_3Thanksgiving
   Thriller:
     template:
       name: Genre
