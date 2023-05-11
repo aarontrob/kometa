@@ -1,0 +1,101 @@
+templates:
+  Decade:
+    smart_filter:
+      any:
+        year: <<year>>
+      sort_by: year.asc
+    sort_title: ++_4.5<<collection_name>>
+collections:
+  Action:
+    template:
+      name: Genre
+      genre: Action
+      summary: null
+  Christmas:
+    template:
+      name: Genre - Trakt List
+      list: movies-christmas
+      collection_order: alpha
+      sort_title: ++_3Christmas
+      item_genre: Christmas
+      summary: Merry Christmas! Sh*tter was full.
+  Comedy:
+    template:
+      name: Genre
+      genre: Comedy
+      summary: null
+  Crime:
+    template:
+      name: Genre
+      genre: Crime
+      summary: null
+  Fantasy:
+    template:
+      name: Genre
+      genre: Fantasy
+      summary: null
+  Halloween:
+    template:
+      name: Genre - Trakt List
+      list: movies-halloween
+      collection_order: alpha
+      item_genre: Halloween
+      summary: '“Oh, look. Another glorious morning. Makes me sick!”'
+    sort_title: ++_3Hallowen
+  Music:
+    template:
+      name: Genre - Trakt List
+      list: music
+      item_genre: Music
+      summary: "\U0001F3B8"
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: movies-musicals
+      item_genre: Musical
+      summary: 'If you know what you want, then you go and you find it and you get it.'
+  Mystery:
+    template:
+      name: Genre
+      genre: Mystery
+      summary: null
+  Sci-Fi:
+    template:
+      name: Genre
+      genre:
+        - Sci-Fi
+        - Science Fiction
+      summary: null
+  Sports:
+    template:
+      name: Genre
+      genre:
+        - Sport
+        - Sports
+      item_genre: Sports
+      trakt_list: movies-sports
+      summary: null
+  Stand Up Comedy:
+    template:
+      name: Genre - Trakt List
+      list: movies-standup
+      item_genre: Stand-Up
+      summary: null
+  Thanksgiving:
+    template:
+      name: Genre - Trakt List
+      list: movies-thanksgiving
+      collection_order: alpha
+      item_genre: Thanksgiving
+      sort_title: ++_3Thanksgiving
+      summary: '“Gobble, gobble!”'
+  Thriller:
+    template:
+      name: Genre
+      genre: Thriller
+      summary: null
+  Western:
+    template:
+      name: Genre
+      genre: Western
+      summary: null

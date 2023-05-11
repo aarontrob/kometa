@@ -1,0 +1,105 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/decades.yml
+
+######################################################
+#                Genre Collections                   #
+######################################################
+
+collections:
+  Action:
+    template:
+      name: Genre
+      genre: Action
+      summary:
+  Christmas:
+    template:
+      name: Genre - Trakt List
+      list: movies-christmas
+      collection_order: alpha
+      sort_title: ++_3Christmas
+      item_genre: Christmas
+      summary: Merry Christmas! Sh*tter was full.
+  Comedy:
+    template:
+      name: Genre
+      genre: Comedy
+      summary:
+  Crime:
+    template:
+      name: Genre
+      genre: Crime
+      summary:
+  Fantasy:
+    template:
+      name: Genre
+      genre: Fantasy
+      summary:
+  Halloween:
+    template:
+      name: Genre - Trakt List
+      list: movies-halloween
+      collection_order: alpha
+      item_genre: Halloween
+      summary: “Oh, look. Another glorious morning. Makes me sick!”
+    sort_title: ++_3Hallowen
+  Music:
+    template:
+      name: Genre - Trakt List
+      list: music
+      item_genre: Music
+      summary: 🎸
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: movies-musicals
+      item_genre: Musical
+      summary: If you know what you want, then you go and you find it and you get it.
+  Mystery:
+    template:
+      name: Genre
+      genre: Mystery
+      summary:
+  Sci-Fi:
+    template:
+      name: Genre
+      genre:
+        - Sci-Fi
+        - Science Fiction
+      summary:
+  Sports:
+    template:
+      name: Genre
+      genre:
+        - Sport
+        - Sports
+      item_genre: Sports
+      trakt_list: movies-sports
+      summary:
+  Stand Up Comedy:
+    template:
+      name: Genre - Trakt List
+      list: movies-standup
+      item_genre: Stand-Up
+      summary:
+  Thanksgiving:
+    template:
+      name: Genre - Trakt List
+      list: movies-thanksgiving
+      collection_order: alpha
+      item_genre: Thanksgiving
+      sort_title: ++_3Thanksgiving
+      summary: “Gobble, gobble!”
+  Thriller:
+    template:
+      name: Genre
+      genre: Thriller
+      summary:
+  Western:
+    template:
+      name: Genre
+      genre: Western
+      summary:
