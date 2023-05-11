@@ -3,7 +3,7 @@ templates:
     smart_filter:
       all:
         genre: <<genre>>
-        label.not: Stand-Up
+        genre.not: Stand-Up
       sort_by: random
     sort_title: ~_<<collection_name>>
     optional:
