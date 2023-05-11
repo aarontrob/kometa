@@ -66,16 +66,12 @@ collections:
   Sci-Fi:
     template:
       name: Genre
-      genre:
-        - Sci-Fi
-        - Science Fiction
+      genre: Sci-Fi
       summary:
   Sports:
     template:
       name: Genre
-      genre:
-        - Sport
-        - Sports
+      genre: Sports
       item_genre: Sports
       trakt_list: movies-sports
       summary:
