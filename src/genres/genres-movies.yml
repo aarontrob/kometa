@@ -3,7 +3,7 @@
 ######################################################
 
 templates: !!import/shallow
-  - ../templates/decades.yml
+  - ../templates/genres.yml
 
 ######################################################
 #                Genre Collections                   #
