@@ -2,7 +2,7 @@ templates:
   Decade:
     smart_filter:
       any:
-        year: null
+        year: <<year>>
       sort_by: year.asc
     sort_title: ++_4.5<<collection_name>>
 collections:

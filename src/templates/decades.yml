@@ -1,6 +1,6 @@
 Decade:
   smart_filter:
     any:
-      year:
+      year: <<year>>
     sort_by: year.asc
   sort_title: ++_4.5<<collection_name>>
