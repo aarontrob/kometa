@@ -1,0 +1,16 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/networks.yml
+
+######################################################
+#          Networks - TV-Shows-Documentary           #
+######################################################
+
+collections:
+  History:
+    template:
+      name: Network
+      network: 65, 849

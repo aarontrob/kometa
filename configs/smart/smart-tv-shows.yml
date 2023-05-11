@@ -1,0 +1,9 @@
+collections:
+  Recently Aired:
+    smart_filter:
+      all:
+        episode_air_date: 7
+      sort_by: episode_release.desc
+    sort_title: ++_1.5Recently Aired
+    name_mapping: Recently Aired
+    summary: Shows that have aired in the last 7 days
