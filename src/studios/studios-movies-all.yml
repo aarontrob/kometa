@@ -29,9 +29,9 @@ collections:
       summary: The DC Animated Universe (DCAU; also referred to as the Timmverse or Diniverse by fans) is a shared universe of superhero-based animated television series, produced by Warner Bros. Animation and based on characters that appear in American comic books published by DC Comics.
   Hammer Films:
     template:
-      name: Studio
-      company: 1314
-      list: hammer-films
+      name: Studio - Smart
+      studio: Hammer Film Productions
+      # list: hammer-films
       summary: Hammer Film Productions Ltd. is a British film production company based in London. Founded in 1934, the company is best known for a series of Gothic horror and fantasy films made from the mid-1950s until the 1970s. Many of these involved classic horror characters such as Baron Victor Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to audiences by filming them in vivid colour for the first time.
   LEGO:
     template:

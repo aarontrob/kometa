@@ -76,9 +76,8 @@ collections:
         characters that appear in American comic books published by DC Comics.
   Hammer Films:
     template:
-      name: Studio
-      company: 1314
-      list: hammer-films
+      name: Studio - Smart
+      studio: Hammer Film Productions
       summary: >-
         Hammer Film Productions Ltd. is a British film production company based
         in London. Founded in 1934, the company is best known for a series of
