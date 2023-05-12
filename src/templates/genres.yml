@@ -5,6 +5,7 @@ Genre:
       genre.not: Stand-Up
     sort_by: random
   sort_title: ~_<<collection_name>>
+  only_run_on_create: true
   optional:
     - collection_order
     - item_genre

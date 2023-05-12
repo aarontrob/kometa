@@ -1,0 +1,297 @@
+templates:
+  List - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: <<collection_mode>>
+    sort_title: ++_6<<collection_name>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - summary
+      - trakt_list_details
+    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<trakt_list_details>>'
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
+  List - Trakt List Custom Order:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<list>>'
+    sync_mode: sync<
+    collection_order: custom
+    sort_title: ++_6<<collection_name>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - summary
+      - trakt_list_details
+    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<trakt_list_details>>'
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
+  List - Letterboxd List:
+    letterboxd_list: <<list>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: <<collection_mode>>
+    sort_title: ++_6<<collection_name>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - summary
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
+collections:
+  101 Action Movies You Must See Before You Die:
+    template:
+      name: List - Trakt List
+      list: 101-action-movies-you-must-see-before-you-die
+      summary: >-
+        Action movies can be called the purest form of cinema because they tell
+        their stories visually, rather than through dialogue. Found on this list
+        are 101 of the most famous action films of all time, from the early
+        swashbucklers starring Douglas Fairbanks, to sci-fi panoramas like Star
+        Wars and the Terminator series that was made famous by Arnold
+        Schwarzenneger. 101 Action Films You Must See Before You Die contains
+        the movies that transitioned actors like Bruce Willis, Sylvester
+        Stallone, and Sean Connery into household names.
+  101 Cult Movies You Must See Before You Die:
+    template:
+      name: List - Trakt List
+      list: 101-cult-movies-you-must-see-before-you-die
+      summary: >-
+        Many--possibly most--films that achieve cult status begin as box office
+        failures, and then over the years start attracting groups of devoted
+        fans. Some cult movies are very good, while others are so bad that
+        they're good, and some are comic escapades, while many others fall into
+        the categories of science fiction or horror. But all cult movies have
+        one thing in common: they are films that refuse to die.
+  101 Horror Movies You Must See Before You Die:
+    template:
+      name: List - Trakt List
+      list: 101-horror-movies-you-must-see-before-you-die
+      summary: >-
+        Whether it be internal demons, real-life vampires, anonymous serial
+        killers, crazed spouses, vengeful ghosts or Satan himself, horror films
+        have gripped audiences and filmmakers alike since the very beginnings of
+        cinema. Prepare to be terrified, fascinated and enthralled as you take
+        this whirlwind tour of the 101 horror films you must see before you die.
+
+        101 Horror Films You Must See Before You Die gives you a thorough
+        appreciation of the genre, because it approaches the subject
+        chronologically. You'll move through gothic classics like James Whale's
+        The Old Dark House (1932) and Terence Fisher's Dracula (1958), to zombie
+        movies like Dawn of the Dead (1978) and 28 Days Later (2002).
+
+        All the sub-genres are covered too, from Eyes Without a Face (mad
+        scientist) and The Howling (werewolf) to Nightmare on Elm Street
+        (slasher) and The Silence of the Lambs (serial killer). And you'll learn
+        that it's not just American teenagers who are horror-film fodder. There
+        are classic horror films from Japan (Onibaba), Russia (Vij), Italy
+        (Suspiria), France (Les Diaboliques), Belgium (Man Bites Dog), Germany
+        (M), and the Netherlands (The Vanishing). Immerse yourself in the most
+        compelling of movie genres. Prepare to be possessed - and whatever you
+        do, don't answer the phone...
+  1001 Movies You Must See Before You Die:
+    template:
+      name: List - Trakt List
+      list: 1001-movies-you-must-see-before-you-die
+      summary: >-
+        "You played it for her, Sam. Now, play it for me." Everybody loves a
+        good movie, and Casablanca is just one of the classics described in
+        this, the ultimate book about movies! This volume's expert team of
+        authors spans a full century of production, concisely describing 1001 of
+        the best films from around the world. The listings are dramatically
+        augmented with memorable photos, both in color and black and white. The
+        book is a chrono-logical survey covering the best cinematic dramas,
+        comedies, westerns, musicals, suspense and horror films, gangster
+        classics, films noir, sci-fi epics, documentaries, and adaptations of
+        novels and stage plays. Starting in 1902 with the French production, Le
+        voyage dans la lune (A Trip to the Moon) and the famous 1903 American
+        short, The Great Train Robbery, this immensely enjoyable read moves
+        forward chronologically. Film fans review the 1920s silent classics of
+        D. W. Griffith and the comedies of Chaplin and Keaton, then go on to the
+        era of sound films, beginning in 1927 with Al Jolson in The Jazz Singer.
+        Soon to follow were von Sternberg's 1931 classic with Marlene Dietrich,
+        Der Blaue Engel (The Blue Angel), the Bela Lugosi portrayal of Dracula,
+        and the inimitable King Kong. Other highlights from the 1930s include
+        screwball comedies like It Happened One Night and Bringing Up Baby, the
+        elegant song-and-dance fests that paired Astaire and Rogers, the crazy
+        antics of the Marx Brothers, and the classic Warner Brothers gangster
+        films where James Cagney, George Raft, and Edward G. Robinson were
+        brought to justice in the final reel. In the 1940s, The Maltese
+        Falconand Casablanca made Humphrey Bogart a household name--and spanning
+        nearly a half-century, from the 1930s to the '80s, Alfred Hitchcock's
+        suspense classics thrilled millions. Also well represented are the
+        post-World War II European New Wave directors, including Pasolini,
+        Fellini, and Antonioni from Italy, Resnais and Truffaut from France, and
+        many others. Here too in words and photos are the classic westerns, from
+        epics starring John Wayne and Gary Cooper to those in which Clint
+        Eastwood shot it out with the bad and the ugly. --And certainly not to
+        be overlooked are the great musicals, from Singin' in the Rain to
+        Chicago.Readers who open this book to any page will find a major film
+        described with a complete list of credits, an essay summarizing its
+        story line and screen-history, and still shots of some of the film's
+        memorable scenes. At the back of the book, both an alpha-betical index
+        and a genre index will help readers find any film they're looking for in
+        a hurry. Collectors of DVDs and video tapes will find this volume a must
+        for their bookshelf, but even casual moviegoers will enjoy browsing
+        through this big, entertaining reference book. For students of cinema,
+        for discerning film buffs, for general moviegoers, and for readers who
+        enjoy reminiscing over unforgettable lines of dialogue, here's the best
+        place to start.
+  101 Sci-Fi Movies You Must See Before You Die:
+    template:
+      name: List - Trakt List
+      list: 101-sci-fi-movies-you-must-see-before-you-die
+      summary: >-
+        If you want to know your Degoba from your Delos or your Ming from your
+        Morlock, if you can't decide whether to eat Soylent Green or in Mos
+        Eisley's Cantina, or if you simply want to try to comprehend 2001:A
+        Space Odyssey, 101 Sci- Fi Movies You Must See Before You Die is for
+        you. Visionary and imaginative - science fiction allows all other genres
+        to leap, quite literally, into another dimension. From the classic
+        low-budget, space exploration Flash Gordon tales of the Saturday matinee
+        serials to the slick, CGI-realized world of The Matrix, science fiction
+        films have long been pushing the boundaries of the visually and
+        dramatically fantastic. Take a classic cop chase, and set it on Mars.
+        Think of a haunted house story, then add the Nostromo. Take the
+        boy-meets-girl classic, then make them mutants. Turn the known world on
+        its head, play with the laws of physics, and all the while hold your
+        audience spellbound. 101 Sci-Fi Movies You Must See Before You Die
+        offers a breadth of knowledge, insight, and passion to a century of
+        close encounters, black holes, time-travel, dodgy outfits, distant
+        planets, impossible quests, nuclear war, futuristic technology,
+        inexplicable forces, spaceships, extraordinary monsters, subterranean
+        societies, and fluorescent drinks - get a dog and don't list your name
+        in the phone book.
+  AFI Top 100 Comedy:
+    template:
+      name: List - Trakt List
+      list: afi-s-100-years-100-laughs
+      summary: >-
+        Regardless of genre, the films on this list possess a total comedic
+        impact that creates an experience greater than the sum of the smiles.
+        These movies provide laughs that echo across time, enriching America's
+        film heritage and inspiring artists and audiences today. A wide array of
+        funny films — from slapstick comedy to romantic comedy; from satire and
+        black comedy to musical comedy; from comedy of manners to comedy of
+        errors — were nominated for this distinction. AFI distributed a ballot
+        with 500 nominated films to a jury of 1800 leaders from the film
+        community, including film artists (directors, screenwriters, actors,
+        editors, cinematographers, etc.), critics, historians and film
+        executives. The jurors were asked to consider the following criteria
+        while making their selections:
+
+          Feature-Length Fiction Film: The film must be in narrative format typically over 60 minutes in length;
+
+          American Film: The film must be in the English language with significant creative and/or financial production elements from the United States;
+
+          Funny: Regardless of genre, the total comedic impact of a film's elements that creates an experience greater than the sum of the smiles;
+
+          Legacy: Laughs that echo across time, enriching America's film heritage and inspiring artists and audiences today.
+  AFI Top 100 Greatest:
+    template:
+      name: List - Trakt List
+      list: afi-s-100-years-100-movies
+      summary: >-
+        In 1998, AFI invited more than 1,500 leaders from across the American
+        film community – screenwriters, directors, actors, producers,
+        cinematographers, editors, executives, film historians and critics among
+        them – to choose from a list of 400 nominated films compiled by AFI and
+        select the 100 greatest American movies.
+  AFI Top 100 Thriller:
+    template:
+      name: List - Trakt List
+      list: afi-s-100-years-100-thrills
+      summary: >-
+        Regardless of genre, the total adrenaline-inducing impact of the
+        artistry and craft of these films create an experience that engages our
+        bodies as well as our minds. The "thrills" of these films have enlivened
+        and enriched America's film heritage while continuing to inspire
+        contemporary artists and audiences. In late 2000, AFI distributed a
+        ballot with 400 nominated films to a jury of 1,800 leaders of the film
+        community. The jurors were asked to consider the following criteria
+        while making their selections:
+
+          Feature-Length Fiction Film: The film must be in narrative format, typically more than 60 minutes in length.
+
+          American Film: The film must be in the English language with significant creative and/or financial production elements from the United States.
+
+          Thrills: Regardless of genre, the total adrenaline-inducing impact of a film's artistry and craft must create an experience that engages our bodies as well as our minds.
+
+          Legacy: Films whose "thrills" have enlivened and enriched America's film heritage while continuing to inspire contemporary artists and audiences.
+  Criterion Collection:
+    template:
+      name: List - Letterboxd List
+      list: 'https://letterboxd.com/sadhomersimpson/list/criterion/'
+      summary: >-
+        The Criterion Collection, Inc. (or simply Criterion) is an American
+        home-video distribution company that focuses on licensing, restoring and
+        distributing "important classic and contemporary films." Criterion
+        serves film and media scholars, cinephiles and public and academic
+        libraries. Criterion has helped to standardize certain aspects of
+        home-video releases such as film restoration, the letterboxing format
+        for widescreen films and the inclusion of bonus features such as
+        scholarly essays and commentary tracks. Criterion has produced and
+        distributed more than 1,000 special editions of its films in VHS,
+        Betamax, LaserDisc, DVD, Blu-ray and Ultra HD Blu-ray formats and box
+        sets.
+  Empire Magazine's 50 Greatest Sequels:
+    template:
+      name: List - Trakt List Custom Order
+      list: empire-magazine-s-60-greatest-sequels
+      trakt_list_details: empire-magazine-s-60-greatest-sequels
+  Trending:
+    sort_title: ++_2.2Trending
+    smart_label: random
+    trakt_trending: 40
+    tmdb_trending_daily: 40
+    tmdb_trending_weekly: 40
+    summary: Movies trending across the internet
+    label: Trending
+    sync_mode: sync
+    name_mapping: Trending
+  Vulture’s 101 Best Movie Endings:
+    template:
+      name: Chart Release
+      num: 5
+    letterboxd_list: 'https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/'
+    summary: >-
+      Not every great movie has a great ending. The reverse is also true: We’ve
+      all had that experience of watching a ho-hum flick that became instantly
+      unforgettable thanks to an awesome conclusion. It is, arguably, the most
+      important part of any film — how a filmmaker wants you to feel when the
+      lights go up is often the key to what that picture was really about.
+
+      In compiling a list of the greatest endings in movie history, we had many
+      arguments over many months about this very dynamic, and found ourselves
+      drawn to certain types we deemed successful more than others: Ambiguous,
+      dark endings; endings that purported to explain something but secretly did
+      not; endings that denied us (and the characters) closure; endings that
+      featured people dancing, but not always in joyous, triumphant fashion.
+      Maybe that was a reflection of the times we were living. (Dark, uncertain,
+      marked by a significant amount of human flailing.) Sometimes, we did go
+      for the cathartic, bring-happy-tears-to-your-face finale, but we
+      frequently found ourselves opining the sorts of stories that lack that
+      release. The unendings.
+
+      Our goal from the jump was never to determine a set formula for the Great
+      Movie Ending. We began with an absolute morass of nominations, hundreds of
+      finales that stuck in at least one Vulture staff member’s maw. The
+      idiosyncrasies piled up; if the key to a good ending was a feeling, we’d
+      surrender to impulse. Still, we did set ourselves some rules. Most
+      significantly, we only considered one movie (feature length) per director,
+      in part so Billy Wilder and Stanley Kubrick and Alfred Hitchcock titles
+      didn’t swallow up the whole list. We prioritized a diversity of tone,
+      origin, authorship, subject matter, and genre. And we were a bit flexible
+      on what constituted an actual “ending”: a final shot, a final passage; it
+      just had to come at the end of the film. (You’d be amazed at how many
+      scenes are remembered as being great endings that came well before the
+      movie in question went to credits.) Still, there was no escaping our own
+      unbound tastes and biases. You’ll see some classic endings on this list.
+      You’ll also wonder (probably angrily) where some of the more iconic ones
+      are. And you’ll hopefully see a few you’ve never heard of. The thread that
+      pulls all of these choices together is that after rewatching them, we felt
+      that tough-to-articulate sensation when the lights went up. The key to the
+      story was more often a notion, not an answer.

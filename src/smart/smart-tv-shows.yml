@@ -10,4 +10,5 @@ collections:
       sort_by: episode_release.desc
     sort_title: ++_1.5Recently Aired
     name_mapping: Recently Aired
+    only_run_on_create: true
     summary: Shows that have aired in the last 7 days

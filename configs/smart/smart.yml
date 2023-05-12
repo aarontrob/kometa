@@ -5,6 +5,7 @@ templates:
         year: <<year>>
       sort_by: year.asc
     sort_title: ++_4.5<<collection_name>>
+    only_run_on_create: true
 collections:
   Recently Added:
     smart_filter:
@@ -12,8 +13,9 @@ collections:
         added: 30
       limit: 100
       sort_by: added.desc
-    sort_title: ++_1.5Recently Added
+    sort_title: ++_1Recently Added
     name_mapping: Recently Added
+    only_run_on_create: true
     summary: Added in the last 30 days
   90s:
     template:

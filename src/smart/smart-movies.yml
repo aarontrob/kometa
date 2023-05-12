@@ -17,6 +17,7 @@ collections:
       sort_by: added.desc
     sort_title: ++_1.5Recently Released
     name_mapping: Recently Released
+    only_run_on_create: true
     summary: Movies released in the last 365 days
 
   # DECADES
@@ -65,4 +66,5 @@ collections:
         - 1958
         - 1959
     name: Classic Movies
+    only_run_on_create: true
     summary: "Here's looking at you, kid."

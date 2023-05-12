@@ -565,6 +565,11 @@ collections:
     template:
       name: Collection - Hide Show
       show: 90461
+  Monsters vs Aliens Collection:
+    template:
+      name: Collection - Hide Show
+      show: 60789
+      summary: Alien Problem? Monster Solution.
   Mork & Mindy Collection:
     template:
       name: Search

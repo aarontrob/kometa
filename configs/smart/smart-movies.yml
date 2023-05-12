@@ -5,6 +5,7 @@ templates:
         year: <<year>>
       sort_by: year.asc
     sort_title: ++_4.5<<collection_name>>
+    only_run_on_create: true
 collections:
   Recently Released:
     smart_filter:
@@ -13,6 +14,7 @@ collections:
       sort_by: added.desc
     sort_title: ++_1.5Recently Released
     name_mapping: Recently Released
+    only_run_on_create: true
     summary: Movies released in the last 365 days
   20s-50s:
     template:
@@ -59,4 +61,5 @@ collections:
         - 1958
         - 1959
     name: Classic Movies
+    only_run_on_create: true
     summary: 'Here''s looking at you, kid.'

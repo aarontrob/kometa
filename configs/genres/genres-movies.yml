@@ -6,6 +6,7 @@ templates:
         genre.not: Stand-Up
       sort_by: random
     sort_title: ~_<<collection_name>>
+    only_run_on_create: true
     optional:
       - collection_order
       - item_genre
@@ -39,7 +40,7 @@ collections:
       collection_order: alpha
       item_genre: Christmas
       summary: Merry Christmas! Sh*tter was full.
-    sort_title: ++_3Christmas
+    sort_title: ++_2Christmas
   Comedy:
     template:
       name: Genre
@@ -62,7 +63,7 @@ collections:
       collection_order: alpha
       item_genre: Halloween
       summary: '“Oh, look. Another glorious morning. Makes me sick!”'
-    sort_title: ++_3Hallowen
+    sort_title: ++_2Hallowen
   Music:
     template:
       name: Genre - Trakt List
@@ -105,7 +106,7 @@ collections:
       collection_order: alpha
       item_genre: Thanksgiving
       summary: '“Gobble, gobble!”'
-    sort_title: ++_3Thanksgiving
+    sort_title: ++_2Thanksgiving
   Thriller:
     template:
       name: Genre
