@@ -14,7 +14,7 @@ List - Trakt List:
   name_mapping: <<name_mapping>>
   summary: <<summary>>
 List - Trakt List Custom Order:
-  trakt_list: https://trakt.tv/users/goape/lists/<list>>
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   sync_mode: sync<
   collection_order: custom
   sort_title: ++_6<<collection_name>>
