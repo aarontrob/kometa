@@ -15,7 +15,7 @@ List - Trakt List:
   summary: <<summary>>
 List - Trakt List Custom Order:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
-  sync_mode: sync<
+  sync_mode: sync
   collection_order: custom
   sort_title: ++_6<<collection_name>>
   default:
@@ -23,8 +23,18 @@ List - Trakt List Custom Order:
   optional:
     - name_mapping
     - summary
-    - trakt_list_details
-  trakt_list_details: https://trakt.tv/users/goape/lists/<<trakt_list_details>>
+  name_mapping: <<name_mapping>>
+  summary: <<summary>>
+List - Trakt List Custom Order Details:
+  trakt_list_details: https://trakt.tv/users/goape/lists/<<list>>
+  sync_mode: sync
+  collection_order: custom
+  sort_title: ++_6<<collection_name>>
+  default:
+    collection_mode: hide_items
+  optional:
+    - name_mapping
+    - summary
   name_mapping: <<name_mapping>>
   summary: <<summary>>
 List - Letterboxd List:

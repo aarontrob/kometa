@@ -92,9 +92,8 @@ collections:
       summary: The Criterion Collection, Inc. (or simply Criterion) is an American home-video distribution company that focuses on licensing, restoring and distributing "important classic and contemporary films." Criterion serves film and media scholars, cinephiles and public and academic libraries. Criterion has helped to standardize certain aspects of home-video releases such as film restoration, the letterboxing format for widescreen films and the inclusion of bonus features such as scholarly essays and commentary tracks. Criterion has produced and distributed more than 1,000 special editions of its films in VHS, Betamax, LaserDisc, DVD, Blu-ray and Ultra HD Blu-ray formats and box sets.
   Empire Magazine's 60 Greatest Sequels:
     template:
-      name: List - Trakt List Custom Order
+      name: List - Trakt List Custom Order Details
       list: empire-magazine-s-60-greatest-movie-sequels
-      trakt_list_details: empire-magazine-s-60-greatest-movie-sequels
   # "Oscars: Winners":
   #   template: {name: Chart Release, num: 5}
   #   imdb_list: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_winner
