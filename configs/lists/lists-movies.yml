@@ -237,11 +237,11 @@ collections:
         distributed more than 1,000 special editions of its films in VHS,
         Betamax, LaserDisc, DVD, Blu-ray and Ultra HD Blu-ray formats and box
         sets.
-  Empire Magazine's 50 Greatest Sequels:
+  Empire Magazine's 60 Greatest Sequels:
     template:
       name: List - Trakt List Custom Order
-      list: empire-magazine-s-60-greatest-sequels
-      trakt_list_details: empire-magazine-s-60-greatest-sequels
+      list: empire-magazine-s-60-greatest-movie-sequels
+      trakt_list_details: empire-magazine-s-60-greatest-movie-sequels
   Trending:
     sort_title: ++_2.2Trending
     smart_label: random
