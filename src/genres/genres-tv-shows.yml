@@ -1,0 +1,49 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/genres.yml
+
+######################################################
+#                Genre Collections                   #
+######################################################
+
+collections:
+  Christmas:
+    template:
+      name: Genre - Trakt List
+      list: tv-christmas
+      summary: “The best way to spread Christmas cheer is singing loud for all to hear.”
+  Christmas Episodes:
+    template:
+      name: Genre - Trakt List
+      list: tv-christmas-episodes
+      collection_order: alpha
+    collection_level: episode
+  Food:
+    template:
+      name: Genre - Trakt List
+      list: tv-food
+      summary: “Get in my belly!”
+  Halloween:
+    template:
+      name: Genre - Trakt List
+      list: tv-halloween
+      summary: “It’s all just a bunch of hocus pocus.”
+  Gay:
+    template:
+      name: Genre - Trakt List
+      list: tv-gay
+      summary: Slay
+      item_label: Gay
+      label: Gay
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: tv-musicals
+  Reality:
+    template:
+      name: Genre
+      genre: Reality
+      summary: "Who gon' check me, boo?"
