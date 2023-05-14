@@ -6,7 +6,7 @@ templates: !!import/shallow
   - ../templates/decades.yml
 
 ######################################################
-#                     Smart                          #
+#                  Smart - Movies                    #
 ######################################################
 
 collections:

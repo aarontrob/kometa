@@ -1,0 +1,20 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/profiles.yml
+
+######################################################
+#                    Profiles                        #
+######################################################
+
+collections:
+  Aaron:
+    template:
+      name: Profiles - Trakt List
+      list:
+        - movies-aaron
+        - movies-aaron-kids
+      label: Aaron
+      summary: Movies for Aaron

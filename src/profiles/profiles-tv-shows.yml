@@ -1,0 +1,34 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/profiles.yml
+
+######################################################
+#                    Profiles                        #
+######################################################
+
+collections:
+  Aaron:
+    template:
+      name: Profiles - Trakt List
+      list:
+        - tv-aaron
+        - tv-kids-aaron
+      label: Aaron
+      summary: TV Shows for Aaron
+    plex_search:
+      title: Wet Hot American Summer
+  Casey:
+    template:
+      name: Profiles - Trakt List
+      list: tv-casey
+      label: Casey
+      summary: TV Shows for Casey
+  Tom:
+    template:
+      name: Profiles - Trakt List
+      list: tv-dad
+      label: Tom
+      summary: TV Shows for Tom
