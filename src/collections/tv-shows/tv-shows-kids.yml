@@ -382,6 +382,10 @@ collections:
       name: Collection - Trakt List
       list: looney-tunes-collection
       summary: “What's up, doc?"
+  Madagascar Collection:
+    template:
+      name: Collection - Hide Show
+      show: 109330
   The Magic School Bus Collection:
     template:
       name: Collection - Shows

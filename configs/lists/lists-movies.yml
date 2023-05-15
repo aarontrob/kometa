@@ -39,7 +39,7 @@ templates:
     name_mapping: <<name_mapping>>
     summary: <<summary>>
   List - Letterboxd List:
-    letterboxd_list: <<list>>
+    letterboxd_list: 'https://letterboxd.com/<<list>>'
     sync_mode: sync
     collection_order: release
     collection_mode: <<collection_mode>>
@@ -234,7 +234,7 @@ collections:
   Criterion Collection:
     template:
       name: List - Letterboxd List
-      list: 'https://letterboxd.com/sadhomersimpson/list/criterion/'
+      list: sadhomersimpson/list/criterion/
       summary: >-
         The Criterion Collection, Inc. (or simply Criterion) is an American
         home-video distribution company that focuses on licensing, restoring and
@@ -252,55 +252,56 @@ collections:
       name: List - Trakt List Custom Order Details
       list: empire-magazine-s-60-greatest-movie-sequels
   Trending:
-    sort_title: ++_2.2Trending
+    sort_title: ++_1Trending
     smart_label: random
     trakt_trending: 40
     tmdb_trending_daily: 40
     tmdb_trending_weekly: 40
-    summary: Movies trending across the internet
     label: Trending
     sync_mode: sync
     name_mapping: Trending
+    summary: Movies trending across the internet
   Vulture’s 101 Best Movie Endings:
     template:
-      name: Chart Release
-      num: 5
-    letterboxd_list: 'https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings/'
-    summary: >-
-      Not every great movie has a great ending. The reverse is also true: We’ve
-      all had that experience of watching a ho-hum flick that became instantly
-      unforgettable thanks to an awesome conclusion. It is, arguably, the most
-      important part of any film — how a filmmaker wants you to feel when the
-      lights go up is often the key to what that picture was really about.
+      name: List - Letterboxd List
+      list: brianformo/list/vultures-101-best-movie-endings/
+      summary: >-
+        Not every great movie has a great ending. The reverse is also true:
+        We’ve all had that experience of watching a ho-hum flick that became
+        instantly unforgettable thanks to an awesome conclusion. It is,
+        arguably, the most important part of any film — how a filmmaker wants
+        you to feel when the lights go up is often the key to what that picture
+        was really about.
 
-      In compiling a list of the greatest endings in movie history, we had many
-      arguments over many months about this very dynamic, and found ourselves
-      drawn to certain types we deemed successful more than others: Ambiguous,
-      dark endings; endings that purported to explain something but secretly did
-      not; endings that denied us (and the characters) closure; endings that
-      featured people dancing, but not always in joyous, triumphant fashion.
-      Maybe that was a reflection of the times we were living. (Dark, uncertain,
-      marked by a significant amount of human flailing.) Sometimes, we did go
-      for the cathartic, bring-happy-tears-to-your-face finale, but we
-      frequently found ourselves opining the sorts of stories that lack that
-      release. The unendings.
+        In compiling a list of the greatest endings in movie history, we had
+        many arguments over many months about this very dynamic, and found
+        ourselves drawn to certain types we deemed successful more than others:
+        Ambiguous, dark endings; endings that purported to explain something but
+        secretly did not; endings that denied us (and the characters) closure;
+        endings that featured people dancing, but not always in joyous,
+        triumphant fashion. Maybe that was a reflection of the times we were
+        living. (Dark, uncertain, marked by a significant amount of human
+        flailing.) Sometimes, we did go for the cathartic,
+        bring-happy-tears-to-your-face finale, but we frequently found ourselves
+        opining the sorts of stories that lack that release. The unendings.
 
-      Our goal from the jump was never to determine a set formula for the Great
-      Movie Ending. We began with an absolute morass of nominations, hundreds of
-      finales that stuck in at least one Vulture staff member’s maw. The
-      idiosyncrasies piled up; if the key to a good ending was a feeling, we’d
-      surrender to impulse. Still, we did set ourselves some rules. Most
-      significantly, we only considered one movie (feature length) per director,
-      in part so Billy Wilder and Stanley Kubrick and Alfred Hitchcock titles
-      didn’t swallow up the whole list. We prioritized a diversity of tone,
-      origin, authorship, subject matter, and genre. And we were a bit flexible
-      on what constituted an actual “ending”: a final shot, a final passage; it
-      just had to come at the end of the film. (You’d be amazed at how many
-      scenes are remembered as being great endings that came well before the
-      movie in question went to credits.) Still, there was no escaping our own
-      unbound tastes and biases. You’ll see some classic endings on this list.
-      You’ll also wonder (probably angrily) where some of the more iconic ones
-      are. And you’ll hopefully see a few you’ve never heard of. The thread that
-      pulls all of these choices together is that after rewatching them, we felt
-      that tough-to-articulate sensation when the lights went up. The key to the
-      story was more often a notion, not an answer.
+        Our goal from the jump was never to determine a set formula for the
+        Great Movie Ending. We began with an absolute morass of nominations,
+        hundreds of finales that stuck in at least one Vulture staff member’s
+        maw. The idiosyncrasies piled up; if the key to a good ending was a
+        feeling, we’d surrender to impulse. Still, we did set ourselves some
+        rules. Most significantly, we only considered one movie (feature length)
+        per director, in part so Billy Wilder and Stanley Kubrick and Alfred
+        Hitchcock titles didn’t swallow up the whole list. We prioritized a
+        diversity of tone, origin, authorship, subject matter, and genre. And we
+        were a bit flexible on what constituted an actual “ending”: a final
+        shot, a final passage; it just had to come at the end of the film.
+        (You’d be amazed at how many scenes are remembered as being great
+        endings that came well before the movie in question went to credits.)
+        Still, there was no escaping our own unbound tastes and biases. You’ll
+        see some classic endings on this list. You’ll also wonder (probably
+        angrily) where some of the more iconic ones are. And you’ll hopefully
+        see a few you’ve never heard of. The thread that pulls all of these
+        choices together is that after rewatching them, we felt that
+        tough-to-articulate sensation when the lights went up. The key to the
+        story was more often a notion, not an answer.

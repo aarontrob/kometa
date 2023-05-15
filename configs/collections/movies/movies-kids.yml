@@ -417,7 +417,7 @@ collections:
     template:
       name: Collection - Movie
       collection: 14740
-      movie: '270946, 161143, 25472, 10258'
+      movie: '270946, 161143, 25472, 10258, 904039, 836586'
   Mario Collection:
     template:
       name: Collection - Hide Movie
