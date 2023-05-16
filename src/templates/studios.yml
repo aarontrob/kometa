@@ -2,7 +2,7 @@ Studio:
   tmdb_company: <<company>>
   collection_order: release
   collection_mode: hide_items
-  sort_title: ++_5<<collection_name>>
+  sort_title: ++_4<<collection_name>>
   optional:
     - list
     - summary
@@ -13,7 +13,7 @@ Studio - Smart:
     any:
       studio: <<studio>>
     sort_by: release.desc
-  sort_title: ++_5<<collection_name>>
+  sort_title: ++_4<<collection_name>>
   only_run_on_create: true
   optional:
     - summary
@@ -22,7 +22,7 @@ Studio - Trakt List:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   collection_order: release
   collection_mode: hide_items
-  sort_title: ++_5<<collection_name>>
+  sort_title: ++_4<<collection_name>>
   optional:
     - summary
   summary: <<summary>>
@@ -30,7 +30,7 @@ Studio - Trakt List Custom Order:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   collection_order: custom
   collection_mode: hide_items
-  sort_title: ++_5<<collection_name>>
+  sort_title: ++_4<<collection_name>>
   sync_mode: sync
   optional:
     - summary
@@ -40,7 +40,7 @@ Studio - Search:
     title: <<title>>
   collection_order: release
   collection_mode: hide_items
-  sort_title: ++_5<<collection_name>>
+  sort_title: ++_4<<collection_name>>
   optional:
     - summary
   summary: <<summary>>
