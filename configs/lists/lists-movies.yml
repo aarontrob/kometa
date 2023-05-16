@@ -4,7 +4,7 @@ templates:
     sync_mode: sync
     collection_order: release
     collection_mode: <<collection_mode>>
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_5<<collection_name>>
     default:
       collection_mode: hide_items
     optional:
@@ -18,7 +18,7 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: custom
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_5<<collection_name>>
     default:
       collection_mode: hide_items
     optional:
@@ -30,7 +30,7 @@ templates:
     trakt_list_details: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: custom
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_5<<collection_name>>
     default:
       collection_mode: hide_items
     optional:
@@ -43,7 +43,7 @@ templates:
     sync_mode: sync
     collection_order: release
     collection_mode: <<collection_mode>>
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_5<<collection_name>>
     default:
       collection_mode: hide_items
     optional:

@@ -3,7 +3,7 @@ List - Trakt List:
   sync_mode: sync
   collection_order: release
   collection_mode: <<collection_mode>>
-  sort_title: ++_6<<collection_name>>
+  sort_title: ++_5<<collection_name>>
   default:
     collection_mode: hide_items
   optional:
@@ -17,7 +17,7 @@ List - Trakt List Custom Order:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   sync_mode: sync
   collection_order: custom
-  sort_title: ++_6<<collection_name>>
+  sort_title: ++_5<<collection_name>>
   default:
     collection_mode: hide_items
   optional:
@@ -29,7 +29,7 @@ List - Trakt List Custom Order Details:
   trakt_list_details: https://trakt.tv/users/goape/lists/<<list>>
   sync_mode: sync
   collection_order: custom
-  sort_title: ++_6<<collection_name>>
+  sort_title: ++_5<<collection_name>>
   default:
     collection_mode: hide_items
   optional:
@@ -42,7 +42,7 @@ List - Letterboxd List:
   sync_mode: sync
   collection_order: release
   collection_mode: <<collection_mode>>
-  sort_title: ++_6<<collection_name>>
+  sort_title: ++_5<<collection_name>>
   default:
     collection_mode: hide_items
   optional:
