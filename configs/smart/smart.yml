@@ -4,7 +4,7 @@ templates:
       any:
         year: <<year>>
       sort_by: year.asc
-    sort_title: ++_4.5<<collection_name>>
+    sort_title: ++_3<<collection_name>>
     only_run_on_create: true
 collections:
   Recently Added:
