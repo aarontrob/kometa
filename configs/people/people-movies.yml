@@ -1,0 +1,253 @@
+templates:
+  Actor:
+    tmdb_actor: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_8<<collection_name>>
+  Actor List:
+    sort_title: ++_8<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Actor List Documentary:
+    sort_title: ++_8<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Actor All:
+    tmdb_actor: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_8<<collection_name>>
+  Actor Director:
+    tmdb_actor: <<id>>
+    tmdb_director: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_7<<collection_name>>
+  Actor Director Writer:
+    tmdb_actor: <<id>>
+    tmdb_director: <<id>>
+    tmdb_writer: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_7<<collection_name>>
+  Actor Writer:
+    tmdb_actor: <<id>>
+    tmdb_writer: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_7<<collection_name>>
+  Director:
+    tmdb_director: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_7<<collection_name>>
+  Director List:
+    tmdb_biography: <<id>>
+    sort_title: ++_7<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Director Writer:
+    tmdb_writer: <<id>>
+    tmdb_director: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_7<<collection_name>>
+  Writer:
+    tmdb_writer: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_7<<collection_name>>
+  Search:
+    plex_search:
+      title: <<title>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+      - show
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+    tmdb_show: <<show>>
+collections:
+  Agatha Christie Collection:
+    template:
+      name: Writer
+      id: 47562
+      person: Agatha Christie
+  Alfred Hitchcock Collection:
+    template:
+      name: Director
+      id: 2636
+      person: Alfred Hitchcock
+    trakt_list: 'https://trakt.tv/users/goape/lists/alfred-hitchcock-collection'
+  Christopher Guest Collection:
+    template:
+      name: Actor Director Writer
+      id: 13524
+      person: Christopher Guest
+    summary: >-
+      The Rt. Hon. Christopher Haden-Guest, 5th Baron Haden-Guest (born February
+      5, 1948), better known as Christopher Guest, is an American screenwriter,
+      composer, musician, director, actor and comedian. He is most widely known
+      in Hollywood for having written, directed and starred in several
+      improvisational "mockumentary" films that feature a repertory-like
+      ensemble cast, such as This is Spinal Tap. In the United Kingdom, he holds
+      a Baronial peerage, and has publicly expressed a desire to see the House
+      of Lords reformed as a democratically-elected chamber. Despite initial
+      activity in the Lords, his career there was cut short by the House of
+      Lords Act 1999. When using his title, he is normally styled for short as
+      Lord Haden-Guest.
+  Dr. Seuss Collection:
+    template:
+      name: Writer
+      id: 65705
+      person: Dr. Seuss
+    trakt_list: 'https://trakt.tv/users/goape/lists/dr-seuss-collection'
+    name_mapping: Dr Seuss Collection
+  Mel Brooks Collection:
+    template:
+      name: Actor Director Writer
+      id: 14639
+      person: Mel Brooks
+  Quentin Tarantino Collection:
+    template:
+      name: Actor Director Writer
+      id: 138
+      person: Quentin Tarantino
+  Ray Harryhausen Collection:
+    template:
+      name: Director List
+      id: 66758
+    trakt_list: 'https://trakt.tv/users/goape/lists/ray-harryhausen-collection'
+    summary: >-
+      Raymond "Ray" Harryhausen (June 29, 1920 – May 7, 2013) was an American
+      visual effects creator, writer, and producer who lived in London, England,
+      from 1960 until his death in 2013.
+
+      He created a brand of stop-motion model animation known as "Dynamation."
+      His most important works include the animation on Mighty Joe Young, with
+      pioneer Willis O'Brien, which won the Academy Award for special effects
+      (1949); The 7th Voyage of Sinbad, his first color film; and Jason and the
+      Argonauts, featuring a famous sword fight against seven skeleton warriors.
+  Stanley Kubrick Collection:
+    template:
+      name: Director
+      id: 240
+      person: Stanley Kubrick
+  Stephen King Collection:
+    template:
+      name: Director List
+      id: 3027
+    trakt_list: 'https://trakt.tv/users/goape/lists/stephen-king-collection'
+  Tim Burton Collection:
+    template:
+      name: Director Writer
+      id: 510
+      person: Tim Burton
+  Wes Anderson Collection:
+    template:
+      name: Director
+      id: 5655
+      person: Wes Anderson
+  Adam Sandler Collection:
+    template:
+      name: Actor
+      id: 19292
+      person: Adam Sandler
+  Abbott and Costello Collection:
+    template:
+      name: Actor List Documentary
+    trakt_list: 'https://trakt.tv/users/goape/lists/abbott-and-costello'
+    summary: >-
+      Abbott and Costello were an American comedy duo composed of comedians Bud
+      Abbott and Lou Costello, whose work on radio and in film and television
+      made them the most popular comedy team of the 1940s and early 1950s and
+      the highest-paid entertainers in the world during World War II.
+  The Beatles Collection:
+    template:
+      name: Actor List
+    trakt_list: 'https://trakt.tv/users/goape/lists/the-beatles'
+    sort_title: ++_8Beatles Collection
+    summary: Movies featuring/based on the Beatles
+  Charlie Chaplin Collection:
+    template:
+      name: Actor
+      id: 13848
+      person: Charlie Chaplin
+    trakt_list: 'https://trakt.tv/users/goape/lists/charlie-chaplin-collection'
+  Chris Farley Collection:
+    template:
+      name: Actor
+      id: 58198
+      person: Chris Farley
+    summary: >-
+      Christopher Crosby "Chris" Farley (February 15, 1964 – December 18, 1997)
+      was an American comedian and actor. Farley was a member of Chicago's The
+      Second City Theatre and cast member of the NBC sketch comedy show Saturday
+      Night Live from 1990 to 1995.
+  Demetri Martin Collection:
+    template:
+      name: Actor All
+      id: 84075
+      person: Demetri Martin
+  Elvis Presley Collection:
+    template:
+      name: Actor
+      id: 21457
+      person: Elvis Presley
+    tmdb_movie: 31151
+  George Carlin Collection:
+    template:
+      name: Actor All
+      id: 15903
+      person: George Carlin
+  Kathy Griffin Collection:
+    template:
+      name: Actor All
+      id: 3138
+      person: Kathy Griffin
+    summary: >-
+      Kathleen Mary "Kathy" Griffin (born November 4, 1960) is an American
+      actress, model, stand-up comedian, television personality, New York Times
+      best-selling author and an LGBT rights advocate. Griffin first gained
+      recognition for appearances on two episodes of Seinfeld, and then for her
+      supporting role on the NBC sitcom Suddenly Susan. She was the star of the
+      Bravo reality show Kathy Griffin: My Life on the D-List, for which she won
+      two Emmy Awards as executive producer. She has also worked as a voice
+      artist and red carpet commentator, in addition to several other career
+      pursuits. From 2008-2013 she was nominated for a Grammy Award for Best
+      Comedy Album, winning in 2013. In her bid to win a Tony Award, she made
+      her Broadway debut in Kathy Griffin Wants a Tony in March 2011.
+  Laurel & Hardy Collection:
+    template:
+      name: Actor List
+    trakt_list:
+      - 'https://trakt.tv/users/goape/lists/laurel-hardy'
+  Marilyn Monroe Collection:
+    template:
+      name: Actor
+      id: 3149
+      person: Marilyn Monroe
+  Marx Brothers Collection:
+    template:
+      name: Actor List
+    trakt_list:
+      - 'https://trakt.tv/users/goape/lists/marx-brothers-collection'
+    summary: >-
+      The Marx Brothers were an American family comedy act that was successful
+      in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five
+      of the Marx Brothers' thirteen feature films were selected by the American
+      Film Institute (AFI) as among the top 100 comedy films, with two of them,
+      Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They
+      are widely considered by critics, scholars and fans to be among the
+      greatest and most influential comedians of the 20th century.
+  Pryor & Wilder Collection:
+    template:
+      name: Actor List
+    trakt_list:
+      - 'https://trakt.tv/users/goape/lists/pryor-wilder-collection'
+  The Three Stooges Collection:
+    template:
+      name: Search
+      title: Three Stooges
+    sort_title: ++_8Three Stooges Collection

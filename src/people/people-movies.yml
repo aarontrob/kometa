@@ -1,0 +1,349 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/people.yml
+  - ../templates/search.yml
+
+######################################################
+#                   Directors                        #
+######################################################
+
+collections:
+  Agatha Christie Collection:
+    template:
+      name: Writer
+      id: 47562
+      person: Agatha Christie
+  Alfred Hitchcock Collection:
+    template:
+      name: Director
+      id: 2636
+      person: Alfred Hitchcock
+    trakt_list: https://trakt.tv/users/goape/lists/alfred-hitchcock-collection
+  Christopher Guest Collection:
+    template:
+      name: Actor Director Writer
+      id: 13524
+      person: Christopher Guest
+    summary: >-
+      The Rt. Hon. Christopher Haden-Guest, 5th Baron Haden-Guest (born February 5, 1948), better known as Christopher Guest, is an American screenwriter, composer, musician, director, actor and comedian. He is most widely known in Hollywood for having written, directed and starred in several improvisational "mockumentary" films that feature a repertory-like ensemble cast, such as This is Spinal Tap. In the United Kingdom, he holds a Baronial peerage, and has publicly expressed a desire to see the House of Lords reformed as a democratically-elected chamber. Despite initial activity in the Lords, his career there was cut short by the House of Lords Act 1999. When using his title, he is normally styled for short as Lord Haden-Guest.
+  # Clint Eastwood Collection:
+  #   template:
+  #     name: Actor Director
+  #     id: 190
+  #     person: Clint Eastwood
+  # Coen Brothers Collection:
+  #   template:
+  #     name: Director Writer
+  #     id: 1223, 1224
+  #     person: Joel Coen, Ethan Coen
+  #   summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
+  Dr. Seuss Collection:
+    template:
+      name: Writer
+      id: 65705
+      person: Dr. Seuss
+    trakt_list: https://trakt.tv/users/goape/lists/dr-seuss-collection
+    name_mapping: Dr Seuss Collection
+  # Edgar Allan Poe Collection:
+  #   template:
+  #     name: Writer
+  #     id: 48415
+  #     person: Edgar Allan Poe
+  # James Cameron Collection:
+  #   template:
+  #     name: Director
+  #     id: 2710
+  #     person: James Cameron
+  # John Carpenter Collection:
+  #   template:
+  #     name: Director Writer
+  #     id: 11770
+  #     person: John Carpenter
+  # John Hughes Collection:
+  #   template:
+  #     name: Writer
+  #     id: 11505
+  #     person: John Hughes
+  # M. Night Shyamalan Collection:
+  #   template:
+  #     name: Director Writer
+  #     id: 11614
+  #     person: M. Night Shyamalan
+  Mel Brooks Collection:
+    template:
+      name: Actor Director Writer
+      id: 14639
+      person: Mel Brooks
+  Quentin Tarantino Collection:
+    template:
+      name: Actor Director Writer
+      id: 138
+      person: Quentin Tarantino
+  Ray Harryhausen Collection:
+    template:
+      name: Director List
+      id: 66758
+    trakt_list: https://trakt.tv/users/goape/lists/ray-harryhausen-collection
+    summary: >-
+      Raymond "Ray" Harryhausen (June 29, 1920 – May 7, 2013) was an American visual effects creator, writer, and producer who lived in London, England, from 1960 until his death in 2013.
+
+      He created a brand of stop-motion model animation known as "Dynamation." His most important works include the animation on Mighty Joe Young, with pioneer Willis O'Brien, which won the Academy Award for special effects (1949); The 7th Voyage of Sinbad, his first color film; and Jason and the Argonauts, featuring a famous sword fight against seven skeleton warriors.
+  # Ridley Scott Collection:
+  #   template:
+  #     name: Director
+  #     id: 578
+  #     person: Ridley Scott
+  Stanley Kubrick Collection:
+    template:
+      name: Director
+      id: 240
+      person: Stanley Kubrick
+  Stephen King Collection:
+    template:
+      name: Director List
+      id: 3027
+    trakt_list: https://trakt.tv/users/goape/lists/stephen-king-collection
+  # Steven Spielberg Collection:
+  #   template:
+  #     name: Director
+  #     id: 488
+  #     person: Steven Spielberg
+  Tim Burton Collection:
+    template:
+      name: Director Writer
+      id: 510
+      person: Tim Burton
+  Wes Anderson Collection:
+    template:
+      name: Director
+      id: 5655
+      person: Wes Anderson
+  # Wes Craven Collection:
+  #   template:
+  #     name: Director Writer
+  #     id: 5140
+  #     person: Wes Craven
+
+  #####################################################
+  #              People Collections                   #
+  #####################################################
+
+  Adam Sandler Collection:
+    template:
+      name: Actor
+      id: 19292
+      person: Adam Sandler
+  Abbott and Costello Collection:
+    template:
+      name: Actor List Documentary
+    trakt_list: https://trakt.tv/users/goape/lists/abbott-and-costello
+    summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
+  The Beatles Collection:
+    template:
+      name: Actor List
+    trakt_list: https://trakt.tv/users/goape/lists/the-beatles
+    sort_title: ++_8Beatles Collection
+    summary: Movies featuring/based on the Beatles
+  # Ben Stiller Collection:
+  #   template:
+  #     name: Actor
+  #     id: 7399
+  #     person: Ben Stiller
+  # Bette Davis Collection:
+  #   template:
+  #     name: Actor
+  #     id: 3380
+  #     person: Bette Davis
+  # Bette Midler Collection:
+  #   template:
+  #     name: Actor
+  #     id: 73931
+  #     person: Bette Midler
+  # Cary Grant Collection:
+  #   template:
+  #     name: Actor
+  #     id: 2638
+  #     person: Cary Grant
+  Charlie Chaplin Collection:
+    template:
+      name: Actor
+      id: 13848
+      person: Charlie Chaplin
+    trakt_list: https://trakt.tv/users/goape/lists/charlie-chaplin-collection
+  # Charlton Heston Collection:
+  #   template:
+  #     name: Actor
+  #     id: 10017
+  #     person: Charlton Heston
+  # Chevy Chase Collection:
+  #   template:
+  #     name: Actor
+  #     id: 54812
+  #     person: Chevy Chase
+  Chris Farley Collection:
+    template:
+      name: Actor
+      id: 58198
+      person: Chris Farley
+    summary: Christopher Crosby "Chris" Farley (February 15, 1964 – December 18, 1997) was an American comedian and actor. Farley was a member of Chicago's The Second City Theatre and cast member of the NBC sketch comedy show Saturday Night Live from 1990 to 1995.
+  Demetri Martin Collection:
+    template:
+      name: Actor All
+      id: 84075
+      person: Demetri Martin
+  # Dolly Parton Collection:
+  #   template:
+  #     name: Actor
+  #     id: 67274
+  #     person: Dolly Parton
+  Elvis Presley Collection:
+    template:
+      name: Actor
+      id: 21457
+      person: Elvis Presley
+    tmdb_movie: 31151
+  # Frank Sinatra Collection:
+  #   template:
+  #     name: Actor
+  #     id: 4347
+  #     person: Frank Sinatra
+  # Gene Wilder Collection:
+  #   template:
+  #     name: Actor
+  #     id: 3460
+  #     person: Gene Wilder
+  George Carlin Collection:
+    template:
+      name: Actor All
+      id: 15903
+      person: George Carlin
+  # Harrison Ford Collection:
+  #   template:
+  #     name: Actor
+  #     id: 3
+  #     person: Harrison Ford
+  # Jim Carrey Collection:
+  #   template:
+  #     name: Actor
+  #     id: 206
+  #     person: Jim Carrey
+  # Jodie Foster Collection:
+  #   template:
+  #     name: Actor
+  #     id: 1038
+  #     person: Jodie Foster
+  # John Candy Collection:
+  #   template:
+  #     name: Actor
+  #     id: 7180
+  #     person: John Candy
+  Kathy Griffin Collection:
+    template:
+      name: Actor All
+      id: 3138
+      person: Kathy Griffin
+    summary: >-
+      Kathleen Mary "Kathy" Griffin (born November 4, 1960) is an American actress, model, stand-up comedian, television personality, New York Times best-selling author and an LGBT rights advocate. Griffin first gained recognition for appearances on two episodes of Seinfeld, and then for her supporting role on the NBC sitcom Suddenly Susan. She was the star of the Bravo reality show Kathy Griffin: My Life on the D-List, for which she won two Emmy Awards as executive producer. She has also worked as a voice artist and red carpet commentator, in addition to several other career pursuits. From 2008-2013 she was nominated for a Grammy Award for Best Comedy Album, winning in 2013. In her bid to win a Tony Award, she made her Broadway debut in Kathy Griffin Wants a Tony in March 2011.
+  Laurel & Hardy Collection:
+    template:
+      name: Actor List
+    trakt_list:
+      - https://trakt.tv/users/goape/lists/laurel-hardy
+  # Leslie Nielsen Collection:
+  #   template:
+  #     name: Actor
+  #     id: 7633
+  #     person: Leslie Nielsen
+  #   summary: >-
+  #     Leslie William Nielsen, OC (11 February 1926 – 28 November 2010) was a Canadian and naturalized American actor and comedian. Nielsen appeared in over one hundred films and 1,500 television programs over the span of his career, portraying over 220 characters. Born in Regina, Saskatchewan, Nielsen enlisted in the Royal Canadian Air Force and worked as a disc jockey before receiving a scholarship to Neighborhood Playhouse. Making his television debut in 1948, he quickly expanded to over 50 television appearances two years later. Nielsen made his film debut in 1956, and began collecting roles in dramas, westerns, and romance films. Nielsen's performances in the films Forbidden Planet (1956) and The Poseidon Adventure (1972) received positive reviews as a serious actor, though he is primarily known for his comedic roles.
+
+  #     Although Nielsen's acting career crossed a variety of genres in both television and films, his deadpan delivery in Airplane! (1980) marked a turning point in his career, one that would make him, in the words of film critic Roger Ebert, "the Olivier of spoofs." Nielsen enjoyed further success with The Naked Gun film series (1988 – 1994), based on a short-lived television series Police Squad! in which he starred earlier. His portrayal of serious characters seemingly oblivious to (and complicit in) their absurd surroundings gave him a reputation as a comedian. In the final years of his career, Nielsen appeared in multiple spoof and parody films, many of which were met poorly by critics, but performed well in box office and home media releases. Nielsen married four times and had two daughters from his second marriage. He was recognized with a variety of awards throughout his career, and was inducted into the Canada and Hollywood Walks of Fame.
+  # Lily Tomlin Collection:
+  #   template:
+  #     name: Actor
+  #     id: 10437
+  #     person: Lily Tomlin
+  # Lucille Ball Collection:
+  #   template:
+  #     name: Actor
+  #     id: 40174
+  #     person: Lucille Ball
+  # Mae West Collection:
+  #   template:
+  #     name: Actor
+  #     id: 103616
+  #     person: Mae West
+  Marilyn Monroe Collection:
+    template:
+      name: Actor
+      id: 3149
+      person: Marilyn Monroe
+  Marx Brothers Collection:
+    template:
+      name: Actor List
+    trakt_list:
+      - https://trakt.tv/users/goape/lists/marx-brothers-collection
+    summary: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars and fans to be among the greatest and most influential comedians of the 20th century.
+  # Mike Myers Collection:
+  #   template:
+  #     name: Actor
+  #     id: 12073
+  #     person: Mike Myers
+  # Molly Shannon Collection:
+  #   template:
+  #     name: Actor
+  #     id: 28640
+  #     person: Molly Shannon
+  # Pauly Shore Collection:
+  #   template:
+  #     name: Actor
+  #     id: 64998
+  #     person: Pauly Shore
+  Pryor & Wilder Collection:
+    template:
+      name: Actor List
+    trakt_list:
+      - https://trakt.tv/users/goape/lists/pryor-wilder-collection
+  # Robin Williams Collection:
+  #   template:
+  #     name: Actor
+  #     id: 2157
+  #     person: Robin Williams
+  # Roddy McDowall Collection:
+  #   template:
+  #     name: Actor
+  #     id: 7505
+  #     person: Roddy McDowall
+  # Sacha Baron Cohen Collection:
+  #   template:
+  #     name: Actor
+  #     id: 6730
+  #     person: Sacha Baron
+  # Steve Martin Collection:
+  #   template:
+  #     name: Actor
+  #     id: 67773
+  #     person: Steve Martin
+  # Steve McQueen Collection:
+  #   template:
+  #     name: Actor
+  #     id: 13565
+  #     person: Steve McQueen
+  The Three Stooges Collection:
+    template:
+      name: Search
+      title: Three Stooges
+    sort_title: ++_8Three Stooges Collection
+  # Vincent Price Collection:
+  #   template:
+  #     name: Actor
+  #     id: 1905
+  #     person: Vincent Price
+  # Will Ferrell Collection:
+  #   template:
+  #     name: Actor
+  #     id: 23659
+  #     person: Will Ferrell
