@@ -185,22 +185,17 @@ collections:
       was an American comedian and actor. Farley was a member of Chicago's The
       Second City Theatre and cast member of the NBC sketch comedy show Saturday
       Night Live from 1990 to 1995.
-  Demetri Martin Collection:
+  Dolly Parton Collection:
     template:
-      name: Actor All
-      id: 84075
-      person: Demetri Martin
+      name: Actor
+      id: 67274
+      person: Dolly Parton
   Elvis Presley Collection:
     template:
       name: Actor
       id: 21457
       person: Elvis Presley
     tmdb_movie: 31151
-  George Carlin Collection:
-    template:
-      name: Actor All
-      id: 15903
-      person: George Carlin
   Kathy Griffin Collection:
     template:
       name: Actor All
@@ -241,11 +236,6 @@ collections:
       Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They
       are widely considered by critics, scholars and fans to be among the
       greatest and most influential comedians of the 20th century.
-  Pryor & Wilder Collection:
-    template:
-      name: Actor List
-    trakt_list:
-      - 'https://trakt.tv/users/goape/lists/pryor-wilder-collection'
   The Three Stooges Collection:
     template:
       name: Search

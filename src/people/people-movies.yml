@@ -189,16 +189,16 @@ collections:
       id: 58198
       person: Chris Farley
     summary: Christopher Crosby "Chris" Farley (February 15, 1964 – December 18, 1997) was an American comedian and actor. Farley was a member of Chicago's The Second City Theatre and cast member of the NBC sketch comedy show Saturday Night Live from 1990 to 1995.
-  Demetri Martin Collection:
-    template:
-      name: Actor All
-      id: 84075
-      person: Demetri Martin
-  # Dolly Parton Collection:
+  # Demetri Martin Collection:
   #   template:
-  #     name: Actor
-  #     id: 67274
-  #     person: Dolly Parton
+  #     name: Actor All
+  #     id: 84075
+  #     person: Demetri Martin
+  Dolly Parton Collection:
+    template:
+      name: Actor
+      id: 67274
+      person: Dolly Parton
   Elvis Presley Collection:
     template:
       name: Actor
@@ -215,11 +215,11 @@ collections:
   #     name: Actor
   #     id: 3460
   #     person: Gene Wilder
-  George Carlin Collection:
-    template:
-      name: Actor All
-      id: 15903
-      person: George Carlin
+  # George Carlin Collection:
+  #   template:
+  #     name: Actor All
+  #     id: 15903
+  #     person: George Carlin
   # Harrison Ford Collection:
   #   template:
   #     name: Actor
@@ -302,11 +302,11 @@ collections:
   #     name: Actor
   #     id: 64998
   #     person: Pauly Shore
-  Pryor & Wilder Collection:
-    template:
-      name: Actor List
-    trakt_list:
-      - https://trakt.tv/users/goape/lists/pryor-wilder-collection
+  # Pryor & Wilder Collection:
+  #   template:
+  #     name: Actor List
+  #   trakt_list:
+  #     - https://trakt.tv/users/goape/lists/pryor-wilder-collection
   # Robin Williams Collection:
   #   template:
   #     name: Actor

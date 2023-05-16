@@ -350,6 +350,11 @@ collections:
       summary: >-
         Mutants and monsters attack people who are "unfortunate enough" to be
         stranded near the desert...
+  Hollow Man Collection:
+    template:
+      name: Collection
+      collection: 166376
+      summary: 'If you can''t see him, if you can''t find him, you can''t stop him.'
   House of Wax Collection:
     template:
       name: Collection - Movies
