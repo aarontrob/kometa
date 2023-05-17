@@ -170,8 +170,8 @@ collections:
     template:
       name: People - Actor Trakt List
       list: the-beatles
-      sort_title: ++_7Beatles Collection
       summary: Movies featuring/based on the Beatles
+    sort_title: ++_7Beatles Collection
   Charlie Chaplin Collection:
     template:
       name: Actor
