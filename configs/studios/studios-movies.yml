@@ -89,3 +89,11 @@ collections:
         Starting with Iron Man, the franchise is comprised mainly of films
         independently made by Marvel Studios, that are primarily set within this
         same universe, much like Marvel has done with their comics.
+  Universal Monsters:
+    template:
+      name: Studios - Trakt List
+      list: universal-monsters
+      summary: >-
+        Universal Monsters is a media franchise based on a series of horror
+        films primarily produced by Universal Pictures from the 1930s to the
+        1950s.
