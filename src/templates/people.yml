@@ -1,7 +1,7 @@
 People - Actor:
   smart_filter:
     all:
-      actor: <<actor>>
+      actor: <<person>>
     sort_by: release.desc
   sort_title: ++_7<<collection_name>>
 Actor List:
