@@ -50,3 +50,16 @@ List - Letterboxd List:
     - summary
   name_mapping: <<name_mapping>>
   summary: <<summary>>
+List - IMDB List:
+  letterboxd_list: https://www.imdb.com/<<list>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: <<collection_mode>>
+  sort_title: ++_5<<collection_name>>
+  default:
+    collection_mode: hide_items
+  optional:
+    - name_mapping
+    - summary
+  name_mapping: <<name_mapping>>
+  summary: <<summary>>

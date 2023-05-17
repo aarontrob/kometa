@@ -1,44 +1,46 @@
-Actor:
-  tmdb_actor: <<id>>
-  tmdb_biography: <<id>>
-  sort_title: ++_8<<collection_name>>
+People - Actor:
+  smart_filter:
+    all:
+      actor: <<actor>>
+    sort_by: release.desc
+  sort_title: ++_7<<collection_name>>
 Actor List:
-  sort_title: ++_8<<collection_name>>
+  sort_title: ++_7<<collection_name>>
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
 Actor List Documentary:
-  sort_title: ++_8<<collection_name>>
+  sort_title: ++_7<<collection_name>>
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
 Actor All:
   tmdb_actor: <<id>>
   tmdb_biography: <<id>>
-  sort_title: ++_8<<collection_name>>
+  sort_title: ++_7<<collection_name>>
 Actor Director:
   tmdb_actor: <<id>>
   tmdb_director: <<id>>
   tmdb_biography: <<id>>
-  sort_title: ++_7<<collection_name>>
+  sort_title: ++_6<<collection_name>>
 Actor Director Writer:
   tmdb_actor: <<id>>
   tmdb_director: <<id>>
   tmdb_writer: <<id>>
   tmdb_biography: <<id>>
-  sort_title: ++_7<<collection_name>>
+  sort_title: ++_6<<collection_name>>
 Actor Writer:
   tmdb_actor: <<id>>
   tmdb_writer: <<id>>
   tmdb_biography: <<id>>
-  sort_title: ++_7<<collection_name>>
+  sort_title: ++_6<<collection_name>>
 Director:
   tmdb_director: <<id>>
   tmdb_biography: <<id>>
-  sort_title: ++_7<<collection_name>>
+  sort_title: ++_6<<collection_name>>
 Director List:
   tmdb_biography: <<id>>
-  sort_title: ++_7<<collection_name>>
+  sort_title: ++_6<<collection_name>>
   sync_mode: sync
   collection_order: release
   collection_mode: hide_items
@@ -46,8 +48,8 @@ Director Writer:
   tmdb_writer: <<id>>
   tmdb_director: <<id>>
   tmdb_biography: <<id>>
-  sort_title: ++_7<<collection_name>>
+  sort_title: ++_6<<collection_name>>
 Writer:
   tmdb_writer: <<id>>
   tmdb_biography: <<id>>
-  sort_title: ++_7<<collection_name>>
+  sort_title: ++_6<<collection_name>>

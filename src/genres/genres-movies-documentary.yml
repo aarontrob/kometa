@@ -1,0 +1,19 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/genres.yml
+
+######################################################
+#                Genre Collections                   #
+######################################################
+
+collections:
+  Christmas:
+    template:
+      name: Genre - Trakt List
+      list: movies-christmas
+      collection_order: alpha
+      item_genre: Christmas
+      summary: Merry Christmas! Sh*tter was full.

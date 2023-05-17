@@ -133,8 +133,7 @@ collections:
 
   Adam Sandler Collection:
     template:
-      name: Actor
-      id: 19292
+      name: People - Actor
       person: Adam Sandler
   Abbott and Costello Collection:
     template:
