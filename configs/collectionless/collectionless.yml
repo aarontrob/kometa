@@ -1,0 +1,142 @@
+collections:
+  Collectionless:
+    plex_collectionless:
+      exclude_prefix:
+        - '~'
+      exclude:
+        - Action
+        - Christmas
+        - Christmas Horror
+        - Comedy
+        - Crime
+        - Easter
+        - Fantasy
+        - Food
+        - Hallmark Christmas
+        - Halloween
+        - Musical
+        - Mystery
+        - Sci-Fi
+        - Sports
+        - Thanksgiving
+        - Thriller
+        - Western
+        - 60s
+        - 70s
+        - 80s
+        - 90s
+        - Classic Movies
+        - Aaron
+        - Casey
+        - Tom
+        - 1001 Movies You Must See Before You Die
+        - 101 Action Movies You Must See Before You Die
+        - 101 Cult Movies You Must See Before You Die
+        - 101 Horror Movies You Must See Before You Die
+        - 101 Sci-Fi Movies You Must See Before You Die
+        - AFI Top 100 Comedy
+        - AFI Top 100 Thriller
+        - AFI Top 100 Greatest
+        - Criterion Collection
+        - Empire Magazine's 100 Greatest TV Shows Of All Time
+        - Empire Magazine's 60 Greatest Movie Sequels
+        - Fangoria's 101 Best Horror Movies You've Never Seen
+        - 'Oscars: Winners'
+        - 'Oscars: Best Picture'
+        - 'Oscars: Best Director'
+        - 'Oscars: Best Documentary'
+        - Trending
+        - Vulture’s 101 Best Movie Endings
+        - 4K
+        - Recently Aired
+        - Recently Added
+        - Recently Released
+        - Agatha Christie Collection
+        - Alfred Hitchcock Collection
+        - Christopher Guest Collection
+        - Clint Eastwood Collection
+        - Coen Brothers Collection
+        - David Attenborough Collection
+        - Don Bluth Collection
+        - Dr. Seuss Collection
+        - Edgar Allan Poe Collection
+        - Frank Sinatra Collection
+        - James Cameron Collection
+        - John Carpenter Collection
+        - John Hughes Collection
+        - Ken Burns Collection
+        - M. Night Shyamalan Collection
+        - Mel Brooks Collection
+        - Nicholas Sparks Collection
+        - Quentin Tarantino Collection
+        - Ray Harryhausen Collection
+        - Ridley Scott Collection
+        - Stanley Kubrick Collection
+        - Stephen King Collection
+        - Steven Spielberg Collection
+        - Tim Burton Collection
+        - Wes Anderson Collection
+        - Wes Craven Collection
+        - Adam Sandler Collection
+        - Abbott and Costello Collection
+        - The Beatles Collection
+        - Ben Stiller Collection
+        - Bette Davis Collection
+        - Bette Midler Collection
+        - Chevy Chase Collection
+        - Chris Farley Collection
+        - Charlie Chaplin Collection
+        - Charlton Heston Collection
+        - Cary Grant Collection
+        - Dolly Parton Collection
+        - Elvis Presley Collection
+        - Gene Wilder Collection
+        - George Carlin Collection
+        - Harrison Ford Collection
+        - Jim Carrey Collection
+        - Jodie Foster Collection
+        - John Candy Collection
+        - Kathy Griffin Collection
+        - Laurel & Hardy Collection
+        - Leslie Nielsen Collection
+        - Lily Tomlin Collection
+        - Lucille Ball Collection
+        - Mae West Collection
+        - Marilyn Monroe Collection
+        - Marx Brothers Collection
+        - Mike Myers Collection
+        - Molly Shannon Collection
+        - Pauly Shore Collection
+        - Pryor & Wilder Collection
+        - Robin Williams Collection
+        - Roddy McDowall Collection
+        - Sacha Baron Cohen Collection
+        - Steve Martin Collection
+        - Steve McQueen Collection
+        - The Three Stooges Collection
+        - Vincent Price Collection
+        - Will Ferrell Collection
+        - A24
+        - DC
+        - DC Animated Originals
+        - DCEU
+        - Disney
+        - Disney Channel Original Movies
+        - Hammer Films
+        - Hanna-Barbera
+        - LEGO
+        - Marvel
+        - Marvel Animation
+        - Marvel Cinematic Universe
+        - Nickelodeon
+        - Pixar Animation Studios
+        - Rankin/Bass Christmas Classics
+        - Universal Monsters
+        - Walt Disney Animation Studios
+        - Walt Disney Pictures
+        - Bravo
+        - Cartoon Network
+        - Disney Channel
+        - Disney Junior
+    sort_title: ~~_Collectionless
+    collection_order: alpha
