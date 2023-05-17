@@ -4,7 +4,8 @@ People - Actor:
       actor: <<person>>
     sort_by: release.desc
   sort_title: ++_7<<collection_name>>
-Actor List:
+People - Actor Trakt List:
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   sort_title: ++_7<<collection_name>>
   sync_mode: sync
   collection_order: release

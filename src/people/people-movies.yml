@@ -137,15 +137,15 @@ collections:
       person: Adam Sandler
   Abbott and Costello Collection:
     template:
-      name: Actor List Documentary
-    trakt_list: https://trakt.tv/users/goape/lists/abbott-and-costello
-    summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
+      name: People - Actor
+      person: Bud Abbott, Lou Costello
+      summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
   The Beatles Collection:
     template:
-      name: Actor List
-    trakt_list: https://trakt.tv/users/goape/lists/the-beatles
-    sort_title: ++_8Beatles Collection
-    summary: Movies featuring/based on the Beatles
+      name: People - Actor Trakt List
+      list: the-beatles
+      sort_title: ++_7Beatles Collection
+      summary: Movies featuring/based on the Beatles
   # Ben Stiller Collection:
   #   template:
   #     name: Actor
