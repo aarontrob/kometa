@@ -1,0 +1,79 @@
+templates:
+  List - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: <<collection_mode>>
+    sort_title: ++_5<<collection_name>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - summary
+      - trakt_list_details
+    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<trakt_list_details>>'
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
+  List - Trakt List Custom Order:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    sort_title: ++_5<<collection_name>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - summary
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
+  List - Trakt List Custom Order Details:
+    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    sort_title: ++_5<<collection_name>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - summary
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
+  List - Letterboxd List:
+    letterboxd_list: 'https://letterboxd.com/<<list>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: <<collection_mode>>
+    sort_title: ++_5<<collection_name>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - summary
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
+  List - IMDB List:
+    letterboxd_list: 'https://www.imdb.com/<<list>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: <<collection_mode>>
+    sort_title: ++_5<<collection_name>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - summary
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
+collections:
+  Fangoria's 101 Best Horror Movies You've Never Seen:
+    template:
+      name: List - Trakt List
+      list: fangoria-s-101-best-horror-movies-you-ve-never-seen
+      summary: >-
+        As the leading name in the world of horror, Fangoria magazine has been
+        the source of information for fans of fright flicks for more than twenty
+        years—covering feature films, video games, comic books, collectibles,
+        and all aspects of horror entertainment. Working closely with Fangoria’s
+        experts, including Editor in Chief Anthony Timpone, Adam Lukeman has
+        compiled a must-have guide for casual horror fans and hardcore horror
+        junkies with Fangoria’s 101 Best Horror Films You’ve Never Seen.
