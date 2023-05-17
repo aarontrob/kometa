@@ -1,0 +1,31 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/genres.yml
+
+######################################################
+#                Genre Collections                   #
+######################################################
+
+collections:
+  Christmas Horror:
+    template:
+      name: Genre - Trakt List,
+      list: movies-horror-christmas
+      item_genre: Christmas Horror
+      name_mapping: Christmas Horror
+      summary: Garbage Day!
+  Horror:
+    template:
+      name: Genre - All Items
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: movies-musicals
+      item_genre: Musical
+      name_mapping: Musical Horror
+      summary: Creature of the night!
+    plex_search:
+      genre: Musical

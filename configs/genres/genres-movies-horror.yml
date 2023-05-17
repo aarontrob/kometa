@@ -1,0 +1,57 @@
+templates:
+  Genre:
+    smart_filter:
+      all:
+        genre: <<genre>>
+        genre.not: Stand-Up
+      sort_by: random
+    sort_title: ~_<<collection_name>>
+    only_run_on_create: true
+    collection_mode: hide_items
+    optional:
+      - collection_order
+      - item_genre
+      - item_label
+      - summary
+      - trakt_list
+    collection_order: <<collection_order>>
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<trakt_list>>'
+    summary: <<summary>>
+  Genre - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: ~_<<collection_name>>
+    collection_mode: hide_items
+    optional:
+      - collection_order
+      - item_genre
+      - item_label
+      - label
+      - summary
+    collection_order: <<collection_order>>
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    label: <<label>>
+    summary: <<summary>>
+collections:
+  Christmas Horror:
+    template:
+      name: 'Genre - Trakt List,'
+      list: movies-horror-christmas
+      item_genre: Christmas Horror
+      name_mapping: Christmas Horror
+      summary: Garbage Day!
+  Horror:
+    template:
+      name: Genre - All Items
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: movies-musicals
+      item_genre: Musical
+      name_mapping: Musical Horror
+      summary: Creature of the night!
+    plex_search:
+      genre: Musical
