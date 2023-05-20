@@ -189,8 +189,8 @@ collections:
       summary: A Big Problem Calls For A Big Head
   Hercules Collection:
     template:
-      name: Collection - Hide Movie
-      movie: 11970
+      name: Collection - Movies
+      movie: 11970, 153609
   Hotel Transylvania Collection:
     template:
       name: Collection - Trakt List
