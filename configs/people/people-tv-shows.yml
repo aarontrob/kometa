@@ -1,0 +1,137 @@
+templates:
+  Collection - Show:
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    tmdb_show: <<show>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  Collection - Shows:
+    tmdb_show: <<show>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+      - tvdb_show
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    tvdb_show: <<tvdb_show>>
+    summary: <<summary>>
+  Collection - Hide Show:
+    tmdb_show: <<show>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+  People - Actor:
+    smart_filter:
+      all:
+        actor: <<person>>
+      sort_by: release.desc
+    sort_title: ++_7<<collection_name>>
+  People - Actor Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sort_title: ++_7<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Actor List Documentary:
+    sort_title: ++_7<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Actor All:
+    tmdb_actor: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_7<<collection_name>>
+  Actor Director:
+    tmdb_actor: <<id>>
+    tmdb_director: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Actor Director Writer:
+    tmdb_actor: <<id>>
+    tmdb_director: <<id>>
+    tmdb_writer: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Actor Writer:
+    tmdb_actor: <<id>>
+    tmdb_writer: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Director:
+    tmdb_director: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Director List:
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Director Writer:
+    tmdb_writer: <<id>>
+    tmdb_director: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Writer:
+    tmdb_writer: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Search:
+    plex_search:
+      title: <<title>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+      - show
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+    tmdb_show: <<show>>
+collections:
+  Abbott and Costello Collection:
+    template:
+      name: Collection - Hide Show
+      show: 11821
+      summary: >-
+        Abbott and Costello were an American comedy duo composed of comedians
+        Bud Abbott and Lou Costello, whose work on radio and in film and
+        television made them the most popular comedy team of the 1940s and early
+        1950s and the highest-paid entertainers in the world during World War
+        II.
+    sort_title: ++_7Abbott and Costello Collection
+  The Beatles Collection:
+    template:
+      name: Collection - Shows
+      show: '127907, 128876, 16906'
+      summary: >-
+        The Beatles were an English rock band, formed in Liverpool in 1960,
+        whose best-known line-up comprised John Lennon, Paul McCartney, George
+        Harrison and Ringo Starr. They are regarded as the most influential band
+        of all time and were integral to the development of 1960s counterculture
+        and popular music's recognition as an art form.
+    sort_title: ++_7Beatles Collection
