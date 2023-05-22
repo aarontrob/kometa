@@ -48,6 +48,7 @@ collections:
       collection_order: alpha
       item_genre: Christmas
       summary: Merry Christmas! Sh*tter was full.
+    sort_title: ++_4.5Christmas
   Comedy:
     template:
       name: Genre

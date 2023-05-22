@@ -1,0 +1,69 @@
+templates:
+  Genre:
+    smart_filter:
+      all:
+        genre: <<genre>>
+        genre.not: Stand-Up
+      sort_by: random
+    sort_title: ~_<<collection_name>>
+    only_run_on_create: true
+    collection_mode: hide_items
+    optional:
+      - collection_order
+      - item_genre
+      - item_label
+      - summary
+      - trakt_list
+    collection_order: <<collection_order>>
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<trakt_list>>'
+    summary: <<summary>>
+  Genre - Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: ~_<<collection_name>>
+    collection_mode: hide_items
+    optional:
+      - collection_order
+      - item_genre
+      - item_label
+      - label
+      - summary
+    collection_order: <<collection_order>>
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    label: <<label>>
+    summary: <<summary>>
+collections:
+  Christmas:
+    template:
+      name: Genre - Trakt List
+      list: movies-kids-christmas
+      item_genre: Christmas
+      summary: 'You''re a mean one, Mr. Grinch!'
+    sort_title: ++_4.5Christmas
+  Easter:
+    template:
+      name: Genre - Trakt List
+      list: movies-kids-easter
+      summary: '“Hop, hop, hop!”'
+    sort_title: ++_4.5Easter
+  Halloween:
+    template:
+      name: Genre - Trakt List
+      list: movies-kids-halloween
+      summary: Who's afraid of ghosts?
+    sort_title: ++_4.5Hallowen
+  Thanksgiving:
+    template:
+      name: Genre - Trakt List
+      list: movies-kids-thanksgiving
+      summary: '“Gobble, gobble!”'
+    sort_title: ++_4.5Thanksgiving
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: movies-musicals
+      item_genre: Musical
+      summary: null
