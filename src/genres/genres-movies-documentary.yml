@@ -13,7 +13,7 @@ collections:
   Christmas:
     template:
       name: Genre - Trakt List
-      list: movies-christmas
+      list: https://trakt.tv/users/goape/lists/movies-christmas
       collection_order: alpha
       item_genre: Christmas
       summary: Merry Christmas! Sh*tter was full.

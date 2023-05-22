@@ -1,6 +1,6 @@
 templates:
   List - Trakt List:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     sync_mode: sync
     collection_order: release
     collection_mode: <<collection_mode>>
@@ -11,11 +11,11 @@ templates:
       - name_mapping
       - summary
       - trakt_list_details
-    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<trakt_list_details>>'
+    trakt_list_details: <<trakt_list_details>>
     name_mapping: <<name_mapping>>
     summary: <<summary>>
   List - Trakt List Custom Order:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     sync_mode: sync
     collection_order: custom
     sort_title: ++_5<<collection_name>>
@@ -27,7 +27,7 @@ templates:
     name_mapping: <<name_mapping>>
     summary: <<summary>>
   List - Trakt List Custom Order Details:
-    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list_details: <<list>>
     sync_mode: sync
     collection_order: custom
     sort_title: ++_5<<collection_name>>
@@ -68,7 +68,8 @@ collections:
   Fangoria's 101 Best Horror Movies You've Never Seen:
     template:
       name: List - Trakt List
-      list: fangoria-s-101-best-horror-movies-you-ve-never-seen
+      list: >-
+        https://trakt.tv/users/goape/lists/fangoria-s-101-best-horror-movies-you-ve-never-seen
       summary: >-
         As the leading name in the world of horror, Fangoria magazine has been
         the source of information for fans of fright flicks for more than twenty

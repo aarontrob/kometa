@@ -14,24 +14,24 @@ collections:
     template:
       name: Studio
       company: 41077
-      list: a24
+      list: https://trakt.tv/users/goape/lists/a24
       summary: A24 is an American independent entertainment company founded on August 20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes in film and television production, as well as film distribution. It is based in New York City.
   DC:
     template:
       name: Studio
       company: 9993
-      list: dc
+      list: https://trakt.tv/users/goape/lists/dc
       summary: DC Films is an American film studio that is a subsidiary of Warner Bros. through the Warner Bros. Pictures Group, dedicated to the production of films based on characters from DC Entertainment.
   DC Animated Originals:
     template:
       name: Studio - Trakt List
-      list: dc-animated
+      list: https://trakt.tv/users/goape/lists/dc-animated
       summary: The DC Animated Universe (DCAU; also referred to as the Timmverse or Diniverse by fans) is a shared universe of superhero-based animated television series, produced by Warner Bros. Animation and based on characters that appear in American comic books published by DC Comics.
   Hammer Films:
     template:
       name: Studio - Smart
       studio: Hammer Film Productions
-      # list: hammer-films
+      # list: https://trakt.tv/users/goape/lists/hammer-films
       summary: Hammer Film Productions Ltd. is a British film production company based in London. Founded in 1934, the company is best known for a series of Gothic horror and fantasy films made from the mid-1950s until the 1970s. Many of these involved classic horror characters such as Baron Victor Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to audiences by filming them in vivid colour for the first time.
   LEGO:
     template:
@@ -42,19 +42,19 @@ collections:
     template:
       name: Studio
       company: "7505, 19551, 420, 11106, 13252, 38679"
-      list: marvel
+      list: https://trakt.tv/users/goape/lists/marvel
       summary: "With great power comes great responsibility"
   Marvel Animation:
     template:
       name: Studio
       company: 13252
-      list: marvel-animation
+      list: https://trakt.tv/users/goape/lists/marvel-animation
       summary: Marvel Animation, Inc. (originally the home entertainment and TV production division of Marvel Studios and also referred to as Marvel Family Entertainment) is an American animation production company. The Marvel Studios subsidiary was incorporated on January 25, 2008 to direct Marvel's efforts in animation and home entertainment markets. The incorporated Marvel Animation included then ongoing animation efforts by Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated under Marvel Studios, a subsidiary of Walt Disney Studios, a division of The Walt Disney Company.
   Nickelodeon:
     template:
       name: Studio
       company: 4859, 5371, 2348
-      list: nickelodeon
+      list: https://trakt.tv/users/goape/lists/nickelodeon
       summary: >-
         Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
         Nickelodeon

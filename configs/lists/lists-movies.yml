@@ -1,6 +1,6 @@
 templates:
   List - Trakt List:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     sync_mode: sync
     collection_order: release
     collection_mode: <<collection_mode>>
@@ -11,11 +11,11 @@ templates:
       - name_mapping
       - summary
       - trakt_list_details
-    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<trakt_list_details>>'
+    trakt_list_details: <<trakt_list_details>>
     name_mapping: <<name_mapping>>
     summary: <<summary>>
   List - Trakt List Custom Order:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     sync_mode: sync
     collection_order: custom
     sort_title: ++_5<<collection_name>>
@@ -27,7 +27,7 @@ templates:
     name_mapping: <<name_mapping>>
     summary: <<summary>>
   List - Trakt List Custom Order Details:
-    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list_details: <<list>>
     sync_mode: sync
     collection_order: custom
     sort_title: ++_5<<collection_name>>
@@ -51,11 +51,25 @@ templates:
       - summary
     name_mapping: <<name_mapping>>
     summary: <<summary>>
+  List - IMDB List:
+    letterboxd_list: 'https://www.imdb.com/<<list>>'
+    sync_mode: sync
+    collection_order: release
+    collection_mode: <<collection_mode>>
+    sort_title: ++_5<<collection_name>>
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - summary
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
 collections:
   101 Action Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: 101-action-movies-you-must-see-before-you-die
+      list: >-
+        https://trakt.tv/users/goape/lists/101-action-movies-you-must-see-before-you-die
       summary: >-
         Action movies can be called the purest form of cinema because they tell
         their stories visually, rather than through dialogue. Found on this list
@@ -68,7 +82,8 @@ collections:
   101 Cult Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: 101-cult-movies-you-must-see-before-you-die
+      list: >-
+        https://trakt.tv/users/goape/lists/101-cult-movies-you-must-see-before-you-die
       summary: >-
         Many--possibly most--films that achieve cult status begin as box office
         failures, and then over the years start attracting groups of devoted
@@ -79,7 +94,8 @@ collections:
   101 Horror Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: 101-horror-movies-you-must-see-before-you-die
+      list: >-
+        https://trakt.tv/users/goape/lists/101-horror-movies-you-must-see-before-you-die
       summary: >-
         Whether it be internal demons, real-life vampires, anonymous serial
         killers, crazed spouses, vengeful ghosts or Satan himself, horror films
@@ -105,7 +121,8 @@ collections:
   1001 Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: 1001-movies-you-must-see-before-you-die
+      list: >-
+        https://trakt.tv/users/goape/lists/1001-movies-you-must-see-before-you-die
       summary: >-
         "You played it for her, Sam. Now, play it for me." Everybody loves a
         good movie, and Casablanca is just one of the classics described in
@@ -153,7 +170,8 @@ collections:
   101 Sci-Fi Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: 101-sci-fi-movies-you-must-see-before-you-die
+      list: >-
+        https://trakt.tv/users/goape/lists/101-sci-fi-movies-you-must-see-before-you-die
       summary: >-
         If you want to know your Degoba from your Delos or your Ming from your
         Morlock, if you can't decide whether to eat Soylent Green or in Mos
@@ -178,7 +196,7 @@ collections:
   AFI Top 100 Comedy:
     template:
       name: List - Trakt List
-      list: afi-s-100-years-100-laughs
+      list: 'https://trakt.tv/users/goape/lists/afi-s-100-years-100-laughs'
       summary: >-
         Regardless of genre, the films on this list possess a total comedic
         impact that creates an experience greater than the sum of the smiles.
@@ -203,7 +221,7 @@ collections:
   AFI Top 100 Greatest:
     template:
       name: List - Trakt List
-      list: afi-s-100-years-100-movies
+      list: 'https://trakt.tv/users/goape/lists/afi-s-100-years-100-movies'
       summary: >-
         In 1998, AFI invited more than 1,500 leaders from across the American
         film community – screenwriters, directors, actors, producers,
@@ -213,7 +231,7 @@ collections:
   AFI Top 100 Thriller:
     template:
       name: List - Trakt List
-      list: afi-s-100-years-100-thrills
+      list: 'https://trakt.tv/users/goape/lists/afi-s-100-years-100-thrills'
       summary: >-
         Regardless of genre, the total adrenaline-inducing impact of the
         artistry and craft of these films create an experience that engages our
@@ -234,7 +252,7 @@ collections:
   Criterion Collection:
     template:
       name: List - Letterboxd List
-      list: sadhomersimpson/list/criterion/
+      list: 'https://trakt.tv/users/goape/lists/sadhomersimpson/list/criterion/'
       summary: >-
         The Criterion Collection, Inc. (or simply Criterion) is an American
         home-video distribution company that focuses on licensing, restoring and
@@ -250,7 +268,8 @@ collections:
   Empire Magazine's 60 Greatest Sequels:
     template:
       name: List - Trakt List Custom Order Details
-      list: empire-magazine-s-60-greatest-movie-sequels
+      list: >-
+        https://trakt.tv/users/goape/lists/empire-magazine-s-60-greatest-movie-sequels
   Trending:
     sort_title: ++_1Trending
     smart_label: random

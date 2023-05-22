@@ -1,6 +1,6 @@
 templates:
   Profiles - Trakt List:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     sync_mode: sync
     collection_order: alpha
     collection_mode: hide_items
@@ -15,7 +15,7 @@ collections:
     template:
       name: Profiles - Trakt List
       list:
-        - movies-aaron
-        - movies-aaron-kids
+        - 'https://trakt.tv/users/goape/lists/movies-aaron'
+        - 'https://trakt.tv/users/goape/lists/movies-aaron-kids'
       label: Aaron
       summary: Movies for Aaron

@@ -1,5 +1,5 @@
 Profiles - Trakt List:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: <<list>>
   sync_mode: sync
   collection_order: alpha
   collection_mode: hide_items

@@ -17,10 +17,10 @@ templates:
     collection_order: <<collection_order>>
     item_genre: <<item_genre>>
     item_label: <<item_label>>
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<trakt_list>>'
+    trakt_list: <<trakt_list>>
     summary: <<summary>>
   Genre - Trakt List:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     sync_mode: sync
     sort_title: ~_<<collection_name>>
     collection_mode: hide_items
@@ -39,7 +39,7 @@ collections:
   Christmas Horror:
     template:
       name: 'Genre - Trakt List,'
-      list: movies-horror-christmas
+      list: 'https://trakt.tv/users/goape/lists/movies-horror-christmas'
       item_genre: Christmas Horror
       name_mapping: Christmas Horror
       summary: Garbage Day!
@@ -49,7 +49,7 @@ collections:
   Musical:
     template:
       name: Genre - Trakt List
-      list: movies-musicals
+      list: 'https://trakt.tv/users/goape/lists/movies-musicals'
       item_genre: Musical
       name_mapping: Musical Horror
       summary: Creature of the night!

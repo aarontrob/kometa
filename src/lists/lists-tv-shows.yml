@@ -13,7 +13,7 @@ collections:
   Empire Magazine's 100 Greatest TV Shows Of All Time:
     template:
       name: List - Trakt List Custom Order
-      list: empire-magazine-s-100-greatest-tv-shows-of-all-time
+      list: https://trakt.tv/users/goape/lists/empire-magazine-s-100-greatest-tv-shows-of-all-time
       summary: >-
         It’s true: we’re living in a golden age of television. Some of the best TV series of all time have aired in the last few years – from character-driven dramas to big-budget sci-fi and fantasy shows with film-level production values – taking full advantage of the possibilities of long-form serialised storytelling. With cable-channel blockbusters, the arrival of streaming services, and the rise of idiosyncratic shows from diverse creators, the art of television is at an all-time high.
 

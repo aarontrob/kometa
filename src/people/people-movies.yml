@@ -143,7 +143,7 @@ collections:
   The Beatles Collection:
     template:
       name: People - Actor Trakt List
-      list: the-beatles
+      list: https://trakt.tv/users/goape/lists/the-beatles
       summary: Movies featuring/based on the Beatles
     sort_title: ++_7Beatles Collection
   # Ben Stiller Collection:

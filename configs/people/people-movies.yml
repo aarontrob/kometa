@@ -6,7 +6,7 @@ templates:
       sort_by: release.desc
     sort_title: ++_7<<collection_name>>
   People - Actor Trakt List:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     sort_title: ++_7<<collection_name>>
     sync_mode: sync
     collection_order: release
@@ -169,7 +169,7 @@ collections:
   The Beatles Collection:
     template:
       name: People - Actor Trakt List
-      list: the-beatles
+      list: 'https://trakt.tv/users/goape/lists/the-beatles'
       summary: Movies featuring/based on the Beatles
     sort_title: ++_7Beatles Collection
   Charlie Chaplin Collection:

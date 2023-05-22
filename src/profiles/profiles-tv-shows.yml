@@ -13,7 +13,9 @@ collections:
   Aaron:
     template:
       name: Profiles - Trakt List
-      list: tv-aaron, tv-kids-aaron
+      list:
+        - https://trakt.tv/users/goape/lists/tv-aaron
+        - https://trakt.tv/users/goape/lists/tv-kids-aaron
       label: Aaron
       summary: TV Shows for Aaron
     plex_search:
@@ -21,12 +23,12 @@ collections:
   Casey:
     template:
       name: Profiles - Trakt List
-      list: tv-casey
+      list: https://trakt.tv/users/goape/lists/tv-casey
       label: Casey
       summary: TV Shows for Casey
   Tom:
     template:
       name: Profiles - Trakt List
-      list: tv-dad
+      list: https://trakt.tv/users/goape/lists/tv-dad
       label: Tom
       summary: TV Shows for Tom

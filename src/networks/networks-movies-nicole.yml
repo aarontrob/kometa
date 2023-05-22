@@ -15,7 +15,7 @@ collections:
       name: Network
       network: 4056
       tmdb_movie: 317114, 594695, 361746, 609434, 663566
-      trakt_list: movies-hallmark
+      trakt_list: https://trakt.tv/users/goape/lists/movies-hallmark
   Lifetime:
     template:
       name: Network

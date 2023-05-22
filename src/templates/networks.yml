@@ -8,10 +8,10 @@ Network:
     - trakt_list
     - summary
   tmdb_movie: <<tmdb_movie>>
-  trakt_list: https://trakt.tv/users/goape/lists/<<trakt_list>>
+  trakt_list: <<trakt_list>>
   summary: <<summary>>
 Network - Trakt List:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: <<list>>
   collection_order: release
   collection_mode: hide_items
   sort_title: ++_5.5<<collection_name>>

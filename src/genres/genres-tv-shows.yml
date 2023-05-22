@@ -13,35 +13,35 @@ collections:
   Christmas:
     template:
       name: Genre - Trakt List
-      list: tv-christmas
+      list: https://trakt.tv/users/goape/lists/tv-christmas
       summary: “The best way to spread Christmas cheer is singing loud for all to hear.”
   Christmas Episodes:
     template:
       name: Genre - Trakt List
-      list: tv-christmas-episodes
+      list: https://trakt.tv/users/goape/lists/tv-christmas-episodes
       collection_order: alpha
     collection_level: episode
   Food:
     template:
       name: Genre - Trakt List
-      list: tv-food
+      list: https://trakt.tv/users/goape/lists/tv-food
       summary: “Get in my belly!”
   Halloween:
     template:
       name: Genre - Trakt List
-      list: tv-halloween
+      list: https://trakt.tv/users/goape/lists/tv-halloween
       summary: “It’s all just a bunch of hocus pocus.”
   Gay:
     template:
       name: Genre - Trakt List
-      list: tv-gay
+      list: https://trakt.tv/users/goape/lists/tv-gay
       summary: Slay
       item_label: Gay
       label: Gay
   Musical:
     template:
       name: Genre - Trakt List
-      list: tv-musicals
+      list: https://trakt.tv/users/goape/lists/tv-musicals
   Reality:
     template:
       name: Genre

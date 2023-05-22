@@ -14,12 +14,12 @@ collections:
     template:
       name: Genre - Trakt List
       list:
-        - movies-hallmark-christmas
-        - movies-lifetime-christmas
-        - movies-mom-christmas
+        - https://trakt.tv/users/goape/lists/movies-hallmark-christmas
+        - https://trakt.tv/users/goape/lists/movies-lifetime-christmas
+        - https://trakt.tv/users/goape/lists/movies-mom-christmas
       summary: Merry Christmas!
   Hallmark Christmas:
     template:
       name: Genre - Trakt List
-      list: movies-hallmark-christmas
+      list: https://trakt.tv/users/goape/lists/movies-hallmark-christmas
       summary: Merry Christmas!

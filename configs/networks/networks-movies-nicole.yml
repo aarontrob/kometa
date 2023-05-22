@@ -9,10 +9,10 @@ templates:
       - trakt_list
       - summary
     tmdb_movie: <<tmdb_movie>>
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<trakt_list>>'
+    trakt_list: <<trakt_list>>
     summary: <<summary>>
   Network - Trakt List:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     collection_order: release
     collection_mode: hide_items
     sort_title: ++_5.5<<collection_name>>
@@ -25,7 +25,7 @@ collections:
       name: Network
       network: 4056
       tmdb_movie: '317114, 594695, 361746, 609434, 663566'
-      trakt_list: movies-hallmark
+      trakt_list: 'https://trakt.tv/users/goape/lists/movies-hallmark'
   Lifetime:
     template:
       name: Network

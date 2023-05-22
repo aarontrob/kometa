@@ -1,5 +1,5 @@
 List - Trakt List:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: <<list>>
   sync_mode: sync
   collection_order: release
   collection_mode: <<collection_mode>>
@@ -10,11 +10,11 @@ List - Trakt List:
     - name_mapping
     - summary
     - trakt_list_details
-  trakt_list_details: https://trakt.tv/users/goape/lists/<<trakt_list_details>>
+  trakt_list_details: <<trakt_list_details>>
   name_mapping: <<name_mapping>>
   summary: <<summary>>
 List - Trakt List Custom Order:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: <<list>>
   sync_mode: sync
   collection_order: custom
   sort_title: ++_5<<collection_name>>
@@ -26,7 +26,7 @@ List - Trakt List Custom Order:
   name_mapping: <<name_mapping>>
   summary: <<summary>>
 List - Trakt List Custom Order Details:
-  trakt_list_details: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list_details: <<list>>
   sync_mode: sync
   collection_order: custom
   sort_title: ++_5<<collection_name>>
