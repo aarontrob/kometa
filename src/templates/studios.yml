@@ -6,7 +6,7 @@ Studio:
   optional:
     - list
     - summary
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: <<list>>
   summary: <<summary>>
 Studio - Smart:
   smart_filter:
@@ -19,7 +19,7 @@ Studio - Smart:
     - summary
   summary: <<summary>>
 Studio - Trakt List:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: <<list>>
   collection_order: release
   collection_mode: hide_items
   sort_title: ++_4<<collection_name>>
@@ -27,7 +27,7 @@ Studio - Trakt List:
     - summary
   summary: <<summary>>
 Studio - Trakt List Custom Order:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: <<list>>
   collection_order: custom
   collection_mode: hide_items
   sort_title: ++_4<<collection_name>>

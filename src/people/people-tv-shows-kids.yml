@@ -1,0 +1,21 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/collection-tv-shows.yml
+  - ../templates/people.yml
+  - ../templates/search.yml
+
+######################################################
+#               Director Collections                 #
+######################################################
+
+collections:
+  Dr. Seuss Collection:
+    template:
+      name: Writer
+      id: 65705
+      person: Dr. Seuss
+    trakt_list: https://trakt.tv/users/goape/lists/dr-seuss-collection
+    name_mapping: Dr Seuss Collection

@@ -7,7 +7,7 @@ templates:
     optional:
       - list
       - summary
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     summary: <<summary>>
   Studio - Smart:
     smart_filter:
@@ -20,7 +20,7 @@ templates:
       - summary
     summary: <<summary>>
   Studio - Trakt List:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     collection_order: release
     collection_mode: hide_items
     sort_title: ++_4<<collection_name>>
@@ -28,7 +28,7 @@ templates:
       - summary
     summary: <<summary>>
   Studio - Trakt List Custom Order:
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    trakt_list: <<list>>
     collection_order: custom
     collection_mode: hide_items
     sort_title: ++_4<<collection_name>>
@@ -50,12 +50,12 @@ collections:
     template:
       name: Studio
       company: '2, 3, 6125, 3166, 3475, 670'
-      list: disney
+      list: 'https://trakt.tv/users/goape/lists/disney'
   Hanna-Barbera:
     template:
       name: Studio
       company: 1353
-      list: hanna-barbera
+      list: 'https://trakt.tv/users/goape/lists/hanna-barbera'
       summary: >-
         Hanna-Barbera Productions, Inc. also variously known as H-B Enterprises,
         H-B Production Co., and Hanna-Barbera Cartoons, Inc., was an American
@@ -69,7 +69,7 @@ collections:
     template:
       name: Studio
       company: '7505, 19551, 420, 11106, 13252, 38679'
-      list: marvel
+      list: 'https://trakt.tv/users/goape/lists/marvel'
       summary: With great power comes great responsibility
     plex_search:
       title: I Am Groot
@@ -80,7 +80,7 @@ collections:
     template:
       name: Studio
       company: 13252
-      list: marvel-animation
+      list: 'https://trakt.tv/users/goape/lists/marvel-animation'
       summary: >-
         Marvel Animation, Inc. (originally the home entertainment and TV
         production division of Marvel Studios and also referred to as Marvel
@@ -96,7 +96,7 @@ collections:
   Pixar Animation Studios:
     template:
       name: Studio - Trakt List
-      list: pixar-animation-studios
+      list: 'https://trakt.tv/users/goape/lists/pixar-animation-studios'
       summary: >-
         Pixar Animation Studios is an American computer animation studio known
         for its critically and commercially successful feature films. It is

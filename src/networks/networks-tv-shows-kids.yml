@@ -33,7 +33,7 @@ collections:
       name: Network - Trakt List
       list: https://trakt.tv/users/goape/lists/disney-afternoon-collection
       summary: The Disney Afternoon was a created-for-syndication two-hour animated television block programming produced by Walt Disney Television Animation and distributed through its syndication affiliate Buena Vista Television. Each show from the block has aired reruns on Disney Channel and Toon Disney.
-    sort_title: ++_7Disney2 Afternoon Collection
+    sort_title: ++_5Disney2 Afternoon Collection
   Disney Junior:
     template:
       name: Network

@@ -1,0 +1,18 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/genres.yml
+
+######################################################
+#                Genre Collections                   #
+######################################################
+
+collections:
+  Christmas Episodes:
+    template:
+      name: Genre - Trakt List
+      list: https://trakt.tv/users/goape/lists/tv-christmas-episodes
+      collection_order: alpha
+    collection_level: episode
