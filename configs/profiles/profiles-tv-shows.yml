@@ -14,9 +14,7 @@ collections:
   Aaron:
     template:
       name: Profiles - Trakt List
-      list:
-        - tv-aaron
-        - tv-kids-aaron
+      list: 'tv-aaron, tv-kids-aaron'
       label: Aaron
       summary: TV Shows for Aaron
     plex_search:
