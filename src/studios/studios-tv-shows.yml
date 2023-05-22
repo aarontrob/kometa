@@ -16,11 +16,21 @@ collections:
       company: 41077
       list: a24
       summary: A24 is an American independent entertainment company founded on August 20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes in film and television production, as well as film distribution. It is based in New York City.
+  DC:
+    template:
+      name: Studio
+      company: 9993
+      list: dc
+      summary: DC Films is an American film studio that is a subsidiary of Warner Bros. through the Warner Bros. Pictures Group, dedicated to the production of films based on characters from DC Entertainment.
+  DC Animated Originals:
+    template:
+      name: Studio - Trakt List
+      list: dc-animated
+      summary: The DC Animated Universe (DCAU; also referred to as the Timmverse or Diniverse by fans) is a shared universe of superhero-based animated television series, produced by Warner Bros. Animation and based on characters that appear in American comic books published by DC Comics.
   Disney:
     template:
-      name: Studio + Network
+      name: Studio
       company: 2, 3, 6125, 3166, 3475, 670
-      network: 54, 281, 44, 142
       list: disney
     plex_search:
       title:
@@ -29,6 +39,11 @@ collections:
     show_filtered: true
     filters:
       title.not: Storm of the Century
+  LEGO:
+    template:
+      name: Studio - Search
+      title: LEGO, Lego
+      summary: The bane of your foot's existence.
   Marvel Cinematic Universe:
     template:
       name: Studio - Trakt List
