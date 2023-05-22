@@ -3,36 +3,35 @@ templates:
     tmdb_company: <<company>>
     collection_order: release
     collection_mode: hide_items
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_4<<collection_name>>
     optional:
       - list
       - summary
-    trakt_list: "https://trakt.tv/users/goape/lists/<<list>>"
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     summary: <<summary>>
-  Studio + Network:
-    tmdb_company: <<company>>
-    tmdb_network: <<network>>
-    collection_order: release
-    collection_mode: hide_items
-    sort_title: ++_6<<collection_name>>
+  Studio - Smart:
+    smart_filter:
+      any:
+        studio: <<studio>>
+      sort_by: release.desc
+    sort_title: ++_4<<collection_name>>
+    only_run_on_create: true
     optional:
-      - list
       - summary
-    trakt_list: "https://trakt.tv/users/goape/lists/<<list>>"
     summary: <<summary>>
   Studio - Trakt List:
-    trakt_list: "https://trakt.tv/users/goape/lists/<<list>>"
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     collection_order: release
     collection_mode: hide_items
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_4<<collection_name>>
     optional:
       - summary
     summary: <<summary>>
   Studio - Trakt List Custom Order:
-    trakt_list: "https://trakt.tv/users/goape/lists/<<list>>"
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     collection_order: custom
     collection_mode: hide_items
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_4<<collection_name>>
     sync_mode: sync
     optional:
       - summary
@@ -42,7 +41,7 @@ templates:
       title: <<title>>
     collection_order: release
     collection_mode: hide_items
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_4<<collection_name>>
     optional:
       - summary
     summary: <<summary>>
@@ -75,17 +74,10 @@ collections:
         Diniverse by fans) is a shared universe of superhero-based animated
         television series, produced by Warner Bros. Animation and based on
         characters that appear in American comic books published by DC Comics.
-  Disney:
-    template:
-      name: Studio
-      company: "2, 3, 6125, 3166"
-      list: disney
-      summary: It was all started with a mouse
   Hammer Films:
     template:
-      name: Studio
-      company: 1314
-      list: hammer-films
+      name: Studio - Smart
+      studio: Hammer Film Productions
       summary: >-
         Hammer Film Productions Ltd. is a British film production company based
         in London. Founded in 1934, the company is best known for a series of
@@ -96,31 +88,19 @@ collections:
   LEGO:
     template:
       name: Studio - Search
-      title: "LEGO, Lego"
+      title: 'LEGO, Lego'
       summary: The bane of your foot's existence.
   Marvel:
     template:
       name: Studio
-      company: "7505, 19551, 420, 11106, 13252, 38679"
+      company: '7505, 19551, 420, 11106, 13252, 38679'
       list: marvel
       summary: With great power comes great responsibility
-  Marvel Cinematic Universe:
-    template:
-      name: Studio - Trakt List
-      list: mcu
-      summary: >-
-        The Marvel Cinematic Universe is a media franchise created by Marvel
-        Studios, set primarily in a shared universe designated as the reality
-        Earth-199999 within Marvel's multiverse system, with some installments
-        also set in adjacent or branching realities.
-
-        Starting with Iron Man, the franchise is comprised mainly of films
-        independently made by Marvel Studios, that are primarily set within this
-        same universe, much like Marvel has done with their comics.
   Marvel Animation:
     template:
       name: Studio
       company: 13252
+      list: marvel-animation
       summary: >-
         Marvel Animation, Inc. (originally the home entertainment and TV
         production division of Marvel Studios and also referred to as Marvel
@@ -131,14 +111,12 @@ collections:
         Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated
         under Marvel Studios, a subsidiary of Walt Disney Studios, a division of
         The Walt Disney Company.
-    plex_search:
-      title: I Am Groot
   Nickelodeon:
     template:
-      name: Studio + Network
-      company: "4859, 5371, 2348"
-      network: 13
-      summary: "Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon"
+      name: Studio
+      company: '4859, 5371, 2348'
+      list: nickelodeon
+      summary: 'Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon'
   Sony Pictures Animation:
     template:
       name: Studio
@@ -147,3 +125,16 @@ collections:
         Sony Pictures Animation Inc. is an American animation studio owned by
         Sony Entertainment's Sony Pictures Entertainment through their Motion
         Picture Group division and founded on May 9, 2002.
+  Walt Disney Pictures:
+    template:
+      name: Studio - Smart
+      studio: Walt Disney Pictures
+      summary: >-
+        Walt Disney Pictures is an American film production studio of The Walt
+        Disney Studios, which is owned by The Walt Disney Company. The studio is
+        the flagship producer of live-action feature films within the Walt
+        Disney Studios unit, and is based at the Walt Disney Studios in Burbank,
+        California. Animated films produced by Walt Disney Animation Studios and
+        Pixar Animation Studios are also released under this brand. Walt Disney
+        Studios Motion Pictures distributes and markets the films produced by
+        Walt Disney Pictures.

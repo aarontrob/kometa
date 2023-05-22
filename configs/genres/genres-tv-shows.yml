@@ -74,4 +74,5 @@ collections:
     template:
       name: Genre
       genre: Reality
+      item_genre: Reality
       summary: 'Who gon'' check me, boo?'

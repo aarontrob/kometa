@@ -27,5 +27,5 @@ collections:
     # schedule: weekly(sunday)
     label: Trending
     sync_mode: sync
-    sort_title: ++_1Trending
+    sort_title: ++_1.5Trending
     summary: TV Shows trending across the internet
