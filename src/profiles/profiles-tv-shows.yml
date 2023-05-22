@@ -13,9 +13,7 @@ collections:
   Aaron:
     template:
       name: Profiles - Trakt List
-      list:
-        - https://trakt.tv/users/goape/lists/tv-aaron
-        - https://trakt.tv/users/goape/lists/tv-kids-aaron
+      list: https://trakt.tv/users/goape/lists/tv-aaron
       label: Aaron
       summary: TV Shows for Aaron
     plex_search:

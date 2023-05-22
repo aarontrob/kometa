@@ -13,8 +13,6 @@ collections:
   Aaron:
     template:
       name: Profiles - Trakt List
-      list:
-        - https://trakt.tv/users/goape/lists/movies-aaron
-        - https://trakt.tv/users/goape/lists/movies-aaron-kids
+      list: https://trakt.tv/users/goape/lists/movies-aaron
       label: Aaron
       summary: Movies for Aaron
