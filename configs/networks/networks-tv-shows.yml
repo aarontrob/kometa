@@ -3,12 +3,19 @@ templates:
     tmdb_network: <<network>>
     collection_order: release
     collection_mode: hide_items
-    sort_title: ++_7<<collection_name>>
+    sort_title: ++_5<<collection_name>>
+    optional:
+      - tmdb_movie
+      - trakt_list
+      - summary
+    tmdb_movie: <<tmdb_movie>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<trakt_list>>'
+    summary: <<summary>>
   Network - Trakt List:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     collection_order: release
     collection_mode: hide_items
-    sort_title: ++_7<<collection_name>>
+    sort_title: ++_5<<collection_name>>
     optional:
       - summary
     summary: <<summary>>
