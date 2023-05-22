@@ -1,0 +1,91 @@
+templates:
+  People - Actor:
+    smart_filter:
+      all:
+        actor: <<person>>
+      sort_by: release.desc
+    sort_title: ++_7<<collection_name>>
+  People - Actor Trakt List:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sort_title: ++_7<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Actor List Documentary:
+    sort_title: ++_7<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Actor All:
+    tmdb_actor: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_7<<collection_name>>
+  Actor Director:
+    tmdb_actor: <<id>>
+    tmdb_director: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Actor Director Writer:
+    tmdb_actor: <<id>>
+    tmdb_director: <<id>>
+    tmdb_writer: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Actor Writer:
+    tmdb_actor: <<id>>
+    tmdb_writer: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Director:
+    tmdb_director: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Director List:
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide_items
+  Director Writer:
+    tmdb_writer: <<id>>
+    tmdb_director: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Writer:
+    tmdb_writer: <<id>>
+    tmdb_biography: <<id>>
+    sort_title: ++_6<<collection_name>>
+  Search:
+    plex_search:
+      title: <<title>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+      - show
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+    tmdb_show: <<show>>
+collections:
+  Don Bluth Collection:
+    template:
+      name: Director
+      id: 40345
+      person: Don Bluth
+  Dr. Seuss Collection:
+    template:
+      name: Writer
+      id: 65705
+      person: Dr. Seuss
+    trakt_list: 'https://trakt.tv/users/goape/lists/dr-seuss-collection'
+    name_mapping: Dr Seuss Collection
+  Julia Donaldson Collection:
+    template:
+      name: Writer
+      id: 592851
+      person: Julia Donaldson

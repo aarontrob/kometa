@@ -1,11 +1,3 @@
-templates:
-  Decade:
-    smart_filter:
-      any:
-        year: <<year>>
-      sort_by: year.asc
-    sort_title: ++_3<<collection_name>>
-    only_run_on_create: true
 collections:
   Recently Released:
     smart_filter:
@@ -16,51 +8,3 @@ collections:
     name_mapping: Recently Released
     only_run_on_create: true
     summary: Movies released in the last 365 days
-  20s-50s:
-    template:
-      name: Decade
-      year:
-        - 1920
-        - 1921
-        - 1922
-        - 1923
-        - 1924
-        - 1925
-        - 1926
-        - 1927
-        - 1928
-        - 1929
-        - 1930
-        - 1931
-        - 1932
-        - 1933
-        - 1934
-        - 1935
-        - 1936
-        - 1937
-        - 1938
-        - 1939
-        - 1940
-        - 1941
-        - 1942
-        - 1943
-        - 1944
-        - 1945
-        - 1946
-        - 1947
-        - 1948
-        - 1949
-        - 1950
-        - 1951
-        - 1952
-        - 1953
-        - 1954
-        - 1955
-        - 1956
-        - 1957
-        - 1958
-        - 1959
-    name: Classic Movies
-    only_run_on_create: true
-    sort_title: ++_320s-50s
-    summary: 'Here''s looking at you, kid.'

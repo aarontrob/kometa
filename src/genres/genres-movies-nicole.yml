@@ -1,0 +1,25 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/genres.yml
+
+######################################################
+#                Genre Collections                   #
+######################################################
+
+collections:
+  Christmas:
+    template:
+      name: Genre - Trakt List
+      list:
+        - movies-hallmark-christmas
+        - movies-lifetime-christmas
+        - movies-mom-christmas
+      summary: Merry Christmas!
+  Hallmark Christmas:
+    template:
+      name: Genre - Trakt List
+      list: movies-hallmark-christmas
+      summary: Merry Christmas!

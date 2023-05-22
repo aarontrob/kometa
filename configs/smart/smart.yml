@@ -1,11 +1,3 @@
-templates:
-  Decade:
-    smart_filter:
-      any:
-        year: <<year>>
-      sort_by: year.asc
-    sort_title: ++_3<<collection_name>>
-    only_run_on_create: true
 collections:
   Recently Added:
     smart_filter:
@@ -17,59 +9,3 @@ collections:
     name_mapping: Recently Added
     only_run_on_create: true
     summary: Added in the last 30 days
-  90s:
-    template:
-      name: Decade
-      year:
-        - 1990
-        - 1991
-        - 1992
-        - 1993
-        - 1994
-        - 1995
-        - 1996
-        - 1997
-        - 1998
-        - 1999
-  80s:
-    template:
-      name: Decade
-      year:
-        - 1980
-        - 1981
-        - 1982
-        - 1983
-        - 1984
-        - 1985
-        - 1986
-        - 1987
-        - 1988
-        - 1989
-  70s:
-    template:
-      name: Decade
-      year:
-        - 1970
-        - 1971
-        - 1972
-        - 1973
-        - 1974
-        - 1975
-        - 1976
-        - 1977
-        - 1978
-        - 1979
-  60s:
-    template:
-      name: Decade
-      year:
-        - 1960
-        - 1961
-        - 1962
-        - 1963
-        - 1964
-        - 1965
-        - 1966
-        - 1967
-        - 1968
-        - 1969

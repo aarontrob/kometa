@@ -1,0 +1,17 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/people.yml
+  - ../templates/search.yml
+
+######################################################
+#                   Directors                        #
+######################################################
+
+collections:
+  Nicholas Sparks Collection:
+    template:
+      name: Writer
+      id: 64172
