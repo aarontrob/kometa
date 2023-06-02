@@ -12,6 +12,10 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  Amityville Collection:
+    template:
+      name: Collection - Hide Show
+      show: 223305
   Cosmos Collection:
     template:
       name: Collection - Shows

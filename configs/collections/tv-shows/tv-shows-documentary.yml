@@ -3,60 +3,66 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Alpha:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Release:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    collection_mode: <<collection_mode>>
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_order: custom
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Show:
@@ -64,36 +70,40 @@ templates:
     tmdb_show: <<show>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Shows:
     tmdb_show: <<show>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+      - tvdb_show
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
+    tvdb_show: <<tvdb_show>>
     summary: <<summary>>
-  Collection - Hide:
+  Collection - Hide Show:
     tmdb_show: <<show>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Search:
@@ -101,15 +111,22 @@ templates:
       title: <<title>>
     sync_mode: sync
     collection_order: release
-    collection_mode: hide_items
+    default:
+      collection_mode: hide_items
     optional:
-      - name
+      - name_mapping
       - sort_title
       - summary
-    name_mapping: <<name>>
+      - show
+    name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
+    tmdb_show: <<show>>
 collections:
+  Amityville Collection:
+    template:
+      name: Collection - Hide Show
+      show: 223305
   Cosmos Collection:
     template:
       name: Collection - Shows
