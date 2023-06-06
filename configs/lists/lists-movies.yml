@@ -39,7 +39,7 @@ templates:
     name_mapping: <<name_mapping>>
     summary: <<summary>>
   List - Letterboxd List:
-    letterboxd_list: 'https://letterboxd.com/<<list>>'
+    letterboxd_list: <<list>>
     sync_mode: sync
     collection_order: release
     collection_mode: <<collection_mode>>
@@ -252,7 +252,7 @@ collections:
   Criterion Collection:
     template:
       name: List - Letterboxd List
-      list: 'https://trakt.tv/users/goape/lists/sadhomersimpson/list/criterion/'
+      list: 'https://letterboxd.com/sadhomersimpson/list/criterion/'
       summary: >-
         The Criterion Collection, Inc. (or simply Criterion) is an American
         home-video distribution company that focuses on licensing, restoring and

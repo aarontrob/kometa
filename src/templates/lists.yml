@@ -38,7 +38,7 @@ List - Trakt List Custom Order Details:
   name_mapping: <<name_mapping>>
   summary: <<summary>>
 List - Letterboxd List:
-  letterboxd_list: https://letterboxd.com/<<list>>
+  letterboxd_list: <<list>>
   sync_mode: sync
   collection_order: release
   collection_mode: <<collection_mode>>
