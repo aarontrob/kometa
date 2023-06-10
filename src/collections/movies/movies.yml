@@ -171,7 +171,9 @@ collections:
   Doctor Strange Collection:
     template:
       name: Search
-      title: Doctor Strange, Dr. Strange
+      title:
+        - Doctor Strange
+        - Dr. Strange
       summary: Open your mind. Change your reality.
   Downton Abbey Collection:
     template:

@@ -310,10 +310,18 @@ collections:
       summary: >-
         He's not very good looking. But when the lights go out...he's still not
         very good looking.
+  Dirty Dancing Collection:
+    template:
+      name: Collection - Movie
+      collection: 86058
+      movie: 444902
+      summary: Dancing to the beat of their hearts.
   Doctor Strange Collection:
     template:
       name: Search
-      title: 'Doctor Strange, Dr. Strange'
+      title:
+        - Doctor Strange
+        - Dr. Strange
       summary: Open your mind. Change your reality.
   Downton Abbey Collection:
     template:
