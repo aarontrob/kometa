@@ -76,6 +76,20 @@ collections:
         DreamWorks Animation is an American animation studio that produces
         animated films and television programs and is a subsidiary of Universal
         Pictures.
+  Hanna-Barbera:
+    template:
+      name: Studio
+      company: 1353
+      list: 'https://trakt.tv/users/goape/lists/hanna-barbera'
+      summary: >-
+        Hanna-Barbera Productions, Inc. also variously known as H-B Enterprises,
+        H-B Production Co., and Hanna-Barbera Cartoons, Inc., was an American
+        animation studio and production company founded in 1957 by Tom and Jerry
+        creators and former Metro-Goldwyn-Mayer animation directors William
+        Hanna and Joseph Barbera and dominated television with a variety of
+        animated series, including The Huckleberry Hound Show, The Flintstones,
+        The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You!
+        and The Smurfs
   Pixar Animation Studios:
     template:
       name: Studio - Trakt List
