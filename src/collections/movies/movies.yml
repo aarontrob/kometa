@@ -30,7 +30,7 @@ collections:
       summary: Does anyone here speak Jive?
   Alien Collection:
     template:
-      name: Collection - Trakt List # Custom Order
+      name: Collection - Trakt List Custom Order # Custom Order
       list: alien-collection-timeline
       summary: In space no one can hear you scream.
   Aquaman Collection:
