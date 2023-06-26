@@ -379,6 +379,11 @@ collections:
     template:
       name: Collection - Hide Show
       show: 537
+  Highlander Collection:
+    template:
+      name: Collection - Hide Show
+      show: 12304
+      summary: There can be only one
   'Honey, I Shrunk the Kids Collection':
     template:
       name: Collection - Hide Show
