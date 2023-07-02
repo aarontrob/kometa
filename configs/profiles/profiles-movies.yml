@@ -17,3 +17,8 @@ collections:
       list: 'https://trakt.tv/users/goape/lists/movies-aaron'
       label: Aaron
       summary: Movies for Aaron
+  Grandpa:
+    smart_filter:
+      all:
+        label: Grandpa
+    summary: Movies for Aaron
