@@ -20,5 +20,5 @@ collections:
     smart_filter:
       all:
         label: Grandpa
-    sort_title: ++_2Grandpa
-    summary: Movies for Aaron
+    sort_title: ~~_CGrandpa
+    summary: Movies for Grandpa
