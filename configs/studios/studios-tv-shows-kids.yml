@@ -65,6 +65,8 @@ collections:
         animated series, including The Huckleberry Hound Show, The Flintstones,
         The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You!
         and The Smurfs
+    plex_search:
+      title: Yakky Doodle
   Marvel:
     template:
       name: Studio
