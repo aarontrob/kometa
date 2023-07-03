@@ -20,4 +20,5 @@ collections:
     smart_filter:
       all:
         label: Grandpa
+    sort_title: ++_2Grandpa
     summary: Movies for Aaron
