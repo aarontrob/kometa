@@ -1,8 +1,9 @@
 templates:
   People - Actor:
     smart_filter:
-      all:
+      any:
         actor: <<person>>
+        title: <<title>>
       sort_by: release.desc
     sort_title: ++_7<<collection_name>>
   People - Actor Trakt List:
@@ -176,7 +177,7 @@ collections:
     template:
       name: People - Actor
       person: Charlie Chaplin
-    trakt_list: 'https://trakt.tv/users/goape/lists/charlie-chaplin-collection'
+      title: Chaplin
   Chris Farley Collection:
     template:
       name: People - Actor
@@ -194,7 +195,7 @@ collections:
     template:
       name: People - Actor
       person: Elvis Presley
-    tmdb_movie: 31151
+      title: 'Elvis: That''s the Way It Is'
   Kathy Griffin Collection:
     template:
       name: Actor All
@@ -214,18 +215,16 @@ collections:
       her Broadway debut in Kathy Griffin Wants a Tony in March 2011.
   Laurel & Hardy Collection:
     template:
-      name: Actor List
-    trakt_list:
-      - 'https://trakt.tv/users/goape/lists/laurel-hardy'
+      name: People - Actor Trakt List
+      list: 'https://trakt.tv/users/goape/lists/laurel-hardy'
   Marilyn Monroe Collection:
     template:
       name: People - Actor
       person: Marilyn Monroe
   Marx Brothers Collection:
     template:
-      name: Actor List
-    trakt_list:
-      - 'https://trakt.tv/users/goape/lists/marx-brothers-collection'
+      name: People - Actor Trakt List
+      list: 'https://trakt.tv/users/goape/lists/marx-brothers-collection'
     summary: >-
       The Marx Brothers were an American family comedy act that was successful
       in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five
