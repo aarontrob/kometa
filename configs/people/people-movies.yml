@@ -4,7 +4,7 @@ templates:
       any:
         actor: <<person>>
         title: <<title>>
-      sort_by: release.desc
+      sort_by: release.asc
     sort_title: ++_7<<collection_name>>
   People - Actor Trakt List:
     trakt_list: <<list>>
