@@ -174,14 +174,12 @@ collections:
     sort_title: ++_7Beatles Collection
   Charlie Chaplin Collection:
     template:
-      name: Actor
-      id: 13848
+      name: People - Actor
       person: Charlie Chaplin
     trakt_list: 'https://trakt.tv/users/goape/lists/charlie-chaplin-collection'
   Chris Farley Collection:
     template:
-      name: Actor
-      id: 58198
+      name: People - Actor
       person: Chris Farley
     summary: >-
       Christopher Crosby "Chris" Farley (February 15, 1964 – December 18, 1997)
@@ -190,13 +188,11 @@ collections:
       Night Live from 1990 to 1995.
   Dolly Parton Collection:
     template:
-      name: Actor
-      id: 67274
+      name: People - Actor
       person: Dolly Parton
   Elvis Presley Collection:
     template:
-      name: Actor
-      id: 21457
+      name: People - Actor
       person: Elvis Presley
     tmdb_movie: 31151
   Kathy Griffin Collection:
@@ -223,8 +219,7 @@ collections:
       - 'https://trakt.tv/users/goape/lists/laurel-hardy'
   Marilyn Monroe Collection:
     template:
-      name: Actor
-      id: 3149
+      name: People - Actor
       person: Marilyn Monroe
   Marx Brothers Collection:
     template:
