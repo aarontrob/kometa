@@ -496,6 +496,10 @@ collections:
       movie: '21159, 11234, 6479'
       collection_mode: show_items
       summary: Films based on the 1954 novel I Am Legend by Richard Matheson.
+  Indiana Jones Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: 'https://trakt.tv/users/goape/lists/indiana-jones-collection'
   Invasion of the Body Snatchers Collection:
     template:
       name: Collection - Hide Movie
