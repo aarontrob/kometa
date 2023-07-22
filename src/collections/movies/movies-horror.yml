@@ -318,6 +318,14 @@ collections:
       collection: 74508
       name_mapping: REC Collection
       summary: One Witness. One Camera
+  Resident Evil Collection:
+    template:
+      name: Collection - Movie
+      collection:
+        - https://www.themoviedb.org/collection/17255-resident-evil-collection
+        - https://www.themoviedb.org/collection/133352
+      movie: 460458
+      summary: Evil is Only a Word. The Reality is Much Worse.
   The Shining Collection:
     template:
       name: Collection - Movie
