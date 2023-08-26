@@ -1,9 +1,8 @@
 List - Trakt List:
   trakt_list: <<list>>
   sync_mode: sync
-  collection_order: release
-  collection_mode: <<collection_mode>>
   sort_title: ++_5<<collection_name>>
+  smart_label: year.asc
   default:
     collection_mode: hide_items
   optional:
@@ -19,7 +18,7 @@ List - Trakt List Custom Order:
   collection_order: custom
   sort_title: ++_5<<collection_name>>
   default:
-    collection_mode: hide_items
+    collection_mode: show_items
   optional:
     - name_mapping
     - summary
@@ -31,7 +30,7 @@ List - Trakt List Custom Order Details:
   collection_order: custom
   sort_title: ++_5<<collection_name>>
   default:
-    collection_mode: hide_items
+    collection_mode: show_items
   optional:
     - name_mapping
     - summary
@@ -40,11 +39,10 @@ List - Trakt List Custom Order Details:
 List - Letterboxd List:
   letterboxd_list: <<list>>
   sync_mode: sync
-  collection_order: release
-  collection_mode: <<collection_mode>>
   sort_title: ++_5<<collection_name>>
+  smart_label: year.asc
   default:
-    collection_mode: hide_items
+    collection_mode: show_items
   optional:
     - name_mapping
     - summary
@@ -53,11 +51,10 @@ List - Letterboxd List:
 List - IMDB List:
   letterboxd_list: https://www.imdb.com/<<list>>
   sync_mode: sync
-  collection_order: release
-  collection_mode: <<collection_mode>>
   sort_title: ++_5<<collection_name>>
+  smart_label: year.asc
   default:
-    collection_mode: hide_items
+    collection_mode: show_items
   optional:
     - name_mapping
     - summary

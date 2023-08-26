@@ -1,8 +1,7 @@
 Network:
   tmdb_network: <<network>>
-  collection_order: release
-  collection_mode: hide_items
   sort_title: ++_5.5<<collection_name>>
+  smart_label: year.asc
   optional:
     - tmdb_movie
     - trakt_list
@@ -12,9 +11,8 @@ Network:
   summary: <<summary>>
 Network - Trakt List:
   trakt_list: <<list>>
-  collection_order: release
-  collection_mode: hide_items
   sort_title: ++_5.5<<collection_name>>
+  smart_label: year.asc
   optional:
     - summary
   summary: <<summary>>
