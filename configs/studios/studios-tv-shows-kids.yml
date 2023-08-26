@@ -1,9 +1,8 @@
 templates:
   Studio:
     tmdb_company: <<company>>
-    collection_order: release
-    collection_mode: hide_items
     sort_title: ++_4<<collection_name>>
+    smart_label: year.asc
     optional:
       - list
       - summary
@@ -15,22 +14,20 @@ templates:
         studio: <<studio>>
       sort_by: release.desc
     sort_title: ++_4<<collection_name>>
-    only_run_on_create: true
     optional:
       - summary
     summary: <<summary>>
   Studio - Trakt List:
     trakt_list: <<list>>
-    collection_order: release
-    collection_mode: hide_items
     sort_title: ++_4<<collection_name>>
+    smart_label: year.asc
     optional:
       - summary
     summary: <<summary>>
   Studio - Trakt List Custom Order:
     trakt_list: <<list>>
     collection_order: custom
-    collection_mode: hide_items
+    collection_mode: show_items
     sort_title: ++_4<<collection_name>>
     sync_mode: sync
     optional:
@@ -39,9 +36,8 @@ templates:
   Studio - Search:
     plex_search:
       title: <<title>>
-    collection_order: release
-    collection_mode: hide_items
     sort_title: ++_4<<collection_name>>
+    smart_label: year.asc
     optional:
       - summary
     summary: <<summary>>
