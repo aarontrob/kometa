@@ -14,7 +14,6 @@ templates:
         studio: <<studio>>
       sort_by: release.desc
     sort_title: ++_4<<collection_name>>
-    only_run_on_create: true
     optional:
       - summary
     summary: <<summary>>
