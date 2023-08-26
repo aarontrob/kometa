@@ -4,8 +4,6 @@ templates:
     sync_mode: sync
     sort_title: ++_5<<collection_name>>
     smart_label: year.asc
-    default:
-      collection_mode: hide_items
     optional:
       - name_mapping
       - summary
@@ -42,8 +40,6 @@ templates:
     sync_mode: sync
     sort_title: ++_5<<collection_name>>
     smart_label: year.asc
-    default:
-      collection_mode: show_items
     optional:
       - name_mapping
       - summary
@@ -54,8 +50,6 @@ templates:
     sync_mode: sync
     sort_title: ++_5<<collection_name>>
     smart_label: year.asc
-    default:
-      collection_mode: show_items
     optional:
       - name_mapping
       - summary
