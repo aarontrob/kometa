@@ -1,9 +1,8 @@
 templates:
   Studio:
     tmdb_company: <<company>>
-    collection_order: release
-    collection_mode: hide_items
     sort_title: ++_4<<collection_name>>
+    smart_label: year.asc
     optional:
       - list
       - summary
@@ -21,16 +20,15 @@ templates:
     summary: <<summary>>
   Studio - Trakt List:
     trakt_list: <<list>>
-    collection_order: release
-    collection_mode: hide_items
     sort_title: ++_4<<collection_name>>
+    smart_label: year.asc
     optional:
       - summary
     summary: <<summary>>
   Studio - Trakt List Custom Order:
     trakt_list: <<list>>
     collection_order: custom
-    collection_mode: hide_items
+    collection_mode: show_items
     sort_title: ++_4<<collection_name>>
     sync_mode: sync
     optional:
@@ -39,9 +37,8 @@ templates:
   Studio - Search:
     plex_search:
       title: <<title>>
-    collection_order: release
-    collection_mode: hide_items
     sort_title: ++_4<<collection_name>>
+    smart_label: year.asc
     optional:
       - summary
     summary: <<summary>>
@@ -56,7 +53,6 @@ collections:
         20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes
         in film and television production, as well as film distribution. It is
         based in New York City.
-    smart_label: year.asc
   DC:
     template:
       name: Studio
@@ -66,7 +62,6 @@ collections:
         DC Films is an American film studio that is a subsidiary of Warner Bros.
         through the Warner Bros. Pictures Group, dedicated to the production of
         films based on characters from DC Entertainment.
-    smart_label: year.asc
   DC Animated Originals:
     template:
       name: Studio - Trakt List
@@ -76,7 +71,6 @@ collections:
         Diniverse by fans) is a shared universe of superhero-based animated
         television series, produced by Warner Bros. Animation and based on
         characters that appear in American comic books published by DC Comics.
-    smart_label: year.asc
   Hammer Films:
     template:
       name: Studio - Smart
@@ -88,20 +82,17 @@ collections:
         Many of these involved classic horror characters such as Baron Victor
         Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to
         audiences by filming them in vivid colour for the first time.
-    smart_label: year.asc
   LEGO:
     template:
       name: Studio - Search
       title: 'LEGO, Lego'
       summary: The bane of your foot's existence.
-    smart_label: year.asc
   Marvel:
     template:
       name: Studio
       company: '7505, 19551, 420, 11106, 13252, 38679'
       list: 'https://trakt.tv/users/goape/lists/marvel'
       summary: With great power comes great responsibility
-    smart_label: year.asc
   Marvel Animation:
     template:
       name: Studio
@@ -117,14 +108,12 @@ collections:
         Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated
         under Marvel Studios, a subsidiary of Walt Disney Studios, a division of
         The Walt Disney Company.
-    smart_label: year.asc
   Nickelodeon:
     template:
       name: Studio
       company: '4859, 5371, 2348'
       list: 'https://trakt.tv/users/goape/lists/nickelodeon'
       summary: 'Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon'
-    smart_label: year.asc
   Sony Pictures Animation:
     template:
       name: Studio
@@ -133,7 +122,6 @@ collections:
         Sony Pictures Animation Inc. is an American animation studio owned by
         Sony Entertainment's Sony Pictures Entertainment through their Motion
         Picture Group division and founded on May 9, 2002.
-    smart_label: year.asc
   Walt Disney Pictures:
     template:
       name: Studio - Smart
@@ -147,4 +135,3 @@ collections:
         Pixar Animation Studios are also released under this brand. Walt Disney
         Studios Motion Pictures distributes and markets the films produced by
         Walt Disney Pictures.
-    smart_label: year.asc
