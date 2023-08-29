@@ -163,6 +163,10 @@ collections:
     template:
       name: Collection - Hide Show
       show: 82
+  An American Tail Collection:
+    template:
+      name: Collection - Hide Show
+      show: 74
   Ant-Man Collection:
     template:
       name: Collection - Hide Show
