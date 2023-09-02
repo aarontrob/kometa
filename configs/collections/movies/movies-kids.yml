@@ -473,6 +473,13 @@ collections:
       list: the-muppets-collection
       sort_title: Muppets Collection
       summary: The World's Most Lovable Puppets
+  Night at the Museum Collection:
+    template:
+      name: Collection - Movie
+      collection: >-
+        https://www.themoviedb.org/collection/85943-night-at-the-museum-collection
+      movie: 751741
+      summary: 'When the lights go off, it''s on.'
   Parent Trap Collection:
     template:
       name: Collection - Movie
