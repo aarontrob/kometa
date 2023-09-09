@@ -405,6 +405,16 @@ collections:
       name: Collection - Hide Movie
       movie: 5503
       sort_title: Fugitive Collection
+  Gamera Collection:
+    template:
+      name: Collection
+      collection: 161766
+      summary: >-
+        Gamera (ガメラ?) is a giant turtle Kaiju (Giant monster) from a series of
+        popular Giant monster films produced by Daiei Motion Picture Company in
+        Japan. Created in 1965 to rival the success of Toho Studios' Godzilla
+        during the daikaiju boom of the mid-to-late 1960s, Gamera has gained
+        fame and notoriety as a Japanese icon in his own right.
   Ghostbusters Collection:
     template:
       name: Collection - Movie
