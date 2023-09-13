@@ -544,7 +544,7 @@ collections:
   Up Collection:
     template:
       name: Collection - Movies
-      movie: 72962, 14160, 24589
+      movie: 72962, 14160, 24589, 1076364
       summary: The greatest adventure is just getting back home.
   WALL·E Collection:
     template:
