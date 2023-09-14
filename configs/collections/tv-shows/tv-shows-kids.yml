@@ -722,6 +722,10 @@ collections:
     template:
       name: Search
       title: Sailor Moon
+  Saturday Supercade Collection:
+    template:
+      name: Collection - Trakt List
+      list: saturday-supercade-collection
   Scooby-Doo! Collection:
     template:
       name: Collection - Trakt List
