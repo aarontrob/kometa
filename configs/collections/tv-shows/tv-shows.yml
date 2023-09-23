@@ -370,6 +370,10 @@ collections:
     template:
       name: Collection - Hide Show
       show: 1795
+  John Wick Collection:
+    template:
+      name: Collection - Hide Show
+      show: 72710
   The Karate Kid Collection:
     template:
       name: Collection - Hide Show
