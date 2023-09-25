@@ -229,6 +229,11 @@ collections:
     template:
       name: Collection - Hide Show
       show: 35006
+  The Boss Baby Collection:
+    template:
+      name: Collection - Shows
+      show: '77606, 197429'
+      summary: Born leader
   Boy Meets World Collection:
     template:
       name: Collection - Hide Show
