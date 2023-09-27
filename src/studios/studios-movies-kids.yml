@@ -27,7 +27,7 @@ collections:
   Disney Shorts:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/disney-shorts
+      list: https://trakt.tv/users/goape/lists/disney-animated-shorts
       summary: "It was all started with a mouse"
   DreamWorks Animation:
     template:
