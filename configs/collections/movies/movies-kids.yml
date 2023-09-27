@@ -121,6 +121,10 @@ templates:
     summary: <<summary>>
     tmdb_show: <<show>>
 collections:
+  Disney List:
+    plex_search:
+      label: Disney
+    sync_to_trakt_list: disney-list
   101 Dalmatians Collection:
     template:
       name: Collection
