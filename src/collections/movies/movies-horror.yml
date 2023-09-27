@@ -323,6 +323,11 @@ collections:
       name: Collection - Trakt List Custom Order
       list: resident-evil-collection
       summary: Evil is Only a Word. The Reality is Much Worse.
+  Return of the Living Dead Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: return-of-the-living-dead-collection
+      summary: They're Back From The Grave and Ready To Party!
   The Shining Collection:
     template:
       name: Collection - Movie
