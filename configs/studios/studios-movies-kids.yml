@@ -47,9 +47,7 @@ collections:
       name: Studio
       company: '2, 3, 6125, 3166, 3475, 670'
       list: 'https://trakt.tv/users/goape/lists/disney'
-    show_filtered: true
-    filters:
-      collection.not: Disney Shorts
+      summary: It was all started with a mouse
   Disney Channel Original Movies:
     template:
       name: Studio - Trakt List
