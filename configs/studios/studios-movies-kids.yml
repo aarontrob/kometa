@@ -44,7 +44,7 @@ templates:
 collections:
   Disney:
     template:
-      name: Studio
+      name: Studio - Trakt List
       list: 'https://trakt.tv/users/goape/lists/disney'
       summary: It was all started with a mouse
   Disney Channel Original Movies:
