@@ -14,7 +14,7 @@ collections:
     template:
       name: Studio - Trakt List
       # company: 2, 3, 6125, 3166
-      list: https://trakt.tv/users/goape/lists/disney
+      list: https://trakt.tv/users/goape/lists/disney-25927893
       summary: "It was all started with a mouse"
   DCEU:
     template:
