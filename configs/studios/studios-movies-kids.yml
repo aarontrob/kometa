@@ -127,3 +127,13 @@ collections:
         as a division of Walt Disney Studios and is headquartered at the Roy E.
         Disney Animation Building at the Walt Disney Studios lot in Burbank,
         California.
+  Walt Disney's Silly Symphony Shorts:
+    template:
+      name: Studio - Trakt List
+      list: >-
+        https://trakt.tv/users/goape/lists/walt-disney-s-silly-symphony-shorts-25926134
+      summary: >-
+        Silly Symphony is an American animated series of 75 musical short films
+        produced by Walt Disney Productions from 1929 to 1939. As the series
+        name implies, the Silly Symphonies were originally intended as whimsical
+        accompaniments to pieces of music.
