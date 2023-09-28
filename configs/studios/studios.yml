@@ -13,7 +13,8 @@ templates:
       any:
         studio: <<studio>>
       sort_by: release.desc
-    sort_title: ++_4<<collection_name>>
+    default:
+      sort_title: ++_4<<collection_name>>
     optional:
       - summary
     summary: <<summary>>
@@ -125,6 +126,7 @@ collections:
     template:
       name: Studio - Smart
       studio: Walt Disney Pictures
+      sort_title: ++_4Disney Pictures
       summary: >-
         Walt Disney Pictures is an American film production studio of The Walt
         Disney Studios, which is owned by The Walt Disney Company. The studio is
