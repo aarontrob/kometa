@@ -227,7 +227,7 @@ collections:
     template:
       name: Collection - Movie
       collection: 55419
-      movie: 150689
+      movie: '150689, 42884'
   Coco Collection:
     template:
       name: Collection - Movies
