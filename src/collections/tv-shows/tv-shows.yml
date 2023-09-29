@@ -26,6 +26,10 @@ collections:
       name: Collection - Hide Show
       show: 4658
       summary: Alien Life Form
+  The Amazing Race Collection:
+    template:
+      name: Search
+      title: The Amazing Race
   Archie Collection:
     template:
       name: Collection - Trakt List
@@ -470,6 +474,11 @@ collections:
       name: Collection - Shows
       show: 4515, 12662
       summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
+  Survivor Collection:
+    template:
+      name: Search
+      title: Survivor
+      summary: Outwit. Outplay. Outlast.
   Swamp Thing Collection:
     template:
       name: Collection - Shows
@@ -503,6 +512,11 @@ collections:
         The story revolves around three single roommates: Janet Wood, Chrissy Snow and Jack Tripper who all platonically share Apartment 201 in a Santa Monica, California apartment building owned by Mr. and Mrs. Roper. Later, following Suzanne Somers's departure, Jenilee Harrison joined the cast as Cindy Snow, who was later replaced by Priscilla Barnes as Terri Alden. After the Ropers were spun-off into their own sitcom, Don Knotts joined the cast as the roommates' new landlord Ralph Furley, brother of the new building owner, Bart Furley.
 
         The show, a comedy of errors, chronicles the escapades and hijinks of the trio's constant misunderstandings, social lives, and struggle to keep up with the rent.
+  The Traitors Collection:
+    template:
+      name: Search
+      title: The Traitors
+      summary: Everyone's a suspect.
   Tremors Collection:
     template:
       name: Collection - Hide Show

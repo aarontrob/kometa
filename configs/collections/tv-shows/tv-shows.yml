@@ -137,6 +137,10 @@ collections:
       name: Collection - Hide Show
       show: 4658
       summary: Alien Life Form
+  The Amazing Race Collection:
+    template:
+      name: Search
+      title: The Amazing Race
   Archie Collection:
     template:
       name: Collection - Trakt List
@@ -626,6 +630,11 @@ collections:
         books published by DC Comics. The character was created by writer Jerry
         Siegel and artist Joe Shuster, and first appeared in the comic book
         Action Comics #1.
+  Survivor Collection:
+    template:
+      name: Search
+      title: Survivor
+      summary: Outwit. Outplay. Outlast.
   Swamp Thing Collection:
     template:
       name: Collection - Shows
@@ -673,6 +682,11 @@ collections:
         The show, a comedy of errors, chronicles the escapades and hijinks of
         the trio's constant misunderstandings, social lives, and struggle to
         keep up with the rent.
+  The Traitors Collection:
+    template:
+      name: Search
+      title: The Traitors
+      summary: Everyone's a suspect.
   Tremors Collection:
     template:
       name: Collection - Hide Show
