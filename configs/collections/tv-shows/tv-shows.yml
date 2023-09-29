@@ -194,6 +194,12 @@ collections:
     template:
       name: Collection - Hide Show
       show: 32726
+  The Boys Collection:
+    template:
+      name: Collection - Shows
+      show: '76479, 205715'
+      collection_mode: show_items
+      summary: Never meet your heroes.
   Boy Meets World Collection:
     template:
       name: Collection - Hide Show
