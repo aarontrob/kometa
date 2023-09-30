@@ -572,3 +572,10 @@ collections:
       name: Search
       title: Yogi
       summary: Yogi Bear is a anthropomorphic animal character who has appeared in numerous comic books, animated television shows and films. He made his debut in 1958 as a supporting character in The Huckleberry Hound Show.
+
+  Problematic Collection:
+    template:
+      name: Collection - Trakt List
+      list: tv-kids-problematic
+    item_label: problematic
+    build_collection: false
