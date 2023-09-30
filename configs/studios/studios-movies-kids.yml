@@ -133,7 +133,7 @@ collections:
         Disney Animation Building at the Walt Disney Studios lot in Burbank,
         California.
     sort_title: ++_4Disney Animation Studios
-  Walt Disney's Silly Symphony Shorts:
+  Walt Disney's Silly Symphony:
     template:
       name: Studio - Trakt List
       list: >-
@@ -143,4 +143,4 @@ collections:
         produced by Walt Disney Productions from 1929 to 1939. As the series
         name implies, the Silly Symphonies were originally intended as whimsical
         accompaniments to pieces of music.
-    sort_title: ++_4Disney's Silly Symphony Shorts
+    sort_title: ++_4Disney's Silly Symphony
