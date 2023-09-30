@@ -118,6 +118,12 @@ collections:
   #     limit: 40
   #   summary: Popular Movies across the internet
   #   name_mapping: Popular
+  Problematic Collection:
+    template:
+      name: Collection - Trakt List
+      list: kids-problematic
+    item_label: Problematic
+    build_collection: false
   Trending:
     sort_title: ++_1Trending
     smart_label: random

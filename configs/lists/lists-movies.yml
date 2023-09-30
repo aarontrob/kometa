@@ -261,6 +261,12 @@ collections:
       name: List - Trakt List Custom Order Details
       list: >-
         https://trakt.tv/users/goape/lists/empire-magazine-s-60-greatest-movie-sequels
+  Problematic Collection:
+    template:
+      name: Collection - Trakt List
+      list: kids-problematic
+    item_label: Problematic
+    build_collection: false
   Trending:
     sort_title: ++_1Trending
     smart_label: random

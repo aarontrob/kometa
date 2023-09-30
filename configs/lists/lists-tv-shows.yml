@@ -80,6 +80,12 @@ collections:
         are the shows worth getting lost in, that have proved instrumental in
         evolving a storytelling form that continues to offer deeper and more
         complex narratives.
+  Problematic Collection:
+    template:
+      name: Collection - Trakt List
+      list: kids-problematic
+    item_label: Problematic
+    build_collection: false
   Trending:
     trakt_trending: 40
     tmdb_trending_daily: 40
