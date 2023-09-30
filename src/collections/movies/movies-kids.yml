@@ -577,5 +577,5 @@ collections:
     template:
       name: Collection - Trakt List
       list: tv-kids-problematic
-    item_label: problematic
+    item_label: Problematic
     build_collection: false
