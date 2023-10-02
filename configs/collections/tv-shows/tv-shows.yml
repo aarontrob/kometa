@@ -282,6 +282,13 @@ collections:
       name: Collection - Hide Show
       show: 41327
       summary: If you get on her bad side...YOU'RE TOAST.
+  The Flintstones Collection:
+    template:
+      name: Collection - Trakt List
+      list: the-flintstones-collection
+      name_mapping: The Flintstones Collection (TV)
+      sort_title: Flintstones Collection
+      summary: Yabba-Dabba-Doo!
   From Dusk Till Dawn Collection:
     template:
       name: Collection - Hide Show
