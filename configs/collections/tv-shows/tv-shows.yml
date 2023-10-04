@@ -207,7 +207,7 @@ collections:
   The Brady Bunch Collection:
     template:
       name: Collection - Shows
-      show: '2126, 15105, 30001, 10027'
+      show: '2126, 15105, 30001, 10027, 93450'
       sort_title: Brady Bunch Collection
       summary: 'Sure, Jan.'
       name_mapping: The Brady Bunch Collection (TV)
