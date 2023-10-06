@@ -288,8 +288,8 @@ collections:
       summary: Who is He? What is He? Should We Fear Him? Can We Stop Him? Is He a Warning? Is He the Beginning of the End?
   Pet Sematary Collection:
     template:
-      name: Collection - Movies
-      movie: 8913, 157433, 10906
+      name: Collection
+      collection: 830781, 10789
       summary: A Pet Isn't Just For Life.
   The Phantom of the Opera Collection:
     tmdb_movie: 964, 86962, 46330, 15855
