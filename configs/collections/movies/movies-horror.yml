@@ -580,6 +580,11 @@ collections:
       name: Collection - Hide Movie
       movie: 7131
       summary: The One Name They All Fear
+  V/H/S Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: v-h-s-collection
+      summary: This collection is killer.
   What We Do in the Shadows Collection:
     template:
       name: Collection - Hide Movie
