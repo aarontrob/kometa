@@ -115,9 +115,11 @@ templates:
       - name_mapping
       - sort_title
       - summary
+      - show
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
+    tmdb_show: <<show>>
 collections:
   Alien Collection:
     template:
@@ -151,6 +153,11 @@ collections:
       summary: >-
         A world beyond your experience, beyond your imagination. A place beyond
         your dreams.
+  The Exorcist Collection:
+    template:
+      name: Collection - Hide
+      movie: 104846
+      sort_title: Exorcist Collection
   Fantastic Four Collection:
     template:
       name: Collection - Hide Movie

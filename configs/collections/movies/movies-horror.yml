@@ -639,3 +639,4 @@ collections:
         horror film starring Lara Wendel and Robert Vaughn which was renamed
         Zombi 5 by distributors.
     sync_mode: append
+    only_run_on_create: true
