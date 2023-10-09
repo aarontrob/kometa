@@ -639,3 +639,4 @@ collections:
         Japanese video distributors. Finally, Killing Birds is a 1988 Italian
         horror film starring Lara Wendel and Robert Vaughn which was renamed
         Zombi 5 by distributors.
+    sync_mode: append
