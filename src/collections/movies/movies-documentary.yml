@@ -44,7 +44,7 @@ collections:
       summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
   The Exorcist Collection:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Movie
       movie: 104846
       sort_title: Exorcist Collection
   Fantastic Four Collection:
