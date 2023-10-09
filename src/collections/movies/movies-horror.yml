@@ -448,8 +448,7 @@ collections:
       summary: She'll never let go.
   Zombi Collection:
     template:
-      name: Collection - Movie
-      collection: 133923
-      movie: 65588, 5796 # Need to add Dawn of the Dead (Zombi 1) manually
+      name: Collection - Trakt List Custom Order
+      list: zombi-collection # Need to add Dawn of the Dead (Zombi 1) manually
       summary: The Zombi Collection is a series of Italian zombie films. The series began with the 1979 release of Zombi 2 directed by Lucio Fulci. It was adapted from an original screenplay by Dardano Sacchetti to serve as a sequel to George A. Romero's Dawn of the Dead (1978), which was released in Italy with the title Zombi. This was followed in 1988 with Zombi 3, which is an in-name-only sequel to Fulci's Zombi 2. Claudio Fragasso then directed 1989's After Death, which was retitled Zombi 4 by its Japanese video distributors. Finally, Killing Birds is a 1988 Italian horror film starring Lara Wendel and Robert Vaughn which was renamed Zombi 5 by distributors.
     sync_mode: append

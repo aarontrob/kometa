@@ -625,9 +625,8 @@ collections:
       summary: She'll never let go.
   Zombi Collection:
     template:
-      name: Collection - Movie
-      collection: 133923
-      movie: '65588, 5796'
+      name: Collection - Trakt List Custom Order
+      list: zombi-collection
       summary: >-
         The Zombi Collection is a series of Italian zombie films. The series
         began with the 1979 release of Zombi 2 directed by Lucio Fulci. It was
