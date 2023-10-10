@@ -407,6 +407,11 @@ collections:
       name: Collection - Shows
       show: 605, 79242
       summary: This girl is making her own magic.
+  Salem's Lot Collection:
+    template:
+      name: Collection - Trakt List
+      list: salem-s-lot-collection
+      summary: Salem's Lot... where no one rests in peace...
   The Santa Clause Collection:
     template:
       name: Collection - Hide Show
