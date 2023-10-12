@@ -332,6 +332,10 @@ collections:
       name: Collection - Hide Show
       show: 2552
       summary: Na-No Na-No!
+  Mortal Kombat Collection:
+    template:
+      name: Collection - Hide Show
+      show: 237
   The Munsters Collection:
     template:
       name: Collection - Hide Show
