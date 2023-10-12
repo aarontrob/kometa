@@ -662,8 +662,8 @@ collections:
         on the BBC in 1969.
   Mortal Kombat Collection:
     template:
-      name: Collection
-      collection: '9818, 848690, 931431'
+      name: Collection - Trakt List Custom Order
+      list: mortal-kombat-collection
       summary: Nothing In This World Has Prepared You For This.
   Mothra Collection:
     template:
