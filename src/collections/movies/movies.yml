@@ -445,7 +445,7 @@ collections:
     template:
       name: Collection - Trakt List Custom Order
       list: mortal-kombat-collection
-      summary: Nothing In This World Has Prepared You For This.
+      summary: Nothing In This World Has Prepared You For This
   Mothra Collection:
     template:
       name: Collection - Movie
