@@ -12,6 +12,6 @@ templates: !!import/shallow
 collections:
   Universal Monsters:
     template:
-      name: Studios - Trakt List
+      name: Studio - Trakt List
       list: https://trakt.tv/users/goape/lists/universal-monsters
       summary: Universal Monsters is a media franchise based on a series of horror films primarily produced by Universal Pictures from the 1930s to the 1950s.
