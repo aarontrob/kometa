@@ -333,7 +333,8 @@ collections:
       name: Collection - Trakt List
       list: salem-s-lot-collection
       summary: Salem's Lot... where no one rests in peace...
-    tmdb_movie: 1194553
+    plex_search:
+      title: Salem's Lot
   The Shining Collection:
     template:
       name: Collection - Movie
