@@ -401,6 +401,12 @@ collections:
       collection: 32135
       movie: 517289
       summary: The first Super-Hero... from New Jersey!
+  Troll Collection:
+    template:
+      name: Collection - Movie
+      collection: 123218
+      movie: 748621
+      summary: Worlds of Magic, Mystery and Menace.
   Underworld Collection:
     template:
       name: Collection - Movie
