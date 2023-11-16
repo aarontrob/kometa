@@ -30,7 +30,7 @@ collections:
     template:
       name: Genre - Trakt List
       list: https://trakt.tv/users/goape/lists/tv-halloween
-      summary: “It’s all just a bunch of hocus pocus.”
+      summary: “It's all just a bunch of hocus pocus.”
   Halloween Episodes:
     template:
       name: Genre - Trakt List
