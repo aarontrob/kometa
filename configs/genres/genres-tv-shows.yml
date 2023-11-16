@@ -59,6 +59,12 @@ collections:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-halloween'
       summary: “It’s all just a bunch of hocus pocus.”
+  Halloween Episodes:
+    template:
+      name: Genre - Trakt List
+      list: 'https://trakt.tv/users/goape/lists/tv-halloween-episodes'
+      collection_order: alpha
+    collection_level: episode
   Gay:
     template:
       name: Genre - Trakt List
@@ -76,3 +82,9 @@ collections:
       genre: Reality
       item_genre: Reality
       summary: 'Who gon'' check me, boo?'
+  Thanksgiving Episodes:
+    template:
+      name: Genre - Trakt List
+      list: 'https://trakt.tv/users/goape/lists/tv-thanksgiving-episodes'
+      collection_order: alpha
+    collection_level: episode
