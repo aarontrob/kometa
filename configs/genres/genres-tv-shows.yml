@@ -43,28 +43,34 @@ collections:
       summary: >-
         “The best way to spread Christmas cheer is singing loud for all to
         hear.”
+    sort_title: ++_2.5Christmas
   Christmas Episodes:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-christmas-episodes'
       collection_order: custom
     collection_level: episode
+    sort_title: ++_2.5Christmas Episodes
   Food:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-food'
+      item_genre: Food
       summary: “Get in my belly!”
+    sort_title: ++_2.5Food
   Halloween:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-halloween'
       summary: “It's all just a bunch of hocus pocus.”
+    sort_title: ++_2.5Halloween
   Halloween Episodes:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-halloween-episodes'
       collection_order: custom
     collection_level: episode
+    sort_title: ++_2.5Halloween Episodes
   Gay:
     template:
       name: Genre - Trakt List
@@ -72,19 +78,23 @@ collections:
       summary: Slay
       item_label: Gay
       label: Gay
+    sort_title: ++_2.5Gay
   Musical:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-musicals'
+    sort_title: ++_2.5Musical
   Reality:
     template:
       name: Genre
       genre: Reality
       item_genre: Reality
       summary: 'Who gon'' check me, boo?'
+    sort_title: ++_2.5Reality
   Thanksgiving Episodes:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-thanksgiving-episodes'
       collection_order: custom
     collection_level: episode
+    sort_title: ++_2.5Thanksgiving Episodes

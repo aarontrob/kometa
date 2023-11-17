@@ -46,7 +46,6 @@ collections:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/movies-christmas'
       collection_order: alpha
-      item_genre: Christmas
       summary: Merry Christmas! Sh*tter was full.
     sort_title: ++_4.5Christmas
   Comedy:
@@ -71,18 +70,21 @@ collections:
       collection_order: alpha
       item_genre: Halloween
       summary: '“Oh, look. Another glorious morning. Makes me sick!”'
+    sort_title: ++_4.5Halloween
   Music:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/music'
       item_genre: Music
       summary: "\U0001F3B8"
+    sort_title: ++_4.5Music
   Musical:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/movies-musicals'
       item_genre: Musical
       summary: 'If you know what you want, then you go and you find it and you get it.'
+    sort_title: ++_4.5Musical
   Mystery:
     template:
       name: Genre
@@ -100,12 +102,14 @@ collections:
       item_genre: Sports
       trakt_list: 'https://trakt.tv/users/goape/lists/movies-sports'
       summary: null
+    sort_title: ++_4.5Sports
   Stand Up Comedy:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/movies-standup'
       item_genre: Stand-Up
       summary: null
+    sort_title: ++_4.5Stand Up Comedy
   Thanksgiving:
     template:
       name: Genre - Trakt List
@@ -113,6 +117,7 @@ collections:
       collection_order: alpha
       item_genre: Thanksgiving
       summary: '“Gobble, gobble!”'
+    sort_title: ++_4.5Thanksgiving
   Thriller:
     template:
       name: Genre
