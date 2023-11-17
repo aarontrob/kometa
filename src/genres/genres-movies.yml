@@ -21,7 +21,7 @@ collections:
       list: https://trakt.tv/users/goape/lists/movies-christmas
       collection_order: alpha
       summary: Merry Christmas! Sh*tter was full.
-    sort_title: ++_4.5Christmas
+    sort_title: ++_4.4Christmas
   Comedy:
     template:
       name: Genre
@@ -44,7 +44,7 @@ collections:
       collection_order: alpha
       item_genre: Halloween
       summary: “Oh, look. Another glorious morning. Makes me sick!”
-    sort_title: ++_4.5Halloween
+    sort_title: ++_4.4Halloween
   Music:
     template:
       name: Genre - Trakt List
@@ -91,7 +91,7 @@ collections:
       collection_order: alpha
       item_genre: Thanksgiving
       summary: “Gobble, gobble!”
-    sort_title: ++_4.5Thanksgiving
+    sort_title: ++_4.4Thanksgiving
   Thriller:
     template:
       name: Genre
