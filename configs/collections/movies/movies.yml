@@ -741,6 +741,12 @@ collections:
         Freischütz. It has been successfully adapted into various stage and film
         adaptations, most notable of which are the 1925 film depiction featuring
         Lon Chaney, and Andrew Lloyd Webber's 1986 musical.
+  The Philadelphia Experiment Collection:
+    template:
+      name: Collection - Movie
+      collection: 145784
+      movie: 122293
+      summary: Will you survive?
   The Pink Panther Collection:
     template:
       name: Collection - Movie
