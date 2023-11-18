@@ -500,6 +500,12 @@ collections:
       name: Search
       title: Hulk
       summary: Don't make me angry. You wouldn't like me when I'm angry
+  The Hunger Games Collection:
+    template:
+      name: Collection - Movie
+      collection: 131635
+      movie: 695721
+      summary: May the Odds be Ever in your Favor
   I Am Legend Collection:
     template:
       name: Collection - Movies
