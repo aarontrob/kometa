@@ -4,7 +4,7 @@ templates:
     sync_mode: sync
     collection_order: alpha
     collection_mode: hide_items
-    sort_title: ++_2<<collection_name>>
+    sort_title: ++_1.6<<collection_name>>
     optional:
       - label
       - summary
