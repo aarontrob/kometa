@@ -187,7 +187,7 @@ collections:
       show: 1921
   Godzilla Collection:
     template:
-      name: Collection
+      name: Collection - Shows
       show: 111177, 202411
   The Golden Girls Collection:
     template:
