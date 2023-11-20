@@ -278,6 +278,11 @@ collections:
       collection: 284433
       movie: 774752
       summary: When things get bad, they'll do their worst.
+  Hairspray Collection:
+    template:
+      name: Collection - Movies
+      movie: 11054, 2976
+      summary: Who's who behind the do?
   Heathers Collection:
     template:
       name: Collection - Movies
