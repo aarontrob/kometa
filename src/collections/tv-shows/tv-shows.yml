@@ -187,8 +187,8 @@ collections:
       show: 1921
   Godzilla Collection:
     template:
-      name: Collection - Hide Show
-      show: 111177
+      name: Collection
+      show: 111177, 202411
   The Golden Girls Collection:
     template:
       name: Collection - Shows
@@ -322,6 +322,10 @@ collections:
       name: Collection - Shows
       show: 4357, 9894
       summary: Expect the impossible.
+  Monsterverse Collection:
+    template:
+      name: Collection - Hide Show
+      show: 202411
   Monty Python Collection:
     template:
       name: Collection - Hide Show
