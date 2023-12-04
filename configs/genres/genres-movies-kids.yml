@@ -7,30 +7,24 @@ templates:
       sort_by: random
     sort_title: ~_<<collection_name>>
     only_run_on_create: true
-    collection_mode: hide_items
     optional:
       - collection_order
       - item_genre
       - item_label
       - summary
-      - trakt_list
-    collection_order: <<collection_order>>
     item_genre: <<item_genre>>
     item_label: <<item_label>>
-    trakt_list: <<trakt_list>>
     summary: <<summary>>
   Genre - Trakt List:
     trakt_list: <<list>>
     sync_mode: sync
     sort_title: ~_<<collection_name>>
-    collection_mode: hide_items
     optional:
-      - collection_order
       - item_genre
       - item_label
       - label
       - summary
-    collection_order: <<collection_order>>
+    smart_label: release.desc
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     label: <<label>>
