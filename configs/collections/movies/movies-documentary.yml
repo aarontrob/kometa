@@ -284,6 +284,11 @@ collections:
         Living Dead. The two reached a settlement wherein Romero's sequels would
         be referred to as the Dead movies, and Russo's sequels would bear the
         suffix Living Dead.
+  RoboCop Collection:
+    template:
+      name: Collection - Hide Show
+      show: 1206721
+      summary: The future of law enforcement. Part man. Part machine.
   Pet Sematary Collection:
     template:
       name: Collection - Hide Movie
