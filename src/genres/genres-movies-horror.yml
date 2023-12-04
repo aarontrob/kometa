@@ -12,7 +12,7 @@ templates: !!import/shallow
 collections:
   Christmas Horror:
     template:
-      name: Genre - Trakt List,
+      name: Genre - Trakt List
       list: https://trakt.tv/users/goape/lists/movies-horror-christmas
       item_genre: Christmas Horror
       name_mapping: Christmas Horror
