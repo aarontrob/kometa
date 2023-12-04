@@ -18,8 +18,11 @@ collections:
       name_mapping: Christmas Horror
       summary: Garbage Day!
   Horror:
-    template:
-      name: Genre - All Items
+    smart_filter:
+      all:
+        title.not: Gamboozle
+      sort_by: random
+    sort_title: ~_Horror
   Musical:
     template:
       name: Genre - Trakt List
