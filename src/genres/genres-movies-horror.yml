@@ -17,7 +17,15 @@ collections:
       item_genre: Christmas Horror
       name_mapping: Christmas Horror
       summary: Garbage Day!
-    sort_title: ++_4Christmas Horror
+    sort_title: ++_4.4Christmas Horror
+  Halloween:
+    template:
+      name: Genre - Trakt List
+      list: https://trakt.tv/users/goape/lists/movies-halloween
+      collection_order: alpha
+      item_genre: Halloween
+      summary: “One, Two, Freddy's Coming For You”
+    sort_title: ++_4.4Halloween
   Horror:
     smart_filter:
       all:
