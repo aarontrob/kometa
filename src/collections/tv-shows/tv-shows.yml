@@ -366,6 +366,10 @@ collections:
       show: 19033
       sort_title: Omen Collection
       summary: Who is He? What is He? Should We Fear Him? Can We Stop Him? Is He a Warning? Is He the Beginning of the End?
+  One Piece Collection:
+    template:
+      name: Collection - Hide Show
+      show: 111110
   Police Academy Collection:
     template:
       name: Collection - Hide Show
