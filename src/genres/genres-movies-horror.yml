@@ -17,12 +17,13 @@ collections:
       item_genre: Christmas Horror
       name_mapping: Christmas Horror
       summary: Garbage Day!
+    sort_title: ++_4Christmas Horror
   Horror:
     smart_filter:
       all:
         title.not: Gamboozle
       sort_by: random
-    sort_title: ~_Horror
+    sort_title: ++_4Horror
   Musical:
     template:
       name: Genre - Trakt List
@@ -32,3 +33,4 @@ collections:
       summary: Creature of the night!
     plex_search:
       genre: Musical
+    sort_title: ++_4Musical
