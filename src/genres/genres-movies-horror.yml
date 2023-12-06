@@ -39,6 +39,4 @@ collections:
       item_genre: Musical
       name_mapping: Musical Horror
       summary: Creature of the night!
-    plex_search:
-      genre: Musical
     sort_title: ++_4Musical
