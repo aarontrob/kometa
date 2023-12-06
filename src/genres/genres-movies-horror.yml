@@ -31,7 +31,7 @@ collections:
       all:
         title.not: Gamboozle
       sort_by: random
-    sort_title: ++_4Horror
+    sort_title: ~_Horror
   Musical:
     template:
       name: Genre - Trakt List
