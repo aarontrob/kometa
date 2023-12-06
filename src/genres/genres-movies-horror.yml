@@ -36,5 +36,6 @@ collections:
       name: Genre - Trakt List
       list: https://trakt.tv/users/goape/lists/movies-musicals
       item_genre: Musical
+      name_mapping: Musical Horror
       summary: Creature of the night!
-    sort_title: ++_4Musical
+    sort_title: ++_4.5Musical
