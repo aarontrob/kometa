@@ -22,7 +22,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: https://trakt.tv/users/goape/lists/movies-halloween
-      collection_order: alpha
       item_genre: Halloween
       summary: “One, Two, Freddy's Coming For You”
     sort_title: ++_4.4Halloween
@@ -36,7 +35,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: https://trakt.tv/users/goape/lists/movies-musicals
-      collection_order: alpha
       item_genre: Musical
       summary: Creature of the night!
     sort_title: ++_4Musical
