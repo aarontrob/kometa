@@ -2,9 +2,8 @@ templates:
   Profiles - Trakt List:
     trakt_list: <<list>>
     sync_mode: sync
-    collection_order: alpha
-    collection_mode: hide_items
-    sort_title: ++_2<<collection_name>>
+    sort_title: ++_1.6<<collection_name>>
+    smart_label: title.asc
     optional:
       - label
       - summary
@@ -17,9 +16,3 @@ collections:
       list: 'https://trakt.tv/users/goape/lists/movies-aaron'
       label: Aaron
       summary: Movies for Aaron
-  Grandpa:
-    smart_filter:
-      all:
-        label: Grandpa
-    sort_title: ~~_CGrandpa
-    summary: Movies for Grandpa
