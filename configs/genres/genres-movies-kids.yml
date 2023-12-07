@@ -36,28 +36,28 @@ collections:
       list: 'https://trakt.tv/users/goape/lists/movies-kids-christmas'
       item_genre: Christmas
       summary: 'You''re a mean one, Mr. Grinch!'
-    sort_title: ++_4.5Christmas
+    sort_title: ++_4.4Christmas
     smart_label: title.asc
   Easter:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/movies-kids-easter'
       summary: '“Hop, hop, hop!”'
-    sort_title: ++_4.5Easter
+    sort_title: ++_4.4Easter
     smart_label: title.asc
   Halloween:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/movies-kids-halloween'
       summary: Who's afraid of ghosts?
-    sort_title: ++_4.5Hallowen
+    sort_title: ++_4.4Hallowen
     smart_label: title.asc
   Thanksgiving:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/movies-kids-thanksgiving'
       summary: '“Gobble, gobble!”'
-    sort_title: ++_4.5Thanksgiving
+    sort_title: ++_4.4Thanksgiving
     smart_label: title.asc
   Musical:
     template:
@@ -65,3 +65,4 @@ collections:
       list: 'https://trakt.tv/users/goape/lists/movies-musicals'
       item_genre: Musical
       summary: null
+    sort_title: ++_4.5Musical
