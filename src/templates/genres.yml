@@ -23,7 +23,7 @@ Genre - Trakt List:
     - item_label
     - label
     - summary
-  smart_label: release.desc
+  smart_label: release.asc
   item_genre: <<item_genre>>
   item_label: <<item_label>>
   label: <<label>>

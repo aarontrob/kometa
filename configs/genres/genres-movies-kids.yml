@@ -24,7 +24,7 @@ templates:
       - item_label
       - label
       - summary
-    smart_label: release.desc
+    smart_label: release.asc
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     label: <<label>>
@@ -66,3 +66,4 @@ collections:
       item_genre: Musical
       summary: null
     sort_title: ++_4.5Musical
+    smart_label: title.asc

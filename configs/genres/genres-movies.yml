@@ -24,7 +24,7 @@ templates:
       - item_label
       - label
       - summary
-    smart_label: release.desc
+    smart_label: release.asc
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     label: <<label>>
@@ -39,9 +39,9 @@ collections:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/movies-christmas'
-      collection_order: alpha
       summary: Merry Christmas! Sh*tter was full.
     sort_title: ++_4.4Christmas
+    smart_label: title.asc
   Comedy:
     template:
       name: Genre
@@ -61,10 +61,10 @@ collections:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/movies-halloween'
-      collection_order: alpha
       item_genre: Halloween
       summary: '“Oh, look. Another glorious morning. Makes me sick!”'
     sort_title: ++_4.4Halloween
+    smart_label: title.asc
   Music:
     template:
       name: Genre - Trakt List
@@ -72,6 +72,7 @@ collections:
       item_genre: Music
       summary: "\U0001F3B8"
     sort_title: ++_4.5Music
+    smart_label: title.asc
   Musical:
     template:
       name: Genre - Trakt List
@@ -79,6 +80,7 @@ collections:
       item_genre: Musical
       summary: 'If you know what you want, then you go and you find it and you get it.'
     sort_title: ++_4.5Musical
+    smart_label: title.asc
   Mystery:
     template:
       name: Genre
@@ -97,6 +99,7 @@ collections:
       trakt_list: 'https://trakt.tv/users/goape/lists/movies-sports'
       summary: null
     sort_title: ++_4.5Sports
+    smart_label: title.asc
   Stand Up Comedy:
     template:
       name: Genre - Trakt List
@@ -104,14 +107,15 @@ collections:
       item_genre: Stand-Up
       summary: null
     sort_title: ++_4.5Stand Up Comedy
+    smart_label: title.asc
   Thanksgiving:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/movies-thanksgiving'
-      collection_order: alpha
       item_genre: Thanksgiving
       summary: '“Gobble, gobble!”'
     sort_title: ++_4.4Thanksgiving
+    smart_label: title.asc
   Thriller:
     template:
       name: Genre

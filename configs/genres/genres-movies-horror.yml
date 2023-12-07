@@ -24,7 +24,7 @@ templates:
       - item_label
       - label
       - summary
-    smart_label: release.desc
+    smart_label: release.asc
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     label: <<label>>
@@ -38,6 +38,7 @@ collections:
       name_mapping: Christmas Horror
       summary: Garbage Day!
     sort_title: ++_4.4Christmas Horror
+    smart_label: title.asc
   Halloween:
     template:
       name: Genre - Trakt List
@@ -45,6 +46,7 @@ collections:
       item_genre: Halloween
       summary: '“One, Two, Freddy''s Coming For You”'
     sort_title: ++_4.4Halloween
+    smart_label: title.asc
   Horror:
     smart_filter:
       all:
@@ -59,3 +61,4 @@ collections:
       name_mapping: Musical Horror
       summary: Creature of the night!
     sort_title: ++_4.5Musical
+    smart_label: title.asc

@@ -24,7 +24,7 @@ templates:
       - item_label
       - label
       - summary
-    smart_label: release.desc
+    smart_label: release.asc
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     label: <<label>>
@@ -38,6 +38,7 @@ collections:
         “The best way to spread Christmas cheer is singing loud for all to
         hear.”
     sort_title: ++_2.4Christmas
+    smart_label: title.asc
   Christmas Episodes:
     template:
       name: Genre - Trakt List
@@ -52,12 +53,14 @@ collections:
       item_genre: Food
       summary: “Get in my belly!”
     sort_title: ++_2.5Food
+    smart_label: title.asc
   Halloween:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-halloween'
       summary: “It's all just a bunch of hocus pocus.”
     sort_title: ++_2.4Halloween
+    smart_label: title.asc
   Halloween Episodes:
     template:
       name: Genre - Trakt List
@@ -73,11 +76,13 @@ collections:
       item_label: Gay
       label: Gay
     sort_title: ++_2.5Gay
+    smart_label: title.asc
   Musical:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-musicals'
     sort_title: ++_2.5Musical
+    smart_label: title.asc
   Reality:
     template:
       name: Genre
@@ -85,6 +90,7 @@ collections:
       item_genre: Reality
       summary: 'Who gon'' check me, boo?'
     sort_title: ++_2.5Reality
+    smart_label: title.asc
   Thanksgiving Episodes:
     template:
       name: Genre - Trakt List

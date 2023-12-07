@@ -46,3 +46,4 @@ collections:
       item_genre: Musical
       summary:
     sort_title: ++_4.5Musical
+    smart_label: title.asc
