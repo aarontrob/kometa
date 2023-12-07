@@ -5,57 +5,62 @@ templates:
         actor: <<person>>
         title: <<title>>
       sort_by: release.asc
+    smart_label: release.desc
     sort_title: ++_7<<collection_name>>
   People - Actor Trakt List:
     trakt_list: <<list>>
     sort_title: ++_7<<collection_name>>
     sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
+    smart_label: release.desc
   Actor List Documentary:
     sort_title: ++_7<<collection_name>>
     sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
+    smart_label: release.desc
   Actor All:
     tmdb_actor: <<id>>
     tmdb_biography: <<id>>
     sort_title: ++_7<<collection_name>>
+    smart_label: release.desc
   Actor Director:
     tmdb_actor: <<id>>
     tmdb_director: <<id>>
     tmdb_biography: <<id>>
     sort_title: ++_6<<collection_name>>
+    smart_label: release.desc
   Actor Director Writer:
     tmdb_actor: <<id>>
     tmdb_director: <<id>>
     tmdb_writer: <<id>>
     tmdb_biography: <<id>>
     sort_title: ++_6<<collection_name>>
+    smart_label: release.desc
   Actor Writer:
     tmdb_actor: <<id>>
     tmdb_writer: <<id>>
     tmdb_biography: <<id>>
     sort_title: ++_6<<collection_name>>
+    smart_label: release.desc
   Director:
     tmdb_director: <<id>>
     tmdb_biography: <<id>>
     sort_title: ++_6<<collection_name>>
+    smart_label: release.desc
   Director List:
     tmdb_biography: <<id>>
     sort_title: ++_6<<collection_name>>
     sync_mode: sync
-    collection_order: release
-    collection_mode: hide_items
+    smart_label: release.desc
   Director Writer:
     tmdb_writer: <<id>>
     tmdb_director: <<id>>
     tmdb_biography: <<id>>
     sort_title: ++_6<<collection_name>>
+    smart_label: release.desc
   Writer:
     tmdb_writer: <<id>>
     tmdb_biography: <<id>>
     sort_title: ++_6<<collection_name>>
+    smart_label: release.desc
   Search:
     plex_search:
       title: <<title>>
