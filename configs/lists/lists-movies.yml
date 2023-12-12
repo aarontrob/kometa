@@ -16,8 +16,7 @@ templates:
     sync_mode: sync
     collection_order: custom
     sort_title: ++_5<<collection_name>>
-    default:
-      collection_mode: show_items
+    collection_mode: show_items
     optional:
       - name_mapping
       - summary
@@ -28,8 +27,7 @@ templates:
     sync_mode: sync
     collection_order: custom
     sort_title: ++_5<<collection_name>>
-    default:
-      collection_mode: show_items
+    collection_mode: show_items
     optional:
       - name_mapping
       - summary
