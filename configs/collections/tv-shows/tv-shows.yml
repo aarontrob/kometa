@@ -178,8 +178,8 @@ collections:
       show: '4482, 1074'
   Big Brother Collection:
     template:
-      name: Search
-      title: Big Brother
+      name: Collection - Trakt List Custom Order
+      list: big-brother
       summary: Big Brother is Watching You
   Blade Collection:
     template:
