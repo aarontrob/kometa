@@ -19,7 +19,7 @@ collections:
     smart_label: title.asc
   Christmas Episodes:
     template:
-      name: Genre - Trakt List
+      name: Genre - Trakt List Episodes
       list: https://trakt.tv/users/goape/lists/tv-christmas-episodes
     sort_title: ++_2.4Christmas Episodes
   Food:
@@ -39,7 +39,7 @@ collections:
     smart_label: title.asc
   Halloween Episodes:
     template:
-      name: Genre - Trakt List
+      name: Genre - Trakt List Episodes
       list: https://trakt.tv/users/goape/lists/tv-halloween-episodes
     sort_title: ++_2.4Halloween Episodes
   Gay:
@@ -67,6 +67,6 @@ collections:
     smart_label: title.asc
   Thanksgiving Episodes:
     template:
-      name: Genre - Trakt List
+      name: Genre - Trakt List Episodes
       list: https://trakt.tv/users/goape/lists/tv-thanksgiving-episodes
     sort_title: ++_2.4Thanksgiving Episodes
