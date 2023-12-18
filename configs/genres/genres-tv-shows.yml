@@ -29,6 +29,15 @@ templates:
     item_label: <<item_label>>
     label: <<label>>
     summary: <<summary>>
+  Genre - Trakt List Episodes:
+    trakt_list: <<list>>
+    sync_mode: sync
+    sort_title: ~_<<collection_name>>
+    collection_order: alpha
+    collection_level: episode
+    optional:
+      - summary
+    summary: <<summary>>
 collections:
   Christmas:
     template:
@@ -43,8 +52,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-christmas-episodes'
-      collection_order: custom
-    collection_level: episode
     sort_title: ++_2.4Christmas Episodes
   Food:
     template:
@@ -65,8 +72,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-halloween-episodes'
-      collection_order: custom
-    collection_level: episode
     sort_title: ++_2.4Halloween Episodes
   Gay:
     template:
@@ -95,6 +100,4 @@ collections:
     template:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-thanksgiving-episodes'
-      collection_order: custom
-    collection_level: episode
     sort_title: ++_2.4Thanksgiving Episodes

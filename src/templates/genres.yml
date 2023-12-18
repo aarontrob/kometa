@@ -28,3 +28,12 @@ Genre - Trakt List:
   item_label: <<item_label>>
   label: <<label>>
   summary: <<summary>>
+Genre - Trakt List Episodes:
+  trakt_list: <<list>>
+  sync_mode: sync
+  sort_title: ~_<<collection_name>>
+  collection_order: alpha
+  collection_level: episode
+  optional:
+    - summary
+  summary: <<summary>>
