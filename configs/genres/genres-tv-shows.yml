@@ -43,17 +43,12 @@ collections:
         hear.”
     sort_title: ++_2.4Christmas
     smart_label: title.asc
-  Christmas Episodes Builder:
-    template:
-      name: Genre - Trakt List Episodes
-      list: 'https://trakt.tv/users/goape/lists/tv-christmas-episodes'
-    item_label: Christmas Episode
-    build_collection: false
   Christmas Episodes:
+    trakt_list: 'https://trakt.tv/users/goape/lists/tv-christmas-episodes'
     smart_label:
       sort_by: show.asc
       all:
-        episode_label: Christmas Episode
+        label: <<smart_label>>
     sort_title: ++_2.4Christmas Episodes
     summary: Merry Christmas!
   Food:
