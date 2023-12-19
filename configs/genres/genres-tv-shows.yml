@@ -34,10 +34,7 @@ templates:
     sync_mode: sync
     sort_title: ~_<<collection_name>>
     builder_level: episode
-    smart_label:
-      sort_by: show.asc
-      all:
-        episode_label: <<smart_label>>
+    smart_label: show.asc
     optional:
       - summary
     summary: <<summary>>
