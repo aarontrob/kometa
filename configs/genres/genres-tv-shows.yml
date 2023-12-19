@@ -47,7 +47,7 @@ collections:
     template:
       name: Genre - Trakt List Episodes
       list: 'https://trakt.tv/users/goape/lists/tv-christmas-episodes'
-    episode_label: Christmas Episode
+    item_label: Christmas Episode
     build_collection: false
   Christmas Episodes:
     smart_label:
