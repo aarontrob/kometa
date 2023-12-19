@@ -33,7 +33,10 @@ Genre - Trakt List Episodes:
   sync_mode: sync
   sort_title: ~_<<collection_name>>
   builder_level: episode
-  smart_label: show.asc
+  smart_label:
+    sort_by: show.asc
+    all:
+      episode_label: <<smart_label>>
   optional:
     - summary
   summary: <<summary>>
