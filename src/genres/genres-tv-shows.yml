@@ -24,7 +24,7 @@ collections:
       all:
         label: <<smart_label>>
     sort_title: ++_2.4Christmas Episodes
-    summary: Merry Christmas!
+    summary: Merry Christmas
   Food:
     template:
       name: Genre - Trakt List
