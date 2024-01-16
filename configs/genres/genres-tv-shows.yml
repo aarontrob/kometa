@@ -71,15 +71,6 @@ collections:
       name: Genre - Trakt List Episodes
       list: 'https://trakt.tv/users/goape/lists/tv-halloween-episodes'
     sort_title: ++_2.4Halloween Episodes
-  Gay:
-    template:
-      name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/tv-gay'
-      summary: Slay
-      item_label: Gay
-      label: Gay
-    sort_title: ++_2.5Gay
-    smart_label: title.asc
   Musical:
     template:
       name: Genre - Trakt List
