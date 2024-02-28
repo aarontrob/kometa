@@ -618,3 +618,7 @@ collections:
       list: x-men-collection
       collection_mode: show_items
       summary: The X-Men are a fictional team of superheroes appearing in American comic books published by Marvel Comics, first appearing in The X-Men number 1 by artist/co-plotter Jack Kirby and writer/editor Stan Lee in 1963. Although initially cancelled in 1970, following its 1975 revival and subsequent direction under writer Chris Claremont, it became one of the most recognizable and successful franchises of Marvel Comics.
+  The Young Offenders Collection:
+    template:
+      name: Collection - Hide Show
+      show: 76977

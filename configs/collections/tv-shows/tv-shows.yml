@@ -797,3 +797,7 @@ collections:
         1963. Although initially cancelled in 1970, following its 1975 revival
         and subsequent direction under writer Chris Claremont, it became one of
         the most recognizable and successful franchises of Marvel Comics.
+  The Young Offenders Collection:
+    template:
+      name: Collection - Hide Show
+      show: 76977
