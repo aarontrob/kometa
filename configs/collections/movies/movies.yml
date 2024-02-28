@@ -978,7 +978,7 @@ collections:
   Willy Wonka Collection:
     template:
       name: Collection - Movies
-      movie: '252, 118, 455411'
+      movie: '252, 118, 455411, 787699'
       collection_mode: show_items
       summary: 'We are the music makers, and we are the dreamers of dreams.'
   The Wizard of Oz Collection:
