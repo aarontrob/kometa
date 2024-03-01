@@ -497,6 +497,7 @@ collections:
       name: Collection - Trakt List
       list: peanuts-collection
       summary: Never stop dreaming big.
+    item_label: Peanuts Collection
   Pete's Dragon Collection:
     template:
       name: Collection - Movies
