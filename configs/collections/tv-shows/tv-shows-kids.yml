@@ -491,8 +491,7 @@ collections:
   King Kong Collection:
     template:
       name: Collection - Shows
-      show: 66248
-      tvdb_show: 77794
+      show: '66248, 15126'
       summary: The eighth wonder of the world.
   Kung Fu Panda Collection:
     template:
