@@ -185,13 +185,12 @@ collections:
       name: Collection - Hide Movie
       movie: 4011
   Betty Boop Collection:
-    template:
-      trakt_list: 'https://trakt.tv/lists/official/betty-boop-fleischer-brothers-collection'
-      summary: >-
-        Betty Boop is an animated cartoon character created by Max Fleischer,
-        with help from animators including Grim Natwick. She originally appeared
-        in the Talkartoon and Betty Boop film series, which were produced by
-        Fleischer Studios and released by Paramount Pictures.
+    trakt_list: 'https://trakt.tv/lists/official/betty-boop-fleischer-brothers-collection'
+    summary: >-
+      Betty Boop is an animated cartoon character created by Max Fleischer, with
+      help from animators including Grim Natwick. She originally appeared in the
+      Talkartoon and Betty Boop film series, which were produced by Fleischer
+      Studios and released by Paramount Pictures.
   The Beverly Hillbillies Collection:
     template:
       name: Collection - Hide Movie
