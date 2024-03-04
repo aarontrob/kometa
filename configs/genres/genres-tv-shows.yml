@@ -51,14 +51,6 @@ collections:
         label: <<smart_label>>
     sort_title: ++_2.4Christmas Episodes
     summary: Merry Christmas
-  Food:
-    template:
-      name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/tv-food'
-      item_genre: Food
-      summary: “Get in my belly!”
-    sort_title: ++_2.5Food
-    smart_label: title.asc
   Halloween:
     template:
       name: Genre - Trakt List
@@ -76,14 +68,6 @@ collections:
       name: Genre - Trakt List
       list: 'https://trakt.tv/users/goape/lists/tv-musicals'
     sort_title: ++_2.5Musical
-    smart_label: title.asc
-  Reality:
-    template:
-      name: Genre
-      genre: Reality
-      item_genre: Reality
-      summary: 'Who gon'' check me, boo?'
-    sort_title: ++_2.5Reality
     smart_label: title.asc
   Thanksgiving Episodes:
     template:
