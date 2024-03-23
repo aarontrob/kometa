@@ -891,7 +891,7 @@ collections:
       sort_title: Wolverine Collection
   X-Men Collection:
     template:
-      name: Collection - Trakt List
+      name: Collection - Trakt List Custom Order
       list: x-men-collection
       summary: Join the Evolution.
   Yogi Bear Collection:
