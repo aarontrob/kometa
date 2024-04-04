@@ -440,9 +440,8 @@ collections:
       summary: Miss Marple is a fictional character in Agatha Christie's crime novels and short stories. Jane Marple lives in the village of St. Mary Mead and acts as an amateur consulting detective.
   Monsterverse Collection:
     template:
-      name: Collection - Movie
-      collection: 535313
-      movie: 293167
+      name: Collection - Trakt List Custom Order
+      list: monsterverse
       collection_mode: show_items
       summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
   Monty Python Collection:
