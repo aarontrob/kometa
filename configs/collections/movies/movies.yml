@@ -575,6 +575,11 @@ collections:
       name: Search
       title: Justice League
       summary: Justice for all.
+  King Kong Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: king-kong-collection
+      summary: 'Ladies and gentlemen, look at Kong, the Eighth Wonder of the World!'
   Land of the Lost Collection:
     template:
       name: Collection - Hide Movie
