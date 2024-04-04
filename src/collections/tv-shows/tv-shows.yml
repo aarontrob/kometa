@@ -510,6 +510,10 @@ collections:
       name: Collection - Shows
       show: 79240, 13989
       summary: The Swamp Thing is a fictional superhero in American comic books published by DC Comics. A humanoid/plant elemental creature, created by writer Len Wein and artist Bernie Wrightson, the Swamp Thing has had several humanoid or monster incarnations in various different storylines.
+  Mr. Ripley Collection:
+    template:
+      name: Collection - Hide Show
+      show: 94028
   Tales from the Crypt Collection:
     template:
       name: Collection - Hide Show
