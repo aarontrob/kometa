@@ -18,12 +18,6 @@ collections:
       summary: TV Shows for Aaron
     plex_search:
       title: Wet Hot American Summer
-  Casey:
-    template:
-      name: Profiles - Trakt List
-      list: https://trakt.tv/users/goape/lists/tv-casey
-      label: Casey
-      summary: TV Shows for Casey
   Tom:
     template:
       name: Profiles - Trakt List
