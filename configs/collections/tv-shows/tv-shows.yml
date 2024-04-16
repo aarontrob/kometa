@@ -761,7 +761,7 @@ collections:
       show: 4076
   Westworld Collection:
     template:
-      name: Collection - Shows
+      name: Collection - Hide Show
       show: '63247, 411'
       summary: These violent delights have violent ends.
       name_mapping: Westworld Collection (TV)
