@@ -599,9 +599,9 @@ collections:
     template:
       name: Search
       title: Sonic
-      tmdb_show: 158300
       name_mapping: Sonic The Hedgehog Collection (TV)
       summary: Roses are red. Sonic is blue. Earth needs a hero. A hedgehog will do!
+    tmdb_show: 158300
   Space Ghost Collection:
     template:
       name: Collection - Shows
