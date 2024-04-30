@@ -597,11 +597,10 @@ collections:
       summary: Smurf happens
   Sonic The Hedgehog Collection:
     template:
-      name: Search
-      title: Sonic
-      name_mapping: Sonic The Hedgehog Collection (TV)
+      name: Collection - Trakt List Custom Order
+      list: sonic-the-hedgehog-collection
       summary: Roses are red. Sonic is blue. Earth needs a hero. A hedgehog will do!
-    tmdb_show: 158300
+    name_mapping: Sonic The Hedgehog Collection (TV)
   Space Ghost Collection:
     template:
       name: Collection - Shows
