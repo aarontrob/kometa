@@ -428,11 +428,7 @@ collections:
     template:
       name: Collection - Trakt List Custom Order
       list: godzilla-collection
-      summary: >-
-        The Godzilla (ゴジラ, Gojira) franchise is a Japanese media franchise
-        created and owned by Toho, centered on the fictional kaiju character
-        Godzilla. It is the longest-running film franchise, having been in
-        ongoing production from 1954, with several hiatuses of varying lengths.
+      summary: 'Incredible, unstoppable titan of terror! Mightiest monster!'
   Grease Collection:
     template:
       name: Collection - Movie

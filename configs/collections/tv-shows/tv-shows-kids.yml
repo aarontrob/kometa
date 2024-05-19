@@ -365,6 +365,11 @@ collections:
     template:
       name: Collection - Hide Show
       show: 631
+  Godzilla Collection:
+    template:
+      name: Collection - Shows
+      show: '5246, 11100'
+      summary: 'Incredible, unstoppable titan of terror! Mightiest monster!'
   A Goofy Movie Collection:
     template:
       name: Collection - Hide Show
