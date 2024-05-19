@@ -373,6 +373,10 @@ collections:
     template:
       name: Collection - Hide Show
       show: 5835
+  Gremlins Collection:
+    template:
+      name: Collection - Hide Show
+      show: 90808
   Guardians of the Galaxy Collection:
     template:
       name: Collection - Hide Show
