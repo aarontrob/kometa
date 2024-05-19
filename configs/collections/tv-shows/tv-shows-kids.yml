@@ -223,7 +223,7 @@ collections:
   Big Hero 6 Collection:
     template:
       name: Collection - Hide Show
-      show: 68665
+      show: '68665, 114466'
       summary: 'Hello, I am Baymax, your personal healthcare companion.'
   Bill & Ted's Most Excellent Collection:
     template:
