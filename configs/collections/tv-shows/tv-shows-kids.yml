@@ -343,6 +343,10 @@ collections:
     template:
       name: Collection - Hide Show
       show: 10289
+  Frozen Collection:
+    template:
+      name: Collection - Hide Show
+      show: 134297
   Garbage Pail Kids Collection:
     template:
       name: Collection - Hide Show
