@@ -139,6 +139,10 @@ collections:
       name: Collection - Shows
       show: '1044, 68595'
       summary: Prepare to see it as never before.
+  RoboCop Collection:
+    template:
+      name: Collection - Hide Show
+      show: 234324
   Star Trek:
     template:
       name: Collection - Hide
