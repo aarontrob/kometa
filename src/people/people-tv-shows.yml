@@ -12,15 +12,15 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Abbott and Costello Collection:
-    template:
-      name: Collection - Hide Show
-      show: 11821
-      summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
-    sort_title: ++_7Abbott and Costello Collection
-  The Beatles Collection:
-    template:
-      name: Collection - Shows
-      show: 127907, 128876, 16906
-      summary: The Beatles were an English rock band, formed in Liverpool in 1960, whose best-known line-up comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are regarded as the most influential band of all time and were integral to the development of 1960s counterculture and popular music's recognition as an art form.
-    sort_title: ++_7Beatles Collection
+  # Abbott and Costello Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 11821
+  #     summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
+  #   sort_title: ++_7Abbott and Costello Collection
+  # The Beatles Collection:
+  #   template:
+  #     name: Collection - Shows
+  #     show: 127907, 128876, 16906
+  #     summary: The Beatles were an English rock band, formed in Liverpool in 1960, whose best-known line-up comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are regarded as the most influential band of all time and were integral to the development of 1960s counterculture and popular music's recognition as an art form.
+  #   sort_title: ++_7Beatles Collection
