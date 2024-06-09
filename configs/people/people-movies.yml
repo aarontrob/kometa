@@ -85,11 +85,8 @@ collections:
       person: Agatha Christie
   Alfred Hitchcock Collection:
     template:
-      name: Director
-      id: 2636
-      person: Alfred Hitchcock
-    trakt_list: alfred-hitchcock-collection
-    sync_mode: sync
+      name: Collection - Trakt List
+      list: alfred-hitchcock-collection
     collection_order: release.desc
   Christopher Guest Collection:
     template:
