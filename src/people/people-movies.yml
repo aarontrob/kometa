@@ -21,7 +21,9 @@ collections:
       name: Director
       id: 2636
       person: Alfred Hitchcock
-    trakt_list: https://trakt.tv/users/goape/lists/alfred-hitchcock-collection
+    trakt_list: alfred-hitchcock-collection
+    sync_mode: sync
+    collection_order: custom
   Christopher Guest Collection:
     template:
       name: Actor Director Writer
