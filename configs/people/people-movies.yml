@@ -90,7 +90,7 @@ collections:
       person: Alfred Hitchcock
     trakt_list: alfred-hitchcock-collection
     sync_mode: sync
-    collection_order: custom
+    collection_order: release.asc
   Christopher Guest Collection:
     template:
       name: Actor Director Writer
