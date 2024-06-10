@@ -535,6 +535,11 @@ collections:
       name: Search
       title: Stepford
       summary: Something strange is happening in the town of Stepford.
+  The Strangers Collection:
+    template:
+      name: Collection
+      collection: '487765, 1172926'
+      summary: Because you were home.
   Suspiria Collection:
     template:
       name: Collection - Movies
