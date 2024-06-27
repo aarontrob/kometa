@@ -1,3 +1,4 @@
 # Build Folders #
 #################
 node_modules
+.DS_Store
