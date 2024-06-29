@@ -168,6 +168,12 @@ collections:
       collection: 264
       movie: 1114081
       summary: 'Where we''re going, we don''t need roads'
+  The Bad News Bears Collection:
+    template:
+      name: Collection - Movie
+      collection: 215326
+      movie: 13341
+      summary: Baseball has rules. Meet the exceptions.
   Batman Collection:
     template:
       name: Collection - Trakt List
