@@ -28,7 +28,7 @@ Studio - Trakt List Custom Order:
   trakt_list: <<list>>
   sync_mode: sync
   sort_title: ++_4<<collection_name>>
-  smart_label: release.asc
+  collection_mode: show_items
   optional:
     - summary
   summary: <<summary>>
