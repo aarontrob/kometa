@@ -176,7 +176,7 @@ collections:
       summary: Baseball has rules. Meet the exceptions.
   Batman Collection:
     template:
-      name: Collection - Trakt List
+      name: Collection - Trakt List Custom Order
       list: batman-collection
       summary: Justice is always Darkest before the Dawn.
   Battlestar Galactica Collection:
