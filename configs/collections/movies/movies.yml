@@ -765,6 +765,11 @@ collections:
       summary: 'Clumsy Clouseau, Brilliant Case'
     plex_search:
       title: Pink Panther
+  Three Men Collection:
+    template:
+      name: Collection
+      collection: 107688
+    tmdb_summary: 107688
   Planet of the Apes Collection:
     template:
       name: Collection - Trakt List
