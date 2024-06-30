@@ -520,7 +520,7 @@ collections:
   Indiana Jones Collection:
     template:
       name: Collection - Trakt List Custom Order
-      list: 'https://trakt.tv/users/goape/lists/indiana-jones-collection'
+      list: indiana-jones-collection
   Invasion of the Body Snatchers Collection:
     template:
       name: Collection - Hide Movie
