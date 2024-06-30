@@ -20,7 +20,7 @@ collections:
   Alfred Hitchcock Collection:
     template:
       name: People - Director Trakt List
-      list: alfred-hitchcock-collection
+      list: https://trakt.tv/users/goape/lists/alfred-hitchcock-collection
       summary: >-
         Sir Alfred Joseph Hitchcock, KBE (13 August 1899 – 29 April 1980), was an English director and producer. Labeled as the "Master of Suspense", he became known for thrillers, often combined with a dark sense of humor. After a successful career in his native country, Hitchcock moved to Hollywood in 1939. Over a career spanning more than half a century, Hitchcock fashioned for himself a distinctive and recognizable directorial style. He pioneered the use of a camera made to move in a way that mimics a person's gaze, forcing viewers to engage in a form of voyeurism. He framed shots to maximize anxiety, fear, or empathy, and used innovative film editing. His stories frequently feature fugitives on the run from the law alongside icy blonde female characters. Many of Hitchcock's films have twist endings and thrilling plots featuring depictions of violence, murder, and crime, although many of the mysteries function as decoys —or MacGuffins— meant only to serve thematic elements in the film and the extremely complex psychological examinations of the characters. Hitchcock's films also borrow many themes from psychoanalysis and feature strong sexual undertones. Through his cameo appearances in his own films, interviews, film trailers, and the television program Alfred Hitchcock Presents (1955-1965), he became a cultural icon.
 
