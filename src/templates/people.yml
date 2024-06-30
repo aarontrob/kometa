@@ -6,11 +6,59 @@ People - Actor:
     sort_by: release.asc
   smart_label: release.desc
   sort_title: ++_7<<collection_name>>
+  summary: <<summary>>
 People - Actor Trakt List:
   trakt_list: <<list>>
   sort_title: ++_7<<collection_name>>
   sync_mode: sync
   smart_label: release.desc
+  summary: <<summary>>
+People - Actor Director:
+  smart_filter:
+    any:
+      actor: <<person>>
+      director: <<person>>
+      title: <<title>>
+    sort_by: release.asc
+  smart_label: release.desc
+  sort_title: ++_7<<collection_name>>
+  summary: <<summary>>
+People - Director Trakt List:
+  trakt_list: <<list>>
+  sort_title: ++_6<<collection_name>>
+  sync_mode: sync
+  smart_label: release.desc
+  summary: <<summary>>
+People - Director Writer:
+  smart_filter:
+    any:
+      director: <<person>>
+      writer: <<person>>
+      title: <<title>>
+    sort_by: release.asc
+  smart_label: release.desc
+  sort_title: ++_6<<collection_name>>
+  summary: <<summary>>
+People - Writer:
+  smart_filter:
+    any:
+      writer: <<person>>
+      title: <<title>>
+    sort_by: release.asc
+  smart_label: release.desc
+  sort_title: ++_6<<collection_name>>
+  summary: <<summary>>
+People - Actor Director Writer:
+  smart_filter:
+    any:
+      actor: <<person>>
+      director: <<person>>
+      writer: <<person>>
+      title: <<title>>
+    sort_by: release.asc
+  smart_label: release.desc
+  sort_title: ++_6<<collection_name>>
+  summary: <<summary>>
 Actor List Documentary:
   sort_title: ++_7<<collection_name>>
   sync_mode: sync

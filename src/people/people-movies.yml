@@ -13,44 +13,61 @@ templates: !!import/shallow
 collections:
   Agatha Christie Collection:
     template:
-      name: Writer
-      id: 47562
+      name: People - Writer
       person: Agatha Christie
+      summary: >-
+        Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (née Miller) was an English crime novelist, short story writer and playwright. She is best known for her 66 detective novels and 14 short story collections, particularly those revolving around her fictional detectives Hercule Poirot and Miss Marple. She also wrote the world's longest-running play, a murder mystery, The Mousetrap, and six romances under the name Mary Westmacott. In 1971 she was made a Dame for her contribution to literature. Most of her books and short stories have been adapted for television, radio, video games and comics, and more than thirty feature films have been based on her work.
   Alfred Hitchcock Collection:
     template:
-      name: Collection - Trakt List
+      name: People - Director Trakt List
       list: alfred-hitchcock-collection
-    collection_order: release.desc
+      summary: >-
+        Sir Alfred Joseph Hitchcock, KBE (13 August 1899 – 29 April 1980), was an English director and producer. Labeled as the "Master of Suspense", he became known for thrillers, often combined with a dark sense of humor. After a successful career in his native country, Hitchcock moved to Hollywood in 1939. Over a career spanning more than half a century, Hitchcock fashioned for himself a distinctive and recognizable directorial style. He pioneered the use of a camera made to move in a way that mimics a person's gaze, forcing viewers to engage in a form of voyeurism. He framed shots to maximize anxiety, fear, or empathy, and used innovative film editing. His stories frequently feature fugitives on the run from the law alongside icy blonde female characters. Many of Hitchcock's films have twist endings and thrilling plots featuring depictions of violence, murder, and crime, although many of the mysteries function as decoys —or MacGuffins— meant only to serve thematic elements in the film and the extremely complex psychological examinations of the characters. Hitchcock's films also borrow many themes from psychoanalysis and feature strong sexual undertones. Through his cameo appearances in his own films, interviews, film trailers, and the television program Alfred Hitchcock Presents (1955-1965), he became a cultural icon.
+
+        Hitchcock is widely regarded as one of the most influential figures in the history of cinema. In 2002, Hitchcock was ranked 2nd behind Orson Welles in the critics' top ten poll in the list of The Greatest Directors of All Time compiled by the Sight & Sound magazine. Andrew Sarris in his influential book of film criticism The American Cinema: Directors and Directions 1929–1968 included him in the "pantheon" of the 14 greatest film directors who had worked in the United States.
+
+        Hitchcock's critically most acclaimed film is the psychological thriller film Vertigo (1958). Although being a mild failure upon its release, it has risen in popularity over the decades. In 2012 it even replaced Orson Welles' Citizen Kane as the greatest film ever made in the Sight & Sound critics' poll. Regarding visual style, Vertigo is often declared as Hitchcock's most perfect film. The use of color symbolism, meticulously composed shots, and the famous "Vertigo effect" (dolly zoom) continue to be studied and admired.
+
+        Hitchcock's most commercially successful and most famous film is Psycho (1960), which had a significant impact on the horror genre, especially the slasher film. Hitchcock was able to prove his skills with the mystery thriller film Rear Window (1954), to create suspense within a confined setting - primarily the protagonist's apartment. In this film, voyeurism, one of Hitchcock's favorite subjects, is an essential aspect.
+
+        Many of Hitchcock's spy films, most notably North by Northwest (1959) and Notorious (1946), had a major impact on the Mission: Impossible and James Bond series.
   Christopher Guest Collection:
     template:
-      name: Actor Director Writer
-      id: 13524
+      name: People - Actor Director Writer
       person: Christopher Guest
-    summary: >-
-      The Rt. Hon. Christopher Haden-Guest, 5th Baron Haden-Guest (born February 5, 1948), better known as Christopher Guest, is an American screenwriter, composer, musician, director, actor and comedian. He is most widely known in Hollywood for having written, directed and starred in several improvisational "mockumentary" films that feature a repertory-like ensemble cast, such as This is Spinal Tap. In the United Kingdom, he holds a Baronial peerage, and has publicly expressed a desire to see the House of Lords reformed as a democratically-elected chamber. Despite initial activity in the Lords, his career there was cut short by the House of Lords Act 1999. When using his title, he is normally styled for short as Lord Haden-Guest.
-  # Clint Eastwood Collection:
-  #   template:
-  #     name: Actor Director
-  #     id: 190
-  #     person: Clint Eastwood
-  # Coen Brothers Collection:
-  #   template:
-  #     name: Director Writer
-  #     id: 1223, 1224
-  #     person: Joel Coen, Ethan Coen
-  #   summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
+      summary: >-
+        The Rt. Hon. Christopher Haden-Guest, 5th Baron Haden-Guest (born February 5, 1948), better known as Christopher Guest, is an American screenwriter, composer, musician, director, actor and comedian. He is most widely known in Hollywood for having written, directed and starred in several improvisational "mockumentary" films that feature a repertory-like ensemble cast, such as This is Spinal Tap. In the United Kingdom, he holds a Baronial peerage, and has publicly expressed a desire to see the House of Lords reformed as a democratically-elected chamber. Despite initial activity in the Lords, his career there was cut short by the House of Lords Act 1999. When using his title, he is normally styled for short as Lord Haden-Guest.
+  Clint Eastwood Collection:
+    template:
+      name: People - Actor Director
+      person: Clint Eastwood
+      summary: >-
+        Clinton "Clint" Eastwood Jr. (born May 31, 1930) is an American film actor, director, producer, composer and former politician. Following his breakthrough role on the TV series "Rawhide" (1959–65), Eastwood starred as the Man with No Name in Sergio Leone's Dollars Trilogy of spaghetti westerns ("A Fistful of Dollars," "For a Few Dollars More," and "The Good, the Bad and the Ugly") in the 1960s, and as San Francisco Police Department Inspector Harry Callahan in the Dirty Harry films ("Dirty Harry," "Magnum Force," "The Enforcer," "Sudden Impact," and "The Dead Pool") during the 1970s and 1980s. These roles, along with several others in which he plays tough-talking no-nonsense police officers, have made him an enduring cultural icon of masculinity.
+
+        Eastwood won Academy Awards for Best Director and Producer of the Best Picture, as well as receiving nominations for Best Actor, for his work in the films "Unforgiven" (1992) and "Million Dollar Baby" (2004). These films in particular, as well as others including "Play Misty for Me" (1971), "The Outlaw Josey Wales" (1976), "Pale Rider" (1985), "In the Line of Fire" (1993), "The Bridges of Madison County" (1995), and "Gran Torino" (2008), have all received commercial success and/or critical acclaim. Eastwood's only comedies have been "Every Which Way but Loose" (1978) and its sequel "Any Which Way You Can" (1980); despite being widely panned by critics they are the two highest-grossing films of his career after adjusting for inflation.
+
+        Eastwood has directed most of his own star vehicles, but he has also directed films in which he did not appear such as "Mystic River" (2003) and "Letters from Iwo Jima" (2006), for which he received Academy Award nominations and "Changeling" (2008), which received Golden Globe Award nominations. He has received considerable critical praise in France in particular, including for several of his films which were panned in the United States, and was awarded two of France's highest honors: in 1994 he received the Ordre des Arts et des Lettres medal and in 2007 was awarded the Légion d'honneur medal. In 2000 he was awarded the Italian Venice Film Festival Golden Lion for lifetime achievement.
+
+        Since 1967 Eastwood has run his own production company, Malpaso, which has produced the vast majority of his films. He also served as the nonpartisan mayor of Carmel-by-the-Sea, California, from 1986 to 1988. Eastwood has seven children by five women, although he has only married twice. An audiophile, Eastwood is also associated with jazz and has composed and performed pieces in several films along with his eldest son, Kyle Eastwood.
+  Coen Brothers Collection:
+    template:
+      name: People - Director Writer
+      person: Joel Coen, Ethan Coen
+      summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
   Dr. Seuss Collection:
     template:
-      name: Writer
-      id: 65705
+      name: People - Writer
       person: Dr. Seuss
-    trakt_list: https://trakt.tv/users/goape/lists/dr-seuss-collection
+      summary: >-
+        Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 – September 24, 1991) was an American children's author and cartoonist. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss. His work includes many of the most popular children's books of all time, selling over 600 million copies and being translated into more than 20 languages by the time of his death. 
+
+        After attending Dartmouth College and Oxford University, he began a career in advertising. His advertising cartoons, featuring Quick, Henry, the Flit!, appeared in several leading American magazines. Dr. Seuss's first children's book, titled "And To Think That I Saw It On Mulberry Street", hit the market in 1937, changing the face of children's literature forever. It was rejected 27 times before it was finally published by Vanguard Press in 1937.
     name_mapping: Dr Seuss Collection
-  # Edgar Allan Poe Collection:
-  #   template:
-  #     name: Writer
-  #     id: 48415
-  #     person: Edgar Allan Poe
+  Edgar Allan Poe Collection:
+    template:
+      name: People - Writer
+      person: Edgar Allan Poe
+      summary: Edgar Allan Poe (né Edgar Poe; January 19, 1809 – October 7, 1849) was an American writer, poet, author, editor, and literary critic who is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism and Gothic fiction in the United States, and of American literature. Poe was one of the country's earliest practitioners of the short story, and is considered the inventor of the detective fiction genre, as well as a significant contributor to the emerging genre of science fiction. He is the first well-known American writer to earn a living through writing alone, resulting in a financially difficult life and career.
   # James Cameron Collection:
   #   template:
   #     name: Director
@@ -66,25 +83,38 @@ collections:
   #     name: Writer
   #     id: 11505
   #     person: John Hughes
-  # M. Night Shyamalan Collection:
-  #   template:
-  #     name: Director Writer
-  #     id: 11614
-  #     person: M. Night Shyamalan
+  M. Night Shyamalan Collection:
+    template:
+      name: People - Director Writer
+      person: M. Night Shyamalan
+      summary: >-
+        Manoj Nelliyattu "M. Night" Shyamalan, born August 6, 1970, is an American filmmaker and actor. He is known for making original films with contemporary supernatural plots and twist endings. He was born in Mahé, India, and raised in Penn Valley, Pennsylvania. The cumulative gross of his films exceeds $3 billion globally.
+
+        He made his directorial debut in 1992 with his first movie Praying with Anger. His second movie was the comedy-drama film Wide Awake (1998). His most well-received films include the supernatural thriller The Sixth Sense (1999), the superhero thriller Unbreakable (2000), and the science fiction thriller Signs (2002). For The Sixth Sense, Shyamalan received nominations for the Academy Award for Best Director and the Academy Award for Best Original Screenplay. Afterward, Shyamalan released a series of poorly received but sometimes financially successful movies, including the period-piece thriller The Village (2004), the dark fantasy Lady in the Water (2006), the eco-thriller The Happening (2008), The Last Airbender (2010) (an adaptation based on the first season of the Nickelodeon animated television series Avatar: The Last Airbender), and the science fiction film After Earth (2013). Following the financial failure of After Earth, Shyamalan's career was revived with the release of the found-footage horror film The Visit (2015), the psychological thriller Split (2016), and the superhero thriller Glass (2019). With a total budget of $34 million between them, these three films earned a combined box office of $625 million. Glass is the third and final chapter of his Unbreakable film series, which commenced in 2000.
+
+        In addition to his directorial work, Shyamalan was a story creator and a producer for the horror film Devil (2010). Shyamalan was also called in for an uncredited rewrite for the teen film She's All That (1999) and also served as a writer for the film Stuart Little (1999). He is also one of the executive producers and occasional director of Wayward Pines and the critically acclaimed series Servant.
+        Shyamalan is also known for filming and setting his films in and around Philadelphia, Pennsylvania. Most of his commercially successful films were co-produced and released by Walt Disney Studios' Touchstone and Hollywood Pictures and Universal imprints. In 2008, Shyamalan was awarded the Padma Shri by the government of India.
   Mel Brooks Collection:
     template:
-      name: Actor Director Writer
-      id: 14639
+      name: People - Actor Director Writer
       person: Mel Brooks
+      summary: >-
+        Melvin Brooks (né Kaminsky, born June 28, 1926) is an American filmmaker, comedian, actor and composer. He is known as a creator of broad film farces and comic parodies. Brooks began his career as a comic and a writer for the early TV variety show Your Show of Shows. He became well known as part of the comedy duo with Carl Reiner in the comedy skit The 2000 Year Old Man. He also created, with Buck Henry, the hit television comedy series Get Smart, which ran from 1965 to 1970.
+
+        In middle age, Brooks became one of the most successful film directors of the 1970s, with many of his films being among the top 10 moneymakers of the year they were released. His best-known films include The Producers, The Twelve Chairs, Blazing Saddles, Young Frankenstein, Silent Movie, High Anxiety, History of the World, Part I, Spaceballs and Robin Hood: Men in Tights. A musical adaptation of his first film, The Producers, ran on Broadway from 2001 to 2007.
+
+        In 2001, having previously won an Emmy, a Grammy and an Oscar, he joined a small list of EGOT winners with his Tony award for The Producers. He received a Kennedy Center Honor in 2009, the Hollywood Walk of Fame in 2010, the 41st AFI Life Achievement Award in June 2013, a British Film Institute Fellowship in March 2015, a National Medal of Arts in September 2016, and a BAFTA Fellowship in February 2017. Three of his films ranked in the American Film Institute's list of the top 100 comedy films of the past 100 years (1900–2000), all of which ranked in the top 15 of the list: Blazing Saddles at number 6, The Producers at number 11, and Young Frankenstein at number 13.
   Quentin Tarantino Collection:
     template:
-      name: Actor Director Writer
-      id: 138
+      name: People - Actor Director Writer
       person: Quentin Tarantino
+      summary: >-
+        Quentin Jerome Tarantino (born March 27, 1963) is an American film director, screenwriter, producer, cinematographer and actor. In the early 1990s he was an independent filmmaker whose films used nonlinear storylines and aestheticization of violence. His films have earned him a variety of Academy Award, Golden Globe, BAFTA and Palme d'Or Awards and he has been nominated for Emmy and Grammy Awards. In 2007, Total Film named him the 12th-greatest director of all time.
+
+        Tarantino was born in Knoxville, Tennessee, the son of Connie McHugh Tarantino Zastoupil, a health care executive and nurse born in Knoxville, and Tony Tarantino, an actor and amateur musician born in Queens, New York. Tarantino's mother allowed him to quit school at age 17, to attend an acting class full time. Tarantino gave up acting while attending the acting school, saying that he admired directors more than actors. Tarantino also worked in a video rental store before becoming a filmmaker, paid close attention to the types of films people liked to rent, and has cited that experience as inspiration for his directorial career.
   Ray Harryhausen Collection:
     template:
-      name: Director List
-      id: 66758
+      name: People - Director Trakt List
     trakt_list: https://trakt.tv/users/goape/lists/ray-harryhausen-collection
     summary: >-
       Raymond "Ray" Harryhausen (June 29, 1920 – May 7, 2013) was an American visual effects creator, writer, and producer who lived in London, England, from 1960 until his death in 2013.
@@ -97,29 +127,44 @@ collections:
   #     person: Ridley Scott
   Stanley Kubrick Collection:
     template:
-      name: Director
-      id: 240
+      name: People - Director
       person: Stanley Kubrick
+      summary: >-
+        Stanley Kubrick (July 26, 1928 – March 7, 1999) was an American film director, writer, producer, and photographer who lived in England during most of the last four decades of his career. Kubrick was noted for the scrupulous care with which he chose his subjects, his slow method of working, the variety of genres he worked in, his technical perfectionism, and his reclusiveness about his films and personal life. He maintained almost complete artistic control, making movies according to his own whims and time constraints, but with the rare advantage of big-studio financial support for all his endeavors. Kubrick's films are characterized by a formal visual style and meticulous attention to detail—his later films often have elements of surrealism and expressionism that eschews structured linear narrative. His films are repeatedly described as slow and methodical, and are often perceived as a reflection of his obsessive and perfectionist nature. A recurring theme in his films is man's inhumanity to man. While often viewed as expressing an ironic pessimism, a few critics feel his films contain a cautious optimism when viewed more carefully.
+
+        The film that first brought him attention to many critics was Paths of Glory (1957), the first of three films of his about the dehumanizing effects of war. Many of his films at first got a lukewarm reception, only to be years later acclaimed as masterpieces that had a seminal influence on many later generations of film-makers. Considered especially groundbreaking was 2001: A Space Odyssey (1968) noted for being both one of the most scientifically realistic and visually innovative science-fiction films ever made while maintaining an enigmatic non-linear storyline. He voluntarily withdrew his film A Clockwork Orange (1971) from England, after it was accused of inspiring copycat crimes which in turn resulted in threats against Kubrick's family. His films were largely successful at the box-office, although Barry Lyndon (1975) performed poorly in the United States. Living authors Anthony Burgess and Stephen King were both unhappy with Kubrick's adaptations of their novels A Clockwork Orange and The Shining (1980) respectively, and both authors were engaged with subsequent adaptations. All of Kubrick's films from the mid-1950s to his death except for The Shining were nominated for Oscars, Golden Globes, or BAFTAs. Although he was nominated for an Academy Award as a screenwriter and director on several occasions, his only personal win was for the special effects in 2001: A Space Odyssey.
+
+        Even though all of his films, apart from the first two, were adapted from novels or short stories, his works have been described by Jason Ankeny and others as "original and visionary". Although some critics, notably Andrew Sarris and Pauline Kael, frequently disparaged Kubrick's work, Ankeny describes Kubrick as one of the most "universally acclaimed and influential directors of the postwar era" with a "standing unique among the filmmakers of his day."
   Stephen King Collection:
     template:
-      name: Director List
-      id: 3027
-    trakt_list: https://trakt.tv/users/goape/lists/stephen-king-collection
-  # Steven Spielberg Collection:
-  #   template:
-  #     name: Director
-  #     id: 488
-  #     person: Steven Spielberg
+      name: People - Director Writer
+      person: Stephen King
+      summary: Stephen King is an American author of contemporary horror, suspense, science fiction, and fantasy fiction. His books have sold more than 350 million copies, which have been adapted into a number of feature films, television movies, and comic books. As of 2011, King has written and published 49 novels, including seven under the pen name Richard Bachman, five non-fiction books, and nine collections of short stories. Many of his stories are set in his home state of Maine. King has received Bram Stoker Awards, World Fantasy Awards, British Fantasy Society Awards, his novella The Way Station was a Nebula Award novelette nominee, and in 2003, the National Book Foundation awarded him the Medal for Distinguished Contribution to American Letters.
+  Steven Spielberg Collection:
+    template:
+      name: People - Director Writer
+      person: Steven Spielberg
+      summary: >-
+        Steven Allan Spielberg (born December 18, 1946) is an American film director, writer and producer. A major figure of the New Hollywood era and pioneer of the modern blockbuster, he is the most commercially successful director of all time. Spielberg is the recipient of various accolades, including three Academy Awards, a Kennedy Center honor, four Directors Guild of America Awards, two BAFTA Awards, a Cecil B. DeMille Award and an AFI Life Achievement Award. Seven of his films have been inducted into the National Film Registry by the Library of Congress as "culturally, historically or aesthetically significant".
+
+        Spielberg was born in Cincinnati, Ohio, and grew up in Phoenix, Arizona. He moved to California and studied film in college. After directing several episodes for television including Night Gallery and Columbo, he directed the television film Duel (1971) which gained acclaim from critics and audiences. He made his directorial film debut with The Sugarland Express (1974), and became a household name with the 1975 summer blockbuster Jaws. He then directed huge box office successes Close Encounters of the Third Kind (1977), E.T. the Extra-Terrestrial (1982) and the Indiana Jones original trilogy (1981-89). Spielberg subsequently explored drama in the acclaimed The Color Purple (1985) and Empire of the Sun (1987).
+
+        After a brief hiatus, Spielberg directed the science fiction thriller Jurassic Park (1993), the highest-grossing film ever at the time, and the Holocaust drama Schindler's List (1993), which has often been listed as one of the greatest films ever made. He won the Academy Award for Best Director for the latter and for the 1998 World War II epic Saving Private Ryan. Spielberg continued in the 2000s with science fiction films A.I. Artificial Intelligence (2001), Minority Report (2002) and War of the Worlds (2005). He also directed the adventure films The Adventures of Tintin (2011) and Ready Player One (2018); the historical dramas Amistad (1997), Munich (2005), War Horse (2011), Lincoln (2012), Bridge of Spies (2015) and The Post (2017); the musical West Side Story (2021); and the semi-autobiographical drama The Fabelmans (2022). He has been a producer on several successful films, including Poltergeist (1982), Gremlins (1984), Back to the Future (1985) and Who Framed Roger Rabbit (1988) as well as the miniseries Band of Brothers (2001).
+
+        Spielberg co-founded Amblin Entertainment and DreamWorks, and has served as a producer for many successful films and television series. He is also known for his long collaboration with the composer John Williams, with whom he has worked for all but five of his feature films. Several of Spielberg's works are among the highest-grossing and greatest films all time. Premiere ranked him first place in the list of 100 Most Powerful People in Movies in 2003. In 2013, Time listed him as one of the 100 most influential people.
   Tim Burton Collection:
     template:
-      name: Director Writer
-      id: 510
+      name: People - Director Writer
       person: Tim Burton
-  Wes Anderson Collection:
-    template:
-      name: Director
-      id: 5655
-      person: Wes Anderson
+      summary: >-
+        Timothy Walter Burton (born August 25, 1958) is an American filmmaker and animator. He is known for his gothic fantasy and horror films such as Beetlejuice (1988), Edward Scissorhands (1990), The Nightmare Before Christmas (1993), Ed Wood (1994), Sleepy Hollow (1999), Corpse Bride (2005), Sweeney Todd: The Demon Barber of Fleet Street (2007) and Dark Shadows (2012), as well as the television series Wednesday (2022). Burton also directed the superhero films Batman (1989) and Batman Returns (1992), the sci-fi film Planet of the Apes (2001), the fantasy-drama Big Fish (2003), the musical adventure film Charlie and the Chocolate Factory (2005), and the fantasy films Alice in Wonderland (2010) and Miss Peregrine's Home for Peculiar Children (2016).
+
+        Burton has often worked with actors Winona Ryder, Johnny Depp, Lisa Marie (former girlfriend), Helena Bonham Carter (his former domestic partner) and composer Danny Elfman, who scored all but three of Burton's films. Burton also wrote and illustrated the poetry book The Melancholy Death of Oyster Boy & Other Stories, published in 1997 by British publishing house Faber and Faber, and a compilation of his drawings, sketches, and other artwork, entitled The Art of Tim Burton, was released in 2009. A follow-up to that book, entitled The Napkin Art of Tim Burton: Things You Think About in a Bar, containing sketches made by Burton on napkins at bars and restaurants he visited, was released in 2015. His accolades include nominations for two Academy Awards and three BAFTA Awards, and wins for an Emmy Award and a Golden Globe Award.
+  # Wes Anderson Collection:
+  #   template:
+  #     name: Director
+  #     id: 5655
+  #     person: Wes Anderson
   # Wes Craven Collection:
   #   template:
   #     name: Director Writer
@@ -134,6 +179,12 @@ collections:
     template:
       name: People - Actor
       person: Adam Sandler
+      summary: >-
+        Adam Richard Sandler (born September 9, 1966) is an American comedian, actor, and filmmaker. He was a cast member on Saturday Night Live from 1990 to 1995, before going on to star in many Hollywood films, which have combined to earn more than $2 billion at the box office. Sandler had an estimated net worth of $420 million in 2020, and signed a further four-movie deal with Netflix worth over $250 million.
+
+        Sandler's comedic roles include Billy Madison (1995), Happy Gilmore (1996), The Waterboy (1998), The Wedding Singer (1998), Big Daddy (1999), Mr. Deeds (2002), 50 First Dates (2004), The Longest Yard (2005), Click (2006), Grown Ups (2010), Just Go with It (2011), Grown Ups 2 (2013), Blended (2014), Murder Mystery (2019) and Hubie Halloween (2020). He also voiced Davey, Whitey, and Eleanore in Eight Crazy Nights and Dracula in the first three films of the Hotel Transylvania franchise (2012–2018).
+
+        While some of his comedic films, including Jack and Jill (2011), have been panned, resulting in Sandler receiving nine Golden Raspberry Awards and 37 Raspberry Award nominations, more than any actor other than Sylvester Stallone, he has received critical acclaim for his dramatic performances in the dramedy films Spanglish (2004), Reign Over Me (2007), and Funny People (2009). He has also been roundly praised for his leading roles in auteur films including Punch-Drunk Love (2002) by Paul Thomas Anderson, Noah Baumbach's The Meyerowitz Stories (2017), and the Safdie brothers' Uncut Gems (2019), the last of which earned him the Independent Spirit Award for Best Male Lead.
   Abbott and Costello Collection:
     template:
       name: People - Actor
@@ -143,7 +194,7 @@ collections:
     template:
       name: People - Actor Trakt List
       list: https://trakt.tv/users/goape/lists/the-beatles
-      summary: Movies featuring/based on the Beatles
+      summary: Movies featuring/based on The Beatles
     sort_title: ++_7Beatles Collection
   # Ben Stiller Collection:
   #   template:
@@ -170,6 +221,7 @@ collections:
       name: People - Actor
       person: Charlie Chaplin
       title: Chaplin
+      summary: Charles “Charlie” Chaplin (16 April 1889 – 25 December 1977) was an English comic actor, film director and composer best-known for his work during the silent film era. He used mime, slapstick and other visual comedy routines, and continued well into the era of the talkies, though his films decreased in frequency by the end of the 1920s. His most famous role was that of The Tramp, which he first played in Kid Auto Races (1914). From 1914 onwards he was writing and directing most of his films, by 1916 he was producing them, and by 1918 he was also composing the music for them. In 1919 he co-founded United Artists. In 1999, the American Film Institute ranked Chaplin the 10th greatest male screen legend of all time.
   # Charlton Heston Collection:
   #   template:
   #     name: Actor
@@ -184,21 +236,23 @@ collections:
     template:
       name: People - Actor
       person: Chris Farley
-    summary: Christopher Crosby "Chris" Farley (February 15, 1964 – December 18, 1997) was an American comedian and actor. Farley was a member of Chicago's The Second City Theatre and cast member of the NBC sketch comedy show Saturday Night Live from 1990 to 1995.
+      summary: Christopher Crosby "Chris" Farley (February 15, 1964 – December 18, 1997) was an American comedian and actor. Farley was a member of Chicago's The Second City Theatre and cast member of the NBC sketch comedy show Saturday Night Live from 1990 to 1995.
   # Demetri Martin Collection:
   #   template:
   #     name: Actor All
   #     id: 84075
   #     person: Demetri Martin
-  Dolly Parton Collection:
-    template:
-      name: People - Actor
-      person: Dolly Parton
   Elvis Presley Collection:
     template:
       name: People - Actor
       person: Elvis Presley
       title: "Elvis: That's the Way It Is"
+      summary: >-
+        Elvis Aaron Presley (January 8, 1935 – August 16, 1977), or simply Elvis, was an American singer and actor. Dubbed the "King of Rock and Roll", he is regarded as one of the most significant cultural figures of the 20th century. His energized interpretations of songs and sexually provocative performance style, combined with a singularly potent mix of influences across color lines during a transformative era in race relations, led him to both great success and initial controversy.
+
+        Presley was born in Tupelo, Mississippi, and relocated to Memphis, Tennessee, with his family when he was 13 years old. His music career began there in 1954, recording at Sun Records with producer Sam Phillips, who wanted to bring the sound of African-American music to a wider audience. Presley, on rhythm acoustic guitar, and accompanied by lead guitarist Scotty Moore and bassist Bill Black, was a pioneer of rockabilly, an uptempo, backbeat-driven fusion of country music and rhythm and blues. In 1955, drummer D. J. Fontana joined to complete the lineup of Presley's classic quartet and RCA Victor acquired his contract in a deal arranged by Colonel Tom Parker, who would manage him for more than two decades. Presley's first RCA Victor single, "Heartbreak Hotel", was released in January 1956 and became a number-one hit in the United States. Within a year, RCA would sell ten million Presley singles. With a series of successful network television appearances and chart-topping records, Presley became the leading figure of the newly popular sound of rock and roll, though his performative style and promotion of the then-marginalized sound of African-Americans led to him being widely considered a threat to the moral well-being of the White American youth.
+
+        In November 1956, Presley made his film debut in Love Me Tender. Drafted into military service in 1958, Presley relaunched his recording career two years later with some of his most commercially successful work. He held few concerts, however, and guided by Parker, proceeded to devote much of the 1960s to making Hollywood films and soundtrack albums, most of them critically derided. Some of his most famous films included Jailhouse Rock (1957), Blue Hawaii (1961), and Viva Las Vegas (1964). In 1968, following a seven-year break from live performances, he returned to the stage in the acclaimed television comeback special Elvis, which led to an extended Las Vegas concert residency and a string of highly profitable tours. In 1973, Presley gave the first concert by a solo artist to be broadcast around the world, Aloha from Hawaii. Years of prescription drug abuse and unhealthy eating habits severely compromised his health, and he died suddenly in 1977 at his Graceland estate at the age of 42.
   # Frank Sinatra Collection:
   #   template:
   #     name: Actor
@@ -236,15 +290,20 @@ collections:
   #     person: John Candy
   Kathy Griffin Collection:
     template:
-      name: Actor All
-      id: 3138
+      name: People - Actor
       person: Kathy Griffin
-    summary: >-
-      Kathleen Mary "Kathy" Griffin (born November 4, 1960) is an American actress, model, stand-up comedian, television personality, New York Times best-selling author and an LGBT rights advocate. Griffin first gained recognition for appearances on two episodes of Seinfeld, and then for her supporting role on the NBC sitcom Suddenly Susan. She was the star of the Bravo reality show Kathy Griffin: My Life on the D-List, for which she won two Emmy Awards as executive producer. She has also worked as a voice artist and red carpet commentator, in addition to several other career pursuits. From 2008-2013 she was nominated for a Grammy Award for Best Comedy Album, winning in 2013. In her bid to win a Tony Award, she made her Broadway debut in Kathy Griffin Wants a Tony in March 2011.
+      summary: >-
+        Kathleen Mary "Kathy" Griffin (born November 4, 1960) is an American actress, model, stand-up comedian, television personality, New York Times best-selling author and an LGBT rights advocate. Griffin first gained recognition for appearances on two episodes of Seinfeld, and then for her supporting role on the NBC sitcom Suddenly Susan. She was the star of the Bravo reality show Kathy Griffin: My Life on the D-List, for which she won two Emmy Awards as executive producer. She has also worked as a voice artist and red carpet commentator, in addition to several other career pursuits. From 2008-2013 she was nominated for a Grammy Award for Best Comedy Album, winning in 2013. In her bid to win a Tony Award, she made her Broadway debut in Kathy Griffin Wants a Tony in March 2011.
   Laurel & Hardy Collection:
     template:
       name: People - Actor Trakt List
       list: https://trakt.tv/users/goape/lists/laurel-hardy
+      summary: >-
+        Laurel and Hardy were a British-American comedy team during the early Classical Hollywood era of American cinema, consisting of Englishman Stan Laurel (1890–1965) and American Oliver Hardy (1892–1957). Starting their career as a duo in the silent film era, they later successfully transitioned to "talkies". From the late 1920s to the mid-1950s, they were internationally famous for their slapstick comedy, with Laurel playing the clumsy, childlike friend to Hardy's pompous bully. Their signature theme song, known as "The Cuckoo Song", "Ku-Ku", or "The Dance of the Cuckoos" (by Hollywood composer T. Marvin Hatley) was heard over their films' opening credits, and became as emblematic of them as their bowler hats.
+
+        Prior to emerging as a team, both had well-established film careers. Laurel had acted in over 50 films, and worked as a writer and director, while Hardy was in more than 250 productions. Both had appeared in The Lucky Dog (1921), but were not teamed at the time. They first appeared together in a short film in 1926, when they signed separate contracts with the Hal Roach film studio. They officially became a team in 1927 when they appeared in the silent short Putting Pants on Philip. They remained with Roach until 1940, and then appeared in eight B movie comedies for 20th Century Fox and Metro-Goldwyn-Mayer from 1941 to 1945. After finishing their film commitments at the end of 1944, they concentrated on performing stage shows, and embarked on a music hall tour of England, Ireland, Wales, and Scotland.[4] They made their last film in 1950, a French–Italian co-production called Atoll K.
+
+        They appeared as a team in 107 films, starring in 32 short silent films, 40 short sound films, and 23 full-length feature films. They also made 12 guest or cameo appearances, including in the Galaxy of Stars promotional film of 1936. On December 1, 1954, they made their sole American television appearance, when they were surprised and interviewed by Ralph Edwards on his live NBC-TV program This Is Your Life. Since the 1930s, their works have been released in numerous theatrical reissues, television revivals, 8-mm and 16-mm home movies, feature-film compilations, and home videos. In 2005, they were voted the seventh-greatest comedy act of all time by a UK poll of professional comedians. The official Laurel and Hardy appreciation society is The Sons of the Desert, after a fictional fraternal society in the film of the same name.
   # Leslie Nielsen Collection:
   #   template:
   #     name: Actor
@@ -273,11 +332,19 @@ collections:
     template:
       name: People - Actor
       person: Marilyn Monroe
+      summary: >-
+        Marilyn Monroe (born Norma Jeane Mortenson; 1 June 1926 – 4 August 1962) was an American actress. Famous for playing comedic "blonde bombshell" characters, she became one of the most popular sex symbols of the 1950s and early 1960s, as well as an emblem of the era's sexual revolution. She was a top-billed actress for a decade, and her films grossed $200 million (equivalent to $2 billion in 2021) by the time of her death in 1962. Long after her death, Monroe remains a major icon of pop culture. In 1999, the American Film Institute ranked her sixth on their list of the greatest female screen legends from the Golden Age of Hollywood. Multiple film critics and media outlets have cited Monroe as one of the best actors never to have received an Academy Award nomination.
+
+        Born and raised in Los Angeles, Monroe spent most of her childhood in a total of 12 foster homes and an orphanage; she married at age sixteen. She was working in a factory during World War II when she met a photographer from the First Motion Picture Unit and began a successful pin-up modeling career, which led to short-lived film contracts with 20th Century Fox and Columbia Pictures. After a series of minor film roles, she signed a new contract with Fox in late 1950. Over the next two years, she became a popular actress with roles in several comedies, including As Young as You Feel and Monkey Business, and in the dramas Clash by Night and Don't Bother to Knock. She faced a scandal when it was revealed that she had posed for nude photographs prior to becoming a star, but the story did not damage her career and instead resulted in increased interest in her films.
+
+        By 1953, Monroe was one of the most marketable Hollywood stars; she had leading roles in the film noir Niagara, which overtly relied on her sex appeal, and the comedies Gentlemen Prefer Blondes and How to Marry a Millionaire, which established her star image as a "dumb blonde". The same year, her nude images were used as the centerfold and on the cover of the first issue of Playboy. She played a significant role in the creation and management of her public image throughout her career, but she was disappointed when she was typecast and underpaid by the studio. She was briefly suspended in early 1954 for refusing a film project but returned to star in The Seven Year Itch (1955), one of the biggest box office successes of her career.
+
+        When the studio was still reluctant to change Monroe's contract, she founded her own film production company in 1954. She dedicated 1955 to building the company and began studying method acting under Lee Strasberg at the Actors Studio. Later that year, Fox awarded her a new contract, which gave her more control and a larger salary. Her subsequent roles included a critically acclaimed performance in Bus Stop (1956) and her first independent production in The Prince and the Showgirl (1957). She won a Golden Globe for Best Actress for her role in Some Like It Hot (1959), a critical and commercial success. Her last completed film was the drama The Misfits (1961).
   Marx Brothers Collection:
     template:
       name: People - Actor Trakt List
       list: https://trakt.tv/users/goape/lists/marx-brothers-collection
-    summary: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars and fans to be among the greatest and most influential comedians of the 20th century.
+      summary: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars and fans to be among the greatest and most influential comedians of the 20th century.
   # Mike Myers Collection:
   #   template:
   #     name: Actor
@@ -323,11 +390,11 @@ collections:
   #     name: Actor
   #     id: 13565
   #     person: Steve McQueen
-  The Three Stooges Collection:
-    template:
-      name: Search
-      title: Three Stooges
-    sort_title: ++_8Three Stooges Collection
+  # The Three Stooges Collection:
+  #   template:
+  #     name: Search
+  #     title: Three Stooges
+  #   sort_title: ++_8Three Stooges Collection
   # Vincent Price Collection:
   #   template:
   #     name: Actor
