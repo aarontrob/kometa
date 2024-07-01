@@ -241,13 +241,6 @@ collections:
         agency, under the leadership of Charlie Townsend, their unseen boss. The
         film series is a continuation of the story with later generations of
         Angels.
-  The Christmas Chronicles:
-    template:
-      name: Collection
-      collection: 743824
-      summary: >-
-        The magical adventures of Santa Claus, Mrs. Claus and the Pierce
-        siblings.
   A Christmas Story Collection:
     template:
       name: Collection - Movie
