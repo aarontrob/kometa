@@ -1,9 +1,7 @@
-collections:
+metadata:
   'Home Alone: The Holiday Heist':
     sort_title: Home Alone 5
-    build_collection: false
   The 'Burbs:
     sort_title: Burbs
   '*batteries not included':
     sort_title: batteries not included
-    build_collection: false
