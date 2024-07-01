@@ -230,6 +230,10 @@ collections:
       name: Collection - Movies
       movie: '1598, 11349'
       summary: There is nothing in the dark that isn't there in the light. Except fear.
+  Captain America Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: captain-america-collection
   Charlie's Angels Collection:
     template:
       name: Collection - Movie
