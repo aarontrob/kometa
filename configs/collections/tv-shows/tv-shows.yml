@@ -740,6 +740,10 @@ collections:
     template:
       name: Collection - Hide Show
       show: 1920
+  Vikings Collection:
+    template:
+      name: Collection - Shows
+      show: '44217, 116135'
   The Walking Dead Universe:
     template:
       name: Collection - Shows
