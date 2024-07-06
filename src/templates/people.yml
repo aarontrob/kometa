@@ -21,6 +21,14 @@ People - Actor Director:
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>
+People - Director:
+  smart_filter:
+    any:
+      director: <<person>>
+      title: <<title>>
+    sort_by: release.asc
+  sort_title: ++_6<<collection_name>>
+  summary: <<summary>>
 People - Director Trakt List:
   trakt_list: <<list>>
   sort_title: ++_6<<collection_name>>

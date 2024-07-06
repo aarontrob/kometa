@@ -3,9 +3,6 @@
 ######################################################
 
 collections:
-  3 Men Collection:
-    label: Unmanaged
-    blank_collection: true
   300 Collection:
     label: Unmanaged
     blank_collection: true
@@ -24,16 +21,7 @@ collections:
   The Amazing Spider-Man Collection:
     label: Unmanaged
     blank_collection: true
-  American Graffiti Collection:
-    label: Unmanaged
-    blank_collection: true
-  American Pie (Spin-off) Collection:
-    label: Unmanaged
-    blank_collection: true
   American Pie Collection:
-    label: Unmanaged
-    blank_collection: true
-  Americanized Godzilla Collection:
     label: Unmanaged
     blank_collection: true
   Analyze Collection:
@@ -42,16 +30,10 @@ collections:
   Anchorman Collection:
     label: Unmanaged
     blank_collection: true
-  Annabel Allison collection:
-    label: Unmanaged
-    blank_collection: true
   Ant-Man Collection:
     label: Unmanaged
     blank_collection: true
   Arthur Collection:
-    label: Unmanaged
-    blank_collection: true
-  Atomic Blonde Collection:
     label: Unmanaged
     blank_collection: true
   Austin Powers Collection:
@@ -61,9 +43,6 @@ collections:
     label: Unmanaged
     blank_collection: true
   AVP Collection:
-    label: Unmanaged
-    blank_collection: true
-  Baby Driver Collection:
     label: Unmanaged
     blank_collection: true
   Bachelor Party Collection:
@@ -96,19 +75,10 @@ collections:
   Before... Collection:
     label: Unmanaged
     blank_collection: true
-  The Benchwarmers Collection:
-    label: Unmanaged
-    blank_collection: true
-  Betty Broderick Collection:
-    label: Unmanaged
-    blank_collection: true
   Beverly Hills Cop Collection:
     label: Unmanaged
     blank_collection: true
   Big Momma's House Collection:
-    label: Unmanaged
-    blank_collection: true
-  Bill & Ted Collection:
     label: Unmanaged
     blank_collection: true
   Bird Box Collection:
@@ -118,9 +88,6 @@ collections:
     label: Unmanaged
     blank_collection: true
   Blade Collection:
-    label: Unmanaged
-    blank_collection: true
-  Blue Crush Collection:
     label: Unmanaged
     blank_collection: true
   The Blues Brothers Collection:

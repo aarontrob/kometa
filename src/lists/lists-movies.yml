@@ -94,21 +94,13 @@ collections:
     template:
       name: List - Trakt List Custom Order Details
       list: https://trakt.tv/users/goape/lists/empire-magazine-s-60-greatest-movie-sequels
-  # "Oscars: Winners":
-  #   template: {name: Chart Release, num: 5}
-  #   imdb_list: https://www.imdb.com/search/title/?title_type=feature&groups=oscar_winner
-  #   summary: Oscar Winning Movies
-  #   name_mapping: Oscars Winners
-  # "Oscars: Best Picture":
-  #   template: {name: Chart Release, num: 5}
-  #   imdb_list: https://www.imdb.com/search/title/?title_type=feature&groups=best_picture_winner
-  #   summary: Oscar Winning Movies
-  #   name_mapping: Oscars Best Picture
-  # "Oscars: Best Director":
-  #   template: {name: Chart Release, num: 5}
-  #   imdb_list: https://www.imdb.com/search/title/?title_type=feature&groups=best_director_winner
-  #   summary: Oscar Winning Movies
-  #   name_mapping: Oscars Best Director
+  "Oscars: Winners":
+    imdb_search:
+      type: movie
+      event.winning: oscar
+    smart_label: release.desc
+    sync_mode: sync
+    summary: Oscar Winning Movies
   # Popular:
   #   sort_title: ++_2.1Popular
   #   tmdb_popular: 40

@@ -22,6 +22,14 @@ templates:
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
+  People - Director:
+    smart_filter:
+      any:
+        director: <<person>>
+        title: <<title>>
+      sort_by: release.asc
+    sort_title: ++_6<<collection_name>>
+    summary: <<summary>>
   People - Director Trakt List:
     trakt_list: <<list>>
     sort_title: ++_6<<collection_name>>
@@ -226,7 +234,7 @@ collections:
         is known for his work writing and illustrating more than 60 books under
         the pen name Dr. Seuss. His work includes many of the most popular
         children's books of all time, selling over 600 million copies and being
-        translated into more than 20 languages by the time of his death. 
+        translated into more than 20 languages by the time of his death.
 
         After attending Dartmouth College and Oxford University, he began a
         career in advertising. His advertising cartoons, featuring Quick, Henry,
@@ -327,7 +335,7 @@ collections:
         and Young Frankenstein at number 13.
   Quentin Tarantino Collection:
     template:
-      name: People - Actor Director Writer
+      name: People - Director
       person: Quentin Tarantino
       summary: >-
         Quentin Jerome Tarantino (born March 27, 1963) is an American film
