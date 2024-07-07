@@ -13,6 +13,7 @@ templates:
       any:
         studio: <<studio>>
       sort_by: release.asc
+    item_label: <<collection_name>>
     sort_title: ++_4<<collection_name>>
     optional:
       - summary
