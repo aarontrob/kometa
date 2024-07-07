@@ -51,10 +51,11 @@ collections:
       summary: Earth's Mightiest Heroes
   Back to the Future Collection:
     template:
-      name: Collection - Movie
+      name: Collection
       collection: 264
-      movie: 1114081
       summary: "Where we're going, we don't need roads"
+      plex_search:
+        title: Back to the Future... The Ride
   The Bad News Bears Collection:
     template:
       name: Collection - Movie
