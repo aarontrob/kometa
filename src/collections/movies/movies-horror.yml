@@ -312,6 +312,12 @@ collections:
       name: Collection - Trakt List Custom Order
       list: psycho-collection
       summary: Exploring the blackness of the subconscious man!
+  A Quiet Place Collection:
+    template:
+      name: Collection
+      collection: 521226
+      sort_title: Quiet Place Collection
+      summary: A series of films that revolve around people struggling to survive in a post-apocalyptic world inhabited by blind extraterrestrial creatures with an acute sense of hearing.
   "[REC] Collection":
     template:
       name: Collection

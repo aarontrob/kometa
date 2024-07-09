@@ -259,6 +259,13 @@ collections:
       name: List - Trakt List Custom Order Details
       list: >-
         https://trakt.tv/users/goape/lists/empire-magazine-s-60-greatest-movie-sequels
+  'Oscars: Winners':
+    imdb_search:
+      type: movie
+      event.winning: oscar
+    smart_label: release.desc
+    sync_mode: sync
+    summary: Oscar Winning Movies
   Problematic Collection:
     template:
       name: Collection - Trakt List
