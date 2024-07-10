@@ -393,6 +393,13 @@ collections:
       name: Collection
       collection: 111751, 425175
       summary: Who will survive and what will be left of them?
+  The Thing Collection:
+    template:
+      name: Collection - Movie
+      collection: 479888
+      movie: 10785
+      sort_title: Thing Collection
+      summary: Man is the warmest place to hide.
   The Three Mothers Trilogy:
     template:
       name: Collection - Movies
