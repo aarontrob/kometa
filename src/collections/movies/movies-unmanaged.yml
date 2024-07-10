@@ -48,9 +48,6 @@ collections:
   Bachelor Party Collection:
     label: Unmanaged
     blank_collection: true
-  Back to the Future Collection:
-    label: Unmanaged
-    blank_collection: true
   Backdraft Collection:
     label: Unmanaged
     blank_collection: true
@@ -81,9 +78,6 @@ collections:
   Big Momma's House Collection:
     label: Unmanaged
     blank_collection: true
-  Bird Box Collection:
-    label: Unmanaged
-    blank_collection: true
   Black Panther Collection:
     label: Unmanaged
     blank_collection: true
@@ -99,21 +93,12 @@ collections:
   The Bourne Collection:
     label: Unmanaged
     blank_collection: true
-  The Brady Bunch TV Movie Collection:
-    label: Unmanaged
-    blank_collection: true
   Breakin' Collection:
     label: Unmanaged
     blank_collection: true
-  Bring It On Collection:
-    label: Unmanaged
-    blank_collection: true
-  The Broadway Melody Collection:
-    label: Unmanaged
-    blank_collection: true
-  Bulletproof Collection:
-    label: Unmanaged
-    blank_collection: true
+  # Bring It On Collection:
+  #   label: Unmanaged
+  #   blank_collection: true
   Butch Cassidy and the Sundance Kid Collection:
     label: Unmanaged
     blank_collection: true
@@ -138,9 +123,6 @@ collections:
   Captain Marvel Collection:
     label: Unmanaged
     blank_collection: true
-  Carry On Collection:
-    label: Unmanaged
-    blank_collection: true
   Center Stage Collection:
     label: Unmanaged
     blank_collection: true
@@ -148,9 +130,6 @@ collections:
     label: Unmanaged
     blank_collection: true
   Chili Palmer Collection:
-    label: Unmanaged
-    blank_collection: true
-  The Christmas Chronicles Collection:
     label: Unmanaged
     blank_collection: true
   The Christmas House Collection:
@@ -165,25 +144,10 @@ collections:
   Class of 1999 Collection:
     label: Unmanaged
     blank_collection: true
-  The Claus Family Collection:
-    label: Unmanaged
-    blank_collection: true
   Clerks Collection:
     label: Unmanaged
     blank_collection: true
-  Cliffhanger Collection:
-    label: Unmanaged
-    blank_collection: true
-  Cochise Collection:
-    label: Unmanaged
-    blank_collection: true
   Cocoon Collection:
-    label: Unmanaged
-    blank_collection: true
-  Commando - Collection:
-    label: Unmanaged
-    blank_collection: true
-  Corky St. Clair Collection:
     label: Unmanaged
     blank_collection: true
   Crocodile Dundee Collection:
@@ -207,12 +171,6 @@ collections:
   Deadpool Collection:
     label: Unmanaged
     blank_collection: true
-  The Death of Superman Collection:
-    label: Unmanaged
-    blank_collection: true
-  Death Race Original Collection:
-    label: Unmanaged
-    blank_collection: true
   Die Hard Collection:
     label: Unmanaged
     blank_collection: true
@@ -225,9 +183,6 @@ collections:
   Django Collection:
     label: Unmanaged
     blank_collection: true
-  Dolly Parton's Christmases of Many Colors Collection:
-    label: Unmanaged
-    blank_collection: true
   Dr Goldfoot Collection:
     label: Unmanaged
     blank_collection: true
@@ -238,12 +193,6 @@ collections:
     label: Unmanaged
     blank_collection: true
   Dumb and Dumber Collection:
-    label: Unmanaged
-    blank_collection: true
-  Easy Rider Collection:
-    label: Unmanaged
-    blank_collection: true
-  Enola Holmes Collection:
     label: Unmanaged
     blank_collection: true
   The Equalizer Collection:
@@ -264,19 +213,10 @@ collections:
   Fall Collection:
     label: Unmanaged
     blank_collection: true
-  "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!":
-    label: Unmanaged
-    blank_collection: true
-  Fanny Brice Collection:
-    label: Unmanaged
-    blank_collection: true
   Fantastic Beasts Collection:
     label: Unmanaged
     blank_collection: true
   The Fast and the Furious Collection:
-    label: Unmanaged
-    blank_collection: true
-  Father of the Bride (Steve Martin) Collection:
     label: Unmanaged
     blank_collection: true
   Frankenstein (Toho) Collection:
@@ -286,9 +226,6 @@ collections:
     label: Unmanaged
     blank_collection: true
   French Connection Collection:
-    label: Unmanaged
-    blank_collection: true
-  G.I. Joe (Live-Action) Collection:
     label: Unmanaged
     blank_collection: true
   Gator Collection:

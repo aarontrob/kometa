@@ -122,6 +122,11 @@ collections:
       collection: 86029
       movie: 458897
       summary: An American media franchise that follows the adventures of the Angels, a team of women working for the Townsend Agency, a private detective agency, under the leadership of Charlie Townsend, their unseen boss. The film series is a continuation of the story with later generations of Angels.
+  The Christmas Chronicles Collection:
+    template:
+      name: Collection
+      collection: 743824
+      summary: The magical adventures of Santa Claus, Mrs. Claus and the Pierce siblings.
   A Christmas Story Collection:
     template:
       name: Collection - Movie
@@ -243,6 +248,12 @@ collections:
       name: Collection - Hide Movie
       movie: 5503
       sort_title: Fugitive Collection
+  G.I. Joe Collection:
+    template:
+      name: Collection - Movie
+      collection: 135468
+      movie: 568620
+      summary: When all else fails, they don't
   Gamera Collection:
     template:
       name: Collection
