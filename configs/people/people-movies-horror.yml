@@ -1,66 +1,79 @@
 templates:
+  People:
+    smart_filter:
+      any:
+        actor: <<collection_name>>
+        director: <<collection_name>>
+        writer: <<collection_name>>
+        title: <<title>>
+      sort_by: release.asc
+    title: <<collection_name>> Collection
+    sort_title: ++_7<<collection_name>>
+    summary: <<summary>>
   People - Actor:
     smart_filter:
       any:
         actor: <<person>>
         title: <<title>>
       sort_by: release.asc
-    smart_label: release.desc
     sort_title: ++_7<<collection_name>>
+    summary: <<summary>>
   People - Actor Trakt List:
     trakt_list: <<list>>
     sort_title: ++_7<<collection_name>>
     sync_mode: sync
-    smart_label: release.desc
-  Actor List Documentary:
+    smart_label: release.asc
+    summary: <<summary>>
+  People - Actor Director:
+    smart_filter:
+      any:
+        actor: <<person>>
+        director: <<person>>
+        title: <<title>>
+      sort_by: release.asc
     sort_title: ++_7<<collection_name>>
-    sync_mode: sync
-    smart_label: release.desc
-  Actor All:
-    tmdb_actor: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_7<<collection_name>>
-    smart_label: release.desc
-  Actor Director:
-    tmdb_actor: <<id>>
-    tmdb_director: <<id>>
-    tmdb_biography: <<id>>
+    summary: <<summary>>
+  People - Director:
+    smart_filter:
+      any:
+        director: <<person>>
+        title: <<title>>
+      sort_by: release.asc
     sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Actor Director Writer:
-    tmdb_actor: <<id>>
-    tmdb_director: <<id>>
-    tmdb_writer: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Actor Writer:
-    tmdb_actor: <<id>>
-    tmdb_writer: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Director:
-    tmdb_director: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Director List:
-    tmdb_biography: <<id>>
+    summary: <<summary>>
+  People - Director Trakt List:
+    trakt_list: <<list>>
     sort_title: ++_6<<collection_name>>
     sync_mode: sync
-    smart_label: release.desc
-  Director Writer:
-    tmdb_writer: <<id>>
-    tmdb_director: <<id>>
-    tmdb_biography: <<id>>
+    smart_label: release.asc
+    summary: <<summary>>
+  People - Director Writer:
+    smart_filter:
+      any:
+        director: <<person>>
+        writer: <<person>>
+        title: <<title>>
+      sort_by: release.asc
     sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Writer:
-    tmdb_writer: <<id>>
-    tmdb_biography: <<id>>
+    summary: <<summary>>
+  People - Writer:
+    smart_filter:
+      any:
+        writer: <<person>>
+        title: <<title>>
+      sort_by: release.asc
     sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
+    summary: <<summary>>
+  People - Actor Director Writer:
+    smart_filter:
+      any:
+        actor: <<person>>
+        director: <<person>>
+        writer: <<person>>
+        title: <<title>>
+      sort_by: release.asc
+    sort_title: ++_6<<collection_name>>
+    summary: <<summary>>
   Search:
     plex_search:
       title: <<title>>
@@ -78,10 +91,10 @@ templates:
     summary: <<summary>>
     tmdb_show: <<show>>
 collections:
-  Stephen King Collection:
+  Stephen King:
     template:
-      name: Director List
-      id: 3027
-    trakt_list: 'https://trakt.tv/users/goape/lists/stephen-king-collection'
-    plex_search:
+      name: People
       title: Stephen King's IT
+  Wes Craven:
+    template:
+      name: Person

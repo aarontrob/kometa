@@ -263,6 +263,7 @@ collections:
     imdb_search:
       type: movie
       event.winning: oscar
+    sort_title: ++_5Oscars
     smart_label: release.desc
     sync_mode: sync
     summary: Oscar Winning Movies

@@ -6,18 +6,15 @@ templates: !!import/shallow
   - ../templates/people.yml
   - ../templates/search.yml
 
-######################################################
-#                   Directors                        #
-######################################################
-
-collections:
-  Stephen King Collection:
-    template:
-      name: Director List
-      id: 3027
-    trakt_list: https://trakt.tv/users/goape/lists/stephen-king-collection
-    plex_search:
-      title: Stephen King's IT
 #####################################################
 #              People Collections                   #
 #####################################################
+
+collections:
+  Stephen King:
+    template:
+      name: People
+      title: Stephen King's IT
+  Wes Craven:
+    template:
+      name: Person

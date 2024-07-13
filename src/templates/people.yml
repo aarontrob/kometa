@@ -1,3 +1,14 @@
+People:
+  smart_filter:
+    any:
+      actor: <<collection_name>>
+      director: <<collection_name>>
+      writer: <<collection_name>>
+      title: <<title>>
+    sort_by: release.asc
+  title: <<collection_name>> Collection
+  sort_title: ++_7<<collection_name>>
+  summary: <<summary>>
 People - Actor:
   smart_filter:
     any:

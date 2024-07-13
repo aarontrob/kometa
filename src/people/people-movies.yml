@@ -165,11 +165,6 @@ collections:
   #     name: Director
   #     id: 5655
   #     person: Wes Anderson
-  # Wes Craven Collection:
-  #   template:
-  #     name: Director Writer
-  #     id: 5140
-  #     person: Wes Craven
 
   #####################################################
   #              People Collections                   #
