@@ -2,9 +2,9 @@ templates:
   People:
     smart_filter:
       any:
-        actor: <<collection_name>>
-        director: <<collection_name>>
-        writer: <<collection_name>>
+        actor: <<person>>
+        director: <<person>>
+        writer: <<person>>
         title: <<title>>
       sort_by: release.asc
     title: <<collection_name>> Collection
@@ -94,7 +94,9 @@ collections:
   Stephen King:
     template:
       name: People
+      person: Stephen King
       title: Stephen King's IT
   Wes Craven:
     template:
-      name: Person
+      name: People
+      person: Wes Craven

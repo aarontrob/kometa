@@ -80,7 +80,7 @@ collections:
       summary:
     sort_title: ++_4.5Sports
     smart_label: title.asc
-  Stand Up Comedy:
+  Stand Up:
     template:
       name: Genre - Trakt List
       list: https://trakt.tv/users/goape/lists/movies-standup

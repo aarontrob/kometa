@@ -14,7 +14,9 @@ collections:
   Stephen King:
     template:
       name: People
+      person: Stephen King
       title: Stephen King's IT
   Wes Craven:
     template:
-      name: Person
+      name: People
+      person: Wes Craven
