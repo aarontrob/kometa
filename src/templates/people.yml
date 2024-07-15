@@ -1,4 +1,7 @@
 People:
+  optional:
+    - title
+    - person
   smart_filter:
     any:
       actor: <<person>>
