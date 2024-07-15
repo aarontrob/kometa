@@ -2,6 +2,7 @@ People:
   optional:
     - title
     - person
+    - summary
   smart_filter:
     any:
       actor: <<person>>
@@ -9,7 +10,6 @@ People:
       writer: <<person>>
       title: <<title>>
     sort_by: release.asc
-  title: <<collection_name>> Collection
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>
 People - Actor:

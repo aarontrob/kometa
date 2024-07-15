@@ -3,6 +3,7 @@ templates:
     optional:
       - title
       - person
+      - summary
     smart_filter:
       any:
         actor: <<person>>
@@ -10,7 +11,6 @@ templates:
         writer: <<person>>
         title: <<title>>
       sort_by: release.asc
-    title: <<collection_name>> Collection
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
   People - Actor:
@@ -108,7 +108,7 @@ collections:
     template:
       name: People
       title: 'The Mystery of Marilyn Monroe: The Unheard Tapes'
-  Stephen King:
+  Stephen King Collection:
     template:
       name: People
       title: King on Screen
