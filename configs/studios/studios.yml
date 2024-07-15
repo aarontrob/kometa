@@ -12,6 +12,7 @@ templates:
     smart_filter:
       any:
         studio: <<studio>>
+        title: <<title>>
       sort_by: release.asc
     item_label: <<collection_name>>
     sort_title: ++_4<<collection_name>>
@@ -74,6 +75,7 @@ collections:
     template:
       name: Studio - Smart
       studio: Hammer Film Productions
+      title: 'Flesh and Blood: The Hammer Heritage of Horror'
       summary: >-
         Hammer Film Productions Ltd. is a British film production company based
         in London. Founded in 1934, the company is best known for a series of

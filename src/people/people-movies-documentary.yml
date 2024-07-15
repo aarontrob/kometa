@@ -7,51 +7,29 @@ templates: !!import/shallow
   - ../templates/search.yml
 
 ######################################################
-#               Director Collections                 #
+#               People Collections                   #
 ######################################################
 
 collections:
   Agatha Christie Collection:
-    tmdb_movie: 753489
-    sort_title: ++_7Agatha Christie Collection
-  Ken Burns Collection:
     template:
-      name: Director Writer
-      id: 204484
-      person: Ken Burns
-    tmdb_movie: 449434
-  Steven Spielberg Collection:
-    tmdb_movie: 467062
-    sort_title: ++_7Steven Spielberg Collection
-
-  #####################################################
-  #              People Collections                   #
-  #####################################################
-
-  Abbott and Costello Collection:
-    template:
-      name: Actor List Documentary
-    trakt_list: https://trakt.tv/users/goape/lists/abbott-and-costello
-    tmdb_movie: 61433
-    summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
-  Charlie Chaplin Collection:
-    tmdb_movie: 788396
-    sort_title: ++_8Charlie Chaplin Collection
+      name: People
+      title: "Agatha Christie: 100 Years of Suspense"
   David Attenborough Collection:
-    trakt_list: https://trakt.tv/users/goape/lists/david-attenborough
-    sort_title: ++_8David Attenborough
-  Dolly Parton Collection:
-    tmdb_movie: 658092
-    sort_title: ++_8Dolly Parton Collection
-  Lucille Ball Collection:
-    tmdb_movie: 736280
-    sort_title: ++_8Lucille Ball Collection
+    template:
+      name: People
+      title:
+        - "Planet Earth: A Celebration"
+        - "Breaking Boundaries: The Science of Our Planet"
   Marilyn Monroe Collection:
-    tmdb_movie: 953300
-    sort_title: ++_8Marilyn Monroe Collection
-  Robin Williams Collection:
-    tmdb_movie: 493100
-    sort_title: ++_8Robin Williams Collection
+    template:
+      name: People
+      title: "The Mystery of Marilyn Monroe: The Unheard Tapes"
+  Stephen King:
+    template:
+      name: People
+      title: King on Screen
   Vincent Price Collection:
-    tmdb_movie: 436743
-    sort_title: ++_8Vincent Price Collection
+    template:
+      name: People
+      title: "Vincent Price: The Versatile Villain"

@@ -31,6 +31,7 @@ collections:
     template:
       name: Studio - Smart
       studio: Hammer Film Productions
+      title: "Flesh and Blood: The Hammer Heritage of Horror"
       # list: https://trakt.tv/users/goape/lists/hammer-films
       summary: Hammer Film Productions Ltd. is a British film production company based in London. Founded in 1934, the company is best known for a series of Gothic horror and fantasy films made from the mid-1950s until the 1970s. Many of these involved classic horror characters such as Baron Victor Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to audiences by filming them in vivid colour for the first time.
   LEGO:
