@@ -11,6 +11,7 @@ People:
       title: <<title>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
+  validate: false
   summary: <<summary>>
 People - Trakt List:
   optional:
