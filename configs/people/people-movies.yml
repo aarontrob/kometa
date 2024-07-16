@@ -34,7 +34,7 @@ templates:
       any:
         actor: <<person>>
         director: <<person>>
-        writer: <<writer>>
+        writer: <<person>>
         title: <<title>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
@@ -47,7 +47,7 @@ templates:
     smart_filter:
       any:
         director: <<person>>
-        writer: <<writer>>
+        writer: <<person>>
         title: <<title>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
@@ -59,7 +59,7 @@ templates:
       - summary
     smart_filter:
       any:
-        writer: <<writer>>
+        writer: <<person>
         title: <<title>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>

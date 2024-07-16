@@ -33,7 +33,7 @@ People - Actor/Director/Writer:
     any:
       actor: <<person>>
       director: <<person>>
-      writer: <<writer>>
+      writer: <<person>>
       title: <<title>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
@@ -46,7 +46,7 @@ People - Director/Writer:
   smart_filter:
     any:
       director: <<person>>
-      writer: <<writer>>
+      writer: <<person>>
       title: <<title>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
@@ -58,7 +58,7 @@ People - Writer:
     - summary
   smart_filter:
     any:
-      writer: <<writer>>
+      writer: <<person>
       title: <<title>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
