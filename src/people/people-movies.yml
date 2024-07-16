@@ -13,7 +13,7 @@ templates: !!import/shallow
 collections:
   Agatha Christie:
     template:
-      name: People
+      name: People - Writer
       person: Agatha Christie
       summary: >-
         Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (née Miller) was an English crime novelist, short story writer and playwright. She is best known for her 66 detective novels and 14 short story collections, particularly those revolving around her fictional detectives Hercule Poirot and Miss Marple. She also wrote the world's longest-running play, a murder mystery, The Mousetrap, and six romances under the name Mary Westmacott. In 1971 she was made a Dame for her contribution to literature. Most of her books and short stories have been adapted for television, radio, video games and comics, and more than thirty feature films have been based on her work.
@@ -56,7 +56,7 @@ collections:
       summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
   Dr. Seuss:
     template:
-      name: People
+      name: People - Writer
       person: Dr. Seuss
       summary: >-
         Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 – September 24, 1991) was an American children's author and cartoonist. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss. His work includes many of the most popular children's books of all time, selling over 600 million copies and being translated into more than 20 languages by the time of his death.
@@ -65,7 +65,7 @@ collections:
     name_mapping: Dr Seuss Collection
   Edgar Allan Poe:
     template:
-      name: People
+      name: People - Writer
       person: Edgar Allan Poe
       summary: Edgar Allan Poe (né Edgar Poe; January 19, 1809 – October 7, 1849) was an American writer, poet, author, editor, and literary critic who is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism and Gothic fiction in the United States, and of American literature. Poe was one of the country's earliest practitioners of the short story, and is considered the inventor of the detective fiction genre, as well as a significant contributor to the emerging genre of science fiction. He is the first well-known American writer to earn a living through writing alone, resulting in a financially difficult life and career.
   James Cameron:

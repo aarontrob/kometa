@@ -12,7 +12,57 @@ templates:
         title: <<title>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
-    validate: false
+    summary: <<summary>>
+  People - Actor:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        actor: <<person>>
+        title: <<title>>
+      sort_by: release.asc
+    sort_title: ++_7<<collection_name>>
+    summary: <<summary>>
+  People - Actor/Director/Writer:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        actor: <<person>>
+        director: <<person>>
+        writer: <<writer>>
+        title: <<title>>
+      sort_by: release.asc
+    sort_title: ++_7<<collection_name>>
+    summary: <<summary>>
+  People - Director/Writer:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        director: <<person>>
+        writer: <<writer>>
+        title: <<title>>
+      sort_by: release.asc
+    sort_title: ++_7<<collection_name>>
+    summary: <<summary>>
+  People - Writer:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        writer: <<writer>>
+        title: <<title>>
+      sort_by: release.asc
+    sort_title: ++_7<<collection_name>>
     summary: <<summary>>
   People - Trakt List:
     optional:
@@ -41,7 +91,7 @@ templates:
 collections:
   Agatha Christie:
     template:
-      name: People
+      name: People - Writer
       person: Agatha Christie
       summary: >-
         Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (née Miller) was
@@ -185,7 +235,7 @@ collections:
         Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018).
   Dr. Seuss:
     template:
-      name: People
+      name: People - Writer
       person: Dr. Seuss
       summary: >-
         Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 –
@@ -205,7 +255,7 @@ collections:
     name_mapping: Dr Seuss Collection
   Edgar Allan Poe:
     template:
-      name: People
+      name: People - Writer
       person: Edgar Allan Poe
       summary: >-
         Edgar Allan Poe (né Edgar Poe; January 19, 1809 – October 7, 1849) was
