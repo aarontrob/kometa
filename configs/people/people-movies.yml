@@ -59,7 +59,7 @@ templates:
       - summary
     smart_filter:
       any:
-        writer: <<person>
+        writer: <<person>>
         title: <<title>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
