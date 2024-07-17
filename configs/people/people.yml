@@ -344,7 +344,6 @@ collections:
         Street", hit the market in 1937, changing the face of children's
         literature forever. It was rejected 27 times before it was finally
         published by Vanguard Press in 1937.
-    name_mapping: Dr Seuss Collection
   Edgar Allan Poe:
     template:
       name: People - Writer
