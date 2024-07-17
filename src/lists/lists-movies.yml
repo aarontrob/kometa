@@ -94,14 +94,15 @@ collections:
     template:
       name: List - Trakt List Custom Order Details
       list: https://trakt.tv/users/goape/lists/empire-magazine-s-60-greatest-movie-sequels
-  "Oscars: Winners":
+  Oscars Winners:
     imdb_search:
       type: movie
       event.winning: oscar
+      limit: 500
     sort_title: ++_5Oscars
     smart_label: release.desc
     sync_mode: sync
-    summary: Oscar Winning Movies
+    summary: Oscar winning movies
   # Popular:
   #   sort_title: ++_2.1Popular
   #   tmdb_popular: 40
@@ -111,21 +112,20 @@ collections:
   #     limit: 40
   #   summary: Popular Movies across the internet
   #   name_mapping: Popular
-  Problematic Collection:
-    template:
-      name: Collection - Trakt List
-      list: kids-problematic
-    item_label: Problematic
-    build_collection: false
+  # Problematic Collection:
+  #   template:
+  #     name: Collection - Trakt List
+  #     list: https://trakt.tv/users/goape/lists/kids-problematic
+  #   item_label: Problematic
+  #   build_collection: false
   Trending:
     sort_title: ++_1Trending
     smart_label: random
-    trakt_trending: 40
+    trakt_chart: 40
     tmdb_trending_daily: 40
     tmdb_trending_weekly: 40
     label: Trending
     sync_mode: sync
-    name_mapping: Trending
     # schedule: weekly(sunday)
     summary: Movies trending across the internet
   # Top Rated:

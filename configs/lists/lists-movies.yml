@@ -259,29 +259,23 @@ collections:
       name: List - Trakt List Custom Order Details
       list: >-
         https://trakt.tv/users/goape/lists/empire-magazine-s-60-greatest-movie-sequels
-  'Oscars: Winners':
+  Oscars Winners:
     imdb_search:
       type: movie
       event.winning: oscar
+      limit: 500
     sort_title: ++_5Oscars
     smart_label: release.desc
     sync_mode: sync
-    summary: Oscar Winning Movies
-  Problematic Collection:
-    template:
-      name: Collection - Trakt List
-      list: kids-problematic
-    item_label: Problematic
-    build_collection: false
+    summary: Oscar winning movies
   Trending:
     sort_title: ++_1Trending
     smart_label: random
-    trakt_trending: 40
+    trakt_chart: 40
     tmdb_trending_daily: 40
     tmdb_trending_weekly: 40
     label: Trending
     sync_mode: sync
-    name_mapping: Trending
     summary: Movies trending across the internet
   Vulture's 101 Best Movie Endings:
     template:
