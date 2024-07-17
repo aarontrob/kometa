@@ -1,30 +1,43 @@
 Studio:
   tmdb_company: <<company>>
-  collection_order: release
-  collection_mode: hide_items
-  default:
-    sort_title: ++_6<<collection_name>>
+  smart_label: release.asc
+  sort_title: ++_4<<collection_name>>
   optional:
     - list
     - summary
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: <<list>>
+  summary: <<summary>>
+Studio - Smart:
+  smart_filter:
+    any:
+      studio: <<studio>>
+      title: <<title>>
+    sort_by: release.asc
+  item_label: <<collection_name>>
+  sort_title: ++_4<<collection_name>>
+  optional:
+    - summary
   summary: <<summary>>
 Studio - Trakt List:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
-  collection_order: release
-  collection_mode: hide_items
-  default:
-    sort_title: ++_6<<collection_name>>
+  trakt_list: <<list>>
+  smart_label: release.asc
+  sort_title: ++_4<<collection_name>>
+  optional:
+    - summary
+  summary: <<summary>>
+Studio - Trakt List Custom Order:
+  trakt_list: <<list>>
+  sync_mode: sync
+  sort_title: ++_4<<collection_name>>
+  collection_mode: show_items
   optional:
     - summary
   summary: <<summary>>
 Studio - Search:
   plex_search:
     title: <<title>>
-  collection_order: release
-  collection_mode: hide_items
-  default:
-    sort_title: ++_6<<collection_name>>
+  smart_label: release.asc
+  sort_title: ++_4<<collection_name>>
   optional:
     - summary
   summary: <<summary>>

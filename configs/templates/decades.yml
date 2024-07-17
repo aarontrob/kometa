@@ -1,0 +1,7 @@
+Decade:
+  smart_filter:
+    any:
+      year: <<year>>
+    sort_by: year.asc
+  sort_title: ++_3<<collection_name>>
+  only_run_on_create: true

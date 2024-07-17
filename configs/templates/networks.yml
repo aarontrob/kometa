@@ -1,15 +1,18 @@
 Network:
   tmdb_network: <<network>>
-  collection_order: release
-  collection_mode: hide_items
-  default:
-    sort_title: ++_7<<collection_name>>
+  sort_title: ++_5.5<<collection_name>>
+  smart_label: year.asc
+  optional:
+    - tmdb_movie
+    - trakt_list
+    - summary
+  tmdb_movie: <<tmdb_movie>>
+  trakt_list: <<trakt_list>>
+  summary: <<summary>>
 Network - Trakt List:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
-  collection_order: release
-  collection_mode: hide_items
-  default:
-    sort_title: ++_7<<collection_name>>
+  trakt_list: <<list>>
+  sort_title: ++_5.5<<collection_name>>
+  smart_label: year.asc
   optional:
     - summary
   summary: <<summary>>

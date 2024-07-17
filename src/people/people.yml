@@ -7,10 +7,25 @@ templates: !!import/shallow
   - ../templates/search.yml
 
 ######################################################
-#                   Directors                        #
+#                     People                         #
 ######################################################
 
 collections:
+  Abbott & Costello:
+    template:
+      name: People
+      person: Bud Abbott, Lou Costello
+      summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
+  Adam Sandler:
+    template:
+      name: People
+      person: Adam Sandler
+      summary: >-
+        Adam Richard Sandler (born September 9, 1966) is an American comedian, actor, and filmmaker. He was a cast member on Saturday Night Live from 1990 to 1995, before going on to star in many Hollywood films, which have combined to earn more than $2 billion at the box office. Sandler had an estimated net worth of $420 million in 2020, and signed a further four-movie deal with Netflix worth over $250 million.
+
+        Sandler's comedic roles include Billy Madison (1995), Happy Gilmore (1996), The Waterboy (1998), The Wedding Singer (1998), Big Daddy (1999), Mr. Deeds (2002), 50 First Dates (2004), The Longest Yard (2005), Click (2006), Grown Ups (2010), Just Go with It (2011), Grown Ups 2 (2013), Blended (2014), Murder Mystery (2019) and Hubie Halloween (2020). He also voiced Davey, Whitey, and Eleanore in Eight Crazy Nights and Dracula in the first three films of the Hotel Transylvania franchise (2012–2018).
+
+        While some of his comedic films, including Jack and Jill (2011), have been panned, resulting in Sandler receiving nine Golden Raspberry Awards and 37 Raspberry Award nominations, more than any actor other than Sylvester Stallone, he has received critical acclaim for his dramatic performances in the dramedy films Spanglish (2004), Reign Over Me (2007), and Funny People (2009). He has also been roundly praised for his leading roles in auteur films including Punch-Drunk Love (2002) by Paul Thomas Anderson, Noah Baumbach's The Meyerowitz Stories (2017), and the Safdie brothers' Uncut Gems (2019), the last of which earned him the Independent Spirit Award for Best Male Lead.
   Agatha Christie:
     template:
       name: People - Writer
@@ -31,6 +46,29 @@ collections:
         Hitchcock's most commercially successful and most famous film is Psycho (1960), which had a significant impact on the horror genre, especially the slasher film. Hitchcock was able to prove his skills with the mystery thriller film Rear Window (1954), to create suspense within a confined setting - primarily the protagonist's apartment. In this film, voyeurism, one of Hitchcock's favorite subjects, is an essential aspect.
 
         Many of Hitchcock's spy films, most notably North by Northwest (1959) and Notorious (1946), had a major impact on the Mission: Impossible and James Bond series.
+  The Beatles:
+    template:
+      name: People - Trakt List
+      list: https://trakt.tv/users/goape/lists/the-beatles
+      summary: Movies featuring/based on The Beatles
+    sort_title: ++_7Beatles Collection
+  Charlie Chaplin:
+    template:
+      name: People
+      person: Charlie Chaplin
+      title: Chaplin
+      summary: Charles “Charlie” Chaplin (16 April 1889 – 25 December 1977) was an English comic actor, film director and composer best-known for his work during the silent film era. He used mime, slapstick and other visual comedy routines, and continued well into the era of the talkies, though his films decreased in frequency by the end of the 1920s. His most famous role was that of The Tramp, which he first played in Kid Auto Races (1914). From 1914 onwards he was writing and directing most of his films, by 1916 he was producing them, and by 1918 he was also composing the music for them. In 1919 he co-founded United Artists. In 1999, the American Film Institute ranked Chaplin the 10th greatest male screen legend of all time.
+  Chevy Chase:
+    template:
+      name: People
+      person: Chevy Chase
+      summary: >-
+        Cornelius Crane "Chevy" Chase (born October 8, 1943) is an American comedian, writer, and television and film actor, born into a prominent entertainment industry family. Chase worked a plethora of odd jobs before moving into comedy acting with National Lampoon. He quickly became a key cast member in the inaugural season of Saturday Night Live, where his Weekend Update skit soon became a staple of the show. As both a performer and writer, he earned three Primetime Emmy Awards out of five nominations. Chase is also well-known for his portrayal of the character Clark Griswold in four National Lampoon's Vacation films, and for his roles in other successful comedies such as Caddyshack (1980), Fletch (1985), and ¡Three Amigos! (1986). He has hosted the Academy Awards twice (1987 and 1988) and briefly had his own late-night talk show, The Chevy Chase Show. He played the character Pierce Hawthorne on the NBC comedy series Community from 2009 to 2014.
+  Chris Farley:
+    template:
+      name: People
+      person: Chris Farley
+      summary: Christopher Crosby "Chris" Farley (February 15, 1964 – December 18, 1997) was an American comedian and actor. Farley was a member of Chicago's The Second City Theatre and cast member of the NBC sketch comedy show Saturday Night Live from 1990 to 1995.
   Christopher Guest:
     template:
       name: People
@@ -68,189 +106,6 @@ collections:
       name: People - Writer
       person: Edgar Allan Poe
       summary: Edgar Allan Poe (né Edgar Poe; January 19, 1809 – October 7, 1849) was an American writer, poet, author, editor, and literary critic who is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism and Gothic fiction in the United States, and of American literature. Poe was one of the country's earliest practitioners of the short story, and is considered the inventor of the detective fiction genre, as well as a significant contributor to the emerging genre of science fiction. He is the first well-known American writer to earn a living through writing alone, resulting in a financially difficult life and career.
-  James Cameron:
-    template:
-      name: People
-      person: James Cameron
-      summary: >-
-        James Cameron was born in Kapuskasing, Ontario, Canada, on August 16, 1954. He moved to the USA in 1971. The son of an engineer, he majored in physics at California State University but, after graduating, drove a truck to support his screen-writing ambition. He landed his first professional film job as art director, miniature-set builder, and process-projection supervisor on Roger Corman's Battle Beyond the Stars (1980) and debuted as a director with Piranha Part Two: The Spawning (1981) the following year. In 1984, he wrote and directed The Terminator (1984), a futuristic action-thriller starring Arnold Schwarzenegger, Michael Biehn, and Linda Hamilton. It was a huge success. After this came a string of successful science-fiction action films such as Aliens (1986) and Terminator 2: Judgment Day (1991). Cameron is now one of the most sought-after directors in Hollywood. He was formerly married to producer Gale Anne Hurd, who produced several of his films. He married Kathryn Bigelow in 1989.
-  John Carpenter:
-    template:
-      name: People
-      person: John Carpenter
-      summary: >-
-        An American film director, screenwriter, producer, editor, composer, and occasional actor.
-
-        Although Carpenter has worked in numerous film genres in his four-decade career, his name is most commonly associated with horror and science fiction.
-
-        Most films in Carpenter's career were initially commercial and critical failures, with the notable exceptions of Halloween (1978), The Fog (1980), Escape from New York (1981), and Starman (1984).
-
-        However, many of Carpenter's films from the 1970s and the 1980s have come to be viewed as cult classics, and he has been acknowledged as an influential filmmaker. Cult classics that Carpenter directed include: Dark Star (1974), Assault on Precinct 13 (1976), The Thing (1982), Christine (1983), Big Trouble in Little China (1986), Prince of Darkness (1987), They Live (1988) and In the Mouth of Madness (1995).
-
-        His films are characterized by minimalist lighting and photography, static cameras, use of steadicam, and distinctive synthesized scores. Carpenter is also notable for having composed or co-composed most of the music of his films; some of them are now considered cult as well, with the main theme of Halloween being considered a part of popular culture. His music is generally synthesized with accompaniment from piano and atmospherics. He released his first studio album Lost Themes in 2015, and also won a Saturn Award for Best Music for Vampires (1998).
-  John Hughes:
-    template:
-      name: People - Director/Writer
-      person: John Hughes
-      summary: >-
-        John Hughes (February 18, 1950 – August 6, 2009) was an American film director, producer and screenwriter. He directed and scripted some of the most successful films of the 1980s and 1990s, including National Lampoon's Vacation, Ferris Bueller's Day Off, Weird Science, The Breakfast Club, Some Kind of Wonderful, Sixteen Candles, Pretty in Pink; Planes, Trains and Automobiles; Uncle Buck, Career Opportunities, 101 Dalmatians, Home Alone, and its sequels, Home Alone 2 and Home Alone 3.
-  M. Night Shyamalan:
-    template:
-      name: People
-      person: M. Night Shyamalan
-      summary: >-
-        Manoj Nelliyattu "M. Night" Shyamalan, born August 6, 1970, is an American filmmaker and actor. He is known for making original films with contemporary supernatural plots and twist endings. He was born in Mahé, India, and raised in Penn Valley, Pennsylvania. The cumulative gross of his films exceeds $3 billion globally.
-
-        He made his directorial debut in 1992 with his first movie Praying with Anger. His second movie was the comedy-drama film Wide Awake (1998). His most well-received films include the supernatural thriller The Sixth Sense (1999), the superhero thriller Unbreakable (2000), and the science fiction thriller Signs (2002). For The Sixth Sense, Shyamalan received nominations for the Academy Award for Best Director and the Academy Award for Best Original Screenplay. Afterward, Shyamalan released a series of poorly received but sometimes financially successful movies, including the period-piece thriller The Village (2004), the dark fantasy Lady in the Water (2006), the eco-thriller The Happening (2008), The Last Airbender (2010) (an adaptation based on the first season of the Nickelodeon animated television series Avatar: The Last Airbender), and the science fiction film After Earth (2013). Following the financial failure of After Earth, Shyamalan's career was revived with the release of the found-footage horror film The Visit (2015), the psychological thriller Split (2016), and the superhero thriller Glass (2019). With a total budget of $34 million between them, these three films earned a combined box office of $625 million. Glass is the third and final chapter of his Unbreakable film series, which commenced in 2000.
-
-        In addition to his directorial work, Shyamalan was a story creator and a producer for the horror film Devil (2010). Shyamalan was also called in for an uncredited rewrite for the teen film She's All That (1999) and also served as a writer for the film Stuart Little (1999). He is also one of the executive producers and occasional director of Wayward Pines and the critically acclaimed series Servant.
-        Shyamalan is also known for filming and setting his films in and around Philadelphia, Pennsylvania. Most of his commercially successful films were co-produced and released by Walt Disney Studios' Touchstone and Hollywood Pictures and Universal imprints. In 2008, Shyamalan was awarded the Padma Shri by the government of India.
-  Mel Brooks:
-    template:
-      name: People
-      person: Mel Brooks
-      summary: >-
-        Melvin Brooks (né Kaminsky, born June 28, 1926) is an American filmmaker, comedian, actor and composer. He is known as a creator of broad film farces and comic parodies. Brooks began his career as a comic and a writer for the early TV variety show Your Show of Shows. He became well known as part of the comedy duo with Carl Reiner in the comedy skit The 2000 Year Old Man. He also created, with Buck Henry, the hit television comedy series Get Smart, which ran from 1965 to 1970.
-
-        In middle age, Brooks became one of the most successful film directors of the 1970s, with many of his films being among the top 10 moneymakers of the year they were released. His best-known films include The Producers, The Twelve Chairs, Blazing Saddles, Young Frankenstein, Silent Movie, High Anxiety, History of the World, Part I, Spaceballs and Robin Hood: Men in Tights. A musical adaptation of his first film, The Producers, ran on Broadway from 2001 to 2007.
-
-        In 2001, having previously won an Emmy, a Grammy and an Oscar, he joined a small list of EGOT winners with his Tony award for The Producers. He received a Kennedy Center Honor in 2009, the Hollywood Walk of Fame in 2010, the 41st AFI Life Achievement Award in June 2013, a British Film Institute Fellowship in March 2015, a National Medal of Arts in September 2016, and a BAFTA Fellowship in February 2017. Three of his films ranked in the American Film Institute's list of the top 100 comedy films of the past 100 years (1900–2000), all of which ranked in the top 15 of the list: Blazing Saddles at number 6, The Producers at number 11, and Young Frankenstein at number 13.
-  Quentin Tarantino:
-    template:
-      name: People
-      person: Quentin Tarantino
-      summary: >-
-        Quentin Jerome Tarantino (born March 27, 1963) is an American film director, screenwriter, producer, cinematographer and actor. In the early 1990s he was an independent filmmaker whose films used nonlinear storylines and aestheticization of violence. His films have earned him a variety of Academy Award, Golden Globe, BAFTA and Palme d'Or Awards and he has been nominated for Emmy and Grammy Awards. In 2007, Total Film named him the 12th-greatest director of all time.
-
-        Tarantino was born in Knoxville, Tennessee, the son of Connie McHugh Tarantino Zastoupil, a health care executive and nurse born in Knoxville, and Tony Tarantino, an actor and amateur musician born in Queens, New York. Tarantino's mother allowed him to quit school at age 17, to attend an acting class full time. Tarantino gave up acting while attending the acting school, saying that he admired directors more than actors. Tarantino also worked in a video rental store before becoming a filmmaker, paid close attention to the types of films people liked to rent, and has cited that experience as inspiration for his directorial career.
-  Ray Harryhausen:
-    template:
-      name: People - Trakt List
-    trakt_list: https://trakt.tv/users/goape/lists/ray-harryhausen-collection
-    summary: >-
-      Raymond "Ray" Harryhausen (June 29, 1920 – May 7, 2013) was an American visual effects creator, writer, and producer who lived in London, England, from 1960 until his death in 2013.
-
-      He created a brand of stop-motion model animation known as "Dynamation." His most important works include the animation on Mighty Joe Young, with pioneer Willis O'Brien, which won the Academy Award for special effects (1949); The 7th Voyage of Sinbad, his first color film; and Jason and the Argonauts, featuring a famous sword fight against seven skeleton warriors.
-  # Ridley Scott:
-  #   template:
-  #     name: Director
-  #     id: 578
-  #     person: Ridley Scott
-  Stanley Kubrick:
-    template:
-      name: People
-      person: Stanley Kubrick
-      summary: >-
-        Stanley Kubrick (July 26, 1928 – March 7, 1999) was an American film director, writer, producer, and photographer who lived in England during most of the last four decades of his career. Kubrick was noted for the scrupulous care with which he chose his subjects, his slow method of working, the variety of genres he worked in, his technical perfectionism, and his reclusiveness about his films and personal life. He maintained almost complete artistic control, making movies according to his own whims and time constraints, but with the rare advantage of big-studio financial support for all his endeavors. Kubrick's films are characterized by a formal visual style and meticulous attention to detail—his later films often have elements of surrealism and expressionism that eschews structured linear narrative. His films are repeatedly described as slow and methodical, and are often perceived as a reflection of his obsessive and perfectionist nature. A recurring theme in his films is man's inhumanity to man. While often viewed as expressing an ironic pessimism, a few critics feel his films contain a cautious optimism when viewed more carefully.
-
-        The film that first brought him attention to many critics was Paths of Glory (1957), the first of three films of his about the dehumanizing effects of war. Many of his films at first got a lukewarm reception, only to be years later acclaimed as masterpieces that had a seminal influence on many later generations of film-makers. Considered especially groundbreaking was 2001: A Space Odyssey (1968) noted for being both one of the most scientifically realistic and visually innovative science-fiction films ever made while maintaining an enigmatic non-linear storyline. He voluntarily withdrew his film A Clockwork Orange (1971) from England, after it was accused of inspiring copycat crimes which in turn resulted in threats against Kubrick's family. His films were largely successful at the box-office, although Barry Lyndon (1975) performed poorly in the United States. Living authors Anthony Burgess and Stephen King were both unhappy with Kubrick's adaptations of their novels A Clockwork Orange and The Shining (1980) respectively, and both authors were engaged with subsequent adaptations. All of Kubrick's films from the mid-1950s to his death except for The Shining were nominated for Oscars, Golden Globes, or BAFTAs. Although he was nominated for an Academy Award as a screenwriter and director on several occasions, his only personal win was for the special effects in 2001: A Space Odyssey.
-
-        Even though all of his films, apart from the first two, were adapted from novels or short stories, his works have been described by Jason Ankeny and others as "original and visionary". Although some critics, notably Andrew Sarris and Pauline Kael, frequently disparaged Kubrick's work, Ankeny describes Kubrick as one of the most "universally acclaimed and influential directors of the postwar era" with a "standing unique among the filmmakers of his day."
-  Stephen King:
-    template:
-      name: People
-      person: Stephen King
-      summary: Stephen King is an American author of contemporary horror, suspense, science fiction, and fantasy fiction. His books have sold more than 350 million copies, which have been adapted into a number of feature films, television movies, and comic books. As of 2011, King has written and published 49 novels, including seven under the pen name Richard Bachman, five non-fiction books, and nine collections of short stories. Many of his stories are set in his home state of Maine. King has received Bram Stoker Awards, World Fantasy Awards, British Fantasy Society Awards, his novella The Way Station was a Nebula Award novelette nominee, and in 2003, the National Book Foundation awarded him the Medal for Distinguished Contribution to American Letters.
-  Steven Spielberg:
-    template:
-      name: People
-      person: Steven Spielberg
-      summary: >-
-        Steven Allan Spielberg (born December 18, 1946) is an American film director, writer and producer. A major figure of the New Hollywood era and pioneer of the modern blockbuster, he is the most commercially successful director of all time. Spielberg is the recipient of various accolades, including three Academy Awards, a Kennedy Center honor, four Directors Guild of America Awards, two BAFTA Awards, a Cecil B. DeMille Award and an AFI Life Achievement Award. Seven of his films have been inducted into the National Film Registry by the Library of Congress as "culturally, historically or aesthetically significant".
-
-        Spielberg was born in Cincinnati, Ohio, and grew up in Phoenix, Arizona. He moved to California and studied film in college. After directing several episodes for television including Night Gallery and Columbo, he directed the television film Duel (1971) which gained acclaim from critics and audiences. He made his directorial film debut with The Sugarland Express (1974), and became a household name with the 1975 summer blockbuster Jaws. He then directed huge box office successes Close Encounters of the Third Kind (1977), E.T. the Extra-Terrestrial (1982) and the Indiana Jones original trilogy (1981-89). Spielberg subsequently explored drama in the acclaimed The Color Purple (1985) and Empire of the Sun (1987).
-
-        After a brief hiatus, Spielberg directed the science fiction thriller Jurassic Park (1993), the highest-grossing film ever at the time, and the Holocaust drama Schindler's List (1993), which has often been listed as one of the greatest films ever made. He won the Academy Award for Best Director for the latter and for the 1998 World War II epic Saving Private Ryan. Spielberg continued in the 2000s with science fiction films A.I. Artificial Intelligence (2001), Minority Report (2002) and War of the Worlds (2005). He also directed the adventure films The Adventures of Tintin (2011) and Ready Player One (2018); the historical dramas Amistad (1997), Munich (2005), War Horse (2011), Lincoln (2012), Bridge of Spies (2015) and The Post (2017); the musical West Side Story (2021); and the semi-autobiographical drama The Fabelmans (2022). He has been a producer on several successful films, including Poltergeist (1982), Gremlins (1984), Back to the Future (1985) and Who Framed Roger Rabbit (1988) as well as the miniseries Band of Brothers (2001).
-
-        Spielberg co-founded Amblin Entertainment and DreamWorks, and has served as a producer for many successful films and television series. He is also known for his long collaboration with the composer John Williams, with whom he has worked for all but five of his feature films. Several of Spielberg's works are among the highest-grossing and greatest films all time. Premiere ranked him first place in the list of 100 Most Powerful People in Movies in 2003. In 2013, Time listed him as one of the 100 most influential people.
-  Tim Burton:
-    template:
-      name: People
-      person: Tim Burton
-      summary: >-
-        Timothy Walter Burton (born August 25, 1958) is an American filmmaker and animator. He is known for his gothic fantasy and horror films such as Beetlejuice (1988), Edward Scissorhands (1990), The Nightmare Before Christmas (1993), Ed Wood (1994), Sleepy Hollow (1999), Corpse Bride (2005), Sweeney Todd: The Demon Barber of Fleet Street (2007) and Dark Shadows (2012), as well as the television series Wednesday (2022). Burton also directed the superhero films Batman (1989) and Batman Returns (1992), the sci-fi film Planet of the Apes (2001), the fantasy-drama Big Fish (2003), the musical adventure film Charlie and the Chocolate Factory (2005), and the fantasy films Alice in Wonderland (2010) and Miss Peregrine's Home for Peculiar Children (2016).
-
-        Burton has often worked with actors Winona Ryder, Johnny Depp, Lisa Marie (former girlfriend), Helena Bonham Carter (his former domestic partner) and composer Danny Elfman, who scored all but three of Burton's films. Burton also wrote and illustrated the poetry book The Melancholy Death of Oyster Boy & Other Stories, published in 1997 by British publishing house Faber and Faber, and a compilation of his drawings, sketches, and other artwork, entitled The Art of Tim Burton, was released in 2009. A follow-up to that book, entitled The Napkin Art of Tim Burton: Things You Think About in a Bar, containing sketches made by Burton on napkins at bars and restaurants he visited, was released in 2015. His accolades include nominations for two Academy Awards and three BAFTA Awards, and wins for an Emmy Award and a Golden Globe Award.
-  Wes Anderson:
-    template:
-      name: People
-      person: Wes Anderson
-      summary: >-
-        Wesley Wales Anderson (born May 1, 1969) is an American filmmaker. His films are known for their symmetry, eccentricity and distinctive visual and narrative styles, and he is cited by some critics as a modern-day example of the auteur. Three of his films, The Royal Tenenbaums (2001), Moonrise Kingdom (2012), and The Grand Budapest Hotel (2014) appeared in BBC Culture's 2016 poll of the greatest films since 2000.
-
-        Anderson was nominated for the Academy Award for Best Original Screenplay for The Royal Tenenbaums (2001), Moonrise Kingdom (2012) and The Grand Budapest Hotel (2014), as well as the Academy Award for Best Animated Feature for the stop-motion films Fantastic Mr. Fox (2009) and Isle of Dogs (2018). With The Grand Budapest Hotel, he received his first Academy Award nominations for Best Director and Best Picture, and won the Golden Globe Award for Best Motion Picture – Musical or Comedy and the BAFTA Award for Best Original Screenplay. He currently runs the production company American Empirical Pictures, which he founded in 1998. He won the Silver Bear for Best Director for Isle of Dogs in 2018.
-  #####################################################
-  #              People Collections                   #
-  #####################################################
-
-  Adam Sandler:
-    template:
-      name: People
-      person: Adam Sandler
-      summary: >-
-        Adam Richard Sandler (born September 9, 1966) is an American comedian, actor, and filmmaker. He was a cast member on Saturday Night Live from 1990 to 1995, before going on to star in many Hollywood films, which have combined to earn more than $2 billion at the box office. Sandler had an estimated net worth of $420 million in 2020, and signed a further four-movie deal with Netflix worth over $250 million.
-
-        Sandler's comedic roles include Billy Madison (1995), Happy Gilmore (1996), The Waterboy (1998), The Wedding Singer (1998), Big Daddy (1999), Mr. Deeds (2002), 50 First Dates (2004), The Longest Yard (2005), Click (2006), Grown Ups (2010), Just Go with It (2011), Grown Ups 2 (2013), Blended (2014), Murder Mystery (2019) and Hubie Halloween (2020). He also voiced Davey, Whitey, and Eleanore in Eight Crazy Nights and Dracula in the first three films of the Hotel Transylvania franchise (2012–2018).
-
-        While some of his comedic films, including Jack and Jill (2011), have been panned, resulting in Sandler receiving nine Golden Raspberry Awards and 37 Raspberry Award nominations, more than any actor other than Sylvester Stallone, he has received critical acclaim for his dramatic performances in the dramedy films Spanglish (2004), Reign Over Me (2007), and Funny People (2009). He has also been roundly praised for his leading roles in auteur films including Punch-Drunk Love (2002) by Paul Thomas Anderson, Noah Baumbach's The Meyerowitz Stories (2017), and the Safdie brothers' Uncut Gems (2019), the last of which earned him the Independent Spirit Award for Best Male Lead.
-  Abbott & Costello:
-    template:
-      name: People
-      person: Bud Abbott, Lou Costello
-      summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
-  The Beatles:
-    template:
-      name: People - Trakt List
-      list: https://trakt.tv/users/goape/lists/the-beatles
-      summary: Movies featuring/based on The Beatles
-    sort_title: ++_7Beatles Collection
-  # Ben Stiller:
-  #   template:
-  #     name: Actor
-  #     id: 7399
-  #     person: Ben Stiller
-  # Bette Davis:
-  #   template:
-  #     name: Actor
-  #     id: 3380
-  #     person: Bette Davis
-  # Bette Midler:
-  #   template:
-  #     name: Actor
-  #     id: 73931
-  #     person: Bette Midler
-  # Cary Grant:
-  #   template:
-  #     name: Actor
-  #     id: 2638
-  #     person: Cary Grant
-  Charlie Chaplin:
-    template:
-      name: People
-      person: Charlie Chaplin
-      title: Chaplin
-      summary: Charles “Charlie” Chaplin (16 April 1889 – 25 December 1977) was an English comic actor, film director and composer best-known for his work during the silent film era. He used mime, slapstick and other visual comedy routines, and continued well into the era of the talkies, though his films decreased in frequency by the end of the 1920s. His most famous role was that of The Tramp, which he first played in Kid Auto Races (1914). From 1914 onwards he was writing and directing most of his films, by 1916 he was producing them, and by 1918 he was also composing the music for them. In 1919 he co-founded United Artists. In 1999, the American Film Institute ranked Chaplin the 10th greatest male screen legend of all time.
-  # Charlton Heston:
-  #   template:
-  #     name: Actor
-  #     id: 10017
-  #     person: Charlton Heston
-  Chevy Chase:
-    template:
-      name: People
-      person: Chevy Chase
-      summary: >-
-        Cornelius Crane "Chevy" Chase (born October 8, 1943) is an American comedian, writer, and television and film actor, born into a prominent entertainment industry family. Chase worked a plethora of odd jobs before moving into comedy acting with National Lampoon. He quickly became a key cast member in the inaugural season of Saturday Night Live, where his Weekend Update skit soon became a staple of the show. As both a performer and writer, he earned three Primetime Emmy Awards out of five nominations. Chase is also well-known for his portrayal of the character Clark Griswold in four National Lampoon's Vacation films, and for his roles in other successful comedies such as Caddyshack (1980), Fletch (1985), and ¡Three Amigos! (1986). He has hosted the Academy Awards twice (1987 and 1988) and briefly had his own late-night talk show, The Chevy Chase Show. He played the character Pierce Hawthorne on the NBC comedy series Community from 2009 to 2014.
-  Chris Farley:
-    template:
-      name: People
-      person: Chris Farley
-      summary: Christopher Crosby "Chris" Farley (February 15, 1964 – December 18, 1997) was an American comedian and actor. Farley was a member of Chicago's The Second City Theatre and cast member of the NBC sketch comedy show Saturday Night Live from 1990 to 1995.
-  # Demetri Martin:
-  #   template:
-  #     name: Actor All
-  #     id: 84075
-  #     person: Demetri Martin
   Elvis Presley:
     template:
       name: People
@@ -274,21 +129,12 @@ collections:
         Sinatra turned 50 in 1965, recorded the retrospective September of My Years, starred in the Emmy-winning television special Frank Sinatra: A Man and His Music, and scored hits with "Strangers in the Night" and "My Way". With sales of his music dwindling and after appearing in several poorly received films, Sinatra retired for the first time in 1971. Two years later, however, he came out of retirement and in 1973 recorded several albums, scoring a Top 40 hit with "(Theme From) New York, New York" in 1980. Using his Las Vegas shows as a home base, he toured both within the United States and internationally, until a short time before his death in 1998.
 
         Sinatra also forged a successful career as a film actor, winning the Academy Award for Best Supporting Actor for his performance in From Here to Eternity, a nomination for Best Actor for The Man with the Golden Arm, and critical acclaim for his performance in The Manchurian Candidate. He also starred in such musicals as High Society, Pal Joey, Guys and Dolls and On the Town. Sinatra was honored at the Kennedy Center Honors in 1983 and was awarded the Presidential Medal of Freedom by Ronald Reagan in 1985 and the Congressional Gold Medal in 1997. Sinatra was also the recipient of eleven Grammy Awards, including the Grammy Trustees Award, Grammy Legend Award and the Grammy Lifetime Achievement Award.
-  # Gene Wilder:
-  #   template:
-  #     name: Actor
-  #     id: 3460
-  #     person: Gene Wilder
-  # George Carlin:
-  #   template:
-  #     name: Actor All
-  #     id: 15903
-  #     person: George Carlin
-  # Harrison Ford:
-  #   template:
-  #     name: Actor
-  #     id: 3
-  #     person: Harrison Ford
+  James Cameron:
+    template:
+      name: People
+      person: James Cameron
+      summary: >-
+        James Cameron was born in Kapuskasing, Ontario, Canada, on August 16, 1954. He moved to the USA in 1971. The son of an engineer, he majored in physics at California State University but, after graduating, drove a truck to support his screen-writing ambition. He landed his first professional film job as art director, miniature-set builder, and process-projection supervisor on Roger Corman's Battle Beyond the Stars (1980) and debuted as a director with Piranha Part Two: The Spawning (1981) the following year. In 1984, he wrote and directed The Terminator (1984), a futuristic action-thriller starring Arnold Schwarzenegger, Michael Biehn, and Linda Hamilton. It was a huge success. After this came a string of successful science-fiction action films such as Aliens (1986) and Terminator 2: Judgment Day (1991). Cameron is now one of the most sought-after directors in Hollywood. He was formerly married to producer Gale Anne Hurd, who produced several of his films. He married Kathryn Bigelow in 1989.
   Jim Carrey:
     template:
       name: People
@@ -301,16 +147,26 @@ collections:
         Although largely typecast as a comedic actor, Carrey has had success in dramatic roles. His first dramatic success was starring in the Emmy-nominated made-for-television film Doing Time on Maple Drive (1992). Carrey gained attention for his leading roles in The Truman Show (1998) and Man on the Moon (1999), earning Golden Globe Awards for each film. He later starred in the psychological science fiction romantic drama film Eternal Sunshine of the Spotless Mind (2004); this performance is repeatedly lauded as one of the most important and seminal in Carrey's career and for which he was nominated for both the BAFTA Award for Best Actor in a Leading Role and another Golden Globe Award. He was also praised for his dramatic role of Jeff Piccirillo in the Showtime tragicomedy series Kidding, for which he was nominated for another Golden Globe. The Guardian named him one of the best actors never to have received an Academy Award nomination.
 
         In 2013, Carrey published his first book, a children's story, entitled How Roland Rolls; the book was awarded a 2013 Gelett Burgess Children's Book Award. In 2020, Carrey published his first novel, Memoirs, and Misinformation, which he co-authored with Dana Vachon
-  # Jodie Foster:
-  #   template:
-  #     name: Actor
-  #     id: 1038
-  #     person: Jodie Foster
-  # John Candy:
-  #   template:
-  #     name: Actor
-  #     id: 7180
-  #     person: John Candy
+  John Carpenter:
+    template:
+      name: People
+      person: John Carpenter
+      summary: >-
+        An American film director, screenwriter, producer, editor, composer, and occasional actor.
+
+        Although Carpenter has worked in numerous film genres in his four-decade career, his name is most commonly associated with horror and science fiction.
+
+        Most films in Carpenter's career were initially commercial and critical failures, with the notable exceptions of Halloween (1978), The Fog (1980), Escape from New York (1981), and Starman (1984).
+
+        However, many of Carpenter's films from the 1970s and the 1980s have come to be viewed as cult classics, and he has been acknowledged as an influential filmmaker. Cult classics that Carpenter directed include: Dark Star (1974), Assault on Precinct 13 (1976), The Thing (1982), Christine (1983), Big Trouble in Little China (1986), Prince of Darkness (1987), They Live (1988) and In the Mouth of Madness (1995).
+
+        His films are characterized by minimalist lighting and photography, static cameras, use of steadicam, and distinctive synthesized scores. Carpenter is also notable for having composed or co-composed most of the music of his films; some of them are now considered cult as well, with the main theme of Halloween being considered a part of popular culture. His music is generally synthesized with accompaniment from piano and atmospherics. He released his first studio album Lost Themes in 2015, and also won a Saturn Award for Best Music for Vampires (1998).
+  John Hughes:
+    template:
+      name: People - Director/Writer
+      person: John Hughes
+      summary: >-
+        John Hughes (February 18, 1950 – August 6, 2009) was an American film director, producer and screenwriter. He directed and scripted some of the most successful films of the 1980s and 1990s, including National Lampoon's Vacation, Ferris Bueller's Day Off, Weird Science, The Breakfast Club, Some Kind of Wonderful, Sixteen Candles, Pretty in Pink; Planes, Trains and Automobiles; Uncle Buck, Career Opportunities, 101 Dalmatians, Home Alone, and its sequels, Home Alone 2 and Home Alone 3.
   Kathy Griffin:
     template:
       name: People
@@ -327,30 +183,17 @@ collections:
         Prior to emerging as a team, both had well-established film careers. Laurel had acted in over 50 films, and worked as a writer and director, while Hardy was in more than 250 productions. Both had appeared in The Lucky Dog (1921), but were not teamed at the time. They first appeared together in a short film in 1926, when they signed separate contracts with the Hal Roach film studio. They officially became a team in 1927 when they appeared in the silent short Putting Pants on Philip. They remained with Roach until 1940, and then appeared in eight B movie comedies for 20th Century Fox and Metro-Goldwyn-Mayer from 1941 to 1945. After finishing their film commitments at the end of 1944, they concentrated on performing stage shows, and embarked on a music hall tour of England, Ireland, Wales, and Scotland.[4] They made their last film in 1950, a French–Italian co-production called Atoll K.
 
         They appeared as a team in 107 films, starring in 32 short silent films, 40 short sound films, and 23 full-length feature films. They also made 12 guest or cameo appearances, including in the Galaxy of Stars promotional film of 1936. On December 1, 1954, they made their sole American television appearance, when they were surprised and interviewed by Ralph Edwards on his live NBC-TV program This Is Your Life. Since the 1930s, their works have been released in numerous theatrical reissues, television revivals, 8-mm and 16-mm home movies, feature-film compilations, and home videos. In 2005, they were voted the seventh-greatest comedy act of all time by a UK poll of professional comedians. The official Laurel and Hardy appreciation society is The Sons of the Desert, after a fictional fraternal society in the film of the same name.
-  # Leslie Nielsen:
-  #   template:
-  #     name: Actor
-  #     id: 7633
-  #     person: Leslie Nielsen
-  #   summary: >-
-  #     Leslie William Nielsen, OC (11 February 1926 – 28 November 2010) was a Canadian and naturalized American actor and comedian. Nielsen appeared in over one hundred films and 1,500 television programs over the span of his career, portraying over 220 characters. Born in Regina, Saskatchewan, Nielsen enlisted in the Royal Canadian Air Force and worked as a disc jockey before receiving a scholarship to Neighborhood Playhouse. Making his television debut in 1948, he quickly expanded to over 50 television appearances two years later. Nielsen made his film debut in 1956, and began collecting roles in dramas, westerns, and romance films. Nielsen's performances in the films Forbidden Planet (1956) and The Poseidon Adventure (1972) received positive reviews as a serious actor, though he is primarily known for his comedic roles.
+  M. Night Shyamalan:
+    template:
+      name: People
+      person: M. Night Shyamalan
+      summary: >-
+        Manoj Nelliyattu "M. Night" Shyamalan, born August 6, 1970, is an American filmmaker and actor. He is known for making original films with contemporary supernatural plots and twist endings. He was born in Mahé, India, and raised in Penn Valley, Pennsylvania. The cumulative gross of his films exceeds $3 billion globally.
 
-  #     Although Nielsen's acting career crossed a variety of genres in both television and films, his deadpan delivery in Airplane! (1980) marked a turning point in his career, one that would make him, in the words of film critic Roger Ebert, "the Olivier of spoofs." Nielsen enjoyed further success with The Naked Gun film series (1988 – 1994), based on a short-lived television series Police Squad! in which he starred earlier. His portrayal of serious characters seemingly oblivious to (and complicit in) their absurd surroundings gave him a reputation as a comedian. In the final years of his career, Nielsen appeared in multiple spoof and parody films, many of which were met poorly by critics, but performed well in box office and home media releases. Nielsen married four times and had two daughters from his second marriage. He was recognized with a variety of awards throughout his career, and was inducted into the Canada and Hollywood Walks of Fame.
-  # Lily Tomlin:
-  #   template:
-  #     name: Actor
-  #     id: 10437
-  #     person: Lily Tomlin
-  # Lucille Ball:
-  #   template:
-  #     name: Actor
-  #     id: 40174
-  #     person: Lucille Ball
-  # Mae West:
-  #   template:
-  #     name: Actor
-  #     id: 103616
-  #     person: Mae West
+        He made his directorial debut in 1992 with his first movie Praying with Anger. His second movie was the comedy-drama film Wide Awake (1998). His most well-received films include the supernatural thriller The Sixth Sense (1999), the superhero thriller Unbreakable (2000), and the science fiction thriller Signs (2002). For The Sixth Sense, Shyamalan received nominations for the Academy Award for Best Director and the Academy Award for Best Original Screenplay. Afterward, Shyamalan released a series of poorly received but sometimes financially successful movies, including the period-piece thriller The Village (2004), the dark fantasy Lady in the Water (2006), the eco-thriller The Happening (2008), The Last Airbender (2010) (an adaptation based on the first season of the Nickelodeon animated television series Avatar: The Last Airbender), and the science fiction film After Earth (2013). Following the financial failure of After Earth, Shyamalan's career was revived with the release of the found-footage horror film The Visit (2015), the psychological thriller Split (2016), and the superhero thriller Glass (2019). With a total budget of $34 million between them, these three films earned a combined box office of $625 million. Glass is the third and final chapter of his Unbreakable film series, which commenced in 2000.
+
+        In addition to his directorial work, Shyamalan was a story creator and a producer for the horror film Devil (2010). Shyamalan was also called in for an uncredited rewrite for the teen film She's All That (1999) and also served as a writer for the film Stuart Little (1999). He is also one of the executive producers and occasional director of Wayward Pines and the critically acclaimed series Servant.
+        Shyamalan is also known for filming and setting his films in and around Philadelphia, Pennsylvania. Most of his commercially successful films were co-produced and released by Walt Disney Studios' Touchstone and Hollywood Pictures and Universal imprints. In 2008, Shyamalan was awarded the Padma Shri by the government of India.
   Marilyn Monroe:
     template:
       name: People
@@ -368,6 +211,16 @@ collections:
       name: People - Trakt List
       list: https://trakt.tv/users/goape/lists/marx-brothers-collection
       summary: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars and fans to be among the greatest and most influential comedians of the 20th century.
+  Mel Brooks:
+    template:
+      name: People
+      person: Mel Brooks
+      summary: >-
+        Melvin Brooks (né Kaminsky, born June 28, 1926) is an American filmmaker, comedian, actor and composer. He is known as a creator of broad film farces and comic parodies. Brooks began his career as a comic and a writer for the early TV variety show Your Show of Shows. He became well known as part of the comedy duo with Carl Reiner in the comedy skit The 2000 Year Old Man. He also created, with Buck Henry, the hit television comedy series Get Smart, which ran from 1965 to 1970.
+
+        In middle age, Brooks became one of the most successful film directors of the 1970s, with many of his films being among the top 10 moneymakers of the year they were released. His best-known films include The Producers, The Twelve Chairs, Blazing Saddles, Young Frankenstein, Silent Movie, High Anxiety, History of the World, Part I, Spaceballs and Robin Hood: Men in Tights. A musical adaptation of his first film, The Producers, ran on Broadway from 2001 to 2007.
+
+        In 2001, having previously won an Emmy, a Grammy and an Oscar, he joined a small list of EGOT winners with his Tony award for The Producers. He received a Kennedy Center Honor in 2009, the Hollywood Walk of Fame in 2010, the 41st AFI Life Achievement Award in June 2013, a British Film Institute Fellowship in March 2015, a National Medal of Arts in September 2016, and a BAFTA Fellowship in February 2017. Three of his films ranked in the American Film Institute's list of the top 100 comedy films of the past 100 years (1900–2000), all of which ranked in the top 15 of the list: Blazing Saddles at number 6, The Producers at number 11, and Young Frankenstein at number 13.
   Mike Myers:
     template:
       name: People
@@ -396,21 +249,52 @@ collections:
         Recalled Wilder in a 2007 interview, "He said his first line, I said my first line and then this other line comes out of him... I had no idea where it came from, but I didn't question it, I just responded naturally – I didn't try to think of a clever line... I said what came naturally in the situation... then he went back to the script, then he came away, and everything we did together was like that."
 
         This back and forth formed the basis of four feature films and spawned some of the most famous one-liners of the past 40-plus years, though their off-screen relationship lacked the same easy flow that made them such a pleasure to watch on screen.
-  # Robin Williams:
-  #   template:
-  #     name: Actor
-  #     id: 2157
-  #     person: Robin Williams
-  # Roddy McDowall:
-  #   template:
-  #     name: Actor
-  #     id: 7505
-  #     person: Roddy McDowall
-  # Sacha Baron Cohen:
-  #   template:
-  #     name: Actor
-  #     id: 6730
-  #     person: Sacha Baron
+  Quentin Tarantino:
+    template:
+      name: People
+      person: Quentin Tarantino
+      summary: >-
+        Quentin Jerome Tarantino (born March 27, 1963) is an American film director, screenwriter, producer, cinematographer and actor. In the early 1990s he was an independent filmmaker whose films used nonlinear storylines and aestheticization of violence. His films have earned him a variety of Academy Award, Golden Globe, BAFTA and Palme d'Or Awards and he has been nominated for Emmy and Grammy Awards. In 2007, Total Film named him the 12th-greatest director of all time.
+
+        Tarantino was born in Knoxville, Tennessee, the son of Connie McHugh Tarantino Zastoupil, a health care executive and nurse born in Knoxville, and Tony Tarantino, an actor and amateur musician born in Queens, New York. Tarantino's mother allowed him to quit school at age 17, to attend an acting class full time. Tarantino gave up acting while attending the acting school, saying that he admired directors more than actors. Tarantino also worked in a video rental store before becoming a filmmaker, paid close attention to the types of films people liked to rent, and has cited that experience as inspiration for his directorial career.
+  Ray Harryhausen:
+    template:
+      name: People - Trakt List
+      list: https://trakt.tv/users/goape/lists/ray-harryhausen-collection
+      summary: >-
+        Raymond "Ray" Harryhausen (June 29, 1920 – May 7, 2013) was an American visual effects creator, writer, and producer who lived in London, England, from 1960 until his death in 2013.
+
+        He created a brand of stop-motion model animation known as "Dynamation." His most important works include the animation on Mighty Joe Young, with pioneer Willis O'Brien, which won the Academy Award for special effects (1949); The 7th Voyage of Sinbad, his first color film; and Jason and the Argonauts, featuring a famous sword fight against seven skeleton warriors.
+  Ridley Scott:
+    template:
+      name: People - Director/Writer
+      person: Ridley Scott
+      summary: >-
+        Sir Ridley Scott (born November 30, 1937) is an English filmmaker. He was raised in an Army family, meaning that for most of his early life, his father — an officer in the Royal Engineers — was absent. Ridley's older brother, Frank, joined the Merchant Navy when he was still young and the pair had little contact. During this time the family moved around, living in (among other areas) Cumbria, Wales and Germany. He has a younger brother, Tony, also a film director. After the Second World War, the Scott family moved back to their native north-east England, eventually settling in Teesside (whose industrial landscape would later inspire similar scenes in Blade Runner). He enjoyed watching films, and his favourites include Lawrence of Arabia, Citizen Kane and Seven Samurai. Scott studied in Teesside from 1954 to 1958, at Grangefield Grammar School and later in West Hartlepool College of Art, graduating with a Diploma in Design. He progressed to an M.A. in graphic design at the Royal College of Art from 1960 to 1962.
+
+        At the RCA he contributed to the college magazine, ARK and helped to establish its film department. For his final show, he made a black and white short film, Boy and Bicycle, starring his younger brother, Tony Scott, and his father. The film's main visual elements would become features of Scott's later work; it was issued on the 'Extras' section of The Duellists DVD. After graduation in 1963, he secured a job as a trainee set designer with the BBC, leading to work on the popular television police series Z-Cars and the science fiction series Out of the Unknown. Scott was an admirer of Stanley Kubrick early in his development as a director. For his entry to the BBC traineeship, Scott remade Paths of Glory as a short film.
+
+        He was assigned to design the second Doctor Who serial, The Daleks, which would have entailed realising the famous alien creatures. However, shortly before Scott was due to start work, a schedule conflict meant that he was replaced on the serial by Raymond Cusick.
+
+        At the BBC, Scott was placed into a director training programme and, before he left the corporation, had directed episodes of Z-Cars, its spin-off, Softly, Softly, and adventure series Adam Adamant Lives!
+        In 1968, Ridley and Tony Scott founded Ridley Scott Associates (RSA), a film and commercial production company.Five members of the Scott family are directors, all working for RSA. Brother Tony has been a successful film director for more than two decades; sons, Jake and Luke are both acclaimed commercials directors as is his daughter, Jordan Scott. Jake and Jordan both work from Los Angeles and Luke is based in London.
+
+        In 1995, Shepperton Studios was purchased by a consortium headed by Ridley and Tony Scott, which extensively renovated the studios while also expanding and improving its grounds.
+  Stanley Kubrick:
+    template:
+      name: People
+      person: Stanley Kubrick
+      summary: >-
+        Stanley Kubrick (July 26, 1928 – March 7, 1999) was an American film director, writer, producer, and photographer who lived in England during most of the last four decades of his career. Kubrick was noted for the scrupulous care with which he chose his subjects, his slow method of working, the variety of genres he worked in, his technical perfectionism, and his reclusiveness about his films and personal life. He maintained almost complete artistic control, making movies according to his own whims and time constraints, but with the rare advantage of big-studio financial support for all his endeavors. Kubrick's films are characterized by a formal visual style and meticulous attention to detail—his later films often have elements of surrealism and expressionism that eschews structured linear narrative. His films are repeatedly described as slow and methodical, and are often perceived as a reflection of his obsessive and perfectionist nature. A recurring theme in his films is man's inhumanity to man. While often viewed as expressing an ironic pessimism, a few critics feel his films contain a cautious optimism when viewed more carefully.
+
+        The film that first brought him attention to many critics was Paths of Glory (1957), the first of three films of his about the dehumanizing effects of war. Many of his films at first got a lukewarm reception, only to be years later acclaimed as masterpieces that had a seminal influence on many later generations of film-makers. Considered especially groundbreaking was 2001: A Space Odyssey (1968) noted for being both one of the most scientifically realistic and visually innovative science-fiction films ever made while maintaining an enigmatic non-linear storyline. He voluntarily withdrew his film A Clockwork Orange (1971) from England, after it was accused of inspiring copycat crimes which in turn resulted in threats against Kubrick's family. His films were largely successful at the box-office, although Barry Lyndon (1975) performed poorly in the United States. Living authors Anthony Burgess and Stephen King were both unhappy with Kubrick's adaptations of their novels A Clockwork Orange and The Shining (1980) respectively, and both authors were engaged with subsequent adaptations. All of Kubrick's films from the mid-1950s to his death except for The Shining were nominated for Oscars, Golden Globes, or BAFTAs. Although he was nominated for an Academy Award as a screenwriter and director on several occasions, his only personal win was for the special effects in 2001: A Space Odyssey.
+
+        Even though all of his films, apart from the first two, were adapted from novels or short stories, his works have been described by Jason Ankeny and others as "original and visionary". Although some critics, notably Andrew Sarris and Pauline Kael, frequently disparaged Kubrick's work, Ankeny describes Kubrick as one of the most "universally acclaimed and influential directors of the postwar era" with a "standing unique among the filmmakers of his day."
+  Stephen King:
+    template:
+      name: People
+      person: Stephen King
+      summary: Stephen King is an American author of contemporary horror, suspense, science fiction, and fantasy fiction. His books have sold more than 350 million copies, which have been adapted into a number of feature films, television movies, and comic books. As of 2011, King has written and published 49 novels, including seven under the pen name Richard Bachman, five non-fiction books, and nine collections of short stories. Many of his stories are set in his home state of Maine. King has received Bram Stoker Awards, World Fantasy Awards, British Fantasy Society Awards, his novella The Way Station was a Nebula Award novelette nominee, and in 2003, the National Book Foundation awarded him the Medal for Distinguished Contribution to American Letters.
   Steve Martin:
     template:
       name: People
@@ -429,11 +313,26 @@ collections:
         McQueen received an Academy Award nomination for his role in The Sand Pebbles (1966). His other popular films include Love With the Proper Stranger (1963), The Cincinnati Kid (1965), Nevada Smith (1966), The Thomas Crown Affair (1968), Bullitt (1968), Le Mans (1971), The Getaway (1972), and Papillon (1973). In addition, he starred in the all-star ensemble films The Magnificent Seven (1960), The Great Escape (1963), and The Towering Inferno (1974).
 
         In 1974, McQueen became the highest-paid movie star in the world, although he did not act in film for another four years. He was combative with directors and producers, but his popularity placed him in high demand and enabled him to command the largest salaries.
-  # The Three Stooges:
-  #   template:
-  #     name: Search
-  #     title: Three Stooges
-  #   sort_title: ++_8Three Stooges Collection
+  Steven Spielberg:
+    template:
+      name: People
+      person: Steven Spielberg
+      summary: >-
+        Steven Allan Spielberg (born December 18, 1946) is an American film director, writer and producer. A major figure of the New Hollywood era and pioneer of the modern blockbuster, he is the most commercially successful director of all time. Spielberg is the recipient of various accolades, including three Academy Awards, a Kennedy Center honor, four Directors Guild of America Awards, two BAFTA Awards, a Cecil B. DeMille Award and an AFI Life Achievement Award. Seven of his films have been inducted into the National Film Registry by the Library of Congress as "culturally, historically or aesthetically significant".
+
+        Spielberg was born in Cincinnati, Ohio, and grew up in Phoenix, Arizona. He moved to California and studied film in college. After directing several episodes for television including Night Gallery and Columbo, he directed the television film Duel (1971) which gained acclaim from critics and audiences. He made his directorial film debut with The Sugarland Express (1974), and became a household name with the 1975 summer blockbuster Jaws. He then directed huge box office successes Close Encounters of the Third Kind (1977), E.T. the Extra-Terrestrial (1982) and the Indiana Jones original trilogy (1981-89). Spielberg subsequently explored drama in the acclaimed The Color Purple (1985) and Empire of the Sun (1987).
+
+        After a brief hiatus, Spielberg directed the science fiction thriller Jurassic Park (1993), the highest-grossing film ever at the time, and the Holocaust drama Schindler's List (1993), which has often been listed as one of the greatest films ever made. He won the Academy Award for Best Director for the latter and for the 1998 World War II epic Saving Private Ryan. Spielberg continued in the 2000s with science fiction films A.I. Artificial Intelligence (2001), Minority Report (2002) and War of the Worlds (2005). He also directed the adventure films The Adventures of Tintin (2011) and Ready Player One (2018); the historical dramas Amistad (1997), Munich (2005), War Horse (2011), Lincoln (2012), Bridge of Spies (2015) and The Post (2017); the musical West Side Story (2021); and the semi-autobiographical drama The Fabelmans (2022). He has been a producer on several successful films, including Poltergeist (1982), Gremlins (1984), Back to the Future (1985) and Who Framed Roger Rabbit (1988) as well as the miniseries Band of Brothers (2001).
+
+        Spielberg co-founded Amblin Entertainment and DreamWorks, and has served as a producer for many successful films and television series. He is also known for his long collaboration with the composer John Williams, with whom he has worked for all but five of his feature films. Several of Spielberg's works are among the highest-grossing and greatest films all time. Premiere ranked him first place in the list of 100 Most Powerful People in Movies in 2003. In 2013, Time listed him as one of the 100 most influential people.
+  Tim Burton:
+    template:
+      name: People
+      person: Tim Burton
+      summary: >-
+        Timothy Walter Burton (born August 25, 1958) is an American filmmaker and animator. He is known for his gothic fantasy and horror films such as Beetlejuice (1988), Edward Scissorhands (1990), The Nightmare Before Christmas (1993), Ed Wood (1994), Sleepy Hollow (1999), Corpse Bride (2005), Sweeney Todd: The Demon Barber of Fleet Street (2007) and Dark Shadows (2012), as well as the television series Wednesday (2022). Burton also directed the superhero films Batman (1989) and Batman Returns (1992), the sci-fi film Planet of the Apes (2001), the fantasy-drama Big Fish (2003), the musical adventure film Charlie and the Chocolate Factory (2005), and the fantasy films Alice in Wonderland (2010) and Miss Peregrine's Home for Peculiar Children (2016).
+
+        Burton has often worked with actors Winona Ryder, Johnny Depp, Lisa Marie (former girlfriend), Helena Bonham Carter (his former domestic partner) and composer Danny Elfman, who scored all but three of Burton's films. Burton also wrote and illustrated the poetry book The Melancholy Death of Oyster Boy & Other Stories, published in 1997 by British publishing house Faber and Faber, and a compilation of his drawings, sketches, and other artwork, entitled The Art of Tim Burton, was released in 2009. A follow-up to that book, entitled The Napkin Art of Tim Burton: Things You Think About in a Bar, containing sketches made by Burton on napkins at bars and restaurants he visited, was released in 2015. His accolades include nominations for two Academy Awards and three BAFTA Awards, and wins for an Emmy Award and a Golden Globe Award.
   Vincent Price:
     template:
       name: People
@@ -442,6 +341,14 @@ collections:
         Vincent Leonard Price, Jr. (May 27, 1911 – October 25, 1993) was an American actor, well known for his distinctive voice and performances in horror films. His career spanned other genres, including film noir, drama, mystery, thriller, and comedy. He appeared on stage, television, radio, and in over one hundred films. He has two stars on the Hollywood Walk of Fame: one for motion pictures, and one for television.
 
         Price was an art collector and consultant, with a degree in art history. He lectured and wrote books on the subject. He was the founder of the Vincent Price Art Museum in California. He was also a noted gourmet cook.
+  Wes Anderson:
+    template:
+      name: People
+      person: Wes Anderson
+      summary: >-
+        Wesley Wales Anderson (born May 1, 1969) is an American filmmaker. His films are known for their symmetry, eccentricity and distinctive visual and narrative styles, and he is cited by some critics as a modern-day example of the auteur. Three of his films, The Royal Tenenbaums (2001), Moonrise Kingdom (2012), and The Grand Budapest Hotel (2014) appeared in BBC Culture's 2016 poll of the greatest films since 2000.
+
+        Anderson was nominated for the Academy Award for Best Original Screenplay for The Royal Tenenbaums (2001), Moonrise Kingdom (2012) and The Grand Budapest Hotel (2014), as well as the Academy Award for Best Animated Feature for the stop-motion films Fantastic Mr. Fox (2009) and Isle of Dogs (2018). With The Grand Budapest Hotel, he received his first Academy Award nominations for Best Director and Best Picture, and won the Golden Globe Award for Best Motion Picture – Musical or Comedy and the BAFTA Award for Best Original Screenplay. He currently runs the production company American Empirical Pictures, which he founded in 1998. He won the Silver Bear for Best Director for Isle of Dogs in 2018.
   Will Ferrell:
     template:
       name: People

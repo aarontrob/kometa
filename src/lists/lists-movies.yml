@@ -134,7 +134,7 @@ collections:
   #   imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250
   #   tmdb_top_rated: 250
   #   summary: Top Rated Movies across the internet
-  Vulture’s 101 Best Movie Endings:
+  Vulture's 101 Best Movie Endings:
     template:
       name: List - Letterboxd List
       list: brianformo/list/vultures-101-best-movie-endings/

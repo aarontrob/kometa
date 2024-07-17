@@ -1,0 +1,34 @@
+Genre:
+  smart_filter:
+    all:
+      genre: <<genre>>
+      genre.not: Stand-Up
+    sort_by: random
+  sort_title: ~_<<collection_name>>
+  only_run_on_create: true
+  optional:
+    - collection_order
+    - item_genre
+    - item_label
+    - summary
+  item_genre: <<item_genre>>
+  item_label: <<item_label>>
+  summary: <<summary>>
+Genre - Trakt List:
+  trakt_list: <<list>>
+  sync_mode: sync
+  sort_title: ~_<<collection_name>>
+  optional:
+    - item_genre
+    - item_label
+    - label
+    - summary
+  smart_label: release.asc
+  item_genre: <<item_genre>>
+  item_label: <<item_label>>
+  label: <<label>>
+  summary: <<summary>>
+Genre - Trakt List Episodes:
+  trakt_list: <<list>>
+  sync_mode: sync
+  builder_level: episode

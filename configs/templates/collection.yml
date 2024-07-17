@@ -1,5 +1,5 @@
 Collection:
-  tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
+  tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
   sync_mode: sync
   collection_order: release
   default:
@@ -12,7 +12,7 @@ Collection:
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Alpha:
-  tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
+  tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
   sync_mode: sync
   collection_order: alpha
   default:
@@ -25,7 +25,7 @@ Collection - Alpha:
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Release:
-  tmdb_collection: https://www.themoviedb.org/collection/<<collection>>
+  tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
   sync_mode: sync
   collection_order: release
   default:
@@ -38,7 +38,7 @@ Collection - Release:
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Trakt List:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   sync_mode: sync
   collection_order: release
   collection_mode: <<collection_mode>>
@@ -52,7 +52,7 @@ Collection - Trakt List:
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Trakt List Custom Order:
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   sync_mode: sync
   collection_order: custom
   default:

@@ -1,6 +1,6 @@
-Collection - Movie:
+Collection - Show:
   tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-  tmdb_movie: <<movie>>
+  tmdb_show: <<show>>
   sync_mode: sync
   collection_order: release
   default:
@@ -12,8 +12,8 @@ Collection - Movie:
   name_mapping: <<name_mapping>>
   sort_title: <<sort_title>>
   summary: <<summary>>
-Collection - Movies:
-  tmdb_movie: <<movie>>
+Collection - Shows:
+  tmdb_show: <<show>>
   sync_mode: sync
   collection_order: release
   default:
@@ -22,11 +22,13 @@ Collection - Movies:
     - name_mapping
     - sort_title
     - summary
+    - tvdb_show
   name_mapping: <<name_mapping>>
   sort_title: <<sort_title>>
+  tvdb_show: <<tvdb_show>>
   summary: <<summary>>
-Collection - Hide Movie:
-  tmdb_movie: <<movie>>
+Collection - Hide Show:
+  tmdb_show: <<show>>
   sync_mode: sync
   collection_order: release
   collection_mode: hide
