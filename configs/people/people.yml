@@ -39,6 +39,18 @@ templates:
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
+  People - Director:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        director: <<person>>
+        title: <<title>>
+      sort_by: release.asc
+    sort_title: ++_7<<collection_name>>
+    summary: <<summary>>
   People - Director/Writer:
     optional:
       - title
@@ -850,7 +862,7 @@ collections:
         warriors.
   Ridley Scott:
     template:
-      name: People - Director/Writer
+      name: People - Director
       person: Ridley Scott
       summary: >-
         Sir Ridley Scott (born November 30, 1937) is an English filmmaker. He

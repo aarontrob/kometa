@@ -38,6 +38,18 @@ People - Actor/Director/Writer:
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>
+People - Director:
+  optional:
+    - title
+    - person
+    - summary
+  smart_filter:
+    any:
+      director: <<person>>
+      title: <<title>>
+    sort_by: release.asc
+  sort_title: ++_7<<collection_name>>
+  summary: <<summary>>
 People - Director/Writer:
   optional:
     - title
