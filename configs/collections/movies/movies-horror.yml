@@ -674,3 +674,490 @@ collections:
         Zombi 5 by distributors.
     sync_mode: append
     only_run_on_create: true
+  30 Days of Night Collection:
+    template:
+      name: Unmanaged
+  976-EVIL Collection:
+    template:
+      name: Unmanaged
+  All Hallow's Eve Collection:
+    template:
+      name: Unmanaged
+  Alligator Collection:
+    template:
+      name: Unmanaged
+  Alone in the Dark Collection:
+    template:
+      name: Unmanaged
+  American Psycho Collection:
+    template:
+      name: Unmanaged
+  An American Werewolf Collection:
+    template:
+      name: Unmanaged
+  Annabelle Collection:
+    template:
+      name: Unmanaged
+  Basket Case Trilogy:
+    template:
+      name: Unmanaged
+  Bats Collection:
+    template:
+      name: Unmanaged
+  Battle Royale Collection:
+    template:
+      name: Unmanaged
+  The Birds Collection:
+    template:
+      name: Unmanaged
+  Blair Witch Collection:
+    template:
+      name: Unmanaged
+  Blood Feast Collection:
+    template:
+      name: Unmanaged
+  Boggy Creek Collection:
+    template:
+      name: Unmanaged
+  The Boogey Man Collection:
+    template:
+      name: Unmanaged
+  The Boogeyman Collection:
+    template:
+      name: Unmanaged
+  The Boy Collection:
+    template:
+      name: Unmanaged
+  C.H.U.D. Collection:
+    template:
+      name: Unmanaged
+  Candyman Collection:
+    template:
+      name: Unmanaged
+  Carnosaur Collection:
+    template:
+      name: Unmanaged
+  Cat People Collection:
+    template:
+      name: Unmanaged
+  The Cell Collection:
+    template:
+      name: Unmanaged
+  Children of the Corn Collection:
+    template:
+      name: Unmanaged
+  Class of Nuke 'Em High Collection:
+    template:
+      name: Unmanaged
+  The Collector Collection:
+    template:
+      name: Unmanaged
+  The Conjuring Collection:
+    template:
+      name: Unmanaged
+  Count Yorga Collection:
+    template:
+      name: Unmanaged
+  The Craft Collection:
+    template:
+      name: Unmanaged
+  Creep Collection:
+    template:
+      name: Unmanaged
+  Critters Collection:
+    template:
+      name: Unmanaged
+  The Crow Collection:
+    template:
+      name: Unmanaged
+  Cube Collection:
+    template:
+      name: Unmanaged
+  The Curse Collection:
+    template:
+      name: Unmanaged (1987-1991)
+  Dark Night of the Scarecrow Collection:
+    template:
+      name: Unmanaged
+  Deep Blue Sea Collection:
+    template:
+      name: Unmanaged
+  Demonic Toys Collection:
+    template:
+      name: Unmanaged
+  Demons Collection:
+    template:
+      name: Unmanaged
+  The Dentist Collection:
+    template:
+      name: Unmanaged
+  The Descent Collection:
+    template:
+      name: Unmanaged
+  The Devil's Carnival Collection:
+    template:
+      name: Unmanaged
+  Doctor X Collection:
+    template:
+      name: Unmanaged
+  Don't Breathe Collection:
+    template:
+      name: Unmanaged
+  Dr. Phibes Collection:
+    template:
+      name: Unmanaged
+  Dracula (Hammer) Collection:
+    template:
+      name: Unmanaged
+  Dracula (Universal) Collection:
+    template:
+      name: Unmanaged
+  Dracula 2000 Collection:
+    template:
+      name: Unmanaged
+  Elvira Collection:
+    template:
+      name: Unmanaged
+  Escape Room Collection:
+    template:
+      name: Unmanaged
+  The Exorcist Collection:
+    template:
+      name: Unmanaged
+  Fear Street Collection:
+    template:
+      name: Unmanaged
+  Feast Collection:
+    template:
+      name: Unmanaged
+  Final Destination Collection:
+    template:
+      name: Unmanaged
+  Firefly Collection:
+    template:
+      name: Unmanaged
+  Frankenstein (Hammer) Collection:
+    template:
+      name: Unmanaged
+  Frankenstein (Universal) Collection:
+    template:
+      name: Unmanaged
+  The Frogtown Collection:
+    template:
+      name: Unmanaged
+  From Dusk Till Dawn Collection:
+    template:
+      name: Unmanaged
+  The Gate Collection:
+    template:
+      name: Unmanaged
+  Gates of Hell Trilogy:
+    template:
+      name: Unmanaged
+  Ghoulies Collection:
+    template:
+      name: Unmanaged
+  Ginger Snaps Collection:
+    template:
+      name: Unmanaged
+  Grave Encounters Collection:
+    template:
+      name: Unmanaged
+  The Gremlins Collection:
+    template:
+      name: Unmanaged
+  Grizzly Collection:
+    template:
+      name: Unmanaged
+  Happy Death Day Collection:
+    template:
+      name: Unmanaged
+  Hatchet Collection:
+    template:
+      name: Unmanaged
+  The Haunting in Connecticut Collection:
+    template:
+      name: Unmanaged
+  Hell House LLC Collection:
+    template:
+      name: Unmanaged
+  'Henry: Portrait of a Serial Killer Collection':
+    template:
+      name: Unmanaged"
+  Hidden Collection:
+    template:
+      name: Unmanaged
+  The Hills Have Eyes (Reboot) Collection:
+    template:
+      name: Unmanaged
+  The Hitcher Collection:
+    template:
+      name: Unmanaged
+  Hostel Collection:
+    template:
+      name: Unmanaged
+  House Collection:
+    template:
+      name: Unmanaged
+  House of the Dead Collection:
+    template:
+      name: Unmanaged
+  The Howling Collection:
+    template:
+      name: Unmanaged
+  The Human Centipede Collection:
+    template:
+      name: Unmanaged
+  I Know What You Did Last Summer Collection:
+    template:
+      name: Unmanaged
+  Inner Sanctum Mysteries Collection:
+    template:
+      name: Unmanaged
+  Insidious Collection:
+    template:
+      name: Unmanaged
+  The Invisible Man Collection:
+    template:
+      name: Unmanaged
+  Jack Frost Collection:
+    template:
+      name: Unmanaged
+  Jeepers Creepers Collection:
+    template:
+      name: Unmanaged
+  Joy Ride Collection:
+    template:
+      name: Unmanaged
+  Ju-on Collection:
+    template:
+      name: Unmanaged
+  Karnstein Trilogy:
+    template:
+      name: Unmanaged
+  Killer Tomatoes! Collection:
+    template:
+      name: Unmanaged
+  The Kolchak Collection:
+    template:
+      name: Unmanaged
+  Lake Placid Collection:
+    template:
+      name: Unmanaged
+  The Lawnmower Man Collection:
+    template:
+      name: Unmanaged
+  Lost Boys Collection:
+    template:
+      name: Unmanaged
+  M3GAN Collection:
+    template:
+      name: Unmanaged
+  The Mangler Collection:
+    template:
+      name: Unmanaged
+  Maniac Collection:
+    template:
+      name: Unmanaged
+  Maniac Cop Collection:
+    template:
+      name: Unmanaged
+  The Messengers Collection:
+    template:
+      name: Unmanaged
+  Mimic Collection:
+    template:
+      name: Unmanaged
+  Mirror Mirror Collection:
+    template:
+      name: Unmanaged
+  Mirrors Collection:
+    template:
+      name: Unmanaged
+  The Mummy (Hammer) Collection:
+    template:
+      name: Unmanaged
+  The Mummy (Universal) Collection:
+    template:
+      name: Unmanaged
+  Night of the Demons Collection:
+    template:
+      name: Unmanaged
+  The Nun Collection:
+    template:
+      name: Unmanaged
+  Open Water Collection:
+    template:
+      name: Unmanaged
+  Orphan Collection:
+    template:
+      name: Unmanaged
+  Ouija Collection:
+    template:
+      name: Unmanaged
+  Phantasm Collection:
+    template:
+      name: Unmanaged
+  Prom Night Collection:
+    template:
+      name: Unmanaged
+  The Prophecy Collection:
+    template:
+      name: Unmanaged
+  Pulse Collection:
+    template:
+      name: Unmanaged
+  Pumpkinhead Collection:
+    template:
+      name: Unmanaged
+  Puppet Master Collection:
+    template:
+      name: Unmanaged
+  The Purge Collection:
+    template:
+      name: Unmanaged
+  Quarantine Collection:
+    template:
+      name: Unmanaged
+  Quatermass (Hammer series):
+    template:
+      name: Unmanaged
+  Re-Animator Collection:
+    template:
+      name: Unmanaged
+  Resident Evil (Animated) Collection:
+    template:
+      name: Unmanaged
+  The Ring Collection:
+    template:
+      name: Unmanaged
+  Ring Collection:
+    template:
+      name: Unmanaged
+  The Rocky Horror Picture Show Collection:
+    template:
+      name: Unmanaged
+  Rosemary's Baby Collection:
+    template:
+      name: Unmanaged
+  Saturday the 14th Collection:
+    template:
+      name: Unmanaged
+  Saw Collection:
+    template:
+      name: Unmanaged
+  Scanners Collection:
+    template:
+      name: Unmanaged
+  Scary Movie Collection:
+    template:
+      name: Unmanaged
+  Scream Collection:
+    template:
+      name: Unmanaged
+  Screamers Collection:
+    template:
+      name: Unmanaged
+  See No Evil Collection:
+    template:
+      name: Unmanaged
+  Silent Hill Collection:
+    template:
+      name: Unmanaged
+  Sinister Collection:
+    template:
+      name: Unmanaged
+  Sleepaway Camp Collection:
+    template:
+      name: Unmanaged
+  Sometimes They Come Back Collection:
+    template:
+      name: Unmanaged
+  Sorority Babes Collection:
+    template:
+      name: Unmanaged
+  The Sorority House Massacre Collection:
+    template:
+      name: Unmanaged
+  Stir of Echoes Collection:
+    template:
+      name: Unmanaged
+  Survival of the Dead Collection:
+    template:
+      name: Unmanaged
+  Swamp Thing Collection:
+    template:
+      name: Unmanaged
+  Tales from the Crypt Collection:
+    template:
+      name: Unmanaged
+  Terrifier Collection:
+    template:
+      name: Unmanaged
+  The Three Mothers Collection:
+    template:
+      name: Unmanaged
+  Tremors Collection:
+    template:
+      name: Unmanaged
+  Trilogy of Terror Collection:
+    template:
+      name: Unmanaged
+  The Unnamable Collection:
+    template:
+      name: Unmanaged
+  Urban Legend Collection:
+    template:
+      name: Unmanaged
+  Vacancy Collection:
+    template:
+      name: Unmanaged
+  The Vampire Chronicles Collection:
+    template:
+      name: Unmanaged
+  Vampires Collection:
+    template:
+      name: Unmanaged
+  Warlock Collection:
+    template:
+      name: Unmanaged
+  Watchers Collection:
+    template:
+      name: Unmanaged
+  Waxwork Collection:
+    template:
+      name: Unmanaged
+  White Noise Collection:
+    template:
+      name: Unmanaged
+  Winnie-the-Pooh (Horror) Collection:
+    template:
+      name: Unmanaged
+  Wishmaster Collection:
+    template:
+      name: Unmanaged
+  Witchboard Collection:
+    template:
+      name: Unmanaged
+  Wolf Creek Collection:
+    template:
+      name: Unmanaged
+  WolfCop Collection:
+    template:
+      name: Unmanaged
+  Wrong Turn Collection:
+    template:
+      name: Unmanaged
+  X Collection:
+    template:
+      name: Unmanaged
+  Xtro Collection:
+    template:
+      name: Unmanaged
+  Zombieland Collection:
+    template:
+      name: Unmanaged
+  Delete:
+    delete_collections_named:
+      - Lights Out Filmreihe
+      - Halloween (Rob Zombie Series) Collection
