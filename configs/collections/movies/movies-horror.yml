@@ -120,6 +120,9 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
     tmdb_show: <<show>>
+  Unmanaged:
+    label: Unmanaged
+    blank_collection: true
 collections:
   28 Days/Weeks Later Collection:
     template:
