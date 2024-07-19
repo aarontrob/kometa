@@ -10,9 +10,3 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  "Oscars: Best Documentary":
-    template:
-      name: List - IMDB List
-      list: search/title/?title_type=documentary&groups=oscar_winner
-      name_mapping: Oscars Best Documentary
-      summary: Oscar Winning Documentaries

@@ -36,8 +36,9 @@ templates:
   List - Letterboxd List:
     letterboxd_list: <<list>>
     sync_mode: sync
+    collection_order: custom
     sort_title: ++_5<<collection_name>>
-    smart_label: year.asc
+    collection_mode: show_items
     optional:
       - name_mapping
       - summary
@@ -53,10 +54,4 @@ templates:
       - summary
     name_mapping: <<name_mapping>>
     summary: <<summary>>
-collections:
-  'Oscars: Best Documentary':
-    template:
-      name: List - IMDB List
-      list: search/title/?title_type=documentary&groups=oscar_winner
-      name_mapping: Oscars Best Documentary
-      summary: Oscar Winning Documentaries
+collections: null
