@@ -277,6 +277,18 @@ collections:
       collection: 294468
       movie: 9574
       summary: The stuff dreams are made of. What is flubber? Catch it if you can!
+  Freaky Friday Collection:
+    template:
+      name: Collection - Movie
+      collection:
+        - 1125292
+        - 16084
+      movie:
+        - 196257
+        - 505904
+      summary: >-
+        Mondays are manic. Wednesdays are wild. And Fridays are about to get a
+        little freaky.
   Frozen Collection:
     template:
       name: Collection - Movie
