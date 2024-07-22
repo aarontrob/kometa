@@ -649,6 +649,11 @@ collections:
       name: Collection - Hide Movie
       movie: 203801
       sort_title: Man from U.N.C.L.E. Collection
+  The Man With No Name Collection:
+    template:
+      name: Collection - Movies
+      movie: '938, 429, 391'
+      summary: 'In his own way he is, perhaps, the most dangerous man who ever lived!'
   Mary Poppins Collection:
     template:
       name: Collection - Movies
@@ -1189,7 +1194,6 @@ collections:
   Major League Collection: *ref_0
   Mamma Mia! Collection: *ref_0
   Man of Steel Collection: *ref_0
-  The Man With No Name Collection: *ref_0
   Mannequin Collection: *ref_0
   Marshal Samuel Gerard Collection: *ref_0
   The Mask Collection: *ref_0
