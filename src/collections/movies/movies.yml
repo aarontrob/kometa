@@ -9,6 +9,14 @@ templates: !!import/shallow
   - ../../templates/unmanaged.yml
 
 ######################################################
+#                    Variables                       #
+######################################################
+
+unmanaged: &unmanaged
+  template:
+    name: Unmanaged
+
+######################################################
 #                   Collections                      #
 ######################################################
 
@@ -80,6 +88,11 @@ collections:
   Betty Boop Collection:
     trakt_list: https://trakt.tv/lists/official/betty-boop-fleischer-brothers-collection
     summary: Betty Boop is an animated cartoon character created by Max Fleischer, with help from animators including Grim Natwick. She originally appeared in the Talkartoon and Betty Boop film series, which were produced by Fleischer Studios and released by Paramount Pictures.
+  Beavis and Butt-Head Collection:
+    template:
+      name: Collection
+      collection: 939227
+      summary: Do you have any T.P.? T.P. for my bunghole? I would hate for my bungholio to get polio.
   The Beverly Hillbillies Collection:
     template:
       name: Collection - Hide Movie
@@ -266,6 +279,12 @@ collections:
       collection: 2980
       movie: 43074
       summary: Ghostbusters is a 1984 American supernatural comedy film, directed and produced by Ivan Reitman and written by Dan Aykroyd and Harold Ramis. The film stars Bill Murray, Aykroyd, and Ramis as three eccentric parapsychologists in New York City who start a ghost-catching business. The second film, Ghostbusters II, was released in 1989.
+  The Godfather Collection:
+    template:
+      name: Collection
+      collection: 230
+      sort_title: Godfather Collection
+      summary: An offer you can't refuse.
   Godzilla Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -299,6 +318,12 @@ collections:
       name: Collection - Movies
       movie: 11054, 2976
       summary: Who's who behind the do?
+  Harley Quinn Collection:
+    template:
+      name: Collection - Movie
+      collection: 531242
+      movie: 495764
+      summary: Mind Over Mayhem
   Heathers Collection:
     template:
       name: Collection - Movies
@@ -743,6 +768,11 @@ collections:
       name: Collection
       collection: 1241, 435259
       summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
+  The X-Files Collection:
+    template:
+      name: Collection
+      collection: 19387
+      summary: THE TRUTH IS OUT THERE
   X-Men Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -757,849 +787,293 @@ collections:
   #               Unmanaged Collections                #
   ######################################################
 
-  300 Collection:
-    template:
-      name: Unmanaged
-  48 Hrs. Collection:
-    template:
-      name: Unmanaged
-  Ace Ventura Collection:
-    template:
-      name: Unmanaged
-  Airport Collection:
-    template:
-      name: Unmanaged
-  Almighty Collection:
-    template:
-      name: Unmanaged
-  The Amazing Spider-Man Collection:
-    template:
-      name: Unmanaged
-  American Pie Collection:
-    template:
-      name: Unmanaged
-  Analyze Collection:
-    template:
-      name: Unmanaged
-  Anchorman Collection:
-    template:
-      name: Unmanaged
-  Ant-Man Collection:
-    template:
-      name: Unmanaged
-  Arthur Collection:
-    template:
-      name: Unmanaged
-  Austin Powers Collection:
-    template:
-      name: Unmanaged
-  Avatar Collection:
-    template:
-      name: Unmanaged
-  AVP Collection:
-    template:
-      name: Unmanaged
-  Bachelor Party Collection:
-    template:
-      name: Unmanaged
-  Backdraft Collection:
-    template:
-      name: Unmanaged
-  Bad Moms Collection:
-    template:
-      name: Unmanaged
-  Bad Santa Collection:
-    template:
-      name: Unmanaged
-  Basic Instinct Collection:
-    template:
-      name: Unmanaged
-  Beach Party Collection:
-    template:
-      name: Unmanaged
-  The Beastmaster Collection:
-    template:
-      name: Unmanaged
-  Beavis and Butt-Head Do A Collection:
-    template:
-      name: Unmanaged
-  Before... Collection:
-    template:
-      name: Unmanaged
-  Beverly Hills Cop Collection:
-    template:
-      name: Unmanaged
-  Big Momma's House Collection:
-    template:
-      name: Unmanaged
-  Black Panther Collection:
-    template:
-      name: Unmanaged
-  Blade Collection:
-    template:
-      name: Unmanaged
-  The Blues Brothers Collection:
-    template:
-      name: Unmanaged
-  Borat Moviefilms Collection:
-    template:
-      name: Unmanaged
-  The Bourne Collection:
-    template:
-      name: Unmanaged
-  Breakin' Collection:
-    template:
-      name: Unmanaged
-  # Bring It On Collection:
-  #   label: Unmanaged
-  #   blank_collection: true
-  Butch Cassidy and the Sundance Kid Collection:
-    template:
-      name: Unmanaged
-  The Butterfly Effect Collection:
-    template:
-      name: Unmanaged
-  Caddyshack Collection:
-    template:
-      name: Unmanaged
-  Cannonball Run Collection:
-    template:
-      name: Unmanaged
-  Caprona (Amicus) Collection:
-    template:
-      name: Unmanaged
-  Captain America (1979) Collection:
-    template:
-      name: Unmanaged
-  Captain Marvel Collection:
-    template:
-      name: Unmanaged
-  Center Stage Collection:
-    template:
-      name: Unmanaged
-  The Cheerleaders Collection:
-    template:
-      name: Unmanaged
-  Chili Palmer Collection:
-    template:
-      name: Unmanaged
-  The Christmas House Collection:
-    template:
-      name: Unmanaged
-  The Chronicles of Riddick Collection:
-    template:
-      name: Unmanaged
-  City Slickers Collection:
-    template:
-      name: Unmanaged
-  Class of 1999 Collection:
-    template:
-      name: Unmanaged
-  Clerks Collection:
-    template:
-      name: Unmanaged
-  Cocoon Collection:
-    template:
-      name: Unmanaged
-  Crocodile Dundee Collection:
-    template:
-      name: Unmanaged
-  Crouching Tiger, Hidden Dragon Collection:
-    template:
-      name: Unmanaged
-  Daddy's Home Collection:
-    template:
-      name: Unmanaged
-  The Dark Knight Collection:
-    template:
-      name: Unmanaged
-  Darkman Collection:
-    template:
-      name: Unmanaged
-  Darko Collection:
-    template:
-      name: Unmanaged
-  Deadpool Collection:
-    template:
-      name: Unmanaged
-  Die Hard Collection:
-    template:
-      name: Unmanaged
-  Dirty Harry Collection:
-    template:
-      name: Unmanaged
-  Divergent Collection:
-    template:
-      name: Unmanaged
-  Django Collection:
-    template:
-      name: Unmanaged
-  Dr Goldfoot Collection:
-    template:
-      name: Unmanaged
-  Dr. Mabuse Collection:
-    template:
-      name: Unmanaged
-  DragonHeart Collection:
-    template:
-      name: Unmanaged
-  Dumb and Dumber Collection:
-    template:
-      name: Unmanaged
-  The Equalizer Collection:
-    template:
-      name: Unmanaged
-  Eraser Filmreihe:
-    template:
-      name: Unmanaged
-  Escape From ... Collection:
-    template:
-      name: Unmanaged
-  The Expendables Collection:
-    template:
-      name: Unmanaged
-  Extraction Collection:
-    template:
-      name: Unmanaged
-  Fall Collection:
-    template:
-      name: Unmanaged
-  Fantastic Beasts Collection:
-    template:
-      name: Unmanaged
-  The Fast and the Furious Collection:
-    template:
-      name: Unmanaged
-  Frankenstein (Toho) Collection:
-    template:
-      name: Unmanaged
-  Freeway Collection:
-    template:
-      name: Unmanaged
-  French Connection Collection:
-    template:
-      name: Unmanaged
-  Gator Collection:
-    template:
-      name: Unmanaged
-  Ghost Rider Collection:
-    template:
-      name: Unmanaged
-  The Girl - Millennium Collection:
-    template:
-      name: Unmanaged
-  Gladiator Collection:
-    template:
-      name: Unmanaged
-  The Glass House Collection:
-    template:
-      name: Unmanaged
-  The Godfather Collection:
-    template:
-      name: Unmanaged
-  Goon Collection:
-    template:
-      name: Unmanaged
-  The Gray Man Collection:
-    template:
-      name: Unmanaged
-  The Great Escape Collection:
-    template:
-      name: Unmanaged
-  Grown Ups Collection:
-    template:
-      name: Unmanaged
-  Grumpy Old Men Collection:
-    template:
-      name: Unmanaged
-  The Hangover Collection:
-    template:
-      name: Unmanaged
-  Happy Gilmore Collection:
-    template:
-      name: Unmanaged
-  Harold & Kumar Collection:
-    template:
-      name: Unmanaged
-  Harry Potter Collection:
-    template:
-      name: Unmanaged
-  Has Fallen Collection:
-    template:
-      name: Unmanaged
-  Heat Collection:
-    template:
-      name: Unmanaged
-  Heavy Metal Collection:
-    template:
-      name: Unmanaged
-  Highlander Collection:
-    template:
-      name: Unmanaged
-  The Hitman's Bodyguard Collection:
-    template:
-      name: Unmanaged
-  The Hobbit Collection:
-    template:
-      name: Unmanaged
-  Hocus Pocus Collection:
-    template:
-      name: Unmanaged
-  Horrible Bosses Collection:
-    template:
-      name: Unmanaged
-  Hot Shots! Collection:
-    template:
-      name: Unmanaged
-  The Huntsman Collection:
-    template:
-      name: Unmanaged
-  The Hustler Collection:
-    template:
-      name: Unmanaged
-  Independence Day Collection:
-    template:
-      name: Unmanaged
-  Inside Man Collection:
-    template:
-      name: Unmanaged
-  Iron Man Collection:
-    template:
-      name: Unmanaged
-  Jack Reacher Collection:
-    template:
-      name: Unmanaged
-  The Jack Ryan Collection:
-    template:
-      name: Unmanaged
-  The Jake Gittes Collection:
-    template:
-      name: Unmanaged
-  Jingle All the Way Collection:
-    template:
-      name: Unmanaged
-  Joe Dirt Collection:
-    template:
-      name: Unmanaged
-  John Bronco Collection:
-    template:
-      name: Unmanaged
-  John Wick Collection:
-    template:
-      name: Unmanaged
-  Joker Collection:
-    template:
-      name: Unmanaged
-  Josey Wales Collection:
-    template:
-      name: Unmanaged
-  Journey Collection:
-    template:
-      name: Unmanaged
-  Jump Street Collection:
-    template:
-      name: Unmanaged
-  Jurassic Park Collection:
-    template:
-      name: Unmanaged
-  Justice League (Animated) Collection:
-    template:
-      name: Unmanaged
-  Kick-Ass Collection:
-    template:
-      name: Unmanaged
-  Kill Bill Collection:
-    template:
-      name: Unmanaged
-  Kindergarten Cop Collection:
-    template:
-      name: Unmanaged
-  King Kong (1933) Collection:
-    template:
-      name: Unmanaged
-  King Kong (1976) Collection:
-    template:
-      name: Unmanaged
-  Kingsman Collection:
-    template:
-      name: Unmanaged
-  Knives Out Collection:
-    template:
-      name: Unmanaged
-  Knocked Up Collection:
-    template:
-      name: Unmanaged
-  Kong Collection:
-    template:
-      name: Unmanaged
-  Legally Blonde Collection:
-    template:
-      name: Unmanaged
-  Lemmy Caution Series:
-    template:
-      name: Unmanaged
-  Lethal Weapon Collection:
-    template:
-      name: Unmanaged
-  Lew Harper Collection:
-    template:
-      name: Unmanaged
-  Lucy Collection:
-    template:
-      name: Unmanaged
-  Mad Max Collection:
-    template:
-      name: Unmanaged
-  Magic Mike Collection:
-    template:
-      name: Unmanaged
-  Major League Collection:
-    template:
-      name: Unmanaged
-  Mamma Mia! Collection:
-    template:
-      name: Unmanaged
-  Man of Steel Collection:
-    template:
-      name: Unmanaged
-  Mannequin Collection:
-    template:
-      name: Unmanaged
-  Marshal Samuel Gerard Collection:
-    template:
-      name: Unmanaged
-  The Mask Collection:
-    template:
-      name: Unmanaged
-  Matt Helm Collection:
-    template:
-      name: Unmanaged
-  The Maze Runner Collection:
-    template:
-      name: Unmanaged
-  Mean Girls Collection:
-    template:
-      name: Unmanaged
-  Meatballs Collection:
-    template:
-      name: Unmanaged
-  Meet the Parents Collection:
-    template:
-      name: Unmanaged
-  The Meg Collection:
-    template:
-      name: Unmanaged
-  Mexico Trilogy Collection:
-    template:
-      name: Unmanaged
-  Mick Travis Collection:
-    template:
-      name: Unmanaged
-  Midnight Run Collection:
-    template:
-      name: Unmanaged
-  The Millennium Collection:
-    template:
-      name: Unmanaged
-  Miss Congeniality Collection:
-    template:
-      name: Unmanaged
-  "Mission: Impossible Collection":
-    template:
-      name: Unmanaged
-  Monster X Collection:
-    template:
-      name: Unmanaged
-  Moon Collection:
-    template:
-      name: Unmanaged
-  Mortal Kombat (Reboot) Collection:
-    template:
-      name: Unmanaged
-  Mortal Kombat Legends Collection:
-    template:
-      name: Unmanaged
-  Murder Mystery Collection:
-    template:
-      name: Unmanaged
-  The Musketeers Collection:
-    template:
-      name: Unmanaged
-  Naked Gun Collection:
-    template:
-      name: Unmanaged
-  National Lampoon's Vacation Collection:
-    template:
-      name: Unmanaged
-  National Lampoon's Van Wilder Collection:
-    template:
-      name: Unmanaged
-  National Treasure Collection:
-    template:
-      name: Unmanaged
-  Neighbors Collection:
-    template:
-      name: Unmanaged
-  Nevada Smith Collection:
-    template:
-      name: Unmanaged
-  Nobody Collection:
-    template:
-      name: Unmanaged
-  Now You See Me Collection:
-    template:
-      name: Unmanaged
-  The Nutty Professor Collection:
-    template:
-      name: Unmanaged
-  The Odd Couple Collection:
-    template:
-      name: Unmanaged
-  The Old Guard Collection:
-    template:
-      name: Unmanaged
-  On Any Sunday Collection:
-    template:
-      name: Unmanaged
-  Our Man Flint Collection:
-    template:
-      name: Unmanaged
-  Oz Collection:
-    template:
-      name: Unmanaged
-  Philo & Clyde Collection:
-    template:
-      name: Unmanaged
-  The Pink Panther (Original) Collection:
-    template:
-      name: Unmanaged
-  The Pink Panther (Steve Martin) Collection:
-    template:
-      name: Unmanaged
-  Pirates of the Caribbean Collection:
-    template:
-      name: Unmanaged
-  Poison Ivy Collection:
-    template:
-      name: Unmanaged
-  The Polar Express Collection:
-    template:
-      name: Unmanaged
-  Porky's Collection:
-    template:
-      name: Unmanaged
-  The Poseidon Adventure Collection:
-    template:
-      name: Unmanaged
-  Prancer Collection:
-    template:
-      name: Unmanaged
-  Problem Child Collection:
-    template:
-      name: Unmanaged
-  Prometheus Collection:
-    template:
-      name: Unmanaged
-  The Punisher Collection:
-    template:
-      name: Unmanaged
-  Purple Rain Collection:
-    template:
-      name: Unmanaged
-  The Raid Collection:
-    template:
-      name: Unmanaged
-  Rambo Collection:
-    template:
-      name: Unmanaged
-  The Ranown Cycle Westerns Collection:
-    template:
-      name: Unmanaged
-  Ready Player One Collection:
-    template:
-      name: Unmanaged
-  Rebirth of Mothra Collection:
-    template:
-      name: Unmanaged
-  RED Collection:
-    template:
-      name: Unmanaged
-  Revenge of the Nerds Collection:
-    template:
-      name: Unmanaged
-  Road House Collection:
-    template:
-      name: Unmanaged
-  Road to... Collection:
-    template:
-      name: Unmanaged
-  Road Trip Collection:
-    template:
-      name: Unmanaged
-  The Robert Langdon Collection:
-    template:
-      name: Unmanaged
-  The Rocketeer Collection:
-    template:
-      name: Unmanaged
-  Rocky Collection:
-    template:
-      name: Unmanaged
-  Romancing the Stone Collection:
-    template:
-      name: Unmanaged
-  Romy and Michele Collection:
-    template:
-      name: Unmanaged
-  Rush Hour Collection:
-    template:
-      name: Unmanaged
-  The Rutles Collection:
-    template:
-      name: Unmanaged
-  The Santa Clause Collection:
-    template:
-      name: Unmanaged
-  Saturday Night Fever Collection:
-    template:
-      name: Unmanaged
-  Save the Last Dance Collection:
-    template:
-      name: Unmanaged
-  The Scorpion King Collection:
-    template:
-      name: Unmanaged
-  Screwballs Collection:
-    template:
-      name: Unmanaged
-  The Shadow Collection:
-    template:
-      name: Unmanaged
-  Shang-Chi Collection:
-    template:
-      name: Unmanaged
-  Shanghai Noon Collection:
-    template:
-      name: Unmanaged
-  Sharknado Collection:
-    template:
-      name: Unmanaged
-  Sherlock Holmes (Basil Rathbone) Collection:
-    template:
-      name: Unmanaged
-  Sin City Collection:
-    template:
-      name: Unmanaged
-  The Sinbad Collection:
-    template:
-      name: Unmanaged
-  Single White Female Collection:
-    template:
-      name: Unmanaged
-  Sister Act Collection:
-    template:
-      name: Unmanaged
-  The Skulls Collection:
-    template:
-      name: Unmanaged
-  Slap Shot Collection:
-    template:
-      name: Unmanaged
-  Smokey and the Bandit Collection:
-    template:
-      name: Unmanaged
-  Smokin' Aces Collection:
-    template:
-      name: Unmanaged
-  Son of Batman Collection:
-    template:
-      name: Unmanaged
-  The Space Odyssey Series:
-    template:
-      name: Unmanaged
-  Species Collection:
-    template:
-      name: Unmanaged
-  Speed Collection:
-    template:
-      name: Unmanaged
-  Spider-Man (MCU) Collection:
-    template:
-      name: Unmanaged
-  Spider-Man (TV) Collection:
-    template:
-      name: Unmanaged
-  "Spider-Man: Spider-Verse Collection":
-    template:
-      name: Unmanaged
-  Splash Collection:
-    template:
-      name: Unmanaged
-  Stakeout Collection:
-    template:
-      name: Unmanaged
-  "Star Trek: Alternate Reality Collection":
-    template:
-      name: Unmanaged
-  "Star Trek: The Next Generation Collection":
-    template:
-      name: Unmanaged
-  "Star Trek: The Original Series Collection":
-    template:
-      name: Unmanaged
-  Star Wars Collection:
-    template:
-      name: Unmanaged
-  Stargate Collection:
-    template:
-      name: Unmanaged
-  Starship Troopers Collection:
-    template:
-      name: Unmanaged
-  The Sting Collection:
-    template:
-      name: Unmanaged
-  Street Fighter (Animated) Collection:
-    template:
-      name: Unmanaged
-  Suicide Squad Collection:
-    template:
-      name: Unmanaged
-  Superman (DC Universe Animated) Collection:
-    template:
-      name: Unmanaged
-  Superman / Batman (Animated) Collection:
-    template:
-      name: Unmanaged
-  The Sword and the Sorcerer Collection:
-    template:
-      name: Unmanaged
-  Taken Collection:
-    template:
-      name: Unmanaged
-  Tarzan (Johnny Weissmuller) Collection:
-    template:
-      name: Unmanaged
-  Ted Collection:
-    template:
-      name: Unmanaged
-  Teen Titans Collection:
-    template:
-      name: Unmanaged
-  Teen Wolf Collection:
-    template:
-      name: Unmanaged
-  The Terminator Collection:
-    template:
-      name: Unmanaged
-  The Thin Man Collection:
-    template:
-      name: Unmanaged
-  This Is Spinal Tap Collection:
-    template:
-      name: Unmanaged
-  Thor Collection:
-    template:
-      name: Unmanaged
-  Tom Cody Collection:
-    template:
-      name: Unmanaged
-  The Tomorrow War (Series):
-    template:
-      name: Unmanaged
-  Tony Rome Collection:
-    template:
-      name: Unmanaged
-  Top Gun Collection:
-    template:
-      name: Unmanaged
-  Topper Collection:
-    template:
-      name: Unmanaged
-  Tracy Flick Collection:
-    template:
-      name: Unmanaged
-  Trainspotting Collection:
-    template:
-      name: Unmanaged
-  Trancers Collection:
-    template:
-      name: Unmanaged
-  "Transformers: Rise of the Beasts Collection":
-    template:
-      name: Unmanaged
-  The Transporter Collection:
-    template:
-      name: Unmanaged
-  TRON Collection:
-    template:
-      name: Unmanaged
-  Der Trottel Filmreihe:
-    template:
-      name: Unmanaged
-  Twister Collection:
-    template:
-      name: Unmanaged
-  Undercover Brother Collection:
-    template:
-      name: Unmanaged
-  Venom Collection:
-    template:
-      name: Unmanaged
-  Violent Night Collection:
-    template:
-      name: Unmanaged
-  Waiting Collection:
-    template:
-      name: Unmanaged
-  Wall Street Collection:
-    template:
-      name: Unmanaged
-  WarGames Collection:
-    template:
-      name: Unmanaged
-  The Water of the Hills Collection:
-    template:
-      name: Unmanaged
-  Wayne's World Collection:
-    template:
-      name: Unmanaged
-  Weekend at Bernie's Collection:
-    template:
-      name: Unmanaged
-  Westworld Collection:
-    template:
-      name: Unmanaged
-  The Whole Nine/Ten Yards Collection:
-    template:
-      name: Unmanaged
-  Wild Things Collection:
-    template:
-      name: Unmanaged
-  Witch Mountain Collection:
-    template:
-      name: Unmanaged
-  Without a Paddle Collection:
-    template:
-      name: Unmanaged
-  The Wolverine Collection:
-    template:
-      name: Unmanaged
-  Wonder Woman Collection:
-    template:
-      name: Unmanaged
-  The X Files Collection:
-    template:
-      name: Unmanaged
-  Young Guns Collection:
-    template:
-      name: Unmanaged
-  Zoolander Collection:
-    template:
-      name: Unmanaged
-  Zorro Collection:
-    template:
-      name: Unmanaged
+  300 Collection: *unmanaged
+  48 Hrs. Collection: *unmanaged
+  Ace Ventura Collection: *unmanaged
+  Airport Collection: *unmanaged
+  Almighty Collection: *unmanaged
+  The Amazing Spider-Man Collection: *unmanaged
+  American Pie Collection: *unmanaged
+  Analyze Collection: *unmanaged
+  Anchorman Collection: *unmanaged
+  Ant-Man Collection: *unmanaged
+  Arthur Collection: *unmanaged
+  Austin Powers Collection: *unmanaged
+  Avatar Collection: *unmanaged
+  AVP Collection: *unmanaged
+  Bachelor Party Collection: *unmanaged
+  Backdraft Collection: *unmanaged
+  Bad Moms Collection: *unmanaged
+  Bad Santa Collection: *unmanaged
+  Basic Instinct Collection: *unmanaged
+  Beach Party Collection: *unmanaged
+  The Beastmaster Collection: *unmanaged
+  Before... Collection: *unmanaged
+  Beverly Hills Cop Collection: *unmanaged
+  Big Momma's House Collection: *unmanaged
+  Bill & Ted's Most Excellent Collection: *unmanaged
+  Black Panther Collection: *unmanaged
+  Blade Collection: *unmanaged
+  The Blues Brothers Collection: *unmanaged
+  Borat Moviefilms Collection: *unmanaged
+  The Bourne Collection: *unmanaged
+  Breakin' Collection: *unmanaged
+  Butch Cassidy and the Sundance Kid Collection: *unmanaged
+  The Butterfly Effect Collection: *unmanaged
+  Caddyshack Collection: *unmanaged
+  Cannonball Run Collection: *unmanaged
+  Caprona (Amicus) Collection: *unmanaged
+  Captain America (1979) Collection: *unmanaged
+  Captain Marvel Collection: *unmanaged
+  Center Stage Collection: *unmanaged
+  The Cheerleaders Collection: *unmanaged
+  Chili Palmer Collection: *unmanaged
+  The Christmas House Collection: *unmanaged
+  The Chronicles of Riddick Collection: *unmanaged
+  City Slickers Collection: *unmanaged
+  Class of 1999 Collection: *unmanaged
+  Clerks Collection: *unmanaged
+  Cocoon Collection: *unmanaged
+  Crocodile Dundee Collection: *unmanaged
+  Crouching Tiger, Hidden Dragon Collection: *unmanaged
+  Daddy's Home Collection: *unmanaged
+  The Dark Knight Collection: *unmanaged
+  Darkman Collection: *unmanaged
+  Darko Collection: *unmanaged
+  Deadpool Collection: *unmanaged
+  Die Hard Collection: *unmanaged
+  Dirty Harry Collection: *unmanaged
+  Divergent Collection: *unmanaged
+  Django Collection: *unmanaged
+  Dr Goldfoot Collection: *unmanaged
+  Dr. Mabuse Collection: *unmanaged
+  DragonHeart Collection: *unmanaged
+  Dumb and Dumber Collection: *unmanaged
+  Eastrail 177 Collection: *unmanaged
+  The Equalizer Collection: *unmanaged
+  Eraser Filmreihe: *unmanaged
+  Escape From ... Collection: *unmanaged
+  The Expendables Collection: *unmanaged
+  Extraction Collection: *unmanaged
+  Fall Collection: *unmanaged
+  Fallen Collection: *unmanaged
+  Fantastic Beasts Collection: *unmanaged
+  The Fast and the Furious Collection: *unmanaged
+  Frankenstein (Toho) Collection: *unmanaged
+  Freeway Collection: *unmanaged
+  French Connection Collection: *unmanaged
+  The Fugitive / U.S. Marshal Collection: *unmanaged
+  Gator Collection: *unmanaged
+  Ghost Rider Collection: *unmanaged
+  The Girl - Millennium Collection: *unmanaged
+  Gladiator Collection: *unmanaged
+  The Glass House Collection: *unmanaged
+  Goon Collection: *unmanaged
+  The Gray Man Collection: *unmanaged
+  The Great Escape Collection: *unmanaged
+  Grown Ups Collection: *unmanaged
+  Grumpy Old Men Collection: *unmanaged
+  The Hangover Collection: *unmanaged
+  Happy Gilmore Collection: *unmanaged
+  Harold & Kumar Collection: *unmanaged
+  Harry Potter Collection: *unmanaged
+  Has Fallen Collection: *unmanaged
+  Heat Collection: *unmanaged
+  Heavy Metal Collection: *unmanaged
+  Highlander Collection: *unmanaged
+  The Hitman's Bodyguard Collection: *unmanaged
+  The Hobbit Collection: *unmanaged
+  Hocus Pocus Collection: *unmanaged
+  Horrible Bosses Collection: *unmanaged
+  Hot Shots! Collection: *unmanaged
+  The Huntsman Collection: *unmanaged
+  The Hustler Collection: *unmanaged
+  Independence Day Collection: *unmanaged
+  Inside Man Collection: *unmanaged
+  Iron Man Collection: *unmanaged
+  Jack Reacher Collection: *unmanaged
+  The Jack Ryan Collection: *unmanaged
+  The Jake Gittes Collection: *unmanaged
+  Jingle All the Way Collection: *unmanaged
+  Joe Dirt Collection: *unmanaged
+  John Bronco Collection: *unmanaged
+  John Wick Collection: *unmanaged
+  Joker Collection: *unmanaged
+  Josey Wales Collection: *unmanaged
+  Journey Collection: *unmanaged
+  Jump Street Collection: *unmanaged
+  Jurassic Park Collection: *unmanaged
+  Justice League (Animated) Collection: *unmanaged
+  Kick-Ass Collection: *unmanaged
+  Kill Bill Collection: *unmanaged
+  Kindergarten Cop Collection: *unmanaged
+  King Kong (1933) Collection: *unmanaged
+  King Kong (1976) Collection: *unmanaged
+  Kingsman Collection: *unmanaged
+  Knives Out Collection: *unmanaged
+  Knocked Up Collection: *unmanaged
+  Kong Collection: *unmanaged
+  Legally Blonde Collection: *unmanaged
+  Lemmy Caution Series: *unmanaged
+  Lethal Weapon Collection: *unmanaged
+  Lew Harper Collection: *unmanaged
+  Lucy Collection: *unmanaged
+  Mad Max Collection: *unmanaged
+  Magic Mike Collection: *unmanaged
+  Major League Collection: *unmanaged
+  Mamma Mia! Collection: *unmanaged
+  Man of Steel Collection: *unmanaged
+  The Man With No Name Collection: *unmanaged
+  Mannequin Collection: *unmanaged
+  Marshal Samuel Gerard Collection: *unmanaged
+  The Mask Collection: *unmanaged
+  Matt Helm Collection: *unmanaged
+  The Maze Runner Collection: *unmanaged
+  Mean Girls Collection: *unmanaged
+  Meatballs Collection: *unmanaged
+  Meet the Parents Collection: *unmanaged
+  The Meg Collection: *unmanaged
+  Mexico Trilogy Collection: *unmanaged
+  Mick Travis Collection: *unmanaged
+  Midnight Run Collection: *unmanaged
+  The Millennium Collection: *unmanaged
+  Miss Congeniality Collection: *unmanaged
+  "Mission: Impossible Collection": *unmanaged
+  Monster X Collection: *unmanaged
+  Moon Collection: *unmanaged
+  Mortal Kombat (Reboot) Collection: *unmanaged
+  Mortal Kombat Legends Collection: *unmanaged
+  Mr. Ripley Collection: *unmanaged
+  Murder Mystery Collection: *unmanaged
+  The Musketeers Collection: *unmanaged
+  Naked Gun Collection: *unmanaged
+  National Lampoon's Vacation Collection: *unmanaged
+  National Lampoon's Van Wilder Collection: *unmanaged
+  National Treasure Collection: *unmanaged
+  Neighbors Collection: *unmanaged
+  Nevada Smith Collection: *unmanaged
+  Nobody Collection: *unmanaged
+  Now You See Me Collection: *unmanaged
+  The Nutty Professor Collection: *unmanaged
+  The Odd Couple Collection: *unmanaged
+  The Old Guard Collection: *unmanaged
+  On Any Sunday Collection: *unmanaged
+  Our Man Flint Collection: *unmanaged
+  Oz Collection: *unmanaged
+  Philo & Clyde Collection: *unmanaged
+  The Pink Panther (Original) Collection: *unmanaged
+  The Pink Panther (Steve Martin) Collection: *unmanaged
+  Pirates of the Caribbean Collection: *unmanaged
+  Poison Ivy Collection: *unmanaged
+  The Polar Express Collection: *unmanaged
+  Porky's Collection: *unmanaged
+  The Poseidon Adventure Collection: *unmanaged
+  Prancer Collection: *unmanaged
+  Problem Child Collection: *unmanaged
+  Prometheus Collection: *unmanaged
+  The Punisher Collection: *unmanaged
+  Purple Rain Collection: *unmanaged
+  The Raid Collection: *unmanaged
+  Rambo Collection: *unmanaged
+  The Ranown Cycle Westerns Collection: *unmanaged
+  Ready Player One Collection: *unmanaged
+  Rebirth of Mothra Collection: *unmanaged
+  RED Collection: *unmanaged
+  Revenge of the Nerds Collection: *unmanaged
+  Road House Collection: *unmanaged
+  Road to... Collection: *unmanaged
+  Road Trip Collection: *unmanaged
+  The Robert Langdon Collection: *unmanaged
+  The Rocketeer Collection: *unmanaged
+  Rocky Collection: *unmanaged
+  Romancing the Stone Collection: *unmanaged
+  Romy and Michele Collection: *unmanaged
+  Rudolph the Red-Nosed Reindeer Collection: *unmanaged
+  Rush Hour Collection: *unmanaged
+  The Rutles Collection: *unmanaged
+  The Santa Clause Collection: *unmanaged
+  Saturday Night Fever Collection: *unmanaged
+  Save the Last Dance Collection: *unmanaged
+  The Scorpion King Collection: *unmanaged
+  Screwballs Collection: *unmanaged
+  The Shadow Collection: *unmanaged
+  Shang-Chi Collection: *unmanaged
+  Shanghai Noon Collection: *unmanaged
+  Sharknado Collection: *unmanaged
+  Sherlock Holmes (Basil Rathbone) Collection: *unmanaged
+  Sin City Collection: *unmanaged
+  The Sinbad Collection: *unmanaged
+  Single White Female Collection: *unmanaged
+  Sister Act Collection: *unmanaged
+  The Skulls Collection: *unmanaged
+  Slap Shot Collection: *unmanaged
+  Smokey and the Bandit Collection: *unmanaged
+  Smokin' Aces Collection: *unmanaged
+  Son of Batman Collection: *unmanaged
+  The Space Odyssey Series: *unmanaged
+  Species Collection: *unmanaged
+  Speed Collection: *unmanaged
+  Spider-Man (MCU) Collection: *unmanaged
+  Spider-Man (TV) Collection: *unmanaged
+  "Spider-Man: Spider-Verse Collection": *unmanaged
+  Splash Collection: *unmanaged
+  Stakeout Collection: *unmanaged
+  "Star Trek: Alternate Reality Collection": *unmanaged
+  "Star Trek: The Next Generation Collection": *unmanaged
+  "Star Trek: The Original Series Collection": *unmanaged
+  Star Wars Collection: *unmanaged
+  Stargate Collection: *unmanaged
+  Starship Troopers Collection: *unmanaged
+  The Sting Collection: *unmanaged
+  Street Fighter (Animated) Collection: *unmanaged
+  Suicide Squad Collection: *unmanaged
+  Superman (DC Universe Animated) Collection: *unmanaged
+  Superman / Batman (Animated) Collection: *unmanaged
+  The Sword and the Sorcerer Collection: *unmanaged
+  Taken Collection: *unmanaged
+  Tarzan (Johnny Weissmuller) Collection: *unmanaged
+  Ted Collection: *unmanaged
+  Teen Titans Collection: *unmanaged
+  Teen Wolf Collection: *unmanaged
+  The Terminator Collection: *unmanaged
+  The Thin Man Collection: *unmanaged
+  This Is Spinal Tap Collection: *unmanaged
+  Thor Collection: *unmanaged
+  Tom Cody Collection: *unmanaged
+  The Tomorrow War (Series): *unmanaged
+  Tony Rome Collection: *unmanaged
+  Top Gun Collection: *unmanaged
+  Topper Collection: *unmanaged
+  Total Recall Collection: *unmanaged
+  Tracy Flick Collection: *unmanaged
+  Trainspotting Collection: *unmanaged
+  Trancers Collection: *unmanaged
+  "Transformers: Rise of the Beasts Collection": *unmanaged
+  The Transporter Collection: *unmanaged
+  TRON Collection: *unmanaged
+  Der Trottel Filmreihe: *unmanaged
+  Twister Collection: *unmanaged
+  Undercover Brother Collection: *unmanaged
+  Venom Collection: *unmanaged
+  Violent Night Collection: *unmanaged
+  Waiting Collection: *unmanaged
+  Wall Street Collection: *unmanaged
+  War of the Worlds Collection: *unmanaged
+  WarGames Collection: *unmanaged
+  The Water of the Hills Collection: *unmanaged
+  Wayne's World Collection: *unmanaged
+  Weekend at Bernie's Collection: *unmanaged
+  Westworld Collection: *unmanaged
+  The Whole Nine/Ten Yards Collection: *unmanaged
+  Wild Things Collection: *unmanaged
+  Witch Mountain Collection: *unmanaged
+  The Witches Collection: *unmanaged
+  Without a Paddle Collection: *unmanaged
+  The Wolverine Collection: *unmanaged
+  Wonder Woman Collection: *unmanaged
+  Young Guns Collection: *unmanaged
+  Zoolander Collection: *unmanaged
+  Zorro Collection: *unmanaged
 
   ######################################################
   #                Delete Collections                  #
@@ -1607,4 +1081,12 @@ collections:
 
   Delete:
     delete_collections_named:
+      - Batman Ninja Collection
+      - Beavis and Butt-Head Do A Collection
+      - Bring It On Collection
       - Justice League (Animated) Collection
+      - The Godfather Trilogy
+      - Hercule Poirot (Peter Ustinov) Collection
+      - Justice League (Tomorrowverse) Collection
+      - Planet of the Apes (Original) Collection
+      - The X Files Collection

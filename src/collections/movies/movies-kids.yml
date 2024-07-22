@@ -29,8 +29,9 @@ collections:
       movie: 9973
   Aladdin Collection:
     template:
-      name: Collection
-      collection: 86027, 748401
+      name: Collection - Movie
+      collection: 86027
+      movie: 420817
       summary: A diamond in the rough.
   Alice in Wonderland Collection:
     template:
@@ -166,10 +167,10 @@ collections:
       name: Collection - Movie
       collection:
         - 1125292
-        - 16084
       movie:
         - 196257
         - 505904
+        - 16084
       summary: Mondays are manic. Wednesdays are wild. And Fridays are about to get a little freaky.
   Frozen Collection:
     template:
@@ -574,7 +575,6 @@ collections:
       name: Collection - Trakt List Custom Order
       list: winnie-the-pooh-collection
       summary: Hip Hip Poohray!
-    sync_to_trakt_list:
   The Wizard of Oz Collection:
     template:
       name: Collection - Trakt List Custom Order

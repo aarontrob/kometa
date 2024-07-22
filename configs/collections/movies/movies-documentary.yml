@@ -123,6 +123,9 @@ templates:
   Unmanaged:
     label: Unmanaged
     blank_collection: true
+unmanaged: &ref_0
+  template:
+    name: Unmanaged
 collections:
   Alien Collection:
     template:
@@ -359,6 +362,4 @@ collections:
         tomorrow. I don't want to get in trouble... Cause you haven't taken a
         shower once yet this summer... Arty, take a shower. You're covered in
         dirt.
-  In Search of Darkness Collection:
-    template:
-      name: Unmanaged
+  In Search of Darkness Collection: *ref_0

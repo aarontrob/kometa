@@ -9,6 +9,14 @@ templates: !!import/shallow
   - ../../templates/unmanaged.yml
 
 ######################################################
+#                    Variables                       #
+######################################################
+
+unmanaged: &unmanaged
+  template:
+    name: Unmanaged
+
+######################################################
 #                   Collections                      #
 ######################################################
 
@@ -209,6 +217,4 @@ collections:
   #               Unmanaged Collections                #
   ######################################################
 
-  In Search of Darkness Collection:
-    template:
-      name: Unmanaged
+  In Search of Darkness Collection: *unmanaged
