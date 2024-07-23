@@ -1188,7 +1188,6 @@ collections:
   Kindergarten Cop Collection: *ref_0
   Kingsman Collection: *ref_0
   Knives Out Collection: *ref_0
-  Knocked Up Collection: *ref_0
   Legally Blonde Collection: *ref_0
   Lethal Weapon Collection: *ref_0
   Lew Harper Collection: *ref_0
@@ -1223,7 +1222,6 @@ collections:
   Now You See Me Collection: *ref_0
   The Nutty Professor Collection: *ref_0
   The Odd Couple Collection: *ref_0
-  On Any Sunday Collection: *ref_0
   Our Man Flint Collection: *ref_0
   Philo & Clyde Collection: *ref_0
   Pirates of the Caribbean Collection: *ref_0
@@ -1266,7 +1264,6 @@ collections:
   Speed Collection: *ref_0
   Splash Collection: *ref_0
   Stakeout Collection: *ref_0
-  Star Wars Collection: *ref_0
   Stargate Collection: *ref_0
   Starship Troopers Collection: *ref_0
   The Sting Collection: *ref_0
@@ -1331,6 +1328,7 @@ collections:
       - Justice League (Tomorrowverse) Collection
       - King Kong (1933) Collection
       - King Kong (1976) Collection
+      - Knocked Up Collection
       - Kong Collection
       - Lemmy Caution Series
       - Lucy Collection
@@ -1341,6 +1339,7 @@ collections:
       - Mortal Kombat Legends Collection
       - Nobody Collection
       - The Old Guard Collection
+      - On Any Sunday Collection
       - Oz Collection
       - The Pink Panther (Original) Collection
       - The Pink Panther (Steve Martin) Collection
@@ -1361,6 +1360,7 @@ collections:
       - 'Star Trek: Alternate Reality Collection'
       - 'Star Trek: The Next Generation Collection'
       - 'Star Trek: The Original Series Collection'
+      - Star Wars Collection
       - Street Fighter (Animated) Collection
       - Superman (DC Universe Animated) Collection
       - Superman / Batman (Animated) Collection
