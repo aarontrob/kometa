@@ -377,6 +377,11 @@ collections:
       name: Collection - Movies
       movie: '923597, 9268'
       summary: He will erase your past to protect your future.
+  Fallen Collection:
+    template:
+      name: Collection
+      collection: 386534
+      summary: We are never stronger than when we are tested.
   Family Guy Collection:
     template:
       name: Collection
@@ -427,6 +432,11 @@ collections:
       name: Collection - Hide Movie
       movie: 5503
       sort_title: Fugitive Collection
+  The Fugitive / U.S. Marshal Collection:
+    template:
+      name: Collection
+      collection: 721111
+      summary: The chase begins
   G.I. Joe Collection:
     template:
       name: Collection - Movie
@@ -828,6 +838,12 @@ collections:
       summary: >-
         The new police recruits. Call them slobs. Call them jerks. Call them
         gross. ...Just don't call them when you're in trouble.
+  The Poseidon Adventure Collection:
+    template:
+      name: Collection - Movie
+      collection: 372257
+      movie: '28512, 503'
+      summary: 'Hell, Upside Down'
   Predator Collection:
     template:
       name: Collection
@@ -849,6 +865,13 @@ collections:
       summary: >-
         They Might Not Be The Best...But They're The Best We Got.They Might Not
         Be The Best...But They're The Best We Got.
+  Road House Collection:
+    template:
+      name: Collection
+      collection:
+        - 359410
+        - 224976
+      summary: Take it outside.
   RoboCop Collection:
     template:
       name: Collection - Movie
@@ -1063,7 +1086,6 @@ collections:
   Ace Ventura Collection: *ref_0
   Airport Collection: *ref_0
   Almighty Collection: *ref_0
-  The Amazing Spider-Man Collection: *ref_0
   American Pie Collection: *ref_0
   Analyze Collection: *ref_0
   Anchorman Collection: *ref_0
@@ -1094,7 +1116,6 @@ collections:
   Caddyshack Collection: *ref_0
   Cannonball Run Collection: *ref_0
   Caprona (Amicus) Collection: *ref_0
-  Captain America (1979) Collection: *ref_0
   Captain Marvel Collection: *ref_0
   Center Stage Collection: *ref_0
   The Cheerleaders Collection: *ref_0
@@ -1103,7 +1124,6 @@ collections:
   The Chronicles of Riddick Collection: *ref_0
   City Slickers Collection: *ref_0
   Class of 1999 Collection: *ref_0
-  Clerks Collection: *ref_0
   Cocoon Collection: *ref_0
   Crocodile Dundee Collection: *ref_0
   'Crouching Tiger, Hidden Dragon Collection': *ref_0
@@ -1122,34 +1142,25 @@ collections:
   Dumb and Dumber Collection: *ref_0
   Eastrail 177 Collection: *ref_0
   The Equalizer Collection: *ref_0
-  Eraser Filmreihe: *ref_0
   Escape From ... Collection: *ref_0
   The Expendables Collection: *ref_0
   Extraction Collection: *ref_0
-  Fall Collection: *ref_0
-  Fallen Collection: *ref_0
   Fantastic Beasts Collection: *ref_0
   The Fast and the Furious Collection: *ref_0
   Frankenstein (Toho) Collection: *ref_0
   Freeway Collection: *ref_0
   French Connection Collection: *ref_0
-  The Fugitive / U.S. Marshal Collection: *ref_0
   Gator Collection: *ref_0
   Ghost Rider Collection: *ref_0
   The Girl - Millennium Collection: *ref_0
-  Gladiator Collection: *ref_0
   The Glass House Collection: *ref_0
   Goon Collection: *ref_0
-  The Gray Man Collection: *ref_0
   The Great Escape Collection: *ref_0
   Grown Ups Collection: *ref_0
   Grumpy Old Men Collection: *ref_0
   The Hangover Collection: *ref_0
-  Happy Gilmore Collection: *ref_0
   Harold & Kumar Collection: *ref_0
   Harry Potter Collection: *ref_0
-  Has Fallen Collection: *ref_0
-  Heat Collection: *ref_0
   Heavy Metal Collection: *ref_0
   Highlander Collection: *ref_0
   The Hitman's Bodyguard Collection: *ref_0
@@ -1160,12 +1171,10 @@ collections:
   The Huntsman Collection: *ref_0
   The Hustler Collection: *ref_0
   Independence Day Collection: *ref_0
-  Inside Man Collection: *ref_0
   Iron Man Collection: *ref_0
   Jack Reacher Collection: *ref_0
   The Jack Ryan Collection: *ref_0
   The Jake Gittes Collection: *ref_0
-  Jingle All the Way Collection: *ref_0
   Joe Dirt Collection: *ref_0
   John Bronco Collection: *ref_0
   John Wick Collection: *ref_0
@@ -1174,28 +1183,20 @@ collections:
   Journey Collection: *ref_0
   Jump Street Collection: *ref_0
   Jurassic Park Collection: *ref_0
-  Justice League (Animated) Collection: *ref_0
   Kick-Ass Collection: *ref_0
   Kill Bill Collection: *ref_0
   Kindergarten Cop Collection: *ref_0
-  King Kong (1933) Collection: *ref_0
-  King Kong (1976) Collection: *ref_0
   Kingsman Collection: *ref_0
   Knives Out Collection: *ref_0
   Knocked Up Collection: *ref_0
-  Kong Collection: *ref_0
   Legally Blonde Collection: *ref_0
-  Lemmy Caution Series: *ref_0
   Lethal Weapon Collection: *ref_0
   Lew Harper Collection: *ref_0
-  Lucy Collection: *ref_0
   Mad Max Collection: *ref_0
   Magic Mike Collection: *ref_0
   Major League Collection: *ref_0
   Mamma Mia! Collection: *ref_0
-  Man of Steel Collection: *ref_0
   Mannequin Collection: *ref_0
-  Marshal Samuel Gerard Collection: *ref_0
   The Mask Collection: *ref_0
   Matt Helm Collection: *ref_0
   The Maze Runner Collection: *ref_0
@@ -1209,10 +1210,7 @@ collections:
   The Millennium Collection: *ref_0
   Miss Congeniality Collection: *ref_0
   'Mission: Impossible Collection': *ref_0
-  Monster X Collection: *ref_0
   Moon Collection: *ref_0
-  Mortal Kombat (Reboot) Collection: *ref_0
-  Mortal Kombat Legends Collection: *ref_0
   Mr. Ripley Collection: *ref_0
   Murder Mystery Collection: *ref_0
   The Musketeers Collection: *ref_0
@@ -1222,39 +1220,25 @@ collections:
   National Treasure Collection: *ref_0
   Neighbors Collection: *ref_0
   Nevada Smith Collection: *ref_0
-  Nobody Collection: *ref_0
   Now You See Me Collection: *ref_0
   The Nutty Professor Collection: *ref_0
   The Odd Couple Collection: *ref_0
-  The Old Guard Collection: *ref_0
   On Any Sunday Collection: *ref_0
   Our Man Flint Collection: *ref_0
-  Oz Collection: *ref_0
   Philo & Clyde Collection: *ref_0
-  The Pink Panther (Original) Collection: *ref_0
-  The Pink Panther (Steve Martin) Collection: *ref_0
   Pirates of the Caribbean Collection: *ref_0
   Poison Ivy Collection: *ref_0
-  The Polar Express Collection: *ref_0
   Porky's Collection: *ref_0
-  The Poseidon Adventure Collection: *ref_0
   Prancer Collection: *ref_0
   Problem Child Collection: *ref_0
-  Prometheus Collection: *ref_0
   The Punisher Collection: *ref_0
-  Purple Rain Collection: *ref_0
   The Raid Collection: *ref_0
   Rambo Collection: *ref_0
-  The Ranown Cycle Westerns Collection: *ref_0
-  Ready Player One Collection: *ref_0
-  Rebirth of Mothra Collection: *ref_0
   RED Collection: *ref_0
   Revenge of the Nerds Collection: *ref_0
-  Road House Collection: *ref_0
   Road to... Collection: *ref_0
   Road Trip Collection: *ref_0
   The Robert Langdon Collection: *ref_0
-  The Rocketeer Collection: *ref_0
   Rocky Collection: *ref_0
   Romancing the Stone Collection: *ref_0
   Romy and Michele Collection: *ref_0
@@ -1270,38 +1254,25 @@ collections:
   Shang-Chi Collection: *ref_0
   Shanghai Noon Collection: *ref_0
   Sharknado Collection: *ref_0
-  Sherlock Holmes (Basil Rathbone) Collection: *ref_0
   Sin City Collection: *ref_0
-  The Sinbad Collection: *ref_0
   Single White Female Collection: *ref_0
   Sister Act Collection: *ref_0
   The Skulls Collection: *ref_0
   Slap Shot Collection: *ref_0
   Smokey and the Bandit Collection: *ref_0
   Smokin' Aces Collection: *ref_0
-  Son of Batman Collection: *ref_0
   The Space Odyssey Series: *ref_0
   Species Collection: *ref_0
   Speed Collection: *ref_0
-  Spider-Man (MCU) Collection: *ref_0
-  Spider-Man (TV) Collection: *ref_0
-  'Spider-Man: Spider-Verse Collection': *ref_0
   Splash Collection: *ref_0
   Stakeout Collection: *ref_0
-  'Star Trek: Alternate Reality Collection': *ref_0
-  'Star Trek: The Next Generation Collection': *ref_0
-  'Star Trek: The Original Series Collection': *ref_0
   Star Wars Collection: *ref_0
   Stargate Collection: *ref_0
   Starship Troopers Collection: *ref_0
   The Sting Collection: *ref_0
-  Street Fighter (Animated) Collection: *ref_0
   Suicide Squad Collection: *ref_0
-  Superman (DC Universe Animated) Collection: *ref_0
-  Superman / Batman (Animated) Collection: *ref_0
   The Sword and the Sorcerer Collection: *ref_0
   Taken Collection: *ref_0
-  Tarzan (Johnny Weissmuller) Collection: *ref_0
   Ted Collection: *ref_0
   Teen Titans Collection: *ref_0
   Teen Wolf Collection: *ref_0
@@ -1310,20 +1281,15 @@ collections:
   This Is Spinal Tap Collection: *ref_0
   Thor Collection: *ref_0
   Tom Cody Collection: *ref_0
-  The Tomorrow War (Series): *ref_0
   Tony Rome Collection: *ref_0
   Top Gun Collection: *ref_0
   Topper Collection: *ref_0
   Total Recall Collection: *ref_0
-  Tracy Flick Collection: *ref_0
   Trainspotting Collection: *ref_0
   Trancers Collection: *ref_0
-  'Transformers: Rise of the Beasts Collection': *ref_0
   The Transporter Collection: *ref_0
   TRON Collection: *ref_0
-  Der Trottel Filmreihe: *ref_0
   Twister Collection: *ref_0
-  Undercover Brother Collection: *ref_0
   Venom Collection: *ref_0
   Violent Night Collection: *ref_0
   Waiting Collection: *ref_0
@@ -1336,9 +1302,7 @@ collections:
   Westworld Collection: *ref_0
   The Whole Nine/Ten Yards Collection: *ref_0
   Wild Things Collection: *ref_0
-  Witch Mountain Collection: *ref_0
   The Witches Collection: *ref_0
-  Without a Paddle Collection: *ref_0
   The Wolverine Collection: *ref_0
   Wonder Woman Collection: *ref_0
   Young Guns Collection: *ref_0
@@ -1346,12 +1310,64 @@ collections:
   Zorro Collection: *ref_0
   Delete:
     delete_collections_named:
+      - The Amazing Spider-Man Collection
       - Batman Ninja Collection
       - Beavis and Butt-Head Do A Collection
       - Bring It On Collection
-      - Justice League (Animated) Collection
+      - Captain America (1979) Collection
+      - Der Trottel Filmreihe
+      - Eraser Filmreihe
+      - Fall Collection
       - The Godfather Trilogy
+      - Gladiator Collection
+      - The Gray Man Collection
+      - Happy Gilmore Collection
+      - Has Fallen Collection
+      - Heat Collection
       - Hercule Poirot (Peter Ustinov) Collection
+      - Inside Man Collection
+      - Jingle All the Way Collection
+      - Justice League (Animated) Collection
       - Justice League (Tomorrowverse) Collection
+      - King Kong (1933) Collection
+      - King Kong (1976) Collection
+      - Kong Collection
+      - Lemmy Caution Series
+      - Lucy Collection
+      - Man of Steel Collection
+      - Marshal Samuel Gerard Collection
+      - Monster X Collection
+      - Mortal Kombat (Reboot) Collection
+      - Mortal Kombat Legends Collection
+      - Nobody Collection
+      - The Old Guard Collection
+      - Oz Collection
+      - The Pink Panther (Original) Collection
+      - The Pink Panther (Steve Martin) Collection
       - Planet of the Apes (Original) Collection
+      - The Polar Express Collection
+      - Prometheus Collection
+      - Purple Rain Collection
+      - The Ranown Cycle Westerns Collection
+      - Ready Player One Collection
+      - Rebirth of Mothra Collection
+      - The Rocketeer Collection
+      - Sherlock Holmes (Basil Rathbone) Collection
+      - The Sinbad Collection
+      - Son of Batman Collection
+      - Spider-Man (TV) Collection
+      - Spider-Man (MCU) Collection
+      - 'Spider-Man: Spider-Verse Collection'
+      - 'Star Trek: Alternate Reality Collection'
+      - 'Star Trek: The Next Generation Collection'
+      - 'Star Trek: The Original Series Collection'
+      - Street Fighter (Animated) Collection
+      - Superman (DC Universe Animated) Collection
+      - Superman / Batman (Animated) Collection
+      - Tarzan (Johnny Weissmuller) Collection
+      - The Tomorrow War (Series)
+      - Tracy Flick Collection
+      - 'Transformers: Rise of the Beasts Collection'
+      - Undercover Brother Collection
+      - Without a Paddle Collection
       - The X Files Collection

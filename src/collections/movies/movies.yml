@@ -220,6 +220,11 @@ collections:
       name: Collection - Movies
       movie: 923597, 9268
       summary: He will erase your past to protect your future.
+  Fallen Collection:
+    template:
+      name: Collection
+      collection: 386534
+      summary: We are never stronger than when we are tested.
   Family Guy Collection:
     template:
       name: Collection
@@ -262,6 +267,11 @@ collections:
       name: Collection - Hide Movie
       movie: 5503
       sort_title: Fugitive Collection
+  The Fugitive / U.S. Marshal Collection:
+    template:
+      name: Collection
+      collection: 721111
+      summary: The chase begins
   G.I. Joe Collection:
     template:
       name: Collection - Movie
@@ -587,6 +597,12 @@ collections:
       name: Collection
       collection: 9338
       summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
+  The Poseidon Adventure Collection:
+    template:
+      name: Collection - Movie
+      collection: 372257
+      movie: 28512, 503
+      summary: Hell, Upside Down
   Predator Collection:
     template:
       name: Collection
@@ -603,6 +619,13 @@ collections:
       name: Collection - Movies
       movie: 10090, 899599
       summary: They Might Not Be The Best...But They're The Best We Got.They Might Not Be The Best...But They're The Best We Got.
+  Road House Collection:
+    template:
+      name: Collection
+      collection:
+        - 359410
+        - 224976
+      summary: Take it outside.
   RoboCop Collection:
     template:
       name: Collection - Movie
@@ -797,7 +820,6 @@ collections:
   Ace Ventura Collection: *unmanaged
   Airport Collection: *unmanaged
   Almighty Collection: *unmanaged
-  The Amazing Spider-Man Collection: *unmanaged
   American Pie Collection: *unmanaged
   Analyze Collection: *unmanaged
   Anchorman Collection: *unmanaged
@@ -828,7 +850,6 @@ collections:
   Caddyshack Collection: *unmanaged
   Cannonball Run Collection: *unmanaged
   Caprona (Amicus) Collection: *unmanaged
-  Captain America (1979) Collection: *unmanaged
   Captain Marvel Collection: *unmanaged
   Center Stage Collection: *unmanaged
   The Cheerleaders Collection: *unmanaged
@@ -837,7 +858,6 @@ collections:
   The Chronicles of Riddick Collection: *unmanaged
   City Slickers Collection: *unmanaged
   Class of 1999 Collection: *unmanaged
-  Clerks Collection: *unmanaged
   Cocoon Collection: *unmanaged
   Crocodile Dundee Collection: *unmanaged
   Crouching Tiger, Hidden Dragon Collection: *unmanaged
@@ -856,34 +876,25 @@ collections:
   Dumb and Dumber Collection: *unmanaged
   Eastrail 177 Collection: *unmanaged
   The Equalizer Collection: *unmanaged
-  Eraser Filmreihe: *unmanaged
   Escape From ... Collection: *unmanaged
   The Expendables Collection: *unmanaged
   Extraction Collection: *unmanaged
-  Fall Collection: *unmanaged
-  Fallen Collection: *unmanaged
   Fantastic Beasts Collection: *unmanaged
   The Fast and the Furious Collection: *unmanaged
   Frankenstein (Toho) Collection: *unmanaged
   Freeway Collection: *unmanaged
   French Connection Collection: *unmanaged
-  The Fugitive / U.S. Marshal Collection: *unmanaged
   Gator Collection: *unmanaged
   Ghost Rider Collection: *unmanaged
   The Girl - Millennium Collection: *unmanaged
-  Gladiator Collection: *unmanaged
   The Glass House Collection: *unmanaged
   Goon Collection: *unmanaged
-  The Gray Man Collection: *unmanaged
   The Great Escape Collection: *unmanaged
   Grown Ups Collection: *unmanaged
   Grumpy Old Men Collection: *unmanaged
   The Hangover Collection: *unmanaged
-  Happy Gilmore Collection: *unmanaged
   Harold & Kumar Collection: *unmanaged
   Harry Potter Collection: *unmanaged
-  Has Fallen Collection: *unmanaged
-  Heat Collection: *unmanaged
   Heavy Metal Collection: *unmanaged
   Highlander Collection: *unmanaged
   The Hitman's Bodyguard Collection: *unmanaged
@@ -894,12 +905,10 @@ collections:
   The Huntsman Collection: *unmanaged
   The Hustler Collection: *unmanaged
   Independence Day Collection: *unmanaged
-  Inside Man Collection: *unmanaged
   Iron Man Collection: *unmanaged
   Jack Reacher Collection: *unmanaged
   The Jack Ryan Collection: *unmanaged
   The Jake Gittes Collection: *unmanaged
-  Jingle All the Way Collection: *unmanaged
   Joe Dirt Collection: *unmanaged
   John Bronco Collection: *unmanaged
   John Wick Collection: *unmanaged
@@ -908,28 +917,20 @@ collections:
   Journey Collection: *unmanaged
   Jump Street Collection: *unmanaged
   Jurassic Park Collection: *unmanaged
-  Justice League (Animated) Collection: *unmanaged
   Kick-Ass Collection: *unmanaged
   Kill Bill Collection: *unmanaged
   Kindergarten Cop Collection: *unmanaged
-  King Kong (1933) Collection: *unmanaged
-  King Kong (1976) Collection: *unmanaged
   Kingsman Collection: *unmanaged
   Knives Out Collection: *unmanaged
   Knocked Up Collection: *unmanaged
-  Kong Collection: *unmanaged
   Legally Blonde Collection: *unmanaged
-  Lemmy Caution Series: *unmanaged
   Lethal Weapon Collection: *unmanaged
   Lew Harper Collection: *unmanaged
-  Lucy Collection: *unmanaged
   Mad Max Collection: *unmanaged
   Magic Mike Collection: *unmanaged
   Major League Collection: *unmanaged
   Mamma Mia! Collection: *unmanaged
-  Man of Steel Collection: *unmanaged
   Mannequin Collection: *unmanaged
-  Marshal Samuel Gerard Collection: *unmanaged
   The Mask Collection: *unmanaged
   Matt Helm Collection: *unmanaged
   The Maze Runner Collection: *unmanaged
@@ -943,10 +944,7 @@ collections:
   The Millennium Collection: *unmanaged
   Miss Congeniality Collection: *unmanaged
   "Mission: Impossible Collection": *unmanaged
-  Monster X Collection: *unmanaged
   Moon Collection: *unmanaged
-  Mortal Kombat (Reboot) Collection: *unmanaged
-  Mortal Kombat Legends Collection: *unmanaged
   Mr. Ripley Collection: *unmanaged
   Murder Mystery Collection: *unmanaged
   The Musketeers Collection: *unmanaged
@@ -956,39 +954,25 @@ collections:
   National Treasure Collection: *unmanaged
   Neighbors Collection: *unmanaged
   Nevada Smith Collection: *unmanaged
-  Nobody Collection: *unmanaged
   Now You See Me Collection: *unmanaged
   The Nutty Professor Collection: *unmanaged
   The Odd Couple Collection: *unmanaged
-  The Old Guard Collection: *unmanaged
   On Any Sunday Collection: *unmanaged
   Our Man Flint Collection: *unmanaged
-  Oz Collection: *unmanaged
   Philo & Clyde Collection: *unmanaged
-  The Pink Panther (Original) Collection: *unmanaged
-  The Pink Panther (Steve Martin) Collection: *unmanaged
   Pirates of the Caribbean Collection: *unmanaged
   Poison Ivy Collection: *unmanaged
-  The Polar Express Collection: *unmanaged
   Porky's Collection: *unmanaged
-  The Poseidon Adventure Collection: *unmanaged
   Prancer Collection: *unmanaged
   Problem Child Collection: *unmanaged
-  Prometheus Collection: *unmanaged
   The Punisher Collection: *unmanaged
-  Purple Rain Collection: *unmanaged
   The Raid Collection: *unmanaged
   Rambo Collection: *unmanaged
-  The Ranown Cycle Westerns Collection: *unmanaged
-  Ready Player One Collection: *unmanaged
-  Rebirth of Mothra Collection: *unmanaged
   RED Collection: *unmanaged
   Revenge of the Nerds Collection: *unmanaged
-  Road House Collection: *unmanaged
   Road to... Collection: *unmanaged
   Road Trip Collection: *unmanaged
   The Robert Langdon Collection: *unmanaged
-  The Rocketeer Collection: *unmanaged
   Rocky Collection: *unmanaged
   Romancing the Stone Collection: *unmanaged
   Romy and Michele Collection: *unmanaged
@@ -1004,38 +988,25 @@ collections:
   Shang-Chi Collection: *unmanaged
   Shanghai Noon Collection: *unmanaged
   Sharknado Collection: *unmanaged
-  Sherlock Holmes (Basil Rathbone) Collection: *unmanaged
   Sin City Collection: *unmanaged
-  The Sinbad Collection: *unmanaged
   Single White Female Collection: *unmanaged
   Sister Act Collection: *unmanaged
   The Skulls Collection: *unmanaged
   Slap Shot Collection: *unmanaged
   Smokey and the Bandit Collection: *unmanaged
   Smokin' Aces Collection: *unmanaged
-  Son of Batman Collection: *unmanaged
   The Space Odyssey Series: *unmanaged
   Species Collection: *unmanaged
   Speed Collection: *unmanaged
-  Spider-Man (MCU) Collection: *unmanaged
-  Spider-Man (TV) Collection: *unmanaged
-  "Spider-Man: Spider-Verse Collection": *unmanaged
   Splash Collection: *unmanaged
   Stakeout Collection: *unmanaged
-  "Star Trek: Alternate Reality Collection": *unmanaged
-  "Star Trek: The Next Generation Collection": *unmanaged
-  "Star Trek: The Original Series Collection": *unmanaged
   Star Wars Collection: *unmanaged
   Stargate Collection: *unmanaged
   Starship Troopers Collection: *unmanaged
   The Sting Collection: *unmanaged
-  Street Fighter (Animated) Collection: *unmanaged
   Suicide Squad Collection: *unmanaged
-  Superman (DC Universe Animated) Collection: *unmanaged
-  Superman / Batman (Animated) Collection: *unmanaged
   The Sword and the Sorcerer Collection: *unmanaged
   Taken Collection: *unmanaged
-  Tarzan (Johnny Weissmuller) Collection: *unmanaged
   Ted Collection: *unmanaged
   Teen Titans Collection: *unmanaged
   Teen Wolf Collection: *unmanaged
@@ -1044,20 +1015,15 @@ collections:
   This Is Spinal Tap Collection: *unmanaged
   Thor Collection: *unmanaged
   Tom Cody Collection: *unmanaged
-  The Tomorrow War (Series): *unmanaged
   Tony Rome Collection: *unmanaged
   Top Gun Collection: *unmanaged
   Topper Collection: *unmanaged
   Total Recall Collection: *unmanaged
-  Tracy Flick Collection: *unmanaged
   Trainspotting Collection: *unmanaged
   Trancers Collection: *unmanaged
-  "Transformers: Rise of the Beasts Collection": *unmanaged
   The Transporter Collection: *unmanaged
   TRON Collection: *unmanaged
-  Der Trottel Filmreihe: *unmanaged
   Twister Collection: *unmanaged
-  Undercover Brother Collection: *unmanaged
   Venom Collection: *unmanaged
   Violent Night Collection: *unmanaged
   Waiting Collection: *unmanaged
@@ -1070,9 +1036,7 @@ collections:
   Westworld Collection: *unmanaged
   The Whole Nine/Ten Yards Collection: *unmanaged
   Wild Things Collection: *unmanaged
-  Witch Mountain Collection: *unmanaged
   The Witches Collection: *unmanaged
-  Without a Paddle Collection: *unmanaged
   The Wolverine Collection: *unmanaged
   Wonder Woman Collection: *unmanaged
   Young Guns Collection: *unmanaged
@@ -1085,12 +1049,64 @@ collections:
 
   Delete:
     delete_collections_named:
+      - The Amazing Spider-Man Collection
       - Batman Ninja Collection
       - Beavis and Butt-Head Do A Collection
       - Bring It On Collection
-      - Justice League (Animated) Collection
+      - Captain America (1979) Collection
+      - Der Trottel Filmreihe
+      - Eraser Filmreihe
+      - Fall Collection
       - The Godfather Trilogy
+      - Gladiator Collection
+      - The Gray Man Collection
+      - Happy Gilmore Collection
+      - Has Fallen Collection
+      - Heat Collection
       - Hercule Poirot (Peter Ustinov) Collection
+      - Inside Man Collection
+      - Jingle All the Way Collection
+      - Justice League (Animated) Collection
       - Justice League (Tomorrowverse) Collection
+      - King Kong (1933) Collection
+      - King Kong (1976) Collection
+      - Kong Collection
+      - Lemmy Caution Series
+      - Lucy Collection
+      - Man of Steel Collection
+      - Marshal Samuel Gerard Collection
+      - Monster X Collection
+      - Mortal Kombat (Reboot) Collection
+      - Mortal Kombat Legends Collection
+      - Nobody Collection
+      - The Old Guard Collection
+      - Oz Collection
+      - The Pink Panther (Original) Collection
+      - The Pink Panther (Steve Martin) Collection
       - Planet of the Apes (Original) Collection
+      - The Polar Express Collection
+      - Prometheus Collection
+      - Purple Rain Collection
+      - The Ranown Cycle Westerns Collection
+      - Ready Player One Collection
+      - Rebirth of Mothra Collection
+      - The Rocketeer Collection
+      - Sherlock Holmes (Basil Rathbone) Collection
+      - The Sinbad Collection
+      - Son of Batman Collection
+      - Spider-Man (TV) Collection
+      - Spider-Man (MCU) Collection
+      - "Spider-Man: Spider-Verse Collection"
+      - "Star Trek: Alternate Reality Collection"
+      - "Star Trek: The Next Generation Collection"
+      - "Star Trek: The Original Series Collection"
+      - Street Fighter (Animated) Collection
+      - Superman (DC Universe Animated) Collection
+      - Superman / Batman (Animated) Collection
+      - Tarzan (Johnny Weissmuller) Collection
+      - The Tomorrow War (Series)
+      - Tracy Flick Collection
+      - "Transformers: Rise of the Beasts Collection"
+      - Undercover Brother Collection
+      - Without a Paddle Collection
       - The X Files Collection
