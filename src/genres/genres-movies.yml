@@ -12,97 +12,85 @@ templates: !!import/shallow
 collections:
   Action:
     template:
-      name: Genre
+      name: Genre [Bottom]
       genre: Action
-      summary:
+  Adventure:
+    template:
+      name: Genre [Bottom]
+      genre: Adventure
   Christmas:
     template:
       name: Genre - Trakt List
-      list: https://trakt.tv/users/goape/lists/movies-christmas
+      list: movies-christmas
+      smart_label: title.asc
       summary: Merry Christmas! Sh*tter was full.
-    sort_title: ++_4.4Christmas
-    smart_label: title.asc
   Comedy:
     template:
-      name: Genre
+      name: Genre [Bottom]
       genre: Comedy
-      summary:
   Crime:
     template:
-      name: Genre
+      name: Genre [Bottom]
       genre: Crime
-      summary:
   Fantasy:
     template:
-      name: Genre
+      name: Genre [Bottom]
       genre: Fantasy
-      summary:
   Halloween:
     template:
       name: Genre - Trakt List
-      list: https://trakt.tv/users/goape/lists/movies-halloween
+      list: movies-halloween
       item_genre: Halloween
+      smart_label: title.asc
       summary: “Oh, look. Another glorious morning. Makes me sick!”
-    sort_title: ++_4.4Halloween
-    smart_label: title.asc
   Music:
     template:
       name: Genre - Trakt List
-      list: https://trakt.tv/users/goape/lists/music
+      list: music
       item_genre: Music
-      summary: 🎸
-    sort_title: ++_4.5Music
-    smart_label: title.asc
+      smart_label: title.asc
+      summary: 🎸 🎸 🎸
   Musical:
     template:
       name: Genre - Trakt List
-      list: https://trakt.tv/users/goape/lists/movies-musicals
+      list: movies-musicals
       item_genre: Musical
-      summary: If you know what you want, then you go and you find it and you get it.
-    sort_title: ++_4.5Musical
-    smart_label: title.asc
+      summary: Does anyone still wear a hat?
   Mystery:
     template:
-      name: Genre
+      name: Genre [Bottom]
       genre: Mystery
-      summary:
   Sci-Fi:
     template:
-      name: Genre
+      name: Genre [Bottom]
       genre: Sci-Fi
-      summary:
+      summary: Luke, I am your father
   Sports:
     template:
       name: Genre
       genre: Sports
+      list: movies-sports
       item_genre: Sports
-      trakt_list: https://trakt.tv/users/goape/lists/movies-sports
-      summary:
-    sort_title: ++_4.5Sports
-    smart_label: title.asc
+      smart_label: title.asc
+      summary: PLAY BALL!
   Stand Up:
     template:
       name: Genre - Trakt List
-      list: https://trakt.tv/users/goape/lists/movies-standup
+      list: movies-standup
       item_genre: Stand-Up
-      summary:
-    sort_title: ++_4.5Stand Up Comedy
-    smart_label: title.asc
+      smart_label: title.asc
   Thanksgiving:
     template:
       name: Genre - Trakt List
-      list: https://trakt.tv/users/goape/lists/movies-thanksgiving
+      list: movies-thanksgiving
       item_genre: Thanksgiving
-      summary: “Gobble, gobble!”
-    sort_title: ++_4.4Thanksgiving
-    smart_label: title.asc
+      smart_label: title.asc
+      summary: 🦃 🦃 🦃
   Thriller:
     template:
-      name: Genre
+      name: Genre [Bottom]
       genre: Thriller
-      summary:
   Western:
     template:
-      name: Genre
+      name: Genre [Bottom]
       genre: Western
-      summary:

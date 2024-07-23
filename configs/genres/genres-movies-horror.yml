@@ -1,64 +1,95 @@
 templates:
   Genre:
-    smart_filter:
-      all:
-        genre: <<genre>>
-        genre.not: Stand-Up
-      sort_by: random
-    sort_title: ~_<<collection_name>>
-    only_run_on_create: true
     optional:
       - collection_order
       - item_genre
       - item_label
       - summary
+    smart_filter:
+      all:
+        genre: <<genre>>
+      sort_by: random
+    sort_title: '!_Genre <<collection_name>>'
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    summary: <<summary>>
+  'Genre [Bottom]':
+    optional:
+      - collection_order
+      - item_genre
+      - item_label
+      - summary
+    smart_filter:
+      all:
+        genre: <<genre>>
+      sort_by: random
+    sort_title: ~_Genre <<collection_name>>
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     summary: <<summary>>
   Genre - Trakt List:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ~_<<collection_name>>
+    default:
+      smart_label: release.asc
     optional:
       - item_genre
       - item_label
       - label
       - summary
-    smart_label: release.asc
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: '!_Genre <<collection_name>>'
+    smart_label: <<smart_label>>
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     label: <<label>>
     summary: <<summary>>
+  'Genre [Bottom] - Trakt List':
+    default:
+      smart_label: release.asc
+    optional:
+      - item_genre
+      - item_label
+      - label
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: ~_Genre <<collection_name>>
+    smart_label: <<smart_label>>
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    label: <<label>>
+    summary: <<summary>>
+  Genre - Trakt List Episodes:
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    builder_level: episode
 collections:
   Christmas Horror:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/movies-horror-christmas'
+      list: movies-horror-christmas
       item_genre: Christmas Horror
       name_mapping: Christmas Horror
+      smart_label: title.asc
       summary: Garbage Day!
-    sort_title: ++_4.4Christmas Horror
-    smart_label: title.asc
   Halloween:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/movies-halloween'
+      list: movies-halloween
       item_genre: Halloween
+      smart_label: title.asc
       summary: '“One, Two, Freddy''s Coming For You”'
-    sort_title: ++_4.4Halloween
-    smart_label: title.asc
   Horror:
     smart_filter:
       all:
         title.not: Gamboozle
       sort_by: random
-    sort_title: ~_Horror
+    sort_title: ~_Genre Horror
   Musical:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/movies-musicals'
+      list: movies-musicals
       item_genre: Musical
       name_mapping: Musical Horror
+      smart_label: title.asc
       summary: Creature of the night!
-    sort_title: ++_4.5Musical
-    smart_label: title.asc

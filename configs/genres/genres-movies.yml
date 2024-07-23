@@ -1,132 +1,150 @@
 templates:
   Genre:
-    smart_filter:
-      all:
-        genre: <<genre>>
-        genre.not: Stand-Up
-      sort_by: random
-    sort_title: ~_<<collection_name>>
-    only_run_on_create: true
     optional:
       - collection_order
       - item_genre
       - item_label
       - summary
+    smart_filter:
+      all:
+        genre: <<genre>>
+      sort_by: random
+    sort_title: '!_Genre <<collection_name>>'
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    summary: <<summary>>
+  'Genre [Bottom]':
+    optional:
+      - collection_order
+      - item_genre
+      - item_label
+      - summary
+    smart_filter:
+      all:
+        genre: <<genre>>
+      sort_by: random
+    sort_title: ~_Genre <<collection_name>>
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     summary: <<summary>>
   Genre - Trakt List:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ~_<<collection_name>>
+    default:
+      smart_label: release.asc
     optional:
       - item_genre
       - item_label
       - label
       - summary
-    smart_label: release.asc
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: '!_Genre <<collection_name>>'
+    smart_label: <<smart_label>>
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    label: <<label>>
+    summary: <<summary>>
+  'Genre [Bottom] - Trakt List':
+    default:
+      smart_label: release.asc
+    optional:
+      - item_genre
+      - item_label
+      - label
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: ~_Genre <<collection_name>>
+    smart_label: <<smart_label>>
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     label: <<label>>
     summary: <<summary>>
   Genre - Trakt List Episodes:
-    trakt_list: <<list>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
 collections:
   Action:
     template:
-      name: Genre
+      name: 'Genre [Bottom]'
       genre: Action
-      summary: null
+  Adventure:
+    template:
+      name: 'Genre [Bottom]'
+      genre: Adventure
   Christmas:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/movies-christmas'
+      list: movies-christmas
+      smart_label: title.asc
       summary: Merry Christmas! Sh*tter was full.
-    sort_title: ++_4.4Christmas
-    smart_label: title.asc
   Comedy:
     template:
-      name: Genre
+      name: 'Genre [Bottom]'
       genre: Comedy
-      summary: null
   Crime:
     template:
-      name: Genre
+      name: 'Genre [Bottom]'
       genre: Crime
-      summary: null
   Fantasy:
     template:
-      name: Genre
+      name: 'Genre [Bottom]'
       genre: Fantasy
-      summary: null
   Halloween:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/movies-halloween'
+      list: movies-halloween
       item_genre: Halloween
+      smart_label: title.asc
       summary: '“Oh, look. Another glorious morning. Makes me sick!”'
-    sort_title: ++_4.4Halloween
-    smart_label: title.asc
   Music:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/music'
+      list: music
       item_genre: Music
-      summary: "\U0001F3B8"
-    sort_title: ++_4.5Music
-    smart_label: title.asc
+      smart_label: title.asc
+      summary: "\U0001F3B8 \U0001F3B8 \U0001F3B8"
   Musical:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/movies-musicals'
+      list: movies-musicals
       item_genre: Musical
-      summary: 'If you know what you want, then you go and you find it and you get it.'
-    sort_title: ++_4.5Musical
-    smart_label: title.asc
+      summary: Does anyone still wear a hat?
   Mystery:
     template:
-      name: Genre
+      name: 'Genre [Bottom]'
       genre: Mystery
-      summary: null
   Sci-Fi:
     template:
-      name: Genre
+      name: 'Genre [Bottom]'
       genre: Sci-Fi
-      summary: null
+      summary: 'Luke, I am your father'
   Sports:
     template:
       name: Genre
       genre: Sports
+      list: movies-sports
       item_genre: Sports
-      trakt_list: 'https://trakt.tv/users/goape/lists/movies-sports'
-      summary: null
-    sort_title: ++_4.5Sports
-    smart_label: title.asc
+      smart_label: title.asc
+      summary: PLAY BALL!
   Stand Up:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/movies-standup'
+      list: movies-standup
       item_genre: Stand-Up
-      summary: null
-    sort_title: ++_4.5Stand Up Comedy
-    smart_label: title.asc
+      smart_label: title.asc
   Thanksgiving:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/movies-thanksgiving'
+      list: movies-thanksgiving
       item_genre: Thanksgiving
-      summary: '“Gobble, gobble!”'
-    sort_title: ++_4.4Thanksgiving
-    smart_label: title.asc
+      smart_label: title.asc
+      summary: "\U0001F983 \U0001F983 \U0001F983"
   Thriller:
     template:
-      name: Genre
+      name: 'Genre [Bottom]'
       genre: Thriller
-      summary: null
   Western:
     template:
-      name: Genre
+      name: 'Genre [Bottom]'
       genre: Western
-      summary: null

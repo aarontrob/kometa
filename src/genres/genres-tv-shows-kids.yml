@@ -12,7 +12,5 @@ templates: !!import/shallow
 collections:
   Christmas Episodes:
     template:
-      name: Genre - Trakt List
+      name: Genre - Trakt List Episodes
       list: https://trakt.tv/users/goape/lists/tv-christmas-episodes
-      collection_order: alpha
-    collection_level: episode

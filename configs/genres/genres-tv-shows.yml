@@ -1,43 +1,73 @@
 templates:
   Genre:
-    smart_filter:
-      all:
-        genre: <<genre>>
-        genre.not: Stand-Up
-      sort_by: random
-    sort_title: ~_<<collection_name>>
-    only_run_on_create: true
     optional:
       - collection_order
       - item_genre
       - item_label
       - summary
+    smart_filter:
+      all:
+        genre: <<genre>>
+      sort_by: random
+    sort_title: '!_Genre <<collection_name>>'
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    summary: <<summary>>
+  'Genre [Bottom]':
+    optional:
+      - collection_order
+      - item_genre
+      - item_label
+      - summary
+    smart_filter:
+      all:
+        genre: <<genre>>
+      sort_by: random
+    sort_title: ~_Genre <<collection_name>>
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     summary: <<summary>>
   Genre - Trakt List:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ~_<<collection_name>>
+    default:
+      smart_label: release.asc
     optional:
       - item_genre
       - item_label
       - label
       - summary
-    smart_label: release.asc
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: '!_Genre <<collection_name>>'
+    smart_label: <<smart_label>>
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    label: <<label>>
+    summary: <<summary>>
+  'Genre [Bottom] - Trakt List':
+    default:
+      smart_label: release.asc
+    optional:
+      - item_genre
+      - item_label
+      - label
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: ~_Genre <<collection_name>>
+    smart_label: <<smart_label>>
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     label: <<label>>
     summary: <<summary>>
   Genre - Trakt List Episodes:
-    trakt_list: <<list>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
 collections:
   Christmas:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/tv-christmas'
+      list: tv-christmas
       summary: >-
         “The best way to spread Christmas cheer is singing loud for all to
         hear.”
@@ -46,13 +76,13 @@ collections:
   Halloween:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/tv-halloween'
+      list: tv-halloween
       summary: “It's all just a bunch of hocus pocus.”
     sort_title: ++_2.4Halloween
     smart_label: title.asc
   Musical:
     template:
       name: Genre - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/tv-musicals'
+      list: tv-musicals
     sort_title: ++_2.5Musical
     smart_label: title.asc
