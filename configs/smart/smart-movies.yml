@@ -10,6 +10,7 @@ collections:
     summary: Movies released in the last year
   Now Playing:
     smart_label: release.asc
+    sort_title: '!_First Now Playing'
     plex_search:
       all:
         release.after: 01/01/2024
