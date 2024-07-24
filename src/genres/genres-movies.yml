@@ -20,7 +20,7 @@ collections:
       genre: Adventure
   Christmas:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-christmas
       smart_label: title.asc
       summary: Merry Christmas! Sh*tter was full.
@@ -38,7 +38,7 @@ collections:
       genre: Fantasy
   Halloween:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-halloween
       item_genre: Halloween
       smart_label: title.asc
@@ -81,7 +81,7 @@ collections:
       smart_label: title.asc
   Thanksgiving:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-thanksgiving
       item_genre: Thanksgiving
       smart_label: title.asc

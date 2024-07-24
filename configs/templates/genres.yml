@@ -58,6 +58,22 @@ Genre - Trakt List:
   item_label: <<item_label>>
   label: <<label>>
   summary: <<summary>>
+'Genre [Holiday] - Trakt List':
+  default:
+    smart_label: release.asc
+  optional:
+    - item_genre
+    - item_label
+    - label
+    - summary
+  trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+  sync_mode: sync
+  sort_title: '!_Genre[Holiday] <<collection_name>>'
+  smart_label: <<smart_label>>
+  item_genre: <<item_genre>>
+  item_label: <<item_label>>
+  label: <<label>>
+  summary: <<summary>>
 Genre - Trakt List Episodes:
   trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   sync_mode: sync

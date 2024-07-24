@@ -59,10 +59,28 @@ templates:
     item_label: <<item_label>>
     label: <<label>>
     summary: <<summary>>
+  'Genre [Holiday] - Trakt List':
+    default:
+      smart_label: release.asc
+    optional:
+      - item_genre
+      - item_label
+      - label
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: '!_Genre[Holiday] <<collection_name>>'
+    smart_label: <<smart_label>>
+    item_genre: <<item_genre>>
+    item_label: <<item_label>>
+    label: <<label>>
+    summary: <<summary>>
   Genre - Trakt List Episodes:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
+    collection_order: alpha
+    collection_level: episode
 collections:
   Action:
     template:
@@ -74,7 +92,7 @@ collections:
       genre: Adventure
   Christmas:
     template:
-      name: Genre - Trakt List
+      name: 'Genre [Holiday] - Trakt List'
       list: movies-christmas
       smart_label: title.asc
       summary: Merry Christmas! Sh*tter was full.
@@ -92,7 +110,7 @@ collections:
       genre: Fantasy
   Halloween:
     template:
-      name: Genre - Trakt List
+      name: 'Genre [Holiday] - Trakt List'
       list: movies-halloween
       item_genre: Halloween
       smart_label: title.asc
@@ -135,7 +153,7 @@ collections:
       smart_label: title.asc
   Thanksgiving:
     template:
-      name: Genre - Trakt List
+      name: 'Genre [Holiday] - Trakt List'
       list: movies-thanksgiving
       item_genre: Thanksgiving
       smart_label: title.asc
