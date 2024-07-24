@@ -16,9 +16,9 @@ collections:
     name_mapping: New Releases
     only_run_on_create: true
     summary: Movies released in the last year
-  Now Playing:
+  Now Showing:
     smart_label: release.asc
-    sort_title: "!_First Now Playing"
+    sort_title: "!_First Now Showing"
     plex_search:
       all:
         release.after: 01/01/2024
@@ -26,4 +26,4 @@ collections:
       filepath.regex:
         - '(?i)\bCAM\b'
         - '(?i)\bTELESYNC\b'
-    summay: Now playing in theaters
+    summary: Now playing in theaters
