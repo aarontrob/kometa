@@ -778,8 +778,8 @@ collections:
   Parker Family Saga:
     template:
       name: Collection - Movie
-      collection: '1056386, 201873'
-      movie: 485517
+      collection: 201873
+      movie: '485517, 81828, 421984, 742623, 75132, 527802'
       summary: >-
         The Parker Family Saga (also known as the Jean Shepherd's Parker Family
         Saga franchise, the Ralph Parker franchise, or colloquially the A
@@ -869,8 +869,8 @@ collections:
     template:
       name: Collection
       collection:
-        - 359410
         - 224976
+        - 1290597
       summary: Take it outside.
   RoboCop Collection:
     template:

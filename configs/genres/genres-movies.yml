@@ -157,7 +157,7 @@ collections:
       list: movies-thanksgiving
       item_genre: Thanksgiving
       smart_label: title.asc
-      summary: "\U0001F983 \U0001F983 \U0001F983"
+      summary: 'Gobble, gobble'
   Thriller:
     template:
       name: 'Genre [Bottom]'

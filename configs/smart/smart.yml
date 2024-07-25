@@ -5,7 +5,6 @@ collections:
         added: 30
       limit: 100
       sort_by: added.desc
-    sort_title: '!_First Recently Added'
+    sort_title: '!_First !Recently Added'
     name_mapping: Recently Added
-    only_run_on_create: true
     summary: Added in the last 30 days

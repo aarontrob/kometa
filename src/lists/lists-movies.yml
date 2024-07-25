@@ -121,10 +121,10 @@ collections:
   Trending:
     sort_title: ++_1Trending
     smart_label: random
-    trakt_chart: 40
+    trakt_chart: trending
+    limit: 40
     tmdb_trending_daily: 40
     tmdb_trending_weekly: 40
-    label: Trending
     sync_mode: sync
     # schedule: weekly(sunday)
     summary: Movies trending across the internet

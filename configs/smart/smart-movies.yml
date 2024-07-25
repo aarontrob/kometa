@@ -1,21 +1,10 @@
 collections:
-  New Releases:
+  New Release:
     smart_filter:
       all:
         release: 365
       sort_by: added.desc
-    sort_title: '!_First New Releases'
+    sort_title: '!_First New Release'
     name_mapping: New Releases
     only_run_on_create: true
     summary: Movies released in the last year
-  Now Showing:
-    smart_label: release.asc
-    sort_title: '!_First Now Showing'
-    plex_search:
-      all:
-        release.after: 01/01/2024
-    filters:
-      filepath.regex:
-        - (?i)\bCAM\b
-        - (?i)\bTELESYNC\b
-    summary: Now playing in theaters

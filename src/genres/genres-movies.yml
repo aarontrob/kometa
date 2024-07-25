@@ -85,7 +85,7 @@ collections:
       list: movies-thanksgiving
       item_genre: Thanksgiving
       smart_label: title.asc
-      summary: 🦃 🦃 🦃
+      summary: Gobble, gobble
   Thriller:
     template:
       name: Genre [Bottom]
