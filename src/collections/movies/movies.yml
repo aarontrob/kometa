@@ -102,6 +102,10 @@ collections:
     template:
       name: Collection - Hide Movie
       movie: 9722
+  Bill & Ted's Most Excellent Collection:
+    template:
+      name: Collection
+      collection: 91746
   Blade Runner Collection:
     template:
       name: Collection
@@ -267,11 +271,6 @@ collections:
       name: Collection - Hide Movie
       movie: 5503
       sort_title: Fugitive Collection
-  The Fugitive / U.S. Marshal Collection:
-    template:
-      name: Collection
-      collection: 721111
-      summary: The chase begins
   G.I. Joe Collection:
     template:
       name: Collection - Movie
@@ -414,7 +413,7 @@ collections:
     template:
       name: Collection - Hide Movie
       movie: 19366
-  Journey to the Center of the Earth Collection:
+  Journey Collection:
     template:
       name: Collection - Movies
       movie: 11571, 88751, 72545
@@ -422,7 +421,8 @@ collections:
   Jumanji Collection:
     template:
       name: Collection - Hide Movie
-      movie: 8844
+      movie: 8844, 6795
+      summary: Adventure Is Waiting
   Justice League Collection:
     template:
       name: Search
@@ -522,6 +522,11 @@ collections:
       name: Collection - Movie
       collection: 171732
       movie: 39410
+  Mr. Ripley Collection:
+    template:
+      name: Collection - Movies
+      movie: 1213, 39127, 10955
+      summary: How far would you go to become someone else.
   The Mummy Collection:
     template:
       name: Collection
@@ -637,6 +642,11 @@ collections:
       name: Collection
       collection: 1018344
       summary: Will your school be NEXT?
+  Rudolph the Red-Nosed Reindeer Collection:
+    template:
+      name: Collection - Movies
+      movie: 13382, 43575
+      summary: The collection of Christmas classic movies featuring everyone's favorite one of Santa's reindeer.
   Saturday Night Live Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -733,22 +743,26 @@ collections:
       movie: 10057, 52451, 41609
       sort_title: Three Musketeers Collection
       summary: All for one, and one for all!
+  Three Men Colleection:
+    template:
+      name: Collection
+      collection: 107688
   Tomb Raider Collection:
     template:
       name: Collection - Movie
       collection: 2467
       movie: 338970
       summary: Tomb Raider is a series of action-adventure movies, centering  the adventures of the female fictional British archaeologist Lara Croft.
+  Total Recall Collection:
+    template:
+      name: Collection - Movies
+      movie: 861,64635
+      summary: They stole his mind, now he wants it back.
   Transformers Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: transformers-collection
       summary: Most have come to destroy us. Some have come to protect us.
-  Turner & Hooch Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 6951
-      summary: The Oddest Couple Ever Unleashed!
   The Twilight Zone Collection:
     template:
       name: Collection - Hide Movie
@@ -758,10 +772,20 @@ collections:
     template:
       name: Collection - Hide Movie
       movie: 1923
+  U.S. Marshals Collection:
+    template:
+      name: Collection - Hide Movie
+      collection: 721111
+      summary: The chase begins
   Watchmen Collection:
     template:
       name: Collection - Hide Movie
       movie: 13183
+  War of the Worlds Collection:
+    template:
+      name: Collection - Movies
+      movie: 74, 8974
+      summary: Mighty panorama of Earth-shaking fury as an army from Mars invades!
   Weird Science Collection:
     template:
       name: Collection - Hide Movie
@@ -776,6 +800,11 @@ collections:
       name: Collection - Hide Movie
       movie: 2171
       summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."
+  The Whole Nine/Ten Yards Collection:
+    template:
+      name: Collection
+      collection: 103577
+      summary: Life's a comedy. It's all in the execution.
   Willow Collection:
     template:
       name: Collection - Hide Movie
@@ -786,11 +815,17 @@ collections:
       movie: 252, 118, 455411, 787699
       collection_mode: show_items
       summary: We are the music makers, and we are the dreamers of dreams.
+  The Witches Collection:
+    template:
+      name: Collection - Movies
+      movie: 10166, 531219
+      summary: They're real!
   The Wizard of Oz Collection:
     template:
       name: Collection - Hide Movie
       movie: 630
       sort_title: Wizard of Oz Collection
+      summary: "We're off to see the Wizard, the wonderful wizard of Oz"
   Wizarding World Collection:
     template:
       name: Collection
@@ -838,13 +873,13 @@ collections:
   Before... Collection: *unmanaged
   Beverly Hills Cop Collection: *unmanaged
   Big Momma's House Collection: *unmanaged
-  Bill & Ted's Most Excellent Collection: *unmanaged
   Black Panther Collection: *unmanaged
   Blade Collection: *unmanaged
   The Blues Brothers Collection: *unmanaged
   Borat Moviefilms Collection: *unmanaged
   The Bourne Collection: *unmanaged
   Breakin' Collection: *unmanaged
+  The Broadway Melody Collection: *unmanaged
   Butch Cassidy and the Sundance Kid Collection: *unmanaged
   The Butterfly Effect Collection: *unmanaged
   Caddyshack Collection: *unmanaged
@@ -885,6 +920,7 @@ collections:
   Freeway Collection: *unmanaged
   French Connection Collection: *unmanaged
   Gator Collection: *unmanaged
+  Get Smart Collection: *unmanaged
   Ghost Rider Collection: *unmanaged
   The Girl - Millennium Collection: *unmanaged
   The Glass House Collection: *unmanaged
@@ -914,7 +950,6 @@ collections:
   John Wick Collection: *unmanaged
   Joker Collection: *unmanaged
   Josey Wales Collection: *unmanaged
-  Journey Collection: *unmanaged
   Jump Street Collection: *unmanaged
   Jurassic Park Collection: *unmanaged
   Kick-Ass Collection: *unmanaged
@@ -944,7 +979,6 @@ collections:
   Miss Congeniality Collection: *unmanaged
   "Mission: Impossible Collection": *unmanaged
   Moon Collection: *unmanaged
-  Mr. Ripley Collection: *unmanaged
   Murder Mystery Collection: *unmanaged
   The Musketeers Collection: *unmanaged
   Naked Gun Collection: *unmanaged
@@ -974,7 +1008,6 @@ collections:
   Rocky Collection: *unmanaged
   Romancing the Stone Collection: *unmanaged
   Romy and Michele Collection: *unmanaged
-  Rudolph the Red-Nosed Reindeer Collection: *unmanaged
   Rush Hour Collection: *unmanaged
   The Rutles Collection: *unmanaged
   The Santa Clause Collection: *unmanaged
@@ -1011,11 +1044,9 @@ collections:
   The Thin Man Collection: *unmanaged
   This Is Spinal Tap Collection: *unmanaged
   Thor Collection: *unmanaged
-  Tom Cody Collection: *unmanaged
   Tony Rome Collection: *unmanaged
   Top Gun Collection: *unmanaged
   Topper Collection: *unmanaged
-  Total Recall Collection: *unmanaged
   Trainspotting Collection: *unmanaged
   Trancers Collection: *unmanaged
   The Transporter Collection: *unmanaged
@@ -1025,15 +1056,12 @@ collections:
   Violent Night Collection: *unmanaged
   Waiting Collection: *unmanaged
   Wall Street Collection: *unmanaged
-  War of the Worlds Collection: *unmanaged
   WarGames Collection: *unmanaged
   The Water of the Hills Collection: *unmanaged
   Wayne's World Collection: *unmanaged
   Weekend at Bernie's Collection: *unmanaged
   Westworld Collection: *unmanaged
-  The Whole Nine/Ten Yards Collection: *unmanaged
   Wild Things Collection: *unmanaged
-  The Witches Collection: *unmanaged
   The Wolverine Collection: *unmanaged
   Wonder Woman Collection: *unmanaged
   Young Guns Collection: *unmanaged
@@ -1046,24 +1074,64 @@ collections:
 
   Delete:
     delete_collections_named:
+      - 3 Men Collection
+      - 3 Men (Original) Collection
+      - The Addams Family (Animated) Collection
+      - Addie Mills Collection
       - The Amazing Spider-Man Collection
-      - Batman Ninja Collection
+      - American Pie (Spin-off) Collection
+      - Americanized Godzilla Collection
+      - Annabel Allison collection
+      - Atomic Blonde Collection
+      - Baby Driver Collection
+      - The Batman Collection
+      - "Batman: The Dark Knight Returns Collection"
+      - "Batman: The Long Halloween Collection"
+      - Battlestar Galactica (Reboot) Collection
       - Beavis and Butt-Head Do A Collection
+      - The Benchwarmers Collection
+      - Bill & Ted Collection
+      - Blue Crush Collection
+      - The Brady Bunch TV Movie Collection
       - Bring It On Collection
+      - Bulletproof Collection
       - Captain America (1979) Collection
+      - The Claus Family Collection
+      - Cliffhanger Collection
+      - Cochise Collection
+      - Commando - Collection
+      - The Death of Superman Collection
+      - Death Race Original Collection
       - Der Trottel Filmreihe
+      - The Devil Wears Prada Collection
+      - Easy Rider Collection
       - Eraser Filmreihe
       - Fall Collection
+      - "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!"
+      - Father of the Bride (Spencer Tracy) Collection
+      - Father of the Bride (Steve Martin) Collection
+      - Free Guy Collection
+      - The Fugitive / U.S. Marshal Collection
+      - Gamera (Showa) Collection
       - The Godfather Trilogy
+      - Godzilla (Anime) Collection
+      - Godzilla (Heisei) Collection
+      - Godzilla (Millennium) Collection
+      - Godzilla (Showa) Collection
       - Gladiator Collection
       - The Gray Man Collection
       - Happy Gilmore Collection
       - Has Fallen Collection
       - Heat Collection
+      - Hercule Poirot (Kenneth Branagh) Collection
       - Hercule Poirot (Peter Ustinov) Collection
+      - Hulk Vs. Collection
       - Inside Man Collection
+      - "Jackass Presents: Bad Grandpa Collection"
       - Jingle All the Way Collection
       - Justice League (Animated) Collection
+      - Justice League (DC Animated Universe) Collection
+      - Justice League Dark Collection
       - Justice League (Tomorrowverse) Collection
       - King Kong (1933) Collection
       - King Kong (1976) Collection
@@ -1083,13 +1151,18 @@ collections:
       - The Pink Panther (Original) Collection
       - The Pink Panther (Steve Martin) Collection
       - Planet of the Apes (Original) Collection
+      - Planet of the Apes (Reboot) Collection
+      - Poison Ivy Collection
       - The Polar Express Collection
       - Prometheus Collection
       - Purple Rain Collection
       - The Ranown Cycle Westerns Collection
       - Ready Player One Collection
       - Rebirth of Mothra Collection
+      - Road House (Remake) Collection
+      - Road Trip Collection
       - The Rocketeer Collection
+      - Shang-Chi Collection
       - Sherlock Holmes (Basil Rathbone) Collection
       - The Sinbad Collection
       - Son of Batman Collection
@@ -1103,10 +1176,14 @@ collections:
       - Street Fighter (Animated) Collection
       - Superman (DC Universe Animated) Collection
       - Superman / Batman (Animated) Collection
+      - The Sword and the Sorcerer Collection
       - Tarzan (Johnny Weissmuller) Collection
       - The Tomorrow War (Series)
+      - Tom Cody Collection
+      - This Is Spinal Tap Collection
       - Tracy Flick Collection
       - "Transformers: Rise of the Beasts Collection"
       - Undercover Brother Collection
+      - Violent Night Collection
       - Without a Paddle Collection
       - The X Files Collection

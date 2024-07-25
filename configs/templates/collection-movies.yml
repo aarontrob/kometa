@@ -1,5 +1,5 @@
 Collection - Movie:
-  tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+  tmdb_collection: <<collection>>
   tmdb_movie: <<movie>>
   sync_mode: sync
   collection_order: release
@@ -26,14 +26,17 @@ Collection - Movies:
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Hide Movie:
-  tmdb_movie: <<movie>>
-  sync_mode: sync
-  collection_order: release
-  collection_mode: hide
   optional:
+    - movie
+    - collection
     - name_mapping
     - sort_title
     - summary
+  tmdb_movie: <<movie>>
+  tmdb_collection: <<collection>>
+  sync_mode: sync
+  collection_order: release
+  collection_mode: hide
   name_mapping: <<name_mapping>>
   sort_title: <<sort_title>>
   summary: <<summary>>
