@@ -456,6 +456,11 @@ collections:
         Japan. Created in 1965 to rival the success of Toho Studios' Godzilla
         during the daikaiju boom of the mid-to-late 1960s, Gamera has gained
         fame and notoriety as a Japanese icon in his own right.
+  Get Smart Collection:
+    template:
+      name: Collection
+      collection: 108669
+      minimum_items: 2
   Ghostbusters Collection:
     template:
       name: Collection - Movie
@@ -1188,7 +1193,6 @@ collections:
   Freeway Collection: *ref_0
   French Connection Collection: *ref_0
   Gator Collection: *ref_0
-  Get Smart Collection: *ref_0
   Ghost Rider Collection: *ref_0
   The Girl - Millennium Collection: *ref_0
   The Glass House Collection: *ref_0
