@@ -367,6 +367,8 @@ collections:
         dirt.
   Delete:
     build_collection: false
-    blank_collection: true
+    smart_filter:
+      all:
+        release: 1
     delete_collections_named:
       - In Search of Tomorrow Collection
