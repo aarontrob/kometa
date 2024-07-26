@@ -12,7 +12,9 @@ templates:
     smart_filter:
       any:
         studio: <<studio>>
+        title: <<title>>
       sort_by: release.asc
+    item_label: <<collection_name>>
     sort_title: ++_4<<collection_name>>
     optional:
       - summary
@@ -28,7 +30,7 @@ templates:
     trakt_list: <<list>>
     sync_mode: sync
     sort_title: ++_4<<collection_name>>
-    smart_label: release.asc
+    collection_mode: show_items
     optional:
       - summary
     summary: <<summary>>
@@ -82,6 +84,11 @@ collections:
         animated series, including The Huckleberry Hound Show, The Flintstones,
         The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You!
         and The Smurfs
+  LEGO:
+    template:
+      name: Studio - Search
+      title: 'LEGO, Lego'
+      summary: The bane of your foot's existence.
   Pixar Animation Studios:
     template:
       name: Studio - Trakt List

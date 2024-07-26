@@ -905,6 +905,7 @@ collections:
   DragonHeart Collection: *unmanaged
   Dumb and Dumber Collection: *unmanaged
   Eastrail 177 Collection: *unmanaged
+  Enola Holmes Collection: *unmanaged
   The Equalizer Collection: *unmanaged
   Escape From ... Collection: *unmanaged
   The Expendables Collection: *unmanaged
@@ -1068,6 +1069,7 @@ collections:
   ######################################################
 
   Delete:
+    validate_builders: false
     delete_collections_named:
       - 3 Men Collection
       - 3 Men (Original) Collection

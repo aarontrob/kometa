@@ -1177,6 +1177,7 @@ collections:
   DragonHeart Collection: *ref_0
   Dumb and Dumber Collection: *ref_0
   Eastrail 177 Collection: *ref_0
+  Enola Holmes Collection: *ref_0
   The Equalizer Collection: *ref_0
   Escape From ... Collection: *ref_0
   The Expendables Collection: *ref_0
@@ -1335,6 +1336,7 @@ collections:
   Zoolander Collection: *ref_0
   Zorro Collection: *ref_0
   Delete:
+    validate_builders: false
     delete_collections_named:
       - 3 Men Collection
       - 3 Men (Original) Collection
