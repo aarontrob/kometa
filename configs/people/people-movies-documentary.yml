@@ -100,26 +100,4 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
     tmdb_show: <<show>>
-collections:
-  Agatha Christie Collection:
-    template:
-      name: People
-      title: 'Agatha Christie: 100 Years of Suspense'
-  David Attenborough:
-    template:
-      name: People
-      title:
-        - 'Planet Earth: A Celebration'
-        - 'Breaking Boundaries: The Science of Our Planet'
-  Marilyn Monroe Collection:
-    template:
-      name: People
-      title: 'The Mystery of Marilyn Monroe: The Unheard Tapes'
-  Stephen King Collection:
-    template:
-      name: People
-      title: King on Screen
-  Vincent Price Collection:
-    template:
-      name: People
-      title: 'Vincent Price: The Versatile Villain'
+collections: null
