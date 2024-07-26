@@ -1341,6 +1341,9 @@ collections:
   Zorro Collection: *ref_0
   Delete:
     build_collection: false
+    smart_filter:
+      all:
+        release: 1
     delete_collections_named:
       - 3 Men Collection
       - 3 Men (Original) Collection

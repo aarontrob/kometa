@@ -1075,6 +1075,9 @@ collections:
 
   Delete:
     build_collection: false
+    smart_filter: # Dummy builder
+      all:
+        release: 1
     delete_collections_named:
       - 3 Men Collection
       - 3 Men (Original) Collection
