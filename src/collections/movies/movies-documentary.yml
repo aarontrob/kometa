@@ -51,11 +51,11 @@ collections:
       name: Collection - Hide Movie
       movie: 191720
       summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
-  The Exorcist Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 104846
-      sort_title: Exorcist Collection
+  # The Exorcist Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 104846
+  #     sort_title: Exorcist Collection
   Fantastic Four Collection:
     template:
       name: Collection - Hide Movie
@@ -227,3 +227,4 @@ collections:
         release: 1
     delete_collections_named:
       - In Search of Tomorrow Collection
+      - The Exorcist Collection
