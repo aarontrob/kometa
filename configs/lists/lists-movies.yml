@@ -270,12 +270,11 @@ collections:
     sync_mode: sync
     summary: Oscar winning movies
   Trending:
-    sort_title: ++_1Trending
+    trakt_chart:
+      chart: trending
+      limit: 30
+    sort_title: '!_First Trending'
     smart_label: random
-    trakt_chart: trending
-    limit: 40
-    tmdb_trending_daily: 40
-    tmdb_trending_weekly: 40
     sync_mode: sync
     summary: Movies trending across the internet
   Vulture's 101 Best Movie Endings:

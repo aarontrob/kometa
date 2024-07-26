@@ -103,15 +103,6 @@ collections:
     smart_label: release.desc
     sync_mode: sync
     summary: Oscar winning movies
-  # Popular:
-  #   sort_title: ++_2.1Popular
-  #   tmdb_popular: 40
-  #   smart_label: random
-  #   imdb_list:
-  #     url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
-  #     limit: 40
-  #   summary: Popular Movies across the internet
-  #   name_mapping: Popular
   # Problematic Collection:
   #   template:
   #     name: Collection - Trakt List
@@ -119,14 +110,12 @@ collections:
   #   item_label: Problematic
   #   build_collection: false
   Trending:
-    sort_title: ++_1Trending
+    trakt_chart:
+      chart: trending
+      limit: 30
+    sort_title: "!_First Trending"
     smart_label: random
-    trakt_chart: trending
-    limit: 40
-    tmdb_trending_daily: 40
-    tmdb_trending_weekly: 40
     sync_mode: sync
-    # schedule: weekly(sunday)
     summary: Movies trending across the internet
   # Top Rated:
   #   sort_title: ++_2.3Top Rated
