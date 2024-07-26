@@ -1,16 +1,17 @@
 templates:
   Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    sync_mode: sync
-    collection_order: release
     default:
       collection_mode: hide_items
     optional:
       - name_mapping
       - sort_title
       - summary
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
+    tmdb_summary: <<collection>>
     summary: <<summary>>
   Collection - Alpha:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
@@ -66,7 +67,7 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movie:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    tmdb_collection: <<collection>>
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
@@ -93,14 +94,17 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide Movie:
-    tmdb_movie: <<movie>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide
     optional:
+      - movie
+      - collection
       - name_mapping
       - sort_title
       - summary
+    tmdb_movie: <<movie>>
+    tmdb_collection: <<collection>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
@@ -123,7 +127,7 @@ templates:
   Unmanaged:
     label: Unmanaged
     blank_collection: true
-unmanaged: &ref_0
+unmanaged:
   template:
     name: Unmanaged
 collections:
@@ -213,6 +217,10 @@ collections:
     template:
       name: Collection - Hide Movie
       movie: 348191
+  In Search of Darkness Collection:
+    template:
+      name: Collection
+      collection: 797016
   It Collection:
     template:
       name: Collection - Hide Movie
@@ -290,11 +298,6 @@ collections:
         Living Dead. The two reached a settlement wherein Romero's sequels would
         be referred to as the Dead movies, and Russo's sequels would bear the
         suffix Living Dead.
-  RoboCop Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 1206721
-      summary: The future of law enforcement. Part man. Part machine.
   Pet Sematary Collection:
     template:
       name: Collection - Hide Movie
@@ -362,4 +365,7 @@ collections:
         tomorrow. I don't want to get in trouble... Cause you haven't taken a
         shower once yet this summer... Arty, take a shower. You're covered in
         dirt.
-  In Search of Darkness Collection: *ref_0
+  Delete:
+    build_collection: false
+    delete_collections_named:
+      - In Search of Tomorrow Collection

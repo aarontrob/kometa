@@ -15,7 +15,7 @@ collections:
     template:
       name: People
       title: "Agatha Christie: 100 Years of Suspense"
-  David Attenborough Collection:
+  David Attenborough:
     template:
       name: People
       title:

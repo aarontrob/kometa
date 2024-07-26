@@ -14,6 +14,10 @@ templates:
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
   People - Actor:
+    optional:
+      - title
+      - person
+      - summary
     smart_filter:
       any:
         actor: <<person>>
@@ -21,61 +25,64 @@ templates:
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
-  People - Actor Trakt List:
-    trakt_list: <<list>>
-    sort_title: ++_7<<collection_name>>
-    sync_mode: sync
-    smart_label: release.asc
-    summary: <<summary>>
-  People - Actor Director:
+  People - Actor/Director/Writer:
+    optional:
+      - title
+      - person
+      - summary
     smart_filter:
       any:
         actor: <<person>>
         director: <<person>>
+        writer: <<person>>
         title: <<title>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
   People - Director:
+    optional:
+      - title
+      - person
+      - summary
     smart_filter:
       any:
         director: <<person>>
         title: <<title>>
       sort_by: release.asc
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_7<<collection_name>>
     summary: <<summary>>
-  People - Director Trakt List:
-    trakt_list: <<list>>
-    sort_title: ++_6<<collection_name>>
-    sync_mode: sync
-    smart_label: release.asc
-    summary: <<summary>>
-  People - Director Writer:
+  People - Director/Writer:
+    optional:
+      - title
+      - person
+      - summary
     smart_filter:
       any:
         director: <<person>>
         writer: <<person>>
         title: <<title>>
       sort_by: release.asc
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_7<<collection_name>>
     summary: <<summary>>
   People - Writer:
+    optional:
+      - title
+      - person
+      - summary
     smart_filter:
       any:
         writer: <<person>>
         title: <<title>>
       sort_by: release.asc
-    sort_title: ++_6<<collection_name>>
+    sort_title: ++_7<<collection_name>>
     summary: <<summary>>
-  People - Actor Director Writer:
-    smart_filter:
-      any:
-        actor: <<person>>
-        director: <<person>>
-        writer: <<person>>
-        title: <<title>>
-      sort_by: release.asc
-    sort_title: ++_6<<collection_name>>
+  People - Trakt List:
+    optional:
+      - summary
+    trakt_list: <<list>>
+    sort_title: ++_7<<collection_name>>
+    sync_mode: sync
+    smart_label: release.asc
     summary: <<summary>>
   Search:
     plex_search:
@@ -98,7 +105,7 @@ collections:
     template:
       name: People
       title: 'Agatha Christie: 100 Years of Suspense'
-  David Attenborough Collection:
+  David Attenborough:
     template:
       name: People
       title:

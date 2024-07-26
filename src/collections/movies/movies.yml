@@ -1069,7 +1069,7 @@ collections:
   ######################################################
 
   Delete:
-    validate_builders: false
+    build_collection: false
     delete_collections_named:
       - 3 Men Collection
       - 3 Men (Original) Collection

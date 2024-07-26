@@ -13,7 +13,6 @@ collections:
         release: 365
       sort_by: added.desc
     sort_title: "!_First New Release"
-    name_mapping: New Releases
     only_run_on_create: true
     summary: Movies released in the last year
   # Now Showing:
