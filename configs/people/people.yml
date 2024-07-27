@@ -146,6 +146,7 @@ collections:
     template:
       name: People - Writer
       person: Agatha Christie
+      title: Identity
       summary: >-
         Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (née Miller) was
         an English crime novelist, short story writer and playwright. She is
@@ -354,6 +355,7 @@ collections:
     template:
       name: People - Writer
       person: Dr. Seuss
+      title: The Mean One
       summary: >-
         Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 –
         September 24, 1991) was an American children's author and cartoonist. He
@@ -926,7 +928,7 @@ collections:
         also expanding and improving its grounds.
   Stanley Kubrick:
     template:
-      name: People
+      name: People - Director/Writer
       person: Stanley Kubrick
       summary: >-
         Stanley Kubrick (July 26, 1928 – March 7, 1999) was an American film
@@ -1087,7 +1089,7 @@ collections:
         the 100 most influential people.
   Tim Burton:
     template:
-      name: People
+      name: People - Director/Writer
       person: Tim Burton
       summary: >-
         Timothy Walter Burton (born August 25, 1958) is an American filmmaker

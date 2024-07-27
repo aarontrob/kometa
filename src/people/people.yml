@@ -30,6 +30,7 @@ collections:
     template:
       name: People - Writer
       person: Agatha Christie
+      title: Identity
       summary: >-
         Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (née Miller) was an English crime novelist, short story writer and playwright. She is best known for her 66 detective novels and 14 short story collections, particularly those revolving around her fictional detectives Hercule Poirot and Miss Marple. She also wrote the world's longest-running play, a murder mystery, The Mousetrap, and six romances under the name Mary Westmacott. In 1971 she was made a Dame for her contribution to literature. Most of her books and short stories have been adapted for television, radio, video games and comics, and more than thirty feature films have been based on her work.
   Alfred Hitchcock:
@@ -102,6 +103,7 @@ collections:
     template:
       name: People - Writer
       person: Dr. Seuss
+      title: The Mean One
       summary: >-
         Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 – September 24, 1991) was an American children's author and cartoonist. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss. His work includes many of the most popular children's books of all time, selling over 600 million copies and being translated into more than 20 languages by the time of his death.
 
@@ -287,7 +289,7 @@ collections:
         In 1995, Shepperton Studios was purchased by a consortium headed by Ridley and Tony Scott, which extensively renovated the studios while also expanding and improving its grounds.
   Stanley Kubrick:
     template:
-      name: People
+      name: People - Director/Writer
       person: Stanley Kubrick
       summary: >-
         Stanley Kubrick (July 26, 1928 – March 7, 1999) was an American film director, writer, producer, and photographer who lived in England during most of the last four decades of his career. Kubrick was noted for the scrupulous care with which he chose his subjects, his slow method of working, the variety of genres he worked in, his technical perfectionism, and his reclusiveness about his films and personal life. He maintained almost complete artistic control, making movies according to his own whims and time constraints, but with the rare advantage of big-studio financial support for all his endeavors. Kubrick's films are characterized by a formal visual style and meticulous attention to detail—his later films often have elements of surrealism and expressionism that eschews structured linear narrative. His films are repeatedly described as slow and methodical, and are often perceived as a reflection of his obsessive and perfectionist nature. A recurring theme in his films is man's inhumanity to man. While often viewed as expressing an ironic pessimism, a few critics feel his films contain a cautious optimism when viewed more carefully.
@@ -333,7 +335,7 @@ collections:
         Spielberg co-founded Amblin Entertainment and DreamWorks, and has served as a producer for many successful films and television series. He is also known for his long collaboration with the composer John Williams, with whom he has worked for all but five of his feature films. Several of Spielberg's works are among the highest-grossing and greatest films all time. Premiere ranked him first place in the list of 100 Most Powerful People in Movies in 2003. In 2013, Time listed him as one of the 100 most influential people.
   Tim Burton:
     template:
-      name: People
+      name: People - Director/Writer
       person: Tim Burton
       summary: >-
         Timothy Walter Burton (born August 25, 1958) is an American filmmaker and animator. He is known for his gothic fantasy and horror films such as Beetlejuice (1988), Edward Scissorhands (1990), The Nightmare Before Christmas (1993), Ed Wood (1994), Sleepy Hollow (1999), Corpse Bride (2005), Sweeney Todd: The Demon Barber of Fleet Street (2007) and Dark Shadows (2012), as well as the television series Wednesday (2022). Burton also directed the superhero films Batman (1989) and Batman Returns (1992), the sci-fi film Planet of the Apes (2001), the fantasy-drama Big Fish (2003), the musical adventure film Charlie and the Chocolate Factory (2005), and the fantasy films Alice in Wonderland (2010) and Miss Peregrine's Home for Peculiar Children (2016).
