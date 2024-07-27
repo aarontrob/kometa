@@ -129,6 +129,7 @@ templates:
   Unmanaged:
     label: Unmanaged
     blank_collection: true
+    minimum_items: 2
 unmanaged: &ref_0
   template:
     name: Unmanaged
@@ -198,11 +199,6 @@ collections:
         Carrie White, a shy and troubled teenage girl who is tormented by her
         high school peers and her fanatically religious mother, begins to use
         her powers of telekinesis to exact revenge upon them.
-  Cheerleader Camp Collection:
-    template:
-      name: Collection
-      collection: 1047304
-      minimum_items: 2
   Child's Play Collection:
     template:
       name: Collection - Movie
@@ -296,11 +292,6 @@ collections:
       name: Collection - Movies
       movie: '11495, 532710'
       summary: If you get on her bad side...YOU'RE TOAST.
-  Five Nights at Freddy's Collection:
-    template:
-      name: Collection
-      collection: 1240438
-      minimum_items: 2
   Flatliners Collection:
     template:
       name: Collection - Movies
@@ -332,11 +323,6 @@ collections:
       name: Collection
       collection: '98168, 230161'
       summary: There are some very good reasons to be afraid...of the dark.
-  From Beyond Collection:
-    template:
-      name: Collection
-      collection: 1083017
-      minimum_items: 2
   Funny Games Collection:
     template:
       name: Collection - Movies
@@ -424,16 +410,6 @@ collections:
       summary: You'll float too.
     plex_search:
       title: Stephen King's IT
-  It Came from Outer Space Collection:
-    template:
-      name: Collection
-      collection: 1285493
-      minimum_items: 2
-  It Follows Collection:
-    template:
-      name: Collection
-      collection: 1198581
-      minimum_items: 2
   It's Alive Collection:
     template:
       name: Collection - Movie
@@ -446,6 +422,10 @@ collections:
       movie: '2291, 456529'
       name_mapping: Jacobs Ladder Collection
       summary: You can't run from your own mind
+  Karnstein Trilogy:
+    template:
+      name: Collection
+      collection: 960149
   The Last House on the Left Collection:
     template:
       name: Collection - Movies
@@ -471,11 +451,6 @@ collections:
       collection: '261590, 809185'
       movie: '19185, 924, 13025, 29426'
       summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
-  M3GAN Collection:
-    template:
-      name: Collection
-      collection: 1071588
-      minimum_items: 2
   My Bloody Valentine Collection:
     template:
       name: Collection - Movies
@@ -540,11 +515,6 @@ collections:
       collection: 74508
       name_mapping: REC Collection
       summary: One Witness. One Camera
-  Ready or Not Collection:
-    template:
-      name: Collection
-      collection: 1267164
-      minimum_items: 2
   Resident Evil Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -562,11 +532,6 @@ collections:
       summary: Salem's Lot... where no one rests in peace...
     plex_search:
       title: Salem's Lot
-  Scary Stories to Tell in the Dark Collection:
-    template:
-      name: Collection
-      collection: 1190121
-      minimum_items: 2
   The Shining Collection:
     template:
       name: Collection - Movie
@@ -587,11 +552,6 @@ collections:
       movie: 818543
       sort_title: Slumber Party Massacre Collection
       summary: You bring the pizza....I'll bring the drill.
-  Smile Collection:
-    template:
-      name: Collection
-      collection: 1100788
-      minimum_items: 2
   The Stepfather Collection:
     template:
       name: Collection - Movie
@@ -623,21 +583,11 @@ collections:
     template:
       name: Collection
       collection: 115142
-  Talk to Me Collection:
-    template:
-      name: Collection
-      collection: 1162328
-      minimum_items: 2
   Texas Chainsaw Massacre Collection:
     template:
       name: Collection
       collection: '111751, 425175'
       summary: Who will survive and what will be left of them?
-  Thanksgiving Collection:
-    template:
-      name: Collection
-      collection: 1211888
-      minimum_items: 2
   The Thing Collection:
     template:
       name: Collection - Movie
@@ -657,11 +607,6 @@ collections:
         Suspiria, Inferno and Mother of Tears. Each film deals with one of the
         titular "Mothers", a triumvirate of ancient witches whose powerful magic
         allows them to manipulate world events on a global scale.
-  Tourist Trap Collection:
-    template:
-      name: Collection
-      collection: 1262015
-      minimum_items: 2
   The Town That Dreaded Sundown Collection:
     template:
       name: Collection - Movies
@@ -782,6 +727,7 @@ collections:
   Carnosaur Collection: *ref_0
   Cat People Collection: *ref_0
   The Cell Collection: *ref_0
+  Cheerleader Camp Collection: *ref_0
   Children of the Corn Collection: *ref_0
   Class of Nuke 'Em High Collection: *ref_0
   The Collector Collection: *ref_0
@@ -812,9 +758,11 @@ collections:
   Feast Collection: *ref_0
   Final Destination Collection: *ref_0
   Firefly Collection: *ref_0
+  Five Nights at Freddy's Collection: *ref_0
   Frankenstein (Hammer) Collection: *ref_0
   Frankenstein (Universal) Collection: *ref_0
   The Frogtown Collection: *ref_0
+  From Beyond Collection: *ref_0
   From Dusk Till Dawn Collection: *ref_0
   The Gate Collection: *ref_0
   Gates of Hell Trilogy: *ref_0
@@ -839,16 +787,18 @@ collections:
   Inner Sanctum Mysteries Collection: *ref_0
   Insidious Collection: *ref_0
   The Invisible Man Collection: *ref_0
+  It Came from Outer Space Collection: *ref_0
+  It Follows Collection: *ref_0
   Jack Frost Collection: *ref_0
   Jeepers Creepers Collection: *ref_0
   Joy Ride Collection: *ref_0
   Ju-on Collection: *ref_0
-  Karnstein Trilogy: *ref_0
   Killer Tomatoes! Collection: *ref_0
   The Kolchak Collection: *ref_0
   Lake Placid Collection: *ref_0
   The Lawnmower Man Collection: *ref_0
   Lost Boys Collection: *ref_0
+  M3GAN Collection: *ref_0
   The Mangler Collection: *ref_0
   Maniac Collection: *ref_0
   Maniac Cop Collection: *ref_0
@@ -873,7 +823,7 @@ collections:
   Quarantine Collection: *ref_0
   Quatermass (Hammer series): *ref_0
   Re-Animator Collection: *ref_0
-  Resident Evil (Animated) Collection: *ref_0
+  Ready or Not Collection: *ref_0
   The Ring Collection: *ref_0
   Ring Collection: *ref_0
   The Rocky Horror Picture Show Collection: *ref_0
@@ -884,18 +834,22 @@ collections:
   Scanner Cop Collection: *ref_0
   Scare Package Collection: *ref_0
   Scary Movie Collection: *ref_0
+  Scary Stories to Tell in the Dark Collection: *ref_0
   Scream Collection: *ref_0
   Screamers Collection: *ref_0
   See No Evil Collection: *ref_0
   Silent Hill Collection: *ref_0
   Sinister Collection: *ref_0
   Sleepaway Camp Collection: *ref_0
+  Smile Collection: *ref_0
   Sometimes They Come Back Collection: *ref_0
   Sorority Babes Collection: *ref_0
   Stir of Echoes Collection: *ref_0
   Swamp Thing Collection: *ref_0
+  Talk to Me Collection: *ref_0
   Terrifier Collection: *ref_0
-  The Three Mothers Collection: *ref_0
+  Thanksgiving Collection: *ref_0
+  Tourist Trap Collection: *ref_0
   Tremors Collection: *ref_0
   Trilogy of Terror Collection: *ref_0
   The Unnamable Collection: *ref_0
@@ -938,6 +892,7 @@ collections:
       - Pet Sematary (Reboot) Collection
       - Piranha 3D Collection
       - Rare Exports Collection
+      - Resident Evil (Animated) Collection
       - 'Silent Night, Bloody Night Collection'
       - The Sorority House Massacre Collection
       - Sorority House Massacre Collection
@@ -946,4 +901,5 @@ collections:
       - Survival of the Dead Collection
       - Tales from the Crypt
       - Texas Chainsaw (Reboot) Collection
+      - The Three Mothers Collection
       - Trick 'r Treat Collection

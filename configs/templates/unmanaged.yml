@@ -1,3 +1,4 @@
 Unmanaged:
   label: Unmanaged
   blank_collection: true
+  minimum_items: 2
