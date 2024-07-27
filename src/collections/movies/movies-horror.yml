@@ -38,11 +38,6 @@ collections:
       collection: 105995
       movie: 336560
       summary: When you can't breathe, you can't scream.
-  Ape Woman Collection:
-    template:
-      name: Collection
-      collection: 809152
-      summary: Universal's "Ape Woman" series featuring the character of the Ape Woman
   April Fool's Day Collection:
     template:
       name: Collection - Movies
@@ -79,6 +74,11 @@ collections:
       collection: 257053
       movie: 7342, 133805
       summary: Carrie White, a shy and troubled teenage girl who is tormented by her high school peers and her fanatically religious mother, begins to use her powers of telekinesis to exact revenge upon them.
+  Cheerleader Camp Collection:
+    template:
+      name: Collection
+      collection: 1047304
+      minimum_items: 2
   Child's Play Collection:
     template:
       name: Collection - Movie
@@ -116,14 +116,23 @@ collections:
       summary: Citizens of a small town are infected by a biological weapon that causes its victims to become violently insane. As uninfected citizens struggle to survive, the military readies its own response.
   Creature From The Black Lagoon Collection:
     template:
-      name: Collection - Movie
+      name: Collection
       collection: 221537
       summary: Not since the beginning of time has the world beheld terror like this!
+  The Creeper Collection:
+    template:
+      name: Collection
+      collection: 547910
+      sort_title: Creeper Collection
   Creepshow Collection:
     template:
       name: Collection
       collection: 107725
       summary: The Most Fun You'll Ever Have... BEING SCARED!
+  Cube Collection:
+    template:
+      name: Collection
+      collection: 432
   The Damned Collection:
     template:
       name: Collection - Movie
@@ -142,6 +151,11 @@ collections:
       name: Collection - Movies
       movie: 11495, 532710
       summary: If you get on her bad side...YOU'RE TOAST.
+  Five Nights at Freddy's Collection:
+    template:
+      name: Collection
+      collection: 1240438
+      minimum_items: 2
   Flatliners Collection:
     template:
       name: Collection - Movies
@@ -164,6 +178,11 @@ collections:
       name: Collection
       collection: 98168, 230161
       summary: There are some very good reasons to be afraid...of the dark.
+  From Beyond Collection:
+    template:
+      name: Collection
+      collection: 1083017
+      minimum_items: 2
   Funny Games Collection:
     template:
       name: Collection - Movies
@@ -240,6 +259,16 @@ collections:
       summary: You'll float too.
     plex_search:
       title: Stephen King's IT
+  It Came from Outer Space Collection:
+    template:
+      name: Collection
+      collection: 1285493
+      minimum_items: 2
+  It Follows Collection:
+    template:
+      name: Collection
+      collection: 1198581
+      minimum_items: 2
   It's Alive Collection:
     template:
       name: Collection - Movie
@@ -275,6 +304,11 @@ collections:
       collection: 261590, 809185
       movie: 19185, 924, 13025, 29426
       summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
+  M3GAN Collection:
+    template:
+      name: Collection
+      collection: 1071588
+      minimum_items: 2
   My Bloody Valentine Collection:
     template:
       name: Collection - Movies
@@ -332,6 +366,11 @@ collections:
       collection: 74508
       name_mapping: REC Collection
       summary: One Witness. One Camera
+  Ready or Not Collection:
+    template:
+      name: Collection
+      collection: 1267164
+      minimum_items: 2
   Resident Evil Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -349,6 +388,11 @@ collections:
       summary: Salem's Lot... where no one rests in peace...
     plex_search:
       title: Salem's Lot
+  Scary Stories to Tell in the Dark Collection:
+    template:
+      name: Collection
+      collection: 1190121
+      minimum_items: 2
   The Shining Collection:
     template:
       name: Collection - Movie
@@ -369,6 +413,11 @@ collections:
       movie: 818543
       sort_title: Slumber Party Massacre Collection
       summary: You bring the pizza....I'll bring the drill.
+  Smile Collection:
+    template:
+      name: Collection
+      collection: 1100788
+      minimum_items: 2
   The Stepfather Collection:
     template:
       name: Collection - Movie
@@ -396,11 +445,25 @@ collections:
       name: Search
       title: Sweeney Todd, Demon Barber
       summary: Never Forget. Never Forgive.
+  Tales from the Crypt Collection:
+    template:
+      name: Collection
+      collection: 115142
+  Talk to Me Collection:
+    template:
+      name: Collection
+      collection: 1162328
+      minimum_items: 2
   Texas Chainsaw Massacre Collection:
     template:
       name: Collection
       collection: 111751, 425175
       summary: Who will survive and what will be left of them?
+  Thanksgiving Collection:
+    template:
+      name: Collection
+      collection: 1211888
+      minimum_items: 2
   The Thing Collection:
     template:
       name: Collection - Movie
@@ -415,6 +478,11 @@ collections:
       sort_title: Three Mothers Trilogy
       collection_mode: show_items
       summary: 'The Three Mothers (Italian: Le Tre madri) is a trilogy of supernatural horror films by Italian film director Dario Argento. It consists of Suspiria, Inferno and Mother of Tears. Each film deals with one of the titular "Mothers", a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale.'
+  Tourist Trap Collection:
+    template:
+      name: Collection
+      collection: 1262015
+      minimum_items: 2
   The Town That Dreaded Sundown Collection:
     template:
       name: Collection - Movies
@@ -486,9 +554,13 @@ collections:
       sort_title: Woman in Black Collection
       summary: She'll never let go.
   Zombi Collection:
+    plex_search:
+      all:
+        title: Dawn of the Dead
+        edition: Argento Cut
     template:
       name: Collection - Trakt List Custom Order
-      list: zombi-collection # Need to add Dawn of the Dead (Zombi 1) manually
+      list: zombi-collection
       summary: The Zombi Collection is a series of Italian zombie films. The series began with the 1979 release of Zombi 2 directed by Lucio Fulci. It was adapted from an original screenplay by Dardano Sacchetti to serve as a sequel to George A. Romero's Dawn of the Dead (1978), which was released in Italy with the title Zombi. This was followed in 1988 with Zombi 3, which is an in-name-only sequel to Fulci's Zombi 2. Claudio Fragasso then directed 1989's After Death, which was retitled Zombi 4 by its Japanese video distributors. Finally, Killing Birds is a 1988 Italian horror film starring Lara Wendel and Robert Vaughn which was renamed Zombi 5 by distributors.
     sync_mode: append
     only_run_on_create: true
@@ -506,6 +578,7 @@ collections:
   American Psycho Collection: *unmanaged
   An American Werewolf Collection: *unmanaged
   Annabelle Collection: *unmanaged
+  The Ape Woman Collection: *unmanaged
   Basket Case Trilogy: *unmanaged
   Bats Collection: *unmanaged
   Battle Royale Collection: *unmanaged
@@ -530,7 +603,6 @@ collections:
   Creep Collection: *unmanaged
   Critters Collection: *unmanaged
   The Crow Collection: *unmanaged
-  Cube Collection: *unmanaged
   The Curse Collection (1987-1991): *unmanaged
   Dark Night of the Scarecrow Collection: *unmanaged
   Deep Blue Sea Collection: *unmanaged
@@ -565,11 +637,11 @@ collections:
   Grizzly Collection: *unmanaged
   Happy Death Day Collection: *unmanaged
   Hatchet Collection: *unmanaged
-  The Haunting in Connecticut Collection: *unmanaged
+  Haunting in Connecticut Collection: *unmanaged
   Hell House LLC Collection: *unmanaged
   "Henry: Portrait of a Serial Killer Collection": *unmanaged
   Hidden Collection: *unmanaged
-  The Hills Have Eyes (Reboot) Collection: *unmanaged
+
   The Hitcher Collection: *unmanaged
   Hostel Collection: *unmanaged
   House Collection: *unmanaged
@@ -590,7 +662,6 @@ collections:
   Lake Placid Collection: *unmanaged
   The Lawnmower Man Collection: *unmanaged
   Lost Boys Collection: *unmanaged
-  M3GAN Collection: *unmanaged
   The Mangler Collection: *unmanaged
   Maniac Collection: *unmanaged
   Maniac Cop Collection: *unmanaged
@@ -623,6 +694,8 @@ collections:
   Saturday the 14th Collection: *unmanaged
   Saw Collection: *unmanaged
   Scanners Collection: *unmanaged
+  Scanner Cop Collection: *unmanaged
+  Scare Package Collection: *unmanaged
   Scary Movie Collection: *unmanaged
   Scream Collection: *unmanaged
   Screamers Collection: *unmanaged
@@ -632,11 +705,8 @@ collections:
   Sleepaway Camp Collection: *unmanaged
   Sometimes They Come Back Collection: *unmanaged
   Sorority Babes Collection: *unmanaged
-  The Sorority House Massacre Collection: *unmanaged
   Stir of Echoes Collection: *unmanaged
-  Survival of the Dead Collection: *unmanaged
   Swamp Thing Collection: *unmanaged
-  Tales from the Crypt Collection: *unmanaged
   Terrifier Collection: *unmanaged
   The Three Mothers Collection: *unmanaged
   Tremors Collection: *unmanaged
@@ -670,5 +740,28 @@ collections:
       all:
         release: 1
     delete_collections_named:
+      - Army of the Dead Collection
+      - The Black Phone Collection
+      - The Cube Trilogy
+      - The Fly (1986) Collection
+      - Fright Night (Reboot) Collection
+      - Halloween (Rob Zombie Series) Collection
+      - Karnstein (Hammer) Collection
       - Lights Out Filmreihe
       - Halloween (Rob Zombie Series) Collection
+      - The Haunting in Connecticut Collection
+      - The Hills Have Eyes (Original) Collection
+      - The Hills Have Eyes (Reboot) Collection
+      - I Spit on Your Grave (Original) Collection
+      - Pet Sematary (Reboot) Collection
+      - Piranha 3D Collection
+      - Rare Exports Collection
+      - Silent Night, Bloody Night Collection
+      - The Sorority House Massacre Collection
+      - Sorority House Massacre Collection
+      - Sorority Row Collection
+      - The Strangers (Remake) Collection
+      - Survival of the Dead Collection
+      - Tales from the Crypt
+      - Texas Chainsaw (Reboot) Collection
+      - Trick 'r Treat Collection

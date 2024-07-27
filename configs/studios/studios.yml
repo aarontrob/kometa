@@ -75,7 +75,9 @@ collections:
     template:
       name: Studio - Smart
       studio: Hammer Film Productions
-      title: 'Flesh and Blood: The Hammer Heritage of Horror'
+      title:
+        - 'Flesh and Blood: The Hammer Heritage of Horror'
+        - Twins of Evil
       summary: >-
         Hammer Film Productions Ltd. is a British film production company based
         in London. Founded in 1934, the company is best known for a series of
