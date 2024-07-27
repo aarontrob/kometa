@@ -5,10 +5,10 @@ People:
     - summary
   smart_filter:
     any:
+      title: <<title>>
       actor: <<person>>
       director: <<person>>
       writer: <<person>>
-      title: <<title>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>
@@ -19,8 +19,8 @@ People - Actor:
     - summary
   smart_filter:
     any:
-      actor: <<person>>
       title: <<title>>
+      actor: <<person>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>
@@ -31,10 +31,10 @@ People - Actor/Director/Writer:
     - summary
   smart_filter:
     any:
+      title: <<title>>
       actor: <<person>>
       director: <<person>>
       writer: <<person>>
-      title: <<title>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>
@@ -45,8 +45,8 @@ People - Director:
     - summary
   smart_filter:
     any:
-      director: <<person>>
       title: <<title>>
+      director: <<person>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>
@@ -57,9 +57,9 @@ People - Director/Writer:
     - summary
   smart_filter:
     any:
+      title: <<title>>
       director: <<person>>
       writer: <<person>>
-      title: <<title>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>
@@ -70,8 +70,8 @@ People - Writer:
     - summary
   smart_filter:
     any:
-      writer: <<person>>
       title: <<title>>
+      writer: <<person>>
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>

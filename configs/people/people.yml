@@ -6,10 +6,10 @@ templates:
       - summary
     smart_filter:
       any:
+        title: <<title>>
         actor: <<person>>
         director: <<person>>
         writer: <<person>>
-        title: <<title>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
@@ -20,8 +20,8 @@ templates:
       - summary
     smart_filter:
       any:
-        actor: <<person>>
         title: <<title>>
+        actor: <<person>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
@@ -32,10 +32,10 @@ templates:
       - summary
     smart_filter:
       any:
+        title: <<title>>
         actor: <<person>>
         director: <<person>>
         writer: <<person>>
-        title: <<title>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
@@ -46,8 +46,8 @@ templates:
       - summary
     smart_filter:
       any:
-        director: <<person>>
         title: <<title>>
+        director: <<person>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
@@ -58,9 +58,9 @@ templates:
       - summary
     smart_filter:
       any:
+        title: <<title>>
         director: <<person>>
         writer: <<person>>
-        title: <<title>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
@@ -71,8 +71,8 @@ templates:
       - summary
     smart_filter:
       any:
-        writer: <<person>>
         title: <<title>>
+        writer: <<person>>
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
@@ -928,7 +928,7 @@ collections:
         also expanding and improving its grounds.
   Stanley Kubrick:
     template:
-      name: People - Director/Writer
+      name: People - Director
       person: Stanley Kubrick
       summary: >-
         Stanley Kubrick (July 26, 1928 – March 7, 1999) was an American film
@@ -980,7 +980,7 @@ collections:
         among the filmmakers of his day."
   Stephen King:
     template:
-      name: People
+      name: People - Director/Writer
       person: Stephen King
       title: Stephen King's IT
       summary: >-
@@ -1089,7 +1089,7 @@ collections:
         the 100 most influential people.
   Tim Burton:
     template:
-      name: People - Director/Writer
+      name: People - Director
       person: Tim Burton
       summary: >-
         Timothy Walter Burton (born August 25, 1958) is an American filmmaker

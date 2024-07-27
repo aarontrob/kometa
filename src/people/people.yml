@@ -289,7 +289,7 @@ collections:
         In 1995, Shepperton Studios was purchased by a consortium headed by Ridley and Tony Scott, which extensively renovated the studios while also expanding and improving its grounds.
   Stanley Kubrick:
     template:
-      name: People - Director/Writer
+      name: People - Director
       person: Stanley Kubrick
       summary: >-
         Stanley Kubrick (July 26, 1928 – March 7, 1999) was an American film director, writer, producer, and photographer who lived in England during most of the last four decades of his career. Kubrick was noted for the scrupulous care with which he chose his subjects, his slow method of working, the variety of genres he worked in, his technical perfectionism, and his reclusiveness about his films and personal life. He maintained almost complete artistic control, making movies according to his own whims and time constraints, but with the rare advantage of big-studio financial support for all his endeavors. Kubrick's films are characterized by a formal visual style and meticulous attention to detail—his later films often have elements of surrealism and expressionism that eschews structured linear narrative. His films are repeatedly described as slow and methodical, and are often perceived as a reflection of his obsessive and perfectionist nature. A recurring theme in his films is man's inhumanity to man. While often viewed as expressing an ironic pessimism, a few critics feel his films contain a cautious optimism when viewed more carefully.
@@ -299,7 +299,7 @@ collections:
         Even though all of his films, apart from the first two, were adapted from novels or short stories, his works have been described by Jason Ankeny and others as "original and visionary". Although some critics, notably Andrew Sarris and Pauline Kael, frequently disparaged Kubrick's work, Ankeny describes Kubrick as one of the most "universally acclaimed and influential directors of the postwar era" with a "standing unique among the filmmakers of his day."
   Stephen King:
     template:
-      name: People
+      name: People - Director/Writer
       person: Stephen King
       title: Stephen King's IT
       summary: Stephen King is an American author of contemporary horror, suspense, science fiction, and fantasy fiction. His books have sold more than 350 million copies, which have been adapted into a number of feature films, television movies, and comic books. As of 2011, King has written and published 49 novels, including seven under the pen name Richard Bachman, five non-fiction books, and nine collections of short stories. Many of his stories are set in his home state of Maine. King has received Bram Stoker Awards, World Fantasy Awards, British Fantasy Society Awards, his novella The Way Station was a Nebula Award novelette nominee, and in 2003, the National Book Foundation awarded him the Medal for Distinguished Contribution to American Letters.
@@ -335,7 +335,7 @@ collections:
         Spielberg co-founded Amblin Entertainment and DreamWorks, and has served as a producer for many successful films and television series. He is also known for his long collaboration with the composer John Williams, with whom he has worked for all but five of his feature films. Several of Spielberg's works are among the highest-grossing and greatest films all time. Premiere ranked him first place in the list of 100 Most Powerful People in Movies in 2003. In 2013, Time listed him as one of the 100 most influential people.
   Tim Burton:
     template:
-      name: People - Director/Writer
+      name: People - Director
       person: Tim Burton
       summary: >-
         Timothy Walter Burton (born August 25, 1958) is an American filmmaker and animator. He is known for his gothic fantasy and horror films such as Beetlejuice (1988), Edward Scissorhands (1990), The Nightmare Before Christmas (1993), Ed Wood (1994), Sleepy Hollow (1999), Corpse Bride (2005), Sweeney Todd: The Demon Barber of Fleet Street (2007) and Dark Shadows (2012), as well as the television series Wednesday (2022). Burton also directed the superhero films Batman (1989) and Batman Returns (1992), the sci-fi film Planet of the Apes (2001), the fantasy-drama Big Fish (2003), the musical adventure film Charlie and the Chocolate Factory (2005), and the fantasy films Alice in Wonderland (2010) and Miss Peregrine's Home for Peculiar Children (2016).
