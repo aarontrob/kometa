@@ -16,7 +16,3 @@ collections:
       name: People
       person: Stephen King
       title: Stephen King's IT
-  Wes Craven:
-    template:
-      name: People
-      person: Wes Craven

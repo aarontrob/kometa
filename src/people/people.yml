@@ -299,6 +299,7 @@ collections:
     template:
       name: People
       person: Stephen King
+      title: Stephen King's IT
       summary: Stephen King is an American author of contemporary horror, suspense, science fiction, and fantasy fiction. His books have sold more than 350 million copies, which have been adapted into a number of feature films, television movies, and comic books. As of 2011, King has written and published 49 novels, including seven under the pen name Richard Bachman, five non-fiction books, and nine collections of short stories. Many of his stories are set in his home state of Maine. King has received Bram Stoker Awards, World Fantasy Awards, British Fantasy Society Awards, his novella The Way Station was a Nebula Award novelette nominee, and in 2003, the National Book Foundation awarded him the Medal for Distinguished Contribution to American Letters.
   Steve Martin:
     template:
@@ -354,6 +355,12 @@ collections:
         Wesley Wales Anderson (born May 1, 1969) is an American filmmaker. His films are known for their symmetry, eccentricity and distinctive visual and narrative styles, and he is cited by some critics as a modern-day example of the auteur. Three of his films, The Royal Tenenbaums (2001), Moonrise Kingdom (2012), and The Grand Budapest Hotel (2014) appeared in BBC Culture's 2016 poll of the greatest films since 2000.
 
         Anderson was nominated for the Academy Award for Best Original Screenplay for The Royal Tenenbaums (2001), Moonrise Kingdom (2012) and The Grand Budapest Hotel (2014), as well as the Academy Award for Best Animated Feature for the stop-motion films Fantastic Mr. Fox (2009) and Isle of Dogs (2018). With The Grand Budapest Hotel, he received his first Academy Award nominations for Best Director and Best Picture, and won the Golden Globe Award for Best Motion Picture – Musical or Comedy and the BAFTA Award for Best Original Screenplay. He currently runs the production company American Empirical Pictures, which he founded in 1998. He won the Silver Bear for Best Director for Isle of Dogs in 2018.
+  Wes Craven:
+    template:
+      name: People
+      person: Wes Craven
+      summary: >-
+        Wesley Earl "Wes" Craven (August 2, 1939 – August 30, 2015) was a prolific and influential American film director, writer, producer, and occasional actor known for his pioneering work in the horror genre, and particularly in the teen slasher subgenre. Among his best-known works are such landmark films as "The Last House on the Left" (1972), "The Hills Have Eyes" (1977), "A Nightmare on Elm Street" (1984) and the "Scream" series (1996–2011).
   Will Ferrell:
     template:
       name: People

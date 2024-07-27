@@ -118,7 +118,6 @@ collections:
     template:
       name: Collection - Movie
       collection: 221537
-      movie: 549074
       summary: Not since the beginning of time has the world beheld terror like this!
   Creepshow Collection:
     template:
@@ -499,6 +498,7 @@ collections:
   ######################################################
 
   30 Days of Night Collection: *unmanaged
+  47 Meters Down Collection: *unmanaged
   976-EVIL Collection: *unmanaged
   All Hallow's Eve Collection: *unmanaged
   Alligator Collection: *unmanaged
@@ -665,6 +665,10 @@ collections:
   ######################################################
 
   Delete:
+    build_collection: false
+    smart_filter: # Dummy builder
+      all:
+        release: 1
     delete_collections_named:
       - Lights Out Filmreihe
       - Halloween (Rob Zombie Series) Collection

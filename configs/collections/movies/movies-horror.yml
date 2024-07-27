@@ -1,16 +1,17 @@
 templates:
   Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    sync_mode: sync
-    collection_order: release
     default:
       collection_mode: hide_items
     optional:
       - name_mapping
       - sort_title
       - summary
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
+    tmdb_summary: <<collection>>
     summary: <<summary>>
   Collection - Alpha:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
@@ -66,7 +67,7 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movie:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    tmdb_collection: <<collection>>
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
@@ -93,14 +94,17 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide Movie:
-    tmdb_movie: <<movie>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide
     optional:
+      - movie
+      - collection
       - name_mapping
       - sort_title
       - summary
+    tmdb_movie: <<movie>>
+    tmdb_collection: <<collection>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
@@ -253,7 +257,6 @@ collections:
     template:
       name: Collection - Movie
       collection: 221537
-      movie: 549074
       summary: Not since the beginning of time has the world beheld terror like this!
   Creepshow Collection:
     template:
@@ -681,6 +684,7 @@ collections:
     sync_mode: append
     only_run_on_create: true
   30 Days of Night Collection: *ref_0
+  47 Meters Down Collection: *ref_0
   976-EVIL Collection: *ref_0
   All Hallow's Eve Collection: *ref_0
   Alligator Collection: *ref_0
@@ -842,6 +846,10 @@ collections:
   Xtro Collection: *ref_0
   Zombieland Collection: *ref_0
   Delete:
+    build_collection: false
+    smart_filter:
+      all:
+        release: 1
     delete_collections_named:
       - Lights Out Filmreihe
       - Halloween (Rob Zombie Series) Collection

@@ -980,6 +980,7 @@ collections:
     template:
       name: People
       person: Stephen King
+      title: Stephen King's IT
       summary: >-
         Stephen King is an American author of contemporary horror, suspense,
         science fiction, and fantasy fiction. His books have sold more than 350
@@ -1151,6 +1152,18 @@ collections:
         and the BAFTA Award for Best Original Screenplay. He currently runs the
         production company American Empirical Pictures, which he founded in
         1998. He won the Silver Bear for Best Director for Isle of Dogs in 2018.
+  Wes Craven:
+    template:
+      name: People
+      person: Wes Craven
+      summary: >-
+        Wesley Earl "Wes" Craven (August 2, 1939 – August 30, 2015) was a
+        prolific and influential American film director, writer, producer, and
+        occasional actor known for his pioneering work in the horror genre, and
+        particularly in the teen slasher subgenre. Among his best-known works
+        are such landmark films as "The Last House on the Left" (1972), "The
+        Hills Have Eyes" (1977), "A Nightmare on Elm Street" (1984) and the
+        "Scream" series (1996–2011).
   Will Ferrell:
     template:
       name: People
