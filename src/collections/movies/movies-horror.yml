@@ -398,6 +398,11 @@ collections:
       collection: 256296
       movie: 139455
       summary: "Garbage day!"
+  Sleepaway Camp Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: sleepaway-camp-collection
+      summary: A perfect place to die!
   The Slumber Party Massacre Collection:
     template:
       name: Collection - Movie
@@ -688,7 +693,6 @@ collections:
   See No Evil Collection: *unmanaged
   Silent Hill Collection: *unmanaged
   Sinister Collection: *unmanaged
-  Sleepaway Camp Collection: *unmanaged
   Sometimes They Come Back Collection: *unmanaged
   Sorority Babes Collection: *unmanaged
   Stir of Echoes Collection: *unmanaged
