@@ -18,7 +18,7 @@ templates:
     item_genre: Genre_<<item_genre>>
     item_label: Genre_<<item_label>>
     label: Genre_<<label>>
-    sort_title: '!3_Genre <<sort_title>>'
+    sort_title: '!3_Genre <<custom_sort_title>>'
     summary: <<summary>>
   'Genre [Bottom]':
     default:
@@ -39,7 +39,7 @@ templates:
     item_genre: Genre_<<item_genre>>
     item_label: Genre_<<item_label>>
     label: Genre_<<label>>
-    sort_title: ~_Genre <<sort_title>>
+    sort_title: ~_Genre <<custom_sort_title>>
     summary: <<summary>>
   'Genre [Bottom] - Custom':
     default:
@@ -56,7 +56,7 @@ templates:
     item_genre: Genre_<<item_genre>>
     item_label: Genre_<<item_label>>
     label: Genre_<<label>>
-    sort_title: ~_Genre <<sort_title>>
+    sort_title: ~_Genre <<custom_sort_title>>
     summary: <<summary>>
   Genre - Trakt List:
     default:
@@ -78,7 +78,7 @@ templates:
     item_genre: <<item_genre>>
     item_label: Genre_<<item_label>>
     label: Genre_<<label>>
-    sort_title: '!3_Genre <<sort_title>>'
+    sort_title: '!3_Genre <<custom_sort_title>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
     default:
@@ -100,7 +100,7 @@ templates:
     item_genre: <<item_genre>>
     item_label: <<item_label>>
     label: <<label>>
-    sort_title: ~_Genre <<sort_title>>
+    sort_title: ~_Genre <<custom_sort_title>>
     summary: <<summary>>
   Genre - Trakt List Episodes:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
@@ -122,7 +122,7 @@ collections:
       name: Genre - Trakt List
       list: movies-christmas
       smart_label: title.asc
-      sort_title: ~Christmas
+      custom_sort_title: ~Christmas
       summary: Merry Christmas! Sh*tter was full.
   Comedy:
     template:
@@ -141,7 +141,7 @@ collections:
       name: Genre - Trakt List
       list: movies-halloween
       smart_label: title.asc
-      sort_title: ~Halloween
+      custom_sort_title: ~Halloween
       summary: '“Oh, look. Another glorious morning. Makes me sick!”'
   Music:
     template:
@@ -185,7 +185,7 @@ collections:
       list: movies-thanksgiving
       item_genre: Thanksgiving
       smart_label: title.asc
-      sort_title: ~Thanksgiving
+      custom_sort_title: ~Thanksgiving
       summary: 'Gobble, gobble'
   Thriller:
     template:

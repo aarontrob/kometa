@@ -17,7 +17,7 @@ Genre:
   item_genre: Genre_<<item_genre>>
   item_label: Genre_<<item_label>>
   label: Genre_<<label>>
-  sort_title: "!3_Genre <<sort_title>>"
+  sort_title: "!3_Genre <<custom_sort_title>>"
   summary: <<summary>>
 Genre [Bottom]:
   default:
@@ -38,7 +38,7 @@ Genre [Bottom]:
   item_genre: Genre_<<item_genre>>
   item_label: Genre_<<item_label>>
   label: Genre_<<label>>
-  sort_title: ~_Genre <<sort_title>>
+  sort_title: ~_Genre <<custom_sort_title>>
   summary: <<summary>>
 Genre [Bottom] - Custom:
   default:
@@ -55,7 +55,7 @@ Genre [Bottom] - Custom:
   item_genre: Genre_<<item_genre>>
   item_label: Genre_<<item_label>>
   label: Genre_<<label>>
-  sort_title: ~_Genre <<sort_title>>
+  sort_title: ~_Genre <<custom_sort_title>>
   summary: <<summary>>
 Genre - Trakt List:
   default:
@@ -77,7 +77,7 @@ Genre - Trakt List:
   item_genre: <<item_genre>>
   item_label: Genre_<<item_label>>
   label: Genre_<<label>>
-  sort_title: "!3_Genre <<sort_title>>"
+  sort_title: "!3_Genre <<custom_sort_title>>"
   summary: <<summary>>
 Genre [Bottom] - Trakt List:
   default:
@@ -99,7 +99,7 @@ Genre [Bottom] - Trakt List:
   item_genre: <<item_genre>>
   item_label: <<item_label>>
   label: <<label>>
-  sort_title: ~_Genre <<sort_title>>
+  sort_title: ~_Genre <<custom_sort_title>>
   summary: <<summary>>
 Genre - Trakt List Episodes:
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
