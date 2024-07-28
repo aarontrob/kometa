@@ -13,18 +13,9 @@ templates: !!import/shallow
 collections:
   Don Bluth Collection:
     template:
-      name: Director
-      id: 40345
+      name: People - Director
       person: Don Bluth
-  Dr. Seuss Collection:
-    template:
-      name: Writer
-      id: 65705
-      person: Dr. Seuss
-    trakt_list: https://trakt.tv/users/goape/lists/dr-seuss-collection
-    name_mapping: Dr Seuss Collection
   Julia Donaldson Collection:
     template:
-      name: Writer
-      id: 592851
+      name: People - Writer
       person: Julia Donaldson

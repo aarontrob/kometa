@@ -1,56 +1,72 @@
 templates:
   Studio:
-    tmdb_company: <<company>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
     optional:
       - list
+      - sort_title
       - summary
+    tmdb_company: <<company>>
     trakt_list: <<list>>
+    smart_label: release.asc
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Smart:
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
+    optional:
+      - sort_title
+      - summary
     smart_filter:
       any:
         studio: <<studio>>
+        title: <<title>>
       sort_by: release.asc
     item_label: <<collection_name>>
-    sort_title: ++_4<<collection_name>>
-    optional:
-      - summary
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List:
-    trakt_list: <<list>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
     optional:
+      - sort_title
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List Custom Order:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ++_4<<collection_name>>
-    collection_mode: show_items
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
     optional:
+      - sort_title
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Search:
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
+    optional:
+      - sort_title
+      - summary
     plex_search:
       title: <<title>>
     smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
-    optional:
-      - summary
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
 collections:
   Disney:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/disney-25927893'
+      list: disney-25927893
       summary: It was all started with a mouse
   DCEU:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/dceu'
+      list: dceu
       summary: >-
         The DC Extended Universe is an American media franchise and shared
         universe centered on a series of superhero films based on characters
@@ -59,7 +75,7 @@ collections:
   Rankin/Bass Christmas Classics:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/rankin-bass-christmas-classics'
+      list: rankin-bass-christmas-classics
       summary: >-
         Rankin/Bass Animated Entertainment (founded and formerly known as
         Videocraft International, Ltd. and Rankin/Bass Productions, Inc.) was an
@@ -74,7 +90,7 @@ collections:
   Marvel Cinematic Universe:
     template:
       name: Studio - Trakt List Custom Order
-      list: 'https://trakt.tv/users/goape/lists/marvel-cinematic-universe-timeline'
+      list: marvel-cinematic-universe-timeline
       summary: >-
         The Marvel Cinematic Universe is a media franchise created by Marvel
         Studios, set primarily in a shared universe designated as the reality
@@ -87,7 +103,7 @@ collections:
   Universal Monsters:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/universal-monsters'
+      list: universal-monsters
       summary: >-
         Universal Monsters is a media franchise based on a series of horror
         films primarily produced by Universal Pictures from the 1930s to the

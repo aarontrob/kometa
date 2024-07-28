@@ -1,8 +1,0 @@
-collections:
-  New Release:
-    smart_filter:
-      all:
-        release: 365
-      sort_by: added.desc
-    sort_title: '!_First New Release'
-    summary: Movies released in the last year

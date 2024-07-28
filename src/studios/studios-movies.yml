@@ -14,23 +14,23 @@ collections:
     template:
       name: Studio - Trakt List
       # company: 2, 3, 6125, 3166
-      list: https://trakt.tv/users/goape/lists/disney-25927893
+      list: disney-25927893
       summary: "It was all started with a mouse"
   DCEU:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/dceu
+      list: dceu
       summary: The DC Extended Universe is an American media franchise and shared universe centered on a series of superhero films based on characters that appear in American comic books by DC Comics, produced by DC Films and distributed by Warner Bros. Pictures.
   Rankin/Bass Christmas Classics:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/rankin-bass-christmas-classics
+      list: rankin-bass-christmas-classics
       summary: Rankin/Bass Animated Entertainment (founded and formerly known as Videocraft International, Ltd. and Rankin/Bass Productions, Inc.) was an American production company known for its seasonal television specials, usually done in stop motion animation. Rankin/Bass' stop-motion productions are recognizable by their visual style of doll-like characters with spheroid body parts and ubiquitous powdery snow using an animation technique called "Animagic". Often, traditional cel animation scenes of falling snow would be projected over the action to create the effect of a snowfall.
     name_mapping: RankinBass Christmas Classics
   Marvel Cinematic Universe:
     template:
       name: Studio - Trakt List Custom Order
-      list: https://trakt.tv/users/goape/lists/marvel-cinematic-universe-timeline
+      list: marvel-cinematic-universe-timeline
       summary: >-
         The Marvel Cinematic Universe is a media franchise created by Marvel Studios, set primarily in a shared universe designated as the reality Earth-199999 within Marvel's multiverse system, with some installments also set in adjacent or branching realities.
 
@@ -38,5 +38,5 @@ collections:
   Universal Monsters:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/universal-monsters
+      list: universal-monsters
       summary: Universal Monsters is a media franchise based on a series of horror films primarily produced by Universal Pictures from the 1930s to the 1950s.

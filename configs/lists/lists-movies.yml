@@ -1,65 +1,62 @@
 templates:
   List - Trakt List:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ++_5<<collection_name>>
-    smart_label: year.asc
     optional:
       - name_mapping
       - summary
-      - trakt_list_details
-    trakt_list_details: <<trakt_list_details>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
     name_mapping: <<name_mapping>>
+    sort_title: '!6_List <<collection_name>>'
+    smart_label: year.asc
     summary: <<summary>>
   List - Trakt List Custom Order:
+    optional:
+      - name_mapping
+      - summary
     trakt_list: <<list>>
     sync_mode: sync
     collection_order: custom
-    sort_title: ++_5<<collection_name>>
+    sort_title: '!6_List <<collection_name>>'
     collection_mode: show_items
-    optional:
-      - name_mapping
-      - summary
     name_mapping: <<name_mapping>>
     summary: <<summary>>
   List - Trakt List Custom Order Details:
-    trakt_list_details: <<list>>
-    sync_mode: sync
-    collection_order: custom
-    sort_title: ++_5<<collection_name>>
-    collection_mode: show_items
     optional:
       - name_mapping
       - summary
+    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    collection_mode: show_items
     name_mapping: <<name_mapping>>
+    sort_title: '!6_List <<collection_name>>'
     summary: <<summary>>
   List - Letterboxd List:
+    optional:
+      - name_mapping
+      - summary
     letterboxd_list: <<list>>
     sync_mode: sync
     collection_order: custom
-    sort_title: ++_5<<collection_name>>
     collection_mode: show_items
-    optional:
-      - name_mapping
-      - summary
     name_mapping: <<name_mapping>>
+    sort_title: '!6_List <<collection_name>>'
     summary: <<summary>>
   List - IMDB List:
-    letterboxd_list: 'https://www.imdb.com/<<list>>'
-    sync_mode: sync
-    sort_title: ++_5<<collection_name>>
-    smart_label: year.asc
     optional:
       - name_mapping
       - summary
+    letterboxd_list: 'https://www.imdb.com/<<list>>'
+    sync_mode: sync
+    smart_label: year.asc
     name_mapping: <<name_mapping>>
+    sort_title: '!6_List <<collection_name>>'
     summary: <<summary>>
 collections:
   101 Action Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: >-
-        https://trakt.tv/users/goape/lists/101-action-movies-you-must-see-before-you-die
+      list: 101-action-movies-you-must-see-before-you-die
       summary: >-
         Action movies can be called the purest form of cinema because they tell
         their stories visually, rather than through dialogue. Found on this list
@@ -72,8 +69,7 @@ collections:
   101 Cult Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: >-
-        https://trakt.tv/users/goape/lists/101-cult-movies-you-must-see-before-you-die
+      list: 101-cult-movies-you-must-see-before-you-die
       summary: >-
         Many--possibly most--films that achieve cult status begin as box office
         failures, and then over the years start attracting groups of devoted
@@ -84,8 +80,7 @@ collections:
   101 Horror Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: >-
-        https://trakt.tv/users/goape/lists/101-horror-movies-you-must-see-before-you-die
+      list: 101-horror-movies-you-must-see-before-you-die
       summary: >-
         Whether it be internal demons, real-life vampires, anonymous serial
         killers, crazed spouses, vengeful ghosts or Satan himself, horror films
@@ -111,8 +106,7 @@ collections:
   1001 Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: >-
-        https://trakt.tv/users/goape/lists/1001-movies-you-must-see-before-you-die
+      list: 1001-movies-you-must-see-before-you-die
       summary: >-
         "You played it for her, Sam. Now, play it for me." Everybody loves a
         good movie, and Casablanca is just one of the classics described in
@@ -160,8 +154,7 @@ collections:
   101 Sci-Fi Movies You Must See Before You Die:
     template:
       name: List - Trakt List
-      list: >-
-        https://trakt.tv/users/goape/lists/101-sci-fi-movies-you-must-see-before-you-die
+      list: 101-sci-fi-movies-you-must-see-before-you-die
       summary: >-
         If you want to know your Degoba from your Delos or your Ming from your
         Morlock, if you can't decide whether to eat Soylent Green or in Mos
@@ -186,7 +179,7 @@ collections:
   AFI Top 100 Comedy:
     template:
       name: List - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/afi-s-100-years-100-laughs'
+      list: afi-s-100-years-100-laughs
       summary: >-
         Regardless of genre, the films on this list possess a total comedic
         impact that creates an experience greater than the sum of the smiles.
@@ -211,7 +204,7 @@ collections:
   AFI Top 100 Greatest:
     template:
       name: List - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/afi-s-100-years-100-movies'
+      list: afi-s-100-years-100-movies
       summary: >-
         In 1998, AFI invited more than 1,500 leaders from across the American
         film community – screenwriters, directors, actors, producers,
@@ -221,7 +214,7 @@ collections:
   AFI Top 100 Thriller:
     template:
       name: List - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/afi-s-100-years-100-thrills'
+      list: afi-s-100-years-100-thrills
       summary: >-
         Regardless of genre, the total adrenaline-inducing impact of the
         artistry and craft of these films create an experience that engages our
@@ -258,25 +251,17 @@ collections:
   Empire Magazine's 60 Greatest Movie Sequels:
     template:
       name: List - Trakt List Custom Order Details
-      list: >-
-        https://trakt.tv/users/goape/lists/empire-magazine-s-60-greatest-movie-sequels
+      list: empire-magazine-s-60-greatest-movie-sequels
   Oscars Winners:
+    template:
+      name: List - Custom
+      smart_label: release.desc
+      summary: Oscar winning movies
     imdb_search:
       type: movie
       event.winning: oscar
       limit: 500
-    sort_title: ++_5Oscars
-    smart_label: release.desc
     sync_mode: sync
-    summary: Oscar winning movies
-  Trending:
-    trakt_chart:
-      chart: trending
-      limit: 30
-    sort_title: '!_First Trending'
-    smart_label: random
-    sync_mode: sync
-    summary: Movies trending across the internet
   Vulture's 101 Best Movie Endings:
     template:
       name: List - Letterboxd List

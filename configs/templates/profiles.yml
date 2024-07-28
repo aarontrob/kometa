@@ -1,10 +1,9 @@
 Profiles - Trakt List:
+  optional:
+    - summary
   trakt_list: <<list>>
   sync_mode: sync
-  sort_title: ++_1.6<<collection_name>>
+  sort_title: '!2_Profile <<collection_name>>'
   smart_label: title.asc
-  optional:
-    - label
-    - summary
-  label: <<label>>
+  label: Profile_<<collection_name>>
   summary: <<summary>>

@@ -14,7 +14,7 @@ collections:
     template:
       name: Studio
       company: "2, 3, 6125, 3166"
-      list: https://trakt.tv/users/goape/lists/disney
+      list: disney-25927893
       summary: "It was all started with a mouse"
   Disneynature:
     template:
@@ -24,5 +24,5 @@ collections:
   National Geographic:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/national-geographic
+      list: national-geographic
       summary: National Geographic is an American pay television network and flagship channel owned by National Geographic Partners, a joint venture between The Walt Disney Company and the National Geographic Society, with the operational management handled by Walt Disney Television.

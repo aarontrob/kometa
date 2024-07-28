@@ -11,7 +11,7 @@ templates:
         director: <<person>>
         writer: <<person>>
       sort_by: release.asc
-    sort_title: ++_7<<collection_name>>
+    sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Title:
     optional:
@@ -22,7 +22,7 @@ templates:
       any:
         title: <<title>>
       sort_by: release.asc
-    sort_title: ++_7<<collection_name>>
+    sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Actor:
     optional:
@@ -34,7 +34,7 @@ templates:
         title: <<title>>
         actor: <<person>>
       sort_by: release.asc
-    sort_title: ++_7<<collection_name>>
+    sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Actor/Director/Writer:
     optional:
@@ -48,7 +48,7 @@ templates:
         director: <<person>>
         writer: <<person>>
       sort_by: release.asc
-    sort_title: ++_7<<collection_name>>
+    sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Director:
     optional:
@@ -60,7 +60,7 @@ templates:
         title: <<title>>
         director: <<person>>
       sort_by: release.asc
-    sort_title: ++_7<<collection_name>>
+    sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Director/Writer:
     optional:
@@ -73,7 +73,7 @@ templates:
         director: <<person>>
         writer: <<person>>
       sort_by: release.asc
-    sort_title: ++_7<<collection_name>>
+    sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Writer:
     optional:
@@ -85,13 +85,13 @@ templates:
         title: <<title>>
         writer: <<person>>
       sort_by: release.asc
-    sort_title: ++_7<<collection_name>>
+    sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Trakt List:
     optional:
       - summary
     trakt_list: <<list>>
-    sort_title: ++_7<<collection_name>>
+    sort_title: '!7_People <<collection_name>>'
     sync_mode: sync
     smart_label: release.asc
     summary: <<summary>>

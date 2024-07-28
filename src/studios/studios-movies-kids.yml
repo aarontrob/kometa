@@ -14,7 +14,7 @@ collections:
     template:
       name: Studio - Trakt List
       # company: 2, 3, 6125, 3166, 3475, 670
-      list: https://trakt.tv/users/goape/lists/disney-25927893
+      list: disney-25927893
       summary: "It was all started with a mouse"
     # show_filtered: true
     # filters:
@@ -22,13 +22,12 @@ collections:
   Disney Channel Original Movies:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/disney-channel-original-movies
+      list: disney-channel-original-movies
       summary: Disney Channel Original Movies or DCOM (formerly a "Zoog Disney Channel Movie") is any movie that is produced under the Disney Channel canon. They have been made at a rate of at once a year since 1999.
-    sort_title: ++_6Disney2 Channel Original Movies
   Disney Shorts:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/disney-animated-shorts
+      list: disney-animated-shorts
       summary: "It was all started with a mouse"
   DreamWorks Animation:
     template:
@@ -39,7 +38,7 @@ collections:
     template:
       name: Studio
       company: 1353
-      list: https://trakt.tv/users/goape/lists/hanna-barbera
+      list: hanna-barbera
       summary: Hanna-Barbera Productions, Inc. also variously known as H-B Enterprises, H-B Production Co., and Hanna-Barbera Cartoons, Inc., was an American animation studio and production company founded in 1957 by Tom and Jerry creators and former Metro-Goldwyn-Mayer animation directors William Hanna and Joseph Barbera and dominated television with a variety of animated series, including The Huckleberry Hound Show, The Flintstones, The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You! and The Smurfs
   LEGO:
     template:
@@ -49,28 +48,28 @@ collections:
   Pixar Animation Studios:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/pixar-animation-studios
+      list: pixar-animation-studios
       summary: Pixar Animation Studios is an American computer animation studio known for its critically and commercially successful feature films. It is based in Emeryville, California, and is a subsidiary of Walt Disney Studios owned by The Walt Disney Company.
   Pixar Short Films:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/pixar-shorts
+      list: pixar-shorts
       summary: Beginning with Pixar's second film A Bug's Life, almost all subsequent Pixar feature films have been shown in theaters along with a Pixar-created original short film, known as a "short." Other Pixar shorts, released only on home media, were created to showcase Pixar's technology or cinematic capabilities, or on commission for clients.
     collection_mode: hide_items
   Studio Ghibli Animation:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/studio-ghibli
+      list: studio-ghibli
       summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
   Walt Disney Animation Studios:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/walt-disney-animation-studios
+      list: walt-disney-animation-studios
+      sort_title: Disney Animation Studios
       summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
-    sort_title: ++_4Disney Animation Studios
   Walt Disney's Silly Symphony:
     template:
       name: Studio - Trakt List
-      list: https://trakt.tv/users/goape/lists/walt-disney-s-silly-symphony-shorts-25926134
+      list: walt-disney-s-silly-symphony-shorts-25926134
+      sort_title: Disney's Silly Symphony
       summary: Silly Symphony is an American animated series of 75 musical short films produced by Walt Disney Productions from 1929 to 1939. As the series name implies, the Silly Symphonies were originally intended as whimsical accompaniments to pieces of music.
-    sort_title: ++_4Disney's Silly Symphony

@@ -14,7 +14,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: movies-kids-christmas
-      item_genre: Christmas
       smart_label: title.asc
       summary: You're a mean one, Mr. Grinch!
   Easter:
@@ -39,5 +38,4 @@ collections:
     template:
       name: Genre - Trakt List
       list: movies-musicals
-      item_genre: Musical
       smart_label: title.asc

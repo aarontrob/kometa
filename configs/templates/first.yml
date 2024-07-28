@@ -1,0 +1,12 @@
+First - Custom:
+  default:
+    sort_title: '!1_First <<collection_name>>'
+  optional:
+    - sort_title
+    - summary
+  smart_filter:
+    all:
+      genre: <<genre>>
+    sort_by: random
+  sort_title: '!1_First <<sort_title>>'
+  summary: <<summary>>

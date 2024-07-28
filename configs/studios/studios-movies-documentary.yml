@@ -1,51 +1,68 @@
 templates:
   Studio:
-    tmdb_company: <<company>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
     optional:
       - list
+      - sort_title
       - summary
+    tmdb_company: <<company>>
     trakt_list: <<list>>
+    smart_label: release.asc
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Smart:
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
+    optional:
+      - sort_title
+      - summary
     smart_filter:
       any:
         studio: <<studio>>
+        title: <<title>>
       sort_by: release.asc
-    sort_title: ++_4<<collection_name>>
-    optional:
-      - summary
+    item_label: <<collection_name>>
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List:
-    trakt_list: <<list>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
     optional:
+      - sort_title
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List Custom Order:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ++_4<<collection_name>>
-    smart_label: release.asc
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
     optional:
+      - sort_title
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Search:
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
+    optional:
+      - sort_title
+      - summary
     plex_search:
       title: <<title>>
     smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
-    optional:
-      - summary
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
 collections:
   Disney:
     template:
       name: Studio
       company: '2, 3, 6125, 3166'
-      list: 'https://trakt.tv/users/goape/lists/disney'
+      list: disney-25927893
       summary: It was all started with a mouse
   Disneynature:
     template:
@@ -59,7 +76,7 @@ collections:
   National Geographic:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/national-geographic'
+      list: national-geographic
       summary: >-
         National Geographic is an American pay television network and flagship
         channel owned by National Geographic Partners, a joint venture between

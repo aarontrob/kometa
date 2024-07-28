@@ -1,7 +1,12 @@
 Decade:
+  default:
+    sort_title: '!4_Decade <<collection_name>>'
+  optional:
+    - sort_title
+    - summary
   smart_filter:
     any:
       year: <<year>>
     sort_by: year.asc
-  sort_title: ++_3<<collection_name>>
-  only_run_on_create: true
+  sort_title: '!4_Decade <<sort_title>>'
+  summary: <<summary>>

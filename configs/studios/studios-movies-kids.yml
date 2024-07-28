@@ -1,66 +1,80 @@
 templates:
   Studio:
-    tmdb_company: <<company>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
     optional:
       - list
+      - sort_title
       - summary
+    tmdb_company: <<company>>
     trakt_list: <<list>>
+    smart_label: release.asc
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Smart:
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
+    optional:
+      - sort_title
+      - summary
     smart_filter:
       any:
         studio: <<studio>>
         title: <<title>>
       sort_by: release.asc
     item_label: <<collection_name>>
-    sort_title: ++_4<<collection_name>>
-    optional:
-      - summary
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List:
-    trakt_list: <<list>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
     optional:
+      - sort_title
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List Custom Order:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ++_4<<collection_name>>
-    collection_mode: show_items
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
     optional:
+      - sort_title
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Search:
+    default:
+      sort_title: '!5_Studio <<collection_name>>'
+    optional:
+      - sort_title
+      - summary
     plex_search:
       title: <<title>>
     smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
-    optional:
-      - summary
+    sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
 collections:
   Disney:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/disney-25927893'
+      list: disney-25927893
       summary: It was all started with a mouse
   Disney Channel Original Movies:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/disney-channel-original-movies'
+      list: disney-channel-original-movies
       summary: >-
         Disney Channel Original Movies or DCOM (formerly a "Zoog Disney Channel
         Movie") is any movie that is produced under the Disney Channel canon.
         They have been made at a rate of at once a year since 1999.
-    sort_title: ++_6Disney2 Channel Original Movies
   Disney Shorts:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/disney-animated-shorts'
+      list: disney-animated-shorts
       summary: It was all started with a mouse
   DreamWorks Animation:
     template:
@@ -74,7 +88,7 @@ collections:
     template:
       name: Studio
       company: 1353
-      list: 'https://trakt.tv/users/goape/lists/hanna-barbera'
+      list: hanna-barbera
       summary: >-
         Hanna-Barbera Productions, Inc. also variously known as H-B Enterprises,
         H-B Production Co., and Hanna-Barbera Cartoons, Inc., was an American
@@ -92,7 +106,7 @@ collections:
   Pixar Animation Studios:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/pixar-animation-studios'
+      list: pixar-animation-studios
       summary: >-
         Pixar Animation Studios is an American computer animation studio known
         for its critically and commercially successful feature films. It is
@@ -101,7 +115,7 @@ collections:
   Pixar Short Films:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/pixar-shorts'
+      list: pixar-shorts
       summary: >-
         Beginning with Pixar's second film A Bug's Life, almost all subsequent
         Pixar feature films have been shown in theaters along with a
@@ -112,7 +126,7 @@ collections:
   Studio Ghibli Animation:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/studio-ghibli'
+      list: studio-ghibli
       summary: >-
         Studio Ghibli Inc. is a Japanese animation film studio headquartered in
         Koganei, Tokyo. The studio is best known for its animated feature films,
@@ -123,7 +137,8 @@ collections:
   Walt Disney Animation Studios:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/walt-disney-animation-studios'
+      list: walt-disney-animation-studios
+      sort_title: Disney Animation Studios
       summary: >-
         Walt Disney Animation Studios (WDAS), sometimes shortened to Disney
         Animation, is an American animation studio that creates animated
@@ -133,15 +148,13 @@ collections:
         as a division of Walt Disney Studios and is headquartered at the Roy E.
         Disney Animation Building at the Walt Disney Studios lot in Burbank,
         California.
-    sort_title: ++_4Disney Animation Studios
   Walt Disney's Silly Symphony:
     template:
       name: Studio - Trakt List
-      list: >-
-        https://trakt.tv/users/goape/lists/walt-disney-s-silly-symphony-shorts-25926134
+      list: walt-disney-s-silly-symphony-shorts-25926134
+      sort_title: Disney's Silly Symphony
       summary: >-
         Silly Symphony is an American animated series of 75 musical short films
         produced by Walt Disney Productions from 1929 to 1939. As the series
         name implies, the Silly Symphonies were originally intended as whimsical
         accompaniments to pieces of music.
-    sort_title: ++_4Disney's Silly Symphony

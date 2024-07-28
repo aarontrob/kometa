@@ -1,0 +1,33 @@
+templates:
+  First - Custom:
+    default:
+      sort_title: '!1_First <<collection_name>>'
+    optional:
+      - sort_title
+      - summary
+    smart_filter:
+      all:
+        genre: <<genre>>
+      sort_by: random
+    sort_title: '!1_First <<sort_title>>'
+    summary: <<summary>>
+collections:
+  Recently Added:
+    template:
+      name: First - Custom
+      sort_title: '!Recently Added'
+      summary: Added in the last 30 days
+    smart_filter:
+      all:
+        added: 30
+      limit: 100
+      sort_by: added.desc
+  Trending:
+    template:
+      name: First - Custom
+      summary: Movies trending across the internet
+    trakt_chart:
+      chart: trending
+      limit: 30
+    smart_label: random
+    sync_mode: sync

@@ -14,23 +14,21 @@ collections:
     template:
       name: Genre - Trakt List
       list: movies-horror-christmas
-      item_genre: Christmas Horror
-      name_mapping: Christmas Horror
       smart_label: title.asc
       summary: Garbage Day!
   Halloween:
     template:
       name: Genre - Trakt List
       list: movies-halloween
-      item_genre: Halloween
       smart_label: title.asc
       summary: “One, Two, Freddy's Coming For You”
   Horror:
+    template:
+      name: Genre [Bottom] - Custom
     smart_filter:
       all:
         title.not: Gamboozle
-      sort_by: random
-    sort_title: ~_Genre Horror
+        sort_by: random
   Musical:
     template:
       name: Genre - Trakt List

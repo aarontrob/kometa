@@ -10,7 +10,7 @@ People:
       director: <<person>>
       writer: <<person>>
     sort_by: release.asc
-  sort_title: ++_7<<collection_name>>
+  sort_title: '!7_People <<collection_name>>'
   summary: <<summary>>
 People - Title:
   optional:
@@ -21,7 +21,7 @@ People - Title:
     any:
       title: <<title>>
     sort_by: release.asc
-  sort_title: ++_7<<collection_name>>
+  sort_title: '!7_People <<collection_name>>'
   summary: <<summary>>
 People - Actor:
   optional:
@@ -33,7 +33,7 @@ People - Actor:
       title: <<title>>
       actor: <<person>>
     sort_by: release.asc
-  sort_title: ++_7<<collection_name>>
+  sort_title: '!7_People <<collection_name>>'
   summary: <<summary>>
 People - Actor/Director/Writer:
   optional:
@@ -47,7 +47,7 @@ People - Actor/Director/Writer:
       director: <<person>>
       writer: <<person>>
     sort_by: release.asc
-  sort_title: ++_7<<collection_name>>
+  sort_title: '!7_People <<collection_name>>'
   summary: <<summary>>
 People - Director:
   optional:
@@ -59,7 +59,7 @@ People - Director:
       title: <<title>>
       director: <<person>>
     sort_by: release.asc
-  sort_title: ++_7<<collection_name>>
+  sort_title: '!7_People <<collection_name>>'
   summary: <<summary>>
 People - Director/Writer:
   optional:
@@ -72,7 +72,7 @@ People - Director/Writer:
       director: <<person>>
       writer: <<person>>
     sort_by: release.asc
-  sort_title: ++_7<<collection_name>>
+  sort_title: '!7_People <<collection_name>>'
   summary: <<summary>>
 People - Writer:
   optional:
@@ -84,13 +84,13 @@ People - Writer:
       title: <<title>>
       writer: <<person>>
     sort_by: release.asc
-  sort_title: ++_7<<collection_name>>
+  sort_title: '!7_People <<collection_name>>'
   summary: <<summary>>
 People - Trakt List:
   optional:
     - summary
   trakt_list: <<list>>
-  sort_title: ++_7<<collection_name>>
+  sort_title: '!7_People <<collection_name>>'
   sync_mode: sync
   smart_label: release.asc
   summary: <<summary>>

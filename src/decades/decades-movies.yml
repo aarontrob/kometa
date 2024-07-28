@@ -55,6 +55,5 @@ collections:
         - 1958
         - 1959
     name: Classic Movies
-    only_run_on_create: true
-    sort_title: ++_320s-50s
+    sort_title: 20s-50s
     summary: "Here's looking at you, kid."

@@ -2,18 +2,22 @@
 #                    Templates                       #
 ######################################################
 
+templates: !!import/shallow
+  - ../templates/first.yml
+
 ######################################################
-#                  Smart - Movies                    #
+#                  First - Movies                    #
 ######################################################
 
 collections:
   New Release:
+    template:
+      name: First - Custom
+      summary: Movies released in the last year
     smart_filter:
       all:
         release: 365
       sort_by: added.desc
-    sort_title: "!_First New Release"
-    summary: Movies released in the last year
   # Now Showing:
   #   smart_label: release.asc
   #   sort_title: "!_First Now Showing"
