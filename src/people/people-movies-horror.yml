@@ -11,8 +11,11 @@ templates: !!import/shallow
 #####################################################
 
 collections:
-  Stephen King:
+  Agatha Christie:
     template:
-      name: People
-      person: Stephen King
-      title: Stephen King's IT
+      name: People - Title
+      title: Identity
+  Dr. Seuss:
+    template:
+      name: People - Title
+      title: The Mean One

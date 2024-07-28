@@ -13,6 +13,17 @@ templates:
       sort_by: release.asc
     sort_title: ++_7<<collection_name>>
     summary: <<summary>>
+  People - Title:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        title: <<title>>
+      sort_by: release.asc
+    sort_title: ++_7<<collection_name>>
+    summary: <<summary>>
   People - Actor:
     optional:
       - title
@@ -146,7 +157,6 @@ collections:
     template:
       name: People - Writer
       person: Agatha Christie
-      title: Identity
       summary: >-
         Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (née Miller) was
         an English crime novelist, short story writer and playwright. She is
@@ -355,7 +365,6 @@ collections:
     template:
       name: People - Writer
       person: Dr. Seuss
-      title: The Mean One
       summary: >-
         Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 –
         September 24, 1991) was an American children's author and cartoonist. He

@@ -12,6 +12,17 @@ People:
     sort_by: release.asc
   sort_title: ++_7<<collection_name>>
   summary: <<summary>>
+People - Title:
+  optional:
+    - title
+    - person
+    - summary
+  smart_filter:
+    any:
+      title: <<title>>
+    sort_by: release.asc
+  sort_title: ++_7<<collection_name>>
+  summary: <<summary>>
 People - Actor:
   optional:
     - title
