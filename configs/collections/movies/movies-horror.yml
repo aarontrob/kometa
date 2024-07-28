@@ -731,7 +731,7 @@ collections:
         title: Dawn of the Dead
         edition: Argento Cut
     template:
-      name: Collection - Trakt List Custom Order
+      name: Collection - Trakt List
       list: zombi-collection
       summary: >-
         The Zombi Collection is a series of Italian zombie films. The series
