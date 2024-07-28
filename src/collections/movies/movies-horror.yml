@@ -74,6 +74,10 @@ collections:
       collection: 257053
       movie: 7342, 133805
       summary: Carrie White, a shy and troubled teenage girl who is tormented by her high school peers and her fanatically religious mother, begins to use her powers of telekinesis to exact revenge upon them.
+  Cheerleader Camp Collection:
+    template:
+      name: Collection
+      collection: 1047304
   Child's Play Collection:
     template:
       name: Collection - Movie
@@ -146,6 +150,10 @@ collections:
       name: Collection - Movies
       movie: 11495, 532710
       summary: If you get on her bad side...YOU'RE TOAST.
+  Five Nights at Freddy's Collection:
+    template:
+      name: Collection
+      collection: 1240438
   Flatliners Collection:
     template:
       name: Collection - Movies
@@ -237,6 +245,10 @@ collections:
       name: Collection - Movies
       movie: 11549, 11850, 4858, 4722
       summary: A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.
+  It Came from Outer Space Collection:
+    template:
+      name: Collection
+      collection: 1285493
   It Collection:
     template:
       name: Collection
@@ -244,6 +256,10 @@ collections:
       summary: You'll float too.
     plex_search:
       title: Stephen King's IT
+  It Follows Collection:
+    template:
+      name: Collection
+      collection: 1198581
   It's Alive Collection:
     template:
       name: Collection - Movie
@@ -283,6 +299,10 @@ collections:
       collection: 261590, 809185
       movie: 19185, 924, 13025, 29426
       summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
+  M3GAN Collection:
+    template:
+      name: Collection
+      collection: 1071588
   My Bloody Valentine Collection:
     template:
       name: Collection - Movies
@@ -340,6 +360,10 @@ collections:
       collection: 74508
       name_mapping: REC Collection
       summary: One Witness. One Camera
+  Ready or Not Collection:
+    template:
+      name: Collection
+      collection: 1267164
   Resident Evil Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -357,6 +381,10 @@ collections:
       summary: Salem's Lot... where no one rests in peace...
     plex_search:
       title: Salem's Lot
+  Scary Stories to Tell in the Dark Collection:
+    template:
+      name: Collection
+      collection: 1190121
   The Shining Collection:
     template:
       name: Collection - Movie
@@ -377,6 +405,10 @@ collections:
       movie: 818543
       sort_title: Slumber Party Massacre Collection
       summary: You bring the pizza....I'll bring the drill.
+  Smile Collection:
+    template:
+      name: Collection
+      collection: 1100788
   The Stepfather Collection:
     template:
       name: Collection - Movie
@@ -408,11 +440,19 @@ collections:
     template:
       name: Collection
       collection: 115142
+  Talk to Me Collection:
+    template:
+      name: Collection
+      collection: 1162328
   Texas Chainsaw Massacre Collection:
     template:
       name: Collection
       collection: 111751, 425175
       summary: Who will survive and what will be left of them?
+  Thanksgiving Collection:
+    template:
+      name: Collection
+      collection: 1211888
   The Thing Collection:
     template:
       name: Collection - Movie
@@ -427,6 +467,10 @@ collections:
       sort_title: Three Mothers Trilogy
       collection_mode: show_items
       summary: 'The Three Mothers (Italian: Le Tre madri) is a trilogy of supernatural horror films by Italian film director Dario Argento. It consists of Suspiria, Inferno and Mother of Tears. Each film deals with one of the titular "Mothers", a triumvirate of ancient witches whose powerful magic allows them to manipulate world events on a global scale.'
+  Tourist Trap Collection:
+    template:
+      name: Collection
+      collection: 1262015
   The Town That Dreaded Sundown Collection:
     template:
       name: Collection - Movies
@@ -538,7 +582,6 @@ collections:
   Carnosaur Collection: *unmanaged
   Cat People Collection: *unmanaged
   The Cell Collection: *unmanaged
-  Cheerleader Camp Collection: *unmanaged
   Children of the Corn Collection: *unmanaged
   Class of Nuke 'Em High Collection: *unmanaged
   The Collector Collection: *unmanaged
@@ -569,7 +612,6 @@ collections:
   Feast Collection: *unmanaged
   Final Destination Collection: *unmanaged
   Firefly Collection: *unmanaged
-  Five Nights at Freddy's Collection: *unmanaged
   Frankenstein (Hammer) Collection: *unmanaged
   Frankenstein (Universal) Collection: *unmanaged
   The Frogtown Collection: *unmanaged
@@ -598,8 +640,6 @@ collections:
   Inner Sanctum Mysteries Collection: *unmanaged
   Insidious Collection: *unmanaged
   The Invisible Man Collection: *unmanaged
-  It Came from Outer Space Collection: *unmanaged
-  It Follows Collection: *unmanaged
   Jack Frost Collection: *unmanaged
   Jeepers Creepers Collection: *unmanaged
   Joy Ride Collection: *unmanaged
@@ -609,7 +649,6 @@ collections:
   Lake Placid Collection: *unmanaged
   The Lawnmower Man Collection: *unmanaged
   Lost Boys Collection: *unmanaged
-  M3GAN Collection: *unmanaged
   The Mangler Collection: *unmanaged
   Maniac Collection: *unmanaged
   Maniac Cop Collection: *unmanaged
@@ -634,7 +673,6 @@ collections:
   Quarantine Collection: *unmanaged
   Quatermass (Hammer series): *unmanaged
   Re-Animator Collection: *unmanaged
-  Ready or Not Collection: *unmanaged
   The Ring Collection: *unmanaged
   Ring Collection: *unmanaged
   The Rocky Horror Picture Show Collection: *unmanaged
@@ -645,22 +683,17 @@ collections:
   Scanner Cop Collection: *unmanaged
   Scare Package Collection: *unmanaged
   Scary Movie Collection: *unmanaged
-  Scary Stories to Tell in the Dark Collection: *unmanaged
   Scream Collection: *unmanaged
   Screamers Collection: *unmanaged
   See No Evil Collection: *unmanaged
   Silent Hill Collection: *unmanaged
   Sinister Collection: *unmanaged
   Sleepaway Camp Collection: *unmanaged
-  Smile Collection: *unmanaged
   Sometimes They Come Back Collection: *unmanaged
   Sorority Babes Collection: *unmanaged
   Stir of Echoes Collection: *unmanaged
   Swamp Thing Collection: *unmanaged
-  Talk to Me Collection: *unmanaged
   Terrifier Collection: *unmanaged
-  Thanksgiving Collection: *unmanaged
-  Tourist Trap Collection: *unmanaged
   Tremors Collection: *unmanaged
   Trilogy of Terror Collection: *unmanaged
   The Unnamable Collection: *unmanaged
@@ -700,7 +733,7 @@ collections:
       - Halloween (Rob Zombie Series) Collection
       - Karnstein (Hammer) Collection
       - Lights Out Filmreihe
-      - Halloween (Rob Zombie Series) Collection
+      - Maniac Collection
       - The Haunting in Connecticut Collection
       - The Hills Have Eyes (Original) Collection
       - The Hills Have Eyes (Reboot) Collection
