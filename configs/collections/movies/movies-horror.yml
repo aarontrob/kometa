@@ -379,6 +379,10 @@ collections:
       name: Collection
       collection: 166376
       summary: 'If you can''t see him, if you can''t find him, you can''t stop him.'
+  House of 1000 Corpses Collection:
+    template:
+      name: Collection
+      collection: 105625
   House of Wax Collection:
     template:
       name: Collection - Movies
@@ -916,6 +920,7 @@ collections:
       - Army of the Dead Collection
       - The Black Phone Collection
       - The Cube Trilogy
+      - Firefly Collection
       - The Fly (1986) Collection
       - Fright Night (Reboot) Collection
       - Halloween (Rob Zombie Series) Collection
