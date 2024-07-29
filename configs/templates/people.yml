@@ -89,7 +89,7 @@ People - Writer:
 People - Trakt List:
   optional:
     - summary
-  trakt_list: <<list>>
+  trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   sort_title: '!7_People <<collection_name>>'
   sync_mode: sync
   smart_label: release.asc

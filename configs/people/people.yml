@@ -90,7 +90,7 @@ templates:
   People - Trakt List:
     optional:
       - summary
-    trakt_list: <<list>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!7_People <<collection_name>>'
     sync_mode: sync
     smart_label: release.asc
@@ -171,7 +171,7 @@ collections:
   Alfred Hitchcock:
     template:
       name: People - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/alfred-hitchcock-collection'
+      list: alfred-hitchcock-collection
       summary: >-
         Sir Alfred Joseph Hitchcock, KBE (13 August 1899 – 29 April 1980), was
         an English director and producer. Labeled as the "Master of Suspense",
@@ -224,7 +224,7 @@ collections:
   The Beatles:
     template:
       name: People - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/the-beatles'
+      list: the-beatles
       summary: Movies featuring/based on The Beatles
     sort_title: ++_7Beatles Collection
   Charlie Chaplin:
@@ -616,7 +616,7 @@ collections:
   Laurel & Hardy:
     template:
       name: People - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/laurel-hardy'
+      list: laurel-hardy
       summary: >-
         Laurel and Hardy were a British-American comedy team during the early
         Classical Hollywood era of American cinema, consisting of Englishman
@@ -755,7 +755,7 @@ collections:
   Marx Brothers:
     template:
       name: People - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/marx-brothers-collection'
+      list: marx-brothers-collection
       summary: >-
         The Marx Brothers were an American family comedy act that was successful
         in vaudeville, on Broadway, and in motion pictures from 1905 to 1949.
@@ -828,7 +828,7 @@ collections:
   Pryor & Wilder:
     template:
       name: People - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/pryor-wilder-collection'
+      list: pryor-wilder-collection
       summary: >-
         Funnymen Richard Pryor and Gene Wilder first met on the eve of shooting
         the 1976 comedy Silver Streak in Canada. According to accounts, it was a
@@ -873,7 +873,7 @@ collections:
   Ray Harryhausen:
     template:
       name: People - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/ray-harryhausen-collection'
+      list: ray-harryhausen-collection
       summary: >-
         Raymond "Ray" Harryhausen (June 29, 1920 – May 7, 2013) was an American
         visual effects creator, writer, and producer who lived in London,

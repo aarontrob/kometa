@@ -35,7 +35,7 @@ collections:
   Alfred Hitchcock:
     template:
       name: People - Trakt List
-      list: https://trakt.tv/users/goape/lists/alfred-hitchcock-collection
+      list: alfred-hitchcock-collection
       summary: >-
         Sir Alfred Joseph Hitchcock, KBE (13 August 1899 – 29 April 1980), was an English director and producer. Labeled as the "Master of Suspense", he became known for thrillers, often combined with a dark sense of humor. After a successful career in his native country, Hitchcock moved to Hollywood in 1939. Over a career spanning more than half a century, Hitchcock fashioned for himself a distinctive and recognizable directorial style. He pioneered the use of a camera made to move in a way that mimics a person's gaze, forcing viewers to engage in a form of voyeurism. He framed shots to maximize anxiety, fear, or empathy, and used innovative film editing. His stories frequently feature fugitives on the run from the law alongside icy blonde female characters. Many of Hitchcock's films have twist endings and thrilling plots featuring depictions of violence, murder, and crime, although many of the mysteries function as decoys —or MacGuffins— meant only to serve thematic elements in the film and the extremely complex psychological examinations of the characters. Hitchcock's films also borrow many themes from psychoanalysis and feature strong sexual undertones. Through his cameo appearances in his own films, interviews, film trailers, and the television program Alfred Hitchcock Presents (1955-1965), he became a cultural icon.
 
@@ -49,7 +49,7 @@ collections:
   The Beatles:
     template:
       name: People - Trakt List
-      list: https://trakt.tv/users/goape/lists/the-beatles
+      list: the-beatles
       summary: Movies featuring/based on The Beatles
     sort_title: ++_7Beatles Collection
   Charlie Chaplin:
@@ -182,7 +182,7 @@ collections:
   Laurel & Hardy:
     template:
       name: People - Trakt List
-      list: https://trakt.tv/users/goape/lists/laurel-hardy
+      list: laurel-hardy
       summary: >-
         Laurel and Hardy were a British-American comedy team during the early Classical Hollywood era of American cinema, consisting of Englishman Stan Laurel (1890–1965) and American Oliver Hardy (1892–1957). Starting their career as a duo in the silent film era, they later successfully transitioned to "talkies". From the late 1920s to the mid-1950s, they were internationally famous for their slapstick comedy, with Laurel playing the clumsy, childlike friend to Hardy's pompous bully. Their signature theme song, known as "The Cuckoo Song", "Ku-Ku", or "The Dance of the Cuckoos" (by Hollywood composer T. Marvin Hatley) was heard over their films' opening credits, and became as emblematic of them as their bowler hats.
 
@@ -215,7 +215,7 @@ collections:
   Marx Brothers:
     template:
       name: People - Trakt List
-      list: https://trakt.tv/users/goape/lists/marx-brothers-collection
+      list: marx-brothers-collection
       summary: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars and fans to be among the greatest and most influential comedians of the 20th century.
   Mel Brooks:
     template:
@@ -248,7 +248,7 @@ collections:
   Pryor & Wilder:
     template:
       name: People - Trakt List
-      list: https://trakt.tv/users/goape/lists/pryor-wilder-collection
+      list: pryor-wilder-collection
       summary: >-
         Funnymen Richard Pryor and Gene Wilder first met on the eve of shooting the 1976 comedy Silver Streak in Canada. According to accounts, it was a modest encounter: The two exchanged friendly greetings and expressions of admiration for the other's work and went their separate ways. The next day, they got to work together on camera for the first time.
 
@@ -266,7 +266,7 @@ collections:
   Ray Harryhausen:
     template:
       name: People - Trakt List
-      list: https://trakt.tv/users/goape/lists/ray-harryhausen-collection
+      list: ray-harryhausen-collection
       summary: >-
         Raymond "Ray" Harryhausen (June 29, 1920 – May 7, 2013) was an American visual effects creator, writer, and producer who lived in London, England, from 1960 until his death in 2013.
 
