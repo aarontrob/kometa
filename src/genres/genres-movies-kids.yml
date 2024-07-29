@@ -12,30 +12,25 @@ templates: !!import/shallow
 collections:
   Christmas:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-kids-christmas
-      smart_label: title.asc
       summary: You're a mean one, Mr. Grinch!
   Easter:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-kids-easter
-      smart_label: title.asc
       summary: “Hop, hop, hop!”
   Halloween:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-kids-halloween
-      smart_label: title.asc
       summary: Who's afraid of ghosts?
   Thanksgiving:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-kids-thanksgiving
-      smart_label: title.asc
       summary: “Gobble, gobble!”
   Musical:
     template:
       name: Genre - Trakt List
       list: movies-musicals
-      smart_label: title.asc

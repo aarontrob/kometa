@@ -12,7 +12,6 @@ templates: !!import/shallow
 collections:
   Christmas:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-christmas
-      smart_label: title.asc
       summary: Merry Christmas! Sh*tter was full.

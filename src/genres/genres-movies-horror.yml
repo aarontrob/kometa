@@ -12,15 +12,13 @@ templates: !!import/shallow
 collections:
   Christmas Horror:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-horror-christmas
-      smart_label: title.asc
       summary: Garbage Day!
   Halloween:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-halloween
-      smart_label: title.asc
       summary: “One, Two, Freddy's Coming For You”
   Horror:
     template:
@@ -33,7 +31,5 @@ collections:
     template:
       name: Genre - Trakt List
       list: movies-musicals
-      item_genre: Musical
       name_mapping: Musical Horror
-      smart_label: title.asc
       summary: Creature of the night!

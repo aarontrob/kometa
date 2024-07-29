@@ -40,68 +40,102 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
-  People - Actor:
+  People:
+    optional:
+      - title
+      - person
+      - summary
     smart_filter:
       any:
+        title: <<title>>
         actor: <<person>>
+        director: <<person>>
+        writer: <<person>>
+      sort_by: release.asc
+    sort_title: '!7_People <<collection_name>>'
+    summary: <<summary>>
+  People - Title:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
         title: <<title>>
       sort_by: release.asc
-    smart_label: release.desc
-    sort_title: ++_7<<collection_name>>
-  People - Actor Trakt List:
+    sort_title: '!7_People <<collection_name>>'
+    summary: <<summary>>
+  People - Actor:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        title: <<title>>
+        actor: <<person>>
+      sort_by: release.asc
+    sort_title: '!7_People <<collection_name>>'
+    summary: <<summary>>
+  People - Actor/Director/Writer:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        title: <<title>>
+        actor: <<person>>
+        director: <<person>>
+        writer: <<person>>
+      sort_by: release.asc
+    sort_title: '!7_People <<collection_name>>'
+    summary: <<summary>>
+  People - Director:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        title: <<title>>
+        director: <<person>>
+      sort_by: release.asc
+    sort_title: '!7_People <<collection_name>>'
+    summary: <<summary>>
+  People - Director/Writer:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        title: <<title>>
+        director: <<person>>
+        writer: <<person>>
+      sort_by: release.asc
+    sort_title: '!7_People <<collection_name>>'
+    summary: <<summary>>
+  People - Writer:
+    optional:
+      - title
+      - person
+      - summary
+    smart_filter:
+      any:
+        title: <<title>>
+        writer: <<person>>
+      sort_by: release.asc
+    sort_title: '!7_People <<collection_name>>'
+    summary: <<summary>>
+  People - Trakt List:
+    optional:
+      - summary
     trakt_list: <<list>>
-    sort_title: ++_7<<collection_name>>
+    sort_title: '!7_People <<collection_name>>'
     sync_mode: sync
-    smart_label: release.desc
-  Actor List Documentary:
-    sort_title: ++_7<<collection_name>>
-    sync_mode: sync
-    smart_label: release.desc
-  Actor All:
-    tmdb_actor: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_7<<collection_name>>
-    smart_label: release.desc
-  Actor Director:
-    tmdb_actor: <<id>>
-    tmdb_director: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Actor Director Writer:
-    tmdb_actor: <<id>>
-    tmdb_director: <<id>>
-    tmdb_writer: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Actor Writer:
-    tmdb_actor: <<id>>
-    tmdb_writer: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Director:
-    tmdb_director: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Director List:
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    sync_mode: sync
-    smart_label: release.desc
-  Director Writer:
-    tmdb_writer: <<id>>
-    tmdb_director: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
-  Writer:
-    tmdb_writer: <<id>>
-    tmdb_biography: <<id>>
-    sort_title: ++_6<<collection_name>>
-    smart_label: release.desc
+    smart_label: release.asc
+    summary: <<summary>>
   Search:
     plex_search:
       title: <<title>>

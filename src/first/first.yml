@@ -12,7 +12,7 @@ templates: !!import/shallow
 collections:
   Recently Added:
     template:
-      name: First - Custom
+      name: First [Sort Title] - Custom
       sort_title: "!Recently Added"
       summary: Added in the last 30 days
     smart_filter:

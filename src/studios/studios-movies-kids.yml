@@ -63,13 +63,13 @@ collections:
       summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
   Walt Disney Animation Studios:
     template:
-      name: Studio - Trakt List
+      name: Studio [Sort Title] - Trakt List
       list: walt-disney-animation-studios
       sort_title: Disney Animation Studios
       summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
   Walt Disney's Silly Symphony:
     template:
-      name: Studio - Trakt List
+      name: Studio [Sort Title] - Trakt List
       list: walt-disney-s-silly-symphony-shorts-25926134
       sort_title: Disney's Silly Symphony
       summary: Silly Symphony is an American animated series of 75 musical short films produced by Walt Disney Productions from 1929 to 1939. As the series name implies, the Silly Symphonies were originally intended as whimsical accompaniments to pieces of music.

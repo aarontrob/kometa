@@ -1,10 +1,16 @@
 templates:
   Studio:
-    default:
-      sort_title: '!5_Studio <<collection_name>>'
     optional:
       - list
-      - sort_title
+      - summary
+    tmdb_company: <<company>>
+    trakt_list: <<list>>
+    smart_label: release.asc
+    sort_title: '!5_<<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title]':
+    optional:
+      - list
       - summary
     tmdb_company: <<company>>
     trakt_list: <<list>>
@@ -12,10 +18,18 @@ templates:
     sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Smart:
-    default:
-      sort_title: '!5_Studio <<collection_name>>'
     optional:
-      - sort_title
+      - summary
+    smart_filter:
+      any:
+        studio: <<studio>>
+        title: <<title>>
+      sort_by: release.asc
+    item_label: <<collection_name>>
+    sort_title: '!5_<<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Smart':
+    optional:
       - summary
     smart_filter:
       any:
@@ -26,20 +40,29 @@ templates:
     sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List:
-    default:
-      sort_title: '!5_Studio <<collection_name>>'
     optional:
-      - sort_title
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_<<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Trakt List':
+    optional:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     smart_label: release.asc
     sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List Custom Order:
-    default:
-      sort_title: '!5_Studio <<collection_name>>'
     optional:
-      - sort_title
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_<<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Trakt List Custom Order':
+    optional:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
@@ -47,15 +70,12 @@ templates:
     sort_title: '!5_<<sort_title>>'
     summary: <<summary>>
   Studio - Search:
-    default:
-      sort_title: '!5_Studio <<collection_name>>'
     optional:
-      - sort_title
       - summary
     plex_search:
       title: <<title>>
     smart_label: release.asc
-    sort_title: '!5_<<sort_title>>'
+    sort_title: '!5_<<collection_name>>'
     summary: <<summary>>
 collections:
   A24:
@@ -137,7 +157,7 @@ collections:
         Picture Group division and founded on May 9, 2002.
   Walt Disney Pictures:
     template:
-      name: Studio - Smart
+      name: 'Studio [Sort Title] - Smart'
       studio: Walt Disney Pictures
       sort_title: Disney Pictures
       summary: >-

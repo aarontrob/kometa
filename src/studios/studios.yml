@@ -63,7 +63,7 @@ collections:
       summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002.
   Walt Disney Pictures:
     template:
-      name: Studio - Smart
+      name: Studio [Sort Title] - Smart
       studio: Walt Disney Pictures
       sort_title: Disney Pictures
       summary: >-

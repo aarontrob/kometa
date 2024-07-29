@@ -3,56 +3,54 @@ templates:
     optional:
       - name_mapping
       - summary
-      - trakt_list_details
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
-    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<trakt_list_details>>'
     sync_mode: sync
     name_mapping: <<name_mapping>>
     sort_title: '!6_List <<collection_name>>'
     smart_label: year.asc
     summary: <<summary>>
   List - Trakt List Custom Order:
+    optional:
+      - name_mapping
+      - summary
     trakt_list: <<list>>
     sync_mode: sync
     collection_order: custom
     sort_title: '!6_List <<collection_name>>'
     collection_mode: show_items
-    optional:
-      - name_mapping
-      - summary
     name_mapping: <<name_mapping>>
     summary: <<summary>>
   List - Trakt List Custom Order Details:
-    trakt_list_details: <<list>>
-    sync_mode: sync
-    collection_order: custom
-    sort_title: '!6_List <<collection_name>>'
-    collection_mode: show_items
     optional:
       - name_mapping
       - summary
+    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    collection_mode: show_items
     name_mapping: <<name_mapping>>
+    sort_title: '!6_List <<collection_name>>'
     summary: <<summary>>
   List - Letterboxd List:
+    optional:
+      - name_mapping
+      - summary
     letterboxd_list: <<list>>
     sync_mode: sync
     collection_order: custom
-    sort_title: '!6_List <<collection_name>>'
     collection_mode: show_items
-    optional:
-      - name_mapping
-      - summary
     name_mapping: <<name_mapping>>
+    sort_title: '!6_List <<collection_name>>'
     summary: <<summary>>
   List - IMDB List:
-    letterboxd_list: 'https://www.imdb.com/<<list>>'
-    sync_mode: sync
-    sort_title: '!6_List <<collection_name>>'
-    smart_label: year.asc
     optional:
       - name_mapping
       - summary
+    letterboxd_list: 'https://www.imdb.com/<<list>>'
+    sync_mode: sync
+    smart_label: year.asc
     name_mapping: <<name_mapping>>
+    sort_title: '!6_List <<collection_name>>'
     summary: <<summary>>
 collections:
   Fangoria's 101 Best Horror Movies You've Never Seen:

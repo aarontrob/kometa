@@ -1,6 +1,10 @@
 First - Custom:
-  default:
-    sort_title: +1_First <<collection_name>>
+  optional:
+    - sort_title
+    - summary
+  sort_title: '!1_First <<collection_name>>'
+  summary: <<summary>>
+'First [Sort Title] - Custom':
   optional:
     - sort_title
     - summary

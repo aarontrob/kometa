@@ -12,11 +12,11 @@ templates: !!import/shallow
 collections:
   Christmas:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-mom-christmas
       summary: Merry Christmas!
   Hallmark Christmas:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-hallmark-christmas
       summary: Merry Christmas!

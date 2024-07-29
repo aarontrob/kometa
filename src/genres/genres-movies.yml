@@ -20,10 +20,9 @@ collections:
       genre: Adventure
   Christmas:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-christmas
       smart_label: title.asc
-      custom_sort_title: "~Christmas"
       summary: Merry Christmas! Sh*tter was full.
   Comedy:
     template:
@@ -39,23 +38,20 @@ collections:
       genre: Fantasy
   Halloween:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-halloween
-      smart_label: title.asc
-      custom_sort_title: "~Halloween"
       summary: “Oh, look. Another glorious morning. Makes me sick!”
   Music:
     template:
       name: Genre - Trakt List
       list: music
       item_genre: Music
-      smart_label: title.asc
       summary: 🎸 🎸 🎸
+    smart_label: title.asc
   Musical:
     template:
       name: Genre - Trakt List
       list: movies-musicals
-      item_genre: Musical
       summary: Does anyone still wear a hat?
   Mystery:
     template:
@@ -71,22 +67,17 @@ collections:
       name: Genre
       genre: Sports
       list: movies-sports
-      item_genre: Sports
-      smart_label: title.asc
       summary: PLAY BALL!
+    smart_label: title.asc
   Stand Up:
     template:
       name: Genre - Trakt List
       list: movies-standup
-      item_genre: Stand-Up
-      smart_label: title.asc
+    smart_label: title.asc
   Thanksgiving:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: movies-thanksgiving
-      item_genre: Thanksgiving
-      smart_label: title.asc
-      custom_sort_title: "~Thanksgiving"
       summary: Gobble, gobble
   Thriller:
     template:

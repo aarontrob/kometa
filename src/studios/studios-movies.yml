@@ -16,6 +16,11 @@ collections:
       # company: 2, 3, 6125, 3166
       list: disney-25927893
       summary: "It was all started with a mouse"
+  Disneynature:
+    template:
+      name: Studio
+      company: 4436
+      summary: Disneynature is an independent film studio that specializes in the production of nature documentary films for The Walt Disney Studios. The production company was founded on April 21, 2008, and is headquartered in Paris, France.
   DCEU:
     template:
       name: Studio - Trakt List
@@ -35,6 +40,11 @@ collections:
         The Marvel Cinematic Universe is a media franchise created by Marvel Studios, set primarily in a shared universe designated as the reality Earth-199999 within Marvel's multiverse system, with some installments also set in adjacent or branching realities.
 
         Starting with Iron Man, the franchise is comprised mainly of films independently made by Marvel Studios, that are primarily set within this same universe, much like Marvel has done with their comics.
+  National Geographic:
+    template:
+      name: Studio - Trakt List
+      list: national-geographic
+      summary: National Geographic is an American pay television network and flagship channel owned by National Geographic Partners, a joint venture between The Walt Disney Company and the National Geographic Society, with the operational management handled by Walt Disney Television.
   Universal Monsters:
     template:
       name: Studio - Trakt List

@@ -1,84 +1,68 @@
 templates:
   Genre:
-    default:
-      custom_item_genre: <<collection_name>>
-      custom_item_label: Genre_<<collection_name>>
-      custom_label: Genre_<<collection_name>>
-      custom_sort_title: '!3_Genre <<collection_name>>'
     optional:
       - summary
     smart_filter:
       all:
         genre: <<genre>>
       sort_by: random
-    item_genre: Genre_<<custom_item_genre>>
-    item_label: Genre_<<custom_item_label>>
-    label: Genre_<<custom_label>>
-    sort_title: '!3_Genre <<custom_sort_title>>'
+    item_genre: <<collection_name>>
+    item_label: Genre_<<collection_name>>
+    label: Genre_<<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom]':
-    default:
-      custom_item_genre: <<collection_name>>
-      custom_item_label: Genre_<<collection_name>>
-      custom_label: Genre_<<collection_name>>
-      custom_sort_title: '!3_Genre <<collection_name>>'
     optional:
       - summary
     smart_filter:
       all:
         genre: <<genre>>
       sort_by: random
-    item_genre: Genre_<<custom_item_genre>>
-    item_label: Genre_<<custom_item_label>>
-    label: Genre_<<custom_label>>
-    sort_title: ~_Genre <<custom_sort_title>>
+    item_genre: <<collection_name>>
+    item_label: Genre_<<collection_name>>
+    label: Genre_<<collection_name>>
+    sort_title: ~_Genre <<collection_name>>
     summary: <<summary>>
   'Genre [Bottom] - Custom':
-    default:
-      custom_item_genre: <<collection_name>>
-      custom_item_label: Genre_<<collection_name>>
-      custom_label: Genre_<<collection_name>>
-      custom_sort_title: ~_Genre <<collection_name>>
     optional:
       - summary
-    item_genre: Genre_<<custom_item_genre>>
-    item_label: Genre_<<custom_item_label>>
-    label: Genre_<<custom_label>>
-    sort_title: ~_Genre <<custom_sort_title>>
+    item_genre: <<collection_name>>
+    item_label: Genre_<<collection_name>>
+    label: Genre_<<collection_name>>
+    sort_title: ~_Genre <<collection_name>>
     summary: <<summary>>
   Genre - Trakt List:
-    default:
-      custom_item_genre: <<collection_name>>
-      custom_item_label: Genre_<<collection_name>>
-      custom_label: Genre_<<collection_name>>
-      custom_smart_label: release.asc
-      custom_sort_title: '!3_Genre <<collection_name>>'
     optional:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
-    smart_label: <<custom_smart_label>>
-    item_genre: Genre_<<custom_item_genre>>
-    item_label: Genre_<<custom_item_label>>
-    label: Genre_<<custom_label>>
-    sort_title: '!3_Genre <<custom_sort_title>>'
+    smart_label: release.asc
+    item_genre: <<collection_name>>
+    item_label: Genre_<<collection_name>>
+    label: Genre_<<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
-    default:
-      custom_item_genre: <<collection_name>>
-      custom_item_label: Genre_<<collection_name>>
-      custom_label: Genre_<<collection_name>>
-      custom_sort_title: ~_Genre <<collection_name>>
-      custom_smart_label: release.asc
     optional:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
-    smart_label: <<custom_smart_label>>
-    item_genre: Genre_<<custom_item_genre>>
-    item_label: <<item_label>>
-    label: <<label>>
-    sort_title: ~_Genre <<custom_sort_title>>
+    smart_label: random
+    item_genre: <<collection_name>>
+    item_label: Genre_<<collection_name>>
+    label: Genre_<<collection_name>>
+    sort_title: ~_Genre <<collection_name>>
+    summary: <<summary>>
+  'Genre [Holiday] - Trakt List':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    smart_label: title.asc
+    item_genre: <<collection_name>>
+    item_label: Genre_<<collection_name>>
+    label: Genre_<<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List Episodes:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
@@ -89,15 +73,13 @@ templates:
 collections:
   Christmas Horror:
     template:
-      name: Genre - Trakt List
+      name: 'Genre [Holiday] - Trakt List'
       list: movies-horror-christmas
-      smart_label: title.asc
       summary: Garbage Day!
   Halloween:
     template:
-      name: Genre - Trakt List
+      name: 'Genre [Holiday] - Trakt List'
       list: movies-halloween
-      smart_label: title.asc
       summary: '“One, Two, Freddy''s Coming For You”'
   Horror:
     template:
@@ -110,7 +92,5 @@ collections:
     template:
       name: Genre - Trakt List
       list: movies-musicals
-      item_genre: Musical
       name_mapping: Musical Horror
-      smart_label: title.asc
       summary: Creature of the night!
