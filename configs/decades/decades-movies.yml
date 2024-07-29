@@ -1,30 +1,17 @@
 templates:
   Decade:
     optional:
-      - name
       - summary
     smart_filter:
       any:
         year: <<year>>
       sort_by: year.asc
-    name: <<custom_name>>
-    sort_title: '!4_Decade <<collection_name>>'
-    summary: <<summary>>
-  'Decade [Sort Title]':
-    optional:
-      - name
-      - summary
-    smart_filter:
-      any:
-        year: <<year>>
-      sort_by: year.asc
-    name: <<custom_name>>
-    sort_title: '!4_Decade <<sort_title>>'
+    sort_title: '!4_Decade <<mapping_name>>'
     summary: <<summary>>
 collections:
   20s-50s:
     template:
-      name: 'Decade [Sort Title]'
+      name: Decade
       year:
         - 1920
         - 1921
@@ -66,6 +53,5 @@ collections:
         - 1957
         - 1958
         - 1959
-      custom_name: Classic Movies
-      sort_title: 20s-50s
       summary: 'Here''s looking at you, kid.'
+    name: Classic Movies

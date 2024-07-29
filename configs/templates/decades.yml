@@ -1,22 +1,9 @@
 Decade:
   optional:
-    - name
     - summary
   smart_filter:
     any:
       year: <<year>>
     sort_by: year.asc
-  name: <<custom_name>>
-  sort_title: '!4_Decade <<collection_name>>'
-  summary: <<summary>>
-'Decade [Sort Title]':
-  optional:
-    - name
-    - summary
-  smart_filter:
-    any:
-      year: <<year>>
-    sort_by: year.asc
-  name: <<custom_name>>
-  sort_title: '!4_Decade <<sort_title>>'
+  sort_title: '!4_Decade <<mapping_name>>'
   summary: <<summary>>

@@ -12,7 +12,7 @@ templates: !!import/shallow
 collections:
   20s-50s:
     template:
-      name: Decade [Sort Title]
+      name: Decade
       year:
         - 1920
         - 1921
@@ -54,6 +54,5 @@ collections:
         - 1957
         - 1958
         - 1959
-      custom_name: Classic Movies
-      sort_title: 20s-50s
       summary: "Here's looking at you, kid."
+    name: Classic Movies
