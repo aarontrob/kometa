@@ -12,7 +12,7 @@ List - Trakt List Custom Order:
   optional:
     - name_mapping
     - summary
-  trakt_list: <<list>>
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   sync_mode: sync
   collection_order: custom
   sort_title: "!6_List <<collection_name>>"
