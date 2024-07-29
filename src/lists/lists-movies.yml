@@ -97,14 +97,13 @@ collections:
   Oscars Winners:
     template:
       name: List - Custom
-      smart_label: release.desc
       summary: Oscar winning movies
     imdb_search:
       type: movie
       event.winning: oscar
       limit: 500
     sync_mode: sync
-
+    smart_label: release.desc
   # Problematic Collection:
   #   template:
   #     name: Collection - Trakt List

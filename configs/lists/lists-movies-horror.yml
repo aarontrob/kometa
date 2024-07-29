@@ -1,4 +1,9 @@
 templates:
+  List - Custom:
+    optional:
+      - summary
+    sort_title: '!6_List <<collection_name>>'
+    summary: <<summary>>
   List - Trakt List:
     optional:
       - name_mapping
