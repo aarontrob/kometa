@@ -1,7 +1,7 @@
 Profiles - Trakt List:
   optional:
     - summary
-  trakt_list: <<list>>
+  trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   sync_mode: sync
   sort_title: '!2_Profile <<collection_name>>'
   smart_label: title.asc
