@@ -126,11 +126,11 @@ templates:
     summary: <<summary>>
     tmdb_show: <<show>>
 collections:
-  Don Bluth Collection:
+  Don Bluth:
     template:
       name: People - Director
       person: Don Bluth
-  Julia Donaldson Collection:
+  Julia Donaldson:
     template:
       name: People - Writer
       person: Julia Donaldson
