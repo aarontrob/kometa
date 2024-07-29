@@ -1,10 +1,9 @@
 templates:
   People:
     optional:
-      - list
+      - title
       - person
       - summary
-      - title
     smart_filter:
       any:
         title: <<title>>
@@ -12,42 +11,36 @@ templates:
         director: <<person>>
         writer: <<person>>
       sort_by: release.asc
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Title:
     optional:
-      - list
+      - title
       - person
       - summary
-      - title
     smart_filter:
       any:
         title: <<title>>
       sort_by: release.asc
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Actor:
     optional:
-      - list
+      - title
       - person
       - summary
-      - title
     smart_filter:
       any:
         title: <<title>>
         actor: <<person>>
       sort_by: release.asc
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Actor/Director/Writer:
     optional:
-      - list
+      - title
       - person
       - summary
-      - title
     smart_filter:
       any:
         title: <<title>>
@@ -55,59 +48,52 @@ templates:
         director: <<person>>
         writer: <<person>>
       sort_by: release.asc
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Director:
     optional:
-      - list
+      - title
       - person
       - summary
-      - title
     smart_filter:
       any:
         title: <<title>>
         director: <<person>>
       sort_by: release.asc
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Director/Writer:
     optional:
-      - list
+      - title
       - person
       - summary
-      - title
     smart_filter:
       any:
         title: <<title>>
         director: <<person>>
         writer: <<person>>
       sort_by: release.asc
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Writer:
     optional:
-      - list
+      - title
       - person
       - summary
-      - title
     smart_filter:
       any:
         title: <<title>>
         writer: <<person>>
       sort_by: release.asc
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   People - Trakt List:
     optional:
       - summary
+    trakt_list: <<list>>
+    sort_title: '!7_People <<collection_name>>'
     sync_mode: sync
     smart_label: release.asc
-    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
-    sort_title: '!7_People <<collection_name>>'
     summary: <<summary>>
   Search:
     plex_search:
@@ -379,7 +365,7 @@ collections:
     template:
       name: People - Writer
       person: Dr. Seuss
-      list: dr-seuss-collection
+      title: The Lorax
       summary: >-
         Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 –
         September 24, 1991) was an American children's author and cartoonist. He

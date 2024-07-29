@@ -102,7 +102,7 @@ collections:
     template:
       name: People - Writer
       person: Dr. Seuss
-      list: dr-seuss-collection
+      title: The Lorax
       summary: >-
         Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 – September 24, 1991) was an American children's author and cartoonist. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss. His work includes many of the most popular children's books of all time, selling over 600 million copies and being translated into more than 20 languages by the time of his death.
 
