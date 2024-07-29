@@ -4,7 +4,7 @@ templates:
       - list
       - summary
     tmdb_company: <<company>>
-    trakt_list: <<list>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     smart_label: release.asc
     sort_title: '!5_Studio <<collection_name>>'
     summary: <<summary>>
@@ -13,7 +13,7 @@ templates:
       - list
       - summary
     tmdb_company: <<company>>
-    trakt_list: <<list>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     smart_label: release.asc
     sort_title: '!5_Studio <<sort_title>>'
     summary: <<summary>>
