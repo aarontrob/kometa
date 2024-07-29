@@ -6,7 +6,7 @@ Decade:
     any:
       year: <<year>>
     sort_by: year.asc
-  name: <<name>>
+  name: <<custom_name>>
   sort_title: '!4_Decade <<collection_name>>'
   summary: <<summary>>
 'Decade [Sort Title]':
@@ -17,6 +17,6 @@ Decade:
     any:
       year: <<year>>
     sort_by: year.asc
-  name: <<name>>
+  name: <<custom_name>>
   sort_title: '!4_Decade <<sort_title>>'
   summary: <<summary>>

@@ -54,6 +54,6 @@ collections:
         - 1957
         - 1958
         - 1959
-      name: Classic Movies
+      custom_name: Classic Movies
       sort_title: 20s-50s
       summary: "Here's looking at you, kid."
