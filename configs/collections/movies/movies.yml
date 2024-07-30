@@ -9,6 +9,7 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
+    minimum_items: 2
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     tmdb_summary: <<collection>>
@@ -17,6 +18,7 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
+    minimum_items: 2
     default:
       collection_mode: hide_items
     optional:
@@ -30,6 +32,7 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
+    minimum_items: 2
     default:
       collection_mode: hide_items
     optional:
@@ -1094,11 +1097,10 @@ collections:
       name: Collection - Movies
       movie: '10166, 531219'
       summary: They're real!
-  The Wizard of Oz Collection:
+  Wizard of Oz Collection:
     template:
       name: Collection - Hide Movie
       movie: 630
-      sort_title: Wizard of Oz Collection
       summary: 'We''re off to see the Wizard, the wonderful wizard of Oz'
   Wizarding World Collection:
     template:

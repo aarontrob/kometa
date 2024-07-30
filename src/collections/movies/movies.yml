@@ -820,11 +820,10 @@ collections:
       name: Collection - Movies
       movie: 10166, 531219
       summary: They're real!
-  The Wizard of Oz Collection:
+  Wizard of Oz Collection:
     template:
       name: Collection - Hide Movie
       movie: 630
-      sort_title: Wizard of Oz Collection
       summary: "We're off to see the Wizard, the wonderful wizard of Oz"
   Wizarding World Collection:
     template:
