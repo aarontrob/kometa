@@ -6,6 +6,15 @@ templates: !!import/shallow
   - ../../templates/collection.yml
   - ../../templates/collection-movies.yml
   - ../../templates/search.yml
+  - ../../templates/unmanaged.yml
+
+######################################################
+#                    Variables                       #
+######################################################
+
+unmanaged: &unmanaged
+  template:
+    name: Unmanaged
 
 ######################################################
 #                   Collections                      #
@@ -44,6 +53,13 @@ collections:
       name: Collection - Trakt List Custom Order
       list: alvin-and-the-chipmunks-collection
       summary: Get your squeak on!
+  The Bad Guys Collection:
+    template:
+      name: Collection - Movie
+      collection: 1231053
+      movie: 1046032
+      sort_title: Bad Guys Collection
+      summary: The adventures of "The Bad Guys". Are they really bad? Can they really be "Good Guys"?
   Batman Collection:
     template:
       name: Search
@@ -76,6 +92,10 @@ collections:
       name: Collection - Movies
       movie: 62177, 141423
       summary: Change your fate.
+  Bugs Bunny's Collection:
+    template:
+      name: Collection
+      collection: 1199065
   Captain Underpants Collection:
     template:
       name: Collection - Movie
@@ -266,6 +286,13 @@ collections:
       collection: 97460
       movie: 512895
       summary: She's blue ribbon... he's back-alley... and IT'S LOVE AND LAUGHTER... EVER AFTER!
+  The Lego Movie Collection:
+    template:
+      name: Collection - Movie
+      collection: 325470
+      movie: 274862, 324849
+      sort_title: Lego Movie Collection
+      summary: They come in pieces.
   The Lion King Collection:
     template:
       name: Collection - Movie
@@ -515,12 +542,6 @@ collections:
       name: Collection
       collection: 106768
       summary: Two Worlds. One Family.
-  The Lego Movie Collection:
-    template:
-      name: Collection - Movie
-      collection: 325470
-      movie: 274862, 324849
-      summary: They come in pieces.
   Teenage Mutant Ninja Turtles Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -534,6 +555,7 @@ collections:
     template:
       name: Collection
       collection: 271668
+      sort_title: Three Caballeros Collection
       summary: A CARTOON FIESTA of FUN and FANTASY!
   Tom and Jerry Collection:
     template:
@@ -575,7 +597,7 @@ collections:
       name: Collection - Trakt List Custom Order
       list: winnie-the-pooh-collection
       summary: Hip Hip Poohray!
-  The Wizard of Oz Collection:
+  Wizard of Oz Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: the-wizard-of-oz-collection
@@ -585,3 +607,161 @@ collections:
       name: Search
       title: Yogi
       summary: Yogi Bear is a anthropomorphic animal character who has appeared in numerous comic books, animated television shows and films. He made his debut in 1958 as a supporting character in The Huckleberry Hound Show.
+
+  ######################################################
+  #               Unmanaged Collections                #
+  ######################################################
+
+  All Dogs Go to Heaven Collection: *unmanaged
+  An American Tail Collection: *unmanaged
+  Anastasia Collection: *unmanaged
+  Angels in the ... Collection: *unmanaged
+  The Angry Birds Collection: *unmanaged
+  Atlantis Collection: *unmanaged
+  Babe Collection: *unmanaged
+  Balto Collection: *unmanaged
+  Bambi Collection: *unmanaged
+  Beethoven Collection: *unmanaged
+  The Benji Collection: *unmanaged
+  Beverly Hills Chihuahua Collection: *unmanaged
+  The Brave Little Toaster Collection: *unmanaged
+  Brother Bear Collection: *unmanaged
+  Charlotte's Web Collection: *unmanaged
+  Cheaper by the Dozen Collection: *unmanaged
+  The Cheetah Girls Collection: *unmanaged
+  Chicken Run Collection: *unmanaged
+  Cloudy with a Chance of Meatballs Collection: *unmanaged
+  The Croods Collection: *unmanaged
+  Curious George Collection: *unmanaged
+  Davy Crockett Collection: *unmanaged
+  DC Super Hero Girls Collection: *unmanaged
+  Dennis the Menace Collection: *unmanaged
+  Descendants Collection: *unmanaged
+  Despicable Me Collection: *unmanaged
+  Disney Buddies Collection: *unmanaged
+  The Emperor's New Groove Collection: *unmanaged
+  Enchanted Collection: *unmanaged
+  Fantasia Collection: *unmanaged
+  FernGully Collection: *unmanaged
+  The Fox and the Hound Collection: *unmanaged
+  Free Willy Collection: *unmanaged
+  George of the Jungle Collection: *unmanaged
+  Gnomeo & Juliet Collection: *unmanaged
+  Good Burger Collection: *unmanaged
+  A Goofy Movie Collection: *unmanaged
+  Goosebumps Collection: *unmanaged
+  The Gruffalo Collection: *unmanaged
+  Halloweentown Collection: *unmanaged
+  Happy Feet Collection: *unmanaged
+  Herbie Collection: *unmanaged
+  High School Musical Collection: *unmanaged
+  Homeward Bound Collection: *unmanaged
+  Honey, I Shrunk the Kids Collection: *unmanaged
+  The Hunchback of Notre Dame Collection: *unmanaged
+  Johnny Tsunami Collection: *unmanaged
+  The Karate Kid Collection: *unmanaged
+  A Kid in... Collection: *unmanaged
+  The Land Before Time Collection: *unmanaged
+  Life-Size Collection: *unmanaged
+  Lilo & Stitch Collection: *unmanaged
+  Maleficent Collection: *unmanaged
+  The Mighty Ducks Collection: *unmanaged
+  Moana Collection: *unmanaged
+  Mr. Boogedy Collection: *unmanaged
+  The Neverending Story Collection: *unmanaged
+  The Nut Job Collection: *unmanaged
+  The Old Yeller Collection: *unmanaged
+  Open Season Collection: *unmanaged
+  Pee-wee's Collection: *unmanaged
+  Percy Jackson Collection: *unmanaged
+  Peter Rabbit Collection: *unmanaged
+  Planes Collection: *unmanaged
+  Pocahontas Collection: *unmanaged
+  Prehysteria Collection: *unmanaged
+  Prep & Landing Collection: *unmanaged
+  The Princess Diaries Collection: *unmanaged
+  Puss in Boots Collection: *unmanaged
+  The Rescuers Collection: *unmanaged
+  Richie Rich Collection: *unmanaged
+  Rio Collection: *unmanaged
+  The Sandlot Collection: *unmanaged
+  Santa Paws Collection: *unmanaged
+  The Secret Of NIMH Collection: *unmanaged
+  Short Circuit Collection: *unmanaged
+  Sing Collection: *unmanaged
+  The Snowman Collection: *unmanaged
+  Space Jam Collection: *unmanaged
+  Stuart Little Collection: *unmanaged
+  Surf's Up Collection: *unmanaged
+  Teen Titans Go! Collection: *unmanaged
+  Timon and Pumbaa Collection: *unmanaged
+  Tinker Bell Collection: *unmanaged
+  White Fang Collection: *unmanaged
+  Witch Mountain Collection: *unmanaged
+  Woody Woodpecker Collection: *unmanaged
+  Wreck-It Ralph Collection: *unmanaged
+  Zenon Collection: *unmanaged
+  Zog Collection: *unmanaged
+  Zootopia Collection: *unmanaged
+
+  ######################################################
+  #                Delete Collections                  #
+  ######################################################
+
+  Delete:
+    build_collection: false
+    smart_filter: # Dummy builder
+      all:
+        release: 1
+    delete_collections_named:
+      - 101 Dalmatians (Animated) Collection
+      - 101 Dalmatians (Live-Action) Collection
+      - 3 Ninja Kids Collection
+      - Batman (Adam West) Animation Collection
+      - Batman (DC Universe Animated) Collection
+      - Batman Beyond Collection
+      - Batman Unlimited Collection
+      - Big Fat Liar Collection
+      - Bugs Bunny's Movies Collection
+      - Caballeros Collection
+      - Cars Toons
+      - Combat Wombat Collection
+      - Cruella Collection
+      - Dexter Riley Collection
+      - Diary of a Wimpy Kid (Animated) Collection
+      - "Dragons: Rescue Riders Collection"
+      - Garfield Animated Collection
+      - Garfield CGI Collection
+      - Hercules (Disney) Collection
+      - Heroes United Collection
+      - Hey Arnold Movie Collection
+      - Inspector Gadget (Animated) Collection
+      - Jungle Cruise Collection
+      - LEGO Marvel Super Heroes Collection
+      - LEGO Scooby-Doo Collection
+      - LEGO Star Wars (Seasonal) Collection
+      - LEGO Star Wars Collection
+      - Leo - Collection
+      - The Lion King (Reboot) Collection
+      - Lupin The Third Collection
+      - "Pokémon: Advanced Generation Collection"
+      - "Pokémon: Best Wishes! Collection"
+      - "Pokémon: Diamond and Pearl Collection"
+      - Scooby-Doo Collection
+      - Scooby-Doo! The Mystery Begins Collection
+      - Scooby-Doo! Zombie Island Collection
+      - The Smurfs (Animated) Collection
+      - "Star Wars: The Ewok Adventures Collection"
+      - Super Mario Bros. Collection
+      - Superman (DC Universe Animated) Collection
+      - Tarzan (Animation) Collection
+      - Teenage Mutant Ninja Turtles (Animated) Collection
+      - Teenage Mutant Ninja Turtles (Remake) Collection
+      - Tom and Jerry in Oz Collection
+      - Treasure Island (Disney) Collection
+      - The Trolls Collection
+      - Trolls Holiday Collection
+      - Twitches Collection
+      - Ultimate Avengers Collection
+      - The Wonderful Seasons of Mickey Mouse Collection
+      - Wizard of Oz Collection

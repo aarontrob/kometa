@@ -1,21 +1,24 @@
 templates:
   Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    sync_mode: sync
-    collection_order: release
     default:
       collection_mode: hide_items
     optional:
       - name_mapping
       - sort_title
       - summary
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
+    minimum_items: 2
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
+    tmdb_summary: <<collection>>
     summary: <<summary>>
   Collection - Alpha:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
+    minimum_items: 2
     default:
       collection_mode: hide_items
     optional:
@@ -29,6 +32,7 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
+    minimum_items: 2
     default:
       collection_mode: hide_items
     optional:
@@ -66,7 +70,7 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movie:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    tmdb_collection: <<collection>>
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
@@ -93,14 +97,17 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide Movie:
-    tmdb_movie: <<movie>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide
     optional:
+      - movie
+      - collection
       - name_mapping
       - sort_title
       - summary
+    tmdb_movie: <<movie>>
+    tmdb_collection: <<collection>>
+    sync_mode: sync
+    collection_order: release
+    collection_mode: hide
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
@@ -120,6 +127,12 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
     tmdb_show: <<show>>
+  Unmanaged:
+    label: Unmanaged
+    blank_collection: true
+unmanaged: &ref_0
+  template:
+    name: Unmanaged
 collections:
   101 Dalmatians Collection:
     template:
@@ -153,6 +166,15 @@ collections:
       name: Collection - Trakt List Custom Order
       list: alvin-and-the-chipmunks-collection
       summary: Get your squeak on!
+  The Bad Guys Collection:
+    template:
+      name: Collection - Movie
+      collection: 1231053
+      movie: 1046032
+      sort_title: Bad Guys Collection
+      summary: >-
+        The adventures of "The Bad Guys". Are they really bad? Can they really
+        be "Good Guys"?
   Batman Collection:
     template:
       name: Search
@@ -185,6 +207,10 @@ collections:
       name: Collection - Movies
       movie: '62177, 141423'
       summary: Change your fate.
+  Bugs Bunny's Collection:
+    template:
+      name: Collection
+      collection: 1199065
   Captain Underpants Collection:
     template:
       name: Collection - Movie
@@ -396,6 +422,13 @@ collections:
       summary: >-
         She's blue ribbon... he's back-alley... and IT'S LOVE AND LAUGHTER...
         EVER AFTER!
+  The Lego Movie Collection:
+    template:
+      name: Collection - Movie
+      collection: 325470
+      movie: '274862, 324849'
+      sort_title: Lego Movie Collection
+      summary: They come in pieces.
   The Lion King Collection:
     template:
       name: Collection - Movie
@@ -672,12 +705,6 @@ collections:
       name: Collection
       collection: 106768
       summary: Two Worlds. One Family.
-  The Lego Movie Collection:
-    template:
-      name: Collection - Movie
-      collection: 325470
-      movie: '274862, 324849'
-      summary: They come in pieces.
   Teenage Mutant Ninja Turtles Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -691,6 +718,7 @@ collections:
     template:
       name: Collection
       collection: 271668
+      sort_title: Three Caballeros Collection
       summary: A CARTOON FIESTA of FUN and FANTASY!
   Tom and Jerry Collection:
     template:
@@ -732,7 +760,7 @@ collections:
       name: Collection - Trakt List Custom Order
       list: winnie-the-pooh-collection
       summary: Hip Hip Poohray!
-  The Wizard of Oz Collection:
+  Wizard of Oz Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: the-wizard-of-oz-collection
@@ -745,3 +773,151 @@ collections:
         Yogi Bear is a anthropomorphic animal character who has appeared in
         numerous comic books, animated television shows and films. He made his
         debut in 1958 as a supporting character in The Huckleberry Hound Show.
+  All Dogs Go to Heaven Collection: *ref_0
+  An American Tail Collection: *ref_0
+  Anastasia Collection: *ref_0
+  Angels in the ... Collection: *ref_0
+  The Angry Birds Collection: *ref_0
+  Atlantis Collection: *ref_0
+  Babe Collection: *ref_0
+  Balto Collection: *ref_0
+  Bambi Collection: *ref_0
+  Beethoven Collection: *ref_0
+  The Benji Collection: *ref_0
+  Beverly Hills Chihuahua Collection: *ref_0
+  The Brave Little Toaster Collection: *ref_0
+  Brother Bear Collection: *ref_0
+  Charlotte's Web Collection: *ref_0
+  Cheaper by the Dozen Collection: *ref_0
+  The Cheetah Girls Collection: *ref_0
+  Chicken Run Collection: *ref_0
+  Cloudy with a Chance of Meatballs Collection: *ref_0
+  The Croods Collection: *ref_0
+  Curious George Collection: *ref_0
+  Davy Crockett Collection: *ref_0
+  DC Super Hero Girls Collection: *ref_0
+  Dennis the Menace Collection: *ref_0
+  Descendants Collection: *ref_0
+  Despicable Me Collection: *ref_0
+  Disney Buddies Collection: *ref_0
+  The Emperor's New Groove Collection: *ref_0
+  Enchanted Collection: *ref_0
+  Fantasia Collection: *ref_0
+  FernGully Collection: *ref_0
+  The Fox and the Hound Collection: *ref_0
+  Free Willy Collection: *ref_0
+  George of the Jungle Collection: *ref_0
+  Gnomeo & Juliet Collection: *ref_0
+  Good Burger Collection: *ref_0
+  A Goofy Movie Collection: *ref_0
+  Goosebumps Collection: *ref_0
+  The Gruffalo Collection: *ref_0
+  Halloweentown Collection: *ref_0
+  Happy Feet Collection: *ref_0
+  Herbie Collection: *ref_0
+  High School Musical Collection: *ref_0
+  Homeward Bound Collection: *ref_0
+  'Honey, I Shrunk the Kids Collection': *ref_0
+  The Hunchback of Notre Dame Collection: *ref_0
+  Johnny Tsunami Collection: *ref_0
+  The Karate Kid Collection: *ref_0
+  A Kid in... Collection: *ref_0
+  The Land Before Time Collection: *ref_0
+  Life-Size Collection: *ref_0
+  Lilo & Stitch Collection: *ref_0
+  Maleficent Collection: *ref_0
+  The Mighty Ducks Collection: *ref_0
+  Moana Collection: *ref_0
+  Mr. Boogedy Collection: *ref_0
+  The Neverending Story Collection: *ref_0
+  The Nut Job Collection: *ref_0
+  The Old Yeller Collection: *ref_0
+  Open Season Collection: *ref_0
+  Pee-wee's Collection: *ref_0
+  Percy Jackson Collection: *ref_0
+  Peter Rabbit Collection: *ref_0
+  Planes Collection: *ref_0
+  Pocahontas Collection: *ref_0
+  Prehysteria Collection: *ref_0
+  Prep & Landing Collection: *ref_0
+  The Princess Diaries Collection: *ref_0
+  Puss in Boots Collection: *ref_0
+  The Rescuers Collection: *ref_0
+  Richie Rich Collection: *ref_0
+  Rio Collection: *ref_0
+  The Sandlot Collection: *ref_0
+  Santa Paws Collection: *ref_0
+  The Secret Of NIMH Collection: *ref_0
+  Short Circuit Collection: *ref_0
+  Sing Collection: *ref_0
+  The Snowman Collection: *ref_0
+  Space Jam Collection: *ref_0
+  Stuart Little Collection: *ref_0
+  Surf's Up Collection: *ref_0
+  Teen Titans Go! Collection: *ref_0
+  Timon and Pumbaa Collection: *ref_0
+  Tinker Bell Collection: *ref_0
+  White Fang Collection: *ref_0
+  Witch Mountain Collection: *ref_0
+  Woody Woodpecker Collection: *ref_0
+  Wreck-It Ralph Collection: *ref_0
+  Zenon Collection: *ref_0
+  Zog Collection: *ref_0
+  Zootopia Collection: *ref_0
+  Delete:
+    build_collection: false
+    smart_filter:
+      all:
+        release: 1
+    delete_collections_named:
+      - 101 Dalmatians (Animated) Collection
+      - 101 Dalmatians (Live-Action) Collection
+      - 3 Ninja Kids Collection
+      - Batman (Adam West) Animation Collection
+      - Batman (DC Universe Animated) Collection
+      - Batman Beyond Collection
+      - Batman Unlimited Collection
+      - Big Fat Liar Collection
+      - Bugs Bunny's Movies Collection
+      - Caballeros Collection
+      - Cars Toons
+      - Combat Wombat Collection
+      - Cruella Collection
+      - Dexter Riley Collection
+      - Diary of a Wimpy Kid (Animated) Collection
+      - 'Dragons: Rescue Riders Collection'
+      - Garfield Animated Collection
+      - Garfield CGI Collection
+      - Hercules (Disney) Collection
+      - Heroes United Collection
+      - Hey Arnold Movie Collection
+      - Inspector Gadget (Animated) Collection
+      - Jungle Cruise Collection
+      - LEGO Marvel Super Heroes Collection
+      - LEGO Scooby-Doo Collection
+      - LEGO Star Wars (Seasonal) Collection
+      - LEGO Star Wars Collection
+      - Leo - Collection
+      - The Lion King (Reboot) Collection
+      - Lupin The Third Collection
+      - 'Pokémon: Advanced Generation Collection'
+      - 'Pokémon: Best Wishes! Collection'
+      - 'Pokémon: Diamond and Pearl Collection'
+      - Scooby-Doo Collection
+      - Scooby-Doo! The Mystery Begins Collection
+      - Scooby-Doo! Zombie Island Collection
+      - The Smurfs (Animated) Collection
+      - 'Star Wars: The Ewok Adventures Collection'
+      - Super Mario Bros. Collection
+      - Superman (DC Universe Animated) Collection
+      - Tarzan (Animation) Collection
+      - Teenage Mutant Ninja Turtles (Animated) Collection
+      - Teenage Mutant Ninja Turtles (Remake) Collection
+      - Tom and Jerry in Oz Collection
+      - Treasure Island (Disney) Collection
+      - The Trolls Collection
+      - Trolls Holiday Collection
+      - Twitches Collection
+      - Ultimate Avengers Collection
+      - The Wonderful Seasons of Mickey Mouse Collection
+      - Wizard of Oz Collection
