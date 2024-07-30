@@ -92,10 +92,11 @@ collections:
       name: Collection - Movies
       movie: 62177, 141423
       summary: Change your fate.
-  Bugs Bunny's Collection:
+  Bugs Bunny Collection:
     template:
       name: Collection
       collection: 1199065
+      summary: What's up, Doc?
   Captain Underpants Collection:
     template:
       name: Collection - Movie
@@ -702,7 +703,6 @@ collections:
   Wreck-It Ralph Collection: *unmanaged
   Zenon Collection: *unmanaged
   Zog Collection: *unmanaged
-  Zootopia Collection: *unmanaged
 
   ######################################################
   #                Delete Collections                  #
@@ -765,3 +765,4 @@ collections:
       - Ultimate Avengers Collection
       - The Wonderful Seasons of Mickey Mouse Collection
       - Wizard of Oz Collection
+      - Zootopia Collection
