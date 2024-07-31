@@ -4,14 +4,13 @@
 
 templates: !!import/shallow
   - ../templates/people.yml
-  - ../templates/search.yml
 
 ######################################################
 #                   Directors                        #
 ######################################################
 
 collections:
-  Nicholas Sparks Collection:
+  Nicholas Sparks:
     template:
-      name: Writer
-      id: 64172
+      name: People - Writer
+      person: Nicholas Sparks

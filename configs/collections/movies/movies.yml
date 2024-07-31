@@ -383,6 +383,17 @@ collections:
       summary: >-
         A world beyond your experience, beyond your imagination. A place beyond
         your dreams.
+  Eastrail 177 Collection:
+    template:
+      name: Collection - Movies
+      movie: '9741, 381288, 450465'
+      summary: >-
+        The Eastrail 177 Trilogy is an American superhero thriller and
+        psychological horror film series. The films were written, produced, and
+        directed by M. Night Shyamalan. The trilogy consists of Unbreakable,
+        Split, and Glass. The entire franchise features the character of David
+        Dunn and follows his life as he realizes he has superpowers after
+        surviving a train crash.
   Eraser Collection:
     template:
       name: Collection - Movies
@@ -1183,7 +1194,6 @@ collections:
   Dr. Mabuse Collection: *ref_0
   DragonHeart Collection: *ref_0
   Dumb and Dumber Collection: *ref_0
-  Eastrail 177 Collection: *ref_0
   Enola Holmes Collection: *ref_0
   The Equalizer Collection: *ref_0
   Escape From ... Collection: *ref_0
