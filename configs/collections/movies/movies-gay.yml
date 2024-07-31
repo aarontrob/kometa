@@ -111,6 +111,9 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
+  Unmanaged:
+    label: Unmanaged
+    blank_collection: true
 unmanaged: &ref_0
   template:
     name: Unmanaged

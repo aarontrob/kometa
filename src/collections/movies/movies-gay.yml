@@ -5,6 +5,7 @@
 templates: !!import/shallow
   - ../../templates/collection.yml
   - ../../templates/collection-movies.yml
+  - ../../templates/unmanaged.yml
 
 ######################################################
 #                    Variables                       #

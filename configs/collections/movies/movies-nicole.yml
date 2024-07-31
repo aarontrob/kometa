@@ -1,21 +1,24 @@
 templates:
   Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    sync_mode: sync
-    collection_order: release
     default:
       collection_mode: hide_items
     optional:
       - name_mapping
       - sort_title
       - summary
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
+    minimum_items: 2
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
+    tmdb_summary: <<collection>>
     summary: <<summary>>
   Collection - Alpha:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
+    minimum_items: 2
     default:
       collection_mode: hide_items
     optional:
@@ -29,6 +32,7 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
+    minimum_items: 2
     default:
       collection_mode: hide_items
     optional:
@@ -66,7 +70,7 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movie:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    tmdb_collection: <<collection>>
     tmdb_movie: <<movie>>
     sync_mode: sync
     collection_order: release
@@ -93,33 +97,23 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide Movie:
+    optional:
+      - movie
+      - collection
+      - name_mapping
+      - sort_title
+      - summary
     tmdb_movie: <<movie>>
+    tmdb_collection: <<collection>>
     sync_mode: sync
     collection_order: release
     collection_mode: hide
-    optional:
-      - name_mapping
-      - sort_title
-      - summary
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
-  Search:
-    plex_search:
-      title: <<title>>
-    sync_mode: sync
-    collection_order: release
-    default:
-      collection_mode: hide_items
-    optional:
-      - name_mapping
-      - sort_title
-      - summary
-      - show
-    name_mapping: <<name_mapping>>
-    sort_title: <<sort_title>>
-    summary: <<summary>>
-    tmdb_show: <<show>>
+  Unmanaged:
+    label: Unmanaged
+    blank_collection: true
 collections:
   Anne of Green Gables Collection:
     template:
