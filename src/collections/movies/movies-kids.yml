@@ -71,6 +71,10 @@ collections:
       collection: 153010
       movie: 321612
       summary: Tale as old as time.
+  Benji Collection:
+    template:
+      name: Collection
+      collection: 424830
   Big Hero 6 Collection:
     template:
       name: Collection - Hide Movie
@@ -623,7 +627,6 @@ collections:
   Balto Collection: *unmanaged
   Bambi Collection: *unmanaged
   Beethoven Collection: *unmanaged
-  The Benji Collection: *unmanaged
   Beverly Hills Chihuahua Collection: *unmanaged
   The Brave Little Toaster Collection: *unmanaged
   Brother Bear Collection: *unmanaged
