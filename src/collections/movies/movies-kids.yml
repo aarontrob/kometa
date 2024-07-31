@@ -126,6 +126,12 @@ collections:
       title: Cat in the Hat
       sort_title: Cat in the Hat Collection
       summary: The Cat in the Hat is a 1957 children's book written and illustrated by the American author Theodor Geisel, using the pen name Dr. Seuss. The story centers on a tall anthropomorphic cat who wears a red and white-striped hat and a red bow tie.
+  Charlotte's Web Collection:
+    template:
+      name: Collection - Movie
+      collection: 263193
+      movie: 9986
+      summary: Something unexpected, unbelievable, unforgettable.
   "Chip 'n Dale Collection":
     template:
       name: Collection - Movies
@@ -630,7 +636,6 @@ collections:
   Beverly Hills Chihuahua Collection: *unmanaged
   The Brave Little Toaster Collection: *unmanaged
   Brother Bear Collection: *unmanaged
-  Charlotte's Web Collection: *unmanaged
   Cheaper by the Dozen Collection: *unmanaged
   The Cheetah Girls Collection: *unmanaged
   Chicken Run Collection: *unmanaged

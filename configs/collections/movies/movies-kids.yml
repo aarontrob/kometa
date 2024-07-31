@@ -245,6 +245,12 @@ collections:
         the American author Theodor Geisel, using the pen name Dr. Seuss. The
         story centers on a tall anthropomorphic cat who wears a red and
         white-striped hat and a red bow tie.
+  Charlotte's Web Collection:
+    template:
+      name: Collection - Movie
+      collection: 263193
+      movie: 9986
+      summary: 'Something unexpected, unbelievable, unforgettable.'
   Chip 'n Dale Collection:
     template:
       name: Collection - Movies
@@ -791,7 +797,6 @@ collections:
   Beverly Hills Chihuahua Collection: *ref_0
   The Brave Little Toaster Collection: *ref_0
   Brother Bear Collection: *ref_0
-  Charlotte's Web Collection: *ref_0
   Cheaper by the Dozen Collection: *ref_0
   The Cheetah Girls Collection: *ref_0
   Chicken Run Collection: *ref_0
