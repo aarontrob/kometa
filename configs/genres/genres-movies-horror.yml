@@ -6,9 +6,6 @@ templates:
       all:
         genre: <<genre>>
       sort_by: random
-    item_genre: <<collection_name>>
-    item_label: Genre_<<collection_name>>
-    label: Genre_<<collection_name>>
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom]':
@@ -18,17 +15,11 @@ templates:
       all:
         genre: <<genre>>
       sort_by: random
-    item_genre: <<collection_name>>
-    item_label: Genre_<<collection_name>>
-    label: Genre_<<collection_name>>
     sort_title: ~_Genre <<collection_name>>
     summary: <<summary>>
   'Genre [Bottom] - Custom':
     optional:
       - summary
-    item_genre: <<collection_name>>
-    item_label: Genre_<<collection_name>>
-    label: Genre_<<collection_name>>
     sort_title: ~_Genre <<collection_name>>
     summary: <<summary>>
   Genre - Trakt List:
@@ -48,9 +39,6 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     smart_label: random
-    item_genre: <<collection_name>>
-    item_label: Genre_<<collection_name>>
-    label: Genre_<<collection_name>>
     sort_title: ~_Genre <<collection_name>>
     summary: <<summary>>
   'Genre [Holiday] - Trakt List':
