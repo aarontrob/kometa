@@ -919,6 +919,7 @@ collections:
   Extraction Collection: *unmanaged
   Fantastic Beasts Collection: *unmanaged
   The Fast and the Furious Collection: *unmanaged
+  Frank James Collection: *unmanaged
   Frankenstein (Toho) Collection: *unmanaged
   Freeway Collection: *unmanaged
   French Connection Collection: *unmanaged
@@ -1091,8 +1092,10 @@ collections:
       - Atomic Blonde Collection
       - Baby Driver Collection
       - The Batman Collection
+      - Batman Ninja Collection
       - "Batman: The Dark Knight Returns Collection"
       - "Batman: The Long Halloween Collection"
+      - Battlestar Galactica (Original) Collection
       - Battlestar Galactica (Reboot) Collection
       - Beavis and Butt-Head Do A Collection
       - The Benchwarmers Collection
@@ -1118,6 +1121,7 @@ collections:
       - Father of the Bride (Steve Martin) Collection
       - Free Guy Collection
       - The Fugitive / U.S. Marshal Collection
+      - G.I. Joe (Live-Action) Collection
       - Gamera (Showa) Collection
       - The Godfather Trilogy
       - Godzilla (Anime) Collection
@@ -1192,4 +1196,5 @@ collections:
       - Undercover Brother Collection
       - Violent Night Collection
       - Without a Paddle Collection
+      - The Wizard of Oz Collection
       - The X Files Collection

@@ -68,7 +68,6 @@ collections:
       genre: Sports
       list: movies-sports
       summary: PLAY BALL!
-    smart_label: title.asc
   Stand Up:
     template:
       name: Genre - Trakt List
