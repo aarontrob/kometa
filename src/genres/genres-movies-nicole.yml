@@ -12,6 +12,6 @@ templates: !!import/shallow
 collections:
   Christmas:
     template:
-      name: Genre [Holiday] - Trakt List
+      name: Genre [Holiday] - Trakt List [Hide Items]
       list: movies-mom-christmas
       summary: Merry Christmas!
