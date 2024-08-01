@@ -5,6 +5,7 @@
 templates: !!import/shallow
   - ../../templates/collection.yml
   - ../../templates/collection-movies.yml
+  - ../../templates/search.yml
   - ../../templates/unmanaged.yml
 
 ######################################################
@@ -30,11 +31,13 @@ collections:
   ######################################################
 
   Best Exotic Marigold Hotel Collection: *unmanaged
+  Book Club Collection: *unmanaged
   Bridget Jones Collection: *unmanaged
   Christmas in Evergreen Collection: *unmanaged
   A Gift to Remember Collection: *unmanaged
   A Godwink Christmas Collection: *unmanaged
   The Mistletoe Collection: *unmanaged
+  Mrs. Miracle Collection: *unmanaged
   Northpole Collection: *unmanaged
   Sarah, Plain and Tall Collection: *unmanaged
   Sister Swap Collection: *unmanaged
@@ -58,5 +61,6 @@ collections:
       - Mr. Darcy Collection
       - The Nine Lives of Christmas Collection
       - Signed Sealed Delivered Collection
+      - Single Santa Seeks Mrs. Claus Collection
       - A Town Without Christmas Collection
       - Three Wise Men Collection

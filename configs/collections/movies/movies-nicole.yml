@@ -111,6 +111,22 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
+  Search:
+    plex_search:
+      title: <<title>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+      - show
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+    tmdb_show: <<show>>
   Unmanaged:
     label: Unmanaged
     blank_collection: true
@@ -123,11 +139,13 @@ collections:
       name: Search
       title: Anne of Green Gables
   Best Exotic Marigold Hotel Collection: *ref_0
+  Book Club Collection: *ref_0
   Bridget Jones Collection: *ref_0
   Christmas in Evergreen Collection: *ref_0
   A Gift to Remember Collection: *ref_0
   A Godwink Christmas Collection: *ref_0
   The Mistletoe Collection: *ref_0
+  Mrs. Miracle Collection: *ref_0
   Northpole Collection: *ref_0
   'Sarah, Plain and Tall Collection': *ref_0
   Sister Swap Collection: *ref_0
@@ -146,5 +164,6 @@ collections:
       - Mr. Darcy Collection
       - The Nine Lives of Christmas Collection
       - Signed Sealed Delivered Collection
+      - Single Santa Seeks Mrs. Claus Collection
       - A Town Without Christmas Collection
       - Three Wise Men Collection
