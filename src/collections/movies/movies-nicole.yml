@@ -8,6 +8,14 @@ templates: !!import/shallow
   - ../../templates/unmanaged.yml
 
 ######################################################
+#                    Variables                       #
+######################################################
+
+unmanaged: &unmanaged
+  template:
+    name: Unmanaged
+
+######################################################
 #                   Collections                      #
 ######################################################
 
@@ -16,3 +24,39 @@ collections:
     template:
       name: Search
       title: Anne of Green Gables
+
+  ######################################################
+  #               Unmanaged Collections                #
+  ######################################################
+
+  Best Exotic Marigold Hotel Collection: *unmanaged
+  Bridget Jones Collection: *unmanaged
+  Christmas in Evergreen Collection: *unmanaged
+  A Gift to Remember Collection: *unmanaged
+  A Godwink Christmas Collection: *unmanaged
+  The Mistletoe Collection: *unmanaged
+  Northpole Collection: *unmanaged
+  Sarah, Plain and Tall Collection: *unmanaged
+  Sister Swap Collection: *unmanaged
+  Time for Me to Come Home Collection: *unmanaged
+
+  ######################################################
+  #                Delete Collections                  #
+  ######################################################
+
+  Delete:
+    build_collection: false
+    smart_filter: # Dummy builder
+      all:
+        release: 1
+    delete_collections_named:
+      - At Graceland Collection
+      - The Bridge Collection
+      - Christmas in Canaan Collection
+      - Haul Out The Holly Collection
+      - L.M. Montgomery's Anne of Green Gables Collection
+      - Mr. Darcy Collection
+      - The Nine Lives of Christmas Collection
+      - Signed Sealed Delivered Collection
+      - A Town Without Christmas Collection
+      - Three Wise Men Collection
