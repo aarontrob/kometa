@@ -64,8 +64,3 @@ collections:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-mom-christmas
       summary: Merry Christmas!
-  Hallmark Christmas:
-    template:
-      name: 'Genre [Holiday] - Trakt List'
-      list: movies-hallmark-christmas
-      summary: Merry Christmas!
