@@ -3,25 +3,8 @@
 ######################################################
 
 templates: !!import/shallow
-  - ../templates/collection-tv-shows.yml
   - ../templates/people.yml
   - ../templates/search.yml
-
 ######################################################
-#                   Directors                        #
+#                     People                         #
 ######################################################
-
-collections:
-  Ken Burns Collection:
-    template:
-      name: Director
-      id: 204484
-
-  ######################################################
-  #               People Collections                   #
-  ######################################################
-
-  David Attenborough Collection:
-    template:
-      name: Actor
-      person: David Attenborough

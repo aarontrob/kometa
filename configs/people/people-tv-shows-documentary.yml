@@ -1,45 +1,4 @@
 templates:
-  Collection - Show:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    tmdb_show: <<show>>
-    sync_mode: sync
-    collection_order: release
-    default:
-      collection_mode: hide_items
-    optional:
-      - name_mapping
-      - sort_title
-      - summary
-    name_mapping: <<name_mapping>>
-    sort_title: <<sort_title>>
-    summary: <<summary>>
-  Collection - Shows:
-    tmdb_show: <<show>>
-    sync_mode: sync
-    collection_order: release
-    default:
-      collection_mode: hide_items
-    optional:
-      - name_mapping
-      - sort_title
-      - summary
-      - tvdb_show
-    name_mapping: <<name_mapping>>
-    sort_title: <<sort_title>>
-    tvdb_show: <<tvdb_show>>
-    summary: <<summary>>
-  Collection - Hide Show:
-    tmdb_show: <<show>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide
-    optional:
-      - name_mapping
-      - sort_title
-      - summary
-    name_mapping: <<name_mapping>>
-    sort_title: <<sort_title>>
-    summary: <<summary>>
   People:
     optional:
       - title
@@ -131,8 +90,16 @@ templates:
   People - Trakt List:
     optional:
       - summary
-    trakt_list: <<list>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!7_People <<collection_name>>'
+    sync_mode: sync
+    smart_label: release.asc
+    summary: <<summary>>
+  'People [Sort Title] - Trakt List':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sort_title: '!7_People <<sort_title>>'
     sync_mode: sync
     smart_label: release.asc
     summary: <<summary>>
@@ -152,12 +119,3 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
     tmdb_show: <<show>>
-collections:
-  Ken Burns Collection:
-    template:
-      name: Director
-      id: 204484
-  David Attenborough Collection:
-    template:
-      name: Actor
-      person: David Attenborough
