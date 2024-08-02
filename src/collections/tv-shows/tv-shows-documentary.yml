@@ -32,7 +32,7 @@ collections:
       show: 234324
   Star Trek:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 137895
       summary: Live long, and prosper
   Star Wars:

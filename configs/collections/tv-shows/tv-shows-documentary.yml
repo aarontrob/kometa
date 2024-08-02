@@ -1,21 +1,24 @@
 templates:
   Collection:
-    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
-    sync_mode: sync
-    collection_order: release
     default:
       collection_mode: hide_items
     optional:
       - name_mapping
       - sort_title
       - summary
+    tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
+    sync_mode: sync
+    collection_order: release
+    minimum_items: 2
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
+    tmdb_summary: <<collection>>
     summary: <<summary>>
   Collection - Alpha:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: alpha
+    minimum_items: 2
     default:
       collection_mode: hide_items
     optional:
@@ -29,6 +32,7 @@ templates:
     tmdb_collection: 'https://www.themoviedb.org/collection/<<collection>>'
     sync_mode: sync
     collection_order: release
+    minimum_items: 2
     default:
       collection_mode: hide_items
     optional:
@@ -145,7 +149,7 @@ collections:
       show: 234324
   Star Trek:
     template:
-      name: Collection - Hide
+      name: Collection - Hide Show
       show: 137895
       summary: 'Live long, and prosper'
   Star Wars:
