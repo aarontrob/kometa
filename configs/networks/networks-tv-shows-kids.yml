@@ -1,21 +1,26 @@
 templates:
   Network:
-    tmdb_network: <<network>>
-    sort_title: ++_5.5<<collection_name>>
-    smart_label: year.asc
     optional:
-      - tmdb_movie
-      - trakt_list
+      - list
       - summary
-    tmdb_movie: <<tmdb_movie>>
-    trakt_list: <<trakt_list>>
+    tmdb_network: <<network>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: year.asc
+    sort_title: '!5.5_Network: <<collection_name>>'
     summary: <<summary>>
   Network - Trakt List:
-    trakt_list: <<list>>
-    sort_title: ++_5.5<<collection_name>>
-    smart_label: year.asc
     optional:
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: year.asc
+    sort_title: '!5.5_Network: <<collection_name>>'
+    summary: <<summary>>
+  'Network [Sort Title] - Trakt List':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: year.asc
+    sort_title: '!5.5_Network: <<sort_title>>'
     summary: <<summary>>
 collections:
   Cartoon Network:
@@ -37,25 +42,17 @@ collections:
         television channel that serves as the flagship property of owner Disney
         Branded Television, a unit of the Disney General Entertainment Content
         division of The Walt Disney Company.
-    show_filtered: true
-    filters:
-      title.not:
-        - 'Mickey Mouse: Mixed-Up Adventures'
-        - The Lion Guard
-        - The Book of Pooh
-        - The New Yogi Bear Show
-        - 'Tron: Uprising'
   The Disney Afternoon Collection:
     template:
-      name: Network - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/disney-afternoon-collection'
+      name: 'Network [Sort Title] - Trakt List'
+      list: disney-afternoon-collection
+      sort_title: Disney2 Afternoon Collection
       summary: >-
         The Disney Afternoon was a created-for-syndication two-hour animated
         television block programming produced by Walt Disney Television
         Animation and distributed through its syndication affiliate Buena Vista
         Television. Each show from the block has aired reruns on Disney Channel
         and Toon Disney.
-    sort_title: ++_5Disney2 Afternoon Collection
   Disney Junior:
     template:
       name: Network
@@ -69,7 +66,3 @@ collections:
       name: Network
       network: 13
       summary: 'Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon'
-    show_filtered: true
-    filters:
-      title.not:
-        - Power Rangers

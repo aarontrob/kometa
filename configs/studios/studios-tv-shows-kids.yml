@@ -1,58 +1,93 @@
 templates:
   Studio:
-    tmdb_company: <<company>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
     optional:
       - list
       - summary
-    trakt_list: <<list>>
+    tmdb_company: <<company>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title]':
+    optional:
+      - list
+      - summary
+    tmdb_company: <<company>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<sort_title>>'
     summary: <<summary>>
   Studio - Smart:
+    optional:
+      - summary
     smart_filter:
       any:
         studio: <<studio>>
         title: <<title>>
       sort_by: release.asc
     item_label: <<collection_name>>
-    sort_title: ++_4<<collection_name>>
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Smart':
     optional:
       - summary
+    smart_filter:
+      any:
+        studio: <<studio>>
+        title: <<title>>
+      sort_by: release.asc
+    item_label: <<collection_name>>
+    sort_title: '!5_Studio <<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List:
-    trakt_list: <<list>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
     optional:
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Trakt List':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List Custom Order:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ++_4<<collection_name>>
-    collection_mode: show_items
     optional:
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Trakt List Custom Order':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_Studio <<sort_title>>'
     summary: <<summary>>
   Studio - Search:
+    optional:
+      - summary
     plex_search:
       title: <<title>>
     smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
-    optional:
-      - summary
+    sort_title: '!5_Studio <<collection_name>>'
     summary: <<summary>>
 collections:
   Disney:
     template:
       name: Studio
       company: '2, 3, 6125, 3166, 3475, 670'
-      list: 'https://trakt.tv/users/goape/lists/disney'
+      list: disney
   Hanna-Barbera:
     template:
       name: Studio
       company: 1353
-      list: 'https://trakt.tv/users/goape/lists/hanna-barbera'
+      list: hanna-barbera
       summary: >-
         Hanna-Barbera Productions, Inc. also variously known as H-B Enterprises,
         H-B Production Co., and Hanna-Barbera Cartoons, Inc., was an American
@@ -73,18 +108,15 @@ collections:
     template:
       name: Studio
       company: '7505, 19551, 420, 11106, 13252, 38679'
-      list: 'https://trakt.tv/users/goape/lists/marvel'
+      list: marvel
       summary: With great power comes great responsibility
     plex_search:
       title: I Am Groot
-    show_filtered: true
-    filters:
-      title.not: 'Men In Black: The Series'
   Marvel Animation:
     template:
       name: Studio
       company: 13252
-      list: 'https://trakt.tv/users/goape/lists/marvel-animation'
+      list: marvel-animation
       summary: >-
         Marvel Animation, Inc. (originally the home entertainment and TV
         production division of Marvel Studios and also referred to as Marvel
@@ -100,7 +132,7 @@ collections:
   Pixar Animation Studios:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/pixar-animation-studios'
+      list: pixar-animation-studios
       summary: >-
         Pixar Animation Studios is an American computer animation studio known
         for its critically and commercially successful feature films. It is

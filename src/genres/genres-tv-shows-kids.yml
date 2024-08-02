@@ -13,4 +13,4 @@ collections:
   Christmas Episodes:
     template:
       name: Genre - Trakt List Episodes
-      list: https://trakt.tv/users/goape/lists/tv-christmas-episodes
+      list: tv-christmas-episodes
