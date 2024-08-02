@@ -1,51 +1,88 @@
 templates:
   Studio:
-    tmdb_company: <<company>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
     optional:
       - list
       - summary
-    trakt_list: <<list>>
+    tmdb_company: <<company>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title]':
+    optional:
+      - list
+      - summary
+    tmdb_company: <<company>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<sort_title>>'
     summary: <<summary>>
   Studio - Smart:
+    optional:
+      - summary
     smart_filter:
       any:
         studio: <<studio>>
+        title: <<title>>
       sort_by: release.asc
-    sort_title: ++_4<<collection_name>>
+    item_label: <<collection_name>>
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Smart':
     optional:
       - summary
+    smart_filter:
+      any:
+        studio: <<studio>>
+        title: <<title>>
+      sort_by: release.asc
+    item_label: <<collection_name>>
+    sort_title: '!5_Studio <<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List:
-    trakt_list: <<list>>
-    smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
     optional:
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Trakt List':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<sort_title>>'
     summary: <<summary>>
   Studio - Trakt List Custom Order:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ++_4<<collection_name>>
-    smart_label: release.asc
     optional:
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Trakt List Custom Order':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_Studio <<sort_title>>'
     summary: <<summary>>
   Studio - Search:
+    optional:
+      - summary
     plex_search:
       title: <<title>>
     smart_label: release.asc
-    sort_title: ++_4<<collection_name>>
-    optional:
-      - summary
+    sort_title: '!5_Studio <<collection_name>>'
     summary: <<summary>>
 collections:
   A24:
     template:
       name: Studio
       company: 41077
-      list: 'https://trakt.tv/users/goape/lists/a24'
+      list: a24
       summary: >-
         A24 is an American independent entertainment company founded on August
         20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes
@@ -55,7 +92,7 @@ collections:
     template:
       name: Studio
       company: 9993
-      list: 'https://trakt.tv/users/goape/lists/dc'
+      list: dc
       summary: >-
         DC Films is an American film studio that is a subsidiary of Warner Bros.
         through the Warner Bros. Pictures Group, dedicated to the production of
@@ -63,7 +100,7 @@ collections:
   DC Animated Originals:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/dc-animated'
+      list: dc-animated
       summary: >-
         The DC Animated Universe (DCAU; also referred to as the Timmverse or
         Diniverse by fans) is a shared universe of superhero-based animated
@@ -89,7 +126,7 @@ collections:
   Marvel Cinematic Universe:
     template:
       name: Studio - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/mcu'
+      list: mcu
       summary: >-
         The Marvel Cinematic Universe is a media franchise created by Marvel
         Studios, set primarily in a shared universe designated as the reality
