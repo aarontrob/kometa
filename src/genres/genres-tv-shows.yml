@@ -29,10 +29,6 @@ collections:
     template:
       name: Genre - Trakt List Episodes
       list: tv-halloween-episodes
-  Musical:
-    template:
-      name: Genre - Trakt List
-      list: tv-musicals
   Thanksgiving Episodes:
     template:
       name: Genre - Trakt List Episodes

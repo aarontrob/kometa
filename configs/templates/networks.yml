@@ -1,7 +1,7 @@
 Network:
   optional:
     - tmdb_movie
-    - trakt_list
+    - list
     - summary
   tmdb_network: <<network>>
   tmdb_movie: <<tmdb_movie>>

@@ -1,0 +1,22 @@
+overlays:
+  Bravo:
+    overlay:
+      name: Bravo
+      file: config/overlays/Bravo/overlay-v2.png
+    plex_search:
+      all:
+        label: Bravo
+  Disney-Channel:
+    overlay:
+      name: Disney-Channel
+      file: config/overlays/Disney-Channel/overlay-v2.png
+    plex_search:
+      all:
+        label: Disney Channel
+  History:
+    overlay:
+      name: History
+      file: config/overlays/History/overlay-v2.png
+    plex_search:
+      all:
+        label: History

@@ -252,7 +252,7 @@ collections:
   Indiana Jones Collection:
     template:
       name: Collection - Shows
-      show: 661, 97563
+      show: 661, 248522
       summary: Snakes! Why does it always have to be snakes?
   Iron Man Collection:
     template:
@@ -315,7 +315,7 @@ collections:
   Miss Marple Collection:
     template:
       name: Collection - Shows
-      show: 6127, 217749
+      show: 239625, 6127
       summary: Miss Marple is a fictional character in Agatha Christie's crime novels and short stories. Jane Marple lives in the village of St. Mary Mead and acts as an amateur consulting detective.
   "Mission: Impossible Collection":
     template:

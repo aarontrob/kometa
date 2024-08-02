@@ -1,0 +1,22 @@
+overlays:
+  # A24:
+  #   overlay:
+  #     name: A24
+  #     file: config/overlays/A24/overlay.png
+  #   plex_search:
+  #     all:
+  #       collection: A24
+  Hammer-Films:
+    overlay:
+      name: Hammer-Films
+      file: config/overlays/Hammer-Films/overlay-hammer.png
+    plex_search:
+      all:
+        label: Hammer Films
+  RankinBass:
+    overlay:
+      name: RankinBass
+      file: config/overlays/RankinBass/overlay.png
+    plex_search:
+      all:
+        label: Rankin/Bass Christmas Classics

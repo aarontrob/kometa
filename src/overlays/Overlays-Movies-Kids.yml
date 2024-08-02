@@ -1,0 +1,15 @@
+overlays:
+  Disney-Channel:
+    overlay:
+      name: Disney-Channel
+      file: config/overlays/Disney-Channel/overlay-v2.png
+    plex_search:
+      all:
+        label: Disney Channel Original Movies
+  Hanna-Barbera:
+    overlay:
+      name: Hannah-Barbera
+      file: config/overlays/Hanna-Barbera/overlay-v4.png
+    plex_search:
+      all:
+        label: Hanna-Barbera

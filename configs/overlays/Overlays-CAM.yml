@@ -1,0 +1,12 @@
+overlays:
+  CAM:
+    overlay:
+      name: CAM
+      file: config/overlays/Cam/overlay.png
+    plex_search:
+      all:
+        release.after: 01/01/2022
+    filters:
+      filepath.regex:
+        - (?i)\bCAM\b
+        - (?i)\bTELESYNC\b
