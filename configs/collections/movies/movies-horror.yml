@@ -510,8 +510,9 @@ collections:
       summary: Exploring the blackness of the subconscious man!
   A Quiet Place Collection:
     template:
-      name: Collection
+      name: Collection - Movie
       collection: 521226
+      movie: 762441
       sort_title: Quiet Place Collection
       summary: >-
         A series of films that revolve around people struggling to survive in a
