@@ -1,19 +1,18 @@
 templates:
   Profiles - Trakt List:
-    trakt_list: <<list>>
-    sync_mode: sync
-    sort_title: ++_1.6<<collection_name>>
-    smart_label: title.asc
     optional:
-      - label
       - summary
-    label: <<label>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    sort_title: '!2_Profile <<collection_name>>'
+    smart_label: title.asc
+    label: Profile_<<collection_name>>
     summary: <<summary>>
 collections:
   Aaron:
     template:
       name: Profiles - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/tv-aaron'
+      list: tv-aaron
       label: Aaron
       summary: TV Shows for Aaron
     plex_search:
@@ -21,6 +20,6 @@ collections:
   Tom:
     template:
       name: Profiles - Trakt List
-      list: 'https://trakt.tv/users/goape/lists/tv-dad'
+      list: tv-dad
       label: Tom
       summary: TV Shows for Tom

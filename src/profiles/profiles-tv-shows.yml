@@ -13,7 +13,7 @@ collections:
   Aaron:
     template:
       name: Profiles - Trakt List
-      list: https://trakt.tv/users/goape/lists/tv-aaron
+      list: tv-aaron
       label: Aaron
       summary: TV Shows for Aaron
     plex_search:
@@ -21,6 +21,6 @@ collections:
   Tom:
     template:
       name: Profiles - Trakt List
-      list: https://trakt.tv/users/goape/lists/tv-dad
+      list: tv-dad
       label: Tom
       summary: TV Shows for Tom
