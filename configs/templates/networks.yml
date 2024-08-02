@@ -1,10 +1,8 @@
 Network:
   optional:
-    - tmdb_movie
     - list
     - summary
   tmdb_network: <<network>>
-  tmdb_movie: <<tmdb_movie>>
   trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   smart_label: year.asc
   sort_title: '!5.5_Network: <<collection_name>>'
