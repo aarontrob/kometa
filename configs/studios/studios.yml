@@ -93,10 +93,7 @@ collections:
       name: Studio
       company: 9993
       list: dc
-      summary: >-
-        DC Films is an American film studio that is a subsidiary of Warner Bros.
-        through the Warner Bros. Pictures Group, dedicated to the production of
-        films based on characters from DC Entertainment.
+      summary: 'Truth, Justice and a Better Tomorrow'
   DC Animated Originals:
     template:
       name: Studio - Trakt List
