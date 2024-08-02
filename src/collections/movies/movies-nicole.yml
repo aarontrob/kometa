@@ -30,7 +30,6 @@ collections:
   #               Unmanaged Collections                #
   ######################################################
 
-  Best Exotic Marigold Hotel Collection: *unmanaged
   Book Club Collection: *unmanaged
   Bridget Jones Collection: *unmanaged
   Christmas in Evergreen Collection: *unmanaged

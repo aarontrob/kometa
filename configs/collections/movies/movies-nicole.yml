@@ -138,7 +138,6 @@ collections:
     template:
       name: Search
       title: Anne of Green Gables
-  Best Exotic Marigold Hotel Collection: *ref_0
   Book Club Collection: *ref_0
   Bridget Jones Collection: *ref_0
   Christmas in Evergreen Collection: *ref_0
