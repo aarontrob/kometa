@@ -19,18 +19,13 @@ collections:
       name: Network
       network: 54
       summary: Disney Channel (originally called The Disney Channel from 1983 to 1997 and commonly shortened to Disney from 1997 to 2002) is an American pay television channel that serves as the flagship property of owner Disney Branded Television, a unit of the Disney General Entertainment Content division of The Walt Disney Company.
-    show_filtered: true
-    filters:
-      title.not:
-        - Disneyland
-        - Good Morning, Miss Bliss
   History:
     template:
       name: Network
       network: 65, 849
-    filters:
-      title.not:
-        - The Adventures of Young Indiana Jones
+    # filters:
+    #   title.not:
+    #     - The Adventures of Young Indiana Jones
   Nickelodeon:
     template:
       name: Network

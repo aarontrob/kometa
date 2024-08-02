@@ -32,18 +32,10 @@ collections:
         television channel that serves as the flagship property of owner Disney
         Branded Television, a unit of the Disney General Entertainment Content
         division of The Walt Disney Company.
-    show_filtered: true
-    filters:
-      title.not:
-        - Disneyland
-        - 'Good Morning, Miss Bliss'
   History:
     template:
       name: Network
       network: '65, 849'
-    filters:
-      title.not:
-        - The Adventures of Young Indiana Jones
   Nickelodeon:
     template:
       name: Network
