@@ -69,6 +69,5 @@ Genre - Trakt List Episodes:
   sync_mode: sync
   builder_level: episode
   collection_order: alpha
-  collection_level: episode
   sort_title: "!3_Genre <<collection_name>>"
   summary: <<summary>>
