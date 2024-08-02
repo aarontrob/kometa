@@ -3,24 +3,249 @@
 ######################################################
 
 templates: !!import/shallow
-  - ../templates/collection-tv-shows.yml
   - ../templates/people.yml
   - ../templates/search.yml
 
 ######################################################
-#                   Directors                        #
+#                     People                         #
 ######################################################
 
 collections:
-  # Abbott and Costello Collection:
-  #   template:
-  #     name: Collection - Hide Show
-  #     show: 11821
-  #     summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
-  #   sort_title: ++_7Abbott and Costello Collection
-  # The Beatles Collection:
-  #   template:
-  #     name: Collection - Shows
-  #     show: 127907, 128876, 16906
-  #     summary: The Beatles were an English rock band, formed in Liverpool in 1960, whose best-known line-up comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are regarded as the most influential band of all time and were integral to the development of 1960s counterculture and popular music's recognition as an art form.
-  #   sort_title: ++_7Beatles Collection
+  Abbott & Costello:
+    template:
+      name: People - Actor
+      person: Bud Abbott, Lou Costello
+      summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
+  Adam Sandler:
+    template:
+      name: People - Actor
+      person: Adam Sandler
+      summary: >-
+        Adam Richard Sandler (born September 9, 1966) is an American comedian, actor, and filmmaker. He was a cast member on Saturday Night Live from 1990 to 1995, before going on to star in many Hollywood films, which have combined to earn more than $2 billion at the box office. Sandler had an estimated net worth of $420 million in 2020, and signed a further four-movie deal with Netflix worth over $250 million.
+
+        Sandler's comedic roles include Billy Madison (1995), Happy Gilmore (1996), The Waterboy (1998), The Wedding Singer (1998), Big Daddy (1999), Mr. Deeds (2002), 50 First Dates (2004), The Longest Yard (2005), Click (2006), Grown Ups (2010), Just Go with It (2011), Grown Ups 2 (2013), Blended (2014), Murder Mystery (2019) and Hubie Halloween (2020). He also voiced Davey, Whitey, and Eleanore in Eight Crazy Nights and Dracula in the first three films of the Hotel Transylvania franchise (2012–2018).
+
+        While some of his comedic films, including Jack and Jill (2011), have been panned, resulting in Sandler receiving nine Golden Raspberry Awards and 37 Raspberry Award nominations, more than any actor other than Sylvester Stallone, he has received critical acclaim for his dramatic performances in the dramedy films Spanglish (2004), Reign Over Me (2007), and Funny People (2009). He has also been roundly praised for his leading roles in auteur films including Punch-Drunk Love (2002) by Paul Thomas Anderson, Noah Baumbach's The Meyerowitz Stories (2017), and the Safdie brothers' Uncut Gems (2019), the last of which earned him the Independent Spirit Award for Best Male Lead.
+  Agatha Christie:
+    template:
+      name: People - Trakt List
+      list: agatha-christie-collection
+      summary: >-
+        Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (née Miller) was an English crime novelist, short story writer and playwright. She is best known for her 66 detective novels and 14 short story collections, particularly those revolving around her fictional detectives Hercule Poirot and Miss Marple. She also wrote the world's longest-running play, a murder mystery, The Mousetrap, and six romances under the name Mary Westmacott. In 1971 she was made a Dame for her contribution to literature. Most of her books and short stories have been adapted for television, radio, video games and comics, and more than thirty feature films have been based on her work.
+  Alfred Hitchcock:
+    template:
+      name: People - Trakt List
+      list: alfred-hitchcock-collection
+      summary: >-
+        Sir Alfred Joseph Hitchcock, KBE (13 August 1899 – 29 April 1980), was an English director and producer. Labeled as the "Master of Suspense", he became known for thrillers, often combined with a dark sense of humor. After a successful career in his native country, Hitchcock moved to Hollywood in 1939. Over a career spanning more than half a century, Hitchcock fashioned for himself a distinctive and recognizable directorial style. He pioneered the use of a camera made to move in a way that mimics a person's gaze, forcing viewers to engage in a form of voyeurism. He framed shots to maximize anxiety, fear, or empathy, and used innovative film editing. His stories frequently feature fugitives on the run from the law alongside icy blonde female characters. Many of Hitchcock's films have twist endings and thrilling plots featuring depictions of violence, murder, and crime, although many of the mysteries function as decoys —or MacGuffins— meant only to serve thematic elements in the film and the extremely complex psychological examinations of the characters. Hitchcock's films also borrow many themes from psychoanalysis and feature strong sexual undertones. Through his cameo appearances in his own films, interviews, film trailers, and the television program Alfred Hitchcock Presents (1955-1965), he became a cultural icon.
+
+        Hitchcock is widely regarded as one of the most influential figures in the history of cinema. In 2002, Hitchcock was ranked 2nd behind Orson Welles in the critics' top ten poll in the list of The Greatest Directors of All Time compiled by the Sight & Sound magazine. Andrew Sarris in his influential book of film criticism The American Cinema: Directors and Directions 1929–1968 included him in the "pantheon" of the 14 greatest film directors who had worked in the United States.
+
+        Hitchcock's critically most acclaimed film is the psychological thriller film Vertigo (1958). Although being a mild failure upon its release, it has risen in popularity over the decades. In 2012 it even replaced Orson Welles' Citizen Kane as the greatest film ever made in the Sight & Sound critics' poll. Regarding visual style, Vertigo is often declared as Hitchcock's most perfect film. The use of color symbolism, meticulously composed shots, and the famous "Vertigo effect" (dolly zoom) continue to be studied and admired.
+
+        Hitchcock's most commercially successful and most famous film is Psycho (1960), which had a significant impact on the horror genre, especially the slasher film. Hitchcock was able to prove his skills with the mystery thriller film Rear Window (1954), to create suspense within a confined setting - primarily the protagonist's apartment. In this film, voyeurism, one of Hitchcock's favorite subjects, is an essential aspect.
+
+        Many of Hitchcock's spy films, most notably North by Northwest (1959) and Notorious (1946), had a major impact on the Mission: Impossible and James Bond series.
+  The Beatles:
+    template:
+      name: People [Sort Title] - Trakt List
+      list: the-beatles
+      sort_title: Beatles Collection
+      summary: Shows featuring/based on The Beatles
+  Charlie Chaplin:
+    template:
+      name: People - Actor
+      person: Charlie Chaplin
+      title: Chaplin
+      summary: Charles “Charlie” Chaplin (16 April 1889 – 25 December 1977) was an English comic actor, film director and composer best-known for his work during the silent film era. He used mime, slapstick and other visual comedy routines, and continued well into the era of the talkies, though his films decreased in frequency by the end of the 1920s. His most famous role was that of The Tramp, which he first played in Kid Auto Races (1914). From 1914 onwards he was writing and directing most of his films, by 1916 he was producing them, and by 1918 he was also composing the music for them. In 1919 he co-founded United Artists. In 1999, the American Film Institute ranked Chaplin the 10th greatest male screen legend of all time.
+  Chevy Chase:
+    template:
+      name: People - Actor
+      person: Chevy Chase
+      summary: >-
+        Cornelius Crane "Chevy" Chase (born October 8, 1943) is an American comedian, writer, and television and film actor, born into a prominent entertainment industry family. Chase worked a plethora of odd jobs before moving into comedy acting with National Lampoon. He quickly became a key cast member in the inaugural season of Saturday Night Live, where his Weekend Update skit soon became a staple of the show. As both a performer and writer, he earned three Primetime Emmy Awards out of five nominations. Chase is also well-known for his portrayal of the character Clark Griswold in four National Lampoon's Vacation films, and for his roles in other successful comedies such as Caddyshack (1980), Fletch (1985), and ¡Three Amigos! (1986). He has hosted the Academy Awards twice (1987 and 1988) and briefly had his own late-night talk show, The Chevy Chase Show. He played the character Pierce Hawthorne on the NBC comedy series Community from 2009 to 2014.
+  Chris Farley:
+    template:
+      name: People - Actor
+      person: Chris Farley
+      summary: Christopher Crosby "Chris" Farley (February 15, 1964 – December 18, 1997) was an American comedian and actor. Farley was a member of Chicago's The Second City Theatre and cast member of the NBC sketch comedy show Saturday Night Live from 1990 to 1995.
+  Christopher Guest:
+    template:
+      name: People - Actor
+      person: Christopher Guest
+      summary: >-
+        The Rt. Hon. Christopher Haden-Guest, 5th Baron Haden-Guest (born February 5, 1948), better known as Christopher Guest, is an American screenwriter, composer, musician, director, actor and comedian. He is most widely known in Hollywood for having written, directed and starred in several improvisational "mockumentary" films that feature a repertory-like ensemble cast, such as This is Spinal Tap. In the United Kingdom, he holds a Baronial peerage, and has publicly expressed a desire to see the House of Lords reformed as a democratically-elected chamber. Despite initial activity in the Lords, his career there was cut short by the House of Lords Act 1999. When using his title, he is normally styled for short as Lord Haden-Guest.
+  Clint Eastwood:
+    template:
+      name: People - Actor
+      person: Clint Eastwood
+      summary: >-
+        Clinton "Clint" Eastwood Jr. (born May 31, 1930) is an American film actor, director, producer, composer and former politician. Following his breakthrough role on the TV series "Rawhide" (1959–65), Eastwood starred as the Man with No Name in Sergio Leone's Dollars Trilogy of spaghetti westerns ("A Fistful of Dollars," "For a Few Dollars More," and "The Good, the Bad and the Ugly") in the 1960s, and as San Francisco Police Department Inspector Harry Callahan in the Dirty Harry films ("Dirty Harry," "Magnum Force," "The Enforcer," "Sudden Impact," and "The Dead Pool") during the 1970s and 1980s. These roles, along with several others in which he plays tough-talking no-nonsense police officers, have made him an enduring cultural icon of masculinity.
+
+        Eastwood won Academy Awards for Best Director and Producer of the Best Picture, as well as receiving nominations for Best Actor, for his work in the films "Unforgiven" (1992) and "Million Dollar Baby" (2004). These films in particular, as well as others including "Play Misty for Me" (1971), "The Outlaw Josey Wales" (1976), "Pale Rider" (1985), "In the Line of Fire" (1993), "The Bridges of Madison County" (1995), and "Gran Torino" (2008), have all received commercial success and/or critical acclaim. Eastwood's only comedies have been "Every Which Way but Loose" (1978) and its sequel "Any Which Way You Can" (1980); despite being widely panned by critics they are the two highest-grossing films of his career after adjusting for inflation.
+
+        Eastwood has directed most of his own star vehicles, but he has also directed films in which he did not appear such as "Mystic River" (2003) and "Letters from Iwo Jima" (2006), for which he received Academy Award nominations and "Changeling" (2008), which received Golden Globe Award nominations. He has received considerable critical praise in France in particular, including for several of his films which were panned in the United States, and was awarded two of France's highest honors: in 1994 he received the Ordre des Arts et des Lettres medal and in 2007 was awarded the Légion d'honneur medal. In 2000 he was awarded the Italian Venice Film Festival Golden Lion for lifetime achievement.
+
+        Since 1967 Eastwood has run his own production company, Malpaso, which has produced the vast majority of his films. He also served as the nonpartisan mayor of Carmel-by-the-Sea, California, from 1986 to 1988. Eastwood has seven children by five women, although he has only married twice. An audiophile, Eastwood is also associated with jazz and has composed and performed pieces in several films along with his eldest son, Kyle Eastwood.
+  David Attenborough:
+    template:
+      name: People
+      person: David Attenborough
+      summary: >-
+        Sir David Attenborough (8th May 1926) is a broadcaster and naturalist. His career as the respected face and voice of natural history programmes has endured for more than 50 years. He is best known for writing and presenting the nine "Life" series, in conjunction with the BBC Natural History Unit, which collectively form a comprehensive survey of all life on the planet. He is also a former senior manager at the BBC, having served as controller of BBC Two and director of programming for BBC Television in the 1960s and 1970s.
+  Dr. Seuss:
+    template:
+      name: People - Trakt List
+      list: dr-seuss-collection
+      summary: >-
+        Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 – September 24, 1991) was an American children's author and cartoonist. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss. His work includes many of the most popular children's books of all time, selling over 600 million copies and being translated into more than 20 languages by the time of his death.
+
+        After attending Dartmouth College and Oxford University, he began a career in advertising. His advertising cartoons, featuring Quick, Henry, the Flit!, appeared in several leading American magazines. Dr. Seuss's first children's book, titled "And To Think That I Saw It On Mulberry Street", hit the market in 1937, changing the face of children's literature forever. It was rejected 27 times before it was finally published by Vanguard Press in 1937.
+  Edgar Allan Poe:
+    template:
+      name: People - Trakt List
+      list: edgar-allan-poe-collection
+      summary: Edgar Allan Poe (né Edgar Poe; January 19, 1809 – October 7, 1849) was an American writer, poet, author, editor, and literary critic who is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism and Gothic fiction in the United States, and of American literature. Poe was one of the country's earliest practitioners of the short story, and is considered the inventor of the detective fiction genre, as well as a significant contributor to the emerging genre of science fiction. He is the first well-known American writer to earn a living through writing alone, resulting in a financially difficult life and career.
+  Elvis Presley:
+    template:
+      name: People - Actor
+      person: Elvis Presley
+      title: "Elvis: That's the Way It Is"
+      summary: >-
+        Elvis Aaron Presley (January 8, 1935 – August 16, 1977), or simply Elvis, was an American singer and actor. Dubbed the "King of Rock and Roll", he is regarded as one of the most significant cultural figures of the 20th century. His energized interpretations of songs and sexually provocative performance style, combined with a singularly potent mix of influences across color lines during a transformative era in race relations, led him to both great success and initial controversy.
+
+        Presley was born in Tupelo, Mississippi, and relocated to Memphis, Tennessee, with his family when he was 13 years old. His music career began there in 1954, recording at Sun Records with producer Sam Phillips, who wanted to bring the sound of African-American music to a wider audience. Presley, on rhythm acoustic guitar, and accompanied by lead guitarist Scotty Moore and bassist Bill Black, was a pioneer of rockabilly, an uptempo, backbeat-driven fusion of country music and rhythm and blues. In 1955, drummer D. J. Fontana joined to complete the lineup of Presley's classic quartet and RCA Victor acquired his contract in a deal arranged by Colonel Tom Parker, who would manage him for more than two decades. Presley's first RCA Victor single, "Heartbreak Hotel", was released in January 1956 and became a number-one hit in the United States. Within a year, RCA would sell ten million Presley singles. With a series of successful network television appearances and chart-topping records, Presley became the leading figure of the newly popular sound of rock and roll, though his performative style and promotion of the then-marginalized sound of African-Americans led to him being widely considered a threat to the moral well-being of the White American youth.
+
+        In November 1956, Presley made his film debut in Love Me Tender. Drafted into military service in 1958, Presley relaunched his recording career two years later with some of his most commercially successful work. He held few concerts, however, and guided by Parker, proceeded to devote much of the 1960s to making Hollywood films and soundtrack albums, most of them critically derided. Some of his most famous films included Jailhouse Rock (1957), Blue Hawaii (1961), and Viva Las Vegas (1964). In 1968, following a seven-year break from live performances, he returned to the stage in the acclaimed television comeback special Elvis, which led to an extended Las Vegas concert residency and a string of highly profitable tours. In 1973, Presley gave the first concert by a solo artist to be broadcast around the world, Aloha from Hawaii. Years of prescription drug abuse and unhealthy eating habits severely compromised his health, and he died suddenly in 1977 at his Graceland estate at the age of 42.
+  Frank Sinatra:
+    template:
+      name: People - Actor
+      person: Frank Sinatra
+      summary: >-
+        Francis Albert "Frank" Sinatra ( December 12, 1915 – May 14, 1998) was an American singer and actor. Beginning his musical career in the swing era with Harry James and Tommy Dorsey, Sinatra became a successful solo artist in the early to mid-1940s, being the idol of the "bobby soxers".
+
+        His professional career had stalled by the 1950s, but it was reborn in 1954 after he won the Academy Award for Best Supporting Actor (for his performance in From Here to Eternity). He signed with Capitol Records and released several critically lauded albums (such as In the Wee Small Hours, Songs for Swingin' Lovers, Come Fly with Me, Only the Lonely and Nice 'n' Easy). Sinatra left Capitol to found his own record label, Reprise Records (finding success with albums such as Ring-A-Ding-Ding, Sinatra at the Sands and Francis Albert Sinatra & Antonio Carlos Jobim), toured internationally, was a founding member of the Rat Pack and fraternized with celebrities and statesmen, including John F. Kennedy.
+
+        Sinatra turned 50 in 1965, recorded the retrospective September of My Years, starred in the Emmy-winning television special Frank Sinatra: A Man and His Music, and scored hits with "Strangers in the Night" and "My Way". With sales of his music dwindling and after appearing in several poorly received films, Sinatra retired for the first time in 1971. Two years later, however, he came out of retirement and in 1973 recorded several albums, scoring a Top 40 hit with "(Theme From) New York, New York" in 1980. Using his Las Vegas shows as a home base, he toured both within the United States and internationally, until a short time before his death in 1998.
+
+        Sinatra also forged a successful career as a film actor, winning the Academy Award for Best Supporting Actor for his performance in From Here to Eternity, a nomination for Best Actor for The Man with the Golden Arm, and critical acclaim for his performance in The Manchurian Candidate. He also starred in such musicals as High Society, Pal Joey, Guys and Dolls and On the Town. Sinatra was honored at the Kennedy Center Honors in 1983 and was awarded the Presidential Medal of Freedom by Ronald Reagan in 1985 and the Congressional Gold Medal in 1997. Sinatra was also the recipient of eleven Grammy Awards, including the Grammy Trustees Award, Grammy Legend Award and the Grammy Lifetime Achievement Award.
+  Jim Carrey:
+    template:
+      name: People - Actor
+      person: Jim Carrey
+      summary: >-
+        James Eugene Carrey (born January 17, 1962) is a Canadian and American actor, comedian, writer, and producer. Known for his energetic slapstick performances, Carrey first gained recognition in 1990, after landing a recurring role in the American sketch comedy television series In Living Color (1990–1994). He broke out as a star in motion pictures with Ace Ventura: Pet Detective, The Mask, and Dumb and Dumber (all 1994). This was followed up with Ace Ventura: When Nature Calls, Batman Forever (both 1995), and Liar Liar (1997).
+
+        In the 2000s, he gained further notice for his portrayal of the Grinch in How the Grinch Stole Christmas and for the comedy Me, Myself & Irene (both in 2000), as well as Bruce Almighty (2003), Lemony Snicket's A Series of Unfortunate Events (2004), Fun with Dick and Jane (2005), Yes Man, Horton Hears a Who! (both 2008), and A Christmas Carol (2009). In the 2010s, Carrey appeared in the films Mr. Popper's Penguins (2011), The Incredible Burt Wonderstone, Kick-Ass 2 (both 2013), Dumb and Dumber To (2014), and portrayed Leap Day William in the sitcom 30 Rock (2012). In 2020, he portrayed Dr. Robotnik in Sonic the Hedgehog and Joe Biden in six episodes of Saturday Night Live in the leadup to the 2020 United States presidential election.
+
+        Although largely typecast as a comedic actor, Carrey has had success in dramatic roles. His first dramatic success was starring in the Emmy-nominated made-for-television film Doing Time on Maple Drive (1992). Carrey gained attention for his leading roles in The Truman Show (1998) and Man on the Moon (1999), earning Golden Globe Awards for each film. He later starred in the psychological science fiction romantic drama film Eternal Sunshine of the Spotless Mind (2004); this performance is repeatedly lauded as one of the most important and seminal in Carrey's career and for which he was nominated for both the BAFTA Award for Best Actor in a Leading Role and another Golden Globe Award. He was also praised for his dramatic role of Jeff Piccirillo in the Showtime tragicomedy series Kidding, for which he was nominated for another Golden Globe. The Guardian named him one of the best actors never to have received an Academy Award nomination.
+
+        In 2013, Carrey published his first book, a children's story, entitled How Roland Rolls; the book was awarded a 2013 Gelett Burgess Children's Book Award. In 2020, Carrey published his first novel, Memoirs, and Misinformation, which he co-authored with Dana Vachon
+  Kathy Griffin:
+    template:
+      name: People - Actor
+      person: Kathy Griffin
+      summary: >-
+        Kathleen Mary "Kathy" Griffin (born November 4, 1960) is an American actress, model, stand-up comedian, television personality, New York Times best-selling author and an LGBT rights advocate. Griffin first gained recognition for appearances on two episodes of Seinfeld, and then for her supporting role on the NBC sitcom Suddenly Susan. She was the star of the Bravo reality show Kathy Griffin: My Life on the D-List, for which she won two Emmy Awards as executive producer. She has also worked as a voice artist and red carpet commentator, in addition to several other career pursuits. From 2008-2013 she was nominated for a Grammy Award for Best Comedy Album, winning in 2013. In her bid to win a Tony Award, she made her Broadway debut in Kathy Griffin Wants a Tony in March 2011.
+  Laurel & Hardy:
+    template:
+      name: People - Trakt List
+      list: laurel-hardy
+      summary: >-
+        Laurel and Hardy were a British-American comedy team during the early Classical Hollywood era of American cinema, consisting of Englishman Stan Laurel (1890–1965) and American Oliver Hardy (1892–1957). Starting their career as a duo in the silent film era, they later successfully transitioned to "talkies". From the late 1920s to the mid-1950s, they were internationally famous for their slapstick comedy, with Laurel playing the clumsy, childlike friend to Hardy's pompous bully. Their signature theme song, known as "The Cuckoo Song", "Ku-Ku", or "The Dance of the Cuckoos" (by Hollywood composer T. Marvin Hatley) was heard over their films' opening credits, and became as emblematic of them as their bowler hats.
+
+        Prior to emerging as a team, both had well-established film careers. Laurel had acted in over 50 films, and worked as a writer and director, while Hardy was in more than 250 productions. Both had appeared in The Lucky Dog (1921), but were not teamed at the time. They first appeared together in a short film in 1926, when they signed separate contracts with the Hal Roach film studio. They officially became a team in 1927 when they appeared in the silent short Putting Pants on Philip. They remained with Roach until 1940, and then appeared in eight B movie comedies for 20th Century Fox and Metro-Goldwyn-Mayer from 1941 to 1945. After finishing their film commitments at the end of 1944, they concentrated on performing stage shows, and embarked on a music hall tour of England, Ireland, Wales, and Scotland.[4] They made their last film in 1950, a French–Italian co-production called Atoll K.
+
+        They appeared as a team in 107 films, starring in 32 short silent films, 40 short sound films, and 23 full-length feature films. They also made 12 guest or cameo appearances, including in the Galaxy of Stars promotional film of 1936. On December 1, 1954, they made their sole American television appearance, when they were surprised and interviewed by Ralph Edwards on his live NBC-TV program This Is Your Life. Since the 1930s, their works have been released in numerous theatrical reissues, television revivals, 8-mm and 16-mm home movies, feature-film compilations, and home videos. In 2005, they were voted the seventh-greatest comedy act of all time by a UK poll of professional comedians. The official Laurel and Hardy appreciation society is The Sons of the Desert, after a fictional fraternal society in the film of the same name.
+  Marilyn Monroe:
+    template:
+      name: People - Actor
+      person: Marilyn Monroe
+      summary: >-
+        Marilyn Monroe (born Norma Jeane Mortenson; 1 June 1926 – 4 August 1962) was an American actress. Famous for playing comedic "blonde bombshell" characters, she became one of the most popular sex symbols of the 1950s and early 1960s, as well as an emblem of the era's sexual revolution. She was a top-billed actress for a decade, and her films grossed $200 million (equivalent to $2 billion in 2021) by the time of her death in 1962. Long after her death, Monroe remains a major icon of pop culture. In 1999, the American Film Institute ranked her sixth on their list of the greatest female screen legends from the Golden Age of Hollywood. Multiple film critics and media outlets have cited Monroe as one of the best actors never to have received an Academy Award nomination.
+
+        Born and raised in Los Angeles, Monroe spent most of her childhood in a total of 12 foster homes and an orphanage; she married at age sixteen. She was working in a factory during World War II when she met a photographer from the First Motion Picture Unit and began a successful pin-up modeling career, which led to short-lived film contracts with 20th Century Fox and Columbia Pictures. After a series of minor film roles, she signed a new contract with Fox in late 1950. Over the next two years, she became a popular actress with roles in several comedies, including As Young as You Feel and Monkey Business, and in the dramas Clash by Night and Don't Bother to Knock. She faced a scandal when it was revealed that she had posed for nude photographs prior to becoming a star, but the story did not damage her career and instead resulted in increased interest in her films.
+
+        By 1953, Monroe was one of the most marketable Hollywood stars; she had leading roles in the film noir Niagara, which overtly relied on her sex appeal, and the comedies Gentlemen Prefer Blondes and How to Marry a Millionaire, which established her star image as a "dumb blonde". The same year, her nude images were used as the centerfold and on the cover of the first issue of Playboy. She played a significant role in the creation and management of her public image throughout her career, but she was disappointed when she was typecast and underpaid by the studio. She was briefly suspended in early 1954 for refusing a film project but returned to star in The Seven Year Itch (1955), one of the biggest box office successes of her career.
+
+        When the studio was still reluctant to change Monroe's contract, she founded her own film production company in 1954. She dedicated 1955 to building the company and began studying method acting under Lee Strasberg at the Actors Studio. Later that year, Fox awarded her a new contract, which gave her more control and a larger salary. Her subsequent roles included a critically acclaimed performance in Bus Stop (1956) and her first independent production in The Prince and the Showgirl (1957). She won a Golden Globe for Best Actress for her role in Some Like It Hot (1959), a critical and commercial success. Her last completed film was the drama The Misfits (1961).
+  Marx Brothers:
+    template:
+      name: People - Trakt List
+      list: marx-brothers-collection
+      summary: The Marx Brothers were an American family comedy act that was successful in vaudeville, on Broadway, and in motion pictures from 1905 to 1949. Five of the Marx Brothers' thirteen feature films were selected by the American Film Institute (AFI) as among the top 100 comedy films, with two of them, Duck Soup (1933) and A Night at the Opera (1935), in the top fifteen. They are widely considered by critics, scholars and fans to be among the greatest and most influential comedians of the 20th century.
+  Mel Brooks:
+    template:
+      name: People - Trakt List
+      person: mel-brooks-collection
+      summary: >-
+        Melvin Brooks (né Kaminsky, born June 28, 1926) is an American filmmaker, comedian, actor and composer. He is known as a creator of broad film farces and comic parodies. Brooks began his career as a comic and a writer for the early TV variety show Your Show of Shows. He became well known as part of the comedy duo with Carl Reiner in the comedy skit The 2000 Year Old Man. He also created, with Buck Henry, the hit television comedy series Get Smart, which ran from 1965 to 1970.
+
+        In middle age, Brooks became one of the most successful film directors of the 1970s, with many of his films being among the top 10 moneymakers of the year they were released. His best-known films include The Producers, The Twelve Chairs, Blazing Saddles, Young Frankenstein, Silent Movie, High Anxiety, History of the World, Part I, Spaceballs and Robin Hood: Men in Tights. A musical adaptation of his first film, The Producers, ran on Broadway from 2001 to 2007.
+
+        In 2001, having previously won an Emmy, a Grammy and an Oscar, he joined a small list of EGOT winners with his Tony award for The Producers. He received a Kennedy Center Honor in 2009, the Hollywood Walk of Fame in 2010, the 41st AFI Life Achievement Award in June 2013, a British Film Institute Fellowship in March 2015, a National Medal of Arts in September 2016, and a BAFTA Fellowship in February 2017. Three of his films ranked in the American Film Institute's list of the top 100 comedy films of the past 100 years (1900–2000), all of which ranked in the top 15 of the list: Blazing Saddles at number 6, The Producers at number 11, and Young Frankenstein at number 13.
+  Mike Myers:
+    template:
+      name: People - Actor
+      person: Mike Myers
+      summary: >-
+        Michael John "Mike" Myers (born May 25, 1963) is a Canadian actor, comedian, screenwriter, and film producer of British parentage. He was a long-time cast member on the NBC sketch show Saturday Night Live in the late 1980s and the early 1990s and starred as the title characters in the films Wayne's World, Austin Powers, and the Shrek film series.
+  Molly Shannon:
+    template:
+      name: People - Actor
+      person: Molly Shannon
+      summary: >-
+        Molly Helen Shannon (born September 16, 1964) is an American comic actress best known for her work as a cast member on Saturday Night Live from 1995–2001 and for starring in the films Superstar and Year of the Dog. More recently, she starred in NBC's Kath & Kim from 2008–2009 and on the TBS animated series Neighbors from Hell.
+  Pauly Shore:
+    template:
+      name: People - Actor
+      person: Pauly Shore
+      summary: >-
+        Paul Montgomery "Pauly" Shore (born February 1, 1968) is an American comedian and actor who starred in several comedy films in the 1990s and hosted a video show on MTV in the late 1980s and early 1990s. Shore is currently performing stand-up comedy.
+  Stephen King:
+    template:
+      name: People - Trakt List
+      list: stephen-king-collection
+      summary: Stephen King is an American author of contemporary horror, suspense, science fiction, and fantasy fiction. His books have sold more than 350 million copies, which have been adapted into a number of feature films, television movies, and comic books. As of 2011, King has written and published 49 novels, including seven under the pen name Richard Bachman, five non-fiction books, and nine collections of short stories. Many of his stories are set in his home state of Maine. King has received Bram Stoker Awards, World Fantasy Awards, British Fantasy Society Awards, his novella The Way Station was a Nebula Award novelette nominee, and in 2003, the National Book Foundation awarded him the Medal for Distinguished Contribution to American Letters.
+  Steve Martin:
+    template:
+      name: People - Actor
+      person: Steve Martin
+      summary: >-
+        Stephen Glenn "Steve" Martin (born August 14, 1945) is an American actor, comedian, writer, playwright, producer, musician and composer.
+
+        Martin was born in Waco, Texas, and raised in Southern California, where his early influences were working at Disneyland and Knott's Berry Farm and working magic and comedy acts at these and other smaller venues in the area. His ascent to fame picked up when he became a writer for the Smothers Brothers Comedy Hour, and later became a frequent guest on The Tonight Show. In the 1970s, Martin performed his offbeat, absurdist comedy routines before packed houses on national tours. Since the 1980s, having branched away from stand-up comedy, he has become a successful actor, playwright, pianist, banjo player, and juggler, eventually earning Emmy, Grammy, and American Comedy awards.
+  Steve McQueen:
+    template:
+      name: People - Actor
+      person: Steve McQueen
+      summary: >-
+        Terrence Stephen "Steve" McQueen (March 24, 1930 – November 7, 1980) was an American actor. His antihero persona, emphasized during the height of the counterculture of the 1960s, made him a top box-office draw for his films of the late 1950s, 1960s, and 1970s. He was nicknamed the "King of Cool" and used the alias Harvey Mushman in motor races.
+
+        McQueen received an Academy Award nomination for his role in The Sand Pebbles (1966). His other popular films include Love With the Proper Stranger (1963), The Cincinnati Kid (1965), Nevada Smith (1966), The Thomas Crown Affair (1968), Bullitt (1968), Le Mans (1971), The Getaway (1972), and Papillon (1973). In addition, he starred in the all-star ensemble films The Magnificent Seven (1960), The Great Escape (1963), and The Towering Inferno (1974).
+
+        In 1974, McQueen became the highest-paid movie star in the world, although he did not act in film for another four years. He was combative with directors and producers, but his popularity placed him in high demand and enabled him to command the largest salaries.
+  Tim Burton:
+    template:
+      name: People - Title
+      title: Wednesday
+      summary: >-
+        Timothy Walter Burton (born August 25, 1958) is an American filmmaker and animator. He is known for his gothic fantasy and horror films such as Beetlejuice (1988), Edward Scissorhands (1990), The Nightmare Before Christmas (1993), Ed Wood (1994), Sleepy Hollow (1999), Corpse Bride (2005), Sweeney Todd: The Demon Barber of Fleet Street (2007) and Dark Shadows (2012), as well as the television series Wednesday (2022). Burton also directed the superhero films Batman (1989) and Batman Returns (1992), the sci-fi film Planet of the Apes (2001), the fantasy-drama Big Fish (2003), the musical adventure film Charlie and the Chocolate Factory (2005), and the fantasy films Alice in Wonderland (2010) and Miss Peregrine's Home for Peculiar Children (2016).
+
+        Burton has often worked with actors Winona Ryder, Johnny Depp, Lisa Marie (former girlfriend), Helena Bonham Carter (his former domestic partner) and composer Danny Elfman, who scored all but three of Burton's films. Burton also wrote and illustrated the poetry book The Melancholy Death of Oyster Boy & Other Stories, published in 1997 by British publishing house Faber and Faber, and a compilation of his drawings, sketches, and other artwork, entitled The Art of Tim Burton, was released in 2009. A follow-up to that book, entitled The Napkin Art of Tim Burton: Things You Think About in a Bar, containing sketches made by Burton on napkins at bars and restaurants he visited, was released in 2015. His accolades include nominations for two Academy Awards and three BAFTA Awards, and wins for an Emmy Award and a Golden Globe Award.
+  Vincent Price:
+    template:
+      name: People - Actor
+      person: Vincent Price
+      summary: >-
+        Vincent Leonard Price, Jr. (May 27, 1911 – October 25, 1993) was an American actor, well known for his distinctive voice and performances in horror films. His career spanned other genres, including film noir, drama, mystery, thriller, and comedy. He appeared on stage, television, radio, and in over one hundred films. He has two stars on the Hollywood Walk of Fame: one for motion pictures, and one for television.
+
+        Price was an art collector and consultant, with a degree in art history. He lectured and wrote books on the subject. He was the founder of the Vincent Price Art Museum in California. He was also a noted gourmet cook.
+  Will Ferrell:
+    template:
+      name: People - Actor
+      person: Will Ferrell
+      summary: >-
+        A graduate of the University of Southern California, Will Ferrell became interested in performing while a student at University High School in Irvine, California, where he made his school's daily morning announcements over the public address system in disguised voices. He started as a member of the Los Angeles comedy/improvisation group The Groundlings, where fellow cast members Ana Gasteyer, Maya Rudolph and former Saturday Night Live repertory players such as Laraine Newman, Jon Lovitz and Phil Hartman began their careers. It was there he met Chris Kattan and the two became good friends and both went on to Saturday Night Live later. He has also appeared on several television programs, including Strangers with Candy, Grace Under Fire and Living Single during his time at The Groundlings. Will also lent his voice to the armless and legless dad of cartoon family The Oblongs.
+
+        In 1995 he became a feature cast member at Saturday Night Live during the show's rapid re-casting. He was declared quite possibly the worst cast member ever during his first season. However, his talents of impersonations and range of characters shot him forward to making him arguably the greatest Saturday Night Live cast member ever. During his seven year run he is one of the few cast members to ever be nominated for an Emmy for a performance and played George W. Bush during the 2000 elections. He's appeared in every Saturday Night Live movie since his premiere on the show in 1995. In 2002 he left  Saturday Night Live and was the only cast member to ever receive a farewell from all the current cast members at the end of the season finale show. Since leaving the show Will has pursued a career in films. In 2000 he married and now lives in L.A.

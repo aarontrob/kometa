@@ -94,3 +94,11 @@ People - Trakt List:
   sync_mode: sync
   smart_label: release.asc
   summary: <<summary>>
+People [Sort Title] - Trakt List:
+  optional:
+    - summary
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  sort_title: "!7_People <<sort_title>>"
+  sync_mode: sync
+  smart_label: release.asc
+  summary: <<summary>>
