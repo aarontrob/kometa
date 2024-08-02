@@ -63,8 +63,12 @@ Genre - Trakt List:
   sort_title: '!3_Genre <<collection_name>>'
   summary: <<summary>>
 Genre - Trakt List Episodes:
+  optional:
+    - summary
   trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   sync_mode: sync
   builder_level: episode
   collection_order: alpha
   collection_level: episode
+  sort_title: '!3_Genre <<collection_name>>'
+  summary: <<summary>>
