@@ -1,68 +1,74 @@
 templates:
   Genre:
     optional:
-      - collection_order
-      - item_genre
-      - item_label
       - summary
     smart_filter:
       all:
         genre: <<genre>>
       sort_by: random
-    sort_title: '!_Genre <<collection_name>>'
-    item_genre: <<item_genre>>
-    item_label: <<item_label>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom]':
     optional:
-      - collection_order
-      - item_genre
-      - item_label
       - summary
     smart_filter:
       all:
         genre: <<genre>>
       sort_by: random
     sort_title: ~_Genre <<collection_name>>
-    item_genre: <<item_genre>>
-    item_label: <<item_label>>
+    summary: <<summary>>
+  'Genre [Bottom] - Custom':
+    optional:
+      - summary
+    sort_title: ~_Genre <<collection_name>>
     summary: <<summary>>
   Genre - Trakt List:
-    default:
-      smart_label: release.asc
     optional:
-      - item_genre
-      - item_label
-      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
-    sort_title: '!_Genre <<collection_name>>'
-    smart_label: <<smart_label>>
-    item_genre: <<item_genre>>
-    item_label: <<item_label>>
-    label: <<label>>
+    smart_label: release.asc
+    item_genre: <<collection_name>>
+    item_label: 'Genre: <<collection_name>>'
+    label: 'Genre: <<collection_name>>'
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
-    default:
-      smart_label: release.asc
     optional:
-      - item_genre
-      - item_label
-      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
+    smart_label: random
     sort_title: ~_Genre <<collection_name>>
-    smart_label: <<smart_label>>
-    item_genre: <<item_genre>>
-    item_label: <<item_label>>
-    label: <<label>>
+    summary: <<summary>>
+  'Genre [Holiday] - Trakt List':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    smart_label: title.asc
+    item_genre: <<collection_name>>
+    item_label: 'Genre: <<collection_name>>'
+    label: 'Genre: <<collection_name>>'
+    sort_title: '!3_Genre <<collection_name>>'
+    summary: <<summary>>
+  'Genre [Holiday] - Trakt List [Hide Items]':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: hide_items
+    item_genre: <<collection_name>>
+    item_label: 'Genre: <<collection_name>>'
+    label: 'Genre: <<collection_name>>'
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List Episodes:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
+    collection_order: alpha
+    collection_level: episode
 collections:
   Christmas:
     template:
@@ -71,18 +77,25 @@ collections:
       summary: >-
         “The best way to spread Christmas cheer is singing loud for all to
         hear.”
-    sort_title: ++_2.4Christmas
-    smart_label: title.asc
+  Christmas Episodes:
+    template:
+      name: Genre - Trakt List Episodes
+      list: tv-christmas-episodes
+      summary: Merry Christmas
   Halloween:
     template:
       name: Genre - Trakt List
       list: tv-halloween
       summary: “It's all just a bunch of hocus pocus.”
-    sort_title: ++_2.4Halloween
-    smart_label: title.asc
+  Halloween Episodes:
+    template:
+      name: Genre - Trakt List Episodes
+      list: tv-halloween-episodes
   Musical:
     template:
       name: Genre - Trakt List
       list: tv-musicals
-    sort_title: ++_2.5Musical
-    smart_label: title.asc
+  Thanksgiving Episodes:
+    template:
+      name: Genre - Trakt List Episodes
+      list: tv-thanksgiving-episodes

@@ -13,25 +13,14 @@ collections:
   Empire Magazine's 100 Greatest TV Shows Of All Time:
     template:
       name: List - Trakt List Custom Order
-      list: https://trakt.tv/users/goape/lists/empire-magazine-s-100-greatest-tv-shows-of-all-time
+      list: empire-magazine-s-100-greatest-tv-shows-of-all-time
       summary: >-
-        It’s true: we’re living in a golden age of television. Some of the best TV series of all time have aired in the last few years – from character-driven dramas to big-budget sci-fi and fantasy shows with film-level production values – taking full advantage of the possibilities of long-form serialised storytelling. With cable-channel blockbusters, the arrival of streaming services, and the rise of idiosyncratic shows from diverse creators, the art of television is at an all-time high.
+        It's true: we're living in a golden age of television. Some of the best TV series of all time have aired in the last few years – from character-driven dramas to big-budget sci-fi and fantasy shows with film-level production values – taking full advantage of the possibilities of long-form serialised storytelling. With cable-channel blockbusters, the arrival of streaming services, and the rise of idiosyncratic shows from diverse creators, the art of television is at an all-time high.
 
-        We asked you to vote for your top 10 scripted TV shows (no reality telly here) of all time – stacking up your personal favourites, perennial re-watches, all-time greats and more. You responded in droves, and we tallied up the results into a Top 100 list bursting with incredible series you’re bound to get hooked on. From iconic British sitcoms to epic American sagas, inventive animations and daring anthologies, these are the shows worth getting lost in, that have proved instrumental in evolving a storytelling form that continues to offer deeper and more complex narratives.
+        We asked you to vote for your top 10 scripted TV shows (no reality telly here) of all time – stacking up your personal favourites, perennial re-watches, all-time greats and more. You responded in droves, and we tallied up the results into a Top 100 list bursting with incredible series you're bound to get hooked on. From iconic British sitcoms to epic American sagas, inventive animations and daring anthologies, these are the shows worth getting lost in, that have proved instrumental in evolving a storytelling form that continues to offer deeper and more complex narratives.
   Problematic Collection:
     template:
       name: Collection - Trakt List
       list: kids-problematic
     item_label: Problematic
     build_collection: false
-  Trending:
-    trakt_trending: 40
-    tmdb_trending_daily: 40
-    tmdb_trending_weekly: 40
-    smart_label: random
-    name_mapping: Trending
-    # schedule: weekly(sunday)
-    label: Trending
-    sync_mode: sync
-    sort_title: ++_1.5Trending
-    summary: TV Shows trending across the internet
