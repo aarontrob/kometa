@@ -657,7 +657,7 @@ collections:
   Mel Brooks:
     template:
       name: People - Trakt List
-      person: mel-brooks-collection
+      list: mel-brooks-collection
       summary: >-
         Melvin Brooks (né Kaminsky, born June 28, 1926) is an American
         filmmaker, comedian, actor and composer. He is known as a creator of
