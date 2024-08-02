@@ -18,6 +18,10 @@ templates:
       - summary
     summary: <<summary>>
 collections:
+  Bravo:
+    template:
+      name: Network
+      network: 74
   Disney Channel:
     template:
       name: Network
