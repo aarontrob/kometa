@@ -42,6 +42,8 @@ collections:
         television channel that serves as the flagship property of owner Disney
         Branded Television, a unit of the Disney General Entertainment Content
         division of The Walt Disney Company.
+    filters:
+      title.not: The New Yogi Bear Show
   The Disney Afternoon Collection:
     template:
       name: 'Network [Sort Title] - Trakt List'

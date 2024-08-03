@@ -34,6 +34,8 @@ collections:
       summary: "With great power comes great responsibility"
     plex_search:
       title: I Am Groot
+    filters:
+      title.not: "Men In Black: The Series"
   Marvel Animation:
     template:
       name: Studio
