@@ -26,7 +26,7 @@ overlays:
       file: config/overlays/Peanuts/overlay-v3.png
     plex_search:
       all:
-        label: Peanuts Collection
+        collection: Peanuts Collection
   # Trending:
   #   schedule: weekly(sunday)
   #   overlay:
