@@ -6,10 +6,7 @@ metadata:
   Spider-Man:
     file_poster: assets/profiles/kids/tv shows/sd+hd/Spider-Man The Animated Series/poster.jpg
     match:
-      title:
-        - Spider-Man
-        - Spider-Man: The Animated Series
-        - Spider-Man The Animated Series
+      mapping_id: 73750
     year: 1994
     seasons:
       1:
