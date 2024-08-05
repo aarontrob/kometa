@@ -5,7 +5,7 @@ metadata:
       Series/poster.jpg
   'Spider-Man: The Animated Series - Seasons':
     match:
-      mapping_id: 888
+      mapping_id: 73750
     seasons:
       '1':
         file_poster: >-
