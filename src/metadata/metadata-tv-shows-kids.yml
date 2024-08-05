@@ -3,7 +3,7 @@
 ######################################################
 
 metadata:
-  "Spider-Man: The Animated Series":
+  Spider-Man:
     file_poster: assets/profiles/kids/tv shows/sd+hd/Spider-Man The Animated Series/poster.jpg
     match:
       title:
