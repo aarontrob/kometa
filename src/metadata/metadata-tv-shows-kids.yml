@@ -10,7 +10,8 @@ metadata:
     year: 1994
     seasons:
       1:
-        file_poster: assets/profiles/kids/tv shows/sd+hd/Spider-Man The Animated Series/Season01.jpg
+        label: test
+        # file_poster: assets/profiles/kids/tv shows/sd+hd/Spider-Man The Animated Series/Season01.jpg
       2:
         file_poster: assets/profiles/kids/tv shows/sd+hd/Spider-Man The Animated Series/Season02.jpg
       3:
