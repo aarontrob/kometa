@@ -5,8 +5,7 @@ metadata:
       Series/poster.jpg
     match:
       title:
-        - Spider-Man: The Animated Series
-        - Spider-Man The Animated Series
+        - Spider-Man
     year: 1994
     seasons:
       '1':
