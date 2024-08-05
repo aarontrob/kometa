@@ -3,9 +3,10 @@
 ######################################################
 
 metadata:
+  # "Spider-Man: The Animated Series":
+  #   file_poster: assets/profiles/kids/tv shows/sd+hd/Spider-Man The Animated Series/poster.jpg
   "Spider-Man: The Animated Series":
     file_poster: assets/profiles/kids/tv shows/sd+hd/Spider-Man The Animated Series/poster.jpg
-  "Spider-Man: The Animated Series - Seasons":
     match:
       mapping_id: 73750
     seasons:
