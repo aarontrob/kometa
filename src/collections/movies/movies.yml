@@ -495,6 +495,12 @@ collections:
       movie: 14543, 55931
       sort_title: Matrix Collection
       summary: Reality is a thing of the past.
+  Mean Girls Collection:
+    template:
+      name: Collection - Movie
+      collection: 99606
+      movie: 673593
+      summary: Watch your back.
   Men In Black Collection:
     template:
       name: Collection
@@ -971,7 +977,6 @@ collections:
   The Mask Collection: *unmanaged
   Matt Helm Collection: *unmanaged
   The Maze Runner Collection: *unmanaged
-  Mean Girls Collection: *unmanaged
   Meatballs Collection: *unmanaged
   Meet the Parents Collection: *unmanaged
   The Meg Collection: *unmanaged
