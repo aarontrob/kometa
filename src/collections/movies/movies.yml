@@ -749,7 +749,7 @@ collections:
   The Three Musketeers Collection:
     template:
       name: Collection - Movie
-      collection: 87631
+      collection: 87631, 913258
       movie: 10057, 52451, 41609
       sort_title: Three Musketeers Collection
       summary: All for one, and one for all!
