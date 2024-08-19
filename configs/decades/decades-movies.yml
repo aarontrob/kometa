@@ -9,7 +9,7 @@ templates:
     sort_title: '!4_Decade <<mapping_name>>'
     summary: <<summary>>
 collections:
-  20s-50s:
+  1920s-1950s:
     template:
       name: Decade
       year:

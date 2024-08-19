@@ -10,7 +10,7 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  20s-50s:
+  1920s-1950s:
     template:
       name: Decade
       year:
