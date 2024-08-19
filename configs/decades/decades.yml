@@ -9,7 +9,7 @@ templates:
     sort_title: '!4_Decade <<mapping_name>>'
     summary: <<summary>>
 collections:
-  90s:
+  1990s:
     template:
       name: Decade
       year:
@@ -24,7 +24,7 @@ collections:
         - 1998
         - 1999
       summary: Movies released from 1990-1999
-  80s:
+  1980s:
     template:
       name: Decade
       year:
@@ -39,7 +39,7 @@ collections:
         - 1988
         - 1989
       summary: Movies released from 1980-1989
-  70s:
+  1970s:
     template:
       name: Decade
       year:
@@ -54,7 +54,7 @@ collections:
         - 1978
         - 1979
       summary: Movies released from 1970-1979
-  60s:
+  1960s:
     template:
       name: Decade
       year:
