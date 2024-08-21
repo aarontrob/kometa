@@ -370,8 +370,9 @@ collections:
       summary: Expect the Incredible
   Inside Out Collection:
     template:
-      name: Collection - Movies
-      movie: '355338, 150540'
+      name: Collection - Movie
+      collection: 1022790
+      movie: 355338
       summary: Meet the little voices inside your head.
   Inspector Gadget Collection:
     template:
