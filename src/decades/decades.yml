@@ -10,7 +10,7 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  1990s:
+  90s:
     template:
       name: Decade
       year:
@@ -25,7 +25,7 @@ collections:
         - 1998
         - 1999
       summary: Movies released from 1990-1999
-  1980s:
+  80s:
     template:
       name: Decade
       year:
@@ -40,7 +40,7 @@ collections:
         - 1988
         - 1989
       summary: Movies released from 1980-1989
-  1970s:
+  70s:
     template:
       name: Decade
       year:
@@ -55,7 +55,7 @@ collections:
         - 1978
         - 1979
       summary: Movies released from 1970-1979
-  1960s:
+  60s:
     template:
       name: Decade
       year:
@@ -70,3 +70,18 @@ collections:
         - 1968
         - 1969
       summary: Movies released from 1960-1969
+  50s:
+    template:
+      name: Decade
+      year:
+        - 1950
+        - 1951
+        - 1952
+        - 1953
+        - 1954
+        - 1955
+        - 1956
+        - 1957
+        - 1958
+        - 1959
+      summary: Movies released from 1950-1959
