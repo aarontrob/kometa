@@ -18,7 +18,7 @@ templates:
     sort_title: '!4_Decade ~<<mapping_name>>'
     summary: <<summary>>
 collections:
-  00s:
+  2000s:
     template:
       name: 'Decade [2000s]'
       year:
