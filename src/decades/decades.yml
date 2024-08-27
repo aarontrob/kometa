@@ -10,6 +10,21 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  2000s:
+    template:
+      name: Decade
+      year:
+        - 2000
+        - 2001
+        - 2002
+        - 2003
+        - 2004
+        - 2005
+        - 2006
+        - 2007
+        - 2008
+        - 2009
+      summary: Movies released from 2000-2009
   90s:
     template:
       name: Decade
