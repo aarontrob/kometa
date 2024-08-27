@@ -8,10 +8,19 @@ templates:
       sort_by: year.asc
     sort_title: '!4_Decade <<mapping_name>>'
     summary: <<summary>>
+  'Decade [2000s]':
+    optional:
+      - summary
+    smart_filter:
+      any:
+        year: <<year>>
+      sort_by: year.asc
+    sort_title: '!4_Decade ~<<mapping_name>>'
+    summary: <<summary>>
 collections:
-  2000s:
+  00s:
     template:
-      name: Decade
+      name: 'Decade [2000s]'
       year:
         - 2000
         - 2001

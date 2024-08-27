@@ -10,9 +10,9 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  2000s:
+  00s:
     template:
-      name: Decade
+      name: Decade [2000s]
       year:
         - 2000
         - 2001

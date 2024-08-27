@@ -7,3 +7,12 @@ Decade:
     sort_by: year.asc
   sort_title: '!4_Decade <<mapping_name>>'
   summary: <<summary>>
+'Decade [2000s]':
+  optional:
+    - summary
+  smart_filter:
+    any:
+      year: <<year>>
+    sort_by: year.asc
+  sort_title: '!4_Decade ~<<mapping_name>>'
+  summary: <<summary>>
