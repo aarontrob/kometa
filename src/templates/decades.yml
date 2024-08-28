@@ -14,5 +14,5 @@ Decade [2000s]:
     any:
       year: <<year>>
     sort_by: year.asc
-  sort_title: "!4_Decade ~<<mapping_name>>"
+  sort_title: "!4_Decade~ <<mapping_name>>"
   summary: <<summary>>
