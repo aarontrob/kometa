@@ -127,6 +127,11 @@ collections:
       name: Collection
       collection: 107725
       summary: The Most Fun You'll Ever Have... BEING SCARED!
+  The Crow Collection:
+    template:
+      name: Collection - Movie
+      collection: 9436
+      movie: 957452
   Cube Collection:
     template:
       name: Collection
@@ -600,7 +605,6 @@ collections:
   The Craft Collection: *unmanaged
   Creep Collection: *unmanaged
   Critters Collection: *unmanaged
-  The Crow Collection: *unmanaged
   The Curse Collection (1987-1991): *unmanaged
   Dark Night of the Scarecrow Collection: *unmanaged
   Deep Blue Sea Collection: *unmanaged
