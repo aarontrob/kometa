@@ -680,7 +680,7 @@ collections:
   The Terminator Collection:
     template:
       name: Collection - Hide Show
-      show: 433
+      show: '433, 239287'
       sort_title: Terminator Collection
   The Dark Crystal Collection:
     template:
