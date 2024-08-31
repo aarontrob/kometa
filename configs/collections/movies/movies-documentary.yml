@@ -114,6 +114,22 @@ templates:
   Unmanaged:
     label: Unmanaged
     blank_collection: true
+  Search:
+    plex_search:
+      title: <<title>>
+    sync_mode: sync
+    collection_order: release
+    default:
+      collection_mode: hide_items
+    optional:
+      - name_mapping
+      - sort_title
+      - summary
+      - show
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    summary: <<summary>>
+    tmdb_show: <<show>>
 unmanaged:
   template:
     name: Unmanaged
