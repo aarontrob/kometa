@@ -343,6 +343,12 @@ collections:
       summary: >-
         He's not very good looking. But when the lights go out...he's still not
         very good looking.
+  Die Hard Collection:
+    template:
+      name: Collection - Movie
+      collection: 1570
+      movie: 42636
+      summary: 'Yippee Ki Yay, motherf*cker'
   Dirty Dancing Collection:
     template:
       name: Collection - Movie
@@ -1192,7 +1198,6 @@ collections:
   Darkman Collection: *ref_0
   Darko Collection: *ref_0
   Deadpool Collection: *ref_0
-  Die Hard Collection: *ref_0
   Dirty Harry Collection: *ref_0
   Divergent Collection: *ref_0
   Django Collection: *ref_0
