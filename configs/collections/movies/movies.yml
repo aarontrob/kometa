@@ -200,10 +200,6 @@ collections:
       summary: >-
         The fight to save humanity rages on. Where will you stand? Destiny is
         not what it seems.
-  Beetlejuice Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 4011
   Betty Boop Collection:
     trakt_list: 'https://trakt.tv/lists/official/betty-boop-fleischer-brothers-collection'
     summary: >-
@@ -1167,6 +1163,7 @@ collections:
   Basic Instinct Collection: *ref_0
   Beach Party Collection: *ref_0
   The Beastmaster Collection: *ref_0
+  Beetlejuice Collection: *ref_0
   Before... Collection: *ref_0
   Beverly Hills Cop Collection: *ref_0
   Big Momma's House Collection: *ref_0
