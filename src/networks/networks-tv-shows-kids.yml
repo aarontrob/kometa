@@ -37,6 +37,7 @@ collections:
     template:
       name: Network
       network: 13
+      list: nickelodeon
       summary: >-
         Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
         Nickelodeon
