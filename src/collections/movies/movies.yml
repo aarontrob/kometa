@@ -350,12 +350,6 @@ collections:
       name: Collection - Movies
       movie: 2640, 941605
       summary: Best friends, social trends, and occasional murder.
-  Hellboy Collection:
-    template:
-      name: Collection - Movie
-      collection: 17235
-      movie: 456740
-      summary: From the Dark Side to Our Side.
   Hercule Poirot Collection:
     template:
       name: Collection

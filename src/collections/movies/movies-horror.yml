@@ -206,6 +206,12 @@ collections:
       sort_title: Hannibal Lecter Collection
       collection_mode: show_items
       summary: To enter the mind of a killer she must challenge the mind of a madman.
+  Hellboy Collection:
+    template:
+      name: Collection - Movie
+      collection: 17235
+      movie: 456740, 1087822
+      summary: From the Dark Side to Our Side.
   Hellraiser Collection:
     template:
       name: Collection - Movie
