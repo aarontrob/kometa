@@ -95,6 +95,14 @@ templates:
     sync_mode: sync
     smart_label: release.asc
     summary: <<summary>>
+  'People [Sort Title] - Trakt List':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sort_title: '!7_People <<sort_title>>'
+    sync_mode: sync
+    smart_label: release.asc
+    summary: <<summary>>
   Search:
     plex_search:
       title: <<title>>
@@ -1025,10 +1033,10 @@ collections:
         earning Emmy, Grammy, and American Comedy awards.
   Steve McQueen:
     template:
-      name: People
+      name: People - Actor
       person: Steve McQueen
       summary: >-
-        Terrence Stephen "Steve" McQueen (March 24, 1930 – November 7, 1980) was
+        Terrence Stephen "Steve" McQueen (March 24, 1930 - November 7, 1980) was
         an American actor. His antihero persona, emphasized during the height of
         the counterculture of the 1960s, made him a top box-office draw for his
         films of the late 1950s, 1960s, and 1970s. He was nicknamed the "King of
