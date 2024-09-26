@@ -134,11 +134,9 @@ collections:
       summary: Something unexpected, unbelievable, unforgettable.
   "Chip 'n Dale Collection":
     template:
-      name: Collection - Movies
-      movie: 53478, 53751, 55510
+      name: Collection - Trakt List
+      list: chip-n-dale-collection
       summary: Chip and Dale (also spelled Chip 'n' Dale) are a cartoon duo of anthropomorphic chipmunk brothers created in 1943 by The Walt Disney Company.
-    plex_search:
-      title: Chip 'n Dale, Chip 'n' Dale, Chip an' Dale, Chip ‘N’ Dale, Chip 'N' Dale
   Cinderella Collection:
     template:
       name: Collection - Movie
