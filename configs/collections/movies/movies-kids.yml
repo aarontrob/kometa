@@ -170,7 +170,7 @@ collections:
     template:
       name: Collection - Movie
       collection: 1231053
-      movie: 1046032
+      movie: '1046032, 1329336'
       sort_title: Bad Guys Collection
       summary: >-
         The adventures of "The Bad Guys". Are they really bad? Can they really
