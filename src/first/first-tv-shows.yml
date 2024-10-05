@@ -14,6 +14,7 @@ collections:
     template:
       name: First - Custom
       summary: Shows that have aired in the last 7 days
+    builder_level: episode
     smart_filter:
       all:
         episode_air_date: 7
