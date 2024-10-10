@@ -18,6 +18,7 @@ collections:
     smart_filter:
       all:
         episode_air_date: 7
+        episode_unplayed: true
       sort_by: episode_release.desc
   Label Pilots:
     plex_pilots: true
