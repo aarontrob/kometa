@@ -30,7 +30,7 @@ collections:
       name: Genre [Holiday] - Trakt List
       list: movies-kids-thanksgiving
       summary: “Gobble, gobble!”
-  Musical:
-    template:
-      name: Genre - Trakt List
-      list: movies-musicals
+  # Musical:
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: movies-musicals
