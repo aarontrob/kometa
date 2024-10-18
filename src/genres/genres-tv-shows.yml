@@ -33,3 +33,7 @@ collections:
     template:
       name: Genre - Trakt List Episodes
       list: tv-thanksgiving-episodes
+  Valentine's Day Episodes:
+    template:
+      name: Genre - Trakt List Episodes
+      list: tv-valentines-day-episodes
