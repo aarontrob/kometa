@@ -77,6 +77,14 @@ collections:
     template:
       name: Genre - Trakt List Episodes
       list: tv-christmas-episodes
+  Halloween Episodes:
+    template:
+      name: Genre - Trakt List Episodes
+      list: tv-halloween-episodes
+  Thanksgiving Episodes:
+    template:
+      name: Genre - Trakt List Episodes
+      list: tv-thanksgiving-episodes
   Valentine's Day Episodes:
     template:
       name: Genre - Trakt List Episodes
