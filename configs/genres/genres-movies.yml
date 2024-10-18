@@ -109,7 +109,6 @@ collections:
       name: Genre - Trakt List
       list: music
       item_genre: Music
-      summary: "\U0001F3B8 \U0001F3B8 \U0001F3B8"
     smart_label: title.asc
   Musical:
     template:

@@ -3,7 +3,3 @@ Profiles - Trakt List:
     - summary
   trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   sync_mode: sync
-  sort_title: "!2_Profile <<collection_name>>"
-  smart_label: title.asc
-  label: Profile_<<collection_name>>
-  summary: <<summary>>

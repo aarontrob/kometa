@@ -13,13 +13,6 @@ collections:
     template:
       name: Profiles - Trakt List
       list: tv-aaron
-      label: Aaron
-      summary: TV Shows for Aaron
     plex_search:
       title: Wet Hot American Summer
-  Tom:
-    template:
-      name: Profiles - Trakt List
-      list: tv-dad
-      label: Tom
-      summary: TV Shows for Tom
+    build_collection: false

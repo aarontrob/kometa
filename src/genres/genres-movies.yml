@@ -46,7 +46,6 @@ collections:
       name: Genre - Trakt List
       list: music
       item_genre: Music
-      summary: 🎸 🎸 🎸
     smart_label: title.asc
   Musical:
     template:
