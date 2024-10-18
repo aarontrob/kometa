@@ -16,6 +16,7 @@ collections:
       list: tv-aaron
     plex_search:
       title: Wet Hot American Summer
+    user_rating: 10.0
     build_collection: false
   # Tom:
   #   template:

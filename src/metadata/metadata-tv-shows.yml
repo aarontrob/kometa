@@ -1,0 +1,20 @@
+######################################################
+#                    Metadata                        #
+######################################################
+
+metadata:
+  Big Brother (US):
+    delete_episodes: week
+  Big Brother (2023):
+    delete_episodes: week
+  The Real Housewives of Beverly Hills:
+    delete_episodes: week
+  The Real Housewives of Salt Lake City:
+    delete_episodes: week
+  The Real Housewives of Orange County:
+    delete_episodes: week
+  Real Time with Bill Maher:
+    keep_episodes: past_30
+    delete_episodes: week
+  Survivor:
+    delete_episodes: week

@@ -33,5 +33,5 @@ collections:
     smart_filter:
       all:
         user_rating: 10.0
-      sort_by: show.desc
+      sort_by: title.desc
     summary: My favorite TV Shows

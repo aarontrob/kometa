@@ -4,10 +4,6 @@ templates:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
-    sort_title: '!2_Profile <<collection_name>>'
-    smart_label: title.asc
-    label: Profile_<<collection_name>>
-    summary: <<summary>>
 collections:
   Aaron:
     template:
@@ -15,4 +11,5 @@ collections:
       list: tv-aaron
     plex_search:
       title: Wet Hot American Summer
+    user_rating: 10
     build_collection: false
