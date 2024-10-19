@@ -86,7 +86,7 @@ collections:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-christmas
       smart_label: title.asc
-      summary: Merry Christmas! Sh*tter was full.
+      summary: null
   Comedy:
     template:
       name: 'Genre [Bottom]'
@@ -103,7 +103,7 @@ collections:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-halloween
-      summary: '“Oh, look. Another glorious morning. Makes me sick!”'
+      summary: null
   Music:
     template:
       name: Genre - Trakt List
@@ -114,7 +114,7 @@ collections:
     template:
       name: Genre - Trakt List
       list: movies-musicals
-      summary: Does anyone still wear a hat?
+      summary: null
   Mystery:
     template:
       name: 'Genre [Bottom]'
@@ -129,7 +129,7 @@ collections:
       name: Genre
       genre: Sports
       list: movies-sports
-      summary: PLAY BALL!
+      summary: null
   Stand Up:
     template:
       name: Genre - Trakt List
@@ -139,7 +139,7 @@ collections:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-thanksgiving
-      summary: 'Gobble, gobble'
+      summary: null
   Thriller:
     template:
       name: 'Genre [Bottom]'

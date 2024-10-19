@@ -14,22 +14,22 @@ collections:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-kids-christmas
-      summary: You're a mean one, Mr. Grinch!
+      summary:
   Easter:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-kids-easter
-      summary: “Hop, hop, hop!”
+      summary:
   Halloween:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-kids-halloween
-      summary: Who's afraid of ghosts?
+      summary:
   Thanksgiving:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-kids-thanksgiving
-      summary: “Gobble, gobble!”
+      summary:
   # Musical:
   #   template:
   #     name: Genre - Trakt List

@@ -64,14 +64,17 @@ templates:
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List Episodes:
+    optional:
+      - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
-    collection_order: alpha
-    collection_level: episode
+    collection_order: custom
+    sort_title: '!3_Genre <<collection_name>>'
+    summary: <<summary>>
 collections:
   Christmas:
     template:
       name: 'Genre [Holiday] - Trakt List [Hide Items]'
       list: movies-mom-christmas
-      summary: Merry Christmas!
+      summary: null

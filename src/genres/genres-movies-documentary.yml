@@ -14,4 +14,4 @@ collections:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-christmas
-      summary: Merry Christmas! Sh*tter was full.
+      summary:

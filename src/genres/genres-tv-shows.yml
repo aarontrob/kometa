@@ -14,17 +14,17 @@ collections:
     template:
       name: Genre - Trakt List
       list: tv-christmas
-      summary: “The best way to spread Christmas cheer is singing loud for all to hear.”
+      summary:
   Christmas Episodes:
     template:
       name: Genre - Trakt List Episodes
       list: tv-christmas-episodes
-      summary: Merry Christmas
+      summary:
   Halloween:
     template:
       name: Genre - Trakt List
       list: tv-halloween
-      summary: “It's all just a bunch of hocus pocus.”
+      summary:
   Halloween Episodes:
     template:
       name: Genre - Trakt List Episodes

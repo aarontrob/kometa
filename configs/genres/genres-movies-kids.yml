@@ -77,19 +77,19 @@ collections:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-christmas
-      summary: 'You''re a mean one, Mr. Grinch!'
+      summary: null
   Easter:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-easter
-      summary: '“Hop, hop, hop!”'
+      summary: null
   Halloween:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-halloween
-      summary: Who's afraid of ghosts?
+      summary: null
   Thanksgiving:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-thanksgiving
-      summary: '“Gobble, gobble!”'
+      summary: null
