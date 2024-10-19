@@ -110,11 +110,6 @@ collections:
       list: music
       item_genre: Music
     smart_label: title.asc
-  Musical:
-    template:
-      name: Genre - Trakt List
-      list: movies-musicals
-      summary: null
   Mystery:
     template:
       name: 'Genre [Bottom]'
