@@ -12,12 +12,6 @@ templates:
     sort_title: '!1_First <<sort_title>>'
     summary: <<summary>>
 collections:
-  Favorites:
-    smart_filter:
-      all:
-        show_rating: 10
-      sort_by: title.desc
-    summary: My favorite TV Shows
   Recently Aired:
     template:
       name: First - Custom

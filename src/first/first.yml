@@ -10,6 +10,13 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  Favorites:
+    collection_filtering: user
+    plex_search:
+      all:
+        user_rating.gte: 4.5
+      sort_by: title.desc
+    summary: My Favorites
   Recently Added:
     template:
       name: First [Sort Title] - Custom

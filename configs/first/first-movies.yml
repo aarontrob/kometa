@@ -12,12 +12,6 @@ templates:
     sort_title: '!1_First <<sort_title>>'
     summary: <<summary>>
 collections:
-  Favorites:
-    smart_filter:
-      all:
-        movie_rating: 10
-      sort_by: title.desc
-    summary: My favorite movies
   New Release:
     template:
       name: First - Custom
