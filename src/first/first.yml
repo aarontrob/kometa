@@ -29,9 +29,3 @@ collections:
       limit: 30
     smart_label: random
     sync_mode: sync
-  Favorites:
-    smart_filter:
-      all:
-        user_rating: 10.0
-      sort_by: title.desc
-    summary: My favorite TV Shows

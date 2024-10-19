@@ -10,6 +10,12 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  Favorites:
+    smart_filter:
+      all:
+        movie_rating: 10.0
+      sort_by: title.desc
+    summary: My favorite movies
   New Release:
     template:
       name: First - Custom
