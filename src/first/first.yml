@@ -12,10 +12,11 @@ templates: !!import/shallow
 collections:
   Favorites:
     collection_filtering: user
-    plex_search:
+    smart_filter:
+      sort_by: title.desc
       all:
         user_rating.gte: 4.5
-      sort_by: title.desc
+    # visible_home: true
     summary: My Favorites
   Recently Added:
     template:
