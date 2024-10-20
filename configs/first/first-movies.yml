@@ -12,7 +12,7 @@ templates:
     sort_title: '!1_First <<sort_title>>'
     summary: <<summary>>
 collections:
-  New Release:
+  New Releases:
     template:
       name: First - Custom
       summary: Movies released in the last year

@@ -10,7 +10,7 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  New Release:
+  New Releases:
     template:
       name: First - Custom
       summary: Movies released in the last year
