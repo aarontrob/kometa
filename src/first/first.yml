@@ -11,13 +11,15 @@ templates: !!import/shallow
 
 collections:
   Favorites:
+    template:
+      name: First - Custom
+      summary: My Favorites
     collection_filtering: user
     smart_filter:
       sort_by: title.desc
       all:
-        user_rating.gte: 4.5
+        user_rating.gte: 9.5
     # visible_home: true
-    summary: My Favorites
   Recently Added:
     template:
       name: First [Sort Title] - Custom

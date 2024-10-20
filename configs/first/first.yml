@@ -13,12 +13,14 @@ templates:
     summary: <<summary>>
 collections:
   Favorites:
+    template:
+      name: First - Custom
+      summary: My Favorites
     collection_filtering: user
     smart_filter:
       sort_by: title.desc
       all:
-        user_rating.gte: 4.5
-    summary: My Favorites
+        user_rating.gte: 9.5
   Recently Added:
     template:
       name: 'First [Sort Title] - Custom'
