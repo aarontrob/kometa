@@ -487,9 +487,8 @@ collections:
       summary: By the Power of Grayskull!
   The Matrix Collection:
     template:
-      name: Collection - Movie
-      collection: 2344
-      movie: 14543, 55931
+      name: Collection - Trakt List Custom Order
+      list: the-matrix-collection
       sort_title: Matrix Collection
       summary: Reality is a thing of the past.
   Mean Girls Collection:
