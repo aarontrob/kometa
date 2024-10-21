@@ -25,6 +25,12 @@ collections:
       name: Genre [Holiday] - Trakt List
       list: movies-kids-halloween
       summary:
+  So Good, It's Bad:
+    template:
+      name: Genre - Trakt List
+      list: bad-movies-collection
+      item_genre: So Good, It's Bad
+    smart_label: title.asc
   Thanksgiving:
     template:
       name: Genre [Holiday] - Trakt List
