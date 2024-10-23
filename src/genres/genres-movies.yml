@@ -72,11 +72,11 @@ collections:
       name: Genre - Trakt List
       list: movies-standup
     smart_label: title.asc
-  So Good, It's Bad:
+  So Bad... It's Good!:
     template:
       name: Genre - Trakt List
       list: bad-movies-collection
-      item_genre: So Good, It's Bad
+      item_genre: So Bad... It's Good!
     smart_label: title.asc
   Thanksgiving:
     template:
