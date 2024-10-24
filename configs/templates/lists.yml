@@ -13,7 +13,7 @@ List - Trakt List:
   sort_title: '!6_List <<collection_name>>'
   smart_label: year.asc
   summary: <<summary>>
-List - Trakt List Multi:
+List - Trakt List Other:
   optional:
     - name_mapping
     - summary
@@ -21,7 +21,7 @@ List - Trakt List Multi:
   sync_mode: sync
   name_mapping: <<name_mapping>>
   sort_title: '!6_List <<collection_name>>'
-  smart_label: title.desc
+  smart_label: title.asc
   summary: <<summary>>
 List - Trakt List Custom Order:
   optional:

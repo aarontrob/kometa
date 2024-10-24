@@ -22,7 +22,7 @@ templates:
     sync_mode: sync
     name_mapping: <<name_mapping>>
     sort_title: '!3.5_Category <<collection_name>>'
-    smart_label: title.desc
+    smart_label: title.asc
     summary: <<summary>>
   Category - Trakt List Custom Order:
     optional:
