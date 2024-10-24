@@ -1,51 +1,51 @@
-List - Custom:
+Category - Custom:
   optional:
     - summary
-  sort_title: "!6_List <<collection_name>>"
+  sort_title: '!3.5_Category <<collection_name>>'
   summary: <<summary>>
-List - Trakt List:
+Category - Trakt List:
   optional:
     - name_mapping
     - summary
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   sync_mode: sync
   name_mapping: <<name_mapping>>
-  sort_title: "!6_List <<collection_name>>"
+  sort_title: '!3.5_Category <<collection_name>>'
   smart_label: year.asc
   summary: <<summary>>
-List - Trakt List Multi:
+Category - Trakt List Multi:
   optional:
     - name_mapping
     - summary
   trakt_list: <<list>>
   sync_mode: sync
   name_mapping: <<name_mapping>>
-  sort_title: "!6_List <<collection_name>>"
+  sort_title: '!3.5_Category <<collection_name>>'
   smart_label: title.desc
   summary: <<summary>>
-List - Trakt List Custom Order:
+Category - Trakt List Custom Order:
   optional:
     - name_mapping
     - summary
-  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   sync_mode: sync
   collection_order: custom
-  sort_title: "!6_List <<collection_name>>"
+  sort_title: '!3.5_Category <<collection_name>>'
   collection_mode: show_items
   name_mapping: <<name_mapping>>
   summary: <<summary>>
-List - Trakt List Custom Order Details:
+Category - Trakt List Custom Order Details:
   optional:
     - name_mapping
     - summary
-  trakt_list_details: https://trakt.tv/users/goape/lists/<<list>>
+  trakt_list_details: 'https://trakt.tv/users/goape/lists/<<list>>'
   sync_mode: sync
   collection_order: custom
   collection_mode: show_items
   name_mapping: <<name_mapping>>
-  sort_title: "!6_List <<collection_name>>"
+  sort_title: '!3.5_Category <<collection_name>>'
   summary: <<summary>>
-List - Letterboxd List:
+Category - Letterboxd List:
   optional:
     - name_mapping
     - summary
@@ -54,15 +54,15 @@ List - Letterboxd List:
   collection_order: custom
   collection_mode: show_items
   name_mapping: <<name_mapping>>
-  sort_title: "!6_List <<collection_name>>"
+  sort_title: '!3.5_Category <<collection_name>>'
   summary: <<summary>>
-List - IMDB List:
+Category - IMDB List:
   optional:
     - name_mapping
     - summary
-  letterboxd_list: https://www.imdb.com/<<list>>
+  letterboxd_list: 'https://www.imdb.com/<<list>>'
   sync_mode: sync
   smart_label: year.asc
   name_mapping: <<name_mapping>>
-  sort_title: "!6_List <<collection_name>>"
+  sort_title: '!3.5_Category <<collection_name>>'
   summary: <<summary>>

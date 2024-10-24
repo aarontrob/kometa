@@ -1,0 +1,22 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/categories.yml
+
+######################################################
+#                   Collections                      #
+######################################################
+
+collections:
+  So Bad... It's Good!:
+    template:
+      name: Category - Trakt List
+      list: bad-movies-collection
+    smart_label: title.desc
+  Based on a Book:
+    template:
+      name: Category - Trakt List Other
+      list: https://trakt.tv/users/k0meta/lists/movies-based-on-books
+    smart_label: title.desc
