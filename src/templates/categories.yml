@@ -13,7 +13,7 @@ Category - Trakt List:
   sort_title: "!3.5_Category <<collection_name>>"
   smart_label: year.asc
   summary: <<summary>>
-Category - Trakt List Multi:
+Category - Trakt List Other:
   optional:
     - name_mapping
     - summary
