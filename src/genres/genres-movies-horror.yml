@@ -33,9 +33,3 @@ collections:
   #     list: movies-musicals
   #     name_mapping: Musical Horror
   #     summary: Creature of the night!
-  So Good, It's Bad:
-    template:
-      name: Genre - Trakt List
-      list: bad-movies-collection
-      item_genre: So Good, It's Bad
-    smart_label: title.asc
