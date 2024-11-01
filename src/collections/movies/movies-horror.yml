@@ -459,8 +459,10 @@ collections:
       summary: Never Forget. Never Forgive.
   Tales from the Crypt Collection:
     template:
-      name: Collection
+      name: Collection - Movie
       collection: 115142
+      movie: 53868, 213503
+      summary: DEATH LIVES in the Vault of Horror!
   Talk to Me Collection:
     template:
       name: Collection
