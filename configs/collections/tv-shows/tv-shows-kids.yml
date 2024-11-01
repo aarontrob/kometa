@@ -824,7 +824,6 @@ collections:
     template:
       name: Collection - Hide Show
       show: 13455
-      name_mapping: Tales from the Crypt Collection (TV Kids)
   Tangled Collection:
     template:
       name: Collection - Hide Show
