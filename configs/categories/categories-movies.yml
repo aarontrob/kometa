@@ -76,6 +76,14 @@ collections:
     template:
       name: Category - Trakt List Other
       list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-books'
+  Based on a Comic:
+    template:
+      name: Category - Trakt List Other
+      list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-comics'
+  Based on a True Story:
+    template:
+      name: Category - Trakt List Other
+      list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories'
   Based on a Video Game:
     template:
       name: Category - Trakt List Other

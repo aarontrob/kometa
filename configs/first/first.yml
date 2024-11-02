@@ -21,6 +21,17 @@ collections:
       sort_by: title.desc
       all:
         user_rating.gte: 9.5
+  Need to Finish:
+    template:
+      name: First - Custom
+      summary: 'Movies that have been started, but not finished.'
+    collection_filtering: user
+    smart_filter:
+      sort_by: title.desc
+      all:
+        progress: true
+        plays: 0
+    visible_home: true
   Recently Added:
     template:
       name: 'First [Sort Title] - Custom'
