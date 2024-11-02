@@ -50,3 +50,7 @@ collections:
       limit: 30
     smart_label: random
     sync_mode: sync
+  Watchlist:
+    plex_watchlist: critic_rating.desc
+    collection_order: custom
+    sync_mode: sync
