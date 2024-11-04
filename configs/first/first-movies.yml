@@ -12,11 +12,68 @@ templates:
     sort_title: '!1_First <<sort_title>>'
     summary: <<summary>>
 collections:
-  New Releases:
+  Favorites:
     template:
       name: First - Custom
-      summary: Movies released in the last year
+      summary: My Stellar Screen Faves
+    collection_filtering: user
+    smart_filter:
+      sort_by: title.desc
+      all:
+        user_rating.gte: 9.5
+  Hot Off the Reel:
+    template:
+      name: First - Custom
+      summary: 'Sizzling new releases, fresh off the reel and ready to dazzle!'
     smart_filter:
       all:
         release: 365
       sort_by: added.desc
+  Now Streaming:
+    template:
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!Now Streaming'
+      summary: A fresh batch of films just landed.
+    smart_filter:
+      all:
+        added: 30
+      limit: 100
+      sort_by: added.desc
+  'Only in Theaters * ':
+    smart_label: release.desc
+    sort_title: '!_First Only in Theaters'
+    plex_search:
+      all:
+        release.after: 01/01/2024
+    filters:
+      filepath.regex:
+        - (?i)\bCAM\b
+        - (?i)\bTELESYNC\b
+    summary: On the Marquee Today
+  To Be Continued…:
+    template:
+      name: First - Custom
+      summary: Halfway Hits!
+    collection_filtering: user
+    smart_filter:
+      sort_by: title.desc
+      all:
+        progress: true
+    visible_home: true
+  Trending:
+    template:
+      name: First - Custom
+      summary: Blockbusters Burning Up the Internet
+    trakt_chart:
+      chart: trending
+      limit: 30
+    smart_label: random
+    sync_mode: sync
+  Watchlist:
+    template:
+      name: First - Custom
+      summary: Reel Adventures Await...
+    plex_watchlist: critic_rating.desc
+    collection_order: custom
+    sync_mode: sync
+    smart_label: added.desc
