@@ -73,9 +73,8 @@ collections:
       genre: Action
       summary: >-
         Hold onto your popcorn, thrill-seekers! These pulse-pounding flicks are
-        packed with wham, bam, and a whole lotta slam! Buckle up for daring
-        do's, high-flyin' heroes, and enough explosive thrills to keep you on
-        the edge of your seat!
+        packed with action, daring heroes, and explosive thrills that will keep
+        you on the edge of your seat!
   Adventure:
     template:
       name: Genre
@@ -90,46 +89,42 @@ collections:
       list: movies-christmas
       smart_label: title.asc
       summary: >-
-        Break out the eggnog and mistletoe! These festive flicks are decked with
-        cheer, packed with holiday hijinks, and sprinkled with enough yuletide
-        magic to make even Scrooge crack a grin. It’s a holly jolly celebration
-        of the season!
+        Break out the eggnog and mistletoe! These festive flicks are packed with
+        holiday cheer and enough yuletide magic to make even Scrooge smile. It’s
+        a holly jolly celebration of the season!
   Comedy:
     template:
       name: Genre
       genre: Comedy
       summary: >-
-        Get ready to laugh 'til you're in stitches! These knee-slappin' flicks
-        bring on the giggles, the gags, and the goofs—served up with a side of
-        silly and a dash of zany. It's laughs-a-plenty, so grab a seat and let
+        Get ready to laugh ‘til you’re in stitches! These knee-slappin’ flicks
+        bring on the chuckles, the gags, and the goofs—served up with a side of
+        silly and a dash of zany. It’s laughs-a-plenty, so grab a seat and let
         the good times roll!
   Crime:
     template:
       name: Genre
       genre: Crime
       summary: >-
-        Get ready for capers, crooks, and close calls! These flicks are packed
-        with high-stakes heists, shady deals, and twisty plots that'll keep you
-        guessin' till the final frame. It's a real whodunit with all the
-        fixin's—just don't get caught red-handed!
+        Get ready for capers, crooks, and close calls! These flicks are loaded
+        with high-stakes heists and twisty plots that’ll keep you guessing. It’s
+        a real whodunit—just don’t get caught red-handed!
   Fantasy:
     template:
       name: Genre
       genre: Fantasy
       summary: >-
-        Step into a world of pure imagination! These magical tales are brimming
-        with mythical creatures, enchanted lands, and spellbinding adventures.
-        It's a whirlwind of wonder where anything can happen and dreams take
-        flight—grab your popcorn and let the magic unfold!
+        Enter a world of pure imagination! These magical tales are filled with
+        mythical creatures, enchanted lands, and spellbinding adventures. It’s a
+        whirlwind of wonder where dreams take flight!
   Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-halloween
       summary: >-
-        Light up the jack-o'-lanterns and prepare for chills, thrills, and
-        spooky spills! These eerie flicks are packed with ghouls, goblins, and
-        frights that'll leave you shiverin' with delight. It's a screamfest
-        that's to die for!
+        Light up the jack-o’-lanterns for chills and thrills! These eerie flicks
+        are packed with ghouls and goblins that’ll leave you shiverin’ with
+        delight. It’s a screamfest that’s to die for!
   Music:
     template:
       name: Genre - Trakt List
@@ -163,10 +158,10 @@ collections:
       name: Genre
       genre: Science Fiction
       summary: >-
-        Blast off to worlds beyond! These far-out flicks are filled with cosmic
-        capers, futuristic wonders, and mind-bendin' adventures that'll take you
-        light-years away. It's sci-fi thrills and otherworldly chills—perfect
-        for those with a taste for the unknown!
+        Blast off to worlds beyond! These far-out flicks are packed with cosmic
+        capers and mind-bending adventures that’ll take you light-years away.
+        Enjoy sci-fi thrills and otherworldly chills for those craving the
+        unknown!
   Sports:
     template:
       name: Genre

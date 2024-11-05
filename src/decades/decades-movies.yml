@@ -24,7 +24,7 @@ collections:
         - 2007
         - 2008
         - 2009
-      summary: Dive into the dynamic 2000s, a decade that redefined cinema with bold storytelling and innovative technology! This collection features a diverse array of films, from thrilling blockbusters and heartwarming tales to groundbreaking animations and unforgettable romances. With a blend of fresh voices and classic franchises, these flicks capture the essence of a time when cinema truly came into its own. Get comfy and prepare to relive the magic of the 2000s!
+      summary: Sweet! The 2000s bring a thrilling mix of films, featuring Harry Potter and the Sorcerer’s Stone and the epic Gladiator. This collection captures the innovation and magic that defined a memorable decade in cinema!
   "Decades: 1990s":
     template:
       name: Decade
@@ -39,7 +39,7 @@ collections:
         - 1997
         - 1998
         - 1999
-      summary: Enter the totally awesome nineties, a decade of groundbreaking films and unforgettable moments! This collection features a vibrant mix of classic comedies, epic adventures, and heartwarming dramas that defined the era. From the rise of animated masterpieces to the grunge-fueled stories of a generation, these flicks capture the spirit of a time when movies were as diverse and dynamic as the decade itself. So throw on your flannel and prepare for a nostalgia trip through the iconic films of the nineties!
+      summary: All that and a bag of chips! The Nifty Nineties showcase a variety of films, including Titanic and Jurassic Park, that captivated audiences around the globe. This collection highlights the creativity and diversity of a decade that left a lasting impact on cinema!
   "Decades: 1980s":
     template:
       name: Decade
@@ -54,7 +54,7 @@ collections:
         - 1987
         - 1988
         - 1989
-      summary: Welcome to the radical eighties, a decade bursting with neon colors, big hair, and unforgettable tunes! This collection is a nostalgic trip filled with iconic blockbusters, quirky comedies, and action-packed adventures that defined a generation. From heartwarming teen dramas to sci-fi thrillers, these films serve up all the charm and outrageous fun of the era. So grab your cassette tapes and relive the magic of the eighties!
+      summary: Totally awesome! The tubular Eighties are packed with iconic flicks like The Breakfast Club and Back to the Future, capturing the spirit of a generation. Get ready for a mix of adventure, comedy, and unforgettable characters!
   "Decades: 1970s":
     template:
       name: Decade
@@ -69,7 +69,7 @@ collections:
         - 1977
         - 1978
         - 1979
-      summary: Travel back to the funky seventies, where counterculture collided with cinematic creativity! This collection features a thrilling mix of groundbreaking films, from gritty dramas and mind-bending sci-fi to rock 'n' roll musicals and cult classics. With a soundtrack that still resonates and stories that pushed the envelope, these flicks capture the spirit of a decade defined by rebellion and innovation. Throw on your platform shoes and dive into a world of cinematic gold!
+      summary: Far out! The funky Seventies deliver bold films, from the gritty realism of Taxi Driver to the fantastical adventure of Star Wars. This decade was all about pushing boundaries and exploring new cinematic territories!
   "Decades: 1960s":
     template:
       name: Decade
@@ -84,7 +84,7 @@ collections:
         - 1967
         - 1968
         - 1969
-      summary: Groove on over to the swinging sixties, a decade of vibrant vibes and cultural revolutions! This collection features a kaleidoscope of colorful films, from iconic musicals and revolutionary dramas to psychedelic adventures that captured the spirit of the era. With unforgettable tunes and bold storytelling, these flicks invite you to relive the excitement and experimentation of a truly transformative time in cinema. So, grab your bell bottoms and let's boogie down memory lane!
+      summary: Groovy, baby! The Swinging Sixties feature iconic films like The Graduate and Psycho, highlighting the bold storytelling and innovation of the time. This collection celebrates the creativity that made the decade unforgettable!
   "Decades: 1950s":
     template:
       name: Decade
@@ -99,7 +99,7 @@ collections:
         - 1957
         - 1958
         - 1959
-      summary: Get ready to rock around the clock with the sensational fifties! This collection celebrates the decade of sock hops, greasers, and iconic blockbusters that defined a generation. From dazzling musicals to thrilling sci-fi adventures, these films are packed with the charm and flair of a bygone era. So grab your poodle skirt or leather jacket and dive into a world of unforgettable fun and classic storytelling!
+      summary: Well, I’ll be! The sensational Fifties shine with a mix of iconic films like Rebel Without a Cause and the thrilling North by Northwest. This collection captures the charm and excitement of a decade filled with unforgettable stories!
   "Decades: 1940s":
     template:
       name: Decade
@@ -114,7 +114,7 @@ collections:
         - 1947
         - 1948
         - 1949
-      summary: Enjoy the fabulous forties, a decade brimming with war-time courage and post-war romance! This collection features a captivating mix of film noir mysteries, dazzling musicals, and heartwarming tales that captured the spirit of resilience and hope. From the silver linings of love stories to the grit of wartime dramas, these flicks are sure to transport you back to a time of cinematic magic and unforgettable moments!
+      summary: Ain’t it a peach? The Fabulous Forties bring a mix of daring tales and unforgettable characters, featuring classics like Casablanca and It’s a Wonderful Life. This captivating collection captures the resilience and romance of the era in unforgettable films!
   "Decades: 1930s":
     template:
       name: Decade
@@ -129,7 +129,7 @@ collections:
         - 1937
         - 1938
         - 1939
-      summary: Welcome to the era of silver screen dreams and golden age glamour! The 1930s brought us unforgettable musicals, heartwarming dramas, and the rise of animated classics. This collection showcases the enchanting films that whisked audiences away from the Great Depression into a world of wonder and whimsy. So dim the lights and let the magic of the thirties take you on a delightful journey!
+      summary: Well, I’ll be! The 1930s ushered in the age of talkies, transforming the silver screen forever! This collection features films like Frankenstein and Snow White and the Seven Dwarfs, showcasing the magic of sound and storytelling that lifted spirits during tough times.
   "Decades: 1920s":
     template:
       name: Decade
@@ -144,4 +144,4 @@ collections:
         - 1927
         - 1928
         - 1929
-      summary: Step back in time to the roaring twenties, where flappers danced, jazz filled the air, and silent films gave way to talkies! This delightful collection features the iconic flicks that defined an era of glamour and excitement. Grab your cloche hat and enjoy the cinematic gems that brought the jazz age to life!
+      summary: Step right up to the Roaring Twenties, where glamour meets adventure! This collection features iconic flicks like The Jazz Singer and Metropolis, which set the stage for the future of cinema. Enjoy the dazzling performances and captivating stories that are the cat’s pajamas!

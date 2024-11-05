@@ -73,8 +73,9 @@ collections:
       name: Category - Trakt List
       list: bad-movies-collection
       summary: >-
-        These flicks are pure junk… but the kind you just can't quit! Dive into
-        the finest, cheesiest clunkers around—so bad, they're a gas!
+        Dive into a heap of cinematic doo-doo! These films are delightfully
+        stinky, with messy plots and corny lines that will have you rolling with
+        laughter at their sheer ridiculousness!
   Bound to Be Seen:
     template:
       name: Category - Trakt List Other
@@ -82,6 +83,14 @@ collections:
       summary: >-
         These page-turners leap off the shelf and onto the screen—timeless tales
         now made for movie magic!
+  Certified Fresh:
+    template:
+      name: Category - Trakt List
+      list: movies-certified-fresh
+      summary: >-
+        Check out this collection of films that have earned the golden seal of
+        approval! Certified fresh by Rotten Tomatoes, these flicks are the bee's
+        knees and ready to entertain!
   Hidden Gems:
     template:
       name: Category - Trakt List
