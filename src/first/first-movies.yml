@@ -20,7 +20,7 @@ collections:
       all:
         user_rating.gte: 9.5
     # visible_home: true
-  New Releases:
+  Latest Releases:
     template:
       name: First - Custom
       summary: A collection of the latest films that have just hit the scene!
@@ -73,7 +73,6 @@ collections:
     template:
       name: First - Custom
       summary: Reel Adventures Await...
-    plex_watchlist: critic_rating.desc
-    collection_order: custom
+    plex_watchlist: added.desc
     sync_mode: sync
     smart_label: added.desc
