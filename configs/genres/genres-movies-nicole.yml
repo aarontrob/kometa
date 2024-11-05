@@ -29,8 +29,6 @@ templates:
     sync_mode: sync
     smart_label: release.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
@@ -48,9 +46,7 @@ templates:
     sync_mode: sync
     smart_label: title.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List [Hide Items]':
     optional:
@@ -59,22 +55,25 @@ templates:
     sync_mode: sync
     collection_mode: hide_items
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
-  Genre - Trakt List Episodes:
+  'Genre [Holiday] - Trakt List Episodes':
     optional:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
     collection_order: custom
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
   Christmas:
     template:
       name: 'Genre [Holiday] - Trakt List [Hide Items]'
       list: movies-mom-christmas
-      summary: null
+      summary: >-
+        Step into a world where every small town is dusted with snow, every
+        holiday misunderstanding leads to love, and every story feels
+        wonderfully… familiar. Cozy cottages, festive fairs, and heartwarming
+        romance await in these tales, each one just a little different but all
+        wrapped up with the same perfect Christmas bow!

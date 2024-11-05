@@ -14,22 +14,23 @@ collections:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-horror-christmas
-      summary: Garbage Day!
+      summary: "'Tis the season… for terror! These bloody yuletide tales take holiday cheer to the darkest depths, with killer Santas, twisted carols, and enough gore to stain the snow red. It's festive as hell—just the way Krampus intended!"
   Halloween:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-halloween
-      summary: “One, Two, Freddy's Coming For You”
+      summary: Get ready for a bloodbath! These brutal flicks bring the gore, guts, and nightmares. From pissed-off ghosts to slashers who won't quit, it's wall-to-wall horror with enough twisted shit to haunt you long after Halloween's over.
   Horror:
     template:
       name: Genre [Bottom] - Custom
+      summary: Step right up to the spook show! From ghouls and goblins to bone-crackin' killers, this freaky lineup serves up every scream in the book. Get your kicks with blood-curdling classics, monster mashes, and gore galore—it's a real scream scene, daddy-o!
     smart_filter:
       all:
         title.not: Gamboozle
         sort_by: random
-  # Musical:
-  #   template:
-  #     name: Genre - Trakt List
-  #     list: movies-musicals
-  #     name_mapping: Musical Horror
-  #     summary: Creature of the night!
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: movies-musicals
+      name_mapping: Musical Horror
+      summary:

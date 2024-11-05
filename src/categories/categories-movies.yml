@@ -10,23 +10,33 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  So Bad... It's Good!:
+  Awesomely Awful:
     template:
       name: Category - Trakt List
       list: bad-movies-collection
-  Based on a Book:
+      summary: These flicks are pure junk… but the kind you just can't quit! Dive into the finest, cheesiest clunkers around—so bad, they're a gas!
+  Bound to Be Seen:
     template:
       name: Category - Trakt List Other
       list: https://trakt.tv/users/k0meta/lists/movies-based-on-books
-  Based on a Comic:
+      summary: These page-turners leap off the shelf and onto the screen—timeless tales now made for movie magic!
+  Hidden Gems:
+    template:
+      name: Category - Trakt List
+      list: movies-hidden-gems
+      summary: Discover underrated treasures and overlooked classics waiting to shine on your screen!
+  Pow! Right Off the Page!:
     template:
       name: Category - Trakt List Other
       list: https://trakt.tv/users/k0meta/lists/movies-based-on-comics
-  Based on a True Story:
+      summary: Zap! Bang! Boom! These larger-than-life adventures leap from comic panels to the big screen, packed with heroes, hijinks, and high-flying action!
+  Real Events, Reel Stories:
     template:
       name: Category - Trakt List Other
       list: https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
-  Based on a Video Game:
+      summary: True tales hit the silver screen! From heart-pounding heroics to wild twists of fate, these flicks bring real-life moments to movie magic!
+  Straight from the Arcade:
     template:
       name: Category - Trakt List Other
       list: https://trakt.tv/users/k0meta/lists/movies-based-on-video-games
+      summary: Grab your popcorn, player one! These flicks bring the game screen to the big screen—packed with pixelated thrills and joystick joyrides!

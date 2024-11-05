@@ -29,8 +29,6 @@ templates:
     sync_mode: sync
     smart_label: release.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
@@ -48,9 +46,7 @@ templates:
     sync_mode: sync
     smart_label: title.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List [Hide Items]':
     optional:
@@ -59,22 +55,24 @@ templates:
     sync_mode: sync
     collection_mode: hide_items
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
-  Genre - Trakt List Episodes:
+  'Genre [Holiday] - Trakt List Episodes':
     optional:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
     collection_order: custom
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
   Christmas:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-christmas
-      summary: null
+      summary: >-
+        It might be a bit chilly in here, but don't worry—these festive
+        documentaries pack all the holiday spirit you need! With a sprinkle of
+        cheer and a dash of history, these documentaries are a cozy way to warm
+        up your Christmas spirit, even if there aren't many to choose from!

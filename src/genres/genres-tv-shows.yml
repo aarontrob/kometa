@@ -12,28 +12,28 @@ templates: !!import/shallow
 collections:
   Christmas:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: tv-christmas
       summary:
   Christmas Episodes:
     template:
-      name: Genre - Trakt List Episodes
+      name: Genre [Holiday] - Trakt List Episodes
       list: tv-christmas-episodes
       summary:
   Halloween:
     template:
-      name: Genre - Trakt List
+      name: Genre [Holiday] - Trakt List
       list: tv-halloween
       summary:
   Halloween Episodes:
     template:
-      name: Genre - Trakt List Episodes
+      name: Genre [Holiday] - Trakt List Episodes
       list: tv-halloween-episodes
   Thanksgiving Episodes:
     template:
-      name: Genre - Trakt List Episodes
+      name: Genre [Holiday] - Trakt List Episodes
       list: tv-thanksgiving-episodes
   Valentine's Day Episodes:
     template:
-      name: Genre - Trakt List Episodes
+      name: Genre [Holiday] - Trakt List Episodes
       list: tv-valentines-day-episodes

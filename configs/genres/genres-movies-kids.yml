@@ -29,8 +29,6 @@ templates:
     sync_mode: sync
     smart_label: release.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
@@ -48,9 +46,7 @@ templates:
     sync_mode: sync
     smart_label: title.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List [Hide Items]':
     optional:
@@ -59,37 +55,55 @@ templates:
     sync_mode: sync
     collection_mode: hide_items
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
-  Genre - Trakt List Episodes:
+  'Genre [Holiday] - Trakt List Episodes':
     optional:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
     collection_order: custom
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
   Christmas:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-christmas
-      summary: null
+      summary: >-
+        Get ready for holiday magic! These festive flicks are filled with
+        snowflakes, giggles, and loads of Christmas cheer. Cozy up, sip some
+        cocoa, and join the fun with Santa, elves, and plenty of surprises!
   Easter:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-easter
-      summary: null
+      summary: >-
+        Hop into some egg-citing adventures! These fun flicks are bursting with
+        bunnies, colorful eggs, and springtime surprises. Get ready for a basket
+        full of laughs and warm, fuzzy moments!
   Halloween:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-halloween
-      summary: null
+      summary: >-
+        Get ready for a monster mash of fun! These Halloween flicks bring on the
+        laughs, treats, and spooky surprises for a night full of thrills and
+        chills—perfect for a ghoulishly good time!
   Thanksgiving:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-thanksgiving
-      summary: null
+      summary: >-
+        Gobble up the fun! These cozy flicks are filled with family, friends,
+        and feel-good moments. Get ready for heartwarming stories, festive
+        feasts, and a whole lot of Thanksgiving cheer!
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: movies-musicals
+      summary: >-
+        Sing, dance, and clap along! These toe-tappin' tales are packed with
+        catchy tunes, big dance numbers, and colorful adventures that'll have
+        you humming all day long. It's showtime, so get ready for fun!

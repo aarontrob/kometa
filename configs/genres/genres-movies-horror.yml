@@ -29,8 +29,6 @@ templates:
     sync_mode: sync
     smart_label: release.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
@@ -48,9 +46,7 @@ templates:
     sync_mode: sync
     smart_label: title.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List [Hide Items]':
     optional:
@@ -59,34 +55,51 @@ templates:
     sync_mode: sync
     collection_mode: hide_items
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
-  Genre - Trakt List Episodes:
+  'Genre [Holiday] - Trakt List Episodes':
     optional:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
     collection_order: custom
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
   Christmas Horror:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-horror-christmas
-      summary: Garbage Day!
+      summary: >-
+        'Tis the season… for terror! These bloody yuletide tales take holiday
+        cheer to the darkest depths, with killer Santas, twisted carols, and
+        enough gore to stain the snow red. It's festive as hell—just the way
+        Krampus intended!
   Halloween:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-halloween
-      summary: '“One, Two, Freddy''s Coming For You”'
+      summary: >-
+        Get ready for a bloodbath! These brutal flicks bring the gore, guts, and
+        nightmares. From pissed-off ghosts to slashers who won't quit, it's
+        wall-to-wall horror with enough twisted shit to haunt you long after
+        Halloween's over.
   Horror:
     template:
       name: 'Genre [Bottom] - Custom'
+      summary: >-
+        Step right up to the spook show! From ghouls and goblins to
+        bone-crackin' killers, this freaky lineup serves up every scream in the
+        book. Get your kicks with blood-curdling classics, monster mashes, and
+        gore galore—it's a real scream scene, daddy-o!
     smart_filter:
       all:
         title.not: Gamboozle
         sort_by: random
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: movies-musicals
+      name_mapping: Musical Horror
+      summary: null

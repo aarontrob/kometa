@@ -29,8 +29,6 @@ templates:
     sync_mode: sync
     smart_label: release.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
@@ -48,9 +46,7 @@ templates:
     sync_mode: sync
     smart_label: title.asc
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List [Hide Items]':
     optional:
@@ -59,92 +55,162 @@ templates:
     sync_mode: sync
     collection_mode: hide_items
     item_genre: <<collection_name>>
-    item_label: 'Genre: <<collection_name>>'
-    label: 'Genre: <<collection_name>>'
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
-  Genre - Trakt List Episodes:
+  'Genre [Holiday] - Trakt List Episodes':
     optional:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
     collection_order: custom
-    sort_title: '!3_Genre <<collection_name>>'
+    sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
   Action:
     template:
-      name: 'Genre [Bottom]'
+      name: Genre
       genre: Action
+      summary: >-
+        Hold onto your popcorn, thrill-seekers! These pulse-pounding flicks are
+        packed with wham, bam, and a whole lotta slam! Buckle up for daring
+        do's, high-flyin' heroes, and enough explosive thrills to keep you on
+        the edge of your seat!
   Adventure:
     template:
-      name: 'Genre [Bottom]'
+      name: Genre
       genre: Adventure
+      summary: >-
+        Saddle up for wild rides and far-out journeys! These flicks have more
+        twists and turns than a country road—where heroes rise, treasures
+        glimmer, and the thrill is always just around the corner!
   Christmas:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-christmas
       smart_label: title.asc
-      summary: null
+      summary: >-
+        Break out the eggnog and mistletoe! These festive flicks are decked with
+        cheer, packed with holiday hijinks, and sprinkled with enough yuletide
+        magic to make even Scrooge crack a grin. It's holly jolly cinema at its
+        finest!
   Comedy:
     template:
-      name: 'Genre [Bottom]'
+      name: Genre
       genre: Comedy
+      summary: >-
+        Get ready to laugh 'til you're in stitches! These knee-slappin' flicks
+        bring on the giggles, the gags, and the goofs—served up with a side of
+        silly and a dash of zany. It's laughs-a-plenty, so grab a seat and let
+        the good times roll!
   Crime:
     template:
-      name: 'Genre [Bottom]'
+      name: Genre
       genre: Crime
+      summary: >-
+        Get ready for capers, crooks, and close calls! These flicks are packed
+        with high-stakes heists, shady deals, and twisty plots that'll keep you
+        guessin' till the final frame. It's a real whodunit with all the
+        fixin's—just don't get caught red-handed!
   Fantasy:
     template:
-      name: 'Genre [Bottom]'
+      name: Genre
       genre: Fantasy
+      summary: >-
+        Step into a world of pure imagination! These magical tales are brimming
+        with mythical creatures, enchanted lands, and spellbinding adventures.
+        It's a whirlwind of wonder where anything can happen and dreams take
+        flight—grab your popcorn and let the magic unfold!
   Halloween:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-halloween
-      summary: null
+      summary: >-
+        Light up the jack-o'-lanterns and prepare for chills, thrills, and
+        spooky spills! These eerie flicks are packed with ghouls, goblins, and
+        frights that'll leave you shiverin' with delight. It's a screamfest
+        that's to die for!
   Music:
     template:
       name: Genre - Trakt List
       list: music
       item_genre: Music
+      summary: >-
+        From center stage to the silver screen! Dive into rockin' concert films,
+        chart-toppin' biopics, and tales of real-life legends. It's music in
+        motion, with rhythm, riffs, and all the backstage buzz!
     smart_label: title.asc
   Musical:
     template:
       name: Genre - Trakt List
       list: movies-musicals
-      summary: null
+      summary: >-
+        Get ready for razzle-dazzle and toe-tappin' tunes! These show-stoppin'
+        flicks are packed with catchy songs, big dance numbers, and more pizzazz
+        than you can shake a tambourine at. It's pure melody and magic on the
+        big screen!
   Mystery:
     template:
-      name: 'Genre [Bottom]'
+      name: Genre
       genre: Mystery
-  Sci-Fi:
+      summary: >-
+        Get ready for spine-tinglin' secrets and clues at every corner! These
+        shadowy tales are packed with suspense, sneaky suspects, and twists
+        that'll keep you second-guessin' till the very last scene. It's a
+        thrill-filled puzzle you won't want to miss!
+  Science Fiction:
     template:
-      name: 'Genre [Bottom]'
-      genre: Sci-Fi
-      summary: 'Luke, I am your father'
+      name: Genre
+      genre: Science Fiction
+      summary: >-
+        Blast off to worlds beyond! These far-out flicks are filled with cosmic
+        capers, futuristic wonders, and mind-bendin' adventures that'll take you
+        light-years away. It's sci-fi thrills and otherworldly chills—perfect
+        for those with a taste for the unknown!
   Sports:
     template:
       name: Genre
       genre: Sports
       list: movies-sports
-      summary: null
+      summary: >-
+        Lace up and get ready for victory! These action-packed flicks are full
+        of big plays, underdog triumphs, and heart-pumpin' moments that'll have
+        you cheerin' from the couch. It's the thrill of the game on the silver
+        screen!
   Stand Up:
     template:
       name: Genre - Trakt List
       list: movies-standup
+      summary: >-
+        Get ready to bust a gut! These laugh-out-loud specials bring comedy's
+        best straight to your screen, with punchlines, zingers, and
+        side-splittin' stories that'll keep you grinnin' all night long. It's a
+        laugh fest you won't wanna miss!
     smart_label: title.asc
   Thanksgiving:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-thanksgiving
-      summary: null
+      summary: >-
+        Gather 'round for heartwarming tales, family feasts, and holiday
+        hijinks! These festive flicks are packed with gratitude, gravy, and just
+        the right amount of family drama. It's a cozy cornucopia of feel-good
+        fun!
   Thriller:
     template:
-      name: 'Genre [Bottom]'
+      name: Genre
       genre: Thriller
+      summary: >-
+        Get ready for a wild ride! These nerve-janglin' flicks are loaded with
+        unexpected twists, eerie atmospheres, and just the right dose of chills
+        to keep you on high alert. It's suspense and intrigue turned up to
+        eleven!
   Western:
     template:
-      name: 'Genre [Bottom]'
+      name: Genre
       genre: Western
+      summary: >-
+        Saddle up for a rootin'-tootin' adventure! These rugged tales are packed
+        with dusty trails, quick-draw showdowns, and outlaws with grit. It's the
+        wild frontier, where legends are born and the spirit of the Old West
+        rides on!
