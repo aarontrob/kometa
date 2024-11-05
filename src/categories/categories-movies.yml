@@ -25,7 +25,7 @@ collections:
       name: Category - Trakt List
       list: movies-hidden-gems
       summary: Discover underrated treasures and overlooked classics waiting to shine on your screen!
-  Pow! Right Off the Page!:
+  Comics Come Alive!:
     template:
       name: Category - Trakt List Other
       list: https://trakt.tv/users/k0meta/lists/movies-based-on-comics

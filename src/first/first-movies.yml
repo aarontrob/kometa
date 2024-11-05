@@ -20,14 +20,6 @@ collections:
       all:
         user_rating.gte: 9.5
     # visible_home: true
-  Latest Releases:
-    template:
-      name: First - Custom
-      summary: A collection of the latest films that have just hit the scene!
-    smart_filter:
-      all:
-        release: 365
-      sort_by: added.desc
   Hot Picks:
     template:
       name: First - Custom
@@ -37,10 +29,18 @@ collections:
       limit: 30
     smart_label: random
     sync_mode: sync
+  Latest Releases:
+    template:
+      name: First - Custom
+      summary: A collection of the latest films that have just hit the scene!
+    smart_filter:
+      all:
+        release: 365
+      sort_by: added.desc
   "Now Streaming":
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!Now Streaming"
+      sort_title: "!!Now Streaming"
       summary: A fresh batch of films just landed.
     smart_filter:
       all:
@@ -49,7 +49,7 @@ collections:
       sort_by: added.desc
   "Only in Theaters * ":
     smart_label: release.desc
-    sort_title: "!_First Only in Theaters"
+    sort_title: "!Only in Theaters"
     plex_search:
       all:
         release.after: 01/01/2024
