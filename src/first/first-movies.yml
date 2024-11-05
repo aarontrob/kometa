@@ -60,16 +60,16 @@ collections:
         progress: true
         # plays: 0       <= this needs to be changed
     visible_home: true
-  Trending:
+  Whats Hot:
     template:
       name: First - Custom
-      summary: Blockbusters Burning Up the Internet
+      summary: Check out the flicks everyone's buzzing about! These sizzling selections are sure to be the talk of the town!
     trakt_chart:
       chart: trending
       limit: 30
     smart_label: random
     sync_mode: sync
-  Watchlist:
+  Must-Watch List:
     template:
       name: First - Custom
       summary: Reel Adventures Await...

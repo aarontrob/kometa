@@ -67,7 +67,7 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Christmas:
+  Tinsel Time:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: tv-christmas
@@ -77,7 +77,7 @@ collections:
       name: 'Genre [Holiday] - Trakt List Episodes'
       list: tv-christmas-episodes
       summary: null
-  Halloween:
+  Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: tv-halloween

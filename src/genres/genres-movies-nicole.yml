@@ -10,7 +10,7 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Christmas:
+  Tinsel Time:
     template:
       name: Genre [Holiday] - Trakt List [Hide Items]
       list: movies-mom-christmas

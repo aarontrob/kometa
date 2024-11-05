@@ -67,7 +67,7 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Christmas:
+  Tinsel Time:
     template:
       name: 'Genre [Holiday] - Trakt List [Hide Items]'
       list: movies-mom-christmas

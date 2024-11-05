@@ -67,7 +67,7 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Christmas:
+  Tinsel Time:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-christmas
@@ -75,7 +75,7 @@ collections:
         Get ready for holiday magic! These festive flicks are filled with
         snowflakes, giggles, and loads of Christmas cheer. Cozy up, sip some
         cocoa, and join the fun with Santa, elves, and plenty of surprises!
-  Easter:
+  Egg-citing Adventures:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-easter
@@ -83,7 +83,7 @@ collections:
         Hop into some egg-citing adventures! These fun flicks are bursting with
         bunnies, colorful eggs, and springtime surprises. Get ready for a basket
         full of laughs and warm, fuzzy moments!
-  Halloween:
+  Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-halloween
@@ -91,7 +91,7 @@ collections:
         Get ready for a monster mash of fun! These Halloween flicks bring on the
         laughs, treats, and spooky surprises for a night full of thrills and
         chills—perfect for a ghoulishly good time!
-  Thanksgiving:
+  Turkey Lurkey Time:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-thanksgiving
@@ -99,7 +99,7 @@ collections:
         Gobble up the fun! These cozy flicks are filled with family, friends,
         and feel-good moments. Get ready for heartwarming stories, festive
         feasts, and a whole lot of Thanksgiving cheer!
-  Musical:
+  Showstoppers and High Kicks:
     template:
       name: Genre - Trakt List
       list: movies-musicals

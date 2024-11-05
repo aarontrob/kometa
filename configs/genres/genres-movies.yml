@@ -84,7 +84,7 @@ collections:
         Saddle up for wild rides and far-out journeys! These flicks have more
         twists and turns than a country road—where heroes rise, treasures
         glimmer, and the thrill is always just around the corner!
-  Christmas:
+  Tinsel Time:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-christmas
@@ -121,7 +121,7 @@ collections:
         with mythical creatures, enchanted lands, and spellbinding adventures.
         It's a whirlwind of wonder where anything can happen and dreams take
         flight—grab your popcorn and let the magic unfold!
-  Halloween:
+  Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-halloween
@@ -140,7 +140,7 @@ collections:
         chart-toppin' biopics, and tales of real-life legends. It's music in
         motion, with rhythm, riffs, and all the backstage buzz!
     smart_label: title.asc
-  Musical:
+  Showstoppers and High Kicks:
     template:
       name: Genre - Trakt List
       list: movies-musicals
@@ -187,7 +187,7 @@ collections:
         side-splittin' stories that'll keep you grinnin' all night long. It's a
         laugh fest you won't wanna miss!
     smart_label: title.asc
-  Thanksgiving:
+  Turkey Lurkey Time:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-thanksgiving

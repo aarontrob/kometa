@@ -10,12 +10,12 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Christmas Horror:
+  Tinsel Time:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-horror-christmas
       summary: "'Tis the season… for terror! These bloody yuletide tales take holiday cheer to the darkest depths, with killer Santas, twisted carols, and enough gore to stain the snow red. It's festive as hell—just the way Krampus intended!"
-  Halloween:
+  Trick-or-Treat:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-halloween
@@ -28,7 +28,7 @@ collections:
       all:
         title.not: Gamboozle
         sort_by: random
-  Musical:
+  Showstoppers and High Kicks:
     template:
       name: Genre - Trakt List
       list: movies-musicals
