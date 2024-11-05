@@ -21,14 +21,25 @@ collections:
       sort_by: title.desc
       all:
         user_rating.gte: 9.5
-  Hot Off the Reel:
+  New Releases:
     template:
       name: First - Custom
-      summary: 'Sizzling new releases, fresh off the reel and ready to dazzle!'
+      summary: A collection of the latest films that have just hit the scene!
     smart_filter:
       all:
         release: 365
       sort_by: added.desc
+  Hot Picks:
+    template:
+      name: First - Custom
+      summary: >-
+        Check out the flicks everyone's buzzing about! These sizzling selections
+        are sure to be the talk of the town!
+    trakt_chart:
+      chart: trending
+      limit: 30
+    smart_label: random
+    sync_mode: sync
   Now Streaming:
     template:
       name: 'First [Sort Title] - Custom'
@@ -60,18 +71,7 @@ collections:
       all:
         progress: true
     visible_home: true
-  Whats Hot:
-    template:
-      name: First - Custom
-      summary: >-
-        Check out the flicks everyone's buzzing about! These sizzling selections
-        are sure to be the talk of the town!
-    trakt_chart:
-      chart: trending
-      limit: 30
-    smart_label: random
-    sync_mode: sync
-  Must-Watch List:
+  Watchlist:
     template:
       name: First - Custom
       summary: Reel Adventures Await...
