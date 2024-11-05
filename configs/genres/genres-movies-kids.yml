@@ -99,7 +99,7 @@ collections:
         Gobble up the fun! These cozy flicks are filled with family, friends,
         and feel-good moments. Get ready for heartwarming stories, festive
         feasts, and a whole lot of Thanksgiving cheer!
-  Showstoppers and High Kicks:
+  Musical:
     template:
       name: Genre - Trakt List
       list: movies-musicals

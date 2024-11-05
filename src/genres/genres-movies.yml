@@ -53,7 +53,7 @@ collections:
       item_genre: Music
       summary: From center stage to the silver screen! Dive into rockin' concert films, chart-toppin' biopics, and tales of real-life legends. It's music in motion, with rhythm, riffs, and all the backstage buzz!
     smart_label: title.asc
-  Showstoppers and High Kicks:
+  Musical:
     template:
       name: Genre - Trakt List
       list: movies-musicals

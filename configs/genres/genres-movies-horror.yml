@@ -97,7 +97,7 @@ collections:
       all:
         title.not: Gamboozle
         sort_by: random
-  Showstoppers and High Kicks:
+  Musical:
     template:
       name: Genre - Trakt List
       list: movies-musicals
