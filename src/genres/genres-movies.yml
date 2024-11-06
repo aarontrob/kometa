@@ -20,6 +20,12 @@ collections:
       name: Genre
       genre: Adventure
       summary: Saddle up for wild rides and far-out journeys! These flicks have more twists and turns than a country road—where heroes rise, treasures glimmer, and the thrill is always just around the corner!
+  Biopics:
+    template:
+      name: Genre - Trakt List
+      list: movies-biopics
+      smart_label: title.desc
+      summary:
   Tinsel Time:
     template:
       name: Genre [Holiday] - Trakt List
