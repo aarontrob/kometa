@@ -93,4 +93,6 @@ collections:
         can find the time!
     plex_watchlist: added.desc
     sync_mode: sync
+    smart_label: added.desc
     collection_filtering: user
+    label: Admin

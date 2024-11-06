@@ -78,4 +78,6 @@ collections:
       summary: Welcome to the ultimate procrastination paradise! This collection is filled with flicks you promised to watch but keep pushing to the back burner. These films are just waiting for you to finally hit play—if you can find the time!
     plex_watchlist: added.desc
     sync_mode: sync
+    smart_label: added.desc
     collection_filtering: user
+    label: Admin
