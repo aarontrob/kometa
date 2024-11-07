@@ -137,9 +137,10 @@ collections:
       list: movies-music
       item_genre: Music
       summary: >-
-        From center stage to the silver screen! Dive into rockin' concert films,
-        chart-toppin' biopics, and tales of real-life legends. It's music in
-        motion, with rhythm, riffs, and all the backstage buzz!
+        “Crank it up! Tuned In takes you backstage with music icons in live
+        concerts, biopics, and legendary music movies, celebrating unforgettable
+        stories and sounds. Get ready for the biggest hits that’ll keep you
+        grooving!”
     smart_label: title.asc
   Musical:
     template:
