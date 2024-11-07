@@ -134,7 +134,7 @@ collections:
   Music:
     template:
       name: Genre - Trakt List
-      list: music
+      list: movies-music
       item_genre: Music
       summary: >-
         From center stage to the silver screen! Dive into rockin' concert films,
