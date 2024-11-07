@@ -41,13 +41,13 @@ collections:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!!Now Streaming"
-      summary: A fresh batch of films has just been added for streaming, beamed down like UFOs from the movie galaxy!
+      summary: A fresh batch of films has just landed, beamed down like UFOs from the movie galaxy! Explore a mix of buzzworthy titles, hidden gems, and everything in between that might just surprise you!
     smart_filter:
       all:
         added: 30
       limit: 100
       sort_by: added.desc
-  "Only in Theaters * ":
+  "Only in Theaters*":
     smart_label: release.desc
     sort_title: "!Only in Theaters"
     plex_search:
@@ -58,13 +58,11 @@ collections:
         - '(?i)\bCAM\b'
         - '(?i)\bTELESYNC\b'
     summary: >-
-      *  And also here. Shhh, don’t tell anyone!
-
-      Enjoy low-quality flicks filmed in a theater, complete with random folks walking by and coughing at the worst moments. Plus, get ready for jarring crypto ads—who doesn’t love a commercial during a tense scene? It’s the “theater” experience from your couch!
+      * And also here. Shhh, don’t tell anyone! Dive into films that are “only” in theaters! Expect movies that look like they were filmed on a potato, complete with random people walking by and jarring crypto ads—who doesn’t love a commercial during a tense scene?
   To Be Continued…:
     template:
       name: First - Custom
-      summary: Where films are left hanging, and your attention span faces the ultimate test! These tantalizing tales will have you wondering, “What happens next?” It’s a collection of movies that tease your patience and keep you craving closure!
+      summary: Films that leave you hanging, testing your patience like never before! These cliffhangers will have you shouting, “What’s next?” as you relish the anticipation of unfinished stories!
     collection_filtering: user
     smart_filter:
       sort_by: title.desc
@@ -75,7 +73,7 @@ collections:
   Watchlist:
     template:
       name: First - Custom
-      summary: Welcome to the ultimate procrastination paradise! This collection is filled with flicks you promised to watch but keep pushing to the back burner. These films are just waiting for you to finally hit play—if you can find the time!
+      summary: Ah, the Watchlist—a collection of movies you promised yourself you’d watch but somehow keep dodging like a pro! Here’s to the films that are just too good to watch… right now!
     plex_watchlist: added.desc
     sync_mode: sync
     smart_label: added.desc
