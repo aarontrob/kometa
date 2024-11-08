@@ -131,7 +131,7 @@ collections:
         Light up the jack-o’-lanterns for chills and thrills! These eerie flicks
         are packed with ghouls and goblins that’ll leave you shiverin’ with
         delight. It’s a screamfest that’s to die for!
-  Music:
+  Turn It Up:
     template:
       name: Genre - Trakt List
       list: movies-music

@@ -21,15 +21,6 @@ collections:
       sort_by: title.desc
       all:
         user_rating.gte: 9.5
-  What's Hot:
-    template:
-      name: First - Custom
-      summary: 'Bringing the heat, these movies have everyone’s attention right now!”'
-    trakt_chart:
-      chart: trending
-      limit: 30
-    smart_label: random
-    sync_mode: sync
   Latest Releases:
     template:
       name: First - Custom
@@ -44,7 +35,7 @@ collections:
       sort_title: '!!Just In'
       summary: >-
         New arrivals have just hit the lineup! A selection of classics, new
-        hits, and everything in between awaits.
+        hits, and everything in between.
     smart_filter:
       all:
         added: 30

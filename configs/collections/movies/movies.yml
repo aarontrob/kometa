@@ -1358,6 +1358,7 @@ collections:
       all:
         release: 1
     delete_collections_named:
+      - What's Hot
       - 3 Men Collection
       - 3 Men (Original) Collection
       - The Addams Family (Animated) Collection

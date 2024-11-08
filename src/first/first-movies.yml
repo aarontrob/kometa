@@ -20,15 +20,15 @@ collections:
       all:
         user_rating.gte: 9.5
     # visible_home: true
-  What's Hot:
-    template:
-      name: First - Custom
-      summary: Bringing the heat, these movies have everyone’s attention right now!”
-    trakt_chart:
-      chart: trending
-      limit: 30
-    smart_label: random
-    sync_mode: sync
+  # What's Hot:
+  #   template:
+  #     name: First - Custom
+  #     summary: Bringing the heat, these movies have everyone’s attention right now!”
+  #   trakt_chart:
+  #     chart: trending
+  #     limit: 30
+  #   smart_label: random
+  #   sync_mode: sync
   Latest Releases:
     template:
       name: First - Custom
@@ -41,7 +41,7 @@ collections:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!!Just In"
-      summary: New arrivals have just hit the lineup! A selection of classics, new hits, and everything in between awaits.
+      summary: New arrivals have just hit the lineup! A selection of classics, new hits, and everything in between.
     smart_filter:
       all:
         added: 30
