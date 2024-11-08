@@ -21,12 +21,10 @@ collections:
       sort_by: title.desc
       all:
         user_rating.gte: 9.5
-  Hot Picks:
+  What's Hot:
     template:
       name: First - Custom
-      summary: >-
-        Check out the flicks everyone's buzzing about! These sizzling selections
-        are sure to be the talk of the town!
+      summary: 'Bringing the heat, these movies have everyone’s attention right now!”'
     trakt_chart:
       chart: trending
       limit: 30
@@ -40,14 +38,13 @@ collections:
       all:
         release: 365
       sort_by: added.desc
-  Now Streaming:
+  Just In:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!!Now Streaming'
+      sort_title: '!!Just In'
       summary: >-
-        A fresh batch of films has just landed, beamed down like UFOs from the
-        movie galaxy! Explore a mix of buzzworthy titles, hidden gems, and
-        everything in between that might just surprise you!
+        New arrivals have just hit the lineup! A selection of classics, new
+        hits, and everything in between awaits.
     smart_filter:
       all:
         added: 30
