@@ -24,7 +24,7 @@ collections:
   What's Hot:
     template:
       name: First - Custom
-      summary: 'Bringing the heat, these movies have everyone’s attention right now!”'
+      summary: 'Bringing the heat, these movies have everyone’s attention right now!'
     trakt_chart:
       chart: trending
       limit: 30
@@ -50,9 +50,14 @@ collections:
         added: 30
       limit: 100
       sort_by: added.desc
-  Only in Theaters*:
+  Only in Theaters:
+    template:
+      name: First - Custom
+      summary: >-
+        Expect movies that look like they were filmed on a potato, complete with
+        random people walking by and jarring crypto ads—who doesn’t love a
+        commercial during a tense scene?
     smart_label: release.desc
-    sort_title: '!Only in Theaters'
     plex_search:
       all:
         release.after: 01/01/2024
@@ -60,11 +65,6 @@ collections:
       filepath.regex:
         - (?i)\bCAM\b
         - (?i)\bTELESYNC\b
-    summary: >-
-      * And also here. Shhh, don’t tell anyone! Dive into films that are “only”
-      in theaters! Expect movies that look like they were filmed on a potato,
-      complete with random people walking by and jarring crypto ads—who doesn’t
-      love a commercial during a tense scene?
   To Be Continued…:
     template:
       name: First - Custom
