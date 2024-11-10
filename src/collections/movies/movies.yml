@@ -21,1056 +21,1056 @@ unmanaged: &unmanaged
 ######################################################
 
 collections:
-  # Addams Family Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 11716
-  #     movie: 11508, 481084, 639721
-  #     summary: Creepy. Kooky. Spooky. Ooky.
-  # Æon Flux Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 8202
-  #     sort_title: Aeon Flux Collection
-  # Airplane Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 91663
-  #     summary: Does anyone here speak Jive?
-  # Alien Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order # Custom Order
-  #     list: alien-collection-timeline
-  #     summary: In space no one can hear you scream.
-  # Aquaman Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 573693
-  #     summary: Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth's surface, including all the creatures contained within.
-  # Around the World in 80 Days Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 10204, 2897
-  #     summary: It's a wonderful world, if you'll only take the time to go around it!
-  # The Avengers Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 86311
-  #     sort_title: Avengers Collection
-  #     summary: Earth's Mightiest Heroes
-  # Back to the Future Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 264
-  #     summary: "Where we're going, we don't need roads"
-  #     plex_search:
-  #       title: Back to the Future... The Ride
-  # The Bad News Bears Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 215326
-  #     movie: 13341
-  #     summary: Baseball has rules. Meet the exceptions.
-  # Batman Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: batman-collection
-  #     summary: Justice is always Darkest before the Dawn.
-  # Battlestar Galactica Collection:
-  #   template:
-  #     name: Collection - Trakt List
-  #     list: battlestar-galactica-collection
-  #     summary: The fight to save humanity rages on. Where will you stand? Destiny is not what it seems.
-  # Betty Boop Collection:
-  #   trakt_list: https://trakt.tv/lists/official/betty-boop-fleischer-brothers-collection
-  #   summary: Betty Boop is an animated cartoon character created by Max Fleischer, with help from animators including Grim Natwick. She originally appeared in the Talkartoon and Betty Boop film series, which were produced by Fleischer Studios and released by Paramount Pictures.
-  # Beavis and Butt-Head Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 939227
-  #     summary: Do you have any T.P.? T.P. for my bunghole? I would hate for my bungholio to get polio.
-  # The Beverly Hillbillies Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 11041
-  #     sort_title: Beverly Hillbillies Collection
-  # Bewitched Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 9722
-  # Bill & Ted's Most Excellent Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 91746
-  # Blade Runner Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 422837
-  #     summary: Man Has Made His Match... Now It's His Problem
-  # Bob's Burgers Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 504827
-  # The Brady Bunch Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 224478
-  #     movie: 76657, 49358
-  #     summary: Sure Jan.
-  # Buck Rogers Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 3786
-  # Cape Fear Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 1598, 11349
-  #     summary: There is nothing in the dark that isn't there in the light. Except fear.
-  # Captain America Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: captain-america-collection
-  # Charlie's Angels Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 86029
-  #     movie: 458897
-  #     summary: An American media franchise that follows the adventures of the Angels, a team of women working for the Townsend Agency, a private detective agency, under the leadership of Charlie Townsend, their unseen boss. The film series is a continuation of the story with later generations of Angels.
-  # The Christmas Chronicles Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 743824
-  #     summary: The magical adventures of Santa Claus, Mrs. Claus and the Pierce siblings.
-  # A Christmas Story Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 201873
-  #     movie: 485517
-  #     summary: You’ll shoot your eye out!
-  # Clash of the Titans Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 86780
-  #     movie: 10323
-  #     summary: A fantasy action franchise based on characters and myths of Ancient Greek mythology involving the Greek hero Perseus.
-  # Clueless Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 9603
-  # Conan the Barbarian Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 43055
-  #     movie: 37430
-  #     summary: A film adaptation of the classic sword and sorcery hero, Conan the Barbarian. A horde of rampaging warriors massacre the parents of young Conan and enslave the young child for years on The Wheel of Pain. As the sole survivor of the childhood massacre, Conan is released from slavery and taught the ancient arts of fighting. Transforming himself into a killing machine, Conan travels into the wilderness to seek vengeance on Thulsa Doom, the man responsible for killing his family. In the wilderness, Conan takes up with the thieves Valeria and Subotai. The group comes upon King Osric, who wants the trio of warriors to help rescue his daughter who has joined Doom in the hills.
-  # Cornetto Trilogy:
-  #   template:
-  #     name: Collection - Trakt List
-  #     list: cornetto-trilogy
-  #     collection_mode: show_items
-  #     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
-  # Daredevil Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 9480, 9947
-  #     collection_mode: show_items
-  #     summary: Daredevil is a fictional superhero appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby.
-  # The Dark Crystal Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 11639
-  #     sort_title: Dark Crystal Collection
-  # Deuce Bigalow Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 95664
-  #     summary: He's not very good looking. But when the lights go out...he's still not very good looking.
-  # Die Hard Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 1570
-  #     movie: 42636
-  #     summary: Yippee Ki Yay, motherf*cker
-  # Dirty Dancing Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 86058
-  #     movie: 444902
-  #     summary: Dancing to the beat of their hearts.
-  # Doctor Strange Collection:
-  #   template:
-  #     name: Search
-  #     title:
-  #       - Doctor Strange
-  #       - Dr. Strange
-  #     title.not:
-  #       - Dr. Strangelove
-  #     summary: Open your mind. Change your reality.
-  # Downton Abbey Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 925006
-  #     summary: We've Been Expecting You
-  # Dredd Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 9482, 49049
-  #     summary: In the future, America is a dystopian wasteland. The latest scourge is Ma-Ma, a prostitute-turned-drug pusher with a dangerous new drug and aims to take over the city. The only possibility of stopping her is an elite group of urban police called Judges, who combine the duties of judge, jury and executioner to deliver a brutal brand of swift justice. But even the top-ranking Judge, Dredd, discovers that taking down Ma-Ma isn't as easy as it seems in this explosive adaptation of the hugely popular comic series.
-  # Dune Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 191720, 841, 438631
-  #     summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
-  # Eastrail 177 Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 9741, 381288, 450465
-  #     summary: The Eastrail 177 Trilogy is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable, Split, and Glass. The entire franchise features the character of David Dunn and follows his life as he realizes he has superpowers after surviving a train crash.
-  # Eraser Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 923597, 9268
-  #     summary: He will erase your past to protect your future.
-  # Fallen Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 386534
-  #     summary: We are never stronger than when we are tested.
-  # Family Guy Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 701402
-  #     summary: Laugh It Up, Fuzzball!
-  #     name_mapping: Family Guy Collection (Movies)
-  # Fantastic Four Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 9744
-  #     movie: 22059, 216529, 166424
-  #     summary: Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize their scientific backgrounds to band together and defend the world against perilous threats.
-  # Father of the Bride Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 511021, 96871
-  #     summary: The story of the Banks family.
-  # Flash Gordon Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 3604
-  # Fletch Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 104833
-  #     movie: 724665
-  #     summary: Meet the only guy who changes his identity more often than his underwear.
-  # Footloose Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 1788, 68817
-  #     summary: When teenager Ren and his family move from big-city Chicago to a small town in the West, he's in for a real case of culture shock after discovering he's living in a place where music and dancing are illegal.
-  # Frosty the Snowman Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 363015
-  #     summary: No money, no TICKET!
-  # The Fugitive Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 5503
-  #     sort_title: Fugitive Collection
-  # G.I. Joe Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 135468
-  #     movie: 568620
-  #     summary: When all else fails, they don't
-  # Gamera Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 161766
-  #     summary: Gamera (ガメラ?) is a giant turtle Kaiju (Giant monster) from a series of popular Giant monster films produced by Daiei Motion Picture Company in Japan. Created in 1965 to rival the success of Toho Studios' Godzilla during the daikaiju boom of the mid-to-late 1960s, Gamera has gained fame and notoriety as a Japanese icon in his own right.
-  # Get Smart Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 108669
-  #     minimum_items: 2
-  # Ghostbusters Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 2980
-  #     movie: 43074
-  #     summary: Ghostbusters is a 1984 American supernatural comedy film, directed and produced by Ivan Reitman and written by Dan Aykroyd and Harold Ramis. The film stars Bill Murray, Aykroyd, and Ramis as three eccentric parapsychologists in New York City who start a ghost-catching business. The second film, Ghostbusters II, was released in 1989.
-  # The Godfather Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 230
-  #     sort_title: Godfather Collection
-  #     summary: An offer you can't refuse.
-  # Godzilla Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: godzilla-collection
-  #     summary: Incredible, unstoppable titan of terror! Mightiest monster!
-  # Grease Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 86083
-  #     movie: 348089
-  #     summary: Grease is the word.
-  # Grey Gardens Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 19851
-  #     summary: I tell you if there's anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what.
-  # The Grinch Collection:
-  #   template:
-  #     name: Collection - Trakt List
-  #     list: the-grinch-collection
-  #     sort_title: Grinch Collection
-  #     summary: The Grinch is a fictional character created by Dr. Seuss. He is best known as the main character of the 1957 children's book How the Grinch Stole Christmas!. He has been portrayed and voiced by many different actors, including Boris Karloff, Hans Conried, Bob Holt, Jim Carrey, and Benedict Cumberbatch.
-  # Guardians of the Galaxy Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 284433
-  #     movie: 774752
-  #     summary: When things get bad, they'll do their worst.
-  # Hairspray Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 11054, 2976
-  #     summary: Who's who behind the do?
-  # Harley Quinn Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 531242
-  #     movie: 495764
-  #     summary: Mind Over Mayhem
-  # Heathers Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 2640, 941605
-  #     summary: Best friends, social trends, and occasional murder.
-  # Hercule Poirot Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 735384, 752992
-  #     summary: The adventures of Belgian detective Hercule Poirot, as he solves gruesome murders on various vehicles of transportation.
-  # History of the World Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 10156
-  # Home Alone Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 9888
-  #     summary: Merry Christmas, ya filthy animal!
-  #   plex_search:
-  #     title: Home Alone
-  # Hulk Collection:
-  #   template:
-  #     name: Search
-  #     title: Hulk
-  #     summary: "Don't make me angry. You wouldn't like me when I'm angry"
-  # The Hunger Games Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 131635
-  #     movie: 695721
-  #     summary: May the Odds be Ever in your Favor
-  # I Am Legend Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 21159, 11234, 6479
-  #     collection_mode: show_items
-  #     summary: Films based on the 1954 novel I Am Legend by Richard Matheson.
-  # Indiana Jones Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: indiana-jones-collection
-  # Invasion of the Body Snatchers Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 4858
-  #     summary: A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.
-  # The Italian Job Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 9654, 10536
-  #     sort_title: Italian Job Collection
-  #     summary: Get in. Get out. Get even.
-  # Jackass Collection:
-  #   template:
-  #     name: Collection - Trakt List
-  #     list: jackass-collection
-  #     summary: Do not attempt this at home.
-  # James Bond Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 645
-  #     movie: 12208
-  #     summary: The James Bond film series is a British series of spy films based on the fictional character of MI6 agent James Bond, codename "007". With all of the action, adventure, gadgetry & film scores that Bond is famous for.
-  # Jaws Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 2366
-  #     movie: 84060
-  #     summary: The classic horror films about a great white shark that's been attacking people of the coast of New England and bringing terror to their beach vacations. The first film was a major box-office success bringing in almost 500 million world wide and spawning the blockbuster movie phenomena and multiple sequels.
-  # Josie and the Pussycats Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 19366
-  # Journey Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 11571, 88751, 72545
-  #     summary: Based on Jules Verne's fantastic stories of strange adventure...
-  # Jumanji Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 8844, 6795
-  #     summary: Adventure Is Waiting
-  # Justice League Collection:
-  #   template:
-  #     name: Search
-  #     title: Justice League
-  #     summary: Justice for all.
-  # King Kong Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: king-kong-collection
-  #     summary: "Ladies and gentlemen, look at Kong, the Eighth Wonder of the World!"
-  # Land of the Lost Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 18162
-  # Logan's Run Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 10803
-  # The Lord of the Rings Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 119
-  #     sort_title: Lord of the Rings Collection
-  #     summary: Middle Earth comes alive...
-  # Lost in Space Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 2157
-  #     summary: Danger, Will Robinson!
-  # The Magnificent Seven Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 110021
-  #     movie: 333484
-  #     sort_title: Magnificent Seven Collection
-  #     summary: The adventures of the Magnificent Seven.
-  # The Man from U.N.C.L.E. Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 203801
-  #     sort_title: Man from U.N.C.L.E. Collection
-  # The Man With No Name Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 938, 429, 391
-  #     summary: In his own way he is, perhaps, the most dangerous man who ever lived!
-  # Mary Poppins Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 433, 400650, 140823
-  #     summary: It's supercalifragilisticexpialidocious!
-  # Masters of the Universe Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 11649
-  #     summary: By the Power of Grayskull!
-  # The Matrix Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: the-matrix-collection
-  #     sort_title: Matrix Collection
-  #     summary: Reality is a thing of the past.
-  # Mean Girls Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 99606
-  #     movie: 673593
-  #     summary: Watch your back.
-  # Men In Black Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 86055
-  #     summary: Protecting the earth from the scum of the universe
-  # Middle-Earth Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 119, 121938
-  #     summary: Middle-earth is the fictional setting of much of the English writer J. R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse mythology and Middangeard in Old English works, including Beowulf. Middle-earth is the human-inhabited world, that is, the central continent of the Earth, in Tolkien's imagined mythological past. Tolkien's most widely read works, The Hobbit and The Lord of the Rings, are set entirely in Middle-earth. "Middle-earth" has also become a short-hand term for Tolkien's legendarium, his large body of fantasy writings, and for the entirety of his fictional world.
-  # Miss Marple Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 696110
-  #     summary: Miss Marple is a fictional character in Agatha Christie's crime novels and short stories. Jane Marple lives in the village of St. Mary Mead and acts as an amateur consulting detective.
-  # Monsterverse Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: monsterverse
-  #     collection_mode: show_items
-  #     summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
-  # Monty Python Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 762, 583, 4543, 9267, 11949
-  #     summary: Monty Python were a British surreal comedy troupe who created the sketch comedy television show Monty Python's Flying Circus, which first aired on the BBC in 1969.
-  # Mortal Kombat Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: mortal-kombat-collection
-  #     summary: Nothing In This World Has Prepared You For This
-  # Mothra Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 171732
-  #     movie: 39410
-  # Mr. Ripley Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 1213, 39127, 10955
-  #     summary: How far would you go to become someone else.
-  # The Mummy Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 1733
-  #     summary: Death is only the beginning.
-  # The Munsters Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 804413
-  #     sort_title: Munsters Collection
-  # My Big Fat Greek Wedding Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 389767
-  #     summary: People change. Greeks don't.
-  # Ocean's Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 304
-  #     movie: 402900, 299
-  #     summary: The Ocean's Collection is a star-studded film series about a group of professional robbers who get together to pull off some mind-boggling heists.
-  # Once Upon a Time Trilogy:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 335, 311, 336
-  #     collection_mode: show_items
-  #     summary: Sergio Leone's unofficial Once Upon A Time... trilogy feature some of the late director's best work, and also his most underrated Western.
-  # Overboard Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 10780, 454619
-  #     summary: She was born to spend. He was born to offend. There's only one way they could fall in love... by accident.
-  # Parker Family Saga:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 201873
-  #     movie: 485517, 81828, 421984, 742623, 75132, 527802
-  #     summary: The Parker Family Saga (also known as the Jean Shepherd's Parker Family Saga franchise, the Ralph Parker franchise, or colloquially the A Christmas Story franchise), is a collection of American family-comedies based upon the stories of author Jean Shepherd.
-  # The Phantom of the Opera Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 9833, 964, 86962, 46330, 76115, 15855, 88920
-  #     sort_title: Phantom of the Opera Collection
-  #     summary: >-
-  #       The Phantom of the Opera (French: Le Fantôme de l'Opéra), is a novel by French writer Gaston Leroux. It was first published as a serialization in Le Gaulois from 23 September 1909, to 8 January 1910. It was published in volume form in late March 1910 by Pierre Lafitte. The novel is partly inspired by historical events at the Paris Opera during the nineteenth century and an apocryphal tale concerning the use of a former ballet pupil's skeleton in Carl Maria von Weber's 1841 production of Der Freischütz. It has been successfully adapted into various stage and film adaptations, most notable of which are the 1925 film depiction featuring Lon Chaney, and Andrew Lloyd Webber's 1986 musical.
-  # The Philadelphia Experiment Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 145784
-  #     movie: 122293
-  #     summary: Will you survive?
-  # The Pink Panther Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 937, 130440
-  #     movie: 49854
-  #     sort_title: Pink Panther Collection
-  #     summary: Clumsy Clouseau, Brilliant Case
-  #   plex_search:
-  #     title: Pink Panther
-  # Planet of the Apes Collection:
-  #   template:
-  #     name: Collection - Trakt List
-  #     list: planet-of-the-apes-collection
-  #     summary: Planet of the Apes is an American science fiction media franchise about a world in which humans and intelligent apes clash for control. The franchise is based on French author Pierre Boulle's 1963 novel La Planète des singes, translated into English as Planet of the Apes or Monkey Planet.
-  # Police Academy Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 9338
-  #     summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
-  # The Poseidon Adventure Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 372257
-  #     movie: 28512, 503
-  #     summary: Hell, Upside Down
-  # Predator Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 115762, 399
-  #     summary: A science fiction action film series centered on a warrior class extraterrestrial species with technologically advanced weaponry that travel to Earth to trophy hunt human beings.
-  # The Producers Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 9899, 30197
-  #     sort_title: Producers Collection
-  #     summary: If ya got it... flaunt it!
-  # Reno 911! Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 10090, 899599
-  #     summary: They Might Not Be The Best...But They're The Best We Got.They Might Not Be The Best...But They're The Best We Got.
-  # Road House Collection:
-  #   template:
-  #     name: Collection
-  #     collection:
-  #       - 224976
-  #       - 1290597
-  #     summary: Take it outside.
-  # RoboCop Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 5547
-  #     movie: 97020
-  #     summary: The future of law enforcement. Part man. Part machine.
-  # Rock 'n' Roll High School Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 1018344
-  #     summary: Will your school be NEXT?
-  # Rudolph the Red-Nosed Reindeer Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 13382, 43575
-  #     summary: The collection of Christmas classic movies featuring everyone's favorite one of Santa's reindeer.
-  # Saturday Night Live Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: saturday-night-live-collection
-  #     summary: LAY OFF ME I'M STARVING!
-  # Scarlet Witch Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 453395
-  #     summary: The Scarlet Witch is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. Her first appearance was in The X-Men number 4 in the Silver Age of Comic Books.
-  # Shazam! Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 724848
-  #     name_mapping: Shazam Collection
-  #     summary: If you want to save the world, say the magic word.
-  # Sherlock Holmes Collection:
-  #   template:
-  #     name: Collection - Trakt List
-  #     list: sherlock-holmes-collection
-  #     summary: >-
-  #       Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle. Referring to himself as a "consulting detective" in the stories, Holmes is known for his proficiency with observation, deduction, forensic science, and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard.
-  # Showgirls Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 247294
-  #     movie: 592997
-  #     summary: There's always someone younger and hungrier coming down the stairs after you.
-  # Sinbad Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 321063
-  #     summary: My heart is filled with courage! But I have very cowardly legs.
-  # Spaceballs Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 957
-  # Spider-Man Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: spider-man-collection
-  #     summary: "With great power comes great responsibility"
-  # Spinal Tap Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 11031, 70725, 67872
-  #     summary: Prepare to crank those amps up to eleven
-  # Star Trek:
-  #   template:
-  #     name: Collection - Trakt List
-  #     list: star-trek-collection
-  #     summary: >-
-  #       These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man one has gone before!
-  # Star Wars:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: star-wars-collection-timeline
-  #     summary: A long time ago in a galaxy far, far away....
-  # Starman Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 9663
-  #     summary: He has traveled from a galaxy far beyond our own. He is 100,000 years ahead of us. He has powers we cannot comprehend. And he is about to face the one force in the universe he has yet to conquer. Love.
-  # Starsky & Hutch Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 9384
-  #     summary: The original partners in crime.
-  # Street Fighter Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 11667, 12613
-  #     summary: The ultimate battle.
-  # Super Troopers Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 449462
-  #     summary: You dont mess with the law. The law messes with you.
-  # Superman Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: superman-collection
-  #     summary: Truth, Justice and a Better Tomorrow
-  # The Thomas Crown Affair Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 912, 913
-  #     sort_title: Thomas Crown Affair Collection
-  #     summary: How do you get the man who has everything?
-  # The Three Musketeers Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 87631, 913258
-  #     movie: 10057, 52451, 41609
-  #     sort_title: Three Musketeers Collection
-  #     summary: All for one, and one for all!
-  # Three Men Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 107688
-  # Tomb Raider Collection:
-  #   template:
-  #     name: Collection - Movie
-  #     collection: 2467
-  #     movie: 338970
-  #     summary: Tomb Raider is a series of action-adventure movies, centering  the adventures of the female fictional British archaeologist Lara Croft.
-  # Total Recall Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 861,64635
-  #     summary: They stole his mind, now he wants it back.
-  # Transformers Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: transformers-collection
-  #     summary: Most have come to destroy us. Some have come to protect us.
-  # The Twilight Zone Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 15301
-  #     sort_title: Twilight Zone Collection
-  # Twin Peaks Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 1923
-  # U.S. Marshals Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     collection: 721111
-  #     summary: The chase begins
-  # Watchmen Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 13183
-  # War of the Worlds Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 74, 8974
-  #     summary: Mighty panorama of Earth-shaking fury as an army from Mars invades!
-  # Weird Science Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 11814
-  # West Side Story Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 511809, 1725
-  #     summary: A city divided. Their love will change everything
-  # Wet Hot American Summer Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 2171
-  #     summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."
-  # The Whole Nine/Ten Yards Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 103577
-  #     summary: Life's a comedy. It's all in the execution.
-  # Willow Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 847
-  # Willy Wonka Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 252, 118, 455411, 787699
-  #     collection_mode: show_items
-  #     summary: We are the music makers, and we are the dreamers of dreams.
-  # The Witches Collection:
-  #   template:
-  #     name: Collection - Movies
-  #     movie: 10166, 531219
-  #     summary: They're real!
-  # Wizard of Oz Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 630
-  #     summary: "We're off to see the Wizard, the wonderful wizard of Oz"
-  # Wizarding World Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 1241, 435259
-  #     summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
-  # The X-Files Collection:
-  #   template:
-  #     name: Collection
-  #     collection: 19387
-  #     summary: THE TRUTH IS OUT THERE
-  # X-Men Collection:
-  #   template:
-  #     name: Collection - Trakt List Custom Order
-  #     list: x-men-collection-timeline
-  #     summary: Trust a few. Fear the rest. Protecting those who fear them.
-  # The Young Offenders Collection:
-  #   template:
-  #     name: Collection - Hide Movie
-  #     movie: 408159
+  Addams Family Collection:
+    template:
+      name: Collection - Movie
+      collection: 11716
+      movie: 11508, 481084, 639721
+      summary: Creepy. Kooky. Spooky. Ooky.
+  Æon Flux Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 8202
+      sort_title: Aeon Flux Collection
+  Airplane Collection:
+    template:
+      name: Collection
+      collection: 91663
+      summary: Does anyone here speak Jive?
+  Alien Collection:
+    template:
+      name: Collection - Trakt List Custom Order # Custom Order
+      list: alien-collection-timeline
+      summary: In space no one can hear you scream.
+  Aquaman Collection:
+    template:
+      name: Collection
+      collection: 573693
+      summary: Monarch of the undersea realm of Atlantis and King of the Seven Seas, Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom that covers three-quarters of the Earth's surface, including all the creatures contained within.
+  Around the World in 80 Days Collection:
+    template:
+      name: Collection - Movies
+      movie: 10204, 2897
+      summary: It's a wonderful world, if you'll only take the time to go around it!
+  The Avengers Collection:
+    template:
+      name: Collection
+      collection: 86311
+      sort_title: Avengers Collection
+      summary: Earth's Mightiest Heroes
+  Back to the Future Collection:
+    template:
+      name: Collection
+      collection: 264
+      summary: "Where we're going, we don't need roads"
+      plex_search:
+        title: Back to the Future... The Ride
+  The Bad News Bears Collection:
+    template:
+      name: Collection - Movie
+      collection: 215326
+      movie: 13341
+      summary: Baseball has rules. Meet the exceptions.
+  Batman Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: batman-collection
+      summary: Justice is always Darkest before the Dawn.
+  Battlestar Galactica Collection:
+    template:
+      name: Collection - Trakt List
+      list: battlestar-galactica-collection
+      summary: The fight to save humanity rages on. Where will you stand? Destiny is not what it seems.
+  Betty Boop Collection:
+    trakt_list: https://trakt.tv/lists/official/betty-boop-fleischer-brothers-collection
+    summary: Betty Boop is an animated cartoon character created by Max Fleischer, with help from animators including Grim Natwick. She originally appeared in the Talkartoon and Betty Boop film series, which were produced by Fleischer Studios and released by Paramount Pictures.
+  Beavis and Butt-Head Collection:
+    template:
+      name: Collection
+      collection: 939227
+      summary: Do you have any T.P.? T.P. for my bunghole? I would hate for my bungholio to get polio.
+  The Beverly Hillbillies Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 11041
+      sort_title: Beverly Hillbillies Collection
+  Bewitched Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 9722
+  Bill & Ted's Most Excellent Collection:
+    template:
+      name: Collection
+      collection: 91746
+  Blade Runner Collection:
+    template:
+      name: Collection
+      collection: 422837
+      summary: Man Has Made His Match... Now It's His Problem
+  Bob's Burgers Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 504827
+  The Brady Bunch Collection:
+    template:
+      name: Collection - Movie
+      collection: 224478
+      movie: 76657, 49358
+      summary: Sure Jan.
+  Buck Rogers Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 3786
+  Cape Fear Collection:
+    template:
+      name: Collection - Movies
+      movie: 1598, 11349
+      summary: There is nothing in the dark that isn't there in the light. Except fear.
+  Captain America Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: captain-america-collection
+  Charlie's Angels Collection:
+    template:
+      name: Collection - Movie
+      collection: 86029
+      movie: 458897
+      summary: An American media franchise that follows the adventures of the Angels, a team of women working for the Townsend Agency, a private detective agency, under the leadership of Charlie Townsend, their unseen boss. The film series is a continuation of the story with later generations of Angels.
+  The Christmas Chronicles Collection:
+    template:
+      name: Collection
+      collection: 743824
+      summary: The magical adventures of Santa Claus, Mrs. Claus and the Pierce siblings.
+  A Christmas Story Collection:
+    template:
+      name: Collection - Movie
+      collection: 201873
+      movie: 485517
+      summary: You’ll shoot your eye out!
+  Clash of the Titans Collection:
+    template:
+      name: Collection - Movie
+      collection: 86780
+      movie: 10323
+      summary: A fantasy action franchise based on characters and myths of Ancient Greek mythology involving the Greek hero Perseus.
+  Clueless Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 9603
+  Conan the Barbarian Collection:
+    template:
+      name: Collection - Movie
+      collection: 43055
+      movie: 37430
+      summary: A film adaptation of the classic sword and sorcery hero, Conan the Barbarian. A horde of rampaging warriors massacre the parents of young Conan and enslave the young child for years on The Wheel of Pain. As the sole survivor of the childhood massacre, Conan is released from slavery and taught the ancient arts of fighting. Transforming himself into a killing machine, Conan travels into the wilderness to seek vengeance on Thulsa Doom, the man responsible for killing his family. In the wilderness, Conan takes up with the thieves Valeria and Subotai. The group comes upon King Osric, who wants the trio of warriors to help rescue his daughter who has joined Doom in the hills.
+  Cornetto Trilogy:
+    template:
+      name: Collection - Trakt List
+      list: cornetto-trilogy
+      collection_mode: show_items
+      summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
+  Daredevil Collection:
+    template:
+      name: Collection - Movies
+      movie: 9480, 9947
+      collection_mode: show_items
+      summary: Daredevil is a fictional superhero appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby.
+  The Dark Crystal Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 11639
+      sort_title: Dark Crystal Collection
+  Deuce Bigalow Collection:
+    template:
+      name: Collection
+      collection: 95664
+      summary: He's not very good looking. But when the lights go out...he's still not very good looking.
+  Die Hard Collection:
+    template:
+      name: Collection - Movie
+      collection: 1570
+      movie: 42636
+      summary: Yippee Ki Yay, motherf*cker
+  Dirty Dancing Collection:
+    template:
+      name: Collection - Movie
+      collection: 86058
+      movie: 444902
+      summary: Dancing to the beat of their hearts.
+  Doctor Strange Collection:
+    template:
+      name: Search
+      title:
+        - Doctor Strange
+        - Dr. Strange
+      title.not:
+        - Dr. Strangelove
+      summary: Open your mind. Change your reality.
+  Downton Abbey Collection:
+    template:
+      name: Collection
+      collection: 925006
+      summary: We've Been Expecting You
+  Dredd Collection:
+    template:
+      name: Collection - Movies
+      movie: 9482, 49049
+      summary: In the future, America is a dystopian wasteland. The latest scourge is Ma-Ma, a prostitute-turned-drug pusher with a dangerous new drug and aims to take over the city. The only possibility of stopping her is an elite group of urban police called Judges, who combine the duties of judge, jury and executioner to deliver a brutal brand of swift justice. But even the top-ranking Judge, Dredd, discovers that taking down Ma-Ma isn't as easy as it seems in this explosive adaptation of the hugely popular comic series.
+  Dune Collection:
+    template:
+      name: Collection - Movies
+      movie: 191720, 841, 438631
+      summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
+  Eastrail 177 Collection:
+    template:
+      name: Collection - Movies
+      movie: 9741, 381288, 450465
+      summary: The Eastrail 177 Trilogy is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable, Split, and Glass. The entire franchise features the character of David Dunn and follows his life as he realizes he has superpowers after surviving a train crash.
+  Eraser Collection:
+    template:
+      name: Collection - Movies
+      movie: 923597, 9268
+      summary: He will erase your past to protect your future.
+  Fallen Collection:
+    template:
+      name: Collection
+      collection: 386534
+      summary: We are never stronger than when we are tested.
+  Family Guy Collection:
+    template:
+      name: Collection
+      collection: 701402
+      summary: Laugh It Up, Fuzzball!
+      name_mapping: Family Guy Collection (Movies)
+  Fantastic Four Collection:
+    template:
+      name: Collection - Movie
+      collection: 9744
+      movie: 22059, 216529, 166424
+      summary: Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize their scientific backgrounds to band together and defend the world against perilous threats.
+  Father of the Bride Collection:
+    template:
+      name: Collection
+      collection: 511021, 96871
+      summary: The story of the Banks family.
+  Flash Gordon Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 3604
+  Fletch Collection:
+    template:
+      name: Collection - Movie
+      collection: 104833
+      movie: 724665
+      summary: Meet the only guy who changes his identity more often than his underwear.
+  Footloose Collection:
+    template:
+      name: Collection - Movies
+      movie: 1788, 68817
+      summary: When teenager Ren and his family move from big-city Chicago to a small town in the West, he's in for a real case of culture shock after discovering he's living in a place where music and dancing are illegal.
+  Frosty the Snowman Collection:
+    template:
+      name: Collection
+      collection: 363015
+      summary: No money, no TICKET!
+  The Fugitive Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 5503
+      sort_title: Fugitive Collection
+  G.I. Joe Collection:
+    template:
+      name: Collection - Movie
+      collection: 135468
+      movie: 568620
+      summary: When all else fails, they don't
+  Gamera Collection:
+    template:
+      name: Collection
+      collection: 161766
+      summary: Gamera (ガメラ?) is a giant turtle Kaiju (Giant monster) from a series of popular Giant monster films produced by Daiei Motion Picture Company in Japan. Created in 1965 to rival the success of Toho Studios' Godzilla during the daikaiju boom of the mid-to-late 1960s, Gamera has gained fame and notoriety as a Japanese icon in his own right.
+  Get Smart Collection:
+    template:
+      name: Collection
+      collection: 108669
+      minimum_items: 2
+  Ghostbusters Collection:
+    template:
+      name: Collection - Movie
+      collection: 2980
+      movie: 43074
+      summary: Ghostbusters is a 1984 American supernatural comedy film, directed and produced by Ivan Reitman and written by Dan Aykroyd and Harold Ramis. The film stars Bill Murray, Aykroyd, and Ramis as three eccentric parapsychologists in New York City who start a ghost-catching business. The second film, Ghostbusters II, was released in 1989.
+  The Godfather Collection:
+    template:
+      name: Collection
+      collection: 230
+      sort_title: Godfather Collection
+      summary: An offer you can't refuse.
+  Godzilla Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: godzilla-collection
+      summary: Incredible, unstoppable titan of terror! Mightiest monster!
+  Grease Collection:
+    template:
+      name: Collection - Movie
+      collection: 86083
+      movie: 348089
+      summary: Grease is the word.
+  Grey Gardens Collection:
+    template:
+      name: Collection - Movies
+      movie: 19851
+      summary: I tell you if there's anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what.
+  The Grinch Collection:
+    template:
+      name: Collection - Trakt List
+      list: the-grinch-collection
+      sort_title: Grinch Collection
+      summary: The Grinch is a fictional character created by Dr. Seuss. He is best known as the main character of the 1957 children's book How the Grinch Stole Christmas!. He has been portrayed and voiced by many different actors, including Boris Karloff, Hans Conried, Bob Holt, Jim Carrey, and Benedict Cumberbatch.
+  Guardians of the Galaxy Collection:
+    template:
+      name: Collection - Movie
+      collection: 284433
+      movie: 774752
+      summary: When things get bad, they'll do their worst.
+  Hairspray Collection:
+    template:
+      name: Collection - Movies
+      movie: 11054, 2976
+      summary: Who's who behind the do?
+  Harley Quinn Collection:
+    template:
+      name: Collection - Movie
+      collection: 531242
+      movie: 495764
+      summary: Mind Over Mayhem
+  Heathers Collection:
+    template:
+      name: Collection - Movies
+      movie: 2640, 941605
+      summary: Best friends, social trends, and occasional murder.
+  Hercule Poirot Collection:
+    template:
+      name: Collection
+      collection: 735384, 752992
+      summary: The adventures of Belgian detective Hercule Poirot, as he solves gruesome murders on various vehicles of transportation.
+  History of the World Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 10156
+  Home Alone Collection:
+    template:
+      name: Collection
+      collection: 9888
+      summary: Merry Christmas, ya filthy animal!
+    plex_search:
+      title: Home Alone
+  Hulk Collection:
+    template:
+      name: Search
+      title: Hulk
+      summary: "Don't make me angry. You wouldn't like me when I'm angry"
+  The Hunger Games Collection:
+    template:
+      name: Collection - Movie
+      collection: 131635
+      movie: 695721
+      summary: May the Odds be Ever in your Favor
+  I Am Legend Collection:
+    template:
+      name: Collection - Movies
+      movie: 21159, 11234, 6479
+      collection_mode: show_items
+      summary: Films based on the 1954 novel I Am Legend by Richard Matheson.
+  Indiana Jones Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: indiana-jones-collection
+  Invasion of the Body Snatchers Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 4858
+      summary: A small-town doctor learns that the population of his community is being replaced by emotionless alien duplicates.
+  The Italian Job Collection:
+    template:
+      name: Collection - Movies
+      movie: 9654, 10536
+      sort_title: Italian Job Collection
+      summary: Get in. Get out. Get even.
+  Jackass Collection:
+    template:
+      name: Collection - Trakt List
+      list: jackass-collection
+      summary: Do not attempt this at home.
+  James Bond Collection:
+    template:
+      name: Collection - Movie
+      collection: 645
+      movie: 12208
+      summary: The James Bond film series is a British series of spy films based on the fictional character of MI6 agent James Bond, codename "007". With all of the action, adventure, gadgetry & film scores that Bond is famous for.
+  Jaws Collection:
+    template:
+      name: Collection - Movie
+      collection: 2366
+      movie: 84060
+      summary: The classic horror films about a great white shark that's been attacking people of the coast of New England and bringing terror to their beach vacations. The first film was a major box-office success bringing in almost 500 million world wide and spawning the blockbuster movie phenomena and multiple sequels.
+  Josie and the Pussycats Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 19366
+  Journey Collection:
+    template:
+      name: Collection - Movies
+      movie: 11571, 88751, 72545
+      summary: Based on Jules Verne's fantastic stories of strange adventure...
+  Jumanji Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 8844, 6795
+      summary: Adventure Is Waiting
+  Justice League Collection:
+    template:
+      name: Search
+      title: Justice League
+      summary: Justice for all.
+  King Kong Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: king-kong-collection
+      summary: "Ladies and gentlemen, look at Kong, the Eighth Wonder of the World!"
+  Land of the Lost Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 18162
+  Logan's Run Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 10803
+  The Lord of the Rings Collection:
+    template:
+      name: Collection
+      collection: 119
+      sort_title: Lord of the Rings Collection
+      summary: Middle Earth comes alive...
+  Lost in Space Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 2157
+      summary: Danger, Will Robinson!
+  The Magnificent Seven Collection:
+    template:
+      name: Collection - Movie
+      collection: 110021
+      movie: 333484
+      sort_title: Magnificent Seven Collection
+      summary: The adventures of the Magnificent Seven.
+  The Man from U.N.C.L.E. Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 203801
+      sort_title: Man from U.N.C.L.E. Collection
+  The Man With No Name Collection:
+    template:
+      name: Collection - Movies
+      movie: 938, 429, 391
+      summary: In his own way he is, perhaps, the most dangerous man who ever lived!
+  Mary Poppins Collection:
+    template:
+      name: Collection - Movies
+      movie: 433, 400650, 140823
+      summary: It's supercalifragilisticexpialidocious!
+  Masters of the Universe Collection:
+    template:
+      name: Collection - Movies
+      movie: 11649
+      summary: By the Power of Grayskull!
+  The Matrix Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-matrix-collection
+      sort_title: Matrix Collection
+      summary: Reality is a thing of the past.
+  Mean Girls Collection:
+    template:
+      name: Collection - Movie
+      collection: 99606
+      movie: 673593
+      summary: Watch your back.
+  Men In Black Collection:
+    template:
+      name: Collection
+      collection: 86055
+      summary: Protecting the earth from the scum of the universe
+  Middle-Earth Collection:
+    template:
+      name: Collection
+      collection: 119, 121938
+      summary: Middle-earth is the fictional setting of much of the English writer J. R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse mythology and Middangeard in Old English works, including Beowulf. Middle-earth is the human-inhabited world, that is, the central continent of the Earth, in Tolkien's imagined mythological past. Tolkien's most widely read works, The Hobbit and The Lord of the Rings, are set entirely in Middle-earth. "Middle-earth" has also become a short-hand term for Tolkien's legendarium, his large body of fantasy writings, and for the entirety of his fictional world.
+  Miss Marple Collection:
+    template:
+      name: Collection
+      collection: 696110
+      summary: Miss Marple is a fictional character in Agatha Christie's crime novels and short stories. Jane Marple lives in the village of St. Mary Mead and acts as an amateur consulting detective.
+  Monsterverse Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: monsterverse
+      collection_mode: show_items
+      summary: The MonsterVerse is an American multimedia franchise and shared fictional universe that is centered on a series of monster films featuring Godzilla and King Kong, produced by Legendary Entertainment and co-produced and distributed by Warner Bros. Pictures.
+  Monty Python Collection:
+    template:
+      name: Collection - Movies
+      movie: 762, 583, 4543, 9267, 11949
+      summary: Monty Python were a British surreal comedy troupe who created the sketch comedy television show Monty Python's Flying Circus, which first aired on the BBC in 1969.
+  Mortal Kombat Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: mortal-kombat-collection
+      summary: Nothing In This World Has Prepared You For This
+  Mothra Collection:
+    template:
+      name: Collection - Movie
+      collection: 171732
+      movie: 39410
+  Mr. Ripley Collection:
+    template:
+      name: Collection - Movies
+      movie: 1213, 39127, 10955
+      summary: How far would you go to become someone else.
+  The Mummy Collection:
+    template:
+      name: Collection
+      collection: 1733
+      summary: Death is only the beginning.
+  The Munsters Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 804413
+      sort_title: Munsters Collection
+  My Big Fat Greek Wedding Collection:
+    template:
+      name: Collection
+      collection: 389767
+      summary: People change. Greeks don't.
+  Ocean's Collection:
+    template:
+      name: Collection - Movie
+      collection: 304
+      movie: 402900, 299
+      summary: The Ocean's Collection is a star-studded film series about a group of professional robbers who get together to pull off some mind-boggling heists.
+  Once Upon a Time Trilogy:
+    template:
+      name: Collection - Movies
+      movie: 335, 311, 336
+      collection_mode: show_items
+      summary: Sergio Leone's unofficial Once Upon A Time... trilogy feature some of the late director's best work, and also his most underrated Western.
+  Overboard Collection:
+    template:
+      name: Collection - Movies
+      movie: 10780, 454619
+      summary: She was born to spend. He was born to offend. There's only one way they could fall in love... by accident.
+  Parker Family Saga:
+    template:
+      name: Collection - Movie
+      collection: 201873
+      movie: 485517, 81828, 421984, 742623, 75132, 527802
+      summary: The Parker Family Saga (also known as the Jean Shepherd's Parker Family Saga franchise, the Ralph Parker franchise, or colloquially the A Christmas Story franchise), is a collection of American family-comedies based upon the stories of author Jean Shepherd.
+  The Phantom of the Opera Collection:
+    template:
+      name: Collection - Movies
+      movie: 9833, 964, 86962, 46330, 76115, 15855, 88920
+      sort_title: Phantom of the Opera Collection
+      summary: >-
+        The Phantom of the Opera (French: Le Fantôme de l'Opéra), is a novel by French writer Gaston Leroux. It was first published as a serialization in Le Gaulois from 23 September 1909, to 8 January 1910. It was published in volume form in late March 1910 by Pierre Lafitte. The novel is partly inspired by historical events at the Paris Opera during the nineteenth century and an apocryphal tale concerning the use of a former ballet pupil's skeleton in Carl Maria von Weber's 1841 production of Der Freischütz. It has been successfully adapted into various stage and film adaptations, most notable of which are the 1925 film depiction featuring Lon Chaney, and Andrew Lloyd Webber's 1986 musical.
+  The Philadelphia Experiment Collection:
+    template:
+      name: Collection - Movie
+      collection: 145784
+      movie: 122293
+      summary: Will you survive?
+  The Pink Panther Collection:
+    template:
+      name: Collection - Movie
+      collection: 937, 130440
+      movie: 49854
+      sort_title: Pink Panther Collection
+      summary: Clumsy Clouseau, Brilliant Case
+    plex_search:
+      title: Pink Panther
+  Planet of the Apes Collection:
+    template:
+      name: Collection - Trakt List
+      list: planet-of-the-apes-collection
+      summary: Planet of the Apes is an American science fiction media franchise about a world in which humans and intelligent apes clash for control. The franchise is based on French author Pierre Boulle's 1963 novel La Planète des singes, translated into English as Planet of the Apes or Monkey Planet.
+  Police Academy Collection:
+    template:
+      name: Collection
+      collection: 9338
+      summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
+  The Poseidon Adventure Collection:
+    template:
+      name: Collection - Movie
+      collection: 372257
+      movie: 28512, 503
+      summary: Hell, Upside Down
+  Predator Collection:
+    template:
+      name: Collection
+      collection: 115762, 399
+      summary: A science fiction action film series centered on a warrior class extraterrestrial species with technologically advanced weaponry that travel to Earth to trophy hunt human beings.
+  The Producers Collection:
+    template:
+      name: Collection - Movies
+      movie: 9899, 30197
+      sort_title: Producers Collection
+      summary: If ya got it... flaunt it!
+  Reno 911! Collection:
+    template:
+      name: Collection - Movies
+      movie: 10090, 899599
+      summary: They Might Not Be The Best...But They're The Best We Got.They Might Not Be The Best...But They're The Best We Got.
+  Road House Collection:
+    template:
+      name: Collection
+      collection:
+        - 224976
+        - 1290597
+      summary: Take it outside.
+  RoboCop Collection:
+    template:
+      name: Collection - Movie
+      collection: 5547
+      movie: 97020
+      summary: The future of law enforcement. Part man. Part machine.
+  Rock 'n' Roll High School Collection:
+    template:
+      name: Collection
+      collection: 1018344
+      summary: Will your school be NEXT?
+  Rudolph the Red-Nosed Reindeer Collection:
+    template:
+      name: Collection - Movies
+      movie: 13382, 43575
+      summary: The collection of Christmas classic movies featuring everyone's favorite one of Santa's reindeer.
+  Saturday Night Live Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: saturday-night-live-collection
+      summary: LAY OFF ME I'M STARVING!
+  Scarlet Witch Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 453395
+      summary: The Scarlet Witch is a fictional character appearing in American comic books published by Marvel Comics. The character was created by writer Stan Lee and artist Jack Kirby. Her first appearance was in The X-Men number 4 in the Silver Age of Comic Books.
+  Shazam! Collection:
+    template:
+      name: Collection
+      collection: 724848
+      name_mapping: Shazam Collection
+      summary: If you want to save the world, say the magic word.
+  Sherlock Holmes Collection:
+    template:
+      name: Collection - Trakt List
+      list: sherlock-holmes-collection
+      summary: >-
+        Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle. Referring to himself as a "consulting detective" in the stories, Holmes is known for his proficiency with observation, deduction, forensic science, and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard.
+  Showgirls Collection:
+    template:
+      name: Collection - Movie
+      collection: 247294
+      movie: 592997
+      summary: There's always someone younger and hungrier coming down the stairs after you.
+  Sinbad Collection:
+    template:
+      name: Collection
+      collection: 321063
+      summary: My heart is filled with courage! But I have very cowardly legs.
+  Spaceballs Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 957
+  Spider-Man Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: spider-man-collection
+      summary: "With great power comes great responsibility"
+  Spinal Tap Collection:
+    template:
+      name: Collection - Movies
+      movie: 11031, 70725, 67872
+      summary: Prepare to crank those amps up to eleven
+  Star Trek:
+    template:
+      name: Collection - Trakt List
+      list: star-trek-collection
+      summary: >-
+        These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man one has gone before!
+  Star Wars:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: star-wars-collection-timeline
+      summary: A long time ago in a galaxy far, far away....
+  Starman Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 9663
+      summary: He has traveled from a galaxy far beyond our own. He is 100,000 years ahead of us. He has powers we cannot comprehend. And he is about to face the one force in the universe he has yet to conquer. Love.
+  Starsky & Hutch Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 9384
+      summary: The original partners in crime.
+  Street Fighter Collection:
+    template:
+      name: Collection - Movies
+      movie: 11667, 12613
+      summary: The ultimate battle.
+  Super Troopers Collection:
+    template:
+      name: Collection
+      collection: 449462
+      summary: You dont mess with the law. The law messes with you.
+  Superman Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: superman-collection
+      summary: Truth, Justice and a Better Tomorrow
+  The Thomas Crown Affair Collection:
+    template:
+      name: Collection - Movies
+      movie: 912, 913
+      sort_title: Thomas Crown Affair Collection
+      summary: How do you get the man who has everything?
+  The Three Musketeers Collection:
+    template:
+      name: Collection - Movie
+      collection: 87631, 913258
+      movie: 10057, 52451, 41609
+      sort_title: Three Musketeers Collection
+      summary: All for one, and one for all!
+  Three Men Collection:
+    template:
+      name: Collection
+      collection: 107688
+  Tomb Raider Collection:
+    template:
+      name: Collection - Movie
+      collection: 2467
+      movie: 338970
+      summary: Tomb Raider is a series of action-adventure movies, centering  the adventures of the female fictional British archaeologist Lara Croft.
+  Total Recall Collection:
+    template:
+      name: Collection - Movies
+      movie: 861,64635
+      summary: They stole his mind, now he wants it back.
+  Transformers Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: transformers-collection
+      summary: Most have come to destroy us. Some have come to protect us.
+  The Twilight Zone Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 15301
+      sort_title: Twilight Zone Collection
+  Twin Peaks Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 1923
+  U.S. Marshals Collection:
+    template:
+      name: Collection - Hide Movie
+      collection: 721111
+      summary: The chase begins
+  Watchmen Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 13183
+  War of the Worlds Collection:
+    template:
+      name: Collection - Movies
+      movie: 74, 8974
+      summary: Mighty panorama of Earth-shaking fury as an army from Mars invades!
+  Weird Science Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 11814
+  West Side Story Collection:
+    template:
+      name: Collection - Movies
+      movie: 511809, 1725
+      summary: A city divided. Their love will change everything
+  Wet Hot American Summer Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 2171
+      summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."
+  The Whole Nine/Ten Yards Collection:
+    template:
+      name: Collection
+      collection: 103577
+      summary: Life's a comedy. It's all in the execution.
+  Willow Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 847
+  Willy Wonka Collection:
+    template:
+      name: Collection - Movies
+      movie: 252, 118, 455411, 787699
+      collection_mode: show_items
+      summary: We are the music makers, and we are the dreamers of dreams.
+  The Witches Collection:
+    template:
+      name: Collection - Movies
+      movie: 10166, 531219
+      summary: They're real!
+  Wizard of Oz Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 630
+      summary: "We're off to see the Wizard, the wonderful wizard of Oz"
+  Wizarding World Collection:
+    template:
+      name: Collection
+      collection: 1241, 435259
+      summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
+  The X-Files Collection:
+    template:
+      name: Collection
+      collection: 19387
+      summary: THE TRUTH IS OUT THERE
+  X-Men Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: x-men-collection-timeline
+      summary: Trust a few. Fear the rest. Protecting those who fear them.
+  The Young Offenders Collection:
+    template:
+      name: Collection - Hide Movie
+      movie: 408159
 
   ######################################################
   #               Unmanaged Collections                #
   ######################################################
 
-  # 300 Collection: *unmanaged
-  # 48 Hrs. Collection: *unmanaged
-  # Ace Ventura Collection: *unmanaged
-  # Airport Collection: *unmanaged
-  # Almighty Collection: *unmanaged
-  # American Pie Collection: *unmanaged
-  # Analyze Collection: *unmanaged
-  # Anchorman Collection: *unmanaged
-  # Ant-Man Collection: *unmanaged
-  # Arthur Collection: *unmanaged
-  # Austin Powers Collection: *unmanaged
-  # Avatar Collection: *unmanaged
-  # AVP Collection: *unmanaged
-  # Bachelor Party Collection: *unmanaged
-  # Backdraft Collection: *unmanaged
-  # Bad Moms Collection: *unmanaged
-  # Bad Santa Collection: *unmanaged
-  # Basic Instinct Collection: *unmanaged
-  # Beach Party Collection: *unmanaged
-  # The Beastmaster Collection: *unmanaged
-  # Beetlejuice Collection: *unmanaged
-  # Before... Collection: *unmanaged
-  # Beverly Hills Cop Collection: *unmanaged
-  # Big Momma's House Collection: *unmanaged
-  # Black Panther Collection: *unmanaged
-  # Blade Collection: *unmanaged
-  # The Blues Brothers Collection: *unmanaged
-  # Borat Moviefilms Collection: *unmanaged
-  # The Bourne Collection: *unmanaged
-  # Breakin' Collection: *unmanaged
-  # The Broadway Melody Collection: *unmanaged
-  # Butch Cassidy and the Sundance Kid Collection: *unmanaged
-  # The Butterfly Effect Collection: *unmanaged
-  # Caddyshack Collection: *unmanaged
-  # Cannonball Run Collection: *unmanaged
-  # Caprona (Amicus) Collection: *unmanaged
-  # Captain Marvel Collection: *unmanaged
-  # Center Stage Collection: *unmanaged
-  # The Cheerleaders Collection: *unmanaged
-  # Chili Palmer Collection: *unmanaged
-  # The Christmas House Collection: *unmanaged
-  # The Chronicles of Riddick Collection: *unmanaged
-  # City Slickers Collection: *unmanaged
-  # Class of 1999 Collection: *unmanaged
-  # Cocoon Collection: *unmanaged
-  # Crocodile Dundee Collection: *unmanaged
-  # Crouching Tiger, Hidden Dragon Collection: *unmanaged
-  # Daddy's Home Collection: *unmanaged
-  # The Dark Knight Collection: *unmanaged
-  # Darkman Collection: *unmanaged
-  # Darko Collection: *unmanaged
-  # Deadpool Collection: *unmanaged
-  # Dirty Harry Collection: *unmanaged
-  # Divergent Collection: *unmanaged
-  # Django Collection: *unmanaged
-  # Dr Goldfoot Collection: *unmanaged
-  # Dr. Mabuse Collection: *unmanaged
-  # DragonHeart Collection: *unmanaged
-  # Dumb and Dumber Collection: *unmanaged
-  # Enola Holmes Collection: *unmanaged
-  # The Equalizer Collection: *unmanaged
-  # Escape From ... Collection: *unmanaged
-  # The Expendables Collection: *unmanaged
-  # Extraction Collection: *unmanaged
-  # Fantastic Beasts Collection: *unmanaged
-  # The Fast and the Furious Collection: *unmanaged
-  # Frank James Collection: *unmanaged
-  # Frankenstein (Toho) Collection: *unmanaged
-  # Freeway Collection: *unmanaged
-  # French Connection Collection: *unmanaged
-  # Gator Collection: *unmanaged
-  # Ghost Rider Collection: *unmanaged
-  # The Girl - Millennium Collection: *unmanaged
-  # The Glass House Collection: *unmanaged
-  # Goon Collection: *unmanaged
-  # The Great Escape Collection: *unmanaged
-  # Grown Ups Collection: *unmanaged
-  # Grumpy Old Men Collection: *unmanaged
-  # The Hangover Collection: *unmanaged
-  # Harold & Kumar Collection: *unmanaged
-  # Harry Potter Collection: *unmanaged
-  # Heavy Metal Collection: *unmanaged
-  # Highlander Collection: *unmanaged
-  # The Hitman's Bodyguard Collection: *unmanaged
-  # The Hobbit Collection: *unmanaged
-  # Hocus Pocus Collection: *unmanaged
-  # Horrible Bosses Collection: *unmanaged
-  # Hot Shots! Collection: *unmanaged
-  # The Huntsman Collection: *unmanaged
-  # The Hustler Collection: *unmanaged
-  # Independence Day Collection: *unmanaged
-  # Iron Man Collection: *unmanaged
-  # Jack Reacher Collection: *unmanaged
-  # The Jack Ryan Collection: *unmanaged
-  # The Jake Gittes Collection: *unmanaged
-  # Joe Dirt Collection: *unmanaged
-  # John Bronco Collection: *unmanaged
-  # John Wick Collection: *unmanaged
-  # Joker Collection: *unmanaged
-  # Josey Wales Collection: *unmanaged
-  # Jump Street Collection: *unmanaged
-  # Jurassic Park Collection: *unmanaged
-  # Kick-Ass Collection: *unmanaged
-  # Kill Bill Collection: *unmanaged
-  # Kindergarten Cop Collection: *unmanaged
-  # Kingsman Collection: *unmanaged
-  # Knives Out Collection: *unmanaged
-  # Legally Blonde Collection: *unmanaged
-  # Lethal Weapon Collection: *unmanaged
-  # Lew Harper Collection: *unmanaged
-  # Mad Max Collection: *unmanaged
-  # Magic Mike Collection: *unmanaged
-  # Major League Collection: *unmanaged
-  # Mamma Mia! Collection: *unmanaged
-  # Mannequin Collection: *unmanaged
-  # The Mask Collection: *unmanaged
-  # Matt Helm Collection: *unmanaged
-  # The Maze Runner Collection: *unmanaged
-  # Meatballs Collection: *unmanaged
-  # Meet the Parents Collection: *unmanaged
-  # The Meg Collection: *unmanaged
-  # Mexico Trilogy Collection: *unmanaged
-  # Mick Travis Collection: *unmanaged
-  # Midnight Run Collection: *unmanaged
-  # The Millennium Collection: *unmanaged
-  # Miss Congeniality Collection: *unmanaged
-  # "Mission: Impossible Collection": *unmanaged
-  # Moon Collection: *unmanaged
-  # Murder Mystery Collection: *unmanaged
-  # The Musketeers Collection: *unmanaged
-  # Naked Gun Collection: *unmanaged
-  # National Lampoon's Vacation Collection: *unmanaged
-  # National Lampoon's Van Wilder Collection: *unmanaged
-  # National Treasure Collection: *unmanaged
-  # Neighbors Collection: *unmanaged
-  # Nevada Smith Collection: *unmanaged
-  # Now You See Me Collection: *unmanaged
-  # The Nutty Professor Collection: *unmanaged
-  # The Odd Couple Collection: *unmanaged
-  # Our Man Flint Collection: *unmanaged
-  # Philo & Clyde Collection: *unmanaged
-  # Pirates of the Caribbean Collection: *unmanaged
-  # Poison Ivy Collection: *unmanaged
-  # Porky's Collection: *unmanaged
-  # Prancer Collection: *unmanaged
-  # Problem Child Collection: *unmanaged
-  # The Punisher Collection: *unmanaged
-  # The Raid Collection: *unmanaged
-  # Rambo Collection: *unmanaged
-  # RED Collection: *unmanaged
-  # Revenge of the Nerds Collection: *unmanaged
-  # Road to... Collection: *unmanaged
-  # Road Trip Collection: *unmanaged
-  # The Robert Langdon Collection: *unmanaged
-  # Rocky Collection: *unmanaged
-  # Romancing the Stone Collection: *unmanaged
-  # Romy and Michele Collection: *unmanaged
-  # Rush Hour Collection: *unmanaged
-  # The Rutles Collection: *unmanaged
-  # The Santa Clause Collection: *unmanaged
-  # Saturday Night Fever Collection: *unmanaged
-  # Save the Last Dance Collection: *unmanaged
-  # The Scorpion King Collection: *unmanaged
-  # Screwballs Collection: *unmanaged
-  # The Shadow Collection: *unmanaged
-  # Shang-Chi Collection: *unmanaged
-  # Shanghai Noon Collection: *unmanaged
-  # Sharknado Collection: *unmanaged
-  # Sin City Collection: *unmanaged
-  # Single White Female Collection: *unmanaged
-  # Sister Act Collection: *unmanaged
-  # The Skulls Collection: *unmanaged
-  # Slap Shot Collection: *unmanaged
-  # Smokey and the Bandit Collection: *unmanaged
-  # Smokin' Aces Collection: *unmanaged
-  # The Space Odyssey Series: *unmanaged
-  # Species Collection: *unmanaged
-  # Speed Collection: *unmanaged
-  # Splash Collection: *unmanaged
-  # Stakeout Collection: *unmanaged
-  # Stargate Collection: *unmanaged
-  # Starship Troopers Collection: *unmanaged
-  # The Sting Collection: *unmanaged
-  # Suicide Squad Collection: *unmanaged
-  # The Sword and the Sorcerer Collection: *unmanaged
-  # Taken Collection: *unmanaged
-  # Ted Collection: *unmanaged
-  # Teen Titans Collection: *unmanaged
-  # Teen Wolf Collection: *unmanaged
-  # The Terminator Collection: *unmanaged
-  # The Thin Man Collection: *unmanaged
-  # This Is Spinal Tap Collection: *unmanaged
-  # Thor Collection: *unmanaged
-  # Tony Rome Collection: *unmanaged
-  # Top Gun Collection: *unmanaged
-  # Topper Collection: *unmanaged
-  # Trainspotting Collection: *unmanaged
-  # Trancers Collection: *unmanaged
-  # The Transporter Collection: *unmanaged
-  # TRON Collection: *unmanaged
-  # Twister Collection: *unmanaged
-  # Venom Collection: *unmanaged
-  # Violent Night Collection: *unmanaged
-  # Waiting Collection: *unmanaged
-  # Wall Street Collection: *unmanaged
-  # WarGames Collection: *unmanaged
-  # The Water of the Hills Collection: *unmanaged
-  # Wayne's World Collection: *unmanaged
-  # Weekend at Bernie's Collection: *unmanaged
-  # Westworld Collection: *unmanaged
-  # Wild Things Collection: *unmanaged
-  # The Wolverine Collection: *unmanaged
-  # Wonder Woman Collection: *unmanaged
-  # Young Guns Collection: *unmanaged
-  # Zoolander Collection: *unmanaged
-  # Zorro Collection: *unmanaged
+  300 Collection: *unmanaged
+  48 Hrs. Collection: *unmanaged
+  Ace Ventura Collection: *unmanaged
+  Airport Collection: *unmanaged
+  Almighty Collection: *unmanaged
+  American Pie Collection: *unmanaged
+  Analyze Collection: *unmanaged
+  Anchorman Collection: *unmanaged
+  Ant-Man Collection: *unmanaged
+  Arthur Collection: *unmanaged
+  Austin Powers Collection: *unmanaged
+  Avatar Collection: *unmanaged
+  AVP Collection: *unmanaged
+  Bachelor Party Collection: *unmanaged
+  Backdraft Collection: *unmanaged
+  Bad Moms Collection: *unmanaged
+  Bad Santa Collection: *unmanaged
+  Basic Instinct Collection: *unmanaged
+  Beach Party Collection: *unmanaged
+  The Beastmaster Collection: *unmanaged
+  Beetlejuice Collection: *unmanaged
+  Before... Collection: *unmanaged
+  Beverly Hills Cop Collection: *unmanaged
+  Big Momma's House Collection: *unmanaged
+  Black Panther Collection: *unmanaged
+  Blade Collection: *unmanaged
+  The Blues Brothers Collection: *unmanaged
+  Borat Moviefilms Collection: *unmanaged
+  The Bourne Collection: *unmanaged
+  Breakin' Collection: *unmanaged
+  The Broadway Melody Collection: *unmanaged
+  Butch Cassidy and the Sundance Kid Collection: *unmanaged
+  The Butterfly Effect Collection: *unmanaged
+  Caddyshack Collection: *unmanaged
+  Cannonball Run Collection: *unmanaged
+  Caprona (Amicus) Collection: *unmanaged
+  Captain Marvel Collection: *unmanaged
+  Center Stage Collection: *unmanaged
+  The Cheerleaders Collection: *unmanaged
+  Chili Palmer Collection: *unmanaged
+  The Christmas House Collection: *unmanaged
+  The Chronicles of Riddick Collection: *unmanaged
+  City Slickers Collection: *unmanaged
+  Class of 1999 Collection: *unmanaged
+  Cocoon Collection: *unmanaged
+  Crocodile Dundee Collection: *unmanaged
+  Crouching Tiger, Hidden Dragon Collection: *unmanaged
+  Daddy's Home Collection: *unmanaged
+  The Dark Knight Collection: *unmanaged
+  Darkman Collection: *unmanaged
+  Darko Collection: *unmanaged
+  Deadpool Collection: *unmanaged
+  Dirty Harry Collection: *unmanaged
+  Divergent Collection: *unmanaged
+  Django Collection: *unmanaged
+  Dr Goldfoot Collection: *unmanaged
+  Dr. Mabuse Collection: *unmanaged
+  DragonHeart Collection: *unmanaged
+  Dumb and Dumber Collection: *unmanaged
+  Enola Holmes Collection: *unmanaged
+  The Equalizer Collection: *unmanaged
+  Escape From ... Collection: *unmanaged
+  The Expendables Collection: *unmanaged
+  Extraction Collection: *unmanaged
+  Fantastic Beasts Collection: *unmanaged
+  The Fast and the Furious Collection: *unmanaged
+  Frank James Collection: *unmanaged
+  Frankenstein (Toho) Collection: *unmanaged
+  Freeway Collection: *unmanaged
+  French Connection Collection: *unmanaged
+  Gator Collection: *unmanaged
+  Ghost Rider Collection: *unmanaged
+  The Girl - Millennium Collection: *unmanaged
+  The Glass House Collection: *unmanaged
+  Goon Collection: *unmanaged
+  The Great Escape Collection: *unmanaged
+  Grown Ups Collection: *unmanaged
+  Grumpy Old Men Collection: *unmanaged
+  The Hangover Collection: *unmanaged
+  Harold & Kumar Collection: *unmanaged
+  Harry Potter Collection: *unmanaged
+  Heavy Metal Collection: *unmanaged
+  Highlander Collection: *unmanaged
+  The Hitman's Bodyguard Collection: *unmanaged
+  The Hobbit Collection: *unmanaged
+  Hocus Pocus Collection: *unmanaged
+  Horrible Bosses Collection: *unmanaged
+  Hot Shots! Collection: *unmanaged
+  The Huntsman Collection: *unmanaged
+  The Hustler Collection: *unmanaged
+  Independence Day Collection: *unmanaged
+  Iron Man Collection: *unmanaged
+  Jack Reacher Collection: *unmanaged
+  The Jack Ryan Collection: *unmanaged
+  The Jake Gittes Collection: *unmanaged
+  Joe Dirt Collection: *unmanaged
+  John Bronco Collection: *unmanaged
+  John Wick Collection: *unmanaged
+  Joker Collection: *unmanaged
+  Josey Wales Collection: *unmanaged
+  Jump Street Collection: *unmanaged
+  Jurassic Park Collection: *unmanaged
+  Kick-Ass Collection: *unmanaged
+  Kill Bill Collection: *unmanaged
+  Kindergarten Cop Collection: *unmanaged
+  Kingsman Collection: *unmanaged
+  Knives Out Collection: *unmanaged
+  Legally Blonde Collection: *unmanaged
+  Lethal Weapon Collection: *unmanaged
+  Lew Harper Collection: *unmanaged
+  Mad Max Collection: *unmanaged
+  Magic Mike Collection: *unmanaged
+  Major League Collection: *unmanaged
+  Mamma Mia! Collection: *unmanaged
+  Mannequin Collection: *unmanaged
+  The Mask Collection: *unmanaged
+  Matt Helm Collection: *unmanaged
+  The Maze Runner Collection: *unmanaged
+  Meatballs Collection: *unmanaged
+  Meet the Parents Collection: *unmanaged
+  The Meg Collection: *unmanaged
+  Mexico Trilogy Collection: *unmanaged
+  Mick Travis Collection: *unmanaged
+  Midnight Run Collection: *unmanaged
+  The Millennium Collection: *unmanaged
+  Miss Congeniality Collection: *unmanaged
+  "Mission: Impossible Collection": *unmanaged
+  Moon Collection: *unmanaged
+  Murder Mystery Collection: *unmanaged
+  The Musketeers Collection: *unmanaged
+  Naked Gun Collection: *unmanaged
+  National Lampoon's Vacation Collection: *unmanaged
+  National Lampoon's Van Wilder Collection: *unmanaged
+  National Treasure Collection: *unmanaged
+  Neighbors Collection: *unmanaged
+  Nevada Smith Collection: *unmanaged
+  Now You See Me Collection: *unmanaged
+  The Nutty Professor Collection: *unmanaged
+  The Odd Couple Collection: *unmanaged
+  Our Man Flint Collection: *unmanaged
+  Philo & Clyde Collection: *unmanaged
+  Pirates of the Caribbean Collection: *unmanaged
+  Poison Ivy Collection: *unmanaged
+  Porky's Collection: *unmanaged
+  Prancer Collection: *unmanaged
+  Problem Child Collection: *unmanaged
+  The Punisher Collection: *unmanaged
+  The Raid Collection: *unmanaged
+  Rambo Collection: *unmanaged
+  RED Collection: *unmanaged
+  Revenge of the Nerds Collection: *unmanaged
+  Road to... Collection: *unmanaged
+  Road Trip Collection: *unmanaged
+  The Robert Langdon Collection: *unmanaged
+  Rocky Collection: *unmanaged
+  Romancing the Stone Collection: *unmanaged
+  Romy and Michele Collection: *unmanaged
+  Rush Hour Collection: *unmanaged
+  The Rutles Collection: *unmanaged
+  The Santa Clause Collection: *unmanaged
+  Saturday Night Fever Collection: *unmanaged
+  Save the Last Dance Collection: *unmanaged
+  The Scorpion King Collection: *unmanaged
+  Screwballs Collection: *unmanaged
+  The Shadow Collection: *unmanaged
+  Shang-Chi Collection: *unmanaged
+  Shanghai Noon Collection: *unmanaged
+  Sharknado Collection: *unmanaged
+  Sin City Collection: *unmanaged
+  Single White Female Collection: *unmanaged
+  Sister Act Collection: *unmanaged
+  The Skulls Collection: *unmanaged
+  Slap Shot Collection: *unmanaged
+  Smokey and the Bandit Collection: *unmanaged
+  Smokin' Aces Collection: *unmanaged
+  The Space Odyssey Series: *unmanaged
+  Species Collection: *unmanaged
+  Speed Collection: *unmanaged
+  Splash Collection: *unmanaged
+  Stakeout Collection: *unmanaged
+  Stargate Collection: *unmanaged
+  Starship Troopers Collection: *unmanaged
+  The Sting Collection: *unmanaged
+  Suicide Squad Collection: *unmanaged
+  The Sword and the Sorcerer Collection: *unmanaged
+  Taken Collection: *unmanaged
+  Ted Collection: *unmanaged
+  Teen Titans Collection: *unmanaged
+  Teen Wolf Collection: *unmanaged
+  The Terminator Collection: *unmanaged
+  The Thin Man Collection: *unmanaged
+  This Is Spinal Tap Collection: *unmanaged
+  Thor Collection: *unmanaged
+  Tony Rome Collection: *unmanaged
+  Top Gun Collection: *unmanaged
+  Topper Collection: *unmanaged
+  Trainspotting Collection: *unmanaged
+  Trancers Collection: *unmanaged
+  The Transporter Collection: *unmanaged
+  TRON Collection: *unmanaged
+  Twister Collection: *unmanaged
+  Venom Collection: *unmanaged
+  Violent Night Collection: *unmanaged
+  Waiting Collection: *unmanaged
+  Wall Street Collection: *unmanaged
+  WarGames Collection: *unmanaged
+  The Water of the Hills Collection: *unmanaged
+  Wayne's World Collection: *unmanaged
+  Weekend at Bernie's Collection: *unmanaged
+  Westworld Collection: *unmanaged
+  Wild Things Collection: *unmanaged
+  The Wolverine Collection: *unmanaged
+  Wonder Woman Collection: *unmanaged
+  Young Guns Collection: *unmanaged
+  Zoolander Collection: *unmanaged
+  Zorro Collection: *unmanaged
 
   ######################################################
   #                Delete Collections                  #
@@ -1082,123 +1082,122 @@ collections:
       all:
         release: 1
     delete_collections_named:
-      - Only in Theaters
-      # - 3 Men Collection
-      # - 3 Men (Original) Collection
-      # - The Addams Family (Animated) Collection
-      # - Addie Mills Collection
-      # - The Amazing Spider-Man Collection
-      # - American Pie (Spin-off) Collection
-      # - Americanized Godzilla Collection
-      # - Annabel Allison collection
-      # - Atomic Blonde Collection
-      # - Baby Driver Collection
-      # - The Batman Collection
-      # - Batman Ninja Collection
-      # - "Batman: The Dark Knight Returns Collection"
-      # - "Batman: The Long Halloween Collection"
-      # - Battlestar Galactica (Original) Collection
-      # - Battlestar Galactica (Reboot) Collection
-      # - Beavis and Butt-Head Do A Collection
-      # - The Benchwarmers Collection
-      # - Bill & Ted Collection
-      # - Blue Crush Collection
-      # - The Brady Bunch TV Movie Collection
-      # - Bring It On Collection
-      # - Bulletproof Collection
-      # - Captain America (1979) Collection
-      # - The Claus Family Collection
-      # - Cliffhanger Collection
-      # - Cochise Collection
-      # - Commando - Collection
-      # - The Death of Superman Collection
-      # - Death Race Original Collection
-      # - Der Trottel Filmreihe
-      # - The Devil Wears Prada Collection
-      # - Easy Rider Collection
-      # - Eraser Filmreihe
-      # - Fall Collection
-      # - "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!"
-      # - Father of the Bride (Spencer Tracy) Collection
-      # - Father of the Bride (Steve Martin) Collection
-      # - Free Guy Collection
-      # - The Fugitive / U.S. Marshal Collection
-      # - G.I. Joe (Live-Action) Collection
-      # - Gamera (Showa) Collection
-      # - The Godfather Trilogy
-      # - Godzilla (Anime) Collection
-      # - Godzilla (Heisei) Collection
-      # - Godzilla (Millennium) Collection
-      # - Godzilla (Reiwa) Collection
-      # - Godzilla (Showa) Collection
-      # - Gladiator Collection
-      # - The Gray Man Collection
-      # - Happiness Collection
-      # - Happy Gilmore Collection
-      # - Has Fallen Collection
-      # - Heat Collection
-      # - Hercule Poirot (Kenneth Branagh) Collection
-      # - Hercule Poirot (Peter Ustinov) Collection
-      # - Hulk Vs. Collection
-      # - Inside Man Collection
-      # - "Jackass Presents: Bad Grandpa Collection"
-      # - Jingle All the Way Collection
-      # - Justice League (Animated) Collection
-      # - Justice League (DC Animated Universe) Collection
-      # - Justice League Dark Collection
-      # - Justice League (Tomorrowverse) Collection
-      # - King Kong (1933) Collection
-      # - King Kong (1976) Collection
-      # - Knocked Up Collection
-      # - Kong Collection
-      # - Lemmy Caution Series
-      # - Lucy Collection
-      # - Man of Steel Collection
-      # - Marshal Samuel Gerard Collection
-      # - Monster X Collection
-      # - Mortal Kombat (Reboot) Collection
-      # - Mortal Kombat Legends Collection
-      # - Nobody Collection
-      # - The Old Guard Collection
-      # - On Any Sunday Collection
-      # - Oz Collection
-      # - The Pink Panther (Original) Collection
-      # - The Pink Panther (Steve Martin) Collection
-      # - Planet of the Apes (Original) Collection
-      # - Planet of the Apes (Reboot) Collection
-      # - Poison Ivy Collection
-      # - The Polar Express Collection
-      # - Prometheus Collection
-      # - Purple Rain Collection
-      # - The Ranown Cycle Westerns Collection
-      # - Ready Player One Collection
-      # - Rebirth of Mothra Collection
-      # - Road House (Remake) Collection
-      # - Road Trip Collection
-      # - The Rocketeer Collection
-      # - Shang-Chi Collection
-      # - Sherlock Holmes (Basil Rathbone) Collection
-      # - The Sinbad Collection
-      # - Son of Batman Collection
-      # - Spider-Man (TV) Collection
-      # - Spider-Man (MCU) Collection
-      # - "Spider-Man: Spider-Verse Collection"
-      # - "Star Trek: Alternate Reality Collection"
-      # - "Star Trek: The Next Generation Collection"
-      # - "Star Trek: The Original Series Collection"
-      # - Star Wars Collection
-      # - Street Fighter (Animated) Collection
-      # - Superman (DC Universe Animated) Collection
-      # - Superman / Batman (Animated) Collection
-      # - The Sword and the Sorcerer Collection
-      # - Tarzan (Johnny Weissmuller) Collection
-      # - The Tomorrow War (Series)
-      # - Tom Cody Collection
-      # - This Is Spinal Tap Collection
-      # - Tracy Flick Collection
-      # - "Transformers: Rise of the Beasts Collection"
-      # - Undercover Brother Collection
-      # - Violent Night Collection
-      # - Without a Paddle Collection
-      # - The Wizard of Oz Collection
-      # - The X Files Collection
+      - 3 Men Collection
+      - 3 Men (Original) Collection
+      - The Addams Family (Animated) Collection
+      - Addie Mills Collection
+      - The Amazing Spider-Man Collection
+      - American Pie (Spin-off) Collection
+      - Americanized Godzilla Collection
+      - Annabel Allison collection
+      - Atomic Blonde Collection
+      - Baby Driver Collection
+      - The Batman Collection
+      - Batman Ninja Collection
+      - "Batman: The Dark Knight Returns Collection"
+      - "Batman: The Long Halloween Collection"
+      - Battlestar Galactica (Original) Collection
+      - Battlestar Galactica (Reboot) Collection
+      - Beavis and Butt-Head Do A Collection
+      - The Benchwarmers Collection
+      - Bill & Ted Collection
+      - Blue Crush Collection
+      - The Brady Bunch TV Movie Collection
+      - Bring It On Collection
+      - Bulletproof Collection
+      - Captain America (1979) Collection
+      - The Claus Family Collection
+      - Cliffhanger Collection
+      - Cochise Collection
+      - Commando - Collection
+      - The Death of Superman Collection
+      - Death Race Original Collection
+      - Der Trottel Filmreihe
+      - The Devil Wears Prada Collection
+      - Easy Rider Collection
+      - Eraser Filmreihe
+      - Fall Collection
+      - "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!"
+      - Father of the Bride (Spencer Tracy) Collection
+      - Father of the Bride (Steve Martin) Collection
+      - Free Guy Collection
+      - The Fugitive / U.S. Marshal Collection
+      - G.I. Joe (Live-Action) Collection
+      - Gamera (Showa) Collection
+      - The Godfather Trilogy
+      - Godzilla (Anime) Collection
+      - Godzilla (Heisei) Collection
+      - Godzilla (Millennium) Collection
+      - Godzilla (Reiwa) Collection
+      - Godzilla (Showa) Collection
+      - Gladiator Collection
+      - The Gray Man Collection
+      - Happiness Collection
+      - Happy Gilmore Collection
+      - Has Fallen Collection
+      - Heat Collection
+      - Hercule Poirot (Kenneth Branagh) Collection
+      - Hercule Poirot (Peter Ustinov) Collection
+      - Hulk Vs. Collection
+      - Inside Man Collection
+      - "Jackass Presents: Bad Grandpa Collection"
+      - Jingle All the Way Collection
+      - Justice League (Animated) Collection
+      - Justice League (DC Animated Universe) Collection
+      - Justice League Dark Collection
+      - Justice League (Tomorrowverse) Collection
+      - King Kong (1933) Collection
+      - King Kong (1976) Collection
+      - Knocked Up Collection
+      - Kong Collection
+      - Lemmy Caution Series
+      - Lucy Collection
+      - Man of Steel Collection
+      - Marshal Samuel Gerard Collection
+      - Monster X Collection
+      - Mortal Kombat (Reboot) Collection
+      - Mortal Kombat Legends Collection
+      - Nobody Collection
+      - The Old Guard Collection
+      - On Any Sunday Collection
+      - Oz Collection
+      - The Pink Panther (Original) Collection
+      - The Pink Panther (Steve Martin) Collection
+      - Planet of the Apes (Original) Collection
+      - Planet of the Apes (Reboot) Collection
+      - Poison Ivy Collection
+      - The Polar Express Collection
+      - Prometheus Collection
+      - Purple Rain Collection
+      - The Ranown Cycle Westerns Collection
+      - Ready Player One Collection
+      - Rebirth of Mothra Collection
+      - Road House (Remake) Collection
+      - Road Trip Collection
+      - The Rocketeer Collection
+      - Shang-Chi Collection
+      - Sherlock Holmes (Basil Rathbone) Collection
+      - The Sinbad Collection
+      - Son of Batman Collection
+      - Spider-Man (TV) Collection
+      - Spider-Man (MCU) Collection
+      - "Spider-Man: Spider-Verse Collection"
+      - "Star Trek: Alternate Reality Collection"
+      - "Star Trek: The Next Generation Collection"
+      - "Star Trek: The Original Series Collection"
+      - Star Wars Collection
+      - Street Fighter (Animated) Collection
+      - Superman (DC Universe Animated) Collection
+      - Superman / Batman (Animated) Collection
+      - The Sword and the Sorcerer Collection
+      - Tarzan (Johnny Weissmuller) Collection
+      - The Tomorrow War (Series)
+      - Tom Cody Collection
+      - This Is Spinal Tap Collection
+      - Tracy Flick Collection
+      - "Transformers: Rise of the Beasts Collection"
+      - Undercover Brother Collection
+      - Violent Night Collection
+      - Without a Paddle Collection
+      - The Wizard of Oz Collection
+      - The X Files Collection
