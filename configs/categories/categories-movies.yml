@@ -113,7 +113,7 @@ collections:
       summary: >-
         True tales hit the silver screen! From heart-pounding heroics to wild
         twists of fate, these flicks bring real-life moments to movie magic!
-  Straight from the Arcade:
+  Game Over:
     template:
       name: Category - Trakt List Other
       list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-video-games'

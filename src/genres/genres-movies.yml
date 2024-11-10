@@ -96,7 +96,7 @@ collections:
       name: Genre
       genre: Thriller
       summary: Get ready for a wild ride! These nerve-janglin' flicks are loaded with unexpected twists, eerie atmospheres, and just the right dose of chills to keep you on high alert. It's suspense and intrigue turned up to eleven!
-  Western:
+  "Wanted: Dead or Alive":
     template:
       name: Genre
       genre: Western

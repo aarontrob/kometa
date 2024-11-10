@@ -12,36 +12,10 @@ templates:
     sort_title: '!_First <<sort_title>>'
     summary: <<summary>>
 collections:
-  Favorites:
-    template:
-      name: First - Custom
-      summary: My Stellar Screen Faves
-    collection_filtering: user
-    smart_filter:
-      sort_by: title.desc
-      all:
-        user_rating.gte: 9.5
-  What's Hot:
-    template:
-      name: First - Custom
-      summary: 'Bringing the heat, these movies have everyone’s attention right now!'
-    trakt_chart:
-      chart: trending
-      limit: 30
-    smart_label: random
-    sync_mode: sync
-  Fresh on the Scene:
-    template:
-      name: First - Custom
-      summary: A collection of the latest films that have just hit the scene!
-    smart_filter:
-      all:
-        release: 365
-      sort_by: added.desc
   Just In:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!!Just In'
+      sort_title: '!1Just In'
       summary: >-
         New arrivals have just hit the lineup! A selection of classics, new
         hits, and everything in between.
@@ -50,9 +24,29 @@ collections:
         added: 30
       limit: 100
       sort_by: added.desc
+  What's Hot:
+    template:
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!2What''s Hot'
+      summary: 'Bringing the heat, these movies have everyone’s attention right now!'
+    trakt_chart:
+      chart: trending
+      limit: 30
+    smart_label: random
+    sync_mode: sync
+  Fresh on the Scene:
+    template:
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!3Fresh on the Scene'
+      summary: A collection of the latest films that have just hit the scene!
+    smart_filter:
+      all:
+        release: 365
+      sort_by: added.desc
   Only in Theaters:
     template:
-      name: First - Custom
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!4Only in Theaters'
       summary: >-
         Expect movies that look like they were filmed on a potato, complete with
         random people walking by and jarring crypto ads—who doesn’t love a
@@ -67,7 +61,8 @@ collections:
         - (?i)\bTELESYNC\b
   To Be Continued…:
     template:
-      name: First - Custom
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!5To Be Continued...'
       summary: >-
         Films that leave you hanging, testing your patience like never before!
         These cliffhangers will have you shouting, “What’s next?” as you relish
@@ -77,10 +72,11 @@ collections:
       sort_by: title.desc
       all:
         progress: true
-    visible_home: true
+        plays: 0
   Watchlist:
     template:
-      name: First - Custom
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!6Watchlist'
       summary: >-
         Ah, the Watchlist—a collection of movies you promised yourself you’d
         watch but somehow keep dodging like a pro! Here’s to the films that are
@@ -90,3 +86,13 @@ collections:
     smart_label: added.desc
     collection_filtering: user
     label: Aaron
+  Favorites:
+    template:
+      ame: 'First [Sort Title] - Custom'
+      sort_title: '!7Favorites'
+      summary: My Stellar Screen Faves
+    collection_filtering: user
+    smart_filter:
+      sort_by: title.desc
+      all:
+        user_rating.gte: 9.5
