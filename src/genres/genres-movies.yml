@@ -57,7 +57,7 @@ collections:
       name: Genre - Trakt List
       list: movies-music
       item_genre: Music
-      summary: “Crank it up! Tuned In takes you backstage with music icons in live concerts, biopics, and legendary music movies, celebrating unforgettable stories and sounds. Get ready for the biggest hits that’ll keep you grooving!”
+      summary: Immerse yourself in the world of music with a mix of live concerts, biopics, and fictional films, showcasing thrilling moments on stage and captivating stories inspired by the power of music.
     smart_label: title.asc
   Musical:
     template:
@@ -74,12 +74,12 @@ collections:
       name: Genre
       genre: Science Fiction
       summary: Blast off to worlds beyond! These far-out flicks are packed with cosmic capers and mind-bending adventures that’ll take you light-years away. Enjoy sci-fi thrills and otherworldly chills for those craving the unknown!
-  Sports:
+  Game Changers:
     template:
       name: Genre
       genre: Sports
       list: movies-sports
-      summary: Lace up and get ready for victory! These action-packed flicks are full of big plays, underdog triumphs, and heart-pumpin' moments that'll have you cheerin' from the couch. It's the thrill of the game on the silver screen!
+      summary: These films span all facets of sports, from heart-pounding drama to hilarious comedies and true stories of athletes who made their mark.
   Stand Up:
     template:
       name: Genre - Trakt List

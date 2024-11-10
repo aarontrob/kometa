@@ -29,7 +29,7 @@ collections:
       limit: 30
     smart_label: random
     sync_mode: sync
-  Latest Releases:
+  Fresh on the Scene:
     template:
       name: First - Custom
       summary: A collection of the latest films that have just hit the scene!
@@ -47,7 +47,7 @@ collections:
         added: 30
       limit: 100
       sort_by: added.desc
-  "Only in Theaters":
+  Only in Theaters:
     template:
       name: First - Custom
       summary: >-

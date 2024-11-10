@@ -30,7 +30,7 @@ collections:
       limit: 30
     smart_label: random
     sync_mode: sync
-  Latest Releases:
+  Fresh on the Scene:
     template:
       name: First - Custom
       summary: A collection of the latest films that have just hit the scene!
