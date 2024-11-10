@@ -10,7 +10,7 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Awesomely Awful:
+  So Bad, It's Good:
     template:
       name: Category - Trakt List
       list: bad-movies-collection

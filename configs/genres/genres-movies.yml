@@ -31,6 +31,15 @@ templates:
     item_genre: <<collection_name>>
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
+  Genre - Trakt List Other:
+    optional:
+      - summary
+    trakt_list: <<list>>
+    sync_mode: sync
+    smart_label: release.asc
+    item_genre: <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
+    summary: <<summary>>
   'Genre [Bottom] - Trakt List':
     optional:
       - summary
@@ -122,6 +131,11 @@ collections:
         Enter a world of pure imagination! These magical tales are filled with
         mythical creatures, enchanted lands, and spellbinding adventures. It’s a
         whirlwind of wonder where dreams take flight!
+  Film Noir:
+    template:
+      name: 'Genre [Holiday] - Trakt List'
+      list: 'https://trakt.tv/users/k0meta/lists/film-noir-movies'
+      summary: null
   Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'

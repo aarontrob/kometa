@@ -68,7 +68,7 @@ templates:
     sort_title: '!3.5_Category <<collection_name>>'
     summary: <<summary>>
 collections:
-  Awesomely Awful:
+  'So Bad, It''s Good':
     template:
       name: Category - Trakt List
       list: bad-movies-collection
