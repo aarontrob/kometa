@@ -44,7 +44,6 @@ Genre - Trakt List:
   trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
   sync_mode: sync
   smart_label: title.asc
-  item_genre: <<collection_name>>
   sort_title: '!3_Genre_Holiday <<collection_name>>'
   summary: <<summary>>
 'Genre [Holiday] - Trakt List [Hide Items]':

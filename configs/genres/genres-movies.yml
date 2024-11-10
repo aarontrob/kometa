@@ -45,7 +45,6 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     smart_label: title.asc
-    item_genre: <<collection_name>>
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List [Hide Items]':
@@ -89,7 +88,7 @@ collections:
       list: movies-biopics
       smart_label: title.desc
       summary: null
-  Tinsel Time:
+  Season's Greetings:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-christmas
