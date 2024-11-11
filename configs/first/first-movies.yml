@@ -72,7 +72,6 @@ collections:
       sort_by: title.desc
       all:
         progress: true
-        plays: 0
   Watchlist:
     template:
       name: 'First [Sort Title] - Custom'

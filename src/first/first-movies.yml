@@ -63,7 +63,7 @@ collections:
       sort_by: title.desc
       all:
         progress: true
-        plays: 0
+        # plays: 0
     # visible_home: true
   Watchlist:
     template:
