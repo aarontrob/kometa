@@ -98,7 +98,7 @@ collections:
       summary: >-
         Discover underrated treasures and overlooked classics waiting to shine
         on your screen!
-  Comics Come Alive!:
+  Comic Book Legends:
     template:
       name: Category - Trakt List Other
       list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-comics'
