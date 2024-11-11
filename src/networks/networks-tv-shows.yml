@@ -23,9 +23,9 @@ collections:
     template:
       name: Network
       network: 65, 849
-    # filters:
-    #   title.not:
-    #     - The Adventures of Young Indiana Jones
+    filters:
+      title.not:
+        - The Adventures of Young Indiana Jones
   Nickelodeon:
     template:
       name: Network
