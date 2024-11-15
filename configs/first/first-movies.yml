@@ -85,11 +85,14 @@ collections:
     smart_label: added.desc
     collection_filtering: user
     label: Aaron
-  Favorites:
+  All-Time Favorites:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!7Favorites'
-      summary: My Stellar Screen Faves
+      sort_title: '!7All-Time Favorites'
+      summary: >-
+        These are the movies that never get old. From action-packed adventures
+        to side-splitting comedies, these flicks have earned a permanent spot in
+        your heart and screen time!
     collection_filtering: user
     smart_filter:
       sort_by: title.desc
