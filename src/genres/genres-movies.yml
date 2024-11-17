@@ -37,16 +37,16 @@ collections:
       name: Genre
       genre: Comedy
       summary: Get ready to laugh ‘til you’re in stitches! These knee-slappin’ flicks bring on the chuckles, the gags, and the goofs—served up with a side of silly and a dash of zany. It’s laughs-a-plenty, so grab a seat and let the good times roll!
-  Crime:
+  Criminal Intent: #Crime
     template:
       name: Genre
       genre: Crime
-      summary: Get ready for capers, crooks, and close calls! These flicks are loaded with high-stakes heists and twisty plots that’ll keep you guessing. It’s a real whodunit—just don’t get caught red-handed!
-  Fantasy:
+      summary: Get ready for gritty heists, dirty deals, and criminals with nothing to lose. These films dive deep into the underworld, where the stakes are high, and the law is nowhere to be found.
+  Magic & Myth:
     template:
       name: Genre
       genre: Fantasy
-      summary: Enter a world of pure imagination! These magical tales are filled with mythical creatures, enchanted lands, and spellbinding adventures. It’s a whirlwind of wonder where dreams take flight!
+      summary: Step into a world where magic is real and myths come alive. These films transport you to realms filled with legendary creatures, enchanted lands, and epic quests.
   Film Noir:
     template:
       name: Genre [Holiday] - Trakt List
@@ -74,7 +74,7 @@ collections:
       name: Genre
       genre: Mystery
       summary: Get ready for spine-tinglin' secrets and clues at every corner! These shadowy tales are packed with suspense, sneaky suspects, and twists that'll keep you second-guessin' till the very last scene. It's a thrill-filled puzzle you won't want to miss!
-  Science Fiction:
+  Out of This World: #Sci-fi
     template:
       name: Genre
       genre: Science Fiction

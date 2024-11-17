@@ -10,11 +10,11 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Just In:
+  New Arrivals:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!1Just In"
-      summary: New arrivals have just hit the lineup! A selection of classics, new hits, and everything in between.
+      sort_title: "!1New Arrivals"
+      summary: A fresh batch of films has just arrived, offering a mix of genres and exciting new stories. Whether it’s action, comedy, or drama, there’s something for every taste.
     smart_filter:
       all:
         added: 30
