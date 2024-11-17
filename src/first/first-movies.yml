@@ -75,10 +75,10 @@ collections:
     smart_label: added.desc
     collection_filtering: user
     label: Aaron
-  All-Time Favorites:
+  All-Time Faves:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!7All-Time Favorites"
+      sort_title: "!7All-Time Faves"
       summary: These are the movies that never get old. From action-packed adventures to side-splitting comedies, these flicks have earned a permanent spot in your heart and screen time!
     collection_filtering: user
     smart_filter:
