@@ -91,9 +91,9 @@ collections:
       name: 'First [Sort Title] - Custom'
       sort_title: '!7All-Time Faves'
       summary: >-
-        These are the movies that never get old. From action-packed adventures
-        to side-splitting comedies, these flicks have earned a permanent spot in
-        your heart and screen time!
+        These movies have earned their spot as your absolute favorites,
+        guaranteed to always deliver the perfect blend of nostalgia and
+        enjoyment every time.
     collection_filtering: user
     smart_filter:
       sort_by: title.desc
