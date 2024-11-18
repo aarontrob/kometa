@@ -86,3 +86,17 @@ collections:
       all:
         user_rating.gte: 9.5
     # visible_home: true
+  Aaron's Faves:
+    build_collection: false
+    trakt_list: https://trakt.tv/users/goape/lists/movies-aaron
+    item_label: Aaron
+    user_rating:
+      10
+
+      # check if there are managed user favorites that aren't in the Aaron's Faves collection. If there aren't then the collection should have an Aaron label.
+
+      # get managed user ratings
+
+      # check if managed user has ratings in library, if not add Aaron label
+
+      # Figure out if you can add labels to managed user specific data like ratings
