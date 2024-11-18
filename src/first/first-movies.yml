@@ -44,7 +44,7 @@ collections:
       name: First [Sort Title] - Custom
       sort_title: "!4Only in Theaters"
       summary: >-
-        Expect movies that look like they were filmed on a potato, complete with random people walking by and jarring crypto ads—who doesn’t love a commercial during a tense scene?
+        The quality? Let’s just say it’s ‘bootleg chic.’ Expect a few interruptions, like random crypto ads in the middle of a tense scene, but hey, it’s free!
     smart_label: release.desc
     plex_search:
       all:

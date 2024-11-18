@@ -73,7 +73,7 @@ collections:
     template:
       name: Genre
       genre: Mystery
-      summary: Get ready for spine-tinglin' secrets and clues at every corner! These shadowy tales are packed with suspense, sneaky suspects, and twists that'll keep you second-guessin' till the very last scene. It's a thrill-filled puzzle you won't want to miss!
+      summary: Whodunnit? Get ready for a ride full of twists, turns, and sleuthing galore. These mystery films will have you on the edge of your seat, piecing together clues and unraveling the truth before the final reveal.
   Out of This World: #Sci-fi
     template:
       name: Genre
