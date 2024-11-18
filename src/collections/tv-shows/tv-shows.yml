@@ -138,8 +138,8 @@ collections:
       show: 33907
   Dune Collection:
     template:
-      name: Collection - Hide Show
-      show: 9156
+      name: Collection - Shows
+      show: 9156, 90228
       summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
   Evil Dead Collection:
     template:
