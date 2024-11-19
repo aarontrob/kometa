@@ -32,11 +32,11 @@ collections:
       list: movies-christmas
       smart_label: title.asc
       summary: Break out the eggnog and mistletoe! These festive flicks are packed with holiday cheer and enough yuletide magic to make even Scrooge smile. It’s a holly jolly celebration of the season!
-  Comedy:
+  Laugh Out Loud:
     template:
       name: Genre
       genre: Comedy
-      summary: Get ready to laugh ‘til you’re in stitches! These knee-slappin’ flicks bring on the chuckles, the gags, and the goofs—served up with a side of silly and a dash of zany. It’s laughs-a-plenty, so grab a seat and let the good times roll!
+      summary: Get ready to laugh! These comedies are filled with wild humor, over-the-top characters, and unforgettable moments that’ll leave you grinning from ear to ear.
   Criminal Intent: #Crime
     template:
       name: Genre
