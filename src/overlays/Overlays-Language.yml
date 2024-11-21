@@ -13,8 +13,12 @@ overlays:
       file: config/overlays/Languages/french-overlay-v2.png
     plex_search:
       all:
-        audio_language: fr
-        audio_language.not: en
+        any:
+          title: The Count of Monte-Cristo
+        all:
+          audio_language: fr
+          audio_language.not: en
+          country: fr
   German:
     overlay:
       name: German
