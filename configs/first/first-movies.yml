@@ -98,8 +98,11 @@ collections:
     collection_filtering: user
     smart_filter:
       sort_by: title.desc
-      all:
-        user_rating.gte: 9.5
+      any:
+        all:
+          user_rating.gte: 9.5
+        any:
+          label: Aaron
   Aaron's Faves:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/movies-aaron'

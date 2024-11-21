@@ -83,8 +83,11 @@ collections:
     collection_filtering: user
     smart_filter:
       sort_by: title.desc
-      all:
-        user_rating.gte: 9.5
+      any:
+        all:
+          user_rating.gte: 9.5
+        any:
+          label: Aaron
     # visible_home: true
   Aaron's Faves:
     build_collection: false
