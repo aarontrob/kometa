@@ -73,6 +73,7 @@ collections:
       sort_by: title.desc
       all:
         progress: true
+        plays.lt: 1
   Watchlist:
     template:
       name: 'First [Sort Title] - Custom'
@@ -103,4 +104,3 @@ collections:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/movies-aaron'
     item_label: Aaron
-    user_rating: 10

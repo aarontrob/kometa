@@ -63,7 +63,7 @@ collections:
       sort_by: title.desc
       all:
         progress: true
-        # plays: 0
+        plays.lt: 1
     # visible_home: true
   Watchlist:
     template:
@@ -89,9 +89,8 @@ collections:
   Aaron's Faves:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/movies-aaron
-    item_label: Aaron
-    user_rating:
-      10
+    item_label:
+      Aaron
 
       # check if there are managed user favorites that aren't in the Aaron's Faves collection. If there aren't then the collection should have an Aaron label.
 
