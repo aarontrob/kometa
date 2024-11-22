@@ -16,6 +16,30 @@ collections:
       list: brains
       summary: “Get ready for a feast of flesh-eating mayhem! These undead thrillers are packed with groaning ghouls, slow-moving terror, and plenty of brain-munching action. It’s the perfect collection for those who like their horror with a side of bite!”
     smart_label: title.asc
+  # Blood and Gore:
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: brains
+  #     summary: “Get ready for a feast of flesh-eating mayhem! These undead thrillers are packed with groaning ghouls, slow-moving terror, and plenty of brain-munching action. It’s the perfect collection for those who like their horror with a side of bite!”
+  #   smart_label: title.asc
+  # Slasher Central:
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: brains
+  #     summary: “Get ready for a feast of flesh-eating mayhem! These undead thrillers are packed with groaning ghouls, slow-moving terror, and plenty of brain-munching action. It’s the perfect collection for those who like their horror with a side of bite!”
+  #   smart_label: title.asc
+  Clowning Around:
+    template:
+      name: Genre - Trakt List
+      list: clowning-around
+      summary: Step right up and enjoy the show! These clown-filled films are full of fun, mischief, and a touch of the unexpected. Laughter is guaranteed, but who knows what’s lurking under that painted smile?
+    smart_label: title.asc
+  Bloodsuckers & Fangs:
+    template:
+      name: Genre - Trakt List
+      list: bloodsuckers-fangs
+      summary: Step into the shadows and face the creatures of the night! These movies deliver spine-chilling thrills, with vampires lurking in every corner.
+    smart_label: title.asc
   Season's Greetings:
     template:
       name: Genre [Holiday] - Trakt List
@@ -26,6 +50,11 @@ collections:
       name: Genre [Holiday] - Trakt List
       list: movies-halloween
       summary: Get ready for a bloodbath! These brutal flicks bring the gore, guts, and nightmares. From pissed-off ghosts to slashers who won't quit, it's wall-to-wall horror with enough twisted shit to haunt you long after Halloween's over.
+  Turkey Lurkey Time: #Thanksgiving
+    template:
+      name: Genre [Holiday] - Trakt List
+      list: movies-horror-thanksgiving
+      summary: Gather 'round for heartwarming tales, family feasts, and holiday hijinks! These festive flicks are packed with gratitude, gravy, and just the right amount of family drama. It's a cozy cornucopia of feel-good fun!
   Horror:
     template:
       name: Genre [Bottom] - Custom
