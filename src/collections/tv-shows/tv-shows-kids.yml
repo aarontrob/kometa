@@ -742,6 +742,7 @@ collections:
     template:
       name: Collection - Trakt List Custom Order
       list: x-men-collection
+      name_mapping: X-Men Collection (TV)
       summary: Join the Evolution.
   Yogi Bear Collection:
     template:
