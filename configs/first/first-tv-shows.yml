@@ -3,13 +3,13 @@ templates:
     optional:
       - sort_title
       - summary
-    sort_title: '!1_First <<collection_name>>'
+    sort_title: '!_First <<collection_name>>'
     summary: <<summary>>
   'First [Sort Title] - Custom':
     optional:
       - sort_title
       - summary
-    sort_title: '!1_First <<sort_title>>'
+    sort_title: '!_First <<sort_title>>'
     summary: <<summary>>
 collections:
   Recently Aired:

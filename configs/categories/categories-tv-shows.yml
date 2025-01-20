@@ -70,7 +70,7 @@ templates:
 collections:
   'First Impressions: Pilot Episodes Only':
     template:
-      name: Collection - Trakt List
+      name: Category - Trakt List
       list: tv-pilot-episode
       summary: >-
         Experience the thrill of first episodes that introduce unforgettable

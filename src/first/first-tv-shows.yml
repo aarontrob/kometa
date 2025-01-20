@@ -20,18 +20,3 @@ collections:
         episode_air_date: 7
         episode_unplayed: true
       sort_by: episode_release.desc
-  # Label Pilots:
-  #   plex_pilots: true
-  #   item_label: Pilot
-  #   builder_level: episode
-  #   build_collection: false
-  # Unwatched Pilots:
-  #   sort_title: "!001Unwatched Pilots"
-  #   summary: Unwatched TV Show Pilots
-  #   collection_mode: hide
-  #   collection_filtering: user
-  #   builder_level: episode
-  #   smart_filter:
-  #     all:
-  #       episode_label: Pilot
-  #       episode_unplayed: true
