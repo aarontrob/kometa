@@ -357,6 +357,12 @@ collections:
     template:
       name: Collection - Movies
       movie: '11970, 153609'
+  The Hobbit Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-hobbit-collection
+      sort_title: Hobbit Collection
+      summary: From the smallest beginnings come the greatest legends
   Hotel Transylvania Collection:
     template:
       name: Collection - Trakt List
@@ -464,6 +470,12 @@ collections:
       name: Collection - Trakt List
       list: looney-tunes-collection
       summary: '“What''s up, doc?"'
+  The Lord of the Rings Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-lord-of-the-rings-collection
+      sort_title: Lord of the Rings Collection
+      summary: Middle Earth comes alive...
   Luca Collection:
     template:
       name: Collection - Movies
@@ -494,6 +506,20 @@ collections:
       name: Collection - Movies
       movie: '38055, 57718'
       summary: His Brain Is Off The Chain
+  Middle-Earth Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: middle-earth-collection
+      summary: >-
+        Middle-earth is the fictional setting of much of the English writer J.
+        R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse
+        mythology and Middangeard in Old English works, including Beowulf.
+        Middle-earth is the human-inhabited world, that is, the central
+        continent of the Earth, in Tolkien's imagined mythological past.
+        Tolkien's most widely read works, The Hobbit and The Lord of the Rings,
+        are set entirely in Middle-earth. "Middle-earth" has also become a
+        short-hand term for Tolkien's legendarium, his large body of fantasy
+        writings, and for the entirety of his fictional world.
   Minions Collection:
     template:
       name: Collection - Trakt List Custom Order

@@ -1,0 +1,79 @@
+templates:
+  Category - Custom:
+    optional:
+      - summary
+    sort_title: '!3.5_Category <<collection_name>>'
+    summary: <<summary>>
+  Category - Trakt List:
+    optional:
+      - name_mapping
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    name_mapping: <<name_mapping>>
+    sort_title: '!3.5_Category <<collection_name>>'
+    smart_label: year.asc
+    summary: <<summary>>
+  Category - Trakt List Other:
+    optional:
+      - name_mapping
+      - summary
+    trakt_list: <<list>>
+    sync_mode: sync
+    name_mapping: <<name_mapping>>
+    sort_title: '!3.5_Category <<collection_name>>'
+    smart_label: title.asc
+    summary: <<summary>>
+  Category - Trakt List Custom Order:
+    optional:
+      - name_mapping
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    sort_title: '!3.5_Category <<collection_name>>'
+    collection_mode: show_items
+    name_mapping: <<name_mapping>>
+    summary: <<summary>>
+  Category - Trakt List Custom Order Details:
+    optional:
+      - name_mapping
+      - summary
+    trakt_list_details: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_order: custom
+    collection_mode: show_items
+    name_mapping: <<name_mapping>>
+    sort_title: '!3.5_Category <<collection_name>>'
+    summary: <<summary>>
+  Category - Letterboxd List:
+    optional:
+      - name_mapping
+      - summary
+    letterboxd_list: <<list>>
+    sync_mode: sync
+    collection_order: custom
+    collection_mode: show_items
+    name_mapping: <<name_mapping>>
+    sort_title: '!3.5_Category <<collection_name>>'
+    summary: <<summary>>
+  Category - IMDB List:
+    optional:
+      - name_mapping
+      - summary
+    letterboxd_list: 'https://www.imdb.com/<<list>>'
+    sync_mode: sync
+    smart_label: year.asc
+    name_mapping: <<name_mapping>>
+    sort_title: '!3.5_Category <<collection_name>>'
+    summary: <<summary>>
+collections:
+  'First Impressions: Pilot Episodes Only':
+    template:
+      name: Collection - Trakt List
+      list: tv-pilot-episode
+      summary: >-
+        Experience the thrill of first episodes that introduce unforgettable
+        characters and captivating worlds. Each pilot offers a glimpse into a
+        series, leaving the rest of the story ready to unfold if it captures
+        your imagination!

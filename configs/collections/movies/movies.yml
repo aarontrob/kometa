@@ -557,6 +557,12 @@ collections:
     template:
       name: Collection - Hide Movie
       movie: 10156
+  The Hobbit Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-hobbit-collection
+      sort_title: Hobbit Collection
+      summary: From the smallest beginnings come the greatest legends
   Home Alone Collection:
     template:
       name: Collection
@@ -657,8 +663,8 @@ collections:
       movie: 10803
   The Lord of the Rings Collection:
     template:
-      name: Collection
-      collection: 119
+      name: Collection - Trakt List Custom Order
+      list: the-lord-of-the-rings-collection
       sort_title: Lord of the Rings Collection
       summary: Middle Earth comes alive...
   Lost in Space Collection:
@@ -712,8 +718,8 @@ collections:
       summary: Protecting the earth from the scum of the universe
   Middle-Earth Collection:
     template:
-      name: Collection
-      collection: '119, 121938'
+      name: Collection - Trakt List Custom Order
+      list: middle-earth-collection
       summary: >-
         Middle-earth is the fictional setting of much of the English writer J.
         R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse
@@ -1220,7 +1226,6 @@ collections:
   Heavy Metal Collection: *ref_0
   Highlander Collection: *ref_0
   The Hitman's Bodyguard Collection: *ref_0
-  The Hobbit Collection: *ref_0
   Hocus Pocus Collection: *ref_0
   Horrible Bosses Collection: *ref_0
   Hot Shots! Collection: *ref_0

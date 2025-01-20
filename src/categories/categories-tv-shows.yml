@@ -1,0 +1,17 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/categories.yml
+
+######################################################
+#                   Collections                      #
+######################################################
+
+collections:
+  "First Impressions: Pilot Episodes Only":
+    template:
+      name: Collection - Trakt List
+      list: tv-pilot-episode
+      summary: Experience the thrill of first episodes that introduce unforgettable characters and captivating worlds. Each pilot offers a glimpse into a series, leaving the rest of the story ready to unfold if it captures your imagination!
