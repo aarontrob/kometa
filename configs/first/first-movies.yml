@@ -43,7 +43,7 @@ collections:
     smart_filter:
       all:
         release: 365
-      sort_by: added.desc
+      sort_by: release.desc
   Only in Theaters:
     template:
       name: 'First [Sort Title] - Custom'

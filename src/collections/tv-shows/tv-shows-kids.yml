@@ -301,6 +301,11 @@ collections:
     template:
       name: Collection - Hide Show
       show: 158307
+  Inside Out Collection:
+    template:
+      name: Collection - Hide Show
+      show: 255868
+      summary: Meet the little voices inside your head.
   Inspector Gadget Collection:
     template:
       name: Collection - Shows
