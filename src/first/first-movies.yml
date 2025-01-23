@@ -60,7 +60,7 @@ collections:
       summary: Films that leave you hanging, testing your patience like never before! These cliffhangers will have you shouting, “What’s next?” as you relish the anticipation of unfinished stories!
     collection_filtering: user
     smart_filter:
-      sort_by: title.desc
+      sort_by: title.asc
       all:
         progress: true
         plays.lt: 1
@@ -82,7 +82,7 @@ collections:
       summary: These movies have earned their spot as your absolute favorites, guaranteed to always deliver the perfect blend of nostalgia and enjoyment every time.
     collection_filtering: user
     smart_filter:
-      sort_by: title.desc
+      sort_by: title.asc
       any:
         all:
           user_rating.gte: 9.5

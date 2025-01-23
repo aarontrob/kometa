@@ -47,7 +47,7 @@ collections:
       summary: "Your comfort shows that never get old: Those reliable series you return to again and again, where every rewatch feels like coming home."
     collection_filtering: user
     smart_filter:
-      sort_by: title.desc
+      sort_by: title.asc
       any:
         all:
           user_rating.gte: 9.5

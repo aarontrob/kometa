@@ -70,7 +70,7 @@ collections:
         the anticipation of unfinished stories!
     collection_filtering: user
     smart_filter:
-      sort_by: title.desc
+      sort_by: title.asc
       all:
         progress: true
         plays.lt: 1
@@ -97,7 +97,7 @@ collections:
         enjoyment every time.
     collection_filtering: user
     smart_filter:
-      sort_by: title.desc
+      sort_by: title.asc
       any:
         all:
           user_rating.gte: 9.5
