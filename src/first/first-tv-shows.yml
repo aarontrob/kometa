@@ -10,6 +10,16 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  New Arrivals:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!1New Arrivals"
+      summary: Fresh shows have landed! From action-packed dramas to laugh-out-loud comedies, your next binge-watch awaits.
+    smart_filter:
+      all:
+        added: 30
+      limit: 100
+      sort_by: added.desc
   Recently Aired:
     template:
       name: First - Custom
@@ -20,3 +30,31 @@ collections:
         episode_air_date: 7
         episode_unplayed: true
       sort_by: episode_release.desc
+  Watchlist:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!6Watchlist"
+      summary: 'The "One Day" Queue: An impressive lineup of must-watch shows that keep getting bumped by ''just one more episode'' of your comfort series.'
+    plex_watchlist: added.desc
+    sync_mode: sync
+    smart_label: added.desc
+    collection_filtering: user
+    label: Aaron
+  All-Time Faves:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!7All-Time Faves"
+      summary: "Your comfort shows that never get old: Those reliable series you return to again and again, where every rewatch feels like coming home."
+    collection_filtering: user
+    smart_filter:
+      sort_by: title.desc
+      any:
+        all:
+          user_rating.gte: 9.5
+        any:
+          label: Aaron
+    # visible_home: true
+  Aaron's Faves:
+    build_collection: false
+    trakt_list: https://trakt.tv/users/goape/lists/tv-aaron
+    item_label: Aaron
