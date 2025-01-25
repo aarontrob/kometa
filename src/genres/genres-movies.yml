@@ -85,7 +85,7 @@ collections:
       genre: Sports
       list: movies-sports
       summary: These films span all facets of sports, from heart-pounding drama to hilarious comedies and true stories of athletes who made their mark.
-  Stand Up:
+  Stand-Up Showcase:
     template:
       name: Genre - Trakt List
       list: movies-standup
