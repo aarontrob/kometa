@@ -65,3 +65,11 @@ collections:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/tv-aaron'
     item_label: Aaron
+  Pilot Episodes:
+    build_collection: false
+    trakt_list: 'https://trakt.tv/users/goape/lists/tv-pilot-episode'
+    item_label: Pilot Episodes
+  First Season:
+    build_collection: false
+    trakt_list: 'https://trakt.tv/users/goape/lists/tv-first-season'
+    item_label: First Season
