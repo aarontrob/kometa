@@ -96,8 +96,12 @@ collections:
   Hide:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/hide
+    item_label: Hide
+  Horror:
+    build_collection: false
+    trakt_list: https://trakt.tv/users/goape/lists/movies-horror
     item_label:
-      Hide
+      Horror
 
       # check if there are managed user favorites that aren't in the Aaron's Faves collection. If there aren't then the collection should have an Aaron label.
 

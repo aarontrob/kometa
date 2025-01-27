@@ -111,3 +111,7 @@ collections:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/hide'
     item_label: Hide
+  Horror:
+    build_collection: false
+    trakt_list: 'https://trakt.tv/users/goape/lists/movies-horror'
+    item_label: Horror
