@@ -92,8 +92,12 @@ collections:
   Aaron's Faves:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/movies-aaron
+    item_label: Aaron
+  Hide:
+    build_collection: false
+    trakt_list: https://trakt.tv/users/goape/lists/hide
     item_label:
-      Aaron
+      Hide
 
       # check if there are managed user favorites that aren't in the Aaron's Faves collection. If there aren't then the collection should have an Aaron label.
 

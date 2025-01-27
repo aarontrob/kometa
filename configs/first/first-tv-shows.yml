@@ -73,3 +73,7 @@ collections:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/tv-first-season'
     item_label: First Season
+  Hide:
+    build_collection: false
+    trakt_list: 'https://trakt.tv/users/goape/lists/hide'
+    item_label: Hide
