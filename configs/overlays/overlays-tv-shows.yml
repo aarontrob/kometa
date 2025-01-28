@@ -1,0 +1,36 @@
+overlays:
+  Bravo:
+    overlay:
+      name: Bravo
+      file: config/overlays/Bravo/overlay-v2.png
+    plex_search:
+      all:
+        label: Bravo
+  Disney-Channel:
+    overlay:
+      name: Disney-Channel
+      file: config/overlays/Disney-Channel/overlay-v2.png
+    plex_search:
+      all:
+        label: Disney Channel
+  History:
+    overlay:
+      name: History
+      file: config/overlays/History/overlay-v2.png
+    plex_search:
+      all:
+        label: History
+  Pilot-Episodes:
+    overlay:
+      name: Pilot-Episodes
+      file: config/overlays/Pilot-Episodes/overlay.png
+    plex_search:
+      all:
+        label: Pilot Episodes
+  First-Season:
+    overlay:
+      name: First-Season
+      file: config/overlays/First-Season/overlay.png
+    plex_search:
+      all:
+        label: First Season
