@@ -793,6 +793,11 @@ collections:
       name: Collection - Hide Movie
       collection: 721111
       summary: The chase begins
+  The Vengeance Trilogy:
+    template:
+      name: Collection - Movies
+      movie: 670, 4550, 4689
+      summary: The Vengeance Trilogy is a South Korean thematically-linked film trilogy directed by Park Chan-wook, comprising Sympathy for Mr. Vengeance, Oldboy and Lady Vengeance. Each film deals with the themes of revenge, ethics, violence and salvation.
   Watchmen Collection:
     template:
       name: Collection - Hide Movie
