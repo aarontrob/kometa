@@ -320,6 +320,12 @@ collections:
       movie: '27266, 713704, 109428'
       label: horror
       summary: They got up on the wrong side of the grave.
+  The Exorcist Collection:
+    template:
+      name: Collection - Trakt List Custom Order
+      list: the-exorcist-collection
+      sort_title: Exorcist Collection
+      summary: The Devil Inside
   Firestarter Collection:
     template:
       name: Collection - Movies
@@ -919,7 +925,6 @@ collections:
   Dracula 2000 Collection: *ref_0
   Elvira Collection: *ref_0
   Escape Room Collection: *ref_0
-  The Exorcist Collection: *ref_0
   Fear Street Collection: *ref_0
   Feast Collection: *ref_0
   Final Destination Collection: *ref_0

@@ -134,11 +134,6 @@ unmanaged:
   template:
     name: Unmanaged
 collections:
-  Alien Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 565591
-      summary: In space no one can hear you scream.
   Back to the Future Collection:
     template:
       name: Collection - Hide Movie
@@ -166,11 +161,6 @@ collections:
       summary: >-
         A world beyond your experience, beyond your imagination. A place beyond
         your dreams.
-  The Exorcist Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 104846
-      sort_title: Exorcist Collection
   Fantastic Four Collection:
     template:
       name: Collection - Hide Movie
@@ -331,11 +321,6 @@ collections:
       summary: >-
         There's always someone younger and hungrier coming down the stairs after
         you.
-  Star Wars:
-    template:
-      name: Collection - Trakt List
-      list: star-wars-collection
-      summary: 'A long time ago in a galaxy far, far away....'
   Star Trek:
     template:
       name: Collection - Hide Movie
