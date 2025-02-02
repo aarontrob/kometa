@@ -81,9 +81,6 @@ collections:
       name: Collection - Trakt List
       list: battlestar-galactica-collection
       summary: The fight to save humanity rages on. Where will you stand? Destiny is not what it seems.
-  Betty Boop Collection:
-    trakt_list: https://trakt.tv/lists/official/betty-boop-fleischer-brothers-collection
-    summary: Betty Boop is an animated cartoon character created by Max Fleischer, with help from animators including Grim Natwick. She originally appeared in the Talkartoon and Betty Boop film series, which were produced by Fleischer Studios and released by Paramount Pictures.
   Beavis and Butt-Head Collection:
     template:
       name: Collection
