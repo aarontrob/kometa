@@ -216,9 +216,8 @@ collections:
       collection: 1047304
   Child's Play Collection:
     template:
-      name: Collection - Movie
-      collection: 10455
-      movie: 533642
+      name: Collection - Trakt List Custom Order
+      list: chucky-collection
       name_mapping: Childs Play Collection
       label: horror
       summary: He wants YOU for a new best friend...
@@ -359,9 +358,8 @@ collections:
         creature.
   Friday the 13th Collection:
     template:
-      name: Collection - Movie
-      collection: 9735
-      movie: '13207, 222724, 15004'
+      name: Collection - Trakt List Custom Order
+      list: friday-the-13th-collection
       label: horror
       summary: >-
         They were warned...They are doomed...And on Friday the 13th, nothing
