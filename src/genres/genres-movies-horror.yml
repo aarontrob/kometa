@@ -40,7 +40,7 @@ collections:
       list: bloodsuckers-fangs
       summary: Step into the shadows and face the creatures of the night! These movies deliver spine-chilling thrills, with vampires lurking in every corner.
     smart_label: title.asc
-  Season's Greetings:
+  Silent Fright:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-horror-christmas
@@ -50,28 +50,28 @@ collections:
       name: Genre [Holiday] - Trakt List
       list: movies-halloween
       summary: Get ready for a bloodbath! These brutal flicks bring the gore, guts, and nightmares. From pissed-off ghosts to slashers who won't quit, it's wall-to-wall horror with enough twisted shit to haunt you long after Halloween's over.
-  Turkey Lurkey Time: #Thanksgiving
+  Murder & Gravy:
     template:
       name: Genre [Holiday] - Trakt List
-      list: movies-horror-thanksgiving
-      summary: Gather 'round for heartwarming tales, family feasts, and holiday hijinks! These festive flicks are packed with gratitude, gravy, and just the right amount of family drama. It's a cozy cornucopia of feel-good fun!
-  Horror:
-    template:
-      name: Genre [Bottom] - Custom
-      summary: Step right up to the spook show! From ghouls and goblins to bone-crackin' killers, this freaky lineup serves up every scream in the book. Get your kicks with blood-curdling classics, monster mashes, and gore galore—it's a real scream scene, daddy-o!
-    smart_filter:
-      all:
-        title.not: Gamboozle
-        sort_by: random
+      list: murder-gravy
+      summary: Pass the carnage! These twisted Thanksgiving tales serve up a feast of mayhem where the guests are dying to leave and murderous fowl get their revenge. From homicidal turkeys to pilgrim slashers, this buffet of bloodshed gives new meaning to "family cut-throat dinner."
+  # Horror:
+  #   template:
+  #     name: Genre [Bottom] - Custom
+  #     summary: Step right up to the spook show! From ghouls and goblins to bone-crackin' killers, this freaky lineup serves up every scream in the book. Get your kicks with blood-curdling classics, monster mashes, and gore galore—it's a real scream scene, daddy-o!
+  #   smart_filter:
+  #     all:
+  #       title.not: Gamboozle
+  #       sort_by: random
   Howl at the Moon:
     template:
       name: Genre - Trakt List
       list: howl-at-the-moon
       summary: "Brace for a wild, fur-filled frenzy! These frightful flicks bring on beastly transformations, full moons, and chills that’ll have you questioning who—or what—is lurking in the shadows. It’s a supernatural adventure where danger lurks beneath every howl!"
     smart_label: title.asc
-  Musical:
+  Macabre Melodies:
     template:
       name: Genre - Trakt List
-      list: movies-musicals
+      list: macabre-melodies
       name_mapping: Musical Horror
-      summary:
+      summary: The show must go on... even if it kills! These sinister sing-alongs blend pitch-perfect terror with show-stopping slaughter, proving that every performance could be your last. Break a leg - or several.
