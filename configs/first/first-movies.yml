@@ -25,21 +25,28 @@ collections:
         added: 30
       limit: 100
       sort_by: added.desc
-  What's Hot:
+  Viral Views:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!2What''s Hot'
-      summary: 'Bringing the heat, these movies have everyone’s attention right now!'
-    trakt_chart:
-      chart: trending
-      limit: 30
-    smart_label: random
+      sort_title: '!2Viral Views'
+      summary: >-
+        Welcome to a real-time collection of what's capturing attention right
+        now! From daily trending climbers to viral sensations, these films are
+        what everyone's watching and rating. The numbers don't lie - these
+        titles are having their moment.
+    tmdb_trending_daily: 30
+    collection_order: custom
     sync_mode: sync
-  Fresh on the Scene:
+    smart_label: random
+  Now Streaming:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!3Fresh on the Scene'
-      summary: A collection of the latest films that have just hit the scene!
+      sort_title: '!3Now Streaming'
+      summary: >-
+        Fresh off the digital presses and ready to roll! These latest releases
+        bring Hollywood's newest hits from theater screens to your screen.
+        Whether you missed them in theaters or just can't wait to watch them
+        again, catch them here before they're old news.
     smart_filter:
       all:
         release: 365
