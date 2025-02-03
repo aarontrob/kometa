@@ -24,7 +24,7 @@ collections:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!2Viral Views"
-      summary: Welcome to a real-time collection of what's capturing attention right now! From daily trending climbers to viral sensations, these films are what everyone's watching and rating. The numbers don't lie - these titles are having their moment.
+      summary: Welcome to a real-time collection of what's capturing attention right now! These trending titles are surging in popularity, dominating discussions, and collecting new fans by the hour. From fresh releases and sudden hits to unexpected comebacks - catch them on their way up.
     tmdb_trending_daily: 30
     collection_order: custom
     sync_mode: sync
