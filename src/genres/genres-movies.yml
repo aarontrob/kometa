@@ -10,46 +10,26 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Action:
-    template:
-      name: Genre
-      genre: Action
-      summary: Hold onto your popcorn, thrill-seekers! These pulse-pounding flicks are packed with action, daring heroes, and explosive thrills that will keep you on the edge of your seat!
-  Adventure:
+  Adventure Seekers:
     template:
       name: Genre
       genre: Adventure
-      summary: Saddle up for wild rides and far-out journeys! These flicks have more twists and turns than a country road—where heroes rise, treasures glimmer, and the thrill is always just around the corner!
-  Biopics:
-    template:
-      name: Genre - Trakt List
-      list: movies-biopics
-      smart_label: title.desc
-      summary:
-
-  Criminal Intent: #Crime
-    template:
-      name: Genre
-      genre: Crime
-      summary: Get ready for gritty heists, dirty deals, and criminals with nothing to lose. These films dive deep into the underworld, where the stakes are high, and the law is nowhere to be found.
-
-  Film Noir:
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: https://trakt.tv/users/k0meta/lists/film-noir-movies
-      summary:
-  Trick-or-Treat: #Halloween
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: movies-halloween
-      summary: Light up the jack-o’-lanterns for chills and thrills! These eerie flicks are packed with ghouls and goblins that’ll leave you shiverin’ with delight. It’s a screamfest that’s to die for!
-
+      summary: Embark on daring expeditions that blur the lines between treasure hunting and survival! Whether facing ancient curses, high-tech villains, or nature's deadliest forces, these genre-bending quests prove that adventure comes in many flavors - and all of them are dangerous.
   Clue Me In: #Mystery
     template:
       name: Genre
       genre: Mystery
       summary: Whodunnit? Get ready for a ride full of twists, turns, and sleuthing galore. These mystery films will have you on the edge of your seat, piecing together clues and unraveling the truth before the final reveal.
-
+  Criminal Intent: #Crime
+    template:
+      name: Genre
+      genre: Crime
+      summary: Get ready for gritty heists, dirty deals, and criminals with nothing to lose. These films dive deep into the underworld, where the stakes are high, and the law is nowhere to be found.
+  Full Throttle:
+    template:
+      name: Genre
+      genre: Action
+      summary: Crank up the chaos with this arsenal of pedal-to-metal mayhem! From brass-knuckle brawls to missile-launching muscle cars, these films deliver pure, uncut adrenaline straight to the heart. Just remember - in this game, you shoot first and ask questions... never.
   Game Changers: #Sports
     template:
       name: Genre
@@ -66,6 +46,11 @@ collections:
       name: Genre
       genre: Fantasy
       summary: Step into a world where magic is real and myths come alive. These films transport you to realms filled with legendary creatures, enchanted lands, and epic quests.
+  Noir or Never:
+    template:
+      name: Genre - Trakt List Other
+      list: https://trakt.tv/users/k0meta/lists/film-noir-movies
+      summary: Welcome to the wrong side of midnight, where cigarette smoke dances with danger and everyone's got an angle. These black-and-white beauties serve up hard-boiled detectives, dangerous dames, and enough double-crosses to make your head spin. Just remember - in this city, trust is the deadliest weapon of all.
   Out of This World: #Sci-fi
     template:
       name: Genre
@@ -76,18 +61,34 @@ collections:
       name: Genre - Trakt List
       list: plunder-peril
       summary: Hoist the black flag for a treasure trove of maritime mayhem! From swashbuckling adventures to deadly sea battles, these salty tales showcase the ultimate ocean outlaws in action. Just remember - dead men tell no tales.
+  Portrait Gallery:
+    template:
+      name: Genre - Trakt List
+      list: portrait-gallery
+      smart_label: title.desc
+      summary: From humble beginnings to legendary status, these intimate portraits capture the rise, fall, and resurrection of cultural icons. Watch raw talent transform into stardom as ordinary people become extraordinary legends. Every breakthrough, breakdown, and comeback crafted these unforgettable legacies.
   Season's Greetings: #Christmas
     template:
       name: Genre [Holiday] - Trakt List
-      list: movies-christmas
+      list: season-s-greetings
       smart_label: title.asc
       summary: Break out the eggnog and mistletoe! These festive flicks are packed with holiday cheer and enough yuletide magic to make even Scrooge smile. It’s a holly jolly celebration of the season!
-  Stand-Up Showcase:
+  Showstoppers:
     template:
       name: Genre - Trakt List
-      list: movies-standup
-      summary: Get ready to bust a gut! These laugh-out-loud specials bring comedy's best straight to your screen, with punchlines, zingers, and side-splittin' stories that'll keep you grinnin' all night long. It's a laugh fest you won't wanna miss!
+      list: showstoppers
+      summary: Life's better with a backbeat! These spectacular song-and-dance sensations prove that when the music hits, anything is possible. From Broadway to back alleys, every moment's a show-stopper and every scene's a finale.
+  Live & Unfiltered:
+    template:
+      name: Genre - Trakt List
+      list: live-unfiltered
+      summary: Take a front-row seat for comedy without a safety net! These fearless funny folks turn life's chaos into pure hilarity, armed with nothing but a mic and razor-sharp wit. Every joke lands, every story kills, and nothing is off limits.
     smart_label: title.asc
+  Trick-or-Treat: #Halloween
+    template:
+      name: Genre [Holiday] - Trakt List
+      list: movies-halloween
+      summary: Light up the jack-o’-lanterns for chills and thrills! These eerie flicks are packed with ghouls and goblins that’ll leave you shiverin’ with delight. It’s a screamfest that’s to die for!
   Turkey Lurkey Time: #Thanksgiving
     template:
       name: Genre [Holiday] - Trakt List
@@ -100,19 +101,13 @@ collections:
       item_genre: Music
       summary: Immerse yourself in the world of music with a mix of live concerts, biopics, and fictional films, showcasing thrilling moments on stage and captivating stories inspired by the power of music.
     smart_label: title.asc
-  Thriller:
+  Total Tension:
     template:
       name: Genre
       genre: Thriller
-      summary: Get ready for a wild ride! These nerve-janglin' flicks are loaded with unexpected twists, eerie atmospheres, and just the right dose of chills to keep you on high alert. It's suspense and intrigue turned up to eleven!
+      summary: "Take a deep breath - it might be your last! These pulse-pounding thrillers turn every moment into a countdown and every choice into a deadly game. Between conspiracy and paranoia, trust becomes the ultimate weapon. Just remember: the truth is never what it seems."
   "Wanted: Dead or Alive":
     template:
       name: Genre
       genre: Western
       summary: Saddle up for a rootin'-tootin' adventure! These rugged tales are packed with dusty trails, quick-draw showdowns, and outlaws with grit. It's the wild frontier, where legends are born and the spirit of the Old West rides on!
-
-  Musical:
-    template:
-      name: Genre - Trakt List
-      list: movies-musicals
-      summary: Get ready for razzle-dazzle and toe-tappin' tunes! These show-stoppin' flicks are packed with catchy songs, big dance numbers, and more pizzazz than you can shake a tambourine at. It's pure melody and magic on the big screen!

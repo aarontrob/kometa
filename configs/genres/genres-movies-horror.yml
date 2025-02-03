@@ -83,6 +83,26 @@ collections:
         brain-munching action. It’s the perfect collection for those who like
         their horror with a side of bite!”
     smart_label: title.asc
+  Blood and Gore:
+    template:
+      name: Genre - Trakt List
+      list: blood-and-gore
+      summary: >-
+        Grab a raincoat for this splatterfest of creative carnage and practical
+        effects mayhem! These blood-soaked spectaculars prove that more is gore
+        when it comes to pushing the limits of good taste. From cannibals to
+        creatures, every kill is a work of art - in red.
+    smart_label: title.asc
+  Slasher Central:
+    template:
+      name: Genre - Trakt List
+      list: slasher-central
+      summary: >-
+        Time to sharpen those knives and check the body count! These classic
+        slashers serve up unstoppable killers, terrible decisions, and enough
+        creative kills to fill a morgue. From summer camps to suburban streets,
+        nowhere is safe when the blade starts swinging.
+    smart_label: title.asc
   Clowning Around:
     template:
       name: Genre - Trakt List
@@ -103,21 +123,12 @@ collections:
   Silent Fright:
     template:
       name: 'Genre [Holiday] - Trakt List'
-      list: movies-horror-christmas
+      list: silent-fright
       summary: >-
         'Tis the season… for terror! These bloody yuletide tales take holiday
         cheer to the darkest depths, with killer Santas, twisted carols, and
         enough gore to stain the snow red. It's festive as hell—just the way
         Krampus intended!
-  Trick-or-Treat:
-    template:
-      name: 'Genre [Holiday] - Trakt List'
-      list: movies-halloween
-      summary: >-
-        Get ready for a bloodbath! These brutal flicks bring the gore, guts, and
-        nightmares. From pissed-off ghosts to slashers who won't quit, it's
-        wall-to-wall horror with enough twisted shit to haunt you long after
-        Halloween's over.
   Murder & Gravy:
     template:
       name: 'Genre [Holiday] - Trakt List'
