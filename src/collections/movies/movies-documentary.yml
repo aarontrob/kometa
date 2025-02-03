@@ -206,11 +206,11 @@ collections:
   #   template:
   #     name: Collection - Hide Movie
   #     movie: 40819
-  Wet Hot American Summer Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 352552
-      summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."
+  # Wet Hot American Summer Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 352552
+  #     summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."
 
   ######################################################
   #               Unmanaged Collections                #

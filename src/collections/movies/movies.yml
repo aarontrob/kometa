@@ -806,9 +806,9 @@ collections:
       summary: A city divided. Their love will change everything
   Wet Hot American Summer Collection:
     template:
-      name: Collection - Hide Movie
-      movie: 2171
-      summary: "Arty, I need you to take a shower... 'Cause your parents are coming tomorrow. I don't want to get in trouble... Cause you haven't taken a shower once yet this summer... Arty, take a shower. You're covered in dirt."
+      name: Collection - Movies
+      movie: 2171, 352552
+      summary: High Times. Hard Bodies. Soft Rock
   The Whole Nine/Ten Yards Collection:
     template:
       name: Collection
