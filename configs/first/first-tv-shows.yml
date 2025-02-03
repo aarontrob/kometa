@@ -50,6 +50,7 @@ collections:
     template:
       name: 'First [Sort Title] - Custom'
       sort_title: '!7All-Time Faves'
+      name_mapping: 'All-Time Faves [TV]'
       summary: >-
         Your comfort shows that never get old: Those reliable series you return
         to again and again, where every rewatch feels like coming home.
@@ -65,15 +66,23 @@ collections:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/tv-aaron'
     item_label: Aaron
+    sync_mode: append
+    non_item_remove_label: Hide
   Pilot Episodes:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/tv-pilot-episode'
     item_label: Pilot Episodes
+    sync_mode: append
+    non_item_remove_label: Hide
   First Season:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/tv-first-season'
     item_label: First Season
+    sync_mode: append
+    non_item_remove_label: Hide
   Hide:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/hide'
     item_label: Hide
+    sync_mode: append
+    non_item_remove_label: Hide

@@ -123,6 +123,16 @@ collections:
         Get ready to laugh! These comedies are filled with wild humor,
         over-the-top characters, and unforgettable moments that’ll leave you
         grinning from ear to ear.
+  Live & Unfiltered:
+    template:
+      name: Genre - Trakt List
+      list: live-unfiltered
+      summary: >-
+        Take a front-row seat for comedy without a safety net! These fearless
+        funny folks turn life's chaos into pure hilarity, armed with nothing but
+        a mic and razor-sharp wit. Every joke lands, every story kills, and
+        nothing is off limits.
+    smart_label: title.asc
   Magic & Myth:
     template:
       name: Genre
@@ -182,22 +192,12 @@ collections:
   Showstoppers:
     template:
       name: Genre - Trakt List
-      list: showstoppers
+      list: showstoppers-30570474
       summary: >-
         Life's better with a backbeat! These spectacular song-and-dance
         sensations prove that when the music hits, anything is possible. From
         Broadway to back alleys, every moment's a show-stopper and every scene's
         a finale.
-  Live & Unfiltered:
-    template:
-      name: Genre - Trakt List
-      list: live-unfiltered
-      summary: >-
-        Take a front-row seat for comedy without a safety net! These fearless
-        funny folks turn life's chaos into pure hilarity, armed with nothing but
-        a mic and razor-sharp wit. Every joke lands, every story kills, and
-        nothing is off limits.
-    smart_label: title.asc
   Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'
