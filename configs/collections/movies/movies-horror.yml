@@ -560,8 +560,9 @@ collections:
         Warning? Is He the Beginning of the End?
   Pet Sematary Collection:
     template:
-      name: Collection
-      collection: '830781, 10789, 430035'
+      name: Collection - Movie
+      collection: '830781, 10789'
+      movie: 430035
       label: horror
       summary: A Pet Isn't Just For Life.
   The Phantom of the Opera Collection:

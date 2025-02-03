@@ -2,163 +2,164 @@
 #                Delete Collections                  #
 ######################################################
 
-Delete:
-  build_collection: false
-  smart_filter: # Dummy builder
-    all:
-      release: 1
-  delete_collections_named:
-    # Movies
-    - 3 Men Collection
-    - 3 Men (Original) Collection
-    - The Addams Family (Animated) Collection
-    - Addie Mills Collection
-    - The Amazing Spider-Man Collection
-    - American Pie (Spin-off) Collection
-    - Americanized Godzilla Collection
-    - Annabel Allison collection
-    - Atomic Blonde Collection
-    - Baby Driver Collection
-    - The Batman Collection
-    - Batman Ninja Collection
-    - "Batman: The Dark Knight Returns Collection"
-    - "Batman: The Long Halloween Collection"
-    - Battlestar Galactica (Original) Collection
-    - Battlestar Galactica (Reboot) Collection
-    - Beavis and Butt-Head Do A Collection
-    - The Benchwarmers Collection
-    - Bill & Ted Collection
-    - Blue Crush Collection
-    - The Brady Bunch TV Movie Collection
-    - Bring It On Collection
-    - Bulletproof Collection
-    - Captain America (1979) Collection
-    - The Claus Family Collection
-    - Cliffhanger Collection
-    - Cochise Collection
-    - Commando - Collection
-    - The Death of Superman Collection
-    - Death Race Original Collection
-    - Der Trottel Filmreihe
-    - The Devil Wears Prada Collection
-    - Easy Rider Collection
-    - Eraser Filmreihe
-    - Fall Collection
-    - "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!"
-    - Father of the Bride (Spencer Tracy) Collection
-    - Father of the Bride (Steve Martin) Collection
-    - Free Guy Collection
-    - The Fugitive / U.S. Marshal Collection
-    - G.I. Joe (Live-Action) Collection
-    - Gamera (Showa) Collection
-    - The Godfather Trilogy
-    - Godzilla (Anime) Collection
-    - Godzilla (Heisei) Collection
-    - Godzilla (Millennium) Collection
-    - Godzilla (Reiwa) Collection
-    - Godzilla (Showa) Collection
-    - Gladiator Collection
-    - The Gray Man Collection
-    - Happiness Collection
-    - Happy Gilmore Collection
-    - Has Fallen Collection
-    - Heat Collection
-    - Hercule Poirot (Kenneth Branagh) Collection
-    - Hercule Poirot (Peter Ustinov) Collection
-    - Hulk Vs. Collection
-    - Inside Man Collection
-    - "Jackass Presents: Bad Grandpa Collection"
-    - Jingle All the Way Collection
-    - Justice League (Animated) Collection
-    - Justice League (DC Animated Universe) Collection
-    - Justice League Dark Collection
-    - Justice League (Tomorrowverse) Collection
-    - King Kong (1933) Collection
-    - King Kong (1976) Collection
-    - Knocked Up Collection
-    - Kong Collection
-    - Lemmy Caution Series
-    - Lucy Collection
-    - Man of Steel Collection
-    - Marshal Samuel Gerard Collection
-    - Monster X Collection
-    - Mortal Kombat (Reboot) Collection
-    - Mortal Kombat Legends Collection
-    - Nobody Collection
-    - The Old Guard Collection
-    - On Any Sunday Collection
-    - Oz Collection
-    - The Pink Panther (Original) Collection
-    - The Pink Panther (Steve Martin) Collection
-    - Planet of the Apes (Original) Collection
-    - Planet of the Apes (Reboot) Collection
-    - Poison Ivy Collection
-    - The Polar Express Collection
-    - Prometheus Collection
-    - Purple Rain Collection
-    - The Ranown Cycle Westerns Collection
-    - Ready Player One Collection
-    - Rebirth of Mothra Collection
-    - Road House (Remake) Collection
-    - Road Trip Collection
-    - The Rocketeer Collection
-    - Shang-Chi Collection
-    - Sherlock Holmes (Basil Rathbone) Collection
-    - The Sinbad Collection
-    - Son of Batman Collection
-    - Spider-Man (TV) Collection
-    - Spider-Man (MCU) Collection
-    - "Spider-Man: Spider-Verse Collection"
-    - "Star Trek: Alternate Reality Collection"
-    - "Star Trek: The Next Generation Collection"
-    - "Star Trek: The Original Series Collection"
-    - Star Wars Collection
-    - Street Fighter (Animated) Collection
-    - Superman (DC Universe Animated) Collection
-    - Superman / Batman (Animated) Collection
-    - The Sword and the Sorcerer Collection
-    - Tarzan (Johnny Weissmuller) Collection
-    - The Tomorrow War (Series)
-    - Tom Cody Collection
-    - This Is Spinal Tap Collection
-    - Tracy Flick Collection
-    - "Transformers: Rise of the Beasts Collection"
-    - Undercover Brother Collection
-    - Violent Night Collection
-    - Without a Paddle Collection
-    - The Wizard of Oz Collection
-    - The X Files Collection
+collections:
+  Delete:
+    build_collection: false
+    smart_filter: # Dummy builder
+      all:
+        release: 1
+    delete_collections_named:
+      # Movies
+      - 3 Men Collection
+      - 3 Men (Original) Collection
+      - The Addams Family (Animated) Collection
+      - Addie Mills Collection
+      - The Amazing Spider-Man Collection
+      - American Pie (Spin-off) Collection
+      - Americanized Godzilla Collection
+      - Annabel Allison collection
+      - Atomic Blonde Collection
+      - Baby Driver Collection
+      - The Batman Collection
+      - Batman Ninja Collection
+      - "Batman: The Dark Knight Returns Collection"
+      - "Batman: The Long Halloween Collection"
+      - Battlestar Galactica (Original) Collection
+      - Battlestar Galactica (Reboot) Collection
+      - Beavis and Butt-Head Do A Collection
+      - The Benchwarmers Collection
+      - Bill & Ted Collection
+      - Blue Crush Collection
+      - The Brady Bunch TV Movie Collection
+      - Bring It On Collection
+      - Bulletproof Collection
+      - Captain America (1979) Collection
+      - The Claus Family Collection
+      - Cliffhanger Collection
+      - Cochise Collection
+      - Commando - Collection
+      - The Death of Superman Collection
+      - Death Race Original Collection
+      - Der Trottel Filmreihe
+      - The Devil Wears Prada Collection
+      - Easy Rider Collection
+      - Eraser Filmreihe
+      - Fall Collection
+      - "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!"
+      - Father of the Bride (Spencer Tracy) Collection
+      - Father of the Bride (Steve Martin) Collection
+      - Free Guy Collection
+      - The Fugitive / U.S. Marshal Collection
+      - G.I. Joe (Live-Action) Collection
+      - Gamera (Showa) Collection
+      - The Godfather Trilogy
+      - Godzilla (Anime) Collection
+      - Godzilla (Heisei) Collection
+      - Godzilla (Millennium) Collection
+      - Godzilla (Reiwa) Collection
+      - Godzilla (Showa) Collection
+      - Gladiator Collection
+      - The Gray Man Collection
+      - Happiness Collection
+      - Happy Gilmore Collection
+      - Has Fallen Collection
+      - Heat Collection
+      - Hercule Poirot (Kenneth Branagh) Collection
+      - Hercule Poirot (Peter Ustinov) Collection
+      - Hulk Vs. Collection
+      - Inside Man Collection
+      - "Jackass Presents: Bad Grandpa Collection"
+      - Jingle All the Way Collection
+      - Justice League (Animated) Collection
+      - Justice League (DC Animated Universe) Collection
+      - Justice League Dark Collection
+      - Justice League (Tomorrowverse) Collection
+      - King Kong (1933) Collection
+      - King Kong (1976) Collection
+      - Knocked Up Collection
+      - Kong Collection
+      - Lemmy Caution Series
+      - Lucy Collection
+      - Man of Steel Collection
+      - Marshal Samuel Gerard Collection
+      - Monster X Collection
+      - Mortal Kombat (Reboot) Collection
+      - Mortal Kombat Legends Collection
+      - Nobody Collection
+      - The Old Guard Collection
+      - On Any Sunday Collection
+      - Oz Collection
+      - The Pink Panther (Original) Collection
+      - The Pink Panther (Steve Martin) Collection
+      - Planet of the Apes (Original) Collection
+      - Planet of the Apes (Reboot) Collection
+      - Poison Ivy Collection
+      - The Polar Express Collection
+      - Prometheus Collection
+      - Purple Rain Collection
+      - The Ranown Cycle Westerns Collection
+      - Ready Player One Collection
+      - Rebirth of Mothra Collection
+      - Road House (Remake) Collection
+      - Road Trip Collection
+      - The Rocketeer Collection
+      - Shang-Chi Collection
+      - Sherlock Holmes (Basil Rathbone) Collection
+      - The Sinbad Collection
+      - Son of Batman Collection
+      - Spider-Man (TV) Collection
+      - Spider-Man (MCU) Collection
+      - "Spider-Man: Spider-Verse Collection"
+      - "Star Trek: Alternate Reality Collection"
+      - "Star Trek: The Next Generation Collection"
+      - "Star Trek: The Original Series Collection"
+      - Star Wars Collection
+      - Street Fighter (Animated) Collection
+      - Superman (DC Universe Animated) Collection
+      - Superman / Batman (Animated) Collection
+      - The Sword and the Sorcerer Collection
+      - Tarzan (Johnny Weissmuller) Collection
+      - The Tomorrow War (Series)
+      - Tom Cody Collection
+      - This Is Spinal Tap Collection
+      - Tracy Flick Collection
+      - "Transformers: Rise of the Beasts Collection"
+      - Undercover Brother Collection
+      - Violent Night Collection
+      - Without a Paddle Collection
+      - The Wizard of Oz Collection
+      - The X Files Collection
 
-    # Movies - Documentary
-    - In Search of Tomorrow Collection
+      # Movies - Documentary
+      - In Search of Tomorrow Collection
 
-    # Movies - Horror
-    - Army of the Dead Collection
-    - The Black Phone Collection
-    - The Cube Trilogy
-    - Dr. Orloff Collection
-    - Firefly Collection
-    - The Fly (1986) Collection
-    - Fright Night (Reboot) Collection
-    - Halloween (Rob Zombie Series) Collection
-    - Karnstein (Hammer) Collection
-    - Lights Out Filmreihe
-    - Maniac Collection
-    - The Haunting in Connecticut Collection
-    - The Hills Have Eyes (Original) Collection
-    - The Hills Have Eyes (Reboot) Collection
-    - I Spit on Your Grave (Original) Collection
-    - Pet Sematary (Reboot) Collection
-    - Piranha 3D Collection
-    - Rare Exports Collection
-    - Resident Evil (Animated) Collection
-    - Silent Night, Bloody Night Collection
-    - The Sorority House Massacre Collection
-    - Sorority House Massacre Collection
-    - Sorority Row Collection
-    - The Strangers (Remake) Collection
-    - Survival of the Dead Collection
-    - Tales from the Crypt
-    - Texas Chainsaw (Reboot) Collection
-    - The Three Mothers Collection
-    - Trick 'r Treat Collection
+      # Movies - Horror
+      - Army of the Dead Collection
+      - The Black Phone Collection
+      - The Cube Trilogy
+      - Dr. Orloff Collection
+      - Firefly Collection
+      - The Fly (1986) Collection
+      - Fright Night (Reboot) Collection
+      - Halloween (Rob Zombie Series) Collection
+      - Karnstein (Hammer) Collection
+      - Lights Out Filmreihe
+      - Maniac Collection
+      - The Haunting in Connecticut Collection
+      - The Hills Have Eyes (Original) Collection
+      - The Hills Have Eyes (Reboot) Collection
+      - I Spit on Your Grave (Original) Collection
+      - Pet Sematary (Reboot) Collection
+      - Piranha 3D Collection
+      - Rare Exports Collection
+      - Resident Evil (Animated) Collection
+      - Silent Night, Bloody Night Collection
+      - The Sorority House Massacre Collection
+      - Sorority House Massacre Collection
+      - Sorority Row Collection
+      - The Strangers (Remake) Collection
+      - Survival of the Dead Collection
+      - Tales from the Crypt
+      - Texas Chainsaw (Reboot) Collection
+      - The Three Mothers Collection
+      - Trick 'r Treat Collection

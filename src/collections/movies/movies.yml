@@ -488,7 +488,7 @@ collections:
   Masters of the Universe Collection:
     template:
       name: Collection - Trakt List Custom Order
-      list:
+      list: masters-of-the-universe-collection
       summary: By the Power of Grayskull!
   The Matrix Collection:
     template:
