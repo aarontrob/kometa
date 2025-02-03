@@ -250,17 +250,6 @@ collections:
       movie: '561, 539517'
       label: horror
       summary: The supernatural adventures of occult detective John Constantine
-  Cornetto Trilogy:
-    template:
-      name: Collection - Movies
-      movie: '747, 4638, 107985'
-      collection_mode: show_items
-      label: horror
-      summary: >-
-        An anthology series of British comedic genre films directed by Edgar
-        Wright, written by Wright and Simon Pegg, produced by Nira Park, and
-        starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead
-        (2004), Hot Fuzz (2007), and The World's End (2013).
   The Crazies Collection:
     template:
       name: Collection - Movies
@@ -285,8 +274,9 @@ collections:
       label: horror
   Creepshow Collection:
     template:
-      name: Collection
+      name: Collection - Movie
       collection: 107725
+      movie: 356677
       label: horror
       summary: The Most Fun You'll Ever Have... BEING SCARED!
   The Crow Collection:
@@ -397,7 +387,7 @@ collections:
     template:
       name: Collection - Movie
       collection: 9743
-      movie: 11454
+      movie: '11454, 384189'
       sort_title: Hannibal Lecter Collection
       collection_mode: show_items
       label: horror
@@ -481,8 +471,9 @@ collections:
       label: horror
   It Collection:
     template:
-      name: Collection
+      name: Collection - Movie
       collection: 477962
+      movie: 512356
       label: horror
       summary: You'll float too.
     plex_search:
@@ -535,9 +526,8 @@ collections:
       summary: Don't feed the plants.
   Living Dead Collection:
     template:
-      name: Collection - Movie
-      collection: '261590, 809185'
-      movie: '19185, 924, 13025, 29426'
+      name: Collection - Trakt List Custom Order
+      list: living-dead-collection
       label: horror
       summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
   M3GAN Collection:
@@ -553,9 +543,8 @@ collections:
       summary: Cross your heart...and hope to die.
   A Nightmare on Elm Street Collection:
     template:
-      name: Collection - Movie
-      collection: 8581
-      movie: '23437, 6466'
+      name: Collection - Trakt List Custom Order
+      list: a-nightmare-on-elm-street-collection
       sort_title: Nightmare on Elm Street Collection
       label: horror
       summary: Don't Fall Asleep!
@@ -572,16 +561,18 @@ collections:
   Pet Sematary Collection:
     template:
       name: Collection
-      collection: '830781, 10789'
+      collection: '830781, 10789, 430035'
       label: horror
       summary: A Pet Isn't Just For Life.
   The Phantom of the Opera Collection:
-    tmdb_movie: '964, 86962, 46330, 15855'
-    sort_title: Phantom of the Opera Collection
-    label: horror
-    summary: >-
-      BENEATH HIS MASK...the Grotesque Face of Horror Unimaginable! INSIDE HIS
-      HEART...the Desperate Desire for Beauty and Love!
+    template:
+      name: Collection - Movies
+      movie: '9833, 964, 86962, 46330, 76115, 15855, 88920'
+      sort_title: Phantom of the Opera Collection
+      label: horror
+      summary: >-
+        BENEATH HIS MASK...the Grotesque Face of Horror Unimaginable! INSIDE HIS
+        HEART...the Desperate Desire for Beauty and Love!
   Piranha Collection:
     template:
       name: Collection - Movie
@@ -645,11 +636,13 @@ collections:
       summary: Salem's Lot... where no one rests in peace...
     plex_search:
       title: Salem's Lot
-  Scary Stories to Tell in the Dark Collection:
+  Scream Collection:
     template:
-      name: Collection
-      collection: 1190121
-      label: horror
+      name: Collection - Trakt List Custom Order
+      list: scream-collection
+      summary: >-
+        Someone is playing a deadly game, someone who has seen way too many
+        scary movies
   The Shining Collection:
     template:
       name: Collection - Movie
@@ -785,7 +778,7 @@ collections:
     template:
       name: Collection - Movie
       collection: 123218
-      movie: 748621
+      movie: '748621, 40819'
       label: horror
       summary: 'Worlds of Magic, Mystery and Menace.'
   Underworld Collection:
@@ -997,7 +990,7 @@ collections:
   Scanner Cop Collection: *ref_0
   Scare Package Collection: *ref_0
   Scary Movie Collection: *ref_0
-  Scream Collection: *ref_0
+  Scary Stories to Tell in the Dark Collection: *ref_0
   Screamers Collection: *ref_0
   See No Evil Collection: *ref_0
   Silent Hill Collection: *ref_0
@@ -1027,38 +1020,3 @@ collections:
   X Collection: *ref_0
   Xtro Collection: *ref_0
   Zombieland Collection: *ref_0
-  Delete:
-    build_collection: false
-    smart_filter:
-      all:
-        release: 1
-    delete_collections_named:
-      - Army of the Dead Collection
-      - The Black Phone Collection
-      - The Cube Trilogy
-      - Dr. Orloff Collection
-      - Firefly Collection
-      - The Fly (1986) Collection
-      - Fright Night (Reboot) Collection
-      - Halloween (Rob Zombie Series) Collection
-      - Karnstein (Hammer) Collection
-      - Lights Out Filmreihe
-      - Maniac Collection
-      - The Haunting in Connecticut Collection
-      - The Hills Have Eyes (Original) Collection
-      - The Hills Have Eyes (Reboot) Collection
-      - I Spit on Your Grave (Original) Collection
-      - Pet Sematary (Reboot) Collection
-      - Piranha 3D Collection
-      - Rare Exports Collection
-      - Resident Evil (Animated) Collection
-      - 'Silent Night, Bloody Night Collection'
-      - The Sorority House Massacre Collection
-      - Sorority House Massacre Collection
-      - Sorority Row Collection
-      - The Strangers (Remake) Collection
-      - Survival of the Dead Collection
-      - Tales from the Crypt
-      - Texas Chainsaw (Reboot) Collection
-      - The Three Mothers Collection
-      - Trick 'r Treat Collection

@@ -26,27 +26,13 @@ collections:
       list: movies-biopics
       smart_label: title.desc
       summary:
-  Season's Greetings: #Christmas
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: movies-christmas
-      smart_label: title.asc
-      summary: Break out the eggnog and mistletoe! These festive flicks are packed with holiday cheer and enough yuletide magic to make even Scrooge smile. It’s a holly jolly celebration of the season!
-  Laugh Out Loud:
-    template:
-      name: Genre
-      genre: Comedy
-      summary: Get ready to laugh! These comedies are filled with wild humor, over-the-top characters, and unforgettable moments that’ll leave you grinning from ear to ear.
+
   Criminal Intent: #Crime
     template:
       name: Genre
       genre: Crime
       summary: Get ready for gritty heists, dirty deals, and criminals with nothing to lose. These films dive deep into the underworld, where the stakes are high, and the law is nowhere to be found.
-  Magic & Myth:
-    template:
-      name: Genre
-      genre: Fantasy
-      summary: Step into a world where magic is real and myths come alive. These films transport you to realms filled with legendary creatures, enchanted lands, and epic quests.
+
   Film Noir:
     template:
       name: Genre [Holiday] - Trakt List
@@ -57,34 +43,45 @@ collections:
       name: Genre [Holiday] - Trakt List
       list: movies-halloween
       summary: Light up the jack-o’-lanterns for chills and thrills! These eerie flicks are packed with ghouls and goblins that’ll leave you shiverin’ with delight. It’s a screamfest that’s to die for!
-  Turn It Up: #Music
-    template:
-      name: Genre - Trakt List
-      list: movies-music
-      item_genre: Music
-      summary: Immerse yourself in the world of music with a mix of live concerts, biopics, and fictional films, showcasing thrilling moments on stage and captivating stories inspired by the power of music.
-    smart_label: title.asc
-  Musical:
-    template:
-      name: Genre - Trakt List
-      list: movies-musicals
-      summary: Get ready for razzle-dazzle and toe-tappin' tunes! These show-stoppin' flicks are packed with catchy songs, big dance numbers, and more pizzazz than you can shake a tambourine at. It's pure melody and magic on the big screen!
+
   Clue Me In: #Mystery
     template:
       name: Genre
       genre: Mystery
       summary: Whodunnit? Get ready for a ride full of twists, turns, and sleuthing galore. These mystery films will have you on the edge of your seat, piecing together clues and unraveling the truth before the final reveal.
-  Out of This World: #Sci-fi
-    template:
-      name: Genre
-      genre: Science Fiction
-      summary: Blast off to worlds beyond! These far-out flicks are packed with cosmic capers and mind-bending adventures that’ll take you light-years away. Enjoy sci-fi thrills and otherworldly chills for those craving the unknown!
+
   Game Changers: #Sports
     template:
       name: Genre
       genre: Sports
       list: movies-sports
       summary: These films span all facets of sports, from heart-pounding drama to hilarious comedies and true stories of athletes who made their mark.
+  Laugh Out Loud:
+    template:
+      name: Genre
+      genre: Comedy
+      summary: Get ready to laugh! These comedies are filled with wild humor, over-the-top characters, and unforgettable moments that’ll leave you grinning from ear to ear.
+  Magic & Myth:
+    template:
+      name: Genre
+      genre: Fantasy
+      summary: Step into a world where magic is real and myths come alive. These films transport you to realms filled with legendary creatures, enchanted lands, and epic quests.
+  Out of This World: #Sci-fi
+    template:
+      name: Genre
+      genre: Science Fiction
+      summary: Blast off to worlds beyond! These far-out flicks are packed with cosmic capers and mind-bending adventures that’ll take you light-years away. Enjoy sci-fi thrills and otherworldly chills for those craving the unknown!
+  Plunder & Peril:
+    template:
+      name: Genre - Trakt List
+      list: plunder-peril
+      summary: Hoist the black flag for a treasure trove of maritime mayhem! From swashbuckling adventures to deadly sea battles, these salty tales showcase the ultimate ocean outlaws in action. Just remember - dead men tell no tales.
+  Season's Greetings: #Christmas
+    template:
+      name: Genre [Holiday] - Trakt List
+      list: movies-christmas
+      smart_label: title.asc
+      summary: Break out the eggnog and mistletoe! These festive flicks are packed with holiday cheer and enough yuletide magic to make even Scrooge smile. It’s a holly jolly celebration of the season!
   Stand-Up Showcase:
     template:
       name: Genre - Trakt List
@@ -96,6 +93,13 @@ collections:
       name: Genre [Holiday] - Trakt List
       list: movies-thanksgiving
       summary: Gather 'round for heartwarming tales, family feasts, and holiday hijinks! These festive flicks are packed with gratitude, gravy, and just the right amount of family drama. It's a cozy cornucopia of feel-good fun!
+  Turn It Up: #Music
+    template:
+      name: Genre - Trakt List
+      list: movies-music
+      item_genre: Music
+      summary: Immerse yourself in the world of music with a mix of live concerts, biopics, and fictional films, showcasing thrilling moments on stage and captivating stories inspired by the power of music.
+    smart_label: title.asc
   Thriller:
     template:
       name: Genre
@@ -106,3 +110,9 @@ collections:
       name: Genre
       genre: Western
       summary: Saddle up for a rootin'-tootin' adventure! These rugged tales are packed with dusty trails, quick-draw showdowns, and outlaws with grit. It's the wild frontier, where legends are born and the spirit of the Old West rides on!
+
+  Musical:
+    template:
+      name: Genre - Trakt List
+      list: movies-musicals
+      summary: Get ready for razzle-dazzle and toe-tappin' tunes! These show-stoppin' flicks are packed with catchy songs, big dance numbers, and more pizzazz than you can shake a tambourine at. It's pure melody and magic on the big screen!

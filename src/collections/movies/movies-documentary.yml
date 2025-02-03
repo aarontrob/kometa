@@ -26,112 +26,112 @@ collections:
   #     name: Collection - Hide Movie
   #     movie: 565591
   #     summary: In space no one can hear you scream.
-  Back to the Future Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 330127
-      summary: "Where we're going, we don't need roads"
-  Blade Runner Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 57656
-      summary: Man Has Made His Match... Now It's His Problem
-  Child's Play Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 926762
-      name_mapping: Childs Play Collection
-  Creepshow Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 356677
-      summary: The Most Fun You'll Ever Have... BEING SCARED!
-  Dune Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 191720
-      summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
+  # Back to the Future Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 330127
+  #     summary: "Where we're going, we don't need roads"
+  # Blade Runner Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 57656
+  #     summary: Man Has Made His Match... Now It's His Problem
+  # Child's Play Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 926762
+  #     name_mapping: Childs Play Collection
+  # Creepshow Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 356677
+  #     summary: The Most Fun You'll Ever Have... BEING SCARED!
+  # Dune Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 191720
+  #     summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
   # The Exorcist Collection:
   #   template:
   #     name: Collection - Hide Movie
   #     movie: 104846
   #     sort_title: Exorcist Collection
-  Fantastic Four Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 216529
-      summary: Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize their scientific backgrounds to band together and defend the world against perilous threats.
-  Flash Gordon Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 505247
-  Friday the 13th Collection:
-    template:
-      name: Collection - Movies
-      movie: 15004, 222724
-      summary: They were warned...They are doomed...And on Friday the 13th, nothing will save them.
+  # Fantastic Four Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 216529
+  #     summary: Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize their scientific backgrounds to band together and defend the world against perilous threats.
+  # Flash Gordon Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 505247
+  # Friday the 13th Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 15004, 222724
+  #     summary: They were warned...They are doomed...And on Friday the 13th, nothing will save them.
   Garbage Pail Kids Collection:
     template:
       name: Collection - Hide Movie
       movie: 270533
-  Grey Gardens Collection:
-    template:
-      name: Collection - Movies
-      movie: 17346, 47491
-      summary: I tell you if there's anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what.
-  Halloween Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 28900
-      summary: Trick or treat... or die
-  The Hannibal Lecter Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 384189
-      sort_title: Hannibal Lecter Collection
-  Harry Potter Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 899082
-  Hellraiser Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 348191
+  # Grey Gardens Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 17346, 47491
+  #     summary: I tell you if there's anything worse than dealing with a staunch woman… S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't weaken, no matter what.
+  # Halloween Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 28900
+  #     summary: Trick or treat... or die
+  # The Hannibal Lecter Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 384189
+  #     sort_title: Hannibal Lecter Collection
+  # Harry Potter Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 899082
+  # Hellraiser Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 348191
   In Search of Darkness Collection:
     template:
       name: Collection
       collection: 797016
-  It Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 512356
-  Jaws Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 84219
-      summary: You'll never go in the water again!
-  Living Dead Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 87489
-      summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
-  Masters of the Universe Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 540556
-      summary: By the Power of Grayskull!
-  The Matrix Collection:
-    template:
-      name: Collection - Movies
-      movie: 14543, 55931
-      sort_title: Matrix Collection
-      summary: Reality is a thing of the past.
-  A Nightmare on Elm Street Collection:
-    template:
-      name: Collection - Movies
-      movie: 37757, 321066, 170792
-      sort_title: Nightmare on Elm Street Collection
-      summary: Don't Fall Asleep!
+  # It Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 512356
+  # Jaws Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 84219
+  #     summary: You'll never go in the water again!
+  # Living Dead Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 87489
+  #     summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
+  # Masters of the Universe Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 540556
+  #     summary: By the Power of Grayskull!
+  # The Matrix Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 14543, 55931
+  #     sort_title: Matrix Collection
+  #     summary: Reality is a thing of the past.
+  # A Nightmare on Elm Street Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 37757, 321066, 170792
+  #     sort_title: Nightmare on Elm Street Collection
+  #     summary: Don't Fall Asleep!
   Peanuts Collection:
     template:
       name: Collection - Hide Movie
@@ -142,70 +142,70 @@ collections:
         Peanuts focuses entirely on a social circle of young children, where adults exist but are never seen and rarely heard. The main character, Charlie Brown, is meek, nervous, and lacks self-confidence. He is unable to fly a kite, win a baseball game, or kick a football held by his irascible friend Lucy, who always pulls it away at the last instant.
 
         Peanuts is one of the literate strips with philosophical, psychological, and sociological overtones that flourished in the 1950s. Peanuts's humor is psychologically complex and driven by the characters' interactions and relationships.
-  Planet of the Apes Collection:
-    template:
-      name: Collection - Movies
-      movie: 451289, 869, 17244
-      summary: Planet of the Apes is an American science fiction media franchise about a world in which humans and intelligent apes clash for control. The franchise is based on French author Pierre Boulle's 1963 novel La Planète des singes, translated into English as Planet of the Apes or Monkey Planet.
-  Return of the Living Dead Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 77171
-      summary: The series came about as a dispute between John A. Russo and George A. Romero over how to handle sequels to their 1968 film, Night of the Living Dead. The two reached a settlement wherein Romero's sequels would be referred to as the Dead movies, and Russo's sequels would bear the suffix Living Dead.
-  Pet Sematary Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 430035
-  Psycho Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 89994
-  Saturday Night Live Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: saturday-night-live-collection
-      summary: LAY OFF ME I'M STARVING!
-  Scream Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 83938
-  The Shining Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 84330
-      sort_title: Shining Collection
-      summary: The Horror is driving him crazy
-  Showgirls Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 592997
-      summary: There's always someone younger and hungrier coming down the stairs after you.
+  # Planet of the Apes Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 451289, 869, 17244
+  #     summary: Planet of the Apes is an American science fiction media franchise about a world in which humans and intelligent apes clash for control. The franchise is based on French author Pierre Boulle's 1963 novel La Planète des singes, translated into English as Planet of the Apes or Monkey Planet.
+  # Return of the Living Dead Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 77171
+  #     summary: The series came about as a dispute between John A. Russo and George A. Romero over how to handle sequels to their 1968 film, Night of the Living Dead. The two reached a settlement wherein Romero's sequels would be referred to as the Dead movies, and Russo's sequels would bear the suffix Living Dead.
+  # Pet Sematary Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 430035
+  # Psycho Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 89994
+  # Saturday Night Live Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: saturday-night-live-collection
+  #     summary: LAY OFF ME I'M STARVING!
+  # Scream Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 83938
+  # The Shining Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 84330
+  #     sort_title: Shining Collection
+  #     summary: The Horror is driving him crazy
+  # Showgirls Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 592997
+  #     summary: There's always someone younger and hungrier coming down the stairs after you.
   # Star Wars:
   #   template:
   #     name: Collection - Trakt List
   #     list: star-wars-collection
   #     summary: A long time ago in a galaxy far, far away....
-  Star Trek:
-    template:
-      name: Collection - Hide Movie
-      movie: 338544
-      summary: >-
-        These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man one has gone before!
-    label: Movies
-  Superman Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 24479
-      summary: Truth, Justice and a Better Tomorrow
+  # Star Trek:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 338544
+  #     summary: >-
+  #       These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man one has gone before!
+  #   label: Movies
+  # Superman Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 24479
+  #     summary: Truth, Justice and a Better Tomorrow
   Teenage Mutant Ninja Turtles Collection:
     template:
       name: Collection - Hide Movie
       movie: 280276
       summary: COWABUNGA!
-  Troll Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 40819
+  # Troll Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 40819
   Wet Hot American Summer Collection:
     template:
       name: Collection - Hide Movie
@@ -215,15 +215,3 @@ collections:
   ######################################################
   #               Unmanaged Collections                #
   ######################################################
-
-  ######################################################
-  #                Delete Collections                  #
-  ######################################################
-
-  Delete:
-    build_collection: false
-    smart_filter: # Dummy builder
-      all:
-        release: 1
-    delete_collections_named:
-      - In Search of Tomorrow Collection

@@ -18,7 +18,6 @@ overlays:
         all:
           audio_language: fr
           audio_language.not: en
-          country: fr
   German:
     overlay:
       name: German

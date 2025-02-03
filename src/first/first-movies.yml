@@ -94,17 +94,20 @@ collections:
     trakt_list: https://trakt.tv/users/goape/lists/movies-aaron
     item_label: Aaron
     sync_mode: append
+    non_item_remove_label: Aaron
   Hide:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/hide
     item_label: Hide
     sync_mode: append
+    non_item_remove_label: Hide
   Horror:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/movies-horror
     item_label: Horror
-    sync_mode:
-      append
+    sync_mode: append
+    non_item_remove_label:
+      Horror
 
       # check if there are managed user favorites that aren't in the Aaron's Faves collection. If there aren't then the collection should have an Aaron label.
 

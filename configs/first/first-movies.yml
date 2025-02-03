@@ -108,13 +108,16 @@ collections:
     trakt_list: 'https://trakt.tv/users/goape/lists/movies-aaron'
     item_label: Aaron
     sync_mode: append
+    non_item_remove_label: Aaron
   Hide:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/hide'
     item_label: Hide
     sync_mode: append
+    non_item_remove_label: Hide
   Horror:
     build_collection: false
     trakt_list: 'https://trakt.tv/users/goape/lists/movies-horror'
     item_label: Horror
     sync_mode: append
+    non_item_remove_label: Horror
