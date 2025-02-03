@@ -165,6 +165,7 @@ collections:
     template:
       name: People - Writer
       person: Agatha Christie
+      title: Identity
       summary: >-
         Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (née Miller) was
         an English crime novelist, short story writer and playwright. She is
@@ -373,7 +374,9 @@ collections:
     template:
       name: People - Writer
       person: Dr. Seuss
-      title: The Lorax
+      title:
+        - The Lorax
+        - The Mean One
       summary: >-
         Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 –
         September 24, 1991) was an American children's author and cartoonist. He

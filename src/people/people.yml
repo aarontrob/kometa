@@ -30,6 +30,7 @@ collections:
     template:
       name: People - Writer
       person: Agatha Christie
+      title: Identity
       summary: >-
         Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE (née Miller) was an English crime novelist, short story writer and playwright. She is best known for her 66 detective novels and 14 short story collections, particularly those revolving around her fictional detectives Hercule Poirot and Miss Marple. She also wrote the world's longest-running play, a murder mystery, The Mousetrap, and six romances under the name Mary Westmacott. In 1971 she was made a Dame for her contribution to literature. Most of her books and short stories have been adapted for television, radio, video games and comics, and more than thirty feature films have been based on her work.
   Alfred Hitchcock:
@@ -102,7 +103,9 @@ collections:
     template:
       name: People - Writer
       person: Dr. Seuss
-      title: The Lorax
+      title:
+        - The Lorax
+        - The Mean One
       summary: >-
         Acclaimed American writer born Theodor Seuss Geisel (March 2, 1904 – September 24, 1991) was an American children's author and cartoonist. He is known for his work writing and illustrating more than 60 books under the pen name Dr. Seuss. His work includes many of the most popular children's books of all time, selling over 600 million copies and being translated into more than 20 languages by the time of his death.
 

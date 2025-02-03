@@ -11,11 +11,11 @@ templates: !!import/shallow
 #####################################################
 
 collections:
-  Agatha Christie:
-    template:
-      name: People - Title
-      title: Identity
-  Dr. Seuss:
-    template:
-      name: People - Title
-      title: The Mean One
+  # Agatha Christie:
+  #   template:
+  #     name: People - Title
+  #     title: Identity
+  # Dr. Seuss:
+  #   template:
+  #     name: People - Title
+  #     title: The Mean One

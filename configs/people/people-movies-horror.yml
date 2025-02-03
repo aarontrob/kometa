@@ -95,6 +95,14 @@ templates:
     sync_mode: sync
     smart_label: release.asc
     summary: <<summary>>
+  'People [Sort Title] - Trakt List':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sort_title: '!7_People <<sort_title>>'
+    sync_mode: sync
+    smart_label: release.asc
+    summary: <<summary>>
   Search:
     plex_search:
       title: <<title>>
@@ -111,12 +119,4 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
     tmdb_show: <<show>>
-collections:
-  Agatha Christie:
-    template:
-      name: People - Title
-      title: Identity
-  Dr. Seuss:
-    template:
-      name: People - Title
-      title: The Mean One
+collections: null
