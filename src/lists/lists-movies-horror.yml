@@ -14,4 +14,5 @@ collections:
     template:
       name: List - Trakt List
       list: fangoria-s-101-best-horror-movies-you-ve-never-seen
+      label: Horror
       summary: As the leading name in the world of horror, Fangoria magazine has been the source of information for fans of fright flicks for more than twenty years—covering feature films, video games, comic books, collectibles, and all aspects of horror entertainment. Working closely with Fangoria's experts, including Editor in Chief Anthony Timpone, Adam Lukeman has compiled a must-have guide for casual horror fans and hardcore horror junkies with Fangoria's 101 Best Horror Films You've Never Seen.
