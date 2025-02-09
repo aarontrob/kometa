@@ -3,6 +3,7 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
@@ -11,6 +12,7 @@ templates:
     collection_order: release
     minimum_items: 2
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     tmdb_summary: <<collection>>
     summary: <<summary>>
@@ -50,10 +52,12 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
@@ -63,10 +67,12 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Show:
@@ -77,10 +83,12 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Shows:
@@ -90,6 +98,7 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
@@ -97,6 +106,7 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     tvdb_show: <<tvdb_show>>
+    label: <<label>>
     summary: <<summary>>
   Collection - Hide Show:
     tmdb_show: <<show>>
@@ -104,10 +114,12 @@ templates:
     collection_order: release
     collection_mode: hide
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Search:

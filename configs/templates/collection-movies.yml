@@ -21,14 +21,17 @@ Collection - Movies:
   default:
     collection_mode: hide_items
   optional:
+    - label
     - name_mapping
     - sort_title
     - summary
   name_mapping: <<name_mapping>>
+  label: <<label>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Hide Movie:
   optional:
+    - label
     - movie
     - collection
     - name_mapping
@@ -40,5 +43,6 @@ Collection - Hide Movie:
   collection_order: release
   collection_mode: hide
   name_mapping: <<name_mapping>>
+  label: <<label>>
   sort_title: <<sort_title>>
   summary: <<summary>>

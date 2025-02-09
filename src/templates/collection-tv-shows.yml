@@ -6,10 +6,12 @@ Collection - Show:
   default:
     collection_mode: hide_items
   optional:
+    - label
     - name_mapping
     - sort_title
     - summary
   name_mapping: <<name_mapping>>
+  label: <<label>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Shows:
@@ -19,6 +21,7 @@ Collection - Shows:
   default:
     collection_mode: hide_items
   optional:
+    - label
     - name_mapping
     - sort_title
     - summary
@@ -26,6 +29,7 @@ Collection - Shows:
   name_mapping: <<name_mapping>>
   sort_title: <<sort_title>>
   tvdb_show: <<tvdb_show>>
+  label: <<label>>
   summary: <<summary>>
 Collection - Hide Show:
   tmdb_show: <<show>>
@@ -33,9 +37,11 @@ Collection - Hide Show:
   collection_order: release
   collection_mode: hide
   optional:
+    - label
     - name_mapping
     - sort_title
     - summary
   name_mapping: <<name_mapping>>
+  label: <<label>>
   sort_title: <<sort_title>>
   summary: <<summary>>

@@ -3,6 +3,7 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
@@ -11,6 +12,7 @@ templates:
     collection_order: release
     minimum_items: 2
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     tmdb_summary: <<collection>>
     summary: <<summary>>
@@ -50,10 +52,12 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Trakt List Custom Order:
@@ -63,10 +67,12 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Movie:
@@ -77,9 +83,11 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
+    label: <<label>>
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
@@ -90,14 +98,17 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Collection - Hide Movie:
     optional:
+      - label
       - movie
       - collection
       - name_mapping
@@ -109,6 +120,7 @@ templates:
     collection_order: release
     collection_mode: hide
     name_mapping: <<name_mapping>>
+    label: <<label>>
     sort_title: <<sort_title>>
     summary: <<summary>>
   Search:
@@ -129,6 +141,9 @@ templates:
     tmdb_show: <<show>>
   Unmanaged:
     label: Unmanaged
+    blank_collection: true
+  Unmanaged - Horror:
+    label: 'Unmanaged, Horror'
     blank_collection: true
 unmanaged: &ref_0
   template:

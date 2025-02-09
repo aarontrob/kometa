@@ -2,6 +2,7 @@ Collection:
   default:
     collection_mode: hide_items
   optional:
+    - label
     - name_mapping
     - sort_title
     - summary
@@ -10,6 +11,7 @@ Collection:
   collection_order: release
   minimum_items: 2
   name_mapping: <<name_mapping>>
+  label: <<label>>
   sort_title: <<sort_title>>
   tmdb_summary: <<collection>>
   summary: <<summary>>
@@ -49,10 +51,12 @@ Collection - Trakt List:
   default:
     collection_mode: hide_items
   optional:
+    - label
     - name_mapping
     - sort_title
     - summary
   name_mapping: <<name_mapping>>
+  label: <<label>>
   sort_title: <<sort_title>>
   summary: <<summary>>
 Collection - Trakt List Custom Order:
@@ -62,9 +66,11 @@ Collection - Trakt List Custom Order:
   default:
     collection_mode: hide_items
   optional:
+    - label
     - name_mapping
     - sort_title
     - summary
   name_mapping: <<name_mapping>>
+  label: <<label>>
   sort_title: <<sort_title>>
   summary: <<summary>>
