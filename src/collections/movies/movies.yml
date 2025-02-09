@@ -106,10 +106,6 @@ collections:
       collection: 422837
       movie: 57656
       summary: Man Has Made His Match... Now It's His Problem
-  Bob's Burgers Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 504827
   The Brady Bunch Collection:
     template:
       name: Collection - Movie
