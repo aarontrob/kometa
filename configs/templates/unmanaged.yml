@@ -1,3 +1,6 @@
 Unmanaged:
   label: Unmanaged
   blank_collection: true
+Unmanaged - Horror:
+  label: 'Unmanaged, Horror'
+  blank_collection: true

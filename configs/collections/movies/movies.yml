@@ -77,9 +77,11 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
+    label: <<label>>
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
@@ -113,6 +115,9 @@ templates:
     summary: <<summary>>
   Unmanaged:
     label: Unmanaged
+    blank_collection: true
+  Unmanaged - Horror:
+    label: 'Unmanaged, Horror'
     blank_collection: true
   Search:
     plex_search:

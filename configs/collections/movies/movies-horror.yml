@@ -77,9 +77,11 @@ templates:
     default:
       collection_mode: hide_items
     optional:
+      - label
       - name_mapping
       - sort_title
       - summary
+    label: <<label>>
     name_mapping: <<name_mapping>>
     sort_title: <<sort_title>>
     summary: <<summary>>
@@ -114,6 +116,9 @@ templates:
   Unmanaged:
     label: Unmanaged
     blank_collection: true
+  Unmanaged - Horror:
+    label: 'Unmanaged, Horror'
+    blank_collection: true
   Search:
     plex_search:
       title: <<title>>
@@ -133,20 +138,19 @@ templates:
 unmanaged: &ref_0
   template:
     name: Unmanaged
-    label: horror
 collections:
   28 Days/Weeks Later Collection:
     template:
       name: Collection
       collection: 1565
       name_mapping: 28 Days Weeks Later Collection
-      label: horror
+      label: Horror
   The Amityville Collection:
     template:
       name: Search
       title: Amityville
       sort_title: Amityville Collection
-      label: horror
+      label: Horror
       summary: >-
         The Amityville Horror film series is a series of American supernatural
         horror films centered on events in a haunted house in Amityville, New
@@ -156,13 +160,13 @@ collections:
       name: Collection - Movie
       collection: 105995
       movie: 336560
-      label: horror
+      label: Horror
       summary: 'When you can''t breathe, you can''t scream.'
   April Fool's Day Collection:
     template:
       name: Collection - Movies
       movie: '24913, 26233'
-      label: horror
+      label: Horror
       summary: >-
         A group of eight college friends gather together at an island mansion
         belonging to heiress Muffy St. John to celebrate their final year of
@@ -172,13 +176,19 @@ collections:
     template:
       name: Collection
       collection: '727761, 442195'
-      label: horror
+      label: Horror
       summary: Come out and play.
+  Basket Case Collection:
+    template:
+      name: Collection
+      collection: 104716
+      label: Horror
+      summary: Its mother conceived it... You won't believe it...
   Black Christmas Collection:
     template:
       name: Collection - Movies
       movie: '9656, 16938, 551808'
-      label: horror
+      label: Horror
       summary: >-
         A sorority house is terrorized by a stranger who makes frightening phone
         calls and then murders the sorority sisters during Christmas break.
@@ -186,26 +196,26 @@ collections:
     template:
       name: Collection - Movies
       movie: '9599, 8851, 40983'
-      label: horror
+      label: Horror
       summary: It crawls. It creeps. It eats you alive!
   Buffy the Vampire Slayer Collection:
     template:
       name: Collection - Hide Movie
       movie: 10206
-      label: horror
+      label: Horror
   Cabin Fever Collection:
     template:
       name: Collection - Movie
       collection: 201576
       movie: 298584
-      label: horror
+      label: Horror
       summary: Terror... In the flesh.
   Carrie Collection:
     template:
       name: Collection - Movie
       collection: 257053
       movie: '7342, 133805'
-      label: horror
+      label: Horror
       summary: >-
         Carrie White, a shy and troubled teenage girl who is tormented by her
         high school peers and her fanatically religious mother, begins to use
@@ -219,20 +229,20 @@ collections:
       name: Collection - Trakt List Custom Order
       list: chucky-collection
       name_mapping: Childs Play Collection
-      label: horror
+      label: Horror
       summary: He wants YOU for a new best friend...
   Cloverfield Collection:
     template:
       name: Collection - Movies
       movie: '7191, 333371, 384521'
-      label: horror
+      label: Horror
       summary: Some Thing Has Found Us
   The Conjuring Universe:
     template:
       name: Collection - Trakt List Custom Order
       list: the-conjuring-universe
       sort_title: Conjuring Universe
-      label: horror
+      label: Horror
       summary: >-
         The Conjuring Universe is an American media franchise and shared
         universe centered on a series of supernatural horror films, produced by
@@ -248,14 +258,14 @@ collections:
     template:
       name: Collection - Movies
       movie: '561, 539517'
-      label: horror
+      label: Horror
       summary: The supernatural adventures of occult detective John Constantine
   The Crazies Collection:
     template:
       name: Collection - Movies
       movie: '29425, 29427'
       sort_title: Crazies Collection
-      label: horror
+      label: Horror
       summary: >-
         Citizens of a small town are infected by a biological weapon that causes
         its victims to become violently insane. As uninfected citizens struggle
@@ -264,39 +274,39 @@ collections:
     template:
       name: Collection
       collection: 221537
-      label: horror
+      label: Horror
       summary: Not since the beginning of time has the world beheld terror like this!
   The Creeper Collection:
     template:
       name: Collection
       collection: 547910
       sort_title: Creeper Collection
-      label: horror
+      label: Horror
   Creepshow Collection:
     template:
       name: Collection - Movie
       collection: 107725
       movie: 356677
-      label: horror
+      label: Horror
       summary: The Most Fun You'll Ever Have... BEING SCARED!
   The Crow Collection:
     template:
       name: Collection - Movie
       collection: 9436
       movie: 957452
-      label: horror
+      label: Horror
   Cube Collection:
     template:
       name: Collection
       collection: 432
-      label: horror
+      label: Horror
   The Damned Collection:
     template:
       name: Collection - Movie
       collection: 746434
       movie: 12122
       sort_title: Damned Collection
-      label: horror
+      label: Horror
       summary: >-
         In a small English village everyone suddenly falls unconscious. When
         they awake every woman of child bearing age is pregnant. The resulting
@@ -307,7 +317,7 @@ collections:
       name: Collection - Movie
       collection: 1960
       movie: '27266, 713704, 109428'
-      label: horror
+      label: Horror
       summary: They got up on the wrong side of the grave.
   The Exorcist Collection:
     template:
@@ -319,18 +329,18 @@ collections:
     template:
       name: Collection - Movies
       movie: '11495, 532710'
-      label: horror
+      label: Horror
       summary: If you get on her bad side...YOU'RE TOAST.
   Five Nights at Freddy's Collection:
     template:
       name: Collection
       collection: 1240438
-      label: horror
+      label: Horror
   Flatliners Collection:
     template:
       name: Collection - Movies
       movie: '1551, 400710'
-      label: horror
+      label: Horror
       summary: >-
         Five medical students want to find out if there is life after death.
         They plan to stop one of their hearts for a few seconds, thus simulating
@@ -340,7 +350,7 @@ collections:
       name: Collection
       collection: '123213, 109609'
       sort_title: Fly Collection
-      label: horror
+      label: Horror
       summary: >-
         Loosely based on George Langelaan's 1957 short story of the same name
         and the 1958 film, The Fly tells of an eccentric scientist who, after
@@ -350,7 +360,7 @@ collections:
     template:
       name: Collection - Trakt List Custom Order
       list: friday-the-13th-collection
-      label: horror
+      label: Horror
       summary: >-
         They were warned...They are doomed...And on Friday the 13th, nothing
         will save them.
@@ -358,13 +368,13 @@ collections:
     template:
       name: Collection
       collection: '98168, 230161'
-      label: horror
+      label: Horror
       summary: There are some very good reasons to be afraid...of the dark.
   Funny Games Collection:
     template:
       name: Collection - Movies
       movie: '8461, 10234'
-      label: horror
+      label: Horror
       summary: >-
         Two psychotic young men take a mother, father, and son hostage in their
         vacation cabin and force them to play sadistic "games" with one another
@@ -375,13 +385,13 @@ collections:
       collection: 1974
       movie: 465086
       sort_title: Grudge Collection
-      label: horror
+      label: Horror
       summary: It never forgives. It never forgets.
   Halloween Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: halloween-collection
-      label: horror
+      label: Horror
       summary: Trick or treat... or die
   The Hannibal Lecter Collection:
     template:
@@ -390,21 +400,21 @@ collections:
       movie: '11454, 384189'
       sort_title: Hannibal Lecter Collection
       collection_mode: show_items
-      label: horror
+      label: Horror
       summary: To enter the mind of a killer she must challenge the mind of a madman.
   Hellboy Collection:
     template:
       name: Collection - Movie
       collection: 17235
       movie: '456740, 1087822'
-      label: horror
+      label: Horror
       summary: From the Dark Side to Our Side.
   Hellraiser Collection:
     template:
       name: Collection - Movie
       collection: 8917
       movie: 348191
-      label: horror
+      label: Horror
       summary: Demon to some. Angel to others.
   The Hills Have Eyes Collection:
     template:
@@ -412,7 +422,7 @@ collections:
       collection: '267922, 8918'
       movie: 8771
       sort_title: Hills Have Eyes Collection
-      label: horror
+      label: Horror
       summary: >-
         Mutants and monsters attack people who are "unfortunate enough" to be
         stranded near the desert...
@@ -420,18 +430,18 @@ collections:
     template:
       name: Collection
       collection: 166376
-      label: horror
+      label: Horror
       summary: 'If you can''t see him, if you can''t find him, you can''t stop him.'
   House of 1000 Corpses Collection:
     template:
       name: Collection
       collection: 105625
-      label: horror
+      label: Horror
   House of Wax Collection:
     template:
       name: Collection - Movies
       movie: '18573, 10066'
-      label: horror
+      label: Horror
       summary: >-
         A New York sculptor who opens a wax museum to showcase the likenesses of
         famous historical figures runs into trouble with his business partner,
@@ -442,25 +452,25 @@ collections:
       name: Collection - Movie
       collection: 248339
       movie: 15856
-      label: horror
+      label: Horror
       summary: The doors are locked at midnight.
   I Spit on Your Grave Collection:
     template:
       name: Collection
       collection: '219691, 296429'
-      label: horror
+      label: Horror
       summary: ...An Act of Vengeance
   Invaders from Mars Collection:
     template:
       name: Collection - Movies
       movie: '31909, 20424'
-      label: horror
+      label: Horror
       summary: NATURAL or SUPERNATURAL?
   Invasion of the Body Snatchers Collection:
     template:
       name: Collection - Movies
       movie: '11549, 11850, 4858, 4722'
-      label: horror
+      label: Horror
       summary: >-
         A small-town doctor learns that the population of his community is being
         replaced by emotionless alien duplicates.
@@ -468,13 +478,13 @@ collections:
     template:
       name: Collection
       collection: 1285493
-      label: horror
+      label: Horror
   It Collection:
     template:
       name: Collection - Movie
       collection: 477962
       movie: 512356
-      label: horror
+      label: Horror
       summary: You'll float too.
     plex_search:
       title: Stephen King's IT
@@ -482,32 +492,32 @@ collections:
     template:
       name: Collection
       collection: 1198581
-      label: horror
+      label: Horror
   It's Alive Collection:
     template:
       name: Collection - Movie
       collection: 256297
       movie: 23174
-      label: horror
+      label: Horror
       summary: 'Whatever it is, it''s alive and deadly.'
   Jacob's Ladder Collection:
     template:
       name: Collection - Movies
       movie: '2291, 456529'
       name_mapping: Jacobs Ladder Collection
-      label: horror
+      label: Horror
       summary: You can't run from your own mind
   Karnstein Trilogy:
     template:
       name: Collection
       collection: 960149
-      label: horror
+      label: Horror
   The Last House on the Left Collection:
     template:
       name: Collection - Movies
       movie: '18405, 15516'
       sort_title: Last House on the Left Collection
-      label: horror
+      label: Horror
       summary: >-
         Sights & sounds far beyond anything you've tested...take as much as you
         can!
@@ -516,37 +526,37 @@ collections:
       name: Collection - Movie
       collection: 19285
       movie: 126172
-      label: horror
+      label: Horror
       summary: Your luck just ran out
   Little Shop of Horrors Collection:
     template:
       name: Collection - Movies
       movie: '10776, 24452'
-      label: horror
+      label: Horror
       summary: Don't feed the plants.
   Living Dead Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: living-dead-collection
-      label: horror
+      label: Horror
       summary: They keep coming back in a bloodthirsty lust for HUMAN FLESH!...
   M3GAN Collection:
     template:
       name: Collection
       collection: 1071588
-      label: horror
+      label: Horror
   My Bloody Valentine Collection:
     template:
       name: Collection - Movies
       movie: '14435, 39874'
-      label: horror
+      label: Horror
       summary: Cross your heart...and hope to die.
   A Nightmare on Elm Street Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: a-nightmare-on-elm-street-collection
       sort_title: Nightmare on Elm Street Collection
-      label: horror
+      label: Horror
       summary: Don't Fall Asleep!
   The Omen Collection:
     template:
@@ -554,7 +564,7 @@ collections:
       collection: 10919
       movie: 806-the-omen
       sort_title: Omen Collection
-      label: horror
+      label: Horror
       summary: >-
         Who is He? What is He? Should We Fear Him? Can We Stop Him? Is He a
         Warning? Is He the Beginning of the End?
@@ -563,14 +573,14 @@ collections:
       name: Collection - Movie
       collection: '830781, 10789'
       movie: 430035
-      label: horror
+      label: Horror
       summary: A Pet Isn't Just For Life.
   The Phantom of the Opera Collection:
     template:
       name: Collection - Movies
       movie: '9833, 964, 86962, 46330, 76115, 15855, 88920'
       sort_title: Phantom of the Opera Collection
-      label: horror
+      label: Horror
       summary: >-
         BENEATH HIS MASK...the Grotesque Face of Horror Unimaginable! INSIDE HIS
         HEART...the Desperate Desire for Beauty and Love!
@@ -579,20 +589,20 @@ collections:
       name: Collection - Movie
       collection: '212279, 104830'
       movie: 48374
-      label: horror
+      label: Horror
       summary: They're here...Hungry for flesh! Who can stop them?
   Poltergeist Collection:
     template:
       name: Collection - Movie
       collection: 10453
       movie: 243688
-      label: horror
+      label: Horror
       summary: They're here.
   Psycho Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: psycho-collection
-      label: horror
+      label: Horror
       summary: Exploring the blackness of the subconscious man!
   A Quiet Place Collection:
     template:
@@ -600,7 +610,7 @@ collections:
       collection: 521226
       movie: 762441
       sort_title: Quiet Place Collection
-      label: horror
+      label: Horror
       summary: >-
         A series of films that revolve around people struggling to survive in a
         post-apocalyptic world inhabited by blind extraterrestrial creatures
@@ -610,30 +620,30 @@ collections:
       name: Collection
       collection: 74508
       name_mapping: REC Collection
-      label: horror
+      label: Horror
       summary: One Witness. One Camera
   Ready or Not Collection:
     template:
       name: Collection
       collection: 1267164
-      label: horror
+      label: Horror
   Resident Evil Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: resident-evil-collection
-      label: horror
+      label: Horror
       summary: Evil is Only a Word. The Reality is Much Worse.
   Return of the Living Dead Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: return-of-the-living-dead-collection
-      label: horror
+      label: Horror
       summary: They're Back From The Grave and Ready To Party!
   Salem's Lot Collection:
     template:
       name: Collection - Trakt List
       list: salem-s-lot-collection
-      label: horror
+      label: Horror
       summary: Salem's Lot... where no one rests in peace...
     plex_search:
       title: Salem's Lot
@@ -650,20 +660,20 @@ collections:
       collection: 530064
       movie: 84330
       sort_title: Shining Collection
-      label: horror
+      label: Horror
       summary: The Horror is driving him crazy
   'Silent Night, Deadly Night Collection':
     template:
       name: Collection - Movie
       collection: 256296
       movie: 139455
-      label: horror
+      label: Horror
       summary: Garbage day!
   Sleepaway Camp Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: sleepaway-camp-collection
-      label: horror
+      label: Horror
       summary: A perfect place to die!
   The Slumber Party Massacre Collection:
     template:
@@ -671,75 +681,75 @@ collections:
       collection: 138971
       movie: 818543
       sort_title: Slumber Party Massacre Collection
-      label: horror
+      label: Horror
       summary: You bring the pizza....I'll bring the drill.
   Smile Collection:
     template:
       name: Collection
       collection: 1100788
-      label: horror
+      label: Horror
   The Stepfather Collection:
     template:
       name: Collection - Movie
       collection: 138706
       movie: 19904
       sort_title: Stepfather Collection
-      label: horror
+      label: Horror
       summary: Daddy's home.
   Stepford Collection:
     template:
       name: Search
       title: Stepford
-      label: horror
+      label: Horror
       summary: Something strange is happening in the town of Stepford.
   The Strangers Collection:
     template:
       name: Collection
       collection: '487765, 1172926'
-      label: horror
+      label: Horror
       summary: Because you were home.
   Suspiria Collection:
     template:
       name: Collection - Movies
       movie: '11906, 361292'
-      label: horror
+      label: Horror
       summary: You can run from it. You can hide from it. You can't escape from it !!
   Sweeney Todd Collection:
     template:
       name: Search
       title: 'Sweeney Todd, Demon Barber'
-      label: horror
+      label: Horror
       summary: Never Forget. Never Forgive.
   Tales from the Crypt Collection:
     template:
       name: Collection - Movie
       collection: 115142
       movie: '53868, 213503'
-      label: horror
+      label: Horror
       summary: DEATH LIVES in the Vault of Horror!
   Talk to Me Collection:
     template:
       name: Collection
       collection: 1162328
-      label: horror
+      label: Horror
   Texas Chainsaw Massacre Collection:
     template:
       name: Collection
       collection: '111751, 425175'
-      label: horror
+      label: Horror
       summary: Who will survive and what will be left of them?
   Thanksgiving Collection:
     template:
       name: Collection
       collection: 1211888
-      label: horror
+      label: Horror
   The Thing Collection:
     template:
       name: Collection - Movie
       collection: 479888
       movie: 10785
       sort_title: Thing Collection
-      label: horror
+      label: Horror
       summary: Man is the warmest place to hide.
   The Three Mothers Trilogy:
     template:
@@ -747,7 +757,7 @@ collections:
       movie: '16395, 11906, 15206'
       sort_title: Three Mothers Trilogy
       collection_mode: show_items
-      label: horror
+      label: Horror
       summary: >-
         The Three Mothers (Italian: Le Tre madri) is a trilogy of supernatural
         horror films by Italian film director Dario Argento. It consists of
@@ -758,13 +768,13 @@ collections:
     template:
       name: Collection
       collection: 1262015
-      label: horror
+      label: Horror
   The Town That Dreaded Sundown Collection:
     template:
       name: Collection - Movies
       movie: '48197, 287084'
       sort_title: Town That Dreaded Sundown Collection
-      label: horror
+      label: Horror
       summary: >-
         Not Everyone Who Comes to This Lover's Lane Has the Same Thing on Their
         Mind.
@@ -773,59 +783,59 @@ collections:
       name: Collection - Movie
       collection: 32135
       movie: 517289
-      label: horror
+      label: Horror
       summary: The first Super-Hero... from New Jersey!
   Troll Collection:
     template:
       name: Collection - Movie
       collection: 123218
       movie: '748621, 40819'
-      label: horror
+      label: Horror
       summary: 'Worlds of Magic, Mystery and Menace.'
   Underworld Collection:
     template:
       name: Collection - Movie
       collection: 2326
       movie: 161337
-      label: horror
+      label: Horror
       summary: An immortal battle for supremacy.
   Van Helsing Collection:
     template:
       name: Collection - Hide Movie
       movie: 7131
-      label: horror
+      label: Horror
       summary: The One Name They All Fear
   V/H/S Collection:
     template:
       name: Collection - Trakt List Custom Order
       list: v-h-s-collection
-      label: horror
+      label: Horror
       summary: This collection is killer.
   What We Do in the Shadows Collection:
     template:
       name: Collection - Hide Movie
       movie: 246741
-      label: horror
+      label: Horror
   When a Stranger Calls Collection:
     template:
       name: Collection - Movie
       collection: 276838
       movie: 10053
-      label: horror
+      label: Horror
       summary: Every babysitter's nightmare becomes real...
   The Wicker Man Collection:
     template:
       name: Collection - Movies
       movie: '16307, 9708, 79544'
       sort_title: Wicker Man Collection
-      label: horror
+      label: Horror
       summary: Flesh to touch...Flesh to burn! Don't keep the Wicker Man waiting!
   Willard Collection:
     template:
       name: Collection - Movie
       collection: 375886
       movie: 10929
-      label: horror
+      label: Horror
       summary: Where your nightmares end...WILLARD begins.
   The Wolf Man Collection:
     template:
@@ -833,7 +843,7 @@ collections:
       collection: 259027
       movie: 7978
       sort_title: Wolf Man Collection
-      label: horror
+      label: Horror
       summary: >-
         Even A Man Who Is Pure In Heart And Says His Prayers By Night, May
         Become A Wolf When The Wolfbane Blooms And The Autumn Moon Is Bright.
@@ -843,7 +853,7 @@ collections:
       collection: 315560
       movie: 16182
       sort_title: Woman in Black Collection
-      label: horror
+      label: Horror
       summary: She'll never let go.
   Zombi Collection:
     plex_search:
@@ -853,7 +863,7 @@ collections:
     template:
       name: Collection - Trakt List
       list: zombi-collection
-      label: horror
+      label: Horror
       summary: >-
         The Zombi Collection is a series of Italian zombie films. The series
         began with the 1979 release of Zombi 2 directed by Lucio Fulci. It was
@@ -877,7 +887,6 @@ collections:
   An American Werewolf Collection: *ref_0
   Annabelle Collection: *ref_0
   The Ape Woman Collection: *ref_0
-  Basket Case Trilogy: *ref_0
   Bats Collection: *ref_0
   Battle Royale Collection: *ref_0
   The Birds Collection: *ref_0
