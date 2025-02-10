@@ -458,16 +458,15 @@ collections:
     template:
       name: Collection - Hide Show
       show: 12785
-  Star Trek:
+  Star Trek Collection:
     template:
       name: Collection - Trakt List
       list: star-trek-collection
       summary: Live long, and prosper
-  Star Wars:
+  Star Wars Collection:
     template:
       name: Collection - Trakt List
       list: star-wars-collection
-      # name_mapping: Star Wars (TV)
       summary: May the Force Be with You
   Stargate Collection:
     template:

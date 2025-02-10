@@ -159,12 +159,12 @@ collections:
     template:
       name: Collection - Hide Show
       show: 234324
-  Star Trek:
+  Star Trek Collection:
     template:
       name: Collection - Hide Show
       show: 137895
       summary: 'Live long, and prosper'
-  Star Wars:
+  Star Wars Collection:
     template:
       name: Collection - Trakt List
       list: star-wars-collection

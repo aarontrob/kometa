@@ -545,7 +545,7 @@ collections:
       name: Collection - Trakt List Custom Order
       list: spongebob-collection
       summary: A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook at Krusty Krab, lives in the Pacific Ocean. He embarks on various adventures with his friends at Bikini Bottom.
-  Star Wars:
+  Star Wars Collection:
     template:
       name: Collection - Trakt List
       list: star-wars-collection
