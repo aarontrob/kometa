@@ -97,10 +97,10 @@ collections:
       list: brains
       label: horror
       summary: >-
-        “Get ready for a feast of flesh-eating mayhem! These undead thrillers
-        are packed with groaning ghouls, slow-moving terror, and plenty of
+        Get ready for a feast of flesh-eating mayhem! These undead thrillers are
+        packed with groaning ghouls, slow-moving terror, and plenty of
         brain-munching action. It’s the perfect collection for those who like
-        their horror with a side of bite!”
+        their horror with a side of bite!
     smart_label: title.asc
   Blood and Gore:
     template:
@@ -112,17 +112,6 @@ collections:
         effects mayhem! These blood-soaked spectaculars prove that more is gore
         when it comes to pushing the limits of good taste. From cannibals to
         creatures, every kill is a work of art - in red.
-    smart_label: title.asc
-  Slasher Central:
-    template:
-      name: Genre - Trakt List
-      list: slasher-central
-      label: horror
-      summary: >-
-        Time to sharpen those knives and check the body count! These classic
-        slashers serve up unstoppable killers, terrible decisions, and enough
-        creative kills to fill a morgue. From summer camps to suburban streets,
-        nowhere is safe when the blade starts swinging.
     smart_label: title.asc
   Clowning Around:
     template:
@@ -146,26 +135,6 @@ collections:
         Step into the shadows and face the creatures of the night! These movies
         deliver spine-chilling thrills, with vampires lurking in every corner.
     smart_label: title.asc
-  Silent Fright:
-    template:
-      name: 'Genre [Holiday] - Trakt List'
-      list: silent-fright
-      label: horror
-      summary: >-
-        'Tis the season… for terror! These bloody yuletide tales take holiday
-        cheer to the darkest depths, with killer Santas, twisted carols, and
-        enough gore to stain the snow red. It's festive as hell—just the way
-        Krampus intended!
-  Murder & Gravy:
-    template:
-      name: 'Genre [Holiday] - Trakt List'
-      list: murder-gravy
-      label: horror
-      summary: >-
-        Pass the carnage! These twisted Thanksgiving tales serve up a feast of
-        mayhem where the guests are dying to leave and murderous fowl get their
-        revenge. From homicidal turkeys to pilgrim slashers, this buffet of
-        bloodshed gives new meaning to "family cut-throat dinner."
   Howl at the Moon:
     template:
       name: Genre - Trakt List
@@ -177,6 +146,17 @@ collections:
         questioning who—or what—is lurking in the shadows. It’s a supernatural
         adventure where danger lurks beneath every howl!
     smart_label: title.asc
+  Killer Kids:
+    template:
+      name: Genre - Trakt List
+      list: killer-kids
+      label: horror
+      summary: >-
+        Get ready for a chilling ride with the most adorable little monsters!
+        These films prove that the scariest creatures can come in the smallest
+        packages. From innocent-looking tots to terrifying teens, these kids are
+        anything but sweet. Buckle up for a wild ride!
+    smart_label: title.asc
   Macabre Melodies:
     template:
       name: Genre - Trakt List
@@ -187,3 +167,34 @@ collections:
         The show must go on... even if it kills! These sinister sing-alongs
         blend pitch-perfect terror with show-stopping slaughter, proving that
         every performance could be your last. Break a leg - or several.
+  Murder & Gravy:
+    template:
+      name: 'Genre [Holiday] - Trakt List'
+      list: murder-gravy
+      label: horror
+      summary: >-
+        Pass the carnage! These twisted Thanksgiving tales serve up a feast of
+        mayhem where the guests are dying to leave and murderous fowl get their
+        revenge. From homicidal turkeys to pilgrim slashers, this buffet of
+        bloodshed gives new meaning to "family cut-throat dinner."
+  Silent Fright:
+    template:
+      name: 'Genre [Holiday] - Trakt List'
+      list: silent-fright
+      label: horror
+      summary: >-
+        'Tis the season… for terror! These bloody yuletide tales take holiday
+        cheer to the darkest depths, with killer Santas, twisted carols, and
+        enough gore to stain the snow red. It's festive as hell—just the way
+        Krampus intended!
+  Slasher Central:
+    template:
+      name: Genre - Trakt List
+      list: slasher-central
+      label: horror
+      summary: >-
+        Time to sharpen those knives and check the body count! These classic
+        slashers serve up unstoppable killers, terrible decisions, and enough
+        creative kills to fill a morgue. From summer camps to suburban streets,
+        nowhere is safe when the blade starts swinging.
+    smart_label: title.asc
