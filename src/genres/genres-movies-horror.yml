@@ -37,6 +37,9 @@ collections:
       list: clowning-around
       label: horror
       summary: Step right up and enjoy the show! These clown-filled films are full of fun, mischief, and a touch of the unexpected. Laughter is guaranteed, but who knows what’s lurking under that painted smile?
+    sync_mode: append
+    plex_search:
+      title: Stephen King's IT
     smart_label: title.asc
   Bloodsuckers & Fangs:
     template:

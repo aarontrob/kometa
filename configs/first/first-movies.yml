@@ -30,22 +30,20 @@ collections:
       name: 'First [Sort Title] - Custom'
       sort_title: '!2Viral Views'
       summary: >-
-        Welcome to a real-time collection of what's capturing attention right
-        now! These trending titles are surging in popularity, dominating
-        discussions, and collecting new fans by the hour. From fresh releases
-        and sudden hits to unexpected comebacks - catch them on their way up.
+        What's hot right now? These titles are climbing charts, sparking buzz,
+        and winning new fans daily. From fresh hits to surprise comebacks, catch
+        the latest must-watch movies while they're trending up!
     tmdb_trending_daily: 30
     collection_order: custom
     sync_mode: sync
-  Now Streaming:
+  Just Released:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!3Now Streaming'
+      sort_title: '!3Just Released'
       summary: >-
-        Fresh off the digital presses and ready to roll! These latest releases
-        bring Hollywood's newest hits from theater screens to your screen.
-        Whether you missed them in theaters or just can't wait to watch them
-        again, catch them here before they're old news.
+        The wait is over! Hollywood's hottest hits make their streaming debut.
+        Whether you missed them in theaters or can't wait to watch again,
+        they're finally here.
     smart_filter:
       all:
         release: 365
