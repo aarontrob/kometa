@@ -126,15 +126,6 @@ collections:
     plex_search:
       title: Stephen King's IT
     smart_label: title.asc
-  Bloodsuckers & Fangs:
-    template:
-      name: Genre - Trakt List
-      list: bloodsuckers-fangs
-      label: horror
-      summary: >-
-        Step into the shadows and face the creatures of the night! These movies
-        deliver spine-chilling thrills, with vampires lurking in every corner.
-    smart_label: title.asc
   Howl at the Moon:
     template:
       name: Genre - Trakt List
@@ -152,10 +143,9 @@ collections:
       list: killer-kids
       label: horror
       summary: >-
-        Get ready for a chilling ride with the most adorable little monsters!
-        These films prove that the scariest creatures can come in the smallest
-        packages. From innocent-looking tots to terrifying teens, these kids are
-        anything but sweet. Buckle up for a wild ride!
+        From sweet-faced tots to twisted teens, these pint-sized terrors prove
+        evil comes in all ages. Don't let their innocent looks fool you - these
+        kids are deadly and dying to play!
     smart_label: title.asc
   Macabre Melodies:
     template:
@@ -177,6 +167,15 @@ collections:
         mayhem where the guests are dying to leave and murderous fowl get their
         revenge. From homicidal turkeys to pilgrim slashers, this buffet of
         bloodshed gives new meaning to "family cut-throat dinner."
+  Neck Biters:
+    template:
+      name: Genre - Trakt List
+      list: neck-biters
+      label: horror
+      summary: >-
+        Step into the shadows and face the creatures of the night! These movies
+        deliver spine-chilling thrills, with vampires lurking in every corner.
+    smart_label: title.asc
   Silent Fright:
     template:
       name: 'Genre [Holiday] - Trakt List'
