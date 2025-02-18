@@ -1,75 +1,93 @@
 templates:
   Genre:
     optional:
+      - label
       - summary
     smart_filter:
       all:
         genre: <<genre>>
       sort_by: random
+    label: <<label>>
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom]':
     optional:
+      - label
       - summary
     smart_filter:
       all:
         genre: <<genre>>
       sort_by: random
+    label: <<label>>
     sort_title: ~_Genre <<collection_name>>
     summary: <<summary>>
   'Genre [Bottom] - Custom':
     optional:
+      - label
       - summary
+    label: <<label>>
     sort_title: ~_Genre <<collection_name>>
     summary: <<summary>>
   Genre - Trakt List:
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
+    label: <<label>>
     smart_label: release.asc
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List Other:
     optional:
+      - label
       - summary
     trakt_list: <<list>>
     sync_mode: sync
+    label: <<label>>
     smart_label: release.asc
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
+    label: <<label>>
     smart_label: random
     sort_title: ~_Genre <<collection_name>>
     summary: <<summary>>
   'Genre [Holiday] - Trakt List':
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
+    label: <<label>>
     smart_label: title.asc
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List [Hide Items]':
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_mode: hide_items
+    label: <<label>>
     item_genre: <<collection_name>>
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List Episodes':
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
     collection_order: custom
+    label: <<label>>
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
@@ -189,10 +207,10 @@ collections:
         Break out the eggnog and mistletoe! These festive flicks are packed with
         holiday cheer and enough yuletide magic to make even Scrooge smile. It’s
         a holly jolly celebration of the season!
-  Showstoppers:
+  Show Time:
     template:
       name: Genre - Trakt List
-      list: showstoppers-30570474
+      list: show-time
       summary: >-
         Life's better with a backbeat! These spectacular song-and-dance
         sensations prove that when the music hits, anything is possible. From

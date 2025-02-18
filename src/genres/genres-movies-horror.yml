@@ -55,12 +55,14 @@ collections:
       name_mapping: Musical Horror
       label: horror
       summary: The show must go on... even if it kills! These sinister sing-alongs blend pitch-perfect terror with show-stopping slaughter, proving that every performance could be your last. Break a leg - or several.
+    smart_label: title.asc
   Murder & Gravy:
     template:
       name: Genre [Holiday] - Trakt List
       list: murder-gravy
       label: horror
       summary: Pass the carnage! These twisted Thanksgiving tales serve up a feast of mayhem where the guests are dying to leave and murderous fowl get their revenge. From homicidal turkeys to pilgrim slashers, this buffet of bloodshed gives new meaning to "family cut-throat dinner."
+    smart_label: title.asc
   Neck Biters:
     template:
       name: Genre - Trakt List
@@ -74,6 +76,7 @@ collections:
       list: silent-fright
       label: horror
       summary: "'Tis the season… for terror! These bloody yuletide tales take holiday cheer to the darkest depths, with killer Santas, twisted carols, and enough gore to stain the snow red. It's festive as hell—just the way Krampus intended!"
+    smart_label: title.asc
   Slasher Central:
     template:
       name: Genre - Trakt List

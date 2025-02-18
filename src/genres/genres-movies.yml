@@ -79,10 +79,10 @@ collections:
       list: season-s-greetings
       smart_label: title.asc
       summary: Break out the eggnog and mistletoe! These festive flicks are packed with holiday cheer and enough yuletide magic to make even Scrooge smile. It’s a holly jolly celebration of the season!
-  Showstoppers:
+  Show Time:
     template:
       name: Genre - Trakt List
-      list: showstoppers-30570474
+      list: show-time
       summary: Life's better with a backbeat! These spectacular song-and-dance sensations prove that when the music hits, anything is possible. From Broadway to back alleys, every moment's a show-stopper and every scene's a finale.
   Trick-or-Treat: #Halloween
     template:
