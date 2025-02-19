@@ -212,10 +212,9 @@ collections:
       name: Genre - Trakt List
       list: show-time
       summary: >-
-        Life's better with a backbeat! These spectacular song-and-dance
-        sensations prove that when the music hits, anything is possible. From
-        Broadway to back alleys, every moment's a show-stopper and every scene's
-        a finale.
+        From Broadway dreams to back alley beats, these spectacular
+        song-and-dance sensations hit every high note. Take center stage for
+        unforgettable musical magic!
   Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'

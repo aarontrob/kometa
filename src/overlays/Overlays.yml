@@ -2,7 +2,7 @@ overlays:
   DC:
     overlay:
       name: DC
-      file: config/overlays/DC/dc-overlay-v12.png
+      file: config/overlays/DC/dc-overlay-v2025.png
     plex_search:
       all:
         label: DC
@@ -27,11 +27,11 @@ overlays:
     plex_search:
       all:
         collection: Peanuts Collection
-  # Trending:
-  #   schedule: weekly(sunday)
-  #   overlay:
-  #     name: Trending
-  #     file: config/overlays/Trending/overlay-v7.png
-  #   plex_search:
-  #     all:
-  #       label: Trending
+  Viral Views:
+    # schedule: weekly(sunday)
+    overlay:
+      name: Viral Views
+      file: config/overlays/Viral Views/overlay.png
+    plex_search:
+      all:
+        label: Viral Views
