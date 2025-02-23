@@ -23,7 +23,7 @@ collections:
   Viral Views:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!2Viral Views"
+      sort_title: "!4Viral Views"
       summary: What's hot right now? These titles are climbing charts, sparking buzz, and winning new fans daily. From fresh hits to surprise comebacks, catch the latest must-watch movies while they're trending up!
     tmdb_trending_daily: 30
     collection_order: custom
@@ -31,7 +31,7 @@ collections:
   Just Released:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!3Just Released"
+      sort_title: "!2Just Released"
       summary: The wait is over! Hollywood's hottest hits make their streaming debut. Whether you missed them in theaters or can't wait to watch again, they're finally here.
     smart_filter:
       all:
@@ -40,7 +40,7 @@ collections:
   Only in Theaters:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!4Only in Theaters"
+      sort_title: "!3Only in Theaters"
       summary: >-
         The quality? Let’s just say it’s ‘bootleg chic.’ Expect a few interruptions, like random crypto ads in the middle of a tense scene, but hey, it’s free!
     smart_label: release.desc
