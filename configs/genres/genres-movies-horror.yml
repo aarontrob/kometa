@@ -95,7 +95,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: brains
-      label: horror
       summary: >-
         Get ready for a feast of flesh-eating mayhem! These undead thrillers are
         packed with groaning ghouls, slow-moving terror, and plenty of
@@ -117,7 +116,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: clowning-around
-      label: horror
       summary: >-
         Step right up and enjoy the show! These clown-filled films are full of
         fun, mischief, and a touch of the unexpected. Laughter is guaranteed,
@@ -130,7 +128,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: howl-at-the-moon
-      label: horror
       summary: >-
         Brace for a wild, fur-filled frenzy! These frightful flicks bring on
         beastly transformations, full moons, and chills that’ll have you
@@ -141,7 +138,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: killer-kids
-      label: horror
       summary: >-
         From sweet-faced tots to twisted teens, these pint-sized terrors prove
         evil comes in all ages. Don't let their innocent looks fool you - these
@@ -152,7 +148,6 @@ collections:
       name: Genre - Trakt List
       list: macabre-melodies
       name_mapping: Musical Horror
-      label: horror
       summary: >-
         The show must go on... even if it kills! These sinister sing-alongs
         blend pitch-perfect terror with show-stopping slaughter, proving that
@@ -173,7 +168,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: neck-biters
-      label: horror
       summary: >-
         Step into the shadows and face the creatures of the night! These movies
         deliver spine-chilling thrills, with vampires lurking in every corner.
@@ -182,7 +176,6 @@ collections:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: silent-fright
-      label: horror
       summary: >-
         'Tis the season… for terror! These bloody yuletide tales take holiday
         cheer to the darkest depths, with killer Santas, twisted carols, and
@@ -193,7 +186,6 @@ collections:
     template:
       name: Genre - Trakt List
       list: slasher-central
-      label: horror
       summary: >-
         Time to sharpen those knives and check the body count! These classic
         slashers serve up unstoppable killers, terrible decisions, and enough

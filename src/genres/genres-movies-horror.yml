@@ -14,7 +14,7 @@ collections:
     template:
       name: Genre - Trakt List
       list: brains
-      label: horror
+      # label: horror
       summary: Get ready for a feast of flesh-eating mayhem! These undead thrillers are packed with groaning ghouls, slow-moving terror, and plenty of brain-munching action. It’s the perfect collection for those who like their horror with a side of bite!
     smart_label: title.asc
   Blood and Gore:
@@ -28,7 +28,7 @@ collections:
     template:
       name: Genre - Trakt List
       list: clowning-around
-      label: horror
+      # label: horror
       summary: Step right up and enjoy the show! These clown-filled films are full of fun, mischief, and a touch of the unexpected. Laughter is guaranteed, but who knows what’s lurking under that painted smile?
     sync_mode: append
     plex_search:
@@ -38,14 +38,14 @@ collections:
     template:
       name: Genre - Trakt List
       list: howl-at-the-moon
-      label: horror
+      # label: horror
       summary: "Brace for a wild, fur-filled frenzy! These frightful flicks bring on beastly transformations, full moons, and chills that’ll have you questioning who—or what—is lurking in the shadows. It’s a supernatural adventure where danger lurks beneath every howl!"
     smart_label: title.asc
   Killer Kids:
     template:
       name: Genre - Trakt List
       list: killer-kids
-      label: horror
+      # label: horror
       summary: From sweet-faced tots to twisted teens, these pint-sized terrors prove evil comes in all ages. Don't let their innocent looks fool you - these kids are deadly and dying to play!
     smart_label: title.asc
   Macabre Melodies:
@@ -53,7 +53,7 @@ collections:
       name: Genre - Trakt List
       list: macabre-melodies
       name_mapping: Musical Horror
-      label: horror
+      # label: horror
       summary: The show must go on... even if it kills! These sinister sing-alongs blend pitch-perfect terror with show-stopping slaughter, proving that every performance could be your last. Break a leg - or several.
     smart_label: title.asc
   Murder & Gravy:
@@ -67,20 +67,20 @@ collections:
     template:
       name: Genre - Trakt List
       list: neck-biters
-      label: horror
+      # label: horror
       summary: Step into the shadows and face the creatures of the night! These movies deliver spine-chilling thrills, with vampires lurking in every corner.
     smart_label: title.asc
   Silent Fright:
     template:
       name: Genre [Holiday] - Trakt List
       list: silent-fright
-      label: horror
+      # label: horror
       summary: "'Tis the season… for terror! These bloody yuletide tales take holiday cheer to the darkest depths, with killer Santas, twisted carols, and enough gore to stain the snow red. It's festive as hell—just the way Krampus intended!"
     smart_label: title.asc
   Slasher Central:
     template:
       name: Genre - Trakt List
       list: slasher-central
-      label: horror
+      # label: horror
       summary: Time to sharpen those knives and check the body count! These classic slashers serve up unstoppable killers, terrible decisions, and enough creative kills to fill a morgue. From summer camps to suburban streets, nowhere is safe when the blade starts swinging.
     smart_label: title.asc
