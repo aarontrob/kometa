@@ -14,7 +14,7 @@ collections:
     template:
       name: Genre
       genre: Adventure
-      summary: Embark on daring expeditions that blur the lines between treasure hunting and survival! Whether facing ancient curses, high-tech villains, or nature's deadliest forces, these genre-bending quests prove that adventure comes in many flavors - and all of them are dangerous.
+      summary: \"Snakes. Why'd it have to be snakes?\" Maps unfold to exotic destinations where ordinary people face extraordinary challenges. From ancient ruins to wild frontiers, these films capture the thrill of discovery.
   Clue Me In: #Mystery
     template:
       name: Genre

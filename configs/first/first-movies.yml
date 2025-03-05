@@ -83,10 +83,9 @@ collections:
       name: 'First [Sort Title] - Custom'
       sort_title: '!6Watchlist'
       summary: >-
-        Ah, the Watchlist—a collection of movies you promised yourself you’d
-        watch but somehow keep dodging like a pro! Here’s to the films that are
-        just too good to watch… right now!
-    plex_watchlist: added.desc
+        Procrastination's Greatest Hits: Films too intimidating for a Tuesday,
+        too cerebral for a Friday, and somehow never quite right for any time in
+        between. Their runtime alone makes your eyelids heavy.
     sync_mode: sync
     smart_label: added.desc
     collection_filtering: user
