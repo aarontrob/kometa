@@ -143,16 +143,6 @@ collections:
         evil comes in all ages. Don't let their innocent looks fool you - these
         kids are deadly and dying to play!
     smart_label: title.asc
-  Macabre Melodies:
-    template:
-      name: Genre - Trakt List
-      list: macabre-melodies
-      name_mapping: Musical Horror
-      summary: >-
-        The show must go on... even if it kills! These sinister sing-alongs
-        blend pitch-perfect terror with show-stopping slaughter, proving that
-        every performance could be your last. Break a leg - or several.
-    smart_label: title.asc
   Murder & Gravy:
     template:
       name: 'Genre [Holiday] - Trakt List'

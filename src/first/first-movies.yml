@@ -10,68 +10,6 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  New Arrivals:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!1New Arrivals"
-      summary: A fresh batch of films has just arrived, offering a mix of genres and exciting new stories. Whether it’s action, comedy, or drama, there’s something for every taste.
-    smart_filter:
-      all:
-        added: 30
-      limit: 100
-      sort_by: added.desc
-  Viral Views:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!4Viral Views"
-      summary: What's hot right now? These titles are climbing charts, sparking buzz, and winning new fans daily. From fresh hits to surprise comebacks, catch the latest must-watch movies while they're trending up!
-    tmdb_trending_daily: 30
-    collection_order: custom
-    sync_mode: sync
-  Just Released:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!2Just Released"
-      summary: The wait is over! Hollywood's hottest hits make their streaming debut. Whether you missed them in theaters or can't wait to watch again, they're finally here.
-    smart_filter:
-      all:
-        release: 365
-      sort_by: release.desc
-  Only in Theaters:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!3Only in Theaters"
-      summary: >-
-        The quality? Let’s just say it’s ‘bootleg chic.’ Expect a few interruptions, like random crypto ads in the middle of a tense scene, but hey, it’s free!
-    smart_label: release.desc
-    plex_search:
-      all:
-        release.after: 01/01/2024
-    filters:
-      filepath.regex:
-        - '(?i)\bCAM\b'
-        - '(?i)\bTELESYNC\b'
-  To Be Continued…:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!5To Be Continued..."
-      summary: Films that leave you hanging, testing your patience like never before! These cliffhangers will have you shouting, “What’s next?” as you relish the anticipation of unfinished stories!
-    collection_filtering: user
-    smart_filter:
-      sort_by: title.asc
-      all:
-        progress: true
-        plays.lt: 1
-    # visible_home: true
-  Watchlist:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!6Watchlist"
-      summary: "Procrastination's Greatest Hits: Films too intimidating for a Tuesday, too cerebral for a Friday, and somehow never quite right for any time in between. Their runtime alone makes your eyelids heavy."
-    sync_mode: sync
-    smart_label: added.desc
-    collection_filtering: user
-    label: Aaron
   All-Time Faves:
     template:
       name: First [Sort Title] - Custom
@@ -86,6 +24,68 @@ collections:
         any:
           label: Aaron
     # visible_home: true
+  Just Released:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!2Just Released"
+      summary: The barrier is broken! Hollywood's hottest hits have slipped free from theaters and are zooming straight to your screen. Whether you missed them on the big screen or can't wait to watch again, they've escaped captivity and are finally here.
+    smart_filter:
+      all:
+        release: 365
+      sort_by: release.desc
+  New Arrivals:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!1New Arrivals"
+      summary: A fresh batch of films has just arrived, offering a mix of genres and exciting new stories. Whether it’s action, comedy, or drama, there’s something for every taste.
+    smart_filter:
+      all:
+        added: 30
+      limit: 100
+      sort_by: added.desc
+  Only in Theaters:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!3Only in Theaters"
+      summary: >-
+        The quality? Let’s just say it’s ‘bootleg chic.’ Expect a few interruptions, like random crypto ads in the middle of a tense scene, but hey, it’s free!
+    smart_label: release.desc
+    plex_search:
+      all:
+        release.after: 01/01/2024
+    filters:
+      filepath.regex:
+        - '(?i)\bCAM\b'
+        - '(?i)\bTELESYNC\b'
+  To Be Continued:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!5To Be Continued"
+      summary: "Cinema Interrupted: Movies you started with the best intentions but somehow only experienced the first half. The plots thicken somewhere beyond where your consciousness ended."
+    collection_filtering: user
+    smart_filter:
+      sort_by: title.asc
+      all:
+        progress: true
+        plays.lt: 1
+    # visible_home: true
+  Viral Views:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!4Viral Views"
+      summary: What's hot right now? These titles are climbing charts, sparking buzz, and winning new fans daily. From fresh hits to surprise comebacks, catch the latest must-watch movies while they're trending up!
+    tmdb_trending_daily: 30
+    collection_order: custom
+    sync_mode: sync
+  # Watchlist:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!6Watchlist"
+  #     summary: "Procrastination's Greatest Hits: Films too intimidating for a Tuesday, too cerebral for a Friday, and somehow never quite right for any time in between. Their runtime alone makes your eyelids heavy."
+  #   sync_mode: sync
+  #   smart_label: added.desc
+  #   collection_filtering: user
+  #   label: Aaron
   Aaron's Faves:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/movies-aaron
