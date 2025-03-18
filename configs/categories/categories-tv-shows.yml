@@ -67,11 +67,4 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: '!3.5_Category <<collection_name>>'
     summary: <<summary>>
-collections:
-  'First Impressions: Pilot Episodes Only':
-    template:
-      name: Category - Trakt List
-      list: tv-pilot-episode
-      summary: >-
-        Start your journey with these pilot episodes, setting the stage for
-        stories you can dive into if they spark your interest.
+collections: null

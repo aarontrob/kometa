@@ -15,7 +15,7 @@ collections:
   All-Time Faves:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!7All-Time Faves'
+      sort_title: '!5All-Time Faves'
       name_mapping: 'All-Time Faves [TV]'
       summary: >-
         The champions of rewatchability. These tried-and-true favorites prove
@@ -29,10 +29,18 @@ collections:
           user_rating.gte: 9.5
         any:
           label: Aaron
+  'First Impressions: Pilot Episodes Only':
+    template:
+      name: 'First - [Sort Title] - Custom'
+      sort_title: '!6First Impressions: Pilot Episodes Only'
+      list: tv-pilot-episode
+      summary: >-
+        Start your journey with these pilot episodes, setting the stage for
+        stories you can dive into if they spark your interest.
   Just Released:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!2Just Released'
+      sort_title: '!3Just Released'
       summary: >-
         They're here! Hollywood's biggest blockbusters have escaped theatrical
         captivity and are streaming straight to your home. Your second chance to
@@ -55,7 +63,8 @@ collections:
       sort_by: added.desc
   7-Day Rewind:
     template:
-      name: First - Custom
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!27-Day Rewind'
       summary: Episodes that have aired in the last 7 days
     builder_level: episode
     smart_filter:

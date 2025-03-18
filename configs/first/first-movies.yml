@@ -28,6 +28,14 @@ collections:
           user_rating.gte: 9.5
         any:
           label: Aaron
+  Certified Fresh:
+    template:
+      name: Genre - Trakt List
+      list: movies-certified-fresh
+      summary: >-
+        Snagging the golden seal of approval, these films are the crème de la
+        crème! Certified fresh by Rotten Tomatoes, they offer an entertaining
+        adventure that’s sure to keep you captivated—popcorn at the ready!
   Just Released:
     template:
       name: 'First [Sort Title] - Custom'
