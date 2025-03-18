@@ -23,7 +23,7 @@ collections:
       name: Genre - Trakt List
       list: blood-and-gore
       # label: horror
-      summary: Celebrate the wet work of horror's greatest effects artists. These films don't just cross the line—they gleefully obliterate it in spectacular crimson fashions.
+      summary: Celebrate the wet work of horror's greatest effects artists. These films don't just cross the line—they gleefully obliterate it in spectacular crimson fashion.
     smart_label: title.asc
   Clowning Around:
     template:
