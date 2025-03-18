@@ -28,7 +28,7 @@ collections:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!2Just Released"
-      summary: The barrier is broken! Hollywood's hottest hits have slipped free from theaters and are zooming straight to your screen. Whether you missed them on the big screen or can't wait to watch again, they've escaped captivity and are finally here.
+      summary: They're here! Hollywood's biggest blockbusters have escaped theatrical captivity and are streaming straight to your home. Your second chance to catch what you missed has arrived.
     smart_filter:
       all:
         release: 365
@@ -48,7 +48,7 @@ collections:
       name: First [Sort Title] - Custom
       sort_title: "!3Only in Theaters"
       summary: >-
-        The quality? Let’s just say it’s ‘bootleg chic.’ Expect a few interruptions, like random crypto ads in the middle of a tense scene, but hey, it’s free!
+        Why so pixelated? Premium releases meet amateur cinematography in this collection. The quality's questionable, the angles are strange, but the thrill of forbidden viewing comes through in every frame.
     smart_label: release.desc
     plex_search:
       all:
@@ -73,7 +73,7 @@ collections:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!4Viral Views"
-      summary: What's hot right now? These titles are climbing charts, sparking buzz, and winning new fans daily. From fresh hits to surprise comebacks, catch the latest must-watch movies while they're trending up!
+      summary: Films experiencing explosive viewership right now—for better or worse. Whether trending for cinematic brilliance, spectacular disasters, or 'you have to see it to believe it' moments, these titles have everyone talking.
     tmdb_trending_daily: 30
     collection_order: custom
     sync_mode: sync

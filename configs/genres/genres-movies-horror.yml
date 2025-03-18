@@ -96,21 +96,19 @@ collections:
       name: Genre - Trakt List
       list: brains
       summary: >-
-        Get ready for a feast of flesh-eating mayhem! These undead thrillers are
-        packed with groaning ghouls, slow-moving terror, and plenty of
-        brain-munching action. It’s the perfect collection for those who like
-        their horror with a side of bite!
+        "They're coming to get you, Barbara!" Shuffling, moaning, and refusing
+        to stay buried. These undead epics showcase humanity's stand against
+        opponents who lack pulse but compensate with persistence.
     smart_label: title.asc
-  Blood and Gore:
+  Blood & Gore:
     template:
       name: Genre - Trakt List
       list: blood-and-gore
       label: horror
       summary: >-
-        Grab a raincoat for this splatterfest of creative carnage and practical
-        effects mayhem! These blood-soaked spectaculars prove that more is gore
-        when it comes to pushing the limits of good taste. From cannibals to
-        creatures, every kill is a work of art - in red.
+        Celebrate the wet work of horror's greatest effects artists. These films
+        don't just cross the line—they gleefully obliterate it in spectacular
+        crimson fashion.
     smart_label: title.asc
   Clowning Around:
     template:

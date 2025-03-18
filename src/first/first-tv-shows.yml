@@ -10,6 +10,30 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  All-Time Faves:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!7All-Time Faves"
+      name_mapping: All-Time Faves [TV]
+      summary: The champions of rewatchability. These tried-and-true favorites prove their worth with every viewing, offering the rare combination of comfort and quality that keeps you coming back.
+    collection_filtering: user
+    smart_filter:
+      sort_by: title.asc
+      any:
+        all:
+          user_rating.gte: 9.5
+        any:
+          label: Aaron
+    # visible_home: true
+  Just Released:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!2Just Released"
+      summary: They're here! Hollywood's biggest blockbusters have escaped theatrical captivity and are streaming straight to your home. Your second chance to catch what you missed has arrived.
+    smart_filter:
+      all:
+        release: 365
+      sort_by: release.desc
   New Arrivals:
     template:
       name: First [Sort Title] - Custom
@@ -20,7 +44,7 @@ collections:
         added: 30
       limit: 100
       sort_by: added.desc
-  Recently Aired:
+  7-Day Rewind:
     template:
       name: First - Custom
       summary: Episodes that have aired in the last 7 days
@@ -30,31 +54,36 @@ collections:
         episode_air_date: 7
         episode_unplayed: true
       sort_by: episode_release.desc
-  Watchlist:
+  To Be Continued:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!6Watchlist"
-      summary: 'The "One Day" Queue: An impressive lineup of must-watch shows that keep getting bumped by ''just one more episode'' of your comfort series.'
-    plex_watchlist: added.desc
-    sync_mode: sync
-    smart_label: added.desc
-    collection_filtering: user
-    label: Aaron
-  All-Time Faves:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!7All-Time Faves"
-      name_mapping: All-Time Faves [TV]
-      summary: "Your comfort shows that never get old: Those reliable series you return to again and again, where every rewatch feels like coming home."
+      sort_title: "!5To Be Continued"
+      summary: "Cinema Interrupted: Movies you started with the best intentions but somehow only experienced the first half. The plots thicken somewhere beyond where your consciousness ended."
     collection_filtering: user
     smart_filter:
       sort_by: title.asc
-      any:
-        all:
-          user_rating.gte: 9.5
-        any:
-          label: Aaron
+      all:
+        progress: true
+        plays.lt: 1
     # visible_home: true
+  Viral Views:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!4Viral Views"
+      summary: Films experiencing explosive viewership right now—for better or worse. Whether trending for cinematic brilliance, spectacular disasters, or 'you have to see it to believe it' moments, these titles have everyone talking.
+    tmdb_trending_daily: 30
+    collection_order: custom
+    sync_mode: sync
+  # Watchlist:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!6Watchlist"
+  #     summary: 'The "One Day" Queue: An impressive lineup of must-watch shows that keep getting bumped by ''just one more episode'' of your comfort series.'
+  #   plex_watchlist: added.desc
+  #   sync_mode: sync
+  #   smart_label: added.desc
+  #   collection_filtering: user
+  #   label: Aaron
   Aaron's Faves:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/tv-aaron

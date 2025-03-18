@@ -14,7 +14,8 @@ collections:
     template:
       name: Genre
       genre: Adventure
-      summary: \"Snakes. Why'd it have to be snakes?\" Maps unfold to exotic destinations where ordinary people face extraordinary challenges. From ancient ruins to wild frontiers, these films capture the thrill of discovery.
+      summary: >-
+        "Snakes. Why'd it have to be snakes?" Maps unfold to exotic destinations where ordinary people face extraordinary challenges. From ancient ruins to wild frontiers, these films capture the thrill of discovery.
   Clue Me In: #Mystery
     template:
       name: Genre
@@ -29,7 +30,7 @@ collections:
     template:
       name: Genre
       genre: Action
-      summary: Crank up the chaos with this arsenal of pedal-to-metal mayhem! From brass-knuckle brawls to missile-launching muscle cars, these films deliver pure, uncut adrenaline straight to the heart. Just remember - in this game, you shoot first and ask questions... never.
+      summary: Maximum velocity, minimum restraint! These action spectacles pack impossible stunts, endless ammunition, and directors who consider 'subtle' a dirty word.
   Game Changers: #Sports
     template:
       name: Genre
@@ -40,12 +41,13 @@ collections:
     template:
       name: Genre
       genre: Comedy
-      summary: Get ready to laugh! These comedies are filled with wild humor, over-the-top characters, and unforgettable moments that’ll leave you grinning from ear to ear.
+      summary: >-
+        Comedy roulette: spin the wheel and take your chances. From comedy's hall of fame to its hall of shame, these films deliver both masterful timing and spectacular misfires in their quest for laughter.
   Live & Unfiltered:
     template:
       name: Genre - Trakt List
       list: live-unfiltered
-      summary: Take a front-row seat for comedy without a safety net! These fearless funny folks turn life's chaos into pure hilarity, armed with nothing but a mic and razor-sharp wit. Every joke lands, every story kills, and nothing is off limits.
+      summary: Raw comedy captured in its natural habitat. These mic-wielding risk-takers transform uncomfortable truths into unstoppable laughter with nothing but their wits and questionable life choices.
     smart_label: title.asc
   Magic & Myth:
     template:
@@ -56,7 +58,7 @@ collections:
     template:
       name: Genre - Trakt List Other
       list: https://trakt.tv/users/k0meta/lists/film-noir-movies
-      summary: Welcome to the wrong side of midnight, where cigarette smoke dances with danger and everyone's got an angle. These black-and-white beauties serve up hard-boiled detectives, dangerous dames, and enough double-crosses to make your head spin. Just remember - in this city, trust is the deadliest weapon of all.
+      summary: The dark corners of human desire, framed in shadow and cynicism. These moody masterpieces feature razor-sharp dialogue, fatal attractions, and the kind of nightmares that wear elegant suits.
   Out of This World: #Sci-fi
     template:
       name: Genre
@@ -83,7 +85,8 @@ collections:
     template:
       name: Genre - Trakt List
       list: show-time
-      summary: From Broadway dreams to back alley beats, these spectacular song-and-dance sensations hit every high note. Take center stage for unforgettable musical magic!
+      summary: >-
+        Glorious emotion amplified through melody! These dazzling spectacles transport ordinary moments into sequined showcases where feelings deserve choreography and life's soundtrack includes a full orchestra.
   Trick-or-Treat: #Halloween
     template:
       name: Genre [Holiday] - Trakt List
