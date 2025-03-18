@@ -350,6 +350,12 @@ collections:
       summary: >-
         He's not very good looking. But when the lights go out...he's still not
         very good looking.
+  Dick Tracy Collection:
+    template:
+      name: Collection - Movie
+      collection: 224011
+      movie: 8592
+      summary: The Streets Were Mean. His Justice Was Meaner.
   Die Hard Collection:
     template:
       name: Collection - Movie
