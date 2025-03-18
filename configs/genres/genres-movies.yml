@@ -99,6 +99,13 @@ collections:
         "Snakes. Why'd it have to be snakes?" Maps unfold to exotic destinations
         where ordinary people face extraordinary challenges. From ancient ruins
         to wild frontiers, these films capture the thrill of discovery.
+  Bound to Be Seen:
+    template:
+      name: Genre - Trakt List Other
+      list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-books'
+      summary: >-
+        From page to screen, these beloved books come to life—get ready for
+        timeless tales turned into cinematic magic!
   Clue Me In:
     template:
       name: Genre
@@ -107,6 +114,14 @@ collections:
         Whodunnit? Get ready for a ride full of twists, turns, and sleuthing
         galore. These mystery films will have you on the edge of your seat,
         piecing together clues and unraveling the truth before the final reveal.
+  Comic Book Legends:
+    template:
+      name: Genre - Trakt List Other
+      list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-comics'
+      summary: >-
+        Zap! Bang! Boom! These larger-than-life adventures leap from comic
+        panels to the big screen, packed with heroes, hijinks, and high-flying
+        action!
   Criminal Intent:
     template:
       name: Genre
@@ -131,6 +146,20 @@ collections:
       summary: >-
         These films span all facets of sports, from heart-pounding drama to
         hilarious comedies and true stories of athletes who made their mark.
+  Game Over:
+    template:
+      name: Genre - Trakt List Other
+      list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-video-games'
+      summary: >-
+        Grab your popcorn, player one! These flicks bring the game screen to the
+        big screen—packed with pixelated thrills and joystick joyrides!
+  Hidden Gems:
+    template:
+      name: Genre - Trakt List
+      list: movies-hidden-gems
+      summary: >-
+        Discover underrated treasures and overlooked classics waiting to shine
+        on your screen!
   Laugh Out Loud:
     template:
       name: Genre
@@ -193,6 +222,13 @@ collections:
         talent transform into stardom as ordinary people become extraordinary
         legends. Every breakthrough, breakdown, and comeback crafted these
         unforgettable legacies.
+  'Real Events, Reel Stories':
+    template:
+      name: Genre - Trakt List Other
+      list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories'
+      summary: >-
+        True tales hit the silver screen! From heart-pounding heroics to wild
+        twists of fate, these flicks bring real-life moments to movie magic!
   Season's Greetings:
     template:
       name: 'Genre [Holiday] - Trakt List'
@@ -210,6 +246,14 @@ collections:
         Glorious emotion amplified through melody! These dazzling spectacles
         transport ordinary moments into sequined showcases where feelings
         deserve choreography and life's soundtrack includes a full orchestra.
+  'So Bad, It''s Good':
+    template:
+      name: Genre - Trakt List
+      list: bad-movies-collection
+      summary: >-
+        Get ready for a collection of hilariously awful films that are just
+        plain shit! With epic fails and laugh-out-loud moments, these gems are
+        perfect for a night of guilty pleasure!
   Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'
