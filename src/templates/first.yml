@@ -6,7 +6,9 @@ First - Custom:
   summary: <<summary>>
 First [Sort Title] - Custom:
   optional:
+    - list
     - sort_title
     - summary
+  trakt_list: https://trakt.tv/users/goape/lists/<<list>>
   sort_title: "!_First <<sort_title>>"
   summary: <<summary>>

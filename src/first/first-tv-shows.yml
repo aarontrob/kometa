@@ -25,10 +25,10 @@ collections:
         any:
           label: Aaron
     # visible_home: true
-  "First Impressions: Pilot Episodes Only":
+  "First Impressions: Pilots Only":
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!6First Impressions: Pilot Episodes Only"
+      sort_title: "!6First Impressions: Pilots Only"
       list: tv-pilot-episode
       summary: Start your journey with these pilot episodes, setting the stage for stories you can dive into if they spark your interest.
   Just Released:

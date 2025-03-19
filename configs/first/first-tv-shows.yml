@@ -7,8 +7,10 @@ templates:
     summary: <<summary>>
   'First [Sort Title] - Custom':
     optional:
+      - list
       - sort_title
       - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sort_title: '!_First <<sort_title>>'
     summary: <<summary>>
 collections:
@@ -29,10 +31,10 @@ collections:
           user_rating.gte: 9.5
         any:
           label: Aaron
-  'First Impressions: Pilot Episodes Only':
+  'First Impressions: Pilots Only':
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!6First Impressions: Pilot Episodes Only'
+      sort_title: '!6First Impressions: Pilots Only'
       list: tv-pilot-episode
       summary: >-
         Start your journey with these pilot episodes, setting the stage for
