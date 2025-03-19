@@ -53,7 +53,7 @@ collections:
   7-Day Rewind:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!27-Day Rewind"
+      sort_title: "!2Seven-Day Rewind"
       summary: Episodes that have aired in the last 7 days
     builder_level: episode
     smart_filter:
@@ -70,7 +70,7 @@ collections:
     smart_filter:
       sort_by: title.asc
       all:
-        progress: true
+        episode_progress: true
         plays.lt: 1
     # visible_home: true
   Viral Views:
