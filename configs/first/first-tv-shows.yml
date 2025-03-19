@@ -81,6 +81,7 @@ collections:
         somehow only experienced the first half. The plots thicken somewhere
         beyond where your consciousness ended.
     collection_filtering: user
+    builder_level: episode
     smart_filter:
       sort_by: title.asc
       all:
