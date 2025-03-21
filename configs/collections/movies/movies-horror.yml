@@ -659,6 +659,11 @@ collections:
     plex_search:
       title: Salem's Lot
     label: Horror
+  Saturday the 14th Collection:
+    template:
+      name: Collection
+      collection: 1236913
+      summary: It gets bad on Friday the 13th but gets worse on Saturday the 14th
   Scream Collection:
     template:
       name: Collection - Trakt List Custom Order
@@ -1008,7 +1013,6 @@ collections:
   Ring Collection: *ref_0
   The Rocky Horror Picture Show Collection: *ref_0
   Rosemary's Baby Collection: *ref_0
-  Saturday the 14th Collection: *ref_0
   Saw Collection: *ref_0
   Scanners Collection: *ref_0
   Scanner Cop Collection: *ref_0
