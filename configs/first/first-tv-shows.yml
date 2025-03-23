@@ -44,9 +44,9 @@ collections:
       name: 'First [Sort Title] - Custom'
       sort_title: '!3Just Released'
       summary: >-
-        They're here! Hollywood's biggest blockbusters have escaped theatrical
-        captivity and are streaming straight to your home. Your second chance to
-        catch what you missed has arrived.
+        They're here! A full year of television's newest offerings, now
+        available at your fingertips. Your chance to experience the series
+        everyone's been discussing has arrived.
     smart_filter:
       all:
         release: 365
@@ -67,7 +67,10 @@ collections:
     template:
       name: 'First [Sort Title] - Custom'
       sort_title: '!2Seven-Day Rewind'
-      summary: Episodes that have aired in the last 7 days
+      summary: >-
+        Television's freshest offerings from the past week — unmissable gems and
+        notorious flops alike. Your guide to what everyone's been watching,
+        discussing, or dramatically abandoning.
     builder_level: episode
     smart_filter:
       all:
@@ -79,9 +82,9 @@ collections:
       name: 'First [Sort Title] - Custom'
       sort_title: '!5To Be Continued'
       summary: >-
-        Cinema Interrupted: Movies you started with the best intentions but
-        somehow only experienced the first half. The plots thicken somewhere
-        beyond where your consciousness ended.
+        Serialized Slumber: TV episodes that proved too powerful for your
+        eyelids. The characters continue their journey long after you've begun
+        yours into dreamland.
     collection_filtering: user
     builder_level: episode
     smart_filter:
@@ -94,10 +97,9 @@ collections:
       name: 'First [Sort Title] - Custom'
       sort_title: '!4Viral Views'
       summary: >-
-        Films experiencing explosive viewership right now—for better or worse.
-        Whether trending for cinematic brilliance, spectacular disasters, or
-        'you have to see it to believe it' moments, these titles have everyone
-        talking.
+        Shows experiencing explosive viewership right now—for better or worse.
+        Whether trending for brilliance, disasters, or must-see moments, these
+        episodes have everyone talking.
     tmdb_trending_daily: 30
     collection_order: custom
     sync_mode: sync

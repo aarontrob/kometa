@@ -104,8 +104,9 @@ collections:
       name: Genre - Trakt List Other
       list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-books'
       summary: >-
-        From page to screen, these beloved books come to life—get ready for
-        timeless tales turned into cinematic magic!
+        Stories that couldn't be contained by puny book covers. Watch as beloved
+        tales break free from their paper prisons and gain special effects,
+        soundtracks, and occasionally questionable casting choices.
   Clue Me In:
     template:
       name: Genre
