@@ -131,6 +131,11 @@ collections:
         Get ready for gritty heists, dirty deals, and criminals with nothing to
         lose. These films dive deep into the underworld, where the stakes are
         high, and the law is nowhere to be found.
+  Femme Fatale:
+    template:
+      name: Genre - Trakt List
+      list: femme-fatale
+      summary: null
   Full Throttle:
     template:
       name: Genre
