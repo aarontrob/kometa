@@ -120,9 +120,9 @@ collections:
       name: Genre - Trakt List Other
       list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-comics'
       summary: >-
-        Zap! Bang! Boom! These larger-than-life adventures leap from comic
-        panels to the big screen, packed with heroes, hijinks, and high-flying
-        action!
+        From basement collections to blockbuster phenomena. These comic
+        adaptations span from game-changing masterpieces to endearingly
+        misguided swings, each adding their own flavor to the multiverse.
   Criminal Intent:
     template:
       name: Genre

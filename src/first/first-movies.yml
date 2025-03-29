@@ -82,15 +82,15 @@ collections:
     tmdb_trending_daily: 30
     collection_order: custom
     sync_mode: sync
-  # Watchlist:
-  #   template:
-  #     name: First [Sort Title] - Custom
-  #     sort_title: "!6Watchlist"
-  #     summary: "Procrastination's Greatest Hits: Films too intimidating for a Tuesday, too cerebral for a Friday, and somehow never quite right for any time in between. Their runtime alone makes your eyelids heavy."
-  #   sync_mode: sync
-  #   smart_label: added.desc
-  #   collection_filtering: user
-  #   label: Aaron
+  Watchlist:
+    template:
+      name: First [Sort Title] - Custom
+      sort_title: "!6Watchlist"
+      summary: "Procrastination's Greatest Hits: Films too intimidating for a Tuesday, too cerebral for a Friday, and somehow never quite right for any time in between. Their runtime alone makes your eyelids heavy."
+    sync_mode: sync
+    smart_label: added.desc
+    collection_filtering: user
+    label: Aaron
   Aaron's Faves:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/movies-aaron
