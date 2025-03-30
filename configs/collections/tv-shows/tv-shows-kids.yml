@@ -547,8 +547,8 @@ collections:
       title: Laverne & Shirley
   The Lion King Collection:
     template:
-      name: Collection - Shows
-      show: '64752, 4429'
+      name: Collection - Trakt List Custom Order
+      list: the-lion-king-collection
       sort_title: Lion King Collection
       summary: >-
         The greatest adventure of all is finding our place in the circle of

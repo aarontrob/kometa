@@ -311,9 +311,8 @@ collections:
       summary: They come in pieces.
   The Lion King Collection:
     template:
-      name: Collection - Movie
-      collection: 94032
-      movie: 420818, 40647 359983
+      name: Collection - Trakt List Custom Order
+      list: the-lion-king-collection
       sort_title: Lion King Collection
       summary: The greatest adventure of all is finding our place in the circle of life.
   The Little Mermaid Collection:
