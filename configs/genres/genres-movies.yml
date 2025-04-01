@@ -135,7 +135,10 @@ collections:
     template:
       name: Genre - Trakt List
       list: femme-fatale
-      summary: null
+      summary: >-
+        Dangerous curves and deadlier motives. These sirens prove lipstick and
+        lingering eye contact outgun any weapon. Watch brilliant men lose all
+        reason, sealing their doom when they mistake predator for prey.
   Full Throttle:
     template:
       name: Genre
