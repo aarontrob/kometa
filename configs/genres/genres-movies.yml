@@ -238,15 +238,15 @@ collections:
       summary: >-
         True tales hit the silver screen! From heart-pounding heroics to wild
         twists of fate, these flicks bring real-life moments to movie magic!
-  Season's Greetings:
+  Holiday Hijinks:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: season-s-greetings
       smart_label: title.asc
       summary: >-
-        Break out the eggnog and mistletoe! These festive flicks are packed with
-        holiday cheer and enough yuletide magic to make even Scrooge smile. It’s
-        a holly jolly celebration of the season!
+        Tinsel-covered chaos with a side of nog. These seasonal selections
+        capture December's beautiful complexity—family reunions, heightened
+        emotions, and the magic when holiday plans veer off course.
   Show Time:
     template:
       name: Genre - Trakt List
