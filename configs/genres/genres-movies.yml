@@ -96,9 +96,9 @@ collections:
       name: Genre
       genre: Adventure
       summary: >-
-        "Snakes. Why'd it have to be snakes?" Maps unfold to exotic destinations
-        where ordinary people face extraordinary challenges. From ancient ruins
-        to wild frontiers, these films capture the thrill of discovery.
+        From mystical realms to unexplored frontiers, adventure films thrust
+        everyday heroes into extraordinary journeys. Where danger lurks,
+        discovery follows. Buckle up for the ride.
   Bound to Be Seen:
     template:
       name: Genre - Trakt List Other
@@ -271,7 +271,7 @@ collections:
         Light up the jack-o’-lanterns for chills and thrills! These eerie flicks
         are packed with ghouls and goblins that’ll leave you shiverin’ with
         delight. It’s a screamfest that’s to die for!
-  Turkey Lurkey Time:
+  Turkey Time:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-thanksgiving
