@@ -105,12 +105,12 @@ collections:
       name: Genre - Trakt List Other
       list: https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
       summary: True tales hit the silver screen! From heart-pounding heroics to wild twists of fate, these flicks bring real-life moments to movie magic!
-  Holiday Hijinks: #Christmas
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: season-s-greetings
-      smart_label: title.asc
-      summary: Tinsel-covered chaos with a side of nog. These seasonal selections capture December's beautiful complexity—family reunions, heightened emotions, and the magic when holiday plans veer off course.
+  # Holiday Hijinks: #Christmas
+  #   template:
+  #     name: Genre [Holiday] - Trakt List
+  #     list: season-s-greetings
+  #     smart_label: title.asc
+  #     summary: Tinsel-covered chaos with a side of nog. These seasonal selections capture December's beautiful complexity—family reunions, heightened emotions, and the magic when holiday plans veer off course.
   Show Time:
     template:
       name: Genre - Trakt List
@@ -149,3 +149,12 @@ collections:
       name: Genre
       genre: Western
       summary: Saddle up for a rootin'-tootin' adventure! These rugged tales are packed with dusty trails, quick-draw showdowns, and outlaws with grit. It's the wild frontier, where legends are born and the spirit of the Old West rides on!
+
+  Delete-Temp:
+    build_collection: false
+    smart_filter: # Dummy builder
+      all:
+        release: 1
+    delete_collections_named:
+      # Movies
+      - Holiday Hijinks
