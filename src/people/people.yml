@@ -11,11 +11,11 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Abbott & Costello:
-    template:
-      name: People
-      person: Bud Abbott, Lou Costello
-      summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
+  # Abbott & Costello:
+  #   template:
+  #     name: People
+  #     person: Bud Abbott, Lou Costello
+  #     summary: Abbott and Costello were an American comedy duo composed of comedians Bud Abbott and Lou Costello, whose work on radio and in film and television made them the most popular comedy team of the 1940s and early 1950s and the highest-paid entertainers in the world during World War II.
   Adam Sandler:
     template:
       name: People
