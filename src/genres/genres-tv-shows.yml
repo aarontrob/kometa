@@ -10,6 +10,11 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  DocuSeries:
+    template:
+      name: Genre
+      genre: Documentary
+      summary: Truth captured by filmmakers with equal parts passion and raised eyebrows. These documentaries showcase humanity in all its messy glory - from world-changing events to delightfully trivial obsessions. Reality consistently delivers stories that no screenwriter could dream up.
   Tinsel Time:
     template:
       name: Genre [Holiday] - Trakt List
@@ -29,7 +34,7 @@ collections:
     template:
       name: Genre [Holiday] - Trakt List Episodes
       list: tv-halloween-episodes
-  Thanksgiving Episodes:
+  Turkey Time Episodes:
     template:
       name: Genre [Holiday] - Trakt List Episodes
       list: tv-thanksgiving-episodes

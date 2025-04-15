@@ -86,9 +86,10 @@ collections:
       summary: The dark corners of human desire, framed in shadow and cynicism. These moody masterpieces feature razor-sharp dialogue, fatal attractions, and the kind of nightmares that wear elegant suits.
   Out of This World: #Sci-fi
     template:
-      name: Genre
-      genre: Science Fiction
-      summary: Blast off to worlds beyond! These far-out flicks are packed with cosmic capers and mind-bending adventures that’ll take you light-years away. Enjoy sci-fi thrills and otherworldly chills for those craving the unknown!
+      name: Genre - Trakt List
+      list: live-unfiltered
+      summary: Raw comedy captured in its natural habitat. These mic-wielding risk-takers transform uncomfortable truths into unstoppable laughter with nothing but their wits and questionable life choices.
+    smart_label: title.asc
   Plunder & Peril:
     template:
       name: Genre - Trakt List
