@@ -43,9 +43,9 @@ collections:
       name: 'First [Sort Title] - Custom'
       sort_title: '!2Just Released'
       summary: >-
-        They're here! Hollywood's biggest blockbusters have escaped theatrical
-        captivity and are streaming straight to your home. Your second chance to
-        catch what you missed has arrived.
+        Hollywood's biggest blockbusters have escaped theatrical captivity and
+        are streaming straight to your home. Your second chance to catch what
+        you missed has arrived.
     smart_filter:
       all:
         release: 365
