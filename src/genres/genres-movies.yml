@@ -152,7 +152,7 @@ collections:
       summary: Saddle up for a rootin'-tootin' adventure! These rugged tales are packed with dusty trails, quick-draw showdowns, and outlaws with grit. It's the wild frontier, where legends are born and the spirit of the Old West rides on!
   Wired Differently:
     template:
-      name: Collection - Trakt List
+      name: Genre - Trakt List
       list: wired-differently
       summary: Stories where different wiring makes life more interesting, not broken. When everyday experiences hit different and social scripts need constant rewrites, these titles showcase minds that bring something fresh just by being themselves. No fixing required.
     label: Hide

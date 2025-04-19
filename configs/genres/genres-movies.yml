@@ -310,7 +310,7 @@ collections:
         rides on!
   Wired Differently:
     template:
-      name: Collection - Trakt List
+      name: Genre - Trakt List
       list: wired-differently
       summary: >-
         Stories where different wiring makes life more interesting, not broken.
