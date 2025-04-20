@@ -91,7 +91,7 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  DocuSeries:
+  Truth Be Told:
     template:
       name: Genre
       genre: Documentary

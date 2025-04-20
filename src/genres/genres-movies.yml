@@ -145,6 +145,11 @@ collections:
       name: Genre
       genre: Thriller
       summary: "Take a deep breath - it might be your last! These pulse-pounding thrillers turn every moment into a countdown and every choice into a deadly game. Between conspiracy and paranoia, trust becomes the ultimate weapon. Just remember: the truth is never what it seems."
+  Truth Be Told:
+    template:
+      name: Genre
+      genre: Documentary
+      summary: Truth captured by filmmakers with equal parts passion and raised eyebrows. These documentaries showcase humanity in all its messy glory - from world-changing events to delightfully trivial obsessions. Reality consistently delivers stories that no screenwriter could dream up.
   "Wanted: Dead or Alive":
     template:
       name: Genre

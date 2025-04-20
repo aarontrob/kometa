@@ -10,7 +10,7 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  DocuSeries:
+  Truth Be Told:
     template:
       name: Genre
       genre: Documentary
