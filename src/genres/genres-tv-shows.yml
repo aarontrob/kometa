@@ -10,16 +10,23 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  Naughty & Nice:
+    template:
+      name: Genre [Holiday] - Trakt List
+      list: tv-christmas
+      summary: Holiday troublemakers and yuletide do-gooders collide in this festive collection. These stories showcase the glorious chaos that unfolds when both sides of Santa's list come together.
   Truth Be Told:
     template:
       name: Genre
       genre: Documentary
       summary: Truth captured by filmmakers with equal parts passion and raised eyebrows. These documentaries showcase humanity in all its messy glory - from world-changing events to delightfully trivial obsessions. Reality consistently delivers stories that no screenwriter could dream up.
-  Tinsel Time:
+  Wired Differently:
     template:
-      name: Genre [Holiday] - Trakt List
-      list: tv-christmas
-      summary:
+      name: Genre - Trakt List
+      list: wired-differently
+      summary: Stories where different wiring makes life more interesting, not broken. When everyday experiences hit different and social scripts need constant rewrites, these titles showcase minds that bring something fresh just by being themselves. No fixing required.
+    label: Hide
+    item_label: Hide
   Christmas Episodes:
     template:
       name: Genre [Holiday] - Trakt List Episodes

@@ -238,15 +238,15 @@ collections:
       summary: >-
         True tales hit the silver screen! From heart-pounding heroics to wild
         twists of fate, these flicks bring real-life moments to movie magic!
-  Holiday Hijinks:
+  Naughty & Nice:
     template:
       name: 'Genre [Holiday] - Trakt List'
-      list: season-s-greetings
+      list: naughty-nice
       smart_label: title.asc
       summary: >-
-        Tinsel-covered chaos with a side of nog. These seasonal selections
-        capture December's beautiful complexity—family reunions, heightened
-        emotions, and the magic when holiday plans veer off course.
+        Holiday troublemakers and yuletide do-gooders collide in this festive
+        collection. These stories showcase the glorious chaos that unfolds when
+        both sides of Santa's list come together.
   Show Time:
     template:
       name: Genre - Trakt List
