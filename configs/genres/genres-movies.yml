@@ -204,13 +204,13 @@ collections:
         the kind of nightmares that wear elegant suits.
   Out of This World:
     template:
-      name: Genre - Trakt List
-      list: live-unfiltered
+      name: Genre
+      genre: Science Fiction
+      list: out-of-this-world
       summary: >-
-        Raw comedy captured in its natural habitat. These mic-wielding
-        risk-takers transform uncomfortable truths into unstoppable laughter
-        with nothing but their wits and questionable life choices.
-    smart_label: title.asc
+        Distant galaxies and altered realities. Time warps and mind-bending
+        technology. The impossible becomes possible as human ingenuity meets
+        cosmic forces in extraordinary ways.
   Plunder & Peril:
     template:
       name: Genre - Trakt List
