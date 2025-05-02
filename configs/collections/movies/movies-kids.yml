@@ -709,6 +709,11 @@ collections:
       list: the-smurfs-collection
       sort_title: Smurfs Collection
       summary: Smurf happens
+  Snow White Collection:
+    template:
+      name: Collection - Movies
+      movie: '447273, 408'
+      summary: The fairest of them all.
   Sonic the Hedgehog Collection:
     template:
       name: Collection - Trakt List Custom Order
