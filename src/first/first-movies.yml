@@ -13,7 +13,7 @@ collections:
   All-Time Faves:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!7All-Time Faves"
+      sort_title: "!8All-Time Faves"
       summary: These movies have earned their spot as your absolute favorites, guaranteed to always deliver the perfect blend of nostalgia and enjoyment every time.
     collection_filtering: user
     smart_filter:
@@ -26,7 +26,8 @@ collections:
     # visible_home: true
   Certified Fresh:
     template:
-      name: Genre - Trakt List
+      name: First [Sort Title] - Custom
+      sort_title: "!4Certified Fresh"
       list: movies-certified-fresh
       summary: Snagging the golden seal of approval, these films are the crème de la crème! Certified fresh by Rotten Tomatoes, they offer an entertaining adventure that’s sure to keep you captivated—popcorn at the ready!
   Just Released:
@@ -62,10 +63,10 @@ collections:
       filepath.regex:
         - '(?i)\bCAM\b'
         - '(?i)\bTELESYNC\b'
-  To Be Continued:
+  To Be Continued...:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!5To Be Continued"
+      sort_title: "!6To Be Continued"
       summary: "Cinema Interrupted: Movies you started with the best intentions but somehow only experienced the first half. The plots thicken somewhere beyond where your consciousness ended."
     collection_filtering: user
     smart_filter:
@@ -77,7 +78,7 @@ collections:
   Viral Views:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!4Viral Views"
+      sort_title: "!5Viral Views"
       summary: Films experiencing explosive viewership right now—for better or worse. Whether trending for cinematic brilliance, spectacular disasters, or 'you have to see it to believe it' moments, these titles have everyone talking.
     tmdb_trending_daily: 30
     collection_order: custom
@@ -85,7 +86,7 @@ collections:
   Watchlist:
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!6Watchlist"
+      sort_title: "!7Watchlist"
       summary: "Procrastination's Greatest Hits: Films too intimidating for a Tuesday, too cerebral for a Friday, and somehow never quite right for any time in between. Their runtime alone makes your eyelids heavy."
     plex_watchlist: added.desc
     collection_order: custom

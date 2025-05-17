@@ -17,7 +17,7 @@ collections:
   All-Time Faves:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!7All-Time Faves'
+      sort_title: '!8All-Time Faves'
       summary: >-
         These movies have earned their spot as your absolute favorites,
         guaranteed to always deliver the perfect blend of nostalgia and
@@ -32,7 +32,8 @@ collections:
           label: Aaron
   Certified Fresh:
     template:
-      name: Genre - Trakt List
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!4Certified Fresh'
       list: movies-certified-fresh
       summary: >-
         Snagging the golden seal of approval, these films are the crème de la
@@ -79,10 +80,10 @@ collections:
       filepath.regex:
         - (?i)\bCAM\b
         - (?i)\bTELESYNC\b
-  To Be Continued:
+  To Be Continued...:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!5To Be Continued'
+      sort_title: '!6To Be Continued'
       summary: >-
         Cinema Interrupted: Movies you started with the best intentions but
         somehow only experienced the first half. The plots thicken somewhere
@@ -96,7 +97,7 @@ collections:
   Viral Views:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!4Viral Views'
+      sort_title: '!5Viral Views'
       summary: >-
         Films experiencing explosive viewership right now—for better or worse.
         Whether trending for cinematic brilliance, spectacular disasters, or
@@ -108,7 +109,7 @@ collections:
   Watchlist:
     template:
       name: 'First [Sort Title] - Custom'
-      sort_title: '!6Watchlist'
+      sort_title: '!7Watchlist'
       summary: >-
         Procrastination's Greatest Hits: Films too intimidating for a Tuesday,
         too cerebral for a Friday, and somehow never quite right for any time in

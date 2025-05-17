@@ -188,10 +188,6 @@ collections:
       show: 1930
       sort_title: Beverly Hillbillies Collection
       name_mapping: The Beverly Hillbillies Collection (TV)
-  Bewitched Collection:
-    template:
-      name: Collection - Shows
-      show: '4482, 1074'
   Big Brother Collection:
     template:
       name: Collection - Trakt List Custom Order
