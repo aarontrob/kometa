@@ -169,6 +169,14 @@ collections:
       summary: >-
         Discover underrated treasures and overlooked classics waiting to shine
         on your screen!
+  Jazz Hands:
+    template:
+      name: Genre - Trakt List
+      list: show-time
+      summary: >-
+        Glorious emotion amplified through melody! These dazzling spectacles
+        transport ordinary moments into sequined showcases where feelings
+        deserve choreography and life's soundtrack includes a full orchestra.
   Laugh Out Loud:
     template:
       name: Genre
@@ -247,14 +255,6 @@ collections:
         Holiday troublemakers and yuletide do-gooders collide in this festive
         collection. These stories showcase the glorious chaos that unfolds when
         both sides of Santa's list come together.
-  Show Time:
-    template:
-      name: Genre - Trakt List
-      list: show-time
-      summary: >-
-        Glorious emotion amplified through melody! These dazzling spectacles
-        transport ordinary moments into sequined showcases where feelings
-        deserve choreography and life's soundtrack includes a full orchestra.
   'So Bad, It''s Good':
     template:
       name: Genre - Trakt List
