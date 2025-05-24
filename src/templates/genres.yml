@@ -18,14 +18,14 @@ Genre [Bottom]:
       genre: <<genre>>
     sort_by: random
   label: <<label>>
-  sort_title: ~_Genre <<collection_name>>
+  sort_title: "!3_Genre <<collection_name>>"
   summary: <<summary>>
 Genre [Bottom] - Custom:
   optional:
     - label
     - summary
   label: <<label>>
-  sort_title: ~_Genre <<collection_name>>
+  sort_title: "!3_Genre <<collection_name>>"
   summary: <<summary>>
 Genre - Trakt List:
   optional:
@@ -55,7 +55,7 @@ Genre [Bottom] - Trakt List:
   sync_mode: sync
   label: <<label>>
   smart_label: random
-  sort_title: ~_Genre <<collection_name>>
+  sort_title: "!3_Genre <<collection_name>>"
   summary: <<summary>>
 Genre [Holiday] - Trakt List:
   optional:

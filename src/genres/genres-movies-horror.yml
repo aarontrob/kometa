@@ -35,6 +35,12 @@ collections:
     plex_search:
       title: Stephen King's IT
     smart_label: title.asc
+  Fright Features:
+    template:
+      name: Genre
+      genre: Horror
+      list: movies-horror
+      summary:
   Howl at the Moon:
     template:
       name: Genre - Trakt List
@@ -57,6 +63,11 @@ collections:
       # label: horror
       summary: The show must go on... even if it kills! These sinister sing-alongs blend pitch-perfect terror with show-stopping slaughter, proving that every performance could be your last. Break a leg - or several.
     smart_label: title.asc
+  Monster Mash:
+    template:
+      name: Genre - Trakt List
+      list: monster-mash
+      summary: Cinema's deadliest menagerie unleashed in all their magnificent, teeth-baring glory. These predators turn humans into the hunted with spectacular results and zero remorse. Proof that sometimes the food chain needs rearranging.
   Murder & Gravy:
     template:
       name: Genre [Holiday] - Trakt List

@@ -67,4 +67,24 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: '!3.5_Category <<collection_name>>'
     summary: <<summary>>
-collections: null
+collections:
+  90s Comedies:
+    template:
+      name: Category - Custom
+      summary: null
+    smart_filter:
+      all:
+        genre: Comedy
+      any:
+        year:
+          - 1990
+          - 1991
+          - 1992
+          - 1993
+          - 1994
+          - 1995
+          - 1996
+          - 1997
+          - 1998
+          - 1999
+      sort_by: random
