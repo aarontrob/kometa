@@ -161,10 +161,9 @@ collections:
       name: Genre - Trakt List
       list: monster-mash
       summary: >-
-        Cinema's deadliest menagerie unleashed in all their magnificent,
-        teeth-baring glory. These predators turn humans into the hunted with
-        spectacular results and zero remorse. Proof that sometimes the food
-        chain needs rearranging.
+        Nature's most magnificently oversized predators remind humanity exactly
+        where we stand on the food chain. These colossal creatures prove bigger
+        isn't just better – it's absolutely terrifying.
   Murder & Gravy:
     template:
       name: 'Genre [Holiday] - Trakt List'

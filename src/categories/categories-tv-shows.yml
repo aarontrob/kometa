@@ -10,6 +10,11 @@ templates: !!import/shallow
 ######################################################
 
 collections:
+  Decades Deep Dive:
+    template:
+      name: Category - Trakt List
+      list: decades-deep-dive
+      summary: From peace signs to shoulder pads, these films dissect the cultural DNA of America's most fascinating decades. Watch as each era's biggest obsessions become the next generation's punchlines. Time capsules cracked open for maximum nostalgic impact.
   # "First Impressions: Pilot Episodes Only":
   #   template:
   #     name: Category - Trakt List

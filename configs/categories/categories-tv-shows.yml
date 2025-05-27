@@ -67,4 +67,13 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: '!3.5_Category <<collection_name>>'
     summary: <<summary>>
-collections: null
+collections:
+  Decades Deep Dive:
+    template:
+      name: Category - Trakt List
+      list: decades-deep-dive
+      summary: >-
+        From peace signs to shoulder pads, these films dissect the cultural DNA
+        of America's most fascinating decades. Watch as each era's biggest
+        obsessions become the next generation's punchlines. Time capsules
+        cracked open for maximum nostalgic impact.

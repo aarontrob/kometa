@@ -122,7 +122,7 @@ collections:
     template:
       name: Genre - Trakt List
       list: bad-movies-collection
-      summary: Get ready for a collection of hilariously awful films that are just plain shit! With epic fails and laugh-out-loud moments, these gems are perfect for a night of guilty pleasure!
+      summary: Films so earnestly awful they become transcendent viewing experiences. These lovable disasters prove the worst movies make the best entertainment. Unintentional comedy gold.
   Trick-or-Treat: #Halloween
     template:
       name: Genre [Holiday] - Trakt List

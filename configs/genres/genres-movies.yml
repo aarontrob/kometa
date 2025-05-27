@@ -19,14 +19,14 @@ templates:
         genre: <<genre>>
       sort_by: random
     label: <<label>>
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Custom':
     optional:
       - label
       - summary
     label: <<label>>
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List:
     optional:
@@ -56,7 +56,7 @@ templates:
     sync_mode: sync
     label: <<label>>
     smart_label: random
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List':
     optional:
@@ -260,9 +260,9 @@ collections:
       name: Genre - Trakt List
       list: bad-movies-collection
       summary: >-
-        Get ready for a collection of hilariously awful films that are just
-        plain shit! With epic fails and laugh-out-loud moments, these gems are
-        perfect for a night of guilty pleasure!
+        Films so earnestly awful they become transcendent viewing experiences.
+        These lovable disasters prove the worst movies make the best
+        entertainment. Unintentional comedy gold.
   Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'
