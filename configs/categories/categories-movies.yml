@@ -87,4 +87,4 @@ collections:
             - 1997
             - 1998
             - 1999
-        sort_by: random
+      sort_by: title.asc
