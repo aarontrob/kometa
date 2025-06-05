@@ -106,11 +106,13 @@ collections:
       name: Genre - Trakt List
       list: portrait-gallery
       smart_label: title.desc
-      summary: From humble beginnings to legendary status, these intimate portraits capture the rise, fall, and resurrection of cultural icons. Watch raw talent transform into stardom as ordinary people become extraordinary legends. Every breakthrough, breakdown, and comeback crafted these unforgettable legacies.
+      summary: Real people who became larger than life, captured in all their brilliant and terrible glory. These biographical gems showcase the price of greatness and the cost of genius.
   Real Events, Reel Stories:
     template:
       name: Genre - Trakt List Other
-      list: https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
+      list:
+        - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
+        - https://trakt.tv/users/goape/lists/real-events-reel-stories
       summary: True tales hit the silver screen! From heart-pounding heroics to wild twists of fate, these flicks bring real-life moments to movie magic!
   Naughty & Nice:
     template:
