@@ -290,15 +290,14 @@ collections:
         biopics, and fictional films, showcasing thrilling moments on stage and
         captivating stories inspired by the power of music.
     smart_label: title.asc
-  Total Tension:
+  Pulse Pounders:
     template:
       name: Genre
       genre: Thriller
       summary: >-
-        Take a deep breath - it might be your last! These pulse-pounding
-        thrillers turn every moment into a countdown and every choice into a
-        deadly game. Between conspiracy and paranoia, trust becomes the ultimate
-        weapon. Just remember: the truth is never what it seems.
+        Films that turn silence into a weapon and shadows into enemies. These
+        nail-biting thrillers prove sometimes the most terrifying sound is no
+        sound at all.
   Truth Be Told:
     template:
       name: Genre
