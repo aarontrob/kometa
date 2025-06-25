@@ -19,14 +19,14 @@ templates:
         genre: <<genre>>
       sort_by: random
     label: <<label>>
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Custom':
     optional:
       - label
       - summary
     label: <<label>>
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List:
     optional:
@@ -56,7 +56,7 @@ templates:
     sync_mode: sync
     label: <<label>>
     smart_label: random
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List':
     optional:
@@ -115,7 +115,7 @@ collections:
         Get ready for a monster mash of fun! These Halloween flicks bring on the
         laughs, treats, and spooky surprises for a night full of thrills and
         chills—perfect for a ghoulishly good time!
-  Turkey Lurkey Time:
+  Turkey Time:
     template:
       name: 'Genre [Holiday] - Trakt List'
       list: movies-kids-thanksgiving

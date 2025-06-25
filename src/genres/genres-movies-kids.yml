@@ -25,7 +25,7 @@ collections:
       name: Genre [Holiday] - Trakt List
       list: movies-kids-halloween
       summary: Get ready for a monster mash of fun! These Halloween flicks bring on the laughs, treats, and spooky surprises for a night full of thrills and chills—perfect for a ghoulishly good time!
-  Turkey Lurkey Time:
+  Turkey Time:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-kids-thanksgiving
