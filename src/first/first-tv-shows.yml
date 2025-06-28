@@ -98,19 +98,19 @@ collections:
     trakt_list: https://trakt.tv/users/goape/lists/tv-aaron
     item_label: Aaron
     sync_mode: append
-    non_item_remove_label: Hide
-  Pilot Episodes:
-    build_collection: false
-    trakt_list: https://trakt.tv/users/goape/lists/tv-pilot-episode
-    item_label: Pilot Episodes
-    sync_mode: append
-    non_item_remove_label: Hide
+    non_item_remove_label: Aaron
+  # Pilot Episodes:
+  #   build_collection: false
+  #   trakt_list: https://trakt.tv/users/goape/lists/tv-pilot-episode
+  #   item_label: Pilot Episodes
+  #   sync_mode: append
+  #   non_item_remove_label: Pilot Episodes
   First Season:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/tv-first-season
     item_label: First Season
     sync_mode: append
-    non_item_remove_label: Hide
+    non_item_remove_label: First Season
   Hide:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/hide

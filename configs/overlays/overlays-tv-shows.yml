@@ -34,3 +34,11 @@ overlays:
     plex_search:
       all:
         label: First Season
+  New-Episodes:
+    overlay:
+      name: New-Episodes
+      file: config/overlays/New-Episodes/overlay.png
+    plex_search:
+      type: shows
+      all:
+        episode_air_date: 7
