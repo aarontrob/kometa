@@ -108,11 +108,3 @@ collections:
             - 1988
             - 1989
       sort_by: title.asc
-  Video Nasties:
-    template:
-      name: Category - Trakt List
-      list: video-nasties
-      summary: >-
-        72 films so gloriously offensive they made the UK government lose their
-        collective minds. These censorship-defying masterpieces showcase what
-        happens when filmmakers refuse to play by society's rules.

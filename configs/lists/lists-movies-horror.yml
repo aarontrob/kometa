@@ -81,3 +81,11 @@ collections:
         experts, including Editor in Chief Anthony Timpone, Adam Lukeman has
         compiled a must-have guide for casual horror fans and hardcore horror
         junkies with Fangoria's 101 Best Horror Films You've Never Seen.
+  Video Nasties:
+    template:
+      name: List - Trakt List
+      list: video-nasties
+      summary: >-
+        72 films so gloriously offensive they made the UK government lose their
+        collective minds. These censorship-defying masterpieces showcase what
+        happens when filmmakers refuse to play by society's rules.
