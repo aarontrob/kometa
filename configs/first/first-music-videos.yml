@@ -30,7 +30,7 @@ collections:
       sort_by: title.asc
       any:
         all:
-          episode_rating.gte: 9.5
+          episode_user_rating.gte: 9.5
         any:
           label: Aaron
   New Arrivals:
