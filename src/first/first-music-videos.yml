@@ -22,7 +22,7 @@ collections:
       sort_by: title.asc
       any:
         all:
-          user_rating.gte: 9.5
+          episode_rating.gte: 9.5
         any:
           label: Aaron
     # visible_home: true

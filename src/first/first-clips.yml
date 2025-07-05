@@ -33,7 +33,7 @@ collections:
       sort_by: title.asc
       any:
         all:
-          user_rating.gte: 9.5
+          episode_rating.gte: 9.5
         any:
           label: Aaron
     # visible_home: true
@@ -58,6 +58,6 @@ collections:
     smart_filter:
       sort_by: title.asc
       all:
-        progress: true
+        episode_progress: true
         plays.lt: 1
     # visible_home: true
