@@ -65,7 +65,7 @@ collections:
   Jazz Hands:
     template:
       name: Genre - Trakt List
-      list: show-time
+      list: jazz-hands
       summary: >-
         Glorious emotion amplified through melody! These dazzling spectacles transport ordinary moments into sequined showcases where feelings deserve choreography and life's soundtrack includes a full orchestra.
   Laugh Out Loud:
