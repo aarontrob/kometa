@@ -1,0 +1,70 @@
+templates:
+  First - Custom:
+    optional:
+      - sort_title
+      - summary
+    sort_title: '!_First <<collection_name>>'
+    summary: <<summary>>
+  'First [Sort Title] - Custom':
+    optional:
+      - list
+      - sort_title
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sort_title: '!_First <<sort_title>>'
+    summary: <<summary>>
+collections:
+  7-Day Rewind:
+    template:
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!2Seven-Day Rewind'
+      summary: Coming Soon
+    builder_level: episode
+    smart_filter:
+      all:
+        episode_air_date: 7
+        episode_unplayed: true
+      sort_by: episode_release.desc
+  All-Time Faves:
+    template:
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!5All-Time Faves'
+      summary: >-
+        The champions of rewatchability. These tried-and-true favorites prove
+        their worth with every viewing, offering the rare combination of comfort
+        and quality that keeps you coming back.
+    collection_filtering: user
+    builder_level: episode
+    smart_filter:
+      sort_by: title.asc
+      any:
+        all:
+          user_rating.gte: 9.5
+        any:
+          label: Aaron
+  New Arrivals:
+    template:
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!1New Arrivals'
+      name_mapping: 'New Arrivals [Clips]'
+      summary: Fresh clips have landed!
+    smart_filter:
+      all:
+        added: 30
+      limit: 100
+      sort_by: added.desc
+  To Be Continued...:
+    template:
+      name: 'First [Sort Title] - Custom'
+      sort_title: '!6To Be Continued'
+      summary: >-
+        Cinema Interrupted: Movies you started with the best intentions but
+        somehow only experienced the first half. The plots thicken somewhere
+        beyond where your consciousness ended.
+    builder_level: episode
+    collection_filtering: user
+    smart_filter:
+      sort_by: title.asc
+      all:
+        progress: true
+        plays.lt: 1

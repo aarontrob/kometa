@@ -1,0 +1,17 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../../templates/collection.yml
+  - ../../templates/search.yml
+
+######################################################
+#                   Collections                      #
+######################################################
+
+collections:
+  YouTube:
+    plex_search:
+      all:
+        label: YouTube
