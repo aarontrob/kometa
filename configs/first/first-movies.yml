@@ -8,9 +8,11 @@ templates:
   'First [Sort Title] - Custom':
     optional:
       - list
+      - name_mapping
       - sort_title
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    name_mapping: <<name_mapping>>
     sort_title: '!_First <<sort_title>>'
     summary: <<summary>>
 collections:
