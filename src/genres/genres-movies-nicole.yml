@@ -10,8 +10,9 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Tinsel Time:
+  Naughty & Nice:
     template:
-      name: Genre [Holiday] - Trakt List [Hide Items]
-      list: movies-mom-christmas
+      name: Genre [Holiday] - Trakt List
+      list: movies-nicole-christmas
       summary: Step into a world where every small town is dusted with snow, every holiday misunderstanding leads to love, and every story feels wonderfully… familiar. Cozy cottages, festive fairs, and heartwarming romance await in these tales, each one just a little different but all wrapped up with the same perfect Christmas bow!
+    smart_label: release.asc

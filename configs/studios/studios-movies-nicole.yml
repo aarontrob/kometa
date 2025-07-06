@@ -1,0 +1,89 @@
+templates:
+  Studio:
+    optional:
+      - list
+      - summary
+    tmdb_company: <<company>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title]':
+    optional:
+      - list
+      - summary
+    tmdb_company: <<company>>
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<sort_title>>'
+    summary: <<summary>>
+  Studio - Smart:
+    optional:
+      - summary
+    smart_filter:
+      any:
+        studio: <<studio>>
+        title: <<title>>
+      sort_by: release.asc
+    item_label: <<collection_name>>
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Smart':
+    optional:
+      - summary
+    smart_filter:
+      any:
+        studio: <<studio>>
+        title: <<title>>
+      sort_by: release.asc
+    item_label: <<collection_name>>
+    sort_title: '!5_Studio <<sort_title>>'
+    summary: <<summary>>
+  Studio - Trakt List:
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Trakt List':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    smart_label: release.asc
+    sort_title: '!5_Studio <<sort_title>>'
+    summary: <<summary>>
+  Studio - Trakt List Custom Order:
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+  'Studio [Sort Title] - Trakt List Custom Order':
+    optional:
+      - summary
+    trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    collection_mode: show_items
+    sort_title: '!5_Studio <<sort_title>>'
+    summary: <<summary>>
+  Studio - Search:
+    optional:
+      - summary
+    plex_search:
+      title: <<title>>
+    smart_label: release.asc
+    sort_title: '!5_Studio <<collection_name>>'
+    summary: <<summary>>
+collections:
+  Hallmark:
+    template:
+      name: Studio - Trakt List
+      list: hallmark
+      summary: >-
+        Romance so sweet it makes your teeth hurt in the best possible way.
+        These delightfully formulaic treasures feature love stories where the
+        worst thing that happens is running out of pumpkin spice. Pure sugary
+        escapism.

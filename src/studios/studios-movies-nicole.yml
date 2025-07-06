@@ -1,0 +1,17 @@
+######################################################
+#                    Templates                       #
+######################################################
+
+templates: !!import/shallow
+  - ../templates/studios.yml
+
+######################################################
+#             Studios - Movies-Kids                  #
+######################################################
+
+collections:
+  Hallmark:
+    template:
+      name: Studio - Trakt List
+      list: hallmark
+      summary: Romance so sweet it makes your teeth hurt in the best possible way. These delightfully formulaic treasures feature love stories where the worst thing that happens is running out of pumpkin spice. Pure sugary escapism.
