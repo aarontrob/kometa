@@ -2,10 +2,10 @@ overlays:
   CAM:
     overlay:
       name: CAM
-      file: config/overlays/Cam/overlay.png
+      file: config/overlays/cam/overlay.png
     plex_search:
       all:
-        release.after: 01/01/2022
+        release.after: 01/01/2025
     filters:
       filepath.regex:
         - (?i)\bCAM\b
