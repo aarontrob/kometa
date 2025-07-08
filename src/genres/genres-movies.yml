@@ -60,7 +60,7 @@ collections:
   Hidden Gems:
     template:
       name: Genre - Trakt List
-      list: movies-hidden-gems
+      list: hidden-gems
       summary: Discover underrated treasures and overlooked classics waiting to shine on your screen!
   Jazz Hands:
     template:
