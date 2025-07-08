@@ -19,14 +19,14 @@ templates:
         genre: <<genre>>
       sort_by: random
     label: <<label>>
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Custom':
     optional:
       - label
       - summary
     label: <<label>>
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List:
     optional:
@@ -56,7 +56,7 @@ templates:
     sync_mode: sync
     label: <<label>>
     smart_label: random
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List':
     optional:
@@ -99,6 +99,14 @@ collections:
         Holiday troublemakers and yuletide do-gooders collide in this festive
         collection. These stories showcase the glorious chaos that unfolds when
         both sides of Santa's list come together.
+  Out Loud:
+    template:
+      name: Genre - Trakt List
+      list: out-loud
+      summary: >-
+        Shows featuring fierce individuals who refuse to fit into society's
+        boring little boxes. These series celebrate the beautiful chaos of being
+        authentically, unapologetically human.
   Truth Be Told:
     template:
       name: Genre
