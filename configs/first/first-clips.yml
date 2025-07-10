@@ -53,7 +53,7 @@ collections:
     builder_level: episode
     smart_filter:
       all:
-        added: 30
+        date_episode_added: 30
       limit: 100
       sort_by: added.desc
   To Be Continued...:
