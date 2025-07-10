@@ -50,6 +50,7 @@ collections:
       sort_title: '!1New Arrivals'
       name_mapping: 'New Arrivals [Clips]'
       summary: Fresh clips have landed!
+    builder_level: episode
     smart_filter:
       all:
         added: 30
