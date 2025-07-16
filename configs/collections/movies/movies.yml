@@ -149,12 +149,6 @@ unmanaged: &ref_0
   template:
     name: Unmanaged
 collections:
-  Addams Family Collection:
-    template:
-      name: Collection - Movie
-      collection: 11716
-      movie: '11508, 481084, 639721'
-      summary: Creepy. Kooky. Spooky. Ooky.
   Æon Flux Collection:
     template:
       name: Collection - Hide Movie
