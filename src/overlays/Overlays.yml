@@ -27,14 +27,14 @@ overlays:
     plex_search:
       all:
         collection: Peanuts Collection
-  RT-Fresh:
-    # schedule: weekly(sunday)
-    overlay:
-      name: RT-Fresh
-      file: config/overlays/RT-Fresh/overlay.png
-    plex_search:
-      all:
-        collection: Certified Fresh
+  # RT-Fresh:
+  #   # schedule: weekly(sunday)
+  #   overlay:
+  #     name: RT-Fresh
+  #     file: config/overlays/RT-Fresh/overlay.png
+  #   plex_search:
+  #     all:
+  #       collection: Certified Fresh
   Viral Views:
     # schedule: weekly(sunday)
     overlay:
