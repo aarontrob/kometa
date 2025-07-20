@@ -149,123 +149,10 @@ unmanaged: &ref_0
   template:
     name: Unmanaged
 collections:
-  Æon Flux Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 8202
-      sort_title: Aeon Flux Collection
-  Airplane Collection:
-    template:
-      name: Collection
-      collection: 91663
-      summary: Does anyone here speak Jive?
-  Alien Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: alien-collection-timeline
-      summary: In space no one can hear you scream.
-  Aquaman Collection:
-    template:
-      name: Collection
-      collection: 573693
-      summary: >-
-        Monarch of the undersea realm of Atlantis and King of the Seven Seas,
-        Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom
-        that covers three-quarters of the Earth's surface, including all the
-        creatures contained within.
-  Around the World in 80 Days Collection:
-    template:
-      name: Collection - Movies
-      movie: '10204, 2897'
-      summary: 'It''s a wonderful world, if you''ll only take the time to go around it!'
-  The Avengers Collection:
-    template:
-      name: Collection
-      collection: 86311
-      sort_title: Avengers Collection
-      summary: Earth's Mightiest Heroes
-  Back to the Future Collection:
-    template:
-      name: Collection - Movie
-      collection: 264
-      movie: 330127
-      summary: 'Where we''re going, we don''t need roads'
-    plex_search:
-      title: Back to the Future... The Ride
-  The Bad News Bears Collection:
-    template:
-      name: Collection - Movie
-      collection: 215326
-      movie: 13341
-      summary: Baseball has rules. Meet the exceptions.
-  Batman Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: batman-collection
-      summary: Justice is always Darkest before the Dawn.
-  Battlestar Galactica Collection:
-    template:
-      name: Collection - Trakt List
-      list: battlestar-galactica-collection
-      summary: >-
-        The fight to save humanity rages on. Where will you stand? Destiny is
-        not what it seems.
-  Beavis and Butt-Head Collection:
-    template:
-      name: Collection
-      collection: 939227
-      summary: >-
-        Do you have any T.P.? T.P. for my bunghole? I would hate for my
-        bungholio to get polio.
-  The Beverly Hillbillies Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 11041
-      sort_title: Beverly Hillbillies Collection
-  Bewitched Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 9722
-  Bill & Ted's Most Excellent Collection:
-    template:
-      name: Collection
-      collection: 91746
-  Blade Runner Collection:
-    template:
-      name: Collection - Movie
-      collection: 422837
-      movie: 57656
-      summary: Man Has Made His Match... Now It's His Problem
-  The Brady Bunch Collection:
-    template:
-      name: Collection - Movie
-      collection: 224478
-      movie: '76657, 49358'
-      summary: Sure Jan.
   Buck Rogers Collection:
     template:
       name: Collection - Hide Movie
       movie: 3786
-  Cape Fear Collection:
-    template:
-      name: Collection - Movies
-      movie: '1598, 11349'
-      summary: There is nothing in the dark that isn't there in the light. Except fear.
-  Captain America Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: captain-america-collection
-  Charlie's Angels Collection:
-    template:
-      name: Collection - Movie
-      collection: 86029
-      movie: 458897
-      summary: >-
-        An American media franchise that follows the adventures of the Angels, a
-        team of women working for the Townsend Agency, a private detective
-        agency, under the leadership of Charlie Townsend, their unseen boss. The
-        film series is a continuation of the story with later generations of
-        Angels.
   The Christmas Chronicles Collection:
     template:
       name: Collection
@@ -273,50 +160,6 @@ collections:
       summary: >-
         The magical adventures of Santa Claus, Mrs. Claus and the Pierce
         siblings.
-  A Christmas Story Collection:
-    template:
-      name: Collection - Movie
-      collection: 201873
-      movie: 485517
-      summary: You’ll shoot your eye out!
-  Clash of the Titans Collection:
-    template:
-      name: Collection - Movie
-      collection: 86780
-      movie: 10323
-      summary: >-
-        A fantasy action franchise based on characters and myths of Ancient
-        Greek mythology involving the Greek hero Perseus.
-  Clueless Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 9603
-  Conan the Barbarian Collection:
-    template:
-      name: Collection - Movie
-      collection: 43055
-      movie: 37430
-      summary: >-
-        A film adaptation of the classic sword and sorcery hero, Conan the
-        Barbarian. A horde of rampaging warriors massacre the parents of young
-        Conan and enslave the young child for years on The Wheel of Pain. As the
-        sole survivor of the childhood massacre, Conan is released from slavery
-        and taught the ancient arts of fighting. Transforming himself into a
-        killing machine, Conan travels into the wilderness to seek vengeance on
-        Thulsa Doom, the man responsible for killing his family. In the
-        wilderness, Conan takes up with the thieves Valeria and Subotai. The
-        group comes upon King Osric, who wants the trio of warriors to help
-        rescue his daughter who has joined Doom in the hills.
-  Cornetto Trilogy:
-    template:
-      name: Collection - Trakt List
-      list: cornetto-trilogy
-      collection_mode: show_items
-      summary: >-
-        An anthology series of British comedic genre films directed by Edgar
-        Wright, written by Wright and Simon Pegg, produced by Nira Park, and
-        starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead
-        (2004), Hot Fuzz (2007), and The World's End (2013).
   The Count of Monte Cristo Collection:
     template:
       name: Collection - Trakt List
@@ -396,22 +239,6 @@ collections:
       summary: >-
         A world beyond your experience, beyond your imagination. A place beyond
         your dreams.
-  Eastrail 177 Collection:
-    template:
-      name: Collection - Movies
-      movie: '9741, 381288, 450465'
-      summary: >-
-        The Eastrail 177 Trilogy is an American superhero thriller and
-        psychological horror film series. The films were written, produced, and
-        directed by M. Night Shyamalan. The trilogy consists of Unbreakable,
-        Split, and Glass. The entire franchise features the character of David
-        Dunn and follows his life as he realizes he has superpowers after
-        surviving a train crash.
-  Eraser Collection:
-    template:
-      name: Collection - Movies
-      movie: '923597, 9268'
-      summary: He will erase your past to protect your future.
   Fallen Collection:
     template:
       name: Collection

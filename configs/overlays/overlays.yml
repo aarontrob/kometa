@@ -27,6 +27,13 @@ overlays:
     plex_search:
       all:
         collection: Peanuts Collection
+  RT-Fresh:
+    overlay:
+      name: RT-Fresh
+      file: config/overlays/RT-Fresh/overlay.png
+    plex_search:
+      all:
+        collection: Certified Fresh
   Viral Views:
     overlay:
       name: Viral Views
