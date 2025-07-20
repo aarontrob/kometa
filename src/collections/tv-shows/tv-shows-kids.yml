@@ -105,10 +105,10 @@ collections:
       name: Collection - Hide Show
       show: 68665, 114466
       summary: "Hello, I am Baymax, your personal healthcare companion."
-  Bill & Ted's Most Excellent Collection:
-    template:
-      name: Collection - Hide Show
-      show: 35006
+  # Bill & Ted's Most Excellent Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 35006
   The Boss Baby Collection:
     template:
       name: Collection - Shows
