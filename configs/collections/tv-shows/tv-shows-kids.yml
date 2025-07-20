@@ -152,11 +152,6 @@ collections:
     template:
       name: Collection - Hide Show
       show: 2831
-  Addams Family Collection:
-    template:
-      name: Collection - Shows
-      show: '12925, 13015'
-      summary: Creepy. Kooky. Spooky. Ooky.
   Aladdin Collection:
     template:
       name: Collection - Hide Show
@@ -187,15 +182,6 @@ collections:
     template:
       name: Collection - Hide Show
       show: 73919
-  Aquaman Collection:
-    template:
-      name: Collection - Hide Show
-      show: '10724, 936'
-      summary: >-
-        Monarch of the undersea realm of Atlantis and King of the Seven Seas,
-        Aquaman is one of the most powerful DC Super Heroes—commanding a kingdom
-        that covers three-quarters of the Earth’s surface, including all the
-        creatures contained within.
   Archie Collection:
     template:
       name: Collection - Trakt List
@@ -211,22 +197,6 @@ collections:
       name: Collection - Shows
       show: '2913, 93693'
       summary: 'Submitted for the approval of the Midnight Society, I call this story...'
-  The Avengers Collection:
-    template:
-      name: Search
-      title: Avengers
-      sort_title: Avengers Collection
-      summary: Earth's Mightiest Heroes
-  Back to the Future Collection:
-    template:
-      name: Collection - Hide Show
-      show: 4745
-  Batman Collection:
-    template:
-      name: Collection - Trakt List
-      list: batman-collection
-      name_mapping: Batman Collection (TV Kids)
-      summary: Justice is always Darkest before the Dawn.
   The Beatles Collection:
     template:
       name: Collection - Hide Show
@@ -285,10 +255,6 @@ collections:
         Chip and Dale (also spelled Chip 'n' Dale) are a cartoon duo of
         anthropomorphic chipmunk brothers created in 1943 by The Walt Disney
         Company.
-  Conan the Barbarian Collection:
-    template:
-      name: Collection - Hide Show
-      show: 13885
   The Croods Collection:
     template:
       name: Collection - Shows
