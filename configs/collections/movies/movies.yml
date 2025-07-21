@@ -380,11 +380,6 @@ collections:
       collection: 531242
       movie: 495764
       summary: Mind Over Mayhem
-  Heathers Collection:
-    template:
-      name: Collection - Movies
-      movie: '2640, 941605'
-      summary: 'Best friends, social trends, and occasional murder.'
   Hercule Poirot Collection:
     template:
       name: Collection
