@@ -164,17 +164,17 @@ collections:
   #     list: cornetto-trilogy
   #     collection_mode: show_items
   #     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
-  The Count of Monte Cristo Collection:
-    template:
-      name: Collection - Trakt List
-      list: the-count-of-monte-cristo-collection
-      summary: An Eye For An Eye...But Three Lives Must Pay For Mine!
-  Daredevil Collection:
-    template:
-      name: Collection - Movies
-      movie: 9480, 9947
-      collection_mode: show_items
-      summary: Daredevil is a fictional superhero appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby.
+  # The Count of Monte Cristo Collection:
+  #   template:
+  #     name: Collection - Trakt List
+  #     list: the-count-of-monte-cristo-collection
+  #     summary: An Eye For An Eye...But Three Lives Must Pay For Mine!
+  # Daredevil Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 9480, 9947
+  #     collection_mode: show_items
+  #     summary: Daredevil is a fictional superhero appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby.
   The Dark Crystal Collection:
     template:
       name: Collection - Hide Movie

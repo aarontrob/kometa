@@ -12,15 +12,15 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Addams Family Collection:
-    template:
-      name: Collection - Shows
-      show: 14009, 21036
-      summary: Creepy. Kooky. Spooky. Ooky.
-  Æon Flux Collection:
-    template:
-      name: Collection - Hide Show
-      show: 406
+  # Addams Family Collection:
+  #   template:
+  #     name: Collection - Shows
+  #     show: 14009, 21036
+  #     summary: Creepy. Kooky. Spooky. Ooky.
+  # Æon Flux Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 406
   ALF Collection:
     template:
       name: Collection - Hide Show
@@ -36,13 +36,13 @@ collections:
       list: archie-collection
       collection_mode: show_items
       summary: Archie Comic Publications, Inc., is an American comic book publisher headquartered in Pelham, New York. The company's many titles feature the fictional teenagers Archie Andrews, Jughead Jones, Betty Cooper, Veronica Lodge, Reggie Mantle, Sabrina Spellman, Josie and the Pussycats and Katy Keene.
-  Batman Collection:
-    template:
-      name: Collection - Trakt List
-      list: batman-collection
-      summary: WHAMMM! SWAAP! BAM! KER-SPLOOSH!
-    plex_search:
-      title: Batman, Dark Knight
+  # Batman Collection:
+  #   template:
+  #     name: Collection - Trakt List
+  #     list: batman-collection
+  #     summary: WHAMMM! SWAAP! BAM! KER-SPLOOSH!
+  #   plex_search:
+  #     title: Batman, Dark Knight
   Battlestar Galactica Collection:
     template:
       name: Collection - Trakt List
@@ -68,10 +68,10 @@ collections:
       name: Collection - Shows
       show: 4619, 62798
       summary: Part Man. Part Vampire. All Hero.
-  Blade Runner Collection:
-    template:
-      name: Collection - Hide Show
-      show: 84553
+  # Blade Runner Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 84553
   The Boys Collection:
     template:
       name: Collection - Shows
@@ -82,13 +82,13 @@ collections:
     template:
       name: Collection - Hide Show
       show: 1777
-  The Brady Bunch Collection:
-    template:
-      name: Collection - Shows
-      show: 2126, 15105, 30001, 10027, 93450
-      sort_title: Brady Bunch Collection
-      summary: Sure, Jan.
-      name_mapping: The Brady Bunch Collection (TV)
+  # The Brady Bunch Collection:
+  #   template:
+  #     name: Collection - Shows
+  #     show: 2126, 15105, 30001, 10027, 93450
+  #     sort_title: Brady Bunch Collection
+  #     summary: Sure, Jan.
+  #     name_mapping: The Brady Bunch Collection (TV)
   Buck Rogers Collection:
     template:
       name: Collection - Hide Show
@@ -97,11 +97,11 @@ collections:
     template:
       name: Collection - Hide Show
       show: 95
-  Charlie's Angels Collection:
-    template:
-      name: Collection - Hide Show
-      show: 3382
-      name_mapping: Charlie's Angels Collection (TV)
+  # Charlie's Angels Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 3382
+  #     name_mapping: Charlie's Angels Collection (TV)
   Child's Play Collection:
     template:
       name: Collection - Hide Show

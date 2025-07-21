@@ -160,21 +160,6 @@ collections:
       summary: >-
         The magical adventures of Santa Claus, Mrs. Claus and the Pierce
         siblings.
-  The Count of Monte Cristo Collection:
-    template:
-      name: Collection - Trakt List
-      list: the-count-of-monte-cristo-collection
-      summary: An Eye For An Eye...But Three Lives Must Pay For Mine!
-  Daredevil Collection:
-    template:
-      name: Collection - Movies
-      movie: '9480, 9947'
-      collection_mode: show_items
-      summary: >-
-        Daredevil is a fictional superhero appearing in American comic books
-        published by Marvel Comics. Daredevil was created by writer-editor Stan
-        Lee and artist Bill Everett, with an unspecified amount of input from
-        Jack Kirby.
   The Dark Crystal Collection:
     template:
       name: Collection - Hide Movie
