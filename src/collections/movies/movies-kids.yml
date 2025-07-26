@@ -371,6 +371,7 @@ collections:
     template:
       name: Collection - Trakt List Custom Order
       list: middle-earth-collection
+      name_mapping: Middle-Earth Collection [TV - Kids]
       summary: Middle-earth is the fictional setting of much of the English writer J. R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse mythology and Middangeard in Old English works, including Beowulf. Middle-earth is the human-inhabited world, that is, the central continent of the Earth, in Tolkien's imagined mythological past. Tolkien's most widely read works, The Hobbit and The Lord of the Rings, are set entirely in Middle-earth. "Middle-earth" has also become a short-hand term for Tolkien's legendarium, his large body of fantasy writings, and for the entirety of his fictional world.
   Minions Collection:
     template:

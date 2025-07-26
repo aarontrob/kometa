@@ -524,6 +524,7 @@ collections:
     template:
       name: Collection - Trakt List Custom Order
       list: middle-earth-collection
+      name_mapping: 'Middle-Earth Collection [TV - Kids]'
       summary: >-
         Middle-earth is the fictional setting of much of the English writer J.
         R. R. Tolkien's fantasy. The term is equivalent to the Miðgarðr of Norse

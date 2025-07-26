@@ -112,10 +112,10 @@ collections:
   #     collection: 224478
   #     movie: 76657, 49358
   #     summary: Sure Jan.
-  Buck Rogers Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 3786
+  # Buck Rogers Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 3786
   # Cape Fear Collection:
   #   template:
   #     name: Collection - Movies
@@ -131,11 +131,11 @@ collections:
   #     collection: 86029
   #     movie: 458897
   #     summary: An American media franchise that follows the adventures of the Angels, a team of women working for the Townsend Agency, a private detective agency, under the leadership of Charlie Townsend, their unseen boss. The film series is a continuation of the story with later generations of Angels.
-  The Christmas Chronicles Collection:
-    template:
-      name: Collection
-      collection: 743824
-      summary: The magical adventures of Santa Claus, Mrs. Claus and the Pierce siblings.
+  # The Christmas Chronicles Collection:
+  #   template:
+  #     name: Collection
+  #     collection: 743824
+  #     summary: The magical adventures of Santa Claus, Mrs. Claus and the Pierce siblings.
   # A Christmas Story Collection:
   #   template:
   #     name: Collection - Movie
@@ -175,58 +175,58 @@ collections:
   #     movie: 9480, 9947
   #     collection_mode: show_items
   #     summary: Daredevil is a fictional superhero appearing in American comic books published by Marvel Comics. Daredevil was created by writer-editor Stan Lee and artist Bill Everett, with an unspecified amount of input from Jack Kirby.
-  The Dark Crystal Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 11639
-      sort_title: Dark Crystal Collection
-  Deuce Bigalow Collection:
-    template:
-      name: Collection
-      collection: 95664
-      summary: He's not very good looking. But when the lights go out...he's still not very good looking.
-  Dick Tracy Collection:
-    template:
-      name: Collection - Movie
-      collection: 224011
-      movie: 8592
-      summary: The Streets Were Mean. His Justice Was Meaner.
-  Die Hard Collection:
-    template:
-      name: Collection - Movie
-      collection: 1570
-      movie: 42636
-      summary: Yippee Ki Yay, motherf*cker
-  Dirty Dancing Collection:
-    template:
-      name: Collection - Movie
-      collection: 86058
-      movie: 444902
-      summary: Dancing to the beat of their hearts.
-  Doctor Strange Collection:
-    template:
-      name: Search
-      title:
-        - Doctor Strange
-        - Dr. Strange
-      title.not:
-        - Dr. Strangelove
-      summary: Open your mind. Change your reality.
-  Downton Abbey Collection:
-    template:
-      name: Collection
-      collection: 925006
-      summary: We've Been Expecting You
-  Dredd Collection:
-    template:
-      name: Collection - Movies
-      movie: 9482, 49049
-      summary: In the future, America is a dystopian wasteland. The latest scourge is Ma-Ma, a prostitute-turned-drug pusher with a dangerous new drug and aims to take over the city. The only possibility of stopping her is an elite group of urban police called Judges, who combine the duties of judge, jury and executioner to deliver a brutal brand of swift justice. But even the top-ranking Judge, Dredd, discovers that taking down Ma-Ma isn't as easy as it seems in this explosive adaptation of the hugely popular comic series.
-  Dune Collection:
-    template:
-      name: Collection - Movies
-      movie: 191720, 841, 438631
-      summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
+  # The Dark Crystal Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 11639
+  #     sort_title: Dark Crystal Collection
+  # Deuce Bigalow Collection:
+  #   template:
+  #     name: Collection
+  #     collection: 95664
+  #     summary: He's not very good looking. But when the lights go out...he's still not very good looking.
+  # Dick Tracy Collection:
+  #   template:
+  #     name: Collection - Movie
+  #     collection: 224011
+  #     movie: 8592
+  #     summary: The Streets Were Mean. His Justice Was Meaner.
+  # Die Hard Collection:
+  #   template:
+  #     name: Collection - Movie
+  #     collection: 1570
+  #     movie: 42636
+  #     summary: Yippee Ki Yay, motherf*cker
+  # Dirty Dancing Collection:
+  #   template:
+  #     name: Collection - Movie
+  #     collection: 86058
+  #     movie: 444902
+  #     summary: Dancing to the beat of their hearts.
+  # Doctor Strange Collection:
+  #   template:
+  #     name: Search
+  #     title:
+  #       - Doctor Strange
+  #       - Dr. Strange
+  #     title.not:
+  #       - Dr. Strangelove
+  #     summary: Open your mind. Change your reality.
+  # Downton Abbey Collection:
+  #   template:
+  #     name: Collection
+  #     collection: 925006
+  #     summary: We've Been Expecting You
+  # Dredd Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 9482, 49049
+  #     summary: In the future, America is a dystopian wasteland. The latest scourge is Ma-Ma, a prostitute-turned-drug pusher with a dangerous new drug and aims to take over the city. The only possibility of stopping her is an elite group of urban police called Judges, who combine the duties of judge, jury and executioner to deliver a brutal brand of swift justice. But even the top-ranking Judge, Dredd, discovers that taking down Ma-Ma isn't as easy as it seems in this explosive adaptation of the hugely popular comic series.
+  # Dune Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 191720, 841, 438631
+  #     summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
   # Eastrail 177 Collection:
   #   template:
   #     name: Collection - Movies
@@ -237,28 +237,28 @@ collections:
   #     name: Collection - Movies
   #     movie: 923597, 9268
   #     summary: He will erase your past to protect your future.
-  Fallen Collection:
-    template:
-      name: Collection
-      collection: 386534
-      summary: We are never stronger than when we are tested.
+  # Fallen Collection:
+  #   template:
+  #     name: Collection
+  #     collection: 386534
+  #     summary: We are never stronger than when we are tested.
   Family Guy Collection:
     template:
       name: Collection
       collection: 701402
       summary: Laugh It Up, Fuzzball!
       name_mapping: Family Guy Collection (Movies)
-  Fantastic Four Collection:
-    template:
-      name: Collection - Movie
-      collection: 9744
-      movie: 22059, 216529, 166424, 216529
-      summary: Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize their scientific backgrounds to band together and defend the world against perilous threats.
-  Father of the Bride Collection:
-    template:
-      name: Collection
-      collection: 511021, 96871
-      summary: The story of the Banks family.
+  # Fantastic Four Collection:
+  #   template:
+  #     name: Collection - Movie
+  #     collection: 9744
+  #     movie: 22059, 216529, 166424, 216529
+  #     summary: Mister Fantastic, Invisible Woman, Human Torch, and the Thing utilize their scientific backgrounds to band together and defend the world against perilous threats.
+  # Father of the Bride Collection:
+  #   template:
+  #     name: Collection
+  #     collection: 511021, 96871
+  #     summary: Love is wonderful. Until it happens to your only daughter.
   Flash Gordon Collection:
     template:
       name: Collection - Movies
@@ -270,11 +270,11 @@ collections:
       collection: 104833
       movie: 724665
       summary: Meet the only guy who changes his identity more often than his underwear.
-  Footloose Collection:
-    template:
-      name: Collection - Movies
-      movie: 1788, 68817
-      summary: When teenager Ren and his family move from big-city Chicago to a small town in the West, he's in for a real case of culture shock after discovering he's living in a place where music and dancing are illegal.
+  # Footloose Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 1788, 68817
+  #     summary: When teenager Ren and his family move from big-city Chicago to a small town in the West, he's in for a real case of culture shock after discovering he's living in a place where music and dancing are illegal.
   Frosty the Snowman Collection:
     template:
       name: Collection
@@ -290,7 +290,7 @@ collections:
       name: Collection - Movie
       collection: 135468
       movie: 568620
-      summary: When all else fails, they don't
+      summary: Knowing is half the battle.
   Gamera Collection:
     template:
       name: Collection
@@ -895,6 +895,7 @@ collections:
   Center Stage Collection: *unmanaged
   The Cheerleaders Collection: *unmanaged
   Chili Palmer Collection: *unmanaged
+  The Christmas Chronicles Collection: *unmanaged
   The Christmas House Collection: *unmanaged
   The Chronicles of Riddick Collection: *unmanaged
   City Slickers Collection: *unmanaged
