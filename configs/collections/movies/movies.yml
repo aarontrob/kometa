@@ -808,11 +808,6 @@ collections:
       name: Collection - Movies
       movie: '10166, 531219'
       summary: They're real!
-  Wizard of Oz Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 630
-      summary: 'We''re off to see the Wizard, the wonderful wizard of Oz'
   Wizarding World Collection:
     template:
       name: Collection

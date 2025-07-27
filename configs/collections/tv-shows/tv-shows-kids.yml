@@ -515,10 +515,6 @@ collections:
       summary: >-
         The greatest adventure of all is finding our place in the circle of
         life.
-  Lilo & Stitch Collection:
-    template:
-      name: Collection - Hide Show
-      show: 2355
   The Little Mermaid Collection:
     template:
       name: Collection - Hide Show

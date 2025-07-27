@@ -629,11 +629,11 @@ collections:
       name: Collection - Trakt List Custom Order
       list: winnie-the-pooh-collection
       summary: Hip Hip Poohray!
-  Wizard of Oz Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: the-wizard-of-oz-collection
-      summary: "We're off to see the Wizard, the wonderful wizard of Oz"
+  # Wizard of Oz Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: the-wizard-of-oz-collection
+  #     summary: "We're off to see the Wizard, the wonderful wizard of Oz"
   Yogi Bear Collection:
     template:
       name: Search
@@ -693,7 +693,6 @@ collections:
   A Kid in... Collection: *unmanaged
   The Land Before Time Collection: *unmanaged
   Life-Size Collection: *unmanaged
-  Lilo & Stitch Collection: *unmanaged
   Maleficent Collection: *unmanaged
   The Mighty Ducks Collection: *unmanaged
   Moana Collection: *unmanaged
