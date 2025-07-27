@@ -637,16 +637,16 @@ collections:
       name: Collection - Shows
       show: 126824, 387, 99588
       summary: A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook at Krusty Krab, lives in the Pacific Ocean. He embarks on various adventures with his friends at Bikini Bottom.
-  Star Trek Collection:
-    template:
-      name: Collection - Shows
-      show: 106393, 1992
-      summary: Live long, and prosper
-  Star Wars Collection:
-    template:
-      name: Collection - Trakt List
-      list: star-wars-collection
-      summary: May the Force Be with You
+  # Star Trek Collection:
+  #   template:
+  #     name: Collection - Shows
+  #     show: 106393, 1992
+  #     summary: Live long, and prosper
+  # Star Wars Collection:
+  #   template:
+  #     name: Collection - Trakt List
+  #     list: star-wars-collection
+  #     summary: May the Force Be with You
   Steven Universe Collection:
     template:
       name: Collection - Shows

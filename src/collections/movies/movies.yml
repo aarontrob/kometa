@@ -695,17 +695,17 @@ collections:
       name: Collection - Movies
       movie: 11031, 70725, 67872
       summary: Prepare to crank those amps up to eleven
-  Star Trek Collection:
-    template:
-      name: Collection - Trakt List
-      list: star-trek-collection
-      summary: >-
-        These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man one has gone before!
-  Star Wars Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: star-wars-collection-timeline
-      summary: A long time ago in a galaxy far, far away....
+  # Star Trek Collection:
+  #   template:
+  #     name: Collection - Trakt List
+  #     list: star-trek-collection
+  #     summary: >-
+  #       These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no man one has gone before!
+  # Star Wars Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: star-wars-collection-timeline
+  #     summary: A long time ago in a galaxy far, far away....
   Starman Collection:
     template:
       name: Collection - Hide Movie

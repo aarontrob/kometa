@@ -118,6 +118,14 @@ collections:
         animated series, including The Huckleberry Hound Show, The Flintstones,
         The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You!
         and The Smurfs
+  Laika:
+    template:
+      name: Studio
+      company: 11537
+      summary: >-
+        LAIKA tells original, enduring stories with bold vision and unmatched
+        artistry — inspiring generations of audiences around the globe one frame
+        at a time.
   LEGO:
     template:
       name: Studio - Search
