@@ -122,6 +122,7 @@ collections:
     template:
       name: Studio
       company: 11537
+      tmdb_movie: null
       summary: >-
         LAIKA tells original, enduring stories with bold vision and unmatched
         artistry — inspiring generations of audiences around the globe one frame

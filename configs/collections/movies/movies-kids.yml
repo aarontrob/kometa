@@ -439,12 +439,6 @@ collections:
       summary: >-
         For the strength of the Pack is the Wolf, and the strength of the Wolf
         is the Pack.
-  Kung Fu Panda Collection:
-    template:
-      name: Collection - Movie
-      collection: 77816
-      movie: 50393
-      summary: He's not a big fat panda... he's THE big fat panda!
   Lady and the Tramp Collection:
     template:
       name: Collection - Movie
@@ -484,12 +478,6 @@ collections:
       name: Collection - Trakt List
       list: looney-tunes-collection
       summary: '“What''s up, doc?"'
-  The Lord of the Rings Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: the-lord-of-the-rings-collection
-      sort_title: Lord of the Rings Collection
-      summary: Middle Earth comes alive...
   Luca Collection:
     template:
       name: Collection - Movies
@@ -515,11 +503,6 @@ collections:
       name: Collection - Trakt List
       list: he-man-the-masters-of-the-universe-collection
     summary: By the Power of Grayskull!
-  Megamind Collection:
-    template:
-      name: Collection - Movies
-      movie: '38055, 57718'
-      summary: His Brain Is Off The Chain
   Middle-Earth Collection:
     template:
       name: Collection - Trakt List Custom Order
