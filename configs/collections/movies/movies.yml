@@ -365,12 +365,6 @@ collections:
     template:
       name: Collection - Hide Movie
       movie: 10803
-  The Lord of the Rings Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: the-lord-of-the-rings-collection
-      sort_title: Lord of the Rings Collection
-      summary: Middle Earth comes alive...
   Lost in Space Collection:
     template:
       name: Collection - Hide Movie
@@ -661,11 +655,6 @@ collections:
       name: Collection - Trakt List Custom Order
       list: spider-man-collection
       summary: With great power comes great responsibility
-  Spinal Tap Collection:
-    template:
-      name: Collection - Movies
-      movie: '11031, 70725, 67872'
-      summary: Prepare to crank those amps up to eleven
   Starman Collection:
     template:
       name: Collection - Hide Movie
