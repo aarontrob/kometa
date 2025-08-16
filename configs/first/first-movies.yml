@@ -106,7 +106,7 @@ collections:
         'you have to see it to believe it' moments, these titles have everyone
         talking.
     tmdb_trending_daily: 30
-    collection_order: custom
+    smart_label: release.desc
     sync_mode: sync
     item_label: Viral Views
   Watchlist:

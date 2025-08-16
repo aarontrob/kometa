@@ -25,12 +25,14 @@ collections:
         any:
           label: Aaron
     # visible_home: true
-  "First Impressions: Pilots Only":
+  "First Impressions: Pilot Episodes Only":
     template:
       name: First [Sort Title] - Custom
-      sort_title: "!6First Impressions: Pilots Only"
+      sort_title: "!6First Impressions: Pilot Episodes Only"
       list: tv-pilot-episode
       summary: Start your journey with these pilot episodes, setting the stage for stories you can dive into if they spark your interest.
+    smart_label: release.desc
+    item_label: Pilot Episode
   Just Released:
     template:
       name: First [Sort Title] - Custom
@@ -81,7 +83,7 @@ collections:
       sort_title: "!4Viral Views"
       summary: Shows experiencing explosive viewership right now—for better or worse. Whether trending for brilliance, disasters, or must-see moments, these episodes have everyone talking.
     tmdb_trending_daily: 30
-    collection_order: custom
+    smart_label: release.desc
     sync_mode: sync
     item_label: Viral Views
   # Watchlist:

@@ -77,11 +77,3 @@ collections:
         of America's most fascinating decades. Watch as each era's biggest
         obsessions become the next generation's punchlines. Time capsules
         cracked open for maximum nostalgic impact.
-  'First Impressions: Pilot Episodes Only':
-    template:
-      name: Category - Trakt List
-      list: tv-pilot-episode
-      summary: >-
-        Start your journey with these pilot episodes, setting the stage for
-        stories you can dive into if they spark your interest.
-    item_label: Pilot Episode
