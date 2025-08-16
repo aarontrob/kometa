@@ -102,10 +102,10 @@ collections:
   #     name: Collection - Hide Show
   #     show: 3382
   #     name_mapping: Charlie's Angels Collection (TV)
-  Child's Play Collection:
-    template:
-      name: Collection - Hide Show
-      show: 90462
+  # Child's Play Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 90462
   Clueless Collection:
     template:
       name: Collection - Hide Show

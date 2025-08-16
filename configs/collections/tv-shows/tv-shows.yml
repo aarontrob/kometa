@@ -200,10 +200,6 @@ collections:
     template:
       name: Collection - Hide Show
       show: 95
-  Child's Play Collection:
-    template:
-      name: Collection - Hide Show
-      show: 90462
   Clueless Collection:
     template:
       name: Collection - Hide Show
