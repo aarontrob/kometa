@@ -155,29 +155,6 @@ collections:
       collection: 701402
       summary: 'Laugh It Up, Fuzzball!'
       name_mapping: Family Guy Collection (Movies)
-  Flash Gordon Collection:
-    template:
-      name: Collection - Movies
-      movie: '3604, 505247'
-      summary: Get ready to kick some Flash.
-  Fletch Collection:
-    template:
-      name: Collection - Movie
-      collection: 104833
-      movie: 724665
-      summary: >-
-        Meet the only guy who changes his identity more often than his
-        underwear.
-  Frosty the Snowman Collection:
-    template:
-      name: Collection
-      collection: 363015
-      summary: 'No money, no TICKET!'
-  The Fugitive Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 5503
-      sort_title: Fugitive Collection
   G.I. Joe Collection:
     template:
       name: Collection - Movie

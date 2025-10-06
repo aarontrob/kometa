@@ -259,32 +259,32 @@ collections:
   #     name: Collection
   #     collection: 511021, 96871
   #     summary: Love is wonderful. Until it happens to your only daughter.
-  Flash Gordon Collection:
-    template:
-      name: Collection - Movies
-      movie: 3604, 505247
-      summary: Get ready to kick some Flash.
-  Fletch Collection:
-    template:
-      name: Collection - Movie
-      collection: 104833
-      movie: 724665
-      summary: Meet the only guy who changes his identity more often than his underwear.
+  # Flash Gordon Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 3604, 505247
+  #     summary: Get ready to kick some Flash.
+  # Fletch Collection:
+  #   template:
+  #     name: Collection - Movie
+  #     collection: 104833
+  #     movie: 724665
+  #     summary: Meet the only guy who changes his identity more often than his underwear.
   # Footloose Collection:
   #   template:
   #     name: Collection - Movies
   #     movie: 1788, 68817
   #     summary: When teenager Ren and his family move from big-city Chicago to a small town in the West, he's in for a real case of culture shock after discovering he's living in a place where music and dancing are illegal.
-  Frosty the Snowman Collection:
-    template:
-      name: Collection
-      collection: 363015
-      summary: No money, no TICKET!
-  The Fugitive Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: 5503
-      sort_title: Fugitive Collection
+  # Frosty the Snowman Collection:
+  #   template:
+  #     name: Collection
+  #     collection: 363015
+  #     summary: No money, no TICKET!
+  # The Fugitive Collection:
+  #   template:
+  #     name: Collection - Hide Movie
+  #     movie: 5503
+  #     sort_title: Fugitive Collection
   G.I. Joe Collection:
     template:
       name: Collection - Movie
