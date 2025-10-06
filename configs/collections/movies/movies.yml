@@ -155,12 +155,6 @@ collections:
       collection: 701402
       summary: 'Laugh It Up, Fuzzball!'
       name_mapping: Family Guy Collection (Movies)
-  G.I. Joe Collection:
-    template:
-      name: Collection - Movie
-      collection: 135468
-      movie: 568620
-      summary: Knowing is half the battle.
   Gamera Collection:
     template:
       name: Collection
@@ -171,33 +165,6 @@ collections:
         Japan. Created in 1965 to rival the success of Toho Studios' Godzilla
         during the daikaiju boom of the mid-to-late 1960s, Gamera has gained
         fame and notoriety as a Japanese icon in his own right.
-  Get Smart Collection:
-    template:
-      name: Collection
-      collection: 108669
-      minimum_items: 2
-  Ghostbusters Collection:
-    template:
-      name: Collection - Movie
-      collection: 2980
-      movie: 43074
-      summary: >-
-        Ghostbusters is a 1984 American supernatural comedy film, directed and
-        produced by Ivan Reitman and written by Dan Aykroyd and Harold Ramis.
-        The film stars Bill Murray, Aykroyd, and Ramis as three eccentric
-        parapsychologists in New York City who start a ghost-catching business.
-        The second film, Ghostbusters II, was released in 1989.
-  The Godfather Collection:
-    template:
-      name: Collection
-      collection: 230
-      sort_title: Godfather Collection
-      summary: An offer you can't refuse.
-  Godzilla Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: godzilla-collection
-      summary: 'Incredible, unstoppable titan of terror! Mightiest monster!'
   Grease Collection:
     template:
       name: Collection - Movie
@@ -212,17 +179,6 @@ collections:
         I tell you if there's anything worse than dealing with a staunch woman…
         S-T-A-U-N-C-H. There's nothing worse, I'm telling you. They don't
         weaken, no matter what.
-  The Grinch Collection:
-    template:
-      name: Collection - Trakt List
-      list: the-grinch-collection
-      sort_title: Grinch Collection
-      summary: >-
-        The Grinch is a fictional character created by Dr. Seuss. He is best
-        known as the main character of the 1957 children's book How the Grinch
-        Stole Christmas!. He has been portrayed and voiced by many different
-        actors, including Boris Karloff, Hans Conried, Bob Holt, Jim Carrey, and
-        Benedict Cumberbatch.
   Guardians of the Galaxy Collection:
     template:
       name: Collection - Movie
@@ -858,6 +814,7 @@ collections:
   Ghost Rider Collection: *ref_0
   The Girl - Millennium Collection: *ref_0
   The Glass House Collection: *ref_0
+  The Godfather Collection: *ref_0
   Goon Collection: *ref_0
   The Great Escape Collection: *ref_0
   Grown Ups Collection: *ref_0
