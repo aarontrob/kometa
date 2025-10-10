@@ -95,11 +95,14 @@ collections:
     template:
       name: 'Genre [Holiday] - Trakt List Episodes'
       list: tv-christmas-episodes
+      name_mapping: 'Christmas Episodes [TV Shows - Kids]'
   Halloween Episodes:
     template:
       name: 'Genre [Holiday] - Trakt List Episodes'
       list: tv-halloween-episodes
+      name_mapping: 'Halloween Episodes [TV Shows - Kids]'
   Thanksgiving Episodes:
     template:
       name: 'Genre [Holiday] - Trakt List Episodes'
       list: tv-thanksgiving-episodes
+      name_mapping: 'Thanksgiving Episodes [TV Shows - Kids]'
