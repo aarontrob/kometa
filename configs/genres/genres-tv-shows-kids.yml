@@ -1,69 +1,93 @@
 templates:
   Genre:
     optional:
+      - label
       - summary
     smart_filter:
       all:
         genre: <<genre>>
       sort_by: random
+    label: <<label>>
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom]':
     optional:
+      - label
       - summary
     smart_filter:
       all:
         genre: <<genre>>
       sort_by: random
-    sort_title: ~_Genre <<collection_name>>
+    label: <<label>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Custom':
     optional:
+      - label
       - summary
-    sort_title: ~_Genre <<collection_name>>
+    label: <<label>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List:
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
+    label: <<label>>
     smart_label: release.asc
-    item_genre: <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
+    summary: <<summary>>
+  Genre - Trakt List Other:
+    optional:
+      - label
+      - summary
+    trakt_list: <<list>>
+    sync_mode: sync
+    label: <<label>>
+    smart_label: release.asc
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
+    label: <<label>>
     smart_label: random
-    sort_title: ~_Genre <<collection_name>>
+    sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List':
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
+    label: <<label>>
     smart_label: title.asc
-    item_genre: <<collection_name>>
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List [Hide Items]':
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     collection_mode: hide_items
+    label: <<label>>
     item_genre: <<collection_name>>
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
   'Genre [Holiday] - Trakt List Episodes':
     optional:
+      - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     builder_level: episode
     collection_order: custom
+    label: <<label>>
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
@@ -79,7 +103,3 @@ collections:
     template:
       name: 'Genre [Holiday] - Trakt List Episodes'
       list: tv-thanksgiving-episodes
-  Valentine's Day Episodes:
-    template:
-      name: 'Genre [Holiday] - Trakt List Episodes'
-      list: tv-valentines-day-episodes
