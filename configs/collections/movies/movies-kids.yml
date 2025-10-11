@@ -488,11 +488,6 @@ collections:
       name: Collection - Movie
       collection: 14740
       movie: '270946, 161143, 25472, 10258, 904039, 836586'
-  Mario Collection:
-    template:
-      name: Collection - Hide Movie
-      movie: '9607, 502356'
-      summary: 'It''s a me, Mario!'
   Mary Poppins Collection:
     template:
       name: Collection - Movies

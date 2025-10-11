@@ -6,7 +6,7 @@ templates: !!import/shallow
   - ../templates/first.yml
 
 ######################################################
-#                 First - TV Shows                   #
+#              First - TV Shows - Kids               #
 ######################################################
 
 collections:
@@ -14,7 +14,7 @@ collections:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!5All-Time Faves"
-      name_mapping: All-Time Faves [TV]
+      name_mapping: All-Time Faves [TV Shows - Kids]
       summary: The champions of rewatchability. These tried-and-true favorites prove their worth with every viewing, offering the rare combination of comfort and quality that keeps you coming back.
     collection_filtering: user
     smart_filter:
@@ -25,18 +25,19 @@ collections:
         any:
           label: Aaron
     # visible_home: true
-  "First Impressions: Pilot Episodes Only":
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!6First Impressions: Pilot Episodes Only"
-      list: tv-pilot-episode
-      summary: Start your journey with these pilot episodes, setting the stage for stories you can dive into if they spark your interest.
-    smart_label: release.desc
-    item_label: Pilot Episode
+  # "First Impressions: Pilot Episodes Only":
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!6First Impressions: Pilot Episodes Only"
+  #     list: tv-pilot-episode
+  #     summary: Start your journey with these pilot episodes, setting the stage for stories you can dive into if they spark your interest.
+  #   smart_label: release.desc
+  #   item_label: Pilot Episode
   Just Released:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!3Just Released"
+      name_mapping: Just Released [TV Shows - Kids]
       summary: They're here! A full year of television's newest offerings, now available at your fingertips. Your chance to experience the series everyone's been discussing has arrived.
     smart_filter:
       all:
@@ -46,6 +47,7 @@ collections:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!1New Arrivals"
+      name_mapping: New Arrivals [TV Shows - Kids]
       summary: Fresh shows have landed! From action-packed dramas to laugh-out-loud comedies, your next binge-watch awaits.
     smart_filter:
       all:
@@ -56,6 +58,7 @@ collections:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!2Seven-Day Rewind"
+      name_mapping: 7-Day Rewind [TV Shows - Kids]
       summary: Television's freshest offerings from the past week — unmissable gems and notorious flops alike. Your guide to what everyone's been watching, discussing, or dramatically abandoning.
     builder_level: episode
     smart_filter:
@@ -67,6 +70,7 @@ collections:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!5To Be Continued"
+      name_mapping: To Be Continued [TV Shows - Kids]
       summary: >-
         Serialized Slumber: TV episodes that proved too powerful for your eyelids. The characters continue their journey long after you've begun yours into dreamland.
     collection_filtering: user
@@ -77,19 +81,20 @@ collections:
         episode_progress: true
         plays.lt: 1
     # visible_home: true
-  Viral Views:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!4Viral Views"
-      summary: Shows experiencing explosive viewership right now—for better or worse. Whether trending for brilliance, disasters, or must-see moments, these episodes have everyone talking.
-    tmdb_trending_daily: 30
-    smart_label: release.desc
-    sync_mode: sync
-    item_label: Viral Views
+  # Viral Views:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!4Viral Views"
+  #     summary: Shows experiencing explosive viewership right now—for better or worse. Whether trending for brilliance, disasters, or must-see moments, these episodes have everyone talking.
+  #   tmdb_trending_daily: 30
+  #   smart_label: release.desc
+  #   sync_mode: sync
+  #   item_label: Viral Views
   Watchlist:
     template:
       name: First [Sort Title] - Custom
       sort_title: "!6Watchlist"
+      name_mapping: Watchlist [TV Shows - Kids]
       summary: 'The "One Day" Queue: An impressive lineup of must-watch shows that keep getting bumped by ''just one more episode'' of your comfort series.'
     plex_watchlist: added.desc
     sync_mode: sync
