@@ -10,7 +10,7 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  "Decades: 2000s":
+  "2000s":
     template:
       name: "Decade [2000s]"
       year:
@@ -25,7 +25,7 @@ collections:
         - 2008
         - 2009
       summary: Sweet! The 2000s bring a thrilling mix of films, featuring Harry Potter and the Sorcerer’s Stone and the epic Gladiator. This collection captures the innovation and magic that defined a memorable decade in cinema!
-  "Decades: 1990s":
+  "1990s":
     template:
       name: Decade
       year:
@@ -40,7 +40,7 @@ collections:
         - 1998
         - 1999
       summary: All that and a bag of chips! The Nifty Nineties showcase a variety of films, including Titanic and Jurassic Park, that captivated audiences around the globe. This collection highlights the creativity and diversity of a decade that left a lasting impact on cinema!
-  "Decades: 1980s":
+  "1980s":
     template:
       name: Decade
       year:
@@ -55,7 +55,7 @@ collections:
         - 1988
         - 1989
       summary: Totally awesome! The tubular Eighties are packed with iconic flicks like The Breakfast Club and Back to the Future, capturing the spirit of a generation. Get ready for a mix of adventure, comedy, and unforgettable characters!
-  "Decades: 1970s":
+  "1970s":
     template:
       name: Decade
       year:
@@ -70,7 +70,7 @@ collections:
         - 1978
         - 1979
       summary: Far out! The funky Seventies deliver bold films, from the gritty realism of Taxi Driver to the fantastical adventure of Star Wars. This decade was all about pushing boundaries and exploring new cinematic territories!
-  "Decades: 1960s":
+  "1960s":
     template:
       name: Decade
       year:
@@ -85,7 +85,7 @@ collections:
         - 1968
         - 1969
       summary: Groovy, baby! The Swinging Sixties feature iconic films like The Graduate and Psycho, highlighting the bold storytelling and innovation of the time. This collection celebrates the creativity that made the decade unforgettable!
-  "Decades: 1950s":
+  "1950s":
     template:
       name: Decade
       year:
@@ -100,7 +100,7 @@ collections:
         - 1958
         - 1959
       summary: Well, I’ll be! The sensational Fifties shine with a mix of iconic films like Rebel Without a Cause and the thrilling North by Northwest. This collection captures the charm and excitement of a decade filled with unforgettable stories!
-  "Decades: 1940s":
+  "1940s":
     template:
       name: Decade
       year:
@@ -115,7 +115,7 @@ collections:
         - 1948
         - 1949
       summary: Ain’t it a peach? The Fabulous Forties bring a mix of daring tales and unforgettable characters, featuring classics like Casablanca and It’s a Wonderful Life. This captivating collection captures the resilience and romance of the era in unforgettable films!
-  "Decades: 1930s":
+  "1930s":
     template:
       name: Decade
       year:
@@ -130,7 +130,7 @@ collections:
         - 1938
         - 1939
       summary: Well, I’ll be! The 1930s ushered in the age of talkies, transforming the silver screen forever! This collection features films like Frankenstein and Snow White and the Seven Dwarfs, showcasing the magic of sound and storytelling that lifted spirits during tough times.
-  "Decades: 1920s":
+  "1920s":
     template:
       name: Decade
       year:
