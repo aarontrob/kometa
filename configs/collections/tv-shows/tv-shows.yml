@@ -217,13 +217,6 @@ collections:
     template:
       name: Collection - Hide Show
       show: 87208
-  Dexter Collection:
-    template:
-      name: Collection - Shows
-      show: '1405, 131927'
-      summary: >-
-        America's favorite serial killer. He's got a way with murder. Blood
-        never lies. Anyone has something to hide.
   Downton Abbey Collection:
     template:
       name: Collection - Hide Show
@@ -558,18 +551,6 @@ collections:
       name: Collection - Hide Show
       show: 10444
       name_mapping: Shazam Collection
-  Sherlock Holmes Collection:
-    template:
-      name: Collection - Trakt List
-      list: sherlock-holmes
-      collection_mode: show_items
-      summary: >-
-        Sherlock Holmes is a fictional private detective created by British
-        author Sir Arthur Conan Doyle. Referring to himself as a "consulting
-        detective" in the stories, Holmes is known for his proficiency with
-        observation, deduction, forensic science, and logical reasoning that
-        borders on the fantastic, which he employs when investigating cases for
-        a wide variety of clients, including Scotland Yard.
   Spaceballs Collection:
     template:
       name: Collection - Hide Show
