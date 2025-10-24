@@ -165,21 +165,6 @@ collections:
         Japan. Created in 1965 to rival the success of Toho Studios' Godzilla
         during the daikaiju boom of the mid-to-late 1960s, Gamera has gained
         fame and notoriety as a Japanese icon in his own right.
-  Indiana Jones Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: indiana-jones-collection
-  The Italian Job Collection:
-    template:
-      name: Collection - Movies
-      movie: '9654, 10536'
-      sort_title: Italian Job Collection
-      summary: Get in. Get out. Get even.
-  Jackass Collection:
-    template:
-      name: Collection - Trakt List
-      list: jackass-collection
-      summary: Do not attempt this at home.
   James Bond Collection:
     template:
       name: Collection - Movie
@@ -189,11 +174,6 @@ collections:
         The James Bond film series is a British series of spy films based on the
         fictional character of MI6 agent James Bond, codename "007". With all of
         the action, adventure, gadgetry & film scores that Bond is famous for.
-  Jaws Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: jaws-collection
-      summary: You'll never go in the water again!
   Josie and the Pussycats Collection:
     template:
       name: Collection - Hide Movie
@@ -213,11 +193,6 @@ collections:
       name: Search
       title: Justice League
       summary: Justice for all.
-  King Kong Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: king-kong-collection
-      summary: 'Ladies and gentlemen, look at Kong, the Eighth Wonder of the World!'
   Land of the Lost Collection:
     template:
       name: Collection - Hide Movie

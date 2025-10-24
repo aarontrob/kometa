@@ -391,32 +391,32 @@ collections:
   #     movie: 21159, 11234, 6479
   #     collection_mode: show_items
   #     summary: Films based on the 1954 novel I Am Legend by Richard Matheson.
-  Indiana Jones Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: indiana-jones-collection
-  The Italian Job Collection:
-    template:
-      name: Collection - Movies
-      movie: 9654, 10536
-      sort_title: Italian Job Collection
-      summary: Get in. Get out. Get even.
-  Jackass Collection:
-    template:
-      name: Collection - Trakt List
-      list: jackass-collection
-      summary: Do not attempt this at home.
+  # Indiana Jones Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: indiana-jones-collection
+  # The Italian Job Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 9654, 10536
+  #     sort_title: Italian Job Collection
+  #     summary: Get in. Get out. Get even.
+  # Jackass Collection:
+  #   template:
+  #     name: Collection - Trakt List
+  #     list: jackass-collection
+  #     summary: Do not attempt this at home.
   James Bond Collection:
     template:
       name: Collection - Movie
       collection: 645
       movie: 12208
       summary: The James Bond film series is a British series of spy films based on the fictional character of MI6 agent James Bond, codename "007". With all of the action, adventure, gadgetry & film scores that Bond is famous for.
-  Jaws Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: jaws-collection
-      summary: You'll never go in the water again!
+  # Jaws Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: jaws-collection
+  #     summary: You'll never go in the water again!
   Josie and the Pussycats Collection:
     template:
       name: Collection - Hide Movie
@@ -436,11 +436,11 @@ collections:
       name: Search
       title: Justice League
       summary: Justice for all.
-  King Kong Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: king-kong-collection
-      summary: "Ladies and gentlemen, look at Kong, the Eighth Wonder of the World!"
+  # King Kong Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: king-kong-collection
+  #     summary: "Ladies and gentlemen, look at Kong, the Eighth Wonder of the World!"
   Land of the Lost Collection:
     template:
       name: Collection - Hide Movie
