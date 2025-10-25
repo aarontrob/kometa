@@ -426,10 +426,6 @@ collections:
       summary: >-
         Heroes aren't born. They're built. Get ready for a different breed of
         heavy metal hero.
-  James Bond Collection:
-    template:
-      name: Collection - Hide Show
-      show: 42245
   The Jetsons Collection:
     template:
       name: Collection - Hide Show

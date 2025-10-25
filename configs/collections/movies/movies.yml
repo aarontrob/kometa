@@ -165,15 +165,6 @@ collections:
         Japan. Created in 1965 to rival the success of Toho Studios' Godzilla
         during the daikaiju boom of the mid-to-late 1960s, Gamera has gained
         fame and notoriety as a Japanese icon in his own right.
-  James Bond Collection:
-    template:
-      name: Collection - Movie
-      collection: 645
-      movie: 12208
-      summary: >-
-        The James Bond film series is a British series of spy films based on the
-        fictional character of MI6 agent James Bond, codename "007". With all of
-        the action, adventure, gadgetry & film scores that Bond is famous for.
   Josie and the Pussycats Collection:
     template:
       name: Collection - Hide Movie
