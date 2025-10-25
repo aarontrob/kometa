@@ -337,10 +337,10 @@ collections:
       show: 4489, 24211
       name_mapping: Josie and the Pussycats Collection (TV)
       summary: Josie and the Pussycats (initially published as She's Josie and Josie) is a teen-humor comic book about a fictional rock band, created by Dan DeCarlo and published by Archie Comics. It was published from 1963 until 1982; since then, one-shot issues have appeared on an irregular basis.
-  Jumanji Collection:
-    template:
-      name: Collection - Hide Show
-      show: 2118
+  # Jumanji Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 2118
   The Jungle Book Collection:
     template:
       name: Collection - Hide Show

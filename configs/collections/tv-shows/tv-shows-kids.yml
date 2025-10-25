@@ -457,10 +457,6 @@ collections:
         is a teen-humor comic book about a fictional rock band, created by Dan
         DeCarlo and published by Archie Comics. It was published from 1963 until
         1982; since then, one-shot issues have appeared on an irregular basis.
-  Jumanji Collection:
-    template:
-      name: Collection - Hide Show
-      show: 2118
   The Jungle Book Collection:
     template:
       name: Collection - Hide Show
