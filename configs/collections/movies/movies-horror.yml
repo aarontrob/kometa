@@ -220,16 +220,6 @@ collections:
       movie: 298584
       summary: Terror... In the flesh.
     label: Horror
-  Carrie Collection:
-    template:
-      name: Collection - Movie
-      collection: 257053
-      movie: '7342, 133805'
-      summary: >-
-        Carrie White, a shy and troubled teenage girl who is tormented by her
-        high school peers and her fanatically religious mother, begins to use
-        her powers of telekinesis to exact revenge upon them.
-    label: Horror
   Cheerleader Camp Collection:
     template:
       name: Collection
