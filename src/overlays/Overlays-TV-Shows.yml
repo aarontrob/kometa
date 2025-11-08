@@ -42,3 +42,6 @@ overlays:
       type: shows
       all:
         episode_air_date: 7
+        label.not:
+          - First Season
+          - "First Impressions: Pilot Episodes Only"
