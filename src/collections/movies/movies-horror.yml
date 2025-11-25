@@ -95,13 +95,13 @@ collections:
       name: Collection
       collection: 1047304
     label: Horror
-  Child's Play Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: chucky-collection
-      name_mapping: Childs Play Collection
-      summary: He wants YOU for a new best friend...
-    label: Horror
+  # Child's Play Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: chucky-collection
+  #     name_mapping: Childs Play Collection
+  #     summary: He wants YOU for a new best friend...
+  #   label: Horror
   Cloverfield Collection:
     template:
       name: Collection - Movies
