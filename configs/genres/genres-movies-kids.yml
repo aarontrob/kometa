@@ -35,7 +35,7 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     label: <<label>>
-    smart_label: release.asc
+    smart_label: random
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List Other:
@@ -45,7 +45,7 @@ templates:
     trakt_list: <<list>>
     sync_mode: sync
     label: <<label>>
-    smart_label: release.asc
+    smart_label: random
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
