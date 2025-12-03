@@ -145,6 +145,7 @@ collections:
     template:
       name: 'Genre [Holiday] - Trakt List Episodes'
       list: tv-christmas-episodes
+      name_mapping: 'Christmas Episodes [TV Shows]'
       summary: null
   Trick-or-Treat:
     template:
