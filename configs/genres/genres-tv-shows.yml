@@ -35,7 +35,7 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     label: <<label>>
-    smart_label: release.asc
+    smart_label: random
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List Other:
@@ -45,7 +45,7 @@ templates:
     trakt_list: <<list>>
     sync_mode: sync
     label: <<label>>
-    smart_label: release.asc
+    smart_label: random
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
@@ -102,7 +102,11 @@ collections:
   Out Loud:
     template:
       name: Genre - Trakt List
-      list: out-loud
+      list:
+        - out-loud
+        - out-loud-pilot-episode
+        - out-loud-first-season
+        - out-loud-new-episodes
       summary: >-
         Shows featuring fierce individuals who refuse to fit into society's
         boring little boxes. These series celebrate the beautiful chaos of being

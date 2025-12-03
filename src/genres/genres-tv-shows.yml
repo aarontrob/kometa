@@ -18,7 +18,11 @@ collections:
   Out Loud:
     template:
       name: Genre - Trakt List
-      list: out-loud
+      list:
+        - out-loud
+        - out-loud-pilot-episode
+        - out-loud-first-season
+        - out-loud-new-episodes
       summary: Shows featuring fierce individuals who refuse to fit into society's boring little boxes. These series celebrate the beautiful chaos of being authentically, unapologetically human.
   Truth Be Told:
     template:
