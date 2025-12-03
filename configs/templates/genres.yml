@@ -57,6 +57,16 @@ Genre - Trakt List Other:
   smart_label: random
   sort_title: '!3_Genre <<collection_name>>'
   summary: <<summary>>
+'Genre [Bottom] - Trakt Lists':
+  optional:
+    - label
+    - summary
+  trakt_list: <<list>>
+  sync_mode: sync
+  label: <<label>>
+  smart_label: random
+  sort_title: '!3_Genre <<collection_name>>'
+  summary: <<summary>>
 'Genre [Holiday] - Trakt List':
   optional:
     - label

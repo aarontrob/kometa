@@ -17,12 +17,12 @@ collections:
       summary: Holiday troublemakers and yuletide do-gooders collide in this festive collection. These stories showcase the glorious chaos that unfolds when both sides of Santa's list come together.
   Out Loud:
     template:
-      name: Genre - Trakt List
+      name: Genre - Trakt Lists
       list:
-        - out-loud
-        - out-loud-pilot-episode
-        - out-loud-first-season
-        - out-loud-new-episodes
+        - https://trakt.tv/users/goape/lists/out-loud
+        - https://trakt.tv/users/goape/lists/out-loud-pilot-episode
+        - https://trakt.tv/users/goape/lists/out-loud-first-season
+        - https://trakt.tv/users/goape/lists/out-loud-new-episodes
       summary: Shows featuring fierce individuals who refuse to fit into society's boring little boxes. These series celebrate the beautiful chaos of being authentically, unapologetically human.
   Truth Be Told:
     template:

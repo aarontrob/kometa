@@ -58,6 +58,16 @@ templates:
     smart_label: random
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
+  'Genre [Bottom] - Trakt Lists':
+    optional:
+      - label
+      - summary
+    trakt_list: <<list>>
+    sync_mode: sync
+    label: <<label>>
+    smart_label: random
+    sort_title: '!3_Genre <<collection_name>>'
+    summary: <<summary>>
   'Genre [Holiday] - Trakt List':
     optional:
       - label
@@ -101,12 +111,12 @@ collections:
         both sides of Santa's list come together.
   Out Loud:
     template:
-      name: Genre - Trakt List
+      name: Genre - Trakt Lists
       list:
-        - out-loud
-        - out-loud-pilot-episode
-        - out-loud-first-season
-        - out-loud-new-episodes
+        - 'https://trakt.tv/users/goape/lists/out-loud'
+        - 'https://trakt.tv/users/goape/lists/out-loud-pilot-episode'
+        - 'https://trakt.tv/users/goape/lists/out-loud-first-season'
+        - 'https://trakt.tv/users/goape/lists/out-loud-new-episodes'
       summary: >-
         Shows featuring fierce individuals who refuse to fit into society's
         boring little boxes. These series celebrate the beautiful chaos of being
