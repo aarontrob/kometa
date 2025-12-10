@@ -149,6 +149,13 @@ unmanaged: &ref_0
   template:
     name: Unmanaged
 collections:
+  AAA TEST COLLECTION:
+    builder_level: movie
+    tmdb_movie:
+      - 603
+      - 624860
+      - 604
+      - 605
   Family Guy Collection:
     template:
       name: Collection
