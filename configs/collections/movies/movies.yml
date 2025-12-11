@@ -151,6 +151,7 @@ unmanaged: &ref_0
 collections:
   AAA TEST COLLECTION:
     builder_level: movie
+    collection_order: custom
     tmdb_movie:
       - 603
       - 624860
