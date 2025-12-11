@@ -10,11 +10,11 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Tinsel Time:
+  Naughty & Nice:
     template:
       name: Genre [Holiday] - Trakt List
       list: movies-kids-christmas
-      summary: Get ready for holiday magic! These festive flicks are filled with snowflakes, giggles, and loads of Christmas cheer. Cozy up, sip some cocoa, and join the fun with Santa, elves, and plenty of surprises!
+      summary: Holiday troublemakers and yuletide do-gooders collide in this festive collection. These stories showcase the glorious chaos that unfolds when both sides of Santa's list come together.
   Egg-citing Adventures:
     template:
       name: Genre [Holiday] - Trakt List

@@ -21,14 +21,14 @@ unmanaged: &unmanaged
 ######################################################
 
 collections:
-  AAA TEST COLLECTION:
-    builder_level: movie
-    collection_order: custom
-    tmdb_movie:
-      - 603 # The Matrix
-      - 624860 # The Matrix Resurrections
-      - 604 # The Matrix Reloaded
-      - 605 # The Matrix Revolutions
+  # AAA TEST COLLECTION:
+  #   builder_level: movie
+  #   collection_order: custom
+  #   tmdb_movie:
+  #     - 603 # The Matrix
+  #     - 624860 # The Matrix Resurrections
+  #     - 604 # The Matrix Reloaded
+  #     - 605 # The Matrix Revolutions
   # Addams Family Collection:
   #   template:
   #     name: Collection - Movie
