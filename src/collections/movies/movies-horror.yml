@@ -503,7 +503,7 @@ collections:
     template:
       name: Collection - Movie
       collection: 256296
-      movie: 139455
+      movie: 139455, 801937
       summary: "Garbage day!"
     label: Horror
   Sleepaway Camp Collection:
