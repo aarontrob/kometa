@@ -122,7 +122,7 @@ collections:
     label: Aaron
   Aaron's Faves:
     build_collection: false
-    trakt_list: 'https://trakt.tv/users/goape/lists/tv-aaron'
+    tmdb_list: 8576783
     item_label: Aaron
     sync_mode: append
     non_item_remove_label: Aaron
