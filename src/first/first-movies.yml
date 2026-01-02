@@ -39,16 +39,16 @@ collections:
       all:
         release: 365
       sort_by: release.desc
-  New Arrivals:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!1New Arrivals"
-      summary: A fresh batch of films has just arrived, offering a mix of genres and exciting new stories. Whether it’s action, comedy, or drama, there’s something for every taste.
-    smart_filter:
-      all:
-        added: 30
-      limit: 100
-      sort_by: added.desc
+  # New Arrivals:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!1New Arrivals"
+  #     summary: A fresh batch of films has just arrived, offering a mix of genres and exciting new stories. Whether it’s action, comedy, or drama, there’s something for every taste.
+  #   smart_filter:
+  #     all:
+  #       added: 30
+  #     limit: 100
+  #     sort_by: added.desc
   Only in Theaters:
     template:
       name: First [Sort Title] - Custom
