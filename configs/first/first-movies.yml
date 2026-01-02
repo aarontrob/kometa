@@ -32,18 +32,6 @@ collections:
           user_rating.gte: 9.5
         any:
           label: Aaron
-  Just Released:
-    template:
-      name: 'First [Sort Title] - Custom'
-      sort_title: '!2Just Released'
-      summary: >-
-        Hollywood's biggest blockbusters have escaped theatrical captivity and
-        are streaming straight to your home. Your second chance to catch what
-        you missed has arrived.
-    smart_filter:
-      all:
-        release: 365
-      sort_by: release.desc
   Only in Theaters:
     template:
       name: 'First [Sort Title] - Custom'
