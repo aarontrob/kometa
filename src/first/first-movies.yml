@@ -10,20 +10,20 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  All-Time Faves:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!8All-Time Faves"
-      summary: These movies have earned their spot as your absolute favorites, guaranteed to always deliver the perfect blend of nostalgia and enjoyment every time.
-    collection_filtering: user
-    smart_filter:
-      sort_by: title.asc
-      any:
-        all:
-          user_rating.gte: 9.5
-        any:
-          label: Aaron
-    # visible_home: true
+  # All-Time Faves:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!8All-Time Faves"
+  #     summary: These movies have earned their spot as your absolute favorites, guaranteed to always deliver the perfect blend of nostalgia and enjoyment every time.
+  #   collection_filtering: user
+  #   smart_filter:
+  #     sort_by: title.asc
+  #     any:
+  #       all:
+  #         user_rating.gte: 9.5
+  #       any:
+  #         label: Aaron
+  # visible_home: true
   # Certified Fresh:
   #   template:
   #     name: First [Sort Title] - Custom
@@ -84,14 +84,14 @@ collections:
   #   smart_label: release.desc
   #   sync_mode: sync
   #   item_label: Viral Views
-  Watchlist:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!7Watchlist"
-      summary: "Procrastination's Greatest Hits: Films too intimidating for a Tuesday, too cerebral for a Friday, and somehow never quite right for any time in between. Their runtime alone makes your eyelids heavy."
-    plex_watchlist: added.desc
-    collection_order: custom
-    sync_mode: sync
+  # Watchlist:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!7Watchlist"
+  #     summary: "Procrastination's Greatest Hits: Films too intimidating for a Tuesday, too cerebral for a Friday, and somehow never quite right for any time in between. Their runtime alone makes your eyelids heavy."
+  #   plex_watchlist: added.desc
+  #   collection_order: custom
+  #   sync_mode: sync
   Aaron's Faves:
     build_collection: false
     trakt_list: https://trakt.tv/users/goape/lists/movies-aaron
