@@ -49,20 +49,20 @@ collections:
   #       added: 30
   #     limit: 100
   #     sort_by: added.desc
-  Only in Theaters:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!3Only in Theaters"
-      summary: >-
-        Why so pixelated? Premium releases meet amateur cinematography in this collection. The quality's questionable, the angles are strange, but the thrill of forbidden viewing comes through in every frame.
-    smart_label: release.desc
-    plex_search:
-      all:
-        release.after: 01/01/2024
-    filters:
-      filepath.regex:
-        - '(?i)\bCAM\b'
-        - '(?i)\bTELESYNC\b'
+  # Only in Theaters:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!3Only in Theaters"
+  #     summary: >-
+  #       Why so pixelated? Premium releases meet amateur cinematography in this collection. The quality's questionable, the angles are strange, but the thrill of forbidden viewing comes through in every frame.
+  #   smart_label: release.desc
+  #   plex_search:
+  #     all:
+  #       release.after: 01/01/2024
+  #   filters:
+  #     filepath.regex:
+  #       - '(?i)\bCAM\b'
+  #       - '(?i)\bTELESYNC\b'
   To Be Continued...:
     template:
       name: First [Sort Title] - Custom
@@ -75,15 +75,15 @@ collections:
         progress: true
         plays.lt: 1
     # visible_home: true
-  Viral Views:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!5Viral Views"
-      summary: Films experiencing explosive viewership right now—for better or worse. Whether trending for cinematic brilliance, spectacular disasters, or 'you have to see it to believe it' moments, these titles have everyone talking.
-    tmdb_trending_daily: 30
-    smart_label: release.desc
-    sync_mode: sync
-    item_label: Viral Views
+  # Viral Views:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!5Viral Views"
+  #     summary: Films experiencing explosive viewership right now—for better or worse. Whether trending for cinematic brilliance, spectacular disasters, or 'you have to see it to believe it' moments, these titles have everyone talking.
+  #   tmdb_trending_daily: 30
+  #   smart_label: release.desc
+  #   sync_mode: sync
+  #   item_label: Viral Views
   Watchlist:
     template:
       name: First [Sort Title] - Custom
