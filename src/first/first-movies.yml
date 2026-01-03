@@ -63,18 +63,18 @@ collections:
   #     filepath.regex:
   #       - '(?i)\bCAM\b'
   #       - '(?i)\bTELESYNC\b'
-  To Be Continued...:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!6To Be Continued"
-      summary: "Cinema Interrupted: Movies you started with the best intentions but somehow only experienced the first half. The plots thicken somewhere beyond where your consciousness ended."
-    collection_filtering: user
-    smart_filter:
-      sort_by: title.asc
-      all:
-        progress: true
-        plays.lt: 1
-    # visible_home: true
+  # To Be Continued...:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!6To Be Continued"
+  #     summary: "Cinema Interrupted: Movies you started with the best intentions but somehow only experienced the first half. The plots thicken somewhere beyond where your consciousness ended."
+  #   collection_filtering: user
+  #   smart_filter:
+  #     sort_by: title.asc
+  #     all:
+  #       progress: true
+  #       plays.lt: 1
+  # visible_home: true
   # Viral Views:
   #   template:
   #     name: First [Sort Title] - Custom

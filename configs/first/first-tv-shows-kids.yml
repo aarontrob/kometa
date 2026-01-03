@@ -74,22 +74,6 @@ collections:
         episode_air_date: 7
         episode_unplayed: true
       sort_by: episode_release.desc
-  To Be Continued:
-    template:
-      name: 'First [Sort Title] - Custom'
-      sort_title: '!5To Be Continued'
-      name_mapping: 'To Be Continued [TV Shows - Kids]'
-      summary: >-
-        Serialized Slumber: TV episodes that proved too powerful for your
-        eyelids. The characters continue their journey long after you've begun
-        yours into dreamland.
-    collection_filtering: user
-    builder_level: episode
-    smart_filter:
-      sort_by: title.asc
-      all:
-        episode_progress: true
-        plays.lt: 1
   Watchlist:
     template:
       name: 'First [Sort Title] - Custom'
