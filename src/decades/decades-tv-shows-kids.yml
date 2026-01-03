@@ -13,7 +13,6 @@ collections:
   "2000s":
     template:
       name: Decade [2000s]
-      name_mapping: 2000s [TV Shows - Kids]
       year:
         - 2000
         - 2001
@@ -30,7 +29,6 @@ collections:
   "1990s":
     template:
       name: Decade
-      name_mapping: 1990s [TV Shows - Kids]
       year:
         - 1990
         - 1991
@@ -47,7 +45,6 @@ collections:
   "1980s":
     template:
       name: Decade
-      name_mapping: 1980s [TV Shows - Kids]
       year:
         - 1980
         - 1981
@@ -64,7 +61,6 @@ collections:
   "1970s":
     template:
       name: Decade
-      name_mapping: 1970s [TV Shows - Kids]
       year:
         - 1970
         - 1971
@@ -81,7 +77,6 @@ collections:
   "1960s":
     template:
       name: Decade
-      name_mapping: 1960s [TV Shows - Kids]
       year:
         - 1960
         - 1961
@@ -98,7 +93,6 @@ collections:
   "1950s":
     template:
       name: Decade
-      name_mapping: 1950s [TV Shows - Kids]
       year:
         - 1950
         - 1951
