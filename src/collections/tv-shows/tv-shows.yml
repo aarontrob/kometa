@@ -236,6 +236,7 @@ collections:
       name: Collection - Shows
       show: 648, 92783, 92783
       summary: HULK SMASH!
+    name_mapping: Hulk Collection [TV Shows]
   I Know What You Did Last Summer Collection:
     template:
       name: Collection - Hide Show
