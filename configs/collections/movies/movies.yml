@@ -378,14 +378,6 @@ collections:
       collection: 372257
       movie: '28512, 503'
       summary: 'Hell, Upside Down'
-  Predator Collection:
-    template:
-      name: Collection
-      collection: '115762, 399, 1376434'
-      summary: >-
-        A science fiction action film series centered on a warrior class
-        extraterrestrial species with technologically advanced weaponry that
-        travel to Earth to trophy hunt human beings.
   The Producers Collection:
     template:
       name: Collection - Movies
