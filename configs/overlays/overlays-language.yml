@@ -5,8 +5,8 @@ overlays:
       file: config/overlays/Languages/dutch-overlay-v2.png
     plex_search:
       all:
-        audio_language: nl
-        audio_language.not: en
+        audio_language: Dutch
+        audio_language.not: English
   French:
     overlay:
       name: French
@@ -16,8 +16,8 @@ overlays:
         any:
           title: The Count of Monte-Cristo
         all:
-          audio_language: fr
-          audio_language.not: en
+          audio_language: French
+          audio_language.not: English
   German:
     overlay:
       name: German
@@ -26,22 +26,14 @@ overlays:
       all:
         audio_language: de
         audio_language.not: en
-  Icelandic:
-    overlay:
-      name: Icelandic
-      file: config/overlays/Languages/icelandic-overlay-v2.png
-    plex_search:
-      all:
-        audio_language: is
-        audio_language.not: en
   Italian:
     overlay:
       name: Italian
       file: config/overlays/Languages/italian-overlay-v2.png
     plex_search:
       all:
-        audio_language: it
-        audio_language.not: en
+        audio_language: Italian
+        audio_language.not: English
   Japanese:
     overlay:
       name: Japanese
@@ -58,6 +50,14 @@ overlays:
       all:
         audio_language: ko
         audio_language.not: en
+  Norwegian:
+    overlay:
+      name: Norwegian
+      file: config/overlays/Languages/norwegian-overlay-v2.png
+    plex_search:
+      all:
+        audio_language: Norwegian
+        audio_language.not: English
   Russian:
     overlay:
       name: Russian
