@@ -58,6 +58,16 @@ templates:
     smart_label: random
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
+  'Genre [Bottom] - Trakt Lists':
+    optional:
+      - label
+      - summary
+    trakt_list: <<list>>
+    sync_mode: sync
+    label: <<label>>
+    smart_label: random
+    sort_title: '!3_Genre <<collection_name>>'
+    summary: <<summary>>
   'Genre [Holiday] - Trakt List':
     optional:
       - label
@@ -99,7 +109,7 @@ collections:
         "They're coming to get you, Barbara!" Shuffling, moaning, and refusing
         to stay buried. These undead epics showcase humanity's stand against
         opponents who lack pulse but compensate with persistence.
-    smart_label: title.asc
+    smart_label: random
   Blood & Gore:
     template:
       name: Genre - Trakt List
@@ -108,7 +118,7 @@ collections:
         Celebrate the wet work of horror's greatest effects artists. These films
         don't just cross the line—they gleefully obliterate it in spectacular
         crimson fashion.
-    smart_label: title.asc
+    smart_label: random
   Clowning Around:
     template:
       name: Genre - Trakt List
@@ -120,7 +130,7 @@ collections:
     sync_mode: append
     plex_search:
       title: Stephen King's IT
-    smart_label: title.asc
+    smart_label: random
   Howl at the Moon:
     template:
       name: Genre - Trakt List
@@ -130,7 +140,7 @@ collections:
         beastly transformations, full moons, and chills that’ll have you
         questioning who—or what—is lurking in the shadows. It’s a supernatural
         adventure where danger lurks beneath every howl!
-    smart_label: title.asc
+    smart_label: random
   Killer Kids:
     template:
       name: Genre - Trakt List
@@ -139,7 +149,7 @@ collections:
         From sweet-faced tots to twisted teens, these pint-sized terrors prove
         evil comes in all ages. Don't let their innocent looks fool you - these
         kids are deadly and dying to play!
-    smart_label: title.asc
+    smart_label: random
   Macabre Melodies:
     template:
       name: Genre - Trakt List
@@ -149,7 +159,7 @@ collections:
         The show must go on... even if it kills! These sinister sing-alongs
         blend pitch-perfect terror with show-stopping slaughter, proving that
         every performance could be your last. Break a leg - or several.
-    smart_label: title.asc
+    smart_label: random
   Monster Mash:
     template:
       name: Genre - Trakt List
@@ -158,6 +168,7 @@ collections:
         Nature's most magnificently oversized predators remind humanity exactly
         where we stand on the food chain. These colossal creatures prove bigger
         isn't just better – it's absolutely terrifying.
+    smart_label: random
   Murder & Gravy:
     template:
       name: 'Genre [Holiday] - Trakt List'
@@ -168,7 +179,7 @@ collections:
         mayhem where the guests are dying to leave and murderous fowl get their
         revenge. From homicidal turkeys to pilgrim slashers, this buffet of
         bloodshed gives new meaning to "family cut-throat dinner."
-    smart_label: title.asc
+    smart_label: random
   Neck Biters:
     template:
       name: Genre - Trakt List
@@ -176,7 +187,7 @@ collections:
       summary: >-
         Step into the shadows and face the creatures of the night! These movies
         deliver spine-chilling thrills, with vampires lurking in every corner.
-    smart_label: title.asc
+    smart_label: random
   Nightmare Cinema:
     template:
       name: Genre
@@ -186,6 +197,7 @@ collections:
         The stuff of nightmares projected in glorious, spine-tingling detail.
         These horror essentials prove that terror is an art form. Sweet dreams
         are highly overrated.
+    smart_label: random
   Silent Fright:
     template:
       name: 'Genre [Holiday] - Trakt List'
@@ -195,7 +207,7 @@ collections:
         cheer to the darkest depths, with killer Santas, twisted carols, and
         enough gore to stain the snow red. It's festive as hell—just the way
         Krampus intended!
-    smart_label: title.asc
+    smart_label: random
   Slasher Central:
     template:
       name: Genre - Trakt List
@@ -205,4 +217,4 @@ collections:
         slashers serve up unstoppable killers, terrible decisions, and enough
         creative kills to fill a morgue. From summer camps to suburban streets,
         nowhere is safe when the blade starts swinging.
-    smart_label: title.asc
+    smart_label: random
