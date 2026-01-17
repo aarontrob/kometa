@@ -20,10 +20,11 @@ collections:
     template:
       name: 'First [Sort Title] - Custom'
       sort_title: '!6First Impressions: Pilot Episodes Only'
-      list: tv-pilot-episode
       summary: >-
         Start your journey with these pilot episodes, setting the stage for
         stories you can dive into if they spark your interest.
+    tmdb_list: 8576763
+    name_mapping: First Impressions- Pilot Episodes Only
     smart_label: release.desc
     item_label: Pilot Episode
   Aaron's Faves:
