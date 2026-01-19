@@ -1015,7 +1015,6 @@ collections:
   RED Collection: *unmanaged
   Revenge of the Nerds Collection: *unmanaged
   Road to... Collection: *unmanaged
-  Road Trip Collection: *unmanaged
   The Robert Langdon Collection: *unmanaged
   Rocky Collection: *unmanaged
   Romancing the Stone Collection: *unmanaged
@@ -1028,7 +1027,7 @@ collections:
   The Scorpion King Collection: *unmanaged
   Screwballs Collection: *unmanaged
   The Shadow Collection: *unmanaged
-  Shang-Chi Collection: *unmanaged
+  # Shang-Chi Collection: *unmanaged
   Shanghai Noon Collection: *unmanaged
   Sharknado Collection: *unmanaged
   Sin City Collection: *unmanaged
@@ -1047,7 +1046,6 @@ collections:
   Starship Troopers Collection: *unmanaged
   The Sting Collection: *unmanaged
   Suicide Squad Collection: *unmanaged
-  The Sword and the Sorcerer Collection: *unmanaged
   Taken Collection: *unmanaged
   Ted Collection: *unmanaged
   Teen Titans Collection: *unmanaged
