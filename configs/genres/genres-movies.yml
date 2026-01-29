@@ -101,38 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Adventure Seekers:
-    template:
-      name: Genre
-      genre: Adventure
-      summary: >-
-        From mystical realms to unexplored frontiers, adventure films thrust
-        everyday heroes into extraordinary journeys. Where danger lurks,
-        discovery follows. Buckle up for the ride.
-  Bound to Be Seen:
-    template:
-      name: Genre - Trakt List Other
-      list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-books'
-      summary: >-
-        Stories that couldn't be contained by puny book covers. Watch as beloved
-        tales break free from their paper prisons and gain special effects,
-        soundtracks, and occasionally questionable casting choices.
-  Clue Me In:
-    template:
-      name: Genre
-      genre: Mystery
-      summary: >-
-        Whodunnit? Get ready for a ride full of twists, turns, and sleuthing
-        galore. These mystery films will have you on the edge of your seat,
-        piecing together clues and unraveling the truth before the final reveal.
-  Comic Book Legends:
-    template:
-      name: Genre - Trakt List Other
-      list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-comics'
-      summary: >-
-        From basement collections to blockbuster phenomena. These comic
-        adaptations span from game-changing masterpieces to endearingly
-        misguided swings, each adding their own flavor to the multiverse.
   Criminal Intent:
     template:
       name: Genre

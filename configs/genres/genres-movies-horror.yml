@@ -101,15 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Brains!:
-    template:
-      name: Genre - Trakt List
-      list: brains
-      summary: >-
-        "They're coming to get you, Barbara!" Shuffling, moaning, and refusing
-        to stay buried. These undead epics showcase humanity's stand against
-        opponents who lack pulse but compensate with persistence.
-    smart_label: random
   Blood & Gore:
     template:
       name: Genre - Trakt List
