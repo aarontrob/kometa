@@ -374,6 +374,14 @@ collections:
         vacation cabin and force them to play sadistic "games" with one another
         for their own amusement.
     label: Horror
+  Gates of Hell Trilogy:
+    template:
+      name: Collection - Movies
+      movie: '24920, 19204, 28794'
+      summary: >-
+        The Gates of Hell trilogy is the unofficial name for a trilogy of films
+        directed by Lucio Fulci. While the films aren't direct sequels they are
+        thematically connected.
   The Grudge Collection:
     template:
       name: Collection - Movie
@@ -925,7 +933,6 @@ collections:
   From Beyond Collection: *ref_0
   From Dusk Till Dawn Collection: *ref_0
   The Gate Collection: *ref_0
-  Gates of Hell Trilogy: *ref_0
   Ghoulies Collection: *ref_0
   Ginger Snaps Collection: *ref_0
   Grave Encounters Collection: *ref_0

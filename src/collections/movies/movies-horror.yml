@@ -229,6 +229,11 @@ collections:
       movie: 8461, 10234
       summary: Two psychotic young men take a mother, father, and son hostage in their vacation cabin and force them to play sadistic "games" with one another for their own amusement.
     label: Horror
+  Gates of Hell Trilogy:
+    template:
+      name: Collection - Movies
+      movie: 24920, 19204, 28794
+      summary: The Gates of Hell trilogy is the unofficial name for a trilogy of films directed by Lucio Fulci. While the films aren't direct sequels they are thematically connected.
   The Grudge Collection:
     template:
       name: Collection - Movie
@@ -759,7 +764,7 @@ collections:
   From Beyond Collection: *unmanaged
   From Dusk Till Dawn Collection: *unmanaged
   The Gate Collection: *unmanaged
-  Gates of Hell Trilogy: *unmanaged
+  # Gates of Hell Trilogy: *unmanaged
   Ghoulies Collection: *unmanaged
   Ginger Snaps Collection: *unmanaged
   Grave Encounters Collection: *unmanaged
