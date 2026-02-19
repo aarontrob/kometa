@@ -35,6 +35,8 @@ collections:
     name_mapping: First Impressions- Pilot Episodes Only
     smart_label: release.desc
     item_label: Pilot Episode
+    sync_mode: append
+    non_item_remove_label: Pilot Episodes
   # Just Released:
   #   template:
   #     name: First [Sort Title] - Custom
@@ -112,7 +114,7 @@ collections:
   #   non_item_remove_label: Pilot Episodes
   First Season:
     build_collection: false
-    trakt_list: https://trakt.tv/users/goape/lists/tv-first-season
+    tmdb_list: 8576762
     item_label: First Season
     sync_mode: append
     non_item_remove_label: First Season
