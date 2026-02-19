@@ -28,7 +28,7 @@ collections:
     smart_label: release.desc
     item_label: Pilot Episode
     sync_mode: append
-    non_item_remove_label: Pilot Episodes
+    non_item_remove_label: Pilot Episode
   Aaron's Faves:
     build_collection: false
     tmdb_list: 8576783
