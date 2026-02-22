@@ -469,14 +469,6 @@ collections:
       movie: '31909, 20424'
       summary: NATURAL or SUPERNATURAL?
     label: Horror
-  Invasion of the Body Snatchers Collection:
-    template:
-      name: Collection - Movies
-      movie: '11549, 11850, 4858, 4722'
-      summary: >-
-        A small-town doctor learns that the population of his community is being
-        replaced by emotionless alien duplicates.
-    label: Horror
   It Came from Outer Space Collection:
     template:
       name: Collection
