@@ -26,7 +26,7 @@ overlays:
       file: config/overlays/Pilot-Episodes/overlay.png
     plex_search:
       all:
-        label: "First Impressions: Pilot Episodes Only"
+        label: Pilot Episode
   First-Season:
     overlay:
       name: First-Season
