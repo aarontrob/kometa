@@ -734,11 +734,11 @@ collections:
       name: Collection
       collection: 449462
       summary: You dont mess with the law. The law messes with you.
-  Superman Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: superman-collection
-      summary: Truth, Justice and a Better Tomorrow
+  # Superman Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: superman-collection
+  #     summary: Truth, Justice and a Better Tomorrow
   The Thomas Crown Affair Collection:
     template:
       name: Collection - Movies

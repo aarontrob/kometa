@@ -655,12 +655,12 @@ collections:
     template:
       name: Collection - Hide Show
       show: 13655
-  Superman Collection:
-    template:
-      name: Search
-      title: Superman, Man of Steel, Super Friends, Superfriends
-      show: 4028
-      summary: Truth, Justice and a Better Tomorrow
+  # Superman Collection:
+  #   template:
+  #     name: Search
+  #     title: Superman, Man of Steel, Super Friends, Superfriends
+  #     show: 4028
+  #     summary: Truth, Justice and a Better Tomorrow
   Tales from the Crypt Collection:
     template:
       name: Collection - Hide Show

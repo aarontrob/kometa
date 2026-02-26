@@ -719,11 +719,6 @@ collections:
     template:
       name: Collection - Movies
       movie: '537061, 755867'
-  Superman Collection:
-    template:
-      name: Search
-      title: 'Superman, Man of Steel'
-      summary: 'Truth, Justice and a Better Tomorrow'
   Tangled Collection:
     template:
       name: Collection - Movies

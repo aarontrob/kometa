@@ -485,11 +485,11 @@ collections:
       name: Collection - Hide Show
       show: 1532
       summary: The original partners in crime.
-  Superman Collection:
-    template:
-      name: Collection - Shows
-      show: 4515, 12662
-      summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
+  # Superman Collection:
+  #   template:
+  #     name: Collection - Shows
+  #     show: 4515, 12662
+  #     summary: "Superman is a fictional superhero who first appeared in American comic books published by DC Comics. The character was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in the comic book Action Comics #1."
   Survivor Collection:
     template:
       name: Search
