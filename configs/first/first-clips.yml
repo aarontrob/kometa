@@ -44,18 +44,6 @@ collections:
           episode_user_rating.gte: 9.5
         any:
           label: Aaron
-  New Arrivals:
-    template:
-      name: 'First [Sort Title] - Custom'
-      sort_title: '!1New Arrivals'
-      name_mapping: 'New Arrivals [Clips]'
-      summary: Fresh clips have landed!
-    builder_level: episode
-    smart_filter:
-      all:
-        date_episode_added: 30
-      limit: 100
-      sort_by: added.desc
   To Be Continued...:
     template:
       name: 'First [Sort Title] - Custom'

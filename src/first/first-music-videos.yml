@@ -26,15 +26,15 @@ collections:
         any:
           label: Aaron
     # visible_home: true
-  New Arrivals:
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!1New Arrivals"
-      name_mapping: New Arrivals [Music Videos]
-      summary: Fresh clips have landed!
-    builder_level: episode
-    smart_filter:
-      all:
-        added: 30
-      limit: 100
-      sort_by: added.desc
+  # New Arrivals:
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!1New Arrivals"
+  #     name_mapping: New Arrivals [Music Videos]
+  #     summary: Fresh clips have landed!
+  #   builder_level: episode
+  #   smart_filter:
+  #     all:
+  #       added: 30
+  #     limit: 100
+  #     sort_by: added.desc
