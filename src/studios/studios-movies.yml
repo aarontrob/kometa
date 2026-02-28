@@ -10,12 +10,12 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Disney:
-    template:
-      name: Studio - Trakt List
-      # company: 2, 3, 6125, 3166
-      list: disney-25927893
-      summary: "It was all started with a mouse"
+  # Disney:
+  #   template:
+  #     name: Studio - Trakt List
+  #     # company: 2, 3, 6125, 3166
+  #     list: disney-25927893
+  #     summary: "It was all started with a mouse"
   Disneynature:
     template:
       name: Studio

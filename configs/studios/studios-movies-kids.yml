@@ -78,11 +78,6 @@ templates:
     sort_title: '!5_Studio <<collection_name>>'
     summary: <<summary>>
 collections:
-  Disney:
-    template:
-      name: Studio - Trakt List
-      list: disney-25927893
-      summary: It was all started with a mouse
   Disney Channel Original Movies:
     template:
       name: Studio - Trakt List

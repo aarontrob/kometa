@@ -10,15 +10,15 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Disney:
-    template:
-      name: Studio - Trakt List
-      # company: 2, 3, 6125, 3166, 3475, 670
-      list: disney-25927893
-      summary: "It was all started with a mouse"
-    # show_filtered: true
-    # filters:
-    #   collection.not: Disney Shorts
+  # Disney:
+  #   template:
+  #     name: Studio - Trakt List
+  #     # company: 2, 3, 6125, 3166, 3475, 670
+  #     list: disney-25927893
+  #     summary: "It was all started with a mouse"
+  # show_filtered: true
+  # filters:
+  #   collection.not: Disney Shorts
   Disney Channel Original Movies:
     template:
       name: Studio - Trakt List
