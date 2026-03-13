@@ -101,30 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Criminal Intent:
-    template:
-      name: Genre
-      genre: Crime
-      summary: >-
-        Get ready for gritty heists, dirty deals, and criminals with nothing to
-        lose. These films dive deep into the underworld, where the stakes are
-        high, and the law is nowhere to be found.
-  Femme Fatale:
-    template:
-      name: Genre - Trakt List
-      list: femme-fatale
-      summary: >-
-        Dangerous curves and deadlier motives. These sirens prove lipstick and
-        lingering eye contact outgun any weapon. Watch brilliant men lose all
-        reason, sealing their doom when they mistake predator for prey.
-  Full Throttle:
-    template:
-      name: Genre
-      genre: Action
-      summary: >-
-        Maximum velocity, minimum restraint! These action spectacles pack
-        impossible stunts, endless ammunition, and directors who consider
-        'subtle' a dirty word.
   Game Changers:
     template:
       name: Genre
