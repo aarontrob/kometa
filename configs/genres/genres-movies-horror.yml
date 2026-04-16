@@ -122,16 +122,6 @@ collections:
     plex_search:
       title: Stephen King's IT
     smart_label: random
-  Howl at the Moon:
-    template:
-      name: Genre - Trakt List
-      list: howl-at-the-moon
-      summary: >-
-        Brace for a wild, fur-filled frenzy! These frightful flicks bring on
-        beastly transformations, full moons, and chills that’ll have you
-        questioning who—or what—is lurking in the shadows. It’s a supernatural
-        adventure where danger lurks beneath every howl!
-    smart_label: random
   Killer Kids:
     template:
       name: Genre - Trakt List
