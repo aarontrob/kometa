@@ -101,14 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Game Changers:
-    template:
-      name: Genre
-      genre: Sports
-      list: movies-sports
-      summary: >-
-        These films span all facets of sports, from heart-pounding drama to
-        hilarious comedies and true stories of athletes who made their mark.
   Game Over:
     template:
       name: Genre - Trakt List Other

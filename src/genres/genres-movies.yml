@@ -46,12 +46,12 @@ collections:
   #     name: Genre
   #     genre: Action
   #     summary: Maximum velocity, minimum restraint! These action spectacles pack impossible stunts, endless ammunition, and directors who consider 'subtle' a dirty word.
-  Game Changers: #Sports
-    template:
-      name: Genre
-      genre: Sports
-      list: movies-sports
-      summary: These films span all facets of sports, from heart-pounding drama to hilarious comedies and true stories of athletes who made their mark.
+  # Game Changers: #Sports
+  #   template:
+  #     name: Genre
+  #     genre: Sports
+  #     list: movies-sports
+  #     summary: These films span all facets of sports, from heart-pounding drama to hilarious comedies and true stories of athletes who made their mark.
   Game Over:
     template:
       name: Genre - Trakt List Other
