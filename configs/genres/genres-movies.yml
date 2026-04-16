@@ -101,52 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Game Over:
-    template:
-      name: Genre - Trakt List Other
-      list: 'https://trakt.tv/users/k0meta/lists/movies-based-on-video-games'
-      summary: >-
-        Grab your popcorn, player one! These flicks bring the game screen to the
-        big screen—packed with pixelated thrills and joystick joyrides!
-  Hidden Gems:
-    template:
-      name: Genre - Trakt List
-      list: hidden-gems
-      summary: >-
-        Discover underrated treasures and overlooked classics waiting to shine
-        on your screen!
-  Jazz Hands:
-    template:
-      name: Genre - Trakt List
-      list: jazz-hands
-      summary: >-
-        Glorious emotion amplified through melody! These dazzling spectacles
-        transport ordinary moments into sequined showcases where feelings
-        deserve choreography and life's soundtrack includes a full orchestra.
-  Laugh Out Loud:
-    template:
-      name: Genre
-      genre: Comedy
-      summary: >-
-        Comedy roulette: spin the wheel and take your chances. From comedy's
-        hall of fame to its hall of shame, these films deliver both masterful
-        timing and spectacular misfires in their quest for laughter.
-  Live & Unfiltered:
-    template:
-      name: Genre - Trakt List
-      list: live-unfiltered
-      summary: >-
-        Raw comedy captured in its natural habitat. These mic-wielding
-        risk-takers transform uncomfortable truths into unstoppable laughter
-        with nothing but their wits and questionable life choices.
-  Magic & Myth:
-    template:
-      name: Genre
-      genre: Fantasy
-      summary: >-
-        Step into a world where magic is real and myths come alive. These films
-        transport you to realms filled with legendary creatures, enchanted
-        lands, and epic quests.
   Noir or Never:
     template:
       name: Genre - Trakt List Other
