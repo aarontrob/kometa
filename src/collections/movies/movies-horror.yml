@@ -173,13 +173,13 @@ collections:
       sort_title: Damned Collection
       summary: In a small English village everyone suddenly falls unconscious. When they awake every woman of child bearing age is pregnant. The resulting children have the same strange blond hair, eyes and a strong connection to each other.
     label: Horror
-  Evil Dead Collection:
-    template:
-      name: Collection - Movie
-      collection: 1960
-      movie: 27266, 713704, 109428
-      summary: They got up on the wrong side of the grave.
-    label: Horror
+  # Evil Dead Collection:
+  #   template:
+  #     name: Collection - Movie
+  #     collection: 1960
+  #     movie: 27266, 713704, 109428
+  #     summary: They got up on the wrong side of the grave.
+  #   label: Horror
   The Exorcist Collection:
     template:
       name: Collection - Trakt List Custom Order

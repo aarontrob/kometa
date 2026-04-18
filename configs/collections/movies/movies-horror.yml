@@ -306,13 +306,6 @@ collections:
         children have the same strange blond hair, eyes and a strong connection
         to each other.
     label: Horror
-  Evil Dead Collection:
-    template:
-      name: Collection - Movie
-      collection: 1960
-      movie: '27266, 713704, 109428'
-      summary: They got up on the wrong side of the grave.
-    label: Horror
   The Exorcist Collection:
     template:
       name: Collection - Trakt List Custom Order

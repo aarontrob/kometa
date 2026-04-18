@@ -137,11 +137,11 @@ collections:
       name: Collection - Shows
       show: 9156, 90228
       summary: A world beyond your experience, beyond your imagination. A place beyond your dreams.
-  Evil Dead Collection:
-    template:
-      name: Collection - Hide Show
-      show: 62264
-      summary: They got up on the wrong side of the grave.
+  # Evil Dead Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 62264
+  #     summary: They got up on the wrong side of the grave.
   The Exorcist Collection:
     template:
       name: Collection - Hide Show
