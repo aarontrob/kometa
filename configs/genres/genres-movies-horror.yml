@@ -101,55 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Blood & Gore:
-    template:
-      name: Genre - Trakt List
-      list: blood-and-gore
-      summary: >-
-        Celebrate the wet work of horror's greatest effects artists. These films
-        don't just cross the line—they gleefully obliterate it in spectacular
-        crimson fashion.
-    smart_label: random
-  Clowning Around:
-    template:
-      name: Genre - Trakt List
-      list: clowning-around
-      summary: >-
-        Step right up and enjoy the show! These clown-filled films are full of
-        fun, mischief, and a touch of the unexpected. Laughter is guaranteed,
-        but who knows what’s lurking under that painted smile?
-    sync_mode: append
-    plex_search:
-      title: Stephen King's IT
-    smart_label: random
-  Killer Kids:
-    template:
-      name: Genre - Trakt List
-      list: killer-kids
-      summary: >-
-        From sweet-faced tots to twisted teens, these pint-sized terrors prove
-        evil comes in all ages. Don't let their innocent looks fool you - these
-        kids are deadly and dying to play!
-    smart_label: random
-  Macabre Melodies:
-    template:
-      name: Genre - Trakt List
-      list: macabre-melodies
-      name_mapping: Musical Horror
-      summary: >-
-        The show must go on... even if it kills! These sinister sing-alongs
-        blend pitch-perfect terror with show-stopping slaughter, proving that
-        every performance could be your last. Break a leg - or several.
-    smart_label: random
-  Monster Mash:
-    template:
-      name: Genre - Trakt List
-      list: monster-mash
-      summary: >-
-        Nature's most magnificently oversized predators remind humanity exactly
-        where we stand on the food chain. These colossal creatures prove bigger
-        isn't just better – it's absolutely terrifying.
-    smart_label: random
   Murder & Gravy:
     template:
       name: 'Genre [Holiday] - Trakt List'
