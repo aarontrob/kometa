@@ -84,13 +84,13 @@ collections:
   #     name: Genre
   #     genre: Fantasy
   #     summary: Step into a world where magic is real and myths come alive. These films transport you to realms filled with legendary creatures, enchanted lands, and epic quests.
-  Noir or Never:
-    template:
-      name: Genre - Trakt List Other
-      list:
-        - https://trakt.tv/users/k0meta/lists/film-noir-movies
-        - https://trakt.tv/users/goape/lists/noir-or-never
-      summary: The dark corners of human desire, framed in shadow and cynicism. These moody masterpieces feature razor-sharp dialogue, fatal attractions, and the kind of nightmares that wear elegant suits.
+  # Noir or Never:
+  #   template:
+  #     name: Genre - Trakt List Other
+  #     list:
+  #       - https://trakt.tv/users/k0meta/lists/film-noir-movies
+  #       - https://trakt.tv/users/goape/lists/noir-or-never
+  #     summary: The dark corners of human desire, framed in shadow and cynicism. These moody masterpieces feature razor-sharp dialogue, fatal attractions, and the kind of nightmares that wear elegant suits.
   Out of This World:
     template:
       name: Genre

@@ -101,16 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Noir or Never:
-    template:
-      name: Genre - Trakt List Other
-      list:
-        - 'https://trakt.tv/users/k0meta/lists/film-noir-movies'
-        - 'https://trakt.tv/users/goape/lists/noir-or-never'
-      summary: >-
-        The dark corners of human desire, framed in shadow and cynicism. These
-        moody masterpieces feature razor-sharp dialogue, fatal attractions, and
-        the kind of nightmares that wear elegant suits.
   Out of This World:
     template:
       name: Genre
