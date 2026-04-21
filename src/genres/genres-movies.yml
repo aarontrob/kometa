@@ -91,35 +91,35 @@ collections:
   #       - https://trakt.tv/users/k0meta/lists/film-noir-movies
   #       - https://trakt.tv/users/goape/lists/noir-or-never
   #     summary: The dark corners of human desire, framed in shadow and cynicism. These moody masterpieces feature razor-sharp dialogue, fatal attractions, and the kind of nightmares that wear elegant suits.
-  Out of This World:
-    template:
-      name: Genre
-      genre: Science Fiction
-      list: out-of-this-world
-      summary: Distant galaxies and altered realities. Time warps and mind-bending technology. The impossible becomes possible as human ingenuity meets cosmic forces in extraordinary ways.
-  Plunder & Peril:
-    template:
-      name: Genre - Trakt List
-      list: plunder-peril
-      summary: Hoist the black flag for a treasure trove of maritime mayhem! From swashbuckling adventures to deadly sea battles, these salty tales showcase the ultimate ocean outlaws in action. Just remember - dead men tell no tales.
-  Portrait Gallery:
-    template:
-      name: Genre - Trakt List
-      list: portrait-gallery
-      summary: Real people who became larger than life, captured in all their brilliant and terrible glory. These biographical gems showcase the price of greatness and the cost of genius.
-  Real Events, Reel Stories:
-    template:
-      name: Genre - Trakt List Other
-      list:
-        - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
-        - https://trakt.tv/users/goape/lists/real-events-reel-stories
-      summary: True tales hit the silver screen! From heart-pounding heroics to wild twists of fate, these flicks bring real-life moments to movie magic!
-  Naughty & Nice:
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: naughty-nice
-      smart_label: title.asc
-      summary: Holiday troublemakers and yuletide do-gooders collide in this festive collection. These stories showcase the glorious chaos that unfolds when both sides of Santa's list come together.
+  # Out of This World:
+  #   template:
+  #     name: Genre
+  #     genre: Science Fiction
+  #     list: out-of-this-world
+  #     summary: Distant galaxies and altered realities. Time warps and mind-bending technology. The impossible becomes possible as human ingenuity meets cosmic forces in extraordinary ways.
+  # Plunder & Peril:
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: plunder-peril
+  #     summary: Hoist the black flag for a treasure trove of maritime mayhem! From swashbuckling adventures to deadly sea battles, these salty tales showcase the ultimate ocean outlaws in action. Just remember - dead men tell no tales.
+  # Portrait Gallery:
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: portrait-gallery
+  #     summary: Real people who became larger than life, captured in all their brilliant and terrible glory. These biographical gems showcase the price of greatness and the cost of genius.
+  # Real Events, Reel Stories:
+  #   template:
+  #     name: Genre - Trakt List Other
+  #     list:
+  #       - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories
+  #       - https://trakt.tv/users/goape/lists/real-events-reel-stories
+  #     summary: True tales hit the silver screen! From heart-pounding heroics to wild twists of fate, these flicks bring real-life moments to movie magic!
+  # Naughty & Nice:
+  #   template:
+  #     name: Genre [Holiday] - Trakt List
+  #     list: naughty-nice
+  #     smart_label: title.asc
+  #     summary: Holiday troublemakers and yuletide do-gooders collide in this festive collection. These stories showcase the glorious chaos that unfolds when both sides of Santa's list come together.
   So Bad, It's Good:
     template:
       name: Genre - Trakt List

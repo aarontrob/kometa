@@ -101,14 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Naughty & Nice:
-    template:
-      name: 'Genre [Holiday] - Trakt List'
-      list: movies-kids-christmas
-      summary: >-
-        Holiday troublemakers and yuletide do-gooders collide in this festive
-        collection. These stories showcase the glorious chaos that unfolds when
-        both sides of Santa's list come together.
   Egg-citing Adventures:
     template:
       name: 'Genre [Holiday] - Trakt List'
