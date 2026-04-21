@@ -63,20 +63,20 @@ collections:
   #     list: monster-mash
   #     summary: Nature's most magnificently oversized predators remind humanity exactly where we stand on the food chain. These colossal creatures prove bigger isn't just better – it's absolutely terrifying.
   #   smart_label: random
-  Murder & Gravy:
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: murder-gravy
-      label: horror
-      summary: Pass the carnage! These twisted Thanksgiving tales serve up a feast of mayhem where the guests are dying to leave and murderous fowl get their revenge. From homicidal turkeys to pilgrim slashers, this buffet of bloodshed gives new meaning to "family cut-throat dinner."
-    smart_label: random
-  Neck Biters:
-    template:
-      name: Genre - Trakt List
-      list: neck-biters
-      # label: horror
-      summary: Step into the shadows and face the creatures of the night! These movies deliver spine-chilling thrills, with vampires lurking in every corner.
-    smart_label: random
+  # Murder & Gravy:
+  #   template:
+  #     name: Genre [Holiday] - Trakt List
+  #     list: murder-gravy
+  #     label: horror
+  #     summary: Pass the carnage! These twisted Thanksgiving tales serve up a feast of mayhem where the guests are dying to leave and murderous fowl get their revenge. From homicidal turkeys to pilgrim slashers, this buffet of bloodshed gives new meaning to "family cut-throat dinner."
+  #   smart_label: random
+  # Neck Biters:
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: neck-biters
+  #     # label: horror
+  #     summary: Step into the shadows and face the creatures of the night! These movies deliver spine-chilling thrills, with vampires lurking in every corner.
+  #   smart_label: random
   Nightmare Cinema:
     template:
       name: Genre
