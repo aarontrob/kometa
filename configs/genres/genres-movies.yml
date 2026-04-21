@@ -101,14 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  'So Bad, It''s Good':
-    template:
-      name: Genre - Trakt List
-      list: bad-movies-collection
-      summary: >-
-        Films so earnestly awful they become transcendent viewing experiences.
-        These lovable disasters prove the worst movies make the best
-        entertainment. Unintentional comedy gold.
   Trick-or-Treat:
     template:
       name: 'Genre [Holiday] - Trakt List'

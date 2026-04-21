@@ -120,11 +120,11 @@ collections:
   #     list: naughty-nice
   #     smart_label: title.asc
   #     summary: Holiday troublemakers and yuletide do-gooders collide in this festive collection. These stories showcase the glorious chaos that unfolds when both sides of Santa's list come together.
-  So Bad, It's Good:
-    template:
-      name: Genre - Trakt List
-      list: bad-movies-collection
-      summary: Films so earnestly awful they become transcendent viewing experiences. These lovable disasters prove the worst movies make the best entertainment. Unintentional comedy gold.
+  # So Bad, It's Good:
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: bad-movies-collection
+  #     summary: Films so earnestly awful they become transcendent viewing experiences. These lovable disasters prove the worst movies make the best entertainment. Unintentional comedy gold.
   Trick-or-Treat: #Halloween
     template:
       name: Genre [Holiday] - Trakt List
