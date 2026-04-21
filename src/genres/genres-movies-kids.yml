@@ -15,21 +15,21 @@ collections:
   #     name: Genre [Holiday] - Trakt List
   #     list: movies-kids-christmas
   #     summary: Holiday troublemakers and yuletide do-gooders collide in this festive collection. These stories showcase the glorious chaos that unfolds when both sides of Santa's list come together.
-  Egg-citing Adventures:
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: movies-kids-easter
-      summary: Hop into some egg-citing adventures! These fun flicks are bursting with bunnies, colorful eggs, and springtime surprises. Get ready for a basket full of laughs and warm, fuzzy moments!
-  Trick-or-Treat:
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: movies-kids-halloween
-      summary: Get ready for a monster mash of fun! These Halloween flicks bring on the laughs, treats, and spooky surprises for a night full of thrills and chills—perfect for a ghoulishly good time!
-  Turkey Time:
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: movies-kids-thanksgiving
-      summary: Gobble up the fun! These cozy flicks are filled with family, friends, and feel-good moments. Get ready for heartwarming stories, festive feasts, and a whole lot of Thanksgiving cheer!
+  # Egg-citing Adventures:
+  #   template:
+  #     name: Genre [Holiday] - Trakt List
+  #     list: movies-kids-easter
+  #     summary: Hop into some egg-citing adventures! These fun flicks are bursting with bunnies, colorful eggs, and springtime surprises. Get ready for a basket full of laughs and warm, fuzzy moments!
+  # Trick-or-Treat:
+  #   template:
+  #     name: Genre [Holiday] - Trakt List
+  #     list: movies-kids-halloween
+  #     summary: Get ready for a monster mash of fun! These Halloween flicks bring on the laughs, treats, and spooky surprises for a night full of thrills and chills—perfect for a ghoulishly good time!
+  # Turkey Time:
+  #   template:
+  #     name: Genre [Holiday] - Trakt List
+  #     list: movies-kids-thanksgiving
+  #     summary: Gobble up the fun! These cozy flicks are filled with family, friends, and feel-good moments. Get ready for heartwarming stories, festive feasts, and a whole lot of Thanksgiving cheer!
   Musical:
     template:
       name: Genre - Trakt List
