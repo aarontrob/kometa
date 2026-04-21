@@ -84,17 +84,17 @@ collections:
       list: movies-horror
       summary: The stuff of nightmares projected in glorious, spine-tingling detail. These horror essentials prove that terror is an art form. Sweet dreams are highly overrated.
     smart_label: random
-  Silent Fright:
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: silent-fright
-      # label: horror
-      summary: "'Tis the season… for terror! These bloody yuletide tales take holiday cheer to the darkest depths, with killer Santas, twisted carols, and enough gore to stain the snow red. It's festive as hell—just the way Krampus intended!"
-    smart_label: random
-  Slasher Central:
-    template:
-      name: Genre - Trakt List
-      list: slasher-central
-      # label: horror
-      summary: Time to sharpen those knives and check the body count! These classic slashers serve up unstoppable killers, terrible decisions, and enough creative kills to fill a morgue. From summer camps to suburban streets, nowhere is safe when the blade starts swinging.
-    smart_label: random
+  # Silent Fright:
+  #   template:
+  #     name: Genre [Holiday] - Trakt List
+  #     list: silent-fright
+  #     # label: horror
+  #     summary: "'Tis the season… for terror! These bloody yuletide tales take holiday cheer to the darkest depths, with killer Santas, twisted carols, and enough gore to stain the snow red. It's festive as hell—just the way Krampus intended!"
+  #   smart_label: random
+  # Slasher Central:
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: slasher-central
+  #     # label: horror
+  #     summary: Time to sharpen those knives and check the body count! These classic slashers serve up unstoppable killers, terrible decisions, and enough creative kills to fill a morgue. From summer camps to suburban streets, nowhere is safe when the blade starts swinging.
+  #   smart_label: random
