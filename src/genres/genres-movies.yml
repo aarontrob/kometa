@@ -125,41 +125,41 @@ collections:
   #     name: Genre - Trakt List
   #     list: bad-movies-collection
   #     summary: Films so earnestly awful they become transcendent viewing experiences. These lovable disasters prove the worst movies make the best entertainment. Unintentional comedy gold.
-  Trick-or-Treat: #Halloween
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: movies-halloween
-      summary: Light up the jack-o’-lanterns for chills and thrills! These eerie flicks are packed with ghouls and goblins that’ll leave you shiverin’ with delight. It’s a screamfest that’s to die for!
-  Turkey Time: #Thanksgiving
-    template:
-      name: Genre [Holiday] - Trakt List
-      list: movies-thanksgiving
-      summary: Gather 'round for heartwarming tales, family feasts, and holiday hijinks! These festive flicks are packed with gratitude, gravy, and just the right amount of family drama. It's a cozy cornucopia of feel-good fun!
-  Turn It Up: #Music
-    template:
-      name: Genre - Trakt List
-      list: movies-music
-      item_genre: Music
-      summary: Immerse yourself in the world of music with a mix of live concerts, biopics, and fictional films, showcasing thrilling moments on stage and captivating stories inspired by the power of music.
-  Pulse Pounders:
-    template:
-      name: Genre
-      genre: Thriller
-      summary: Films that turn silence into a weapon and shadows into enemies. These nail-biting thrillers prove sometimes the most terrifying sound is no sound at all.
-  Truth Be Told:
-    template:
-      name: Genre
-      genre: Documentary
-      summary: Truth captured by filmmakers with equal parts passion and raised eyebrows. These documentaries showcase humanity in all its messy glory - from world-changing events to delightfully trivial obsessions. Reality consistently delivers stories that no screenwriter could dream up.
-  "Wanted: Dead or Alive":
-    template:
-      name: Genre
-      genre: Western
-      summary: Saddle up for a rootin'-tootin' adventure! These rugged tales are packed with dusty trails, quick-draw showdowns, and outlaws with grit. It's the wild frontier, where legends are born and the spirit of the Old West rides on!
-  Wired Differently:
-    template:
-      name: Genre - Trakt List
-      list: wired-differently
-      summary: Stories where different wiring makes life more interesting, not broken. When everyday experiences hit different and social scripts need constant rewrites, these titles showcase minds that bring something fresh just by being themselves. No fixing required.
-    label: Hide
-    item_label: Hide
+  # Trick-or-Treat: #Halloween
+  #   template:
+  #     name: Genre [Holiday] - Trakt List
+  #     list: movies-halloween
+  #     summary: Light up the jack-o’-lanterns for chills and thrills! These eerie flicks are packed with ghouls and goblins that’ll leave you shiverin’ with delight. It’s a screamfest that’s to die for!
+  # Turkey Time: #Thanksgiving
+  #   template:
+  #     name: Genre [Holiday] - Trakt List
+  #     list: movies-thanksgiving
+  #     summary: Gather 'round for heartwarming tales, family feasts, and holiday hijinks! These festive flicks are packed with gratitude, gravy, and just the right amount of family drama. It's a cozy cornucopia of feel-good fun!
+  # Turn It Up: #Music
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: movies-music
+  #     item_genre: Music
+  #     summary: Immerse yourself in the world of music with a mix of live concerts, biopics, and fictional films, showcasing thrilling moments on stage and captivating stories inspired by the power of music.
+  # Pulse Pounders:
+  #   template:
+  #     name: Genre
+  #     genre: Thriller
+  #     summary: Films that turn silence into a weapon and shadows into enemies. These nail-biting thrillers prove sometimes the most terrifying sound is no sound at all.
+  # Truth Be Told:
+  #   template:
+  #     name: Genre
+  #     genre: Documentary
+  #     summary: Truth captured by filmmakers with equal parts passion and raised eyebrows. These documentaries showcase humanity in all its messy glory - from world-changing events to delightfully trivial obsessions. Reality consistently delivers stories that no screenwriter could dream up.
+  # "Wanted: Dead or Alive":
+  #   template:
+  #     name: Genre
+  #     genre: Western
+  #     summary: Saddle up for a rootin'-tootin' adventure! These rugged tales are packed with dusty trails, quick-draw showdowns, and outlaws with grit. It's the wild frontier, where legends are born and the spirit of the Old West rides on!
+  # Wired Differently:
+  #   template:
+  #     name: Genre - Trakt List
+  #     list: wired-differently
+  #     summary: Stories where different wiring makes life more interesting, not broken. When everyday experiences hit different and social scripts need constant rewrites, these titles showcase minds that bring something fresh just by being themselves. No fixing required.
+  #   label: Hide
+  #   item_label: Hide
