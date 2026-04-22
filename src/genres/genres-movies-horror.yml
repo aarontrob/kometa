@@ -77,13 +77,13 @@ collections:
   #     # label: horror
   #     summary: Step into the shadows and face the creatures of the night! These movies deliver spine-chilling thrills, with vampires lurking in every corner.
   #   smart_label: random
-  Nightmare Cinema:
-    template:
-      name: Genre
-      genre: Horror
-      list: movies-horror
-      summary: The stuff of nightmares projected in glorious, spine-tingling detail. These horror essentials prove that terror is an art form. Sweet dreams are highly overrated.
-    smart_label: random
+  # Nightmare Cinema:
+  #   template:
+  #     name: Genre
+  #     genre: Horror
+  #     list: movies-horror
+  #     summary: The stuff of nightmares projected in glorious, spine-tingling detail. These horror essentials prove that terror is an art form. Sweet dreams are highly overrated.
+  #   smart_label: random
   # Silent Fright:
   #   template:
   #     name: Genre [Holiday] - Trakt List

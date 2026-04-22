@@ -100,14 +100,4 @@ templates:
     label: <<label>>
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
-collections:
-  Nightmare Cinema:
-    template:
-      name: Genre
-      genre: Horror
-      list: movies-horror
-      summary: >-
-        The stuff of nightmares projected in glorious, spine-tingling detail.
-        These horror essentials prove that terror is an art form. Sweet dreams
-        are highly overrated.
-    smart_label: random
+collections: null
