@@ -58,6 +58,16 @@ templates:
     smart_label: random
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
+  'Genre [Bottom] - Trakt Lists':
+    optional:
+      - label
+      - summary
+    trakt_list: <<list>>
+    sync_mode: sync
+    label: <<label>>
+    smart_label: random
+    sort_title: '!3_Genre <<collection_name>>'
+    summary: <<summary>>
   'Genre [Holiday] - Trakt List':
     optional:
       - label
@@ -90,15 +100,4 @@ templates:
     label: <<label>>
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
-collections:
-  Naughty & Nice:
-    template:
-      name: 'Genre [Holiday] - Trakt List'
-      list: movies-nicole-christmas
-      summary: >-
-        Step into a world where every small town is dusted with snow, every
-        holiday misunderstanding leads to love, and every story feels
-        wonderfully… familiar. Cozy cottages, festive fairs, and heartwarming
-        romance await in these tales, each one just a little different but all
-        wrapped up with the same perfect Christmas bow!
-    smart_label: release.asc
+collections: null
