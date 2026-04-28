@@ -246,11 +246,11 @@ collections:
   #     name: Collection - Shows
   #     show: 59186, 67334, 74521, 232280
   #     summary: They have to SAY it. They have to DO it. You have to SEE it.
-  Indiana Jones Collection:
-    template:
-      name: Collection - Shows
-      show: 661, 248522
-      summary: Snakes! Why does it always have to be snakes?
+  # Indiana Jones Collection:
+  #   template:
+  #     name: Collection - Shows
+  #     show: 661, 248522
+  #     summary: Snakes! Why does it always have to be snakes?
   Iron Man Collection:
     template:
       name: Search
@@ -333,10 +333,10 @@ collections:
       name: Collection - Hide Show
       show: 2552
       summary: Na-No Na-No!
-  Mortal Kombat Collection:
-    template:
-      name: Collection - Hide Show
-      show: 237
+  # Mortal Kombat Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 237
   The Munsters Collection:
     template:
       name: Collection - Hide Show
