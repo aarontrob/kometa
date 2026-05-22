@@ -693,11 +693,6 @@ collections:
     template:
       name: Collection - Hide Show
       show: 4331
-  Yellowstone Collection:
-    template:
-      name: Collection - Shows
-      show: '73586, 157744, 118357'
-      summary: 'My land, my rules.'
   The X-Files Collection:
     template:
       name: Collection - Hide Show
