@@ -447,7 +447,6 @@ collections:
     template:
       name: Collection - Hide Show
       show: 10444
-      name_mapping: Shazam Collection
   # Sherlock Holmes Collection:
   #   template:
   #     name: Collection - Trakt List
