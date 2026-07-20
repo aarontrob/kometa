@@ -36,12 +36,12 @@ collections:
         - Twins of Evil
       # list: hammer-films
       summary: Hammer Film Productions Ltd. is a British film production company based in London. Founded in 1934, the company is best known for a series of Gothic horror and fantasy films made from the mid-1950s until the 1970s. Many of these involved classic horror characters such as Baron Victor Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to audiences by filming them in vivid colour for the first time.
-  Marvel:
-    template:
-      name: Studio
-      company: "7505, 19551, 420, 11106, 13252, 38679"
-      list: marvel
-      summary: "With great power comes great responsibility"
+  # Marvel:
+  #   template:
+  #     name: Studio
+  #     company: "7505, 19551, 420, 11106, 13252, 38679"
+  #     list: marvel
+  #     summary: "With great power comes great responsibility"
   Marvel Animation:
     template:
       name: Studio
