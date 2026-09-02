@@ -10,18 +10,18 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  A24:
-    template:
-      name: Studio
-      company: 41077
-      list: a24
-      summary: A24 is an American independent entertainment company founded on August 20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes in film and television production, as well as film distribution. It is based in New York City.
-  DC:
-    template:
-      name: Studio
-      company: 9993
-      list: dc
-      summary: DC Films is an American film studio that is a subsidiary of Warner Bros. through the Warner Bros. Pictures Group, dedicated to the production of films based on characters from DC Entertainment.
+  # A24:
+  #   template:
+  #     name: Studio
+  #     company: 41077
+  #     list: a24
+  #     summary: A24 is an American independent entertainment company founded on August 20, 2012, by Daniel Katz, David Fenkel, and John Hodges that specializes in film and television production, as well as film distribution. It is based in New York City.
+  # DC:
+  #   template:
+  #     name: Studio
+  #     company: 9993
+  #     list: dc
+  #     summary: DC Films is an American film studio that is a subsidiary of Warner Bros. through the Warner Bros. Pictures Group, dedicated to the production of films based on characters from DC Entertainment.
   DC Animated Originals:
     template:
       name: Studio - Trakt List
