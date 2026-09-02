@@ -87,20 +87,6 @@ collections:
         Diniverse by fans) is a shared universe of superhero-based animated
         television series, produced by Warner Bros. Animation and based on
         characters that appear in American comic books published by DC Comics.
-  Hammer Films:
-    template:
-      name: Studio - Smart
-      studio: Hammer Film Productions
-      title:
-        - 'Flesh and Blood: The Hammer Heritage of Horror'
-        - Twins of Evil
-      summary: >-
-        Hammer Film Productions Ltd. is a British film production company based
-        in London. Founded in 1934, the company is best known for a series of
-        Gothic horror and fantasy films made from the mid-1950s until the 1970s.
-        Many of these involved classic horror characters such as Baron Victor
-        Frankenstein, Count Dracula, and the Mummy, which Hammer reintroduced to
-        audiences by filming them in vivid colour for the first time.
   Marvel Animation:
     template:
       name: Studio
@@ -116,12 +102,6 @@ collections:
         Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated
         under Marvel Studios, a subsidiary of Walt Disney Studios, a division of
         The Walt Disney Company.
-  Nickelodeon:
-    template:
-      name: Studio
-      company: '4859, 5371, 2348'
-      list: nickelodeon
-      summary: 'Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick Nickelodeon'
   Sony Pictures Animation:
     template:
       name: Studio
