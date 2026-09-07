@@ -12,7 +12,7 @@ overlays:
       file: config/overlays/Marvel/overlay-v3.png
     plex_search:
       all:
-        collection: Marvel
+        label: Marvel
   Nickelodeon:
     overlay:
       name: Nickelodeon
