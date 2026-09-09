@@ -20,3 +20,28 @@ overlays:
     plex_search:
       all:
         label: Hanna-Barbera
+  Pilot-Episodes:
+    overlay:
+      name: Pilot-Episodes
+      file: config/overlays/Pilot-Episodes/overlay.png
+    plex_search:
+      all:
+        label: Pilot Episode
+  First-Season:
+    overlay:
+      name: First-Season
+      file: config/overlays/First-Season/overlay.png
+    plex_search:
+      all:
+        label: First Season
+  New-Episodes:
+    overlay:
+      name: New-Episodes
+      file: config/overlays/New-Episodes/overlay.png
+    plex_search:
+      type: shows
+      all:
+        episode_air_date: 7
+        label.not:
+          - First Season
+          - "First Impressions: Pilot Episodes Only"
