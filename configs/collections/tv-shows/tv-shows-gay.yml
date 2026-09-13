@@ -138,10 +138,4 @@ templates:
     sort_title: <<sort_title>>
     summary: <<summary>>
     tmdb_show: <<show>>
-collections:
-  RuPaul's Drag Race Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: rupaul-s-drag-race
-      summary: Don't f*ck it up!
-      name_mapping: RuPauls Drag Race Collection
+collections: null
