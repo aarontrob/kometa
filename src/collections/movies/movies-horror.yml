@@ -459,12 +459,12 @@ collections:
       name: Collection
       collection: 1267164
     label: Horror
-  Resident Evil Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: resident-evil-collection
-      summary: Evil is Only a Word. The Reality is Much Worse.
-    label: Horror
+  # Resident Evil Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: resident-evil-collection
+  #     summary: Evil is Only a Word. The Reality is Much Worse.
+  #   label: Horror
   # Return of the Living Dead Collection:
   #   template:
   #     name: Collection - Trakt List Custom Order
