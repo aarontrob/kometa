@@ -551,15 +551,6 @@ collections:
         Devlin. The franchise is based on the idea of an alien Einstein–Rosen
         bridge device (the Stargate) that enables nearly instantaneous travel
         across the cosmos.
-  Starman Collection:
-    template:
-      name: Collection - Hide Show
-      show: 5403
-      name_mapping: Starman Collection (TV)
-      summary: >-
-        He has traveled from a galaxy far beyond our own. He is 100,000 years
-        ahead of us. He has powers we cannot comprehend. And he is about to face
-        the one force in the universe he has yet to conquer. Love.
   Starsky & Hutch Collection:
     template:
       name: Collection - Hide Show
