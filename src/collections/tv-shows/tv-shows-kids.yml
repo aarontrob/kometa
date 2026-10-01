@@ -627,11 +627,11 @@ collections:
     template:
       name: Collection - Hide Show
       show: 30986
-  Spider-Man Collection:
-    template:
-      name: Search
-      title: Spider-Man, Spider-Woman
-      summary: Your Friendly Neighborhood Spider-Man
+  # Spider-Man Collection:
+  #   template:
+  #     name: Search
+  #     title: Spider-Man, Spider-Woman
+  #     summary: Your Friendly Neighborhood Spider-Man
   SpongeBob Collection:
     template:
       name: Collection - Shows
