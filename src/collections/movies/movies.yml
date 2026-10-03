@@ -724,16 +724,16 @@ collections:
       name: Collection - Hide Movie
       movie: 9384
       summary: The original partners in crime.
-  Street Fighter Collection:
-    template:
-      name: Collection - Movies
-      movie: 11667, 12613
-      summary: The ultimate battle.
-  Super Troopers Collection:
-    template:
-      name: Collection
-      collection: 449462
-      summary: You dont mess with the law. The law messes with you.
+  # Street Fighter Collection:
+  #   template:
+  #     name: Collection - Movies
+  #     movie: 11667, 12613
+  #     summary: The ultimate battle.
+  # Super Troopers Collection:
+  #   template:
+  #     name: Collection
+  #     collection: 449462
+  #     summary: You dont mess with the law. The law messes with you.
   # Superman Collection:
   #   template:
   #     name: Collection - Trakt List Custom Order
@@ -745,13 +745,13 @@ collections:
       movie: 912, 913
       sort_title: Thomas Crown Affair Collection
       summary: How do you get the man who has everything?
-  The Three Musketeers Collection:
-    template:
-      name: Collection - Movie
-      collection: 87631, 913258
-      movie: 10057, 52451, 41609
-      sort_title: Three Musketeers Collection
-      summary: All for one, and one for all!
+  # The Three Musketeers Collection:
+  #   template:
+  #     name: Collection - Movie
+  #     collection: 87631, 913258
+  #     movie: 10057, 52451, 41609
+  #     sort_title: Three Musketeers Collection
+  #     summary: All for one, and one for all!
   Three Men Collection:
     template:
       name: Collection

@@ -613,12 +613,12 @@ collections:
       name: Collection - Shows
       show: 5687, 123591
       summary: Smurf happens
-  Sonic the Hedgehog Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: sonic-the-hedgehog-collection
-      summary: Roses are red. Sonic is blue. Earth needs a hero. A hedgehog will do!
-    name_mapping: Sonic the Hedgehog Collection (TV)
+  # Sonic the Hedgehog Collection:
+  #   template:
+  #     name: Collection - Trakt List Custom Order
+  #     list: sonic-the-hedgehog-collection
+  #     summary: Roses are red. Sonic is blue. Earth needs a hero. A hedgehog will do!
+  #   name_mapping: Sonic the Hedgehog Collection (TV)
   Space Ghost Collection:
     template:
       name: Collection - Shows
@@ -651,10 +651,10 @@ collections:
     template:
       name: Collection - Shows
       show: 61175, 94280
-  Street Fighter Collection:
-    template:
-      name: Collection - Hide Show
-      show: 13655
+  # Street Fighter Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 13655
   # Superman Collection:
   #   template:
   #     name: Search
@@ -694,12 +694,12 @@ collections:
     template:
       name: Collection - Hide Show
       show: 80402
-  The Three Musketeers Collection:
-    template:
-      name: Collection - Hide Show
-      show: 31988
-      sort_title: Three Musketeers Collection
-      summary: All for one, and one for all!
+  # The Three Musketeers Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 31988
+  #     sort_title: Three Musketeers Collection
+  #     summary: All for one, and one for all!
   The Three Stooges Collection:
     template:
       name: Collection - Shows
