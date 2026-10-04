@@ -149,11 +149,6 @@ unmanaged: &ref_0
   template:
     name: Unmanaged
 collections:
-  101 Dalmatians Collection:
-    template:
-      name: Collection
-      collection: '124916, 100693, 837007'
-      summary: Crafty Cruella... chasing every spotted puppy in town.
   3 Ninjas Collection:
     template:
       name: Collection
@@ -493,11 +488,6 @@ collections:
       name: Collection - Movies
       movie: '433, 400650, 140823'
       summary: It's supercalifragilisticexpialidocious!
-  Masters of the Universe Collection:
-    template:
-      name: Collection - Trakt List
-      list: he-man-the-masters-of-the-universe-collection
-    summary: By the Power of Grayskull!
   Middle-Earth Collection:
     template:
       name: Collection - Trakt List Custom Order

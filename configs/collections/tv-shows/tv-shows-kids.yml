@@ -139,11 +139,6 @@ templates:
     summary: <<summary>>
     tmdb_show: <<show>>
 collections:
-  101 Dalmatians Collection:
-    template:
-      name: Collection - Shows
-      show: '75523, 2198'
-      summary: Crafty Cruella... chasing every spotted puppy in town.
   Abbott and Costello Collection:
     template:
       name: Collection - Hide Show
@@ -547,11 +542,6 @@ collections:
       name: Collection - Hide Show
       show: 9957
       sort_title: Mask Collection
-  Masters of the Universe Collection:
-    template:
-      name: Collection - Trakt List
-      list: masters-of-the-universe-collection
-      summary: By the Power of Grayskull!
   Men In Black Collection:
     template:
       name: Collection - Hide Show
