@@ -368,11 +368,11 @@ collections:
       name: Collection - Hide Show
       show: 4719
       summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
-  Planet of the Apes Collection:
-    template:
-      name: Collection - Hide Show
-      show: 19
-      summary: Somewhere in the Universe, there must be something better than man!
+  # Planet of the Apes Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 19
+  #     summary: Somewhere in the Universe, there must be something better than man!
   The Punisher Collection:
     template:
       name: Collection - Hide Show

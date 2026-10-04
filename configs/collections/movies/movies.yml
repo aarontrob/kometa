@@ -301,15 +301,6 @@ collections:
       name: Collection
       collection: 389767
       summary: People change. Greeks don't.
-  Ocean's Collection:
-    template:
-      name: Collection - Movie
-      collection: 304
-      movie: '402900, 299'
-      summary: >-
-        The Ocean's Collection is a star-studded film series about a group of
-        professional robbers who get together to pull off some mind-boggling
-        heists.
   Once Upon a Time Trilogy:
     template:
       name: Collection - Movies
@@ -350,16 +341,6 @@ collections:
       summary: 'Clumsy Clouseau, Brilliant Case'
     plex_search:
       title: Pink Panther
-  Planet of the Apes Collection:
-    template:
-      name: Collection - Trakt List
-      list: planet-of-the-apes-collection
-      summary: >-
-        Planet of the Apes is an American science fiction media franchise about
-        a world in which humans and intelligent apes clash for control. The
-        franchise is based on French author Pierre Boulle's 1963 novel La
-        Planète des singes, translated into English as Planet of the Apes or
-        Monkey Planet.
   Police Academy Collection:
     template:
       name: Collection

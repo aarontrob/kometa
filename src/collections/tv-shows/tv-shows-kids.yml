@@ -509,11 +509,11 @@ collections:
       tvdb_show: 82431, 71554, 368929
       sort_title: Pink Panther Collection
       summary: Clumsy Clouseau, Brilliant Case
-  Planet of the Apes Collection:
-    template:
-      name: Collection - Hide Show
-      show: 12443
-      summary: Somewhere in the Universe, there must be something better than man!
+  # Planet of the Apes Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 12443
+  #     summary: Somewhere in the Universe, there must be something better than man!
   Pokémon Collection:
     template:
       name: Search
