@@ -363,11 +363,11 @@ collections:
       show: 19033
       sort_title: Omen Collection
       summary: Who is He? What is He? Should We Fear Him? Can We Stop Him? Is He a Warning? Is He the Beginning of the End?
-  Police Academy Collection:
-    template:
-      name: Collection - Hide Show
-      show: 4719
-      summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
+  # Police Academy Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 4719
+  #     summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
   # Planet of the Apes Collection:
   #   template:
   #     name: Collection - Hide Show
@@ -396,11 +396,11 @@ collections:
     template:
       name: Collection - Hide Show
       show: 108296
-  RoboCop Collection:
-    template:
-      name: Collection - Shows
-      show: 5191, 12066
-      summary: The future of law enforcement. Part man. Part machine.
+  # RoboCop Collection:
+  #   template:
+  #     name: Collection - Shows
+  #     show: 5191, 12066
+  #     summary: The future of law enforcement. Part man. Part machine.
   Sabrina the Teenage Witch Collection:
     template:
       name: Collection - Shows

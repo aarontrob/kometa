@@ -519,11 +519,11 @@ collections:
       name: Search
       title: Pokémon
       summary: Gotta Catch ’Em All!
-  Police Academy Collection:
-    template:
-      name: Collection - Hide Show
-      show: 5645
-      summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
+  # Police Academy Collection:
+  #   template:
+  #     name: Collection - Hide Show
+  #     show: 5645
+  #     summary: The new police recruits. Call them slobs. Call them jerks. Call them gross. ...Just don't call them when you're in trouble.
   Popeye Collection:
     template:
       name: Search
@@ -558,11 +558,11 @@ collections:
       show: 1071
     plex_search:
       title: Richie Rich
-  RoboCop Collection:
-    template:
-      name: Collection - Shows
-      show: 3281, 3411
-      summary: The future of law enforcement. Part man. Part machine.
+  # RoboCop Collection:
+  #   template:
+  #     name: Collection - Shows
+  #     show: 3281, 3411
+  #     summary: The future of law enforcement. Part man. Part machine.
   Rocko's Modern Life Collection:
     template:
       name: Collection - Hide Show

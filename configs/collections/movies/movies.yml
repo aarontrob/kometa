@@ -341,19 +341,6 @@ collections:
       summary: 'Clumsy Clouseau, Brilliant Case'
     plex_search:
       title: Pink Panther
-  Police Academy Collection:
-    template:
-      name: Collection
-      collection: 9338
-      summary: >-
-        The new police recruits. Call them slobs. Call them jerks. Call them
-        gross. ...Just don't call them when you're in trouble.
-  The Poseidon Adventure Collection:
-    template:
-      name: Collection - Movie
-      collection: 372257
-      movie: '28512, 503'
-      summary: 'Hell, Upside Down'
   The Producers Collection:
     template:
       name: Collection - Movies
@@ -374,12 +361,6 @@ collections:
         - 224976
         - 1290597
       summary: Take it outside.
-  RoboCop Collection:
-    template:
-      name: Collection - Movie
-      collection: 5547
-      movie: 97020
-      summary: The future of law enforcement. Part man. Part machine.
   Rock 'n' Roll High School Collection:
     template:
       name: Collection
