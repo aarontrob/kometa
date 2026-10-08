@@ -15,22 +15,4 @@ templates:
     name_mapping: <<name_mapping>>
     sort_title: '!_First <<sort_title>>'
     summary: <<summary>>
-collections:
-  Aaron's Faves:
-    build_collection: false
-    trakt_list: 'https://trakt.tv/users/goape/lists/tv-aaron'
-    item_label: Aaron
-    sync_mode: append
-    non_item_remove_label: Aaron
-  First Season:
-    build_collection: false
-    trakt_list: 'https://trakt.tv/users/goape/lists/tv-first-season'
-    item_label: First Season
-    sync_mode: append
-    non_item_remove_label: First Season
-  Hide:
-    build_collection: false
-    trakt_list: 'https://trakt.tv/users/goape/lists/hide'
-    item_label: Hide
-    sync_mode: append
-    non_item_remove_label: Hide
+collections: null

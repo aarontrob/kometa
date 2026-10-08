@@ -102,11 +102,3 @@ collections:
         Marvel Studios with Lionsgate and Nickelodeon. Marvel Animation operated
         under Marvel Studios, a subsidiary of Walt Disney Studios, a division of
         The Walt Disney Company.
-  Sony Pictures Animation:
-    template:
-      name: Studio
-      company: 2251
-      summary: >-
-        Sony Pictures Animation Inc. is an American animation studio owned by
-        Sony Entertainment's Sony Pictures Entertainment through their Motion
-        Picture Group division and founded on May 9, 2002.

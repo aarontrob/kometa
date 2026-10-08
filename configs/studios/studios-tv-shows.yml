@@ -87,18 +87,6 @@ collections:
         Diniverse by fans) is a shared universe of superhero-based animated
         television series, produced by Warner Bros. Animation and based on
         characters that appear in American comic books published by DC Comics.
-  Disney:
-    template:
-      name: Studio
-      company: '2, 3, 6125, 3166, 3475, 670'
-      list: disney
-    plex_search:
-      title:
-        - The Wonderful World of Disney
-        - Disneyland
-    show_filtered: true
-    filters:
-      title.not: Storm of the Century
   LEGO:
     template:
       name: Studio - Search

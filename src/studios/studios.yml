@@ -56,11 +56,11 @@ collections:
   #     summary: >-
   #       Nick, Nick, Nick, Nick, Ni-, Nick, Nick, Nick
   #       Nickelodeon
-  Sony Pictures Animation:
-    template:
-      name: Studio
-      company: 2251
-      summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002.
+  # Sony Pictures Animation:
+  #   template:
+  #     name: Studio
+  #     company: 2251
+  #     summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002.
   # Walt Disney Pictures:
   #   template:
   #     name: Studio [Sort Title] - Smart

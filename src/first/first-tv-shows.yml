@@ -25,18 +25,18 @@ collections:
   #       any:
   #         label: Aaron
   # visible_home: true
-  "First Impressions: Pilot Episodes Only":
-    template:
-      name: First [Sort Title] - Custom
-      sort_title: "!6First Impressions: Pilot Episodes Only"
-      # list: tv-pilot-episode
-      summary: Start your journey with these pilot episodes, setting the stage for stories you can dive into if they spark your interest.
-    tmdb_list: 8576763
-    name_mapping: First Impressions- Pilot Episodes Only
-    smart_label: release.desc
-    item_label: Pilot Episode
-    sync_mode: append
-    non_item_remove_label: Pilot Episode
+  # "First Impressions: Pilot Episodes Only":
+  #   template:
+  #     name: First [Sort Title] - Custom
+  #     sort_title: "!6First Impressions: Pilot Episodes Only"
+  #     # list: tv-pilot-episode
+  #     summary: Start your journey with these pilot episodes, setting the stage for stories you can dive into if they spark your interest.
+  #   tmdb_list: 8576763
+  #   name_mapping: First Impressions- Pilot Episodes Only
+  #   smart_label: release.desc
+  #   item_label: Pilot Episode
+  #   sync_mode: append
+  #   non_item_remove_label: Pilot Episode
   # Just Released:
   #   template:
   #     name: First [Sort Title] - Custom
@@ -118,9 +118,9 @@ collections:
   #   item_label: First Season
   #   sync_mode: append
   #   non_item_remove_label: First Season
-  Hide:
-    build_collection: false
-    trakt_list: https://trakt.tv/users/goape/lists/hide
-    item_label: Hide
-    sync_mode: append
-    non_item_remove_label: Hide
+  # Hide:
+  #   build_collection: false
+  #   trakt_list: https://trakt.tv/users/goape/lists/hide
+  #   item_label: Hide
+  #   sync_mode: append
+  #   non_item_remove_label: Hide

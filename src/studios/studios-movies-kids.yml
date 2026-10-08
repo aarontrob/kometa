@@ -19,11 +19,11 @@ collections:
   # show_filtered: true
   # filters:
   #   collection.not: Disney Shorts
-  Disney Channel Original Movies:
-    template:
-      name: Studio - Trakt List
-      list: disney-channel-original-movies
-      summary: Disney Channel Original Movies or DCOM (formerly a "Zoog Disney Channel Movie") is any movie that is produced under the Disney Channel canon. They have been made at a rate of at once a year since 1999.
+  # Disney Channel Original Movies:
+  #   template:
+  #     name: Studio - Trakt List
+  #     list: disney-channel-original-movies
+  #     summary: Disney Channel Original Movies or DCOM (formerly a "Zoog Disney Channel Movie") is any movie that is produced under the Disney Channel canon. They have been made at a rate of at once a year since 1999.
   Disney Shorts:
     template:
       name: Studio - Trakt List
