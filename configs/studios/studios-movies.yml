@@ -111,11 +111,3 @@ collections:
         scenes of falling snow would be projected over the action to create the
         effect of a snowfall.
     name_mapping: RankinBass Christmas Classics
-  Universal Monsters:
-    template:
-      name: Studio - Trakt List
-      list: universal-monsters
-      summary: >-
-        Universal Monsters is a media franchise based on a series of horror
-        films primarily produced by Universal Pictures from the 1930s to the
-        1950s.

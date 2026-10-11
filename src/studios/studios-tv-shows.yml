@@ -39,11 +39,11 @@ collections:
   #   show_filtered: true
   #   filters:
   #     title.not: Storm of the Century
-  LEGO:
-    template:
-      name: Studio - Search
-      title: LEGO, Lego
-      summary: The bane of your foot's existence.
+  # LEGO:
+  #   template:
+  #     name: Studio - Search
+  #     title: LEGO, Lego
+  #     summary: The bane of your foot's existence.
   # Marvel Cinematic Universe:
   #   template:
   #     name: Studio - Trakt List

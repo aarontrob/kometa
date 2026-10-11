@@ -87,8 +87,3 @@ collections:
         Diniverse by fans) is a shared universe of superhero-based animated
         television series, produced by Warner Bros. Animation and based on
         characters that appear in American comic books published by DC Comics.
-  LEGO:
-    template:
-      name: Studio - Search
-      title: 'LEGO, Lego'
-      summary: The bane of your foot's existence.
