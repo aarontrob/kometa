@@ -1,32 +1,32 @@
 overlays:
-  DC:
-    overlay:
-      name: DC
-      file: config/overlays/DC/dc-overlay-v2025.png
-    plex_search:
-      all:
-        label: DC
-  Marvel:
-    overlay:
-      name: Marvel
-      file: config/overlays/Marvel/overlay-v3.png
-    plex_search:
-      all:
-        label: Marvel
-  Nickelodeon:
-    overlay:
-      name: Nickelodeon
-      file: config/overlays/Nickelodeon/overlay-v3.png
-    plex_search:
-      all:
-        label: Nickelodeon
-  Peanuts:
-    overlay:
-      name: Peanuts
-      file: config/overlays/Peanuts/overlay-v3.png
-    plex_search:
-      all:
-        collection: Peanuts Collection
+  # DC:
+  #   overlay:
+  #     name: DC
+  #     file: config/overlays/DC/dc-overlay-v2025.png
+  #   plex_search:
+  #     all:
+  #       label: DC
+  # Marvel:
+  #   overlay:
+  #     name: Marvel
+  #     file: config/overlays/Marvel/overlay-v3.png
+  #   plex_search:
+  #     all:
+  #       label: Marvel
+  # Nickelodeon:
+  #   overlay:
+  #     name: Nickelodeon
+  #     file: config/overlays/Nickelodeon/overlay-v3.png
+  #   plex_search:
+  #     all:
+  #       label: Nickelodeon
+  # Peanuts:
+  #   overlay:
+  #     name: Peanuts
+  #     file: config/overlays/Peanuts/overlay-v3.png
+  #   plex_search:
+  #     all:
+  #       collection: Peanuts Collection
   # RT-Fresh:
   #   # schedule: weekly(sunday)
   #   overlay:
@@ -35,11 +35,11 @@ overlays:
   #   plex_search:
   #     all:
   #       collection: Certified Fresh
-  Viral Views:
-    # schedule: weekly(sunday)
-    overlay:
-      name: Viral Views
-      file: config/overlays/Viral Views/overlay.png
-    plex_search:
-      all:
-        label: Viral Views
+  # Viral Views:
+  #   # schedule: weekly(sunday)
+  #   overlay:
+  #     name: Viral Views
+  #     file: config/overlays/Viral Views/overlay.png
+  #   plex_search:
+  #     all:
+  #       label: Viral Views

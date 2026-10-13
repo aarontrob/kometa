@@ -10,14 +10,14 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Aaron:
-    template:
-      name: Profiles - Trakt List
-      list: tv-aaron
-    plex_search:
-      title: Wet Hot American Summer
-    user_rating: 10.0
-    build_collection: false
+  # Aaron:
+  #   template:
+  #     name: Profiles - Trakt List
+  #     list: tv-aaron
+  #   plex_search:
+  #     title: Wet Hot American Summer
+  #   user_rating: 10.0
+  #   build_collection: false
   # Tom:
   #   template:
   #     name: Profiles - Trakt List

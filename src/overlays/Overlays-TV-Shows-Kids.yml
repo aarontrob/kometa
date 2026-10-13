@@ -1,47 +1,47 @@
 overlays:
-  Cartoon-Network:
-    overlay:
-      name: Cartoon-Network
-      file: config/overlays/Cartoon-Network/overlay.png
-    plex_search:
-      all:
-        label: Cartoon Network
-  Disney-Channel:
-    overlay:
-      name: Disney-Channel
-      file: config/overlays/Disney-Channel/overlay-v2.png
-    plex_search:
-      all:
-        label: Disney Channel
-  Hanna-Barbera:
-    overlay:
-      name: Hannah-Barbera
-      file: config/overlays/Hanna-Barbera/overlay-v4.png
-    plex_search:
-      all:
-        label: Hanna-Barbera
-  Pilot-Episodes:
-    overlay:
-      name: Pilot-Episodes
-      file: config/overlays/Pilot-Episodes/overlay.png
-    plex_search:
-      all:
-        label: Pilot Episode
-  First-Season:
-    overlay:
-      name: First-Season
-      file: config/overlays/First-Season/overlay.png
-    plex_search:
-      all:
-        label: First Season
-  New-Episodes:
-    overlay:
-      name: New-Episodes
-      file: config/overlays/New-Episodes/overlay.png
-    plex_search:
-      type: shows
-      all:
-        episode_air_date: 7
-        label.not:
-          - First Season
-          - "First Impressions: Pilot Episodes Only"
+  # Cartoon-Network:
+  #   overlay:
+  #     name: Cartoon-Network
+  #     file: config/overlays/Cartoon-Network/overlay.png
+  #   plex_search:
+  #     all:
+  #       label: Cartoon Network
+  # Disney-Channel:
+  #   overlay:
+  #     name: Disney-Channel
+  #     file: config/overlays/Disney-Channel/overlay-v2.png
+  #   plex_search:
+  #     all:
+  #       label: Disney Channel
+  # Hanna-Barbera:
+  #   overlay:
+  #     name: Hannah-Barbera
+  #     file: config/overlays/Hanna-Barbera/overlay-v4.png
+  #   plex_search:
+  #     all:
+  #       label: Hanna-Barbera
+  # Pilot-Episodes:
+  #   overlay:
+  #     name: Pilot-Episodes
+  #     file: config/overlays/Pilot-Episodes/overlay.png
+  #   plex_search:
+  #     all:
+  #       label: Pilot Episode
+  # First-Season:
+  #   overlay:
+  #     name: First-Season
+  #     file: config/overlays/First-Season/overlay.png
+  #   plex_search:
+  #     all:
+  #       label: First Season
+  # New-Episodes:
+  #   overlay:
+  #     name: New-Episodes
+  #     file: config/overlays/New-Episodes/overlay.png
+  #   plex_search:
+  #     type: shows
+  #     all:
+  #       episode_air_date: 7
+  #       label.not:
+  #         - First Season
+  #         - "First Impressions: Pilot Episodes Only"

@@ -4,13 +4,4 @@ templates:
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
-    sort_title: '!2_Profile <<collection_name>>'
-    smart_label: title.asc
-    label: Profile_<<collection_name>>
-    summary: <<summary>>
-collections:
-  Aaron:
-    template:
-      name: Profiles - Trakt List
-      list: movies-aaron
-      summary: Movies for Aaron
+collections: null

@@ -1,20 +1,20 @@
 overlays:
-  blur:
-    overlay:
-      name: blur(100)
-    builder_level: episode
-    plex_search:
-      all:
-        episode_unplayed: true
-        any:
-          title.is:
-            - Australian Survivor
-            - Survivor
-            - Survivor (UK) (2023)
-            - Big Brother (US)
-            - Big Brother (2023)
-            - Big Brother Canada
-            - Big Brother (AU)
-            - Celebrity Big Brother (US)
-            - Celebrity Big Brother
-            - Celebrity Big Brother (2024)
+  # blur:
+  #   overlay:
+  #     name: blur(100)
+  #   builder_level: episode
+  #   plex_search:
+  #     all:
+  #       episode_unplayed: true
+  #       any:
+  #         title.is:
+  #           - Australian Survivor
+  #           - Survivor
+  #           - Survivor (UK) (2023)
+  #           - Big Brother (US)
+  #           - Big Brother (2023)
+  #           - Big Brother Canada
+  #           - Big Brother (AU)
+  #           - Celebrity Big Brother (US)
+  #           - Celebrity Big Brother
+  #           - Celebrity Big Brother (2024)

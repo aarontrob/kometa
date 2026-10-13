@@ -10,8 +10,8 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  Aaron:
-    template:
-      name: Profiles - Trakt List
-      list: movies-aaron
-      summary: Movies for Aaron
+  # Aaron:
+  #   template:
+  #     name: Profiles - Trakt List
+  #     list: movies-aaron
+  #     summary: Movies for Aaron
