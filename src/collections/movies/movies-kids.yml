@@ -411,12 +411,12 @@ collections:
       collection: https://www.themoviedb.org/collection/85943-night-at-the-museum-collection
       movie: 751741
       summary: When the lights go off, it's on.
-  Parent Trap Collection:
-    template:
-      name: Collection - Movie
-      collection: 216395
-      movie: 9820
-      summary: Two identical twin sisters, separated at birth by their parents' divorce, are reunited years later at a summer camp, where they scheme to bring their parents back together. The girls, one of whom has been living with their mother and the other with their father, switch places after camp and go to work on their plan, the first objective being to scare off a gold-digger pursuing their father.
+  # Parent Trap Collection:
+  #   template:
+  #     name: Collection - Movie
+  #     collection: 216395
+  #     movie: 9820
+  #     summary: Two identical twin sisters, separated at birth by their parents' divorce, are reunited years later at a summer camp, where they scheme to bring their parents back together. The girls, one of whom has been living with their mother and the other with their father, switch places after camp and go to work on their plan, the first objective being to scare off a gold-digger pursuing their father.
   Peanuts Collection:
     template:
       name: Collection - Trakt List

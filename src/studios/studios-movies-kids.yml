@@ -24,28 +24,28 @@ collections:
   #     name: Studio - Trakt List
   #     list: disney-channel-original-movies
   #     summary: Disney Channel Original Movies or DCOM (formerly a "Zoog Disney Channel Movie") is any movie that is produced under the Disney Channel canon. They have been made at a rate of at once a year since 1999.
-  Disney Shorts:
-    template:
-      name: Studio - Trakt List
-      list: disney-animated-shorts
-      summary: "It was all started with a mouse"
-  DreamWorks Animation:
-    template:
-      name: Studio
-      company: 521
-      summary: DreamWorks Animation is an American animation studio that produces animated films and television programs and is a subsidiary of Universal Pictures.
+  # Disney Shorts:
+  #   template:
+  #     name: Studio - Trakt List
+  #     list: disney-animated-shorts
+  #     summary: "It was all started with a mouse"
+  # DreamWorks Animation:
+  #   template:
+  #     name: Studio
+  #     company: 521
+  #     summary: DreamWorks Animation is an American animation studio that produces animated films and television programs and is a subsidiary of Universal Pictures.
   # Hanna-Barbera:
   #   template:
   #     name: Studio
   #     company: 1353
   #     list: hanna-barbera
   #     summary: Hanna-Barbera Productions, Inc. also variously known as H-B Enterprises, H-B Production Co., and Hanna-Barbera Cartoons, Inc., was an American animation studio and production company founded in 1957 by Tom and Jerry creators and former Metro-Goldwyn-Mayer animation directors William Hanna and Joseph Barbera and dominated television with a variety of animated series, including The Huckleberry Hound Show, The Flintstones, The Yogi Bear Show, The Jetsons, Wacky Races, Scooby-Doo, Where Are You! and The Smurfs
-  Laika:
-    template:
-      name: Studio
-      company: 11537
-      tmdb_movie:
-      summary: LAIKA tells original, enduring stories with bold vision and unmatched artistry — inspiring generations of audiences around the globe one frame at a time.
+  # Laika:
+  #   template:
+  #     name: Studio
+  #     company: 11537
+  #     tmdb_movie:
+  #     summary: LAIKA tells original, enduring stories with bold vision and unmatched artistry — inspiring generations of audiences around the globe one frame at a time.
   # LEGO:
   #   template:
   #     name: Studio - Search
@@ -56,21 +56,21 @@ collections:
   #     name: Studio - Trakt List
   #     list: pixar-animation-studios
   #     summary: Pixar Animation Studios is an American computer animation studio known for its critically and commercially successful feature films. It is based in Emeryville, California, and is a subsidiary of Walt Disney Studios owned by The Walt Disney Company.
-  Pixar Short Films:
-    template:
-      name: Studio - Trakt List
-      list: pixar-shorts
-      summary: Beginning with Pixar's second film A Bug's Life, almost all subsequent Pixar feature films have been shown in theaters along with a Pixar-created original short film, known as a "short." Other Pixar shorts, released only on home media, were created to showcase Pixar's technology or cinematic capabilities, or on commission for clients.
-    collection_mode: hide_items
-  Walt Disney Animation Studios:
-    template:
-      name: Studio [Sort Title] - Trakt List
-      list: walt-disney-animation-studios
-      sort_title: Disney Animation Studios
-      summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
-  Walt Disney's Silly Symphony:
-    template:
-      name: Studio [Sort Title] - Trakt List
-      list: walt-disney-s-silly-symphony-shorts-25926134
-      sort_title: Disney's Silly Symphony
-      summary: Silly Symphony is an American animated series of 75 musical short films produced by Walt Disney Productions from 1929 to 1939. As the series name implies, the Silly Symphonies were originally intended as whimsical accompaniments to pieces of music.
+  # Pixar Short Films:
+  #   template:
+  #     name: Studio - Trakt List
+  #     list: pixar-shorts
+  #     summary: Beginning with Pixar's second film A Bug's Life, almost all subsequent Pixar feature films have been shown in theaters along with a Pixar-created original short film, known as a "short." Other Pixar shorts, released only on home media, were created to showcase Pixar's technology or cinematic capabilities, or on commission for clients.
+  #   collection_mode: hide_items
+  # Walt Disney Animation Studios:
+  #   template:
+  #     name: Studio [Sort Title] - Trakt List
+  #     list: walt-disney-animation-studios
+  #     sort_title: Disney Animation Studios
+  #     summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
+  # Walt Disney's Silly Symphony:
+  #   template:
+  #     name: Studio [Sort Title] - Trakt List
+  #     list: walt-disney-s-silly-symphony-shorts-25926134
+  #     sort_title: Disney's Silly Symphony
+  #     summary: Silly Symphony is an American animated series of 75 musical short films produced by Walt Disney Productions from 1929 to 1939. As the series name implies, the Silly Symphonies were originally intended as whimsical accompaniments to pieces of music.

@@ -16,16 +16,16 @@ collections:
   #     # company: 2, 3, 6125, 3166
   #     list: disney-25927893
   #     summary: "It was all started with a mouse"
-  Disneynature:
-    template:
-      name: Studio
-      company: 4436
-      summary: Disneynature is an independent film studio that specializes in the production of nature documentary films for The Walt Disney Studios. The production company was founded on April 21, 2008, and is headquartered in Paris, France.
-  DCEU:
-    template:
-      name: Studio - Trakt List
-      list: dceu
-      summary: The DC Extended Universe is an American media franchise and shared universe centered on a series of superhero films based on characters that appear in American comic books by DC Comics, produced by DC Films and distributed by Warner Bros. Pictures.
+  # Disneynature:
+  #   template:
+  #     name: Studio
+  #     company: 4436
+  #     summary: Disneynature is an independent film studio that specializes in the production of nature documentary films for The Walt Disney Studios. The production company was founded on April 21, 2008, and is headquartered in Paris, France.
+  # DCEU:
+  #   template:
+  #     name: Studio - Trakt List
+  #     list: dceu
+  #     summary: The DC Extended Universe is an American media franchise and shared universe centered on a series of superhero films based on characters that appear in American comic books by DC Comics, produced by DC Films and distributed by Warner Bros. Pictures.
   # Rankin/Bass Christmas Classics:
   #   template:
   #     name: Studio - Trakt List
