@@ -10,7 +10,7 @@ templates: !!import/shallow
 ######################################################
 
 collections:
-  History:
-    template:
-      name: Network
-      network: 65, 849
+  # History:
+  #   template:
+  #     name: Network
+  #     network: 65, 849

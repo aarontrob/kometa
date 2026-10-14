@@ -22,8 +22,4 @@ templates:
     smart_label: year.asc
     sort_title: '!5.5_Network: <<sort_title>>'
     summary: <<summary>>
-collections:
-  History:
-    template:
-      name: Network
-      network: '65, 849'
+collections: null
