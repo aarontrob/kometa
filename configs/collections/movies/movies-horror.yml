@@ -715,12 +715,6 @@ collections:
       name: Collection
       collection: 1162328
     label: Horror
-  Texas Chainsaw Massacre Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: the-texas-chainsaw-massacre-collection
-      summary: Who will survive and what will be left of them?
-    label: Horror
   Thanksgiving Collection:
     template:
       name: Collection
