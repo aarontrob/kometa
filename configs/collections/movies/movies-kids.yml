@@ -503,11 +503,6 @@ collections:
         are set entirely in Middle-earth. "Middle-earth" has also become a
         short-hand term for Tolkien's legendarium, his large body of fantasy
         writings, and for the entirety of his fictional world.
-  Minions Collection:
-    template:
-      name: Collection - Trakt List Custom Order
-      list: minions-collection
-      summary: Uh oh.
   'Monsters, Inc. Collection':
     template:
       name: Collection - Trakt List Custom Order
