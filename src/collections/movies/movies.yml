@@ -990,7 +990,7 @@ collections:
   Miss Congeniality Collection: *unmanaged
   "Mission: Impossible Collection": *unmanaged
   Moon Collection: *unmanaged
-  Murder Mystery Collection: *unmanaged
+  # Murder Mystery Collection: *unmanaged
   The Musketeers Collection: *unmanaged
   National Lampoon's Vacation Collection: *unmanaged
   National Lampoon's Van Wilder Collection: *unmanaged
@@ -1070,7 +1070,7 @@ collections:
   Wayne's World Collection: *unmanaged
   Weekend at Bernie's Collection: *unmanaged
   Westworld Collection: *unmanaged
-  Wild Things Collection: *unmanaged
+  # Wild Things Collection: *unmanaged
   The Wolverine Collection: *unmanaged
   Wonder Woman Collection: *unmanaged
   Young Guns Collection: *unmanaged
