@@ -100,12 +100,4 @@ templates:
     label: <<label>>
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
-collections:
-  Musical:
-    template:
-      name: Genre - Trakt List
-      list: movies-musicals
-      summary: >-
-        Sing, dance, and clap along! These toe-tappin' tales are packed with
-        catchy tunes, big dance numbers, and colorful adventures that'll have
-        you humming all day long. It's showtime, so get ready for fun!
+collections: null
