@@ -36,12 +36,12 @@ collections:
   #     summary: Stories where different wiring makes life more interesting, not broken. When everyday experiences hit different and social scripts need constant rewrites, these titles showcase minds that bring something fresh just by being themselves. No fixing required.
   #   label: Hide
   #   item_label: Hide
-  Christmas Episodes:
-    template:
-      name: Genre [Holiday] - Trakt List Episodes
-      list: tv-christmas-episodes
-      name_mapping: Christmas Episodes [TV Shows]
-      summary:
+  # Christmas Episodes:
+  #   template:
+  #     name: Genre [Holiday] - Trakt List Episodes
+  #     list: tv-christmas-episodes
+  #     name_mapping: Christmas Episodes [TV Shows]
+  #     summary:
   # Trick-or-Treat:
   #   template:
   #     name: Genre [Holiday] - Trakt List

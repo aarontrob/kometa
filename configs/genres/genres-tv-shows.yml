@@ -101,12 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Christmas Episodes:
-    template:
-      name: 'Genre [Holiday] - Trakt List Episodes'
-      list: tv-christmas-episodes
-      name_mapping: 'Christmas Episodes [TV Shows]'
-      summary: null
   Halloween Episodes:
     template:
       name: 'Genre [Holiday] - Trakt List Episodes'
