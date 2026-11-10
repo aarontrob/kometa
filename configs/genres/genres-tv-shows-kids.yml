@@ -35,7 +35,7 @@ templates:
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
     sync_mode: sync
     label: <<label>>
-    smart_label: release.asc
+    smart_label: random
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   Genre - Trakt List Other:
@@ -45,7 +45,7 @@ templates:
     trakt_list: <<list>>
     sync_mode: sync
     label: <<label>>
-    smart_label: release.asc
+    smart_label: random
     sort_title: '!3_Genre <<collection_name>>'
     summary: <<summary>>
   'Genre [Bottom] - Trakt List':
@@ -53,6 +53,16 @@ templates:
       - label
       - summary
     trakt_list: 'https://trakt.tv/users/goape/lists/<<list>>'
+    sync_mode: sync
+    label: <<label>>
+    smart_label: random
+    sort_title: '!3_Genre <<collection_name>>'
+    summary: <<summary>>
+  'Genre [Bottom] - Trakt Lists':
+    optional:
+      - label
+      - summary
+    trakt_list: <<list>>
     sync_mode: sync
     label: <<label>>
     smart_label: random
@@ -91,11 +101,6 @@ templates:
     sort_title: '!3_Genre_Holiday <<collection_name>>'
     summary: <<summary>>
 collections:
-  Christmas Episodes:
-    template:
-      name: 'Genre [Holiday] - Trakt List Episodes'
-      list: tv-christmas-episodes
-      name_mapping: 'Christmas Episodes [TV Shows - Kids]'
   Halloween Episodes:
     template:
       name: 'Genre [Holiday] - Trakt List Episodes'
