@@ -47,14 +47,14 @@ collections:
   #     name: Genre [Holiday] - Trakt List
   #     list: tv-halloween
   #     summary:
-  Halloween Episodes:
-    template:
-      name: Genre [Holiday] - Trakt List Episodes
-      list: tv-halloween-episodes
-  Turkey Time Episodes:
-    template:
-      name: Genre [Holiday] - Trakt List Episodes
-      list: tv-thanksgiving-episodes
+  # Halloween Episodes:
+  #   template:
+  #     name: Genre [Holiday] - Trakt List Episodes
+  #     list: tv-halloween-episodes
+  # Turkey Time Episodes:
+  #   template:
+  #     name: Genre [Holiday] - Trakt List Episodes
+  #     list: tv-thanksgiving-episodes
   # Valentine's Day Episodes:
   #   template:
   #     name: Genre [Holiday] - Trakt List Episodes
