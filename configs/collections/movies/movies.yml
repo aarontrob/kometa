@@ -399,14 +399,6 @@ collections:
         observation, deduction, forensic science, and logical reasoning that
         borders on the fantastic, which he employs when investigating cases for
         a wide variety of clients, including Scotland Yard.
-  Showgirls Collection:
-    template:
-      name: Collection - Movie
-      collection: 247294
-      movie: 592997
-      summary: >-
-        There's always someone younger and hungrier coming down the stairs after
-        you.
   Sinbad Collection:
     template:
       name: Collection

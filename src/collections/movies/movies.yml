@@ -678,12 +678,12 @@ collections:
       list: sherlock-holmes-collection
       summary: >-
         Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle. Referring to himself as a "consulting detective" in the stories, Holmes is known for his proficiency with observation, deduction, forensic science, and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard.
-  Showgirls Collection:
-    template:
-      name: Collection - Movie
-      collection: 247294
-      movie: 592997
-      summary: There's always someone younger and hungrier coming down the stairs after you.
+  # Showgirls Collection:
+  #   template:
+  #     name: Collection - Movie
+  #     collection: 247294
+  #     movie: 592997
+  #     summary: There's always someone younger and hungrier coming down the stairs after you.
   Sinbad Collection:
     template:
       name: Collection
